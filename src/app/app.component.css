@@ -15,3 +15,7 @@
 .title {
   margin: 0 auto;
 }
+
+md-toolbar {
+  margin-bottom: 8px;
+}
