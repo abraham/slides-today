@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  flex: 1 1 auto;
+  margin: 8px;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.title {
+  margin: 0 auto;
+}
