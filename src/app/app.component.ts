@@ -4,7 +4,7 @@ import { DeckService } from './deck.service';
 import { OnInit } from '@angular/core';
 import { MediaChange } from '@angular/flex-layout';
 import { ObservableMedia } from '@angular/flex-layout';
-import { MDCToolbar } from '@material/toolbar';
+import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
 
 @Component({
   selector: 'app-root',
