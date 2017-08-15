@@ -3,11 +3,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { DeckComponent } from './deck/deck.component';
 import { NgModule } from '@angular/core';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DeckComponent
+    DeckComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,

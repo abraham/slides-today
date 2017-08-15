@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Deck } from '../deck';
 
 @Component({
-  selector: 'deck-card',
+  selector: 'app-deck',
   templateUrl: './deck.component.html',
   styleUrls: ['./deck.component.css']
 })
