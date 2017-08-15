@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { DeckComponent } from './deck/deck.component';
 import { NgModule } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
-import { MdChipsModule } from '@angular/material';
 import { TagsComponent } from './tags/tags.component';
 
 @NgModule({
@@ -16,8 +15,7 @@ import { TagsComponent } from './tags/tags.component';
   ],
   imports: [
     BrowserAnimationsModule,
-    BrowserModule,
-    MdChipsModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

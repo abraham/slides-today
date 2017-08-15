@@ -1,25 +1,23 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-
-.web-components.mat-chip {
+.web-components.md-chip {
   background-color: #166DA5;
   color: #fff;
 }
 
-.progressive-web-apps.mat-chip {
+.progressive-web-apps.md-chip {
   background-color: #8BC34A;
 }
 
-.polymer.mat-chip {
+.polymer.md-chip {
   background-color: #1e88e5;
   color: #fff;
 }
 
-.twitter-api.mat-chip {
+.twitter-api.md-chip {
   background-color: #1da1f2;
   color: #fff;
 }
 
-.php.mat-chip {
+.php.md-chip {
   background-color: #8892be;
   color: #fff;
 }
