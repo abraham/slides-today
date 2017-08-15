@@ -2,6 +2,24 @@ import { Deck } from './deck';
 
 export const DECKS: Deck[] = [
   {
+    title: 'Leverage the power of native with Progressive Web Apps',
+    url: 'https://docs.google.com/presentation/d/1TybgcgjmAFB8AHTOQzBMrKOc4XAma-HFEvdWqdXUOQc/edit?usp=sharing',
+    date: 'August 22nd, 2017',
+    description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
+    eventTitle: 'Midwest JS',
+    eventUrl: 'http://www.midwestjs.com/',
+    tags: ['progressive-web-apps']
+  },
+  {
+    title: 'Web Components: Lego Bricks of the Web',
+    url: 'https://docs.google.com/presentation/d/1TXePoX459CGL8EEPYiAoLLdF092ev4f-GW0FK8Ftn6o/edit?usp=sharing',
+    date: 'August 17th, 2017',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
+    eventTitle: 'Midwest JS',
+    eventUrl: 'http://www.midwestjs.com/',
+    tags: ['web-components', 'polymer']
+  },
+  {
     title: 'Web Components: Lego Bricks of the Web',
     url: 'https://docs.google.com/presentation/d/1wgFQACcTgft_lVSgFsduMLznG-iCM4NFF4bC6ZNYR6M/edit?usp=sharing',
     date: 'August 8th, 2017',
