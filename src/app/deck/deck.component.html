@@ -4,6 +4,9 @@
     <h1 class="mdc-card__title mdc-card__title--large">{{deck.title}}</h1>
   </section>
   <section class="mdc-card__supporting-text">
+    <app-tags [tags]="deck.tags"></app-tags>
+  </section>
+  <section class="mdc-card__supporting-text">
     {{deck.description}}
   </section>
   <section class="mdc-card__media" [style.backgroundImage]="'url('+ mapUrl() +')'"></section>

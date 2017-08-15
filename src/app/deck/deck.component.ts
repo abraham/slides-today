@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
+import { NgClass } from '@angular/common';
 import { Deck } from '../deck';
+import { MdChipsModule } from '@angular/material';
 
 @Component({
   selector: 'app-deck',
