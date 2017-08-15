@@ -1,13 +1,13 @@
-<md-card class="deck-card">
-  <md-card-header>
-    <md-card-title>{{deck.title}}</md-card-title>
-    <md-card-subtitle>{{deck.eventTitle}} - {{deck.date}}</md-card-subtitle>
-  </md-card-header>
-  <md-card-content>
-    <p>{{deck.description}}</p>
-  </md-card-content>
-  <md-card-actions>
-    <button md-button (click)="open(deck.url)">SLIDES</button>
-    <button md-button (click)="open(deck.eventUrl)">EVENT</button>
-  </md-card-actions>
-</md-card>
+<div class="mdc-card">
+  <section class="mdc-card__primary">
+    <h1 class="mdc-card__title">{{deck.title}}</h1>
+    <h2 class="mdc-card__subtitle">{{deck.eventTitle}} - {{deck.date}}</h2>
+  </section>
+  <section class="mdc-card__supporting-text">
+    {{deck.description}}
+  </section>
+  <section class="mdc-card__actions">
+    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.url)">SLIDES</button>
+    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.eventUrl)">EVENT</button>
+  </section>
+</div>
