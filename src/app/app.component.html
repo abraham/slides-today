@@ -1,7 +1,16 @@
-<md-toolbar color="primary">
-  <span class="title">{{title}}</span>
-</md-toolbar>
+<header class="mdc-toolbar
+               mdc-toolbar--fixed
+               mdc-toolbar--waterfall
+               mdc-toolbar--flexible
+               mdc-toolbar--flexible-default-behavior
+               mdc-toolbar--flexible-space-maximized">
+  <div class="mdc-toolbar__row">
+    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+      <span class="mdc-toolbar__title">{{title}}</span>
+    </section>
+  </div>
+</header>
 
-<div class='content'>
+<main class='content mdc-toolbar-fixed-adjust'>
   <deck-card *ngFor="let deck of decks" [deck]="deck" class="box"></deck-card>
-</div>
+</main>

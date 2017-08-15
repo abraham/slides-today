@@ -4,6 +4,7 @@ import { DeckService } from './deck.service';
 import { OnInit } from '@angular/core';
 import { MediaChange } from '@angular/flex-layout';
 import { ObservableMedia } from '@angular/flex-layout';
+import { MDCToolbar } from '@material/toolbar';
 
 @Component({
   selector: 'app-root',
@@ -15,11 +16,18 @@ import { ObservableMedia } from '@angular/flex-layout';
 export class AppComponent implements OnInit {
   constructor(private deckService: DeckService) { }
 
-  title = 'Slides Today';
+  title = 'Slides.today';
   decks: Deck[];
+  toolbar: MDCToolbar;
 
   ngOnInit(): void {
+    this.initToolbar();
     this.getDecks();
+  }
+
+  initToolbar(): void {
+    this.toolbar = new MDCToolbar(document.querySelector('.mdc-toolbar'));
+    this.toolbar.fixedAdjustElement = document.querySelector('.mdc-toolbar-fixed-adjust');
   }
 
   getDecks(): void {

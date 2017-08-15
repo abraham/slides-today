@@ -12,10 +12,10 @@
   max-width: 400px;
 }
 
-.title {
-  margin: 0 auto;
+header {
+  margin-bottom: 16px;
 }
 
-md-toolbar {
-  margin-bottom: 8px;
+main {
+  padding-top: 8px;
 }
