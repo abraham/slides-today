@@ -10,11 +10,19 @@ import { Deck } from '../deck';
 export class DeckComponent {
   @Input() deck: Deck;
 
+  private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
+  private size = '450x250';
+  private zoom = '9';
+
+  private center(): string {
+    return encodeURIComponent(this.deck.location);
+  }
+
   open(url: string): void {
     window.open(url);
   }
 
   mapUrl(): string {
-    return `https://maps.googleapis.com/maps/api/staticmap?zoom=9&size=450x250&center=${encodeURIComponent(this.deck.location)}`;
+    return `https://maps.googleapis.com/maps/api/staticmap?zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 }
