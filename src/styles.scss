@@ -1,0 +1,9 @@
+$mdc-theme-primary: #FF9800;
+$mdc-theme-secondary: #9C27B0;
+$mdc-theme-background: #fff;
+
+@import "~@material/theme/mdc-theme";
+
+body {
+  margin: 0;
+}
