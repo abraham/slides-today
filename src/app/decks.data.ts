@@ -70,15 +70,155 @@ export const DECKS: Deck[] = [
     eventUrl: 'https://www.codercruise.com/',
     tags: ['web-components', 'polymer'],
     location: 'Montego Bay, Jamaica'
+  },
+  {
+    title: 'Leverage the power of native with Progressive Web Apps',
+    url: 'https://docs.google.com/presentation/d/14FhXTP0Kx0Uli5YTzQcIWVUqKI7_-U_vr8NSZEo0rJA/edit?usp=sharing',
+    date: 'July 10th, 2017',
+    description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.  ',
+    eventTitle: 'MadJS',
+    eventUrl: 'https://www.meetup.com/MadisonJS/events/238952227/',
+    tags: ['progressive-web-apps'],
+    location: 'Madison, WI'
+  },
+  {
+    title: 'Google I/O Recap',
+    url: 'https://docs.google.com/presentation/d/1J2VBd_msTRcZGuNk_Pj2i4SZEVXM_-hbsFW_kXxa_KE/edit?usp=sharing',
+    date: 'June 15th, 2017',
+    description: 'Experience highlights from the May 2017 Google I/O developer festival. Every spring, Google invites thousands of developers to a three-day festival where Google engineers and product managers teach technical skills, share insights, and announce new developer products. Abraham and Pearl will be there and they’re excited to tell you what they learned. ',
+    eventTitle: 'GDG Madison',
+    eventUrl: 'https://www.meetup.com/gdg-madison/events/239355851/',
+    tags: ['google-io'],
+    location: 'Madison, WI'
+  },
+  {
+    title: 'Get talking with Actions on Google',
+    url: 'https://docs.google.com/presentation/d/1trLvZmpDJca7Z0c-DaSUZg2ChdqFN5vj04q--TCcQKI/edit?usp=sharing',
+    date: 'April 15th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'GDG Madison',
+    eventUrl: 'https://www.meetup.com/gdg-madison/events/237914183/',
+    tags: ['actions-on-google'],
+    location: 'Madison, WI'
+  },
+  {
+    title: 'Web Components: Lego bricks of the web',
+    url: 'https://docs.google.com/presentation/d/13ISIYU6v7xVY0IKMTBIi8VHI-VsIjwqBspAEbxspCCU/edit?usp=sharing',
+    date: 'March 22nd, 2017',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Use the native web platform to build performant, lightweight building blocks for your site. We will show you how to build custom elements using best practices and how to integrate them with your Angular project.',
+    eventTitle: 'JazzCon.Tech',
+    eventUrl: 'http://jazzcon.tech/',
+    tags: ['web-components', 'angular'],
+    location: 'New Orleans, LA'
+  },
+  {
+    title: 'Web Components: Lego bricks of the web',
+    url: 'https://docs.google.com/presentation/d/1P4T2_aMgJlOO4seH4P6sDcQMgcAKkjUaOB-izjFVIdw/edit?usp=sharing',
+    date: 'Februery 18th, 2017',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
+    eventTitle: 'DevFest KC',
+    eventUrl: 'https://devfestkc.com/',
+    tags: ['web-components', 'polymer'],
+    location: 'Kansas City, MO'
+  },
+  {
+    title: 'Leverage the power of native with Progressive Web Apps',
+    url: 'https://docs.google.com/presentation/d/1uONFEBmXg6k1LZvC4KPXMCyrEMhEeOG8_2_UQ1-uzio/edit?usp=sharing',
+    date: 'Februery 18th, 2017',
+    description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
+    eventTitle: 'DevFest KC',
+    eventUrl: 'https://devfestkc.com/',
+    tags: ['progressive-web-apps'],
+    location: 'Kansas City, MO'
+  },
+  {
+    title: 'Get talking with Actions on Google',
+    url: 'https://docs.google.com/presentation/d/1L_IDKj0GzFmadZM__XAGo-7AzGDvlsFRUsid80O5TM0/edit?usp=sharing',
+    date: 'Februery 18th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'DevFest KC',
+    eventUrl: 'https://devfestkc.com/',
+    tags: ['actions-on-google'],
+    location: 'Kansas City, MO'
+  },
+  {
+    title: 'Get talking with Actions on Google',
+    url: 'https://docs.google.com/presentation/d/1EjoqN1gs7Pfr_RRHRNI7CmNJmL4DgxzEFsroAkbpU7A/edit?usp=sharing',
+    date: 'Februery 8th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'GDG Chicago',
+    eventUrl: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/237220640/',
+    tags: ['actions-on-google'],
+    location: 'Chicago, IL'
+  },
+  {
+    title: 'Burn down your competitors with Firebase',
+    url: 'https://docs.google.com/presentation/d/1UBKBBubWQtIniOGsu8jFKpFm0j2abRacGwRxyxMqBEc/edit?usp=sharing',
+    date: 'December 5th, 2016',
+    description: 'Google’s Firebase provides a suite of products to help you quickly build realtime apps. We’ll show how Firebase can take care of authentication, database, storage, and scaling while you concentrate on user experience and building an amazing product.',
+    eventTitle: 'ConFoo Vancouver',
+    eventUrl: 'https://confoo.ca/en/yvr2016',
+    tags: ['firebase'],
+    location: 'Vancouver, BC, CA'
+  },
+  {
+    title: 'Energize your development flow with CLIs',
+    url: 'https://docs.google.com/presentation/d/1hB8NNTm8AwelCeARZO9wc_bL-3cabTbhDvccAWXGujM/edit?usp=sharing',
+    date: 'December 7th, 2016',
+    description: 'Creating personalized CLIs can help you streamline recurring tasks, such as setting up new development environments, managing deployments, and wrangling data. We will walk you through building CLIs in Ruby to help you avoid costly mistakes and ensure consistent results. Create simple commands that perform powerful tasks.',
+    eventTitle: 'ConFoo Vancouver',
+    eventUrl: 'https://confoo.ca/en/yvr2016',
+    tags: ['cli', 'ruby'],
+    location: 'Vancouver, BC, CA'
+  },
+  {
+    title: 'Web Components: Lego bricks of the web',
+    url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds/edit?usp=sharing',
+    date: 'November 3rd, 2016',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
+    eventTitle: 'DevFest West',
+    eventUrl: 'https://devfest2016.gdgsv.com/',
+    tags: ['web-components', 'polymer'],
+    location: 'Mountain View, CA'
+  },
+  {
+    title: 'Leverage the power of native with Progressive Web Apps',
+    url: 'https://docs.google.com/presentation/d/1uRDz3fStZ8oNBi3TK4K0fgIp0rlfsOz8jRhpaUCDGsA/edit?usp=sharing',
+    date: 'November 3rd, 2016',
+    description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
+    eventTitle: 'Mobile Era',
+    eventUrl: 'https://mobileera.rocks/',
+    tags: ['progressive-web-apps'],
+    location: 'Oslo, Norway'
+  },
+  {
+    title: 'Web Components: Lego bricks of the web',
+    url: 'https://docs.google.com/presentation/d/10mwL3h6RbjxEAH94M022EgHzFkIO_6lIb_HUWmT3l00/edit?usp=sharing',
+    date: 'October 20th, 2016',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
+    eventTitle: 'Connect.Tech',
+    eventUrl: 'http://connect.tech/',
+    tags: ['web-components', 'polymer'],
+    location: 'Atlanta, GA'
+  },
+  {
+    title: 'Web Components: Lego bricks of the web',
+    url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds/edit?usp=sharing',
+    date: 'October 1st, 2016',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
+    eventTitle: 'Madison PHP Conference',
+    eventUrl: 'http://2016.madisonphpconference.com/',
+    tags: ['web-components', 'polymer'],
+    location: 'Madison, WI'
+  },
+  {
+    title: 'Leverage the power of native with Progressive Web Apps',
+    url: 'https://docs.google.com/presentation/d/1Cr_Cf2Ef9L7ojQWUTy0kuDMUZHqMYf3d_PO1MQkBtg4/edit?usp=sharing',
+    date: 'September 16th, 2016',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
+    eventTitle: 'Windy City DevCon',
+    eventUrl: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/232947796/',
+    tags: ['progressive-web-apps'],
+    location: 'Chicago, IL'
   }
 ];
-
-// {
-//   title: '',
-//   url: '',
-//   date: '',
-//   description: '',
-//   eventTitle: '',
-//   eventUrl: '',
-//   tags: []
-// }

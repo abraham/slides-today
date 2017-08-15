@@ -21,3 +21,31 @@
   background-color: #8892be;
   color: #fff;
 }
+
+.ruby.md-chip {
+  background-color: #CC342D;
+  color: #fff;
+}
+
+.firebase.md-chip {
+  background-color: #fec83e;
+}
+
+.cli.md-chip {
+  background-color: #000;
+  color: #fff;
+}
+
+.actions-on-google.md-chip {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.angular.md-chip {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.google-io.md-chip {
+  background-color: #3fe7b8;
+}
