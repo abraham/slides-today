@@ -6,6 +6,7 @@
   <section class="mdc-card__supporting-text">
     {{deck.description}}
   </section>
+  <section class="mdc-card__media" [style.backgroundImage]="'url('+ mapUrl() +')'"></section>
   <section class="mdc-card__actions">
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.url)">SLIDES</button>
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.eventUrl)">EVENT</button>

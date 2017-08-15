@@ -13,4 +13,8 @@ export class DeckComponent {
   open(url: string): void {
     window.open(url);
   }
+
+  mapUrl(): string {
+    return `https://maps.googleapis.com/maps/api/staticmap?zoom=9&size=450x250&center=${encodeURIComponent(this.deck.location)}`;
+  }
 }

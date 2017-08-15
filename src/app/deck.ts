@@ -6,4 +6,5 @@ export class Deck {
   eventTitle: string;
   eventUrl: string;
   tags: string[];
+  location: string;
 }
