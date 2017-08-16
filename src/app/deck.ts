@@ -7,4 +7,5 @@ export class Deck {
   eventUrl: string;
   tags: string[];
   location: string;
+  videoUrl: string|null;
 }

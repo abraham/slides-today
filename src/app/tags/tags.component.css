@@ -1,5 +1,5 @@
 .web-components.md-chip:not(.md-chip-raised) {
-  background-color: #166DA5;
+  background-color: #2196F3;
   color: #fff;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .cli.md-chip:not(.md-chip-raised) {
-  background-color: #000;
+  background-color: #212121;
   color: #fff;
 }
 
@@ -48,4 +48,9 @@
 
 .google-io.md-chip:not(.md-chip-raised) {
   background-color: #3fe7b8;
+}
+
+.video.md-chip:not(.md-chip-raised) {
+  background-color: #212121;
+  color: #fff;
 }

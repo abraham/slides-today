@@ -9,7 +9,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'Midwest JS',
     eventUrl: 'http://www.midwestjs.com/',
     tags: ['progressive-web-apps'],
-    location: 'Minneapolis, MN'
+    location: 'Minneapolis, MN',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego Bricks of the Web',
@@ -19,7 +20,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'Midwest JS',
     eventUrl: 'http://www.midwestjs.com/',
     tags: ['web-components', 'polymer'],
-    location: 'Minneapolis, MN'
+    location: 'Minneapolis, MN',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego Bricks of the Web',
@@ -29,7 +31,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'Rockford Web Devs',
     eventUrl: 'https://www.meetup.com/Rockford-Web-Devs/events/238442439/',
     tags: ['web-components', 'polymer'],
-    location: 'Rockford, IL'
+    location: 'Rockford, IL',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego Bricks of the Web',
@@ -39,7 +42,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'KCDC',
     eventUrl: 'http://www.kcdc.info/',
     tags: ['web-components', 'polymer'],
-    location: 'Kansas City, MO'
+    location: 'Kansas City, MO',
+    videoUrl: null
   },
   {
     title: 'Get the Power of Native with Progressive Web Apps',
@@ -49,7 +53,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'CoderCruise',
     eventUrl: 'https://www.codercruise.com/',
     tags: ['progressive-web-apps'],
-    location: 'Cozumel, Mexico'
+    location: 'Cozumel, Mexico',
+    videoUrl: null
   },
   {
     title: 'Getting Started with the Twitter API',
@@ -59,7 +64,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'CoderCruise',
     eventUrl: 'https://www.codercruise.com/',
     tags: ['twitter-api', 'php'],
-    location: 'Grand Cayman, Cayman Islands'
+    location: 'Grand Cayman, Cayman Islands',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego Bricks of the Web',
@@ -69,7 +75,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'CoderCruise',
     eventUrl: 'https://www.codercruise.com/',
     tags: ['web-components', 'polymer'],
-    location: 'Montego Bay, Jamaica'
+    location: 'Montego Bay, Jamaica',
+    videoUrl: null
   },
   {
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -79,7 +86,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'MadJS',
     eventUrl: 'https://www.meetup.com/MadisonJS/events/238952227/',
     tags: ['progressive-web-apps'],
-    location: 'Madison, WI'
+    location: 'Madison, WI',
+    videoUrl: null
   },
   {
     title: 'Google I/O Recap',
@@ -89,7 +97,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'GDG Madison',
     eventUrl: 'https://www.meetup.com/gdg-madison/events/239355851/',
     tags: ['google-io'],
-    location: 'Madison, WI'
+    location: 'Madison, WI',
+    videoUrl: null
   },
   {
     title: 'Get talking with Actions on Google',
@@ -99,7 +108,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'GDG Madison',
     eventUrl: 'https://www.meetup.com/gdg-madison/events/237914183/',
     tags: ['actions-on-google'],
-    location: 'Madison, WI'
+    location: 'Madison, WI',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego bricks of the web',
@@ -109,7 +119,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'JazzCon.Tech',
     eventUrl: 'http://jazzcon.tech/',
     tags: ['web-components', 'angular'],
-    location: 'New Orleans, LA'
+    location: 'New Orleans, LA',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego bricks of the web',
@@ -119,7 +130,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'DevFest KC',
     eventUrl: 'https://devfestkc.com/',
     tags: ['web-components', 'polymer'],
-    location: 'Kansas City, MO'
+    location: 'Kansas City, MO',
+    videoUrl: null
   },
   {
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -129,7 +141,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'DevFest KC',
     eventUrl: 'https://devfestkc.com/',
     tags: ['progressive-web-apps'],
-    location: 'Kansas City, MO'
+    location: 'Kansas City, MO',
+    videoUrl: null
   },
   {
     title: 'Get talking with Actions on Google',
@@ -139,7 +152,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'DevFest KC',
     eventUrl: 'https://devfestkc.com/',
     tags: ['actions-on-google'],
-    location: 'Kansas City, MO'
+    location: 'Kansas City, MO',
+    videoUrl: null
   },
   {
     title: 'Get talking with Actions on Google',
@@ -149,7 +163,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'GDG Chicago',
     eventUrl: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/237220640/',
     tags: ['actions-on-google'],
-    location: 'Chicago, IL'
+    location: 'Chicago, IL',
+    videoUrl: null
   },
   {
     title: 'Burn down your competitors with Firebase',
@@ -159,7 +174,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'ConFoo Vancouver',
     eventUrl: 'https://confoo.ca/en/yvr2016',
     tags: ['firebase'],
-    location: 'Vancouver, BC, CA'
+    location: 'Vancouver, BC, CA',
+    videoUrl: null
   },
   {
     title: 'Energize your development flow with CLIs',
@@ -169,7 +185,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'ConFoo Vancouver',
     eventUrl: 'https://confoo.ca/en/yvr2016',
     tags: ['cli', 'ruby'],
-    location: 'Vancouver, BC, CA'
+    location: 'Vancouver, BC, CA',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego bricks of the web',
@@ -179,7 +196,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'DevFest West',
     eventUrl: 'https://devfest2016.gdgsv.com/',
     tags: ['web-components', 'polymer'],
-    location: 'Mountain View, CA'
+    location: 'Mountain View, CA',
+    videoUrl: null
   },
   {
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -188,8 +206,9 @@ export const DECKS: Deck[] = [
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
     eventTitle: 'Mobile Era',
     eventUrl: 'https://mobileera.rocks/',
-    tags: ['progressive-web-apps'],
-    location: 'Oslo, Norway'
+    tags: ['progressive-web-apps', 'video'],
+    location: 'Oslo, Norway',
+    videoUrl: 'https://vimeo.com/190713344'
   },
   {
     title: 'Web Components: Lego bricks of the web',
@@ -199,7 +218,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'Connect.Tech',
     eventUrl: 'http://connect.tech/',
     tags: ['web-components', 'polymer'],
-    location: 'Atlanta, GA'
+    location: 'Atlanta, GA',
+    videoUrl: null
   },
   {
     title: 'Web Components: Lego bricks of the web',
@@ -209,7 +229,8 @@ export const DECKS: Deck[] = [
     eventTitle: 'Madison PHP Conference',
     eventUrl: 'http://2016.madisonphpconference.com/',
     tags: ['web-components', 'polymer'],
-    location: 'Madison, WI'
+    location: 'Madison, WI',
+    videoUrl: null
   },
   {
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -219,6 +240,7 @@ export const DECKS: Deck[] = [
     eventTitle: 'Windy City DevCon',
     eventUrl: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/232947796/',
     tags: ['progressive-web-apps'],
-    location: 'Chicago, IL'
+    location: 'Chicago, IL',
+    videoUrl: null
   }
 ];
