@@ -1,6 +1,6 @@
 <div class="md-chips">
-  <div class="md-chip md-chip-clickable"
-       *ngFor="let tag of tags"
+  <div class="md-chip md-chip-clickable mdc-typography"
+       *ngFor="let tag of tags.sort()"
        [ngClass]="tag"
        [class.md-chip-raised]="raised(tag)"
        (click)="goToTag(tag)">

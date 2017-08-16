@@ -3,6 +3,7 @@ $mdc-theme-secondary: #9C27B0;
 $mdc-theme-background: #fff;
 
 @import "~@material/theme/mdc-theme";
+@import '~@material/typography/dist/mdc.typography.css';
 
 body {
   margin: 0;

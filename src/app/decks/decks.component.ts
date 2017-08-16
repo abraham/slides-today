@@ -22,6 +22,7 @@ export class DecksComponent implements OnInit {
 
   decks: Deck[];
   currentTag: string;
+  tags: string[] = [];
 
   ngOnInit(): void {
     this.route.paramMap
@@ -30,9 +31,20 @@ export class DecksComponent implements OnInit {
         return this.deckService.getDecksByTag(params.get('id'));
       })
       .subscribe(decks => this.decks = decks);
+      this.getTags();
   }
 
-  getDecks(): Promise<Deck[]> {
-    return this.deckService.getDecks();
+  getTags(): void {
+    this.deckService.getDecks().then((decks) => {
+      const working: string[] = [];
+      decks.map((deck) => {
+        deck.tags.map((tag) => {
+          if (!working.includes(tag)) {
+            working.push(tag);
+          }
+        });
+      });
+      this.tags = working.sort();
+    });
   }
 }
