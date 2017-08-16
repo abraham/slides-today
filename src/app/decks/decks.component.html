@@ -1,0 +1,5 @@
+<main class='mdc-layout-grid'>
+  <div class="mdc-layout-grid__inner">
+    <app-deck *ngFor="let deck of decks" [deck]="deck" [currentTag]="currentTag" class="mdc-layout-grid__cell"></app-deck>
+  </div>
+</main>

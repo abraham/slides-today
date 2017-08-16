@@ -11,6 +11,7 @@ import { MdChipsModule } from '@angular/material';
 
 export class DeckComponent {
   @Input() deck: Deck;
+  @Input() currentTag: string;
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '450x250';

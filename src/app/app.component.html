@@ -1,7 +1,3 @@
 <app-header [title]="title"></app-header>
 
-<main class='mdc-layout-grid'>
-  <div class="mdc-layout-grid__inner">
-    <app-deck *ngFor="let deck of decks" [deck]="deck" class="mdc-layout-grid__cell"></app-deck>
-  </div>
-</main>
+<router-outlet></router-outlet>

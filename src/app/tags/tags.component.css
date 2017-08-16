@@ -1,51 +1,51 @@
-.web-components.md-chip {
+.web-components.md-chip:not(.md-chip-raised) {
   background-color: #166DA5;
   color: #fff;
 }
 
-.progressive-web-apps.md-chip {
+.progressive-web-apps.md-chip:not(.md-chip-raised) {
   background-color: #8BC34A;
 }
 
-.polymer.md-chip {
+.polymer.md-chip:not(.md-chip-raised) {
   background-color: #1e88e5;
   color: #fff;
 }
 
-.twitter-api.md-chip {
+.twitter-api.md-chip:not(.md-chip-raised) {
   background-color: #1da1f2;
   color: #fff;
 }
 
-.php.md-chip {
+.php.md-chip:not(.md-chip-raised) {
   background-color: #8892be;
   color: #fff;
 }
 
-.ruby.md-chip {
+.ruby.md-chip:not(.md-chip-raised) {
   background-color: #CC342D;
   color: #fff;
 }
 
-.firebase.md-chip {
+.firebase.md-chip:not(.md-chip-raised) {
   background-color: #fec83e;
 }
 
-.cli.md-chip {
+.cli.md-chip:not(.md-chip-raised) {
   background-color: #000;
   color: #fff;
 }
 
-.actions-on-google.md-chip {
+.actions-on-google.md-chip:not(.md-chip-raised) {
   background-color: #4285f4;
   color: #fff;
 }
 
-.angular.md-chip {
+.angular.md-chip:not(.md-chip-raised) {
   background-color: #1976d2;
   color: #fff;
 }
 
-.google-io.md-chip {
+.google-io.md-chip:not(.md-chip-raised) {
   background-color: #3fe7b8;
 }
