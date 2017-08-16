@@ -34,6 +34,10 @@ export class DecksComponent implements OnInit {
       this.getTags();
   }
 
+  hasDecks(): boolean {
+    return this.decks && this.decks.length > 0;
+  }
+
   getTags(): void {
     this.deckService.getDecks().then((decks) => {
       const working: string[] = [];
