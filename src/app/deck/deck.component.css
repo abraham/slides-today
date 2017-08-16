@@ -2,7 +2,7 @@
 @import '~@material/button/dist/mdc.button.css';
 
 .mdc-card__media {
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 200px;
 }

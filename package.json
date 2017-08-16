@@ -25,6 +25,7 @@
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
     "material-components-web": "^0.17.0",
+    "ng-lazyload-image": "^3.2.3",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },

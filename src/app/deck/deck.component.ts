@@ -13,12 +13,16 @@ export class DeckComponent {
   @Input() deck: Deck;
   @Input() currentTag: string;
 
+  offset = -200;
+  currentStyles = {};
+  imageLoaded: false;
+  defaultImage = '/assets/img/loading.gif';
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '450x250';
   private zoom = '9';
   private maptype = 'terrain';
   private apiUrl = 'https://maps.googleapis.com/maps/api/staticmap';
-  private styles = [
+  private mapStyles = [
     'feature:administrative.land_parcel%7Cvisibility:off',
     'feature:administrative.neighborhood%7Cvisibility:off',
     'feature:landscape.man_made%7Celement:geometry.fill%7Chue:0x0cff00%7Csaturation:100%7Clightness:0%7Cgamma:0.42',
@@ -46,11 +50,21 @@ export class DeckComponent {
   }
 
   private styleParams(): string {
-    return `style=${this.styles.join('&style=')}`;
+    return `style=${this.mapStyles.join('&style=')}`;
   }
 
   private apiParams(): string {
     return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
+  }
+
+  setCurrentStyles(): void {
+    if (this.imageLoaded) {
+      this.currentStyles = {
+        'background-size': 'cover'
+      };
+    } else {
+      this.currentStyles = {};
+    }
   }
 
   mapUrl(): string {
