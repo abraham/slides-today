@@ -7,7 +7,7 @@
     We're developers at Bendyworks in Madison, WI. We like to speak at technical conferences. Find our presentation slides here.
   </section>
   <section class="mdc-card__media" [style.backgroundImage]="'url('+ imageUrl +')'"></section>
-  <section class="mdc-card__actions">
+  <section #actions class="mdc-card__actions">
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="openTwitter('abraham')">@abraham</button>
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="openTwitter('pblatteier')">@pblatteier</button>
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open('https://bendyworks.com')">Bendyworks</button>
