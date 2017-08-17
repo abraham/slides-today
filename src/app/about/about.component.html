@@ -1,0 +1,15 @@
+<div class="mdc-card">
+  <section class="mdc-card__primary">
+    <h2 class="mdc-card__subtitle">Pearl Latteir & Abraham Williams</h2>
+    <h1 class="mdc-card__title mdc-card__title--large">Welcome to Slides.today</h1>
+  </section>
+  <section class="mdc-card__supporting-text">
+    We're developers at Bendyworks in Madison, WI. We like to speak at technical conferences. Find our presentation slides here.
+  </section>
+  <section class="mdc-card__media" [style.backgroundImage]="'url('+ imageUrl +')'"></section>
+  <section class="mdc-card__actions">
+    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="openTwitter('abraham')">@abraham</button>
+    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="openTwitter('pblatteier')">@pblatteir</button>
+    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open('https://bendyworks.com')">Bendyworks</button>
+  </section>
+</div>

@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { TagsComponent } from './tags/tags.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AppRoutingModule } from './app-routing.module';
     DecksComponent,
     HeaderComponent,
     TagsComponent,
+    AboutComponent,
   ],
   imports: [
     AppRoutingModule,

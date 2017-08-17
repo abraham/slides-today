@@ -5,6 +5,7 @@ import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 import { MediaChange, ObservableMedia } from '@angular/flex-layout';
 import { HeaderComponent } from '../header/header.component';
+import { AboutComponent } from '../about/about.component';
 
 import 'rxjs/add/operator/switchMap';
 
