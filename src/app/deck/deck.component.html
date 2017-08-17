@@ -19,5 +19,6 @@
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.url)">SLIDES</button>
     <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.eventUrl)">EVENT</button>
     <button *ngIf="deck.videoUrl" class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.videoUrl)">VIDEO</button>
+    <button *ngIf="deck.reviewsUrl" class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.reviewsUrl)">REVIEWS</button>
   </section>
 </div>

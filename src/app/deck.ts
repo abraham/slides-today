@@ -8,4 +8,5 @@ export class Deck {
   tags: string[];
   location: string;
   videoUrl: string|null;
+  reviewsUrl: string|null;
 }

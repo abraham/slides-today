@@ -8,7 +8,7 @@
 }
 
 .polymer.md-chip:not(.md-chip-raised) {
-  background-color: #1e88e5;
+  background-color: #f50057;
   color: #fff;
 }
 
@@ -63,4 +63,9 @@
 .three-js.md-chip:not(.md-chip-raised) {
   background-color: #ECEFF1;
   color: #000;
+}
+
+.reviews.md-chip:not(.md-chip-raised) {
+  background-color: #607D8B;
+  color: #fff;
 }
