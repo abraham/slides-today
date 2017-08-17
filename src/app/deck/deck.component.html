@@ -14,11 +14,13 @@
            [defaultImage]="defaultImage"
            [lazyLoad]="mapUrl()"
            [ngStyle]="currentStyles"
-           (onLoad)="setCurrentStyles()"></section>
+           (onLoad)="setCurrentStyles()">
+  </section>
   <section class="mdc-card__actions">
-    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.url)">SLIDES</button>
-    <button class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.eventUrl)">EVENT</button>
-    <button *ngIf="deck.videoUrl" class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.videoUrl)">VIDEO</button>
-    <button *ngIf="deck.reviewsUrl" class="mdc-button mdc-button--compact mdc-card__action" (click)="open(deck.reviewsUrl)">REVIEWS</button>
+    <button *ngFor="let link of deck.links"
+            (click)="open(link.url)"
+            class="mdc-button mdc-button--compact mdc-card__action">
+      {{link.title}}
+    </button>
   </section>
 </div>
