@@ -54,3 +54,13 @@
   background-color: #9C27B0;
   color: #fff;
 }
+
+.⚡.md-chip:not(.md-chip-raised) {
+  background-color: #212121;
+  color: #fff;
+}
+
+.three-js.md-chip:not(.md-chip-raised) {
+  background-color: #ECEFF1;
+  color: #000;
+}

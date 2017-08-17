@@ -242,5 +242,16 @@ export const DECKS: Deck[] = [
     tags: ['progressive-web-apps'],
     location: 'Chicago, IL',
     videoUrl: null
+  },
+  {
+    title: 'The Bendy Game of Life³',
+    url: 'https://docs.google.com/presentation/d/1idTXiseohF54-OTHLTReKgFGDxbOVlCAX9UMYUFiois/edit?usp=sharing',
+    date: 'June 15th, 2016',
+    description: 'The Bendy Game of Life is a 3D version of Conway’s Game of Life, which simulates the evolution of a population given initial settings chosen by the player. Visually, the game board is a 3D grid with a variable number of cells filled in or “alive.” Depending on the number of “alive” or “dead” neighbor cells each cell has, it will die, survive, or come alive in the next turn or “generation.” Generations continue following this algorithm until the population stabilizes.',
+    eventTitle: 'Madhackers',
+    eventUrl: 'https://www.meetup.com/madhackers/events/231725576/',
+    tags: ['three-js', 'ruby', '⚡', 'video'],
+    location: 'Madison, WI',
+    videoUrl: 'https://www.youtube.com/watch?v=_hewWDDvkMQ'
   }
 ];
