@@ -1,7 +1,9 @@
-import { Component, Input } from '@angular/core';
-import { NgClass } from '@angular/common';
-import { Deck } from '../deck';
+import { Component, Input, AfterViewInit, ViewChild } from '@angular/core';
 import { MdChipsModule } from '@angular/material';
+import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { NgClass } from '@angular/common';
+
+import { Deck } from '../deck';
 
 @Component({
   selector: 'app-deck',
@@ -9,9 +11,11 @@ import { MdChipsModule } from '@angular/material';
   styleUrls: ['./deck.component.css']
 })
 
-export class DeckComponent {
+export class DeckComponent implements AfterViewInit {
   @Input() deck: Deck;
   @Input() currentTag: string;
+
+  @ViewChild('actions') actions;
 
   offset = -200;
   currentStyles = {};
@@ -44,6 +48,17 @@ export class DeckComponent {
     'feature:water%7Celement:geometry.fill%7Ccolor:0x5ddad6',
     'feature:water%7Celement:labels.text%7Cvisibility:off'
   ];
+
+  ngAfterViewInit(): void {
+    this.initRipples();
+  }
+
+  initRipples(): void {
+    const buttons = this.actions.nativeElement.querySelectorAll('.mdc-button:not(.mdc-ripple-upgraded)');
+    Array.from(buttons).forEach(button => {
+      MDCRipple.attachTo(button);
+    });
+  }
 
   private center(): string {
     return encodeURIComponent(this.deck.location);
