@@ -7,8 +7,4 @@ export class DeckService {
   getDecks(): Promise<Deck[]> {
     return Promise.resolve(DECKS);
   }
-
-  getDecksByTag(tag: string): Promise<Deck[]> {
-    return Promise.resolve(DECKS.filter((deck) => !tag || deck.tags.includes(tag)));
-  }
 }

@@ -26,17 +26,28 @@ export class DecksComponent implements OnInit {
   tags: string[] = [];
 
   ngOnInit(): void {
+    console.log('ngOnInit');
     this.route.paramMap
       .switchMap((params: ParamMap) => {
-        this.currentTag = params.get('id');
-        return this.deckService.getDecksByTag(params.get('id'));
+        return Promise.resolve(params.get('id'));
       })
-      .subscribe(decks => this.decks = decks);
-      this.getTags();
+      .subscribe(tag => this.currentTag = tag);
+    this.getTags();
+    this.getDecks();
+  }
+
+  hidden(deck): boolean {
+    return this.currentTag && !deck.tags.includes(this.currentTag);
   }
 
   hasDecks(): boolean {
     return this.decks && this.decks.length > 0;
+  }
+
+  getDecks(): void {
+    this.deckService.getDecks().then((decks) => {
+      this.decks = decks;
+    });
   }
 
   getTags(): void {

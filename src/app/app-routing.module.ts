@@ -5,14 +5,9 @@ import { DecksComponent } from './decks/decks.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '**',
     component: DecksComponent,
-    pathMatch: 'full'
   },
-  {
-    path: 'tags/:id',
-    component: DecksComponent
-  }
 ];
 
 @NgModule({
