@@ -1,10 +1,7 @@
-<div #tagList class="md-chips">
-  <div class="md-chip md-chip-clickable mdc-typography mdc-ripple-surface"
-       *ngFor="let tag of tags.sort()"
-       [ngClass]="tag"
-       [class.md-chip-raised]="raised(tag)"
-       (click)="goToTag(tag)">
-       {{tag}}
-       <button *ngIf="raised(tag)" type="button" class="md-chip-remove"></button>
-     </div>
+<div class="md-chips">
+  <app-tag *ngFor="let tag of tags.sort()"
+           [text]="tag"
+           [raised]="raised(tag)"
+           [currentTag]="currentTag">
+  </app-tag>
 </div>

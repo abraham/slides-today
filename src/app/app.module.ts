@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { InviteComponent } from './invite/invite.component';
 import { CardActionComponent } from './card-action/card-action.component';
+import { TagComponent } from './tag/tag.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CardActionComponent } from './card-action/card-action.component';
     AboutComponent,
     InviteComponent,
     CardActionComponent,
+    TagComponent,
   ],
   imports: [
     AppRoutingModule,
