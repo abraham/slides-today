@@ -1,13 +1,13 @@
-import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
-import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
-import { MediaChange, ObservableMedia } from '@angular/flex-layout';
-import { HeaderComponent } from '../header/header.component';
-import { AboutComponent } from '../about/about.component';
 
 import 'rxjs/add/operator/switchMap';
+
+import { AboutComponent } from '../about/about.component';
+import { Deck } from '../deck';
+import { DeckService } from '../deck.service';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-decks',

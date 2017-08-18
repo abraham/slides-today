@@ -12,17 +12,17 @@ export class InviteComponent implements AfterViewInit {
   constructor() { }
 
   _dialog: MDCDialog;
-  @ViewChild('fab') fab;
-  @ViewChild('dialog') dialog;
+  @ViewChild('fabEl') fabEl;
+  @ViewChild('dialogEl') dialogEl;
 
   ngAfterViewInit() {
-    this._dialog = new MDCDialog(this.dialog.nativeElement);
+    this._dialog = new MDCDialog(this.dialogEl.nativeElement);
     this.initRipples();
   }
 
   initRipples(): void {
-    MDCRipple.attachTo(this.fab.nativeElement);
-    const buttons = this.dialog.nativeElement.querySelectorAll('.mdc-button:not(.mdc-ripple-upgraded)');
+    MDCRipple.attachTo(this.fabEl.nativeElement);
+    const buttons = this.dialogEl.nativeElement.querySelectorAll('.mdc-button:not(.mdc-ripple-upgraded)');
     Array.from(buttons).forEach(button => {
       MDCRipple.attachTo(button);
     });

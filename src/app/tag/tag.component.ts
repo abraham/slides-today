@@ -13,7 +13,7 @@ export class TagComponent implements OnInit {
   @Input() text: string;
   @Input() currentTag: string;
   @Input() raised: boolean;
-  @ViewChild('tag') tag;
+  @ViewChild('tagEL') tagEL;
 
   constructor(private router: Router) { }
 
@@ -22,7 +22,7 @@ export class TagComponent implements OnInit {
   }
 
   initRipples(): void {
-    MDCRipple.attachTo(this.tag.nativeElement);
+    MDCRipple.attachTo(this.tagEL.nativeElement);
   }
 
   goToTag(tag: string): void {

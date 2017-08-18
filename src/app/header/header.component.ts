@@ -9,8 +9,8 @@ import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
 export class HeaderComponent implements OnInit, AfterViewInit {
   constructor() { }
 
-  @ViewChild('toolbarFixed') toolbarFixed;
-  @ViewChild('toolbarAdjust') toolbarAdjust;
+  @ViewChild('toolbarFixedEl') toolbarFixedEl;
+  @ViewChild('toolbarAdjustEl') toolbarAdjustEl;
 
   @Input() title: string;
   toolbar: MDCToolbar;
@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   }
 
   initToolbar(): void {
-    this.toolbar = new MDCToolbar(this.toolbarFixed.nativeElement);
-    this.toolbar.fixedAdjustElement = this.toolbarAdjust.nativeElement;
+    this.toolbar = new MDCToolbar(this.toolbarFixedEl.nativeElement);
+    this.toolbar.fixedAdjustElement = this.toolbarAdjustEl.nativeElement;
   }
 }

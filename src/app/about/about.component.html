@@ -7,7 +7,7 @@
     We're developers at Bendyworks in Madison, WI, and we enjoy speaking at technical conferences. Find our presentation slides here.
   </section>
   <section class="mdc-card__media" [style.backgroundImage]="'url('+ imageUrl +')'"></section>
-  <section #actions class="mdc-card__actions">
+  <section class="mdc-card__actions">
     <app-card-action *ngFor="let link of links"
                      [text]="link.title"
                      [url]="link.url">
