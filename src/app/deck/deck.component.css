@@ -5,3 +5,12 @@
   background-repeat: no-repeat;
   height: 200px;
 }
+
+.mdc-card__media {
+  transition: opacity 1s;
+  opacity: 0.8;
+}
+
+.mdc-card__media.ng-lazyloaded {
+  opacity: 1;
+}
