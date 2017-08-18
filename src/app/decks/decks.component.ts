@@ -28,11 +28,16 @@ export class DecksComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap
       .switchMap((params: ParamMap) => {
+        this.triggerScroll();
         return Promise.resolve(params.get('tag'));
       })
       .subscribe(tag => this.currentTag = tag);
     this.getTags();
     this.getDecks();
+  }
+
+  triggerScroll(): void {
+    window.dispatchEvent(new Event('scroll'));
   }
 
   hidden(deck): boolean {
