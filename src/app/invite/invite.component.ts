@@ -1,5 +1,5 @@
 import { Component, AfterViewInit, ViewChild } from '@angular/core';
-import { MDCDialog } from '@material/dialog';
+import { MDCDialog } from '@material/dialog/dist/mdc.dialog';
 import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
 
 @Component({
