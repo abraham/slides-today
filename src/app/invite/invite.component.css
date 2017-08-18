@@ -1,0 +1,17 @@
+@import '~@material/fab/dist/mdc.fab.css';
+@import '~@material/dialog/dist/mdc.dialog.css';
+@import '~@material/button/dist/mdc.button.css';
+@import '~@material/ripple/dist/mdc.ripple.css';
+
+.app-fab--absolute.app-fab--absolute {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+   .app-fab--absolute.app-fab--absolute {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}

@@ -12,6 +12,7 @@ import { TagsComponent } from './tags/tags.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { InviteComponent } from './invite/invite.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     TagsComponent,
     AboutComponent,
+    InviteComponent,
   ],
   imports: [
     AppRoutingModule,
