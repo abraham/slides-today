@@ -17,10 +17,9 @@
            (onLoad)="setCurrentStyles()">
   </section>
   <section #actions class="mdc-card__actions">
-    <button *ngFor="let link of deck.links"
-            (click)="open(link.url)"
-            class="mdc-button mdc-button--compact mdc-card__action">
-      {{link.title}}
-    </button>
+    <app-card-action *ngFor="let link of deck.links"
+                     [text]="link.title"
+                     [url]="link.url">
+    </app-card-action>
   </section>
 </div>

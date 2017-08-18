@@ -1,6 +1,4 @@
-import { Component, Input, AfterViewInit, ViewChild } from '@angular/core';
-import { MdChipsModule } from '@angular/material';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { Component, Input } from '@angular/core';
 import { NgClass } from '@angular/common';
 
 import { Deck } from '../deck';
@@ -11,11 +9,9 @@ import { Deck } from '../deck';
   styleUrls: ['./deck.component.css']
 })
 
-export class DeckComponent implements AfterViewInit {
+export class DeckComponent {
   @Input() deck: Deck;
   @Input() currentTag: string;
-
-  @ViewChild('actions') actions;
 
   offset = -200;
   currentStyles = {};
@@ -49,17 +45,6 @@ export class DeckComponent implements AfterViewInit {
     'feature:water%7Celement:labels.text%7Cvisibility:off'
   ];
 
-  ngAfterViewInit(): void {
-    this.initRipples();
-  }
-
-  initRipples(): void {
-    const buttons = this.actions.nativeElement.querySelectorAll('.mdc-button:not(.mdc-ripple-upgraded)');
-    Array.from(buttons).forEach(button => {
-      MDCRipple.attachTo(button);
-    });
-  }
-
   private center(): string {
     return encodeURIComponent(this.deck.location);
   }
@@ -84,9 +69,5 @@ export class DeckComponent implements AfterViewInit {
 
   mapUrl(): string {
     return `${this.apiUrl}?${this.apiParams()}`;
-  }
-
-  open(url: string): void {
-    window.open(url);
   }
 }

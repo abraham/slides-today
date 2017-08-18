@@ -1,6 +1,4 @@
 @import '~@material/card/dist/mdc.card.css';
-@import '~@material/button/dist/mdc.button.css';
-@import '~@material/ripple/dist/mdc.ripple.css';
 
 .mdc-card__media {
   background-position: center;
