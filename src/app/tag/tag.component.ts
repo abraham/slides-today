@@ -29,7 +29,7 @@ export class TagComponent implements OnInit {
     if (this.currentTag === tag) {
       this.router.navigate(['/']);
     } else {
-      this.router.navigate(['/tags', { id: tag}]);
+      this.router.navigate(['/tags', { tag: tag}]);
     }
   }
 }

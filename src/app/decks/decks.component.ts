@@ -26,10 +26,9 @@ export class DecksComponent implements OnInit {
   tags: string[] = [];
 
   ngOnInit(): void {
-    console.log('ngOnInit');
     this.route.paramMap
       .switchMap((params: ParamMap) => {
-        return Promise.resolve(params.get('id'));
+        return Promise.resolve(params.get('tag'));
       })
       .subscribe(tag => this.currentTag = tag);
     this.getTags();
