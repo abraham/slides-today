@@ -15,7 +15,7 @@ export class DeckComponent {
   offset = -200;
   currentStyles = {};
   imageLoaded: false;
-  defaultImage = '/assets/img/default.png';
+  defaultImage = '/assets/img/default.jpg';
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '450x250';
   private zoom = '9';
