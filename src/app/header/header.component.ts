@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, AfterViewInit, ViewChild } from '@angular/core';
 import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit, AfterViewInit {
-  constructor() { }
+  constructor(private router: Router) { }
 
   @ViewChild('toolbarFixedEl') toolbarFixedEl;
   @ViewChild('toolbarAdjustEl') toolbarAdjustEl;
@@ -20,6 +21,9 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     this.initToolbar();
+  }
+  goHome (): void {
+    this.router.navigate(['/']);
   }
 
   initToolbar(): void {

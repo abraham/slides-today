@@ -1,1 +1,5 @@
 @import '~@material/toolbar/dist/mdc.toolbar.css';
+
+.mdc-toolbar__title {
+  cursor: pointer;
+}
