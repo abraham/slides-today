@@ -1,35 +1,29 @@
-import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })
-export class AboutComponent implements AfterViewInit {
+
+export class AboutComponent {
+
+  links = [
+    {
+      url: 'https://twitter.com/abraham',
+      title: '@abraham',
+    },
+    {
+      url: 'https://twitter.com/pblatteier',
+      title: '@pblatteier',
+    },
+    {
+      url: 'https://bendyworks.com',
+      title: 'Bendyworks',
+    },
+  ];
 
   constructor() { }
 
-  @ViewChild('actions') actions;
-
   imageUrl = '/assets/img/about-medium.jpg';
-
-  ngAfterViewInit(): void {
-    this.initRipples();
-  }
-
-  initRipples(): void {
-    const buttons = this.actions.nativeElement.querySelectorAll('.mdc-button:not(.mdc-ripple-upgraded)');
-    Array.from(buttons).forEach(button => {
-      MDCRipple.attachTo(button);
-    });
-  }
-
-  openTwitter(handle: string): void {
-    window.open(`https://twitter.com/${handle}`);
-  }
-
-  open(url: string): void {
-    window.open(url);
-  }
 }
