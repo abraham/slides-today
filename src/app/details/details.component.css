@@ -3,6 +3,10 @@
 @import '~@material/list/dist/mdc.list.css';
 @import '~@material/toolbar/dist/mdc.toolbar.css';
 
+.mdc-layout-grid {
+  max-width: 400px;
+}
+
 .mdc-layout-grid__inner .mdc-layout-grid__inner section {
   margin: 16px;
 }
