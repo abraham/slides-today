@@ -10,7 +10,13 @@
       "assets": [
         "assets",
         "favicon.png",
-        "manifest.json"
+        "manifest.json",
+        "sw.js",
+        {
+          "glob": "workbox-sw.prod.v1.3.0.js",
+          "input": "../node_modules/workbox-sw/build/importScripts/",
+          "output": "./"
+        }
       ],
       "index": "index.html",
       "main": "main.ts",
