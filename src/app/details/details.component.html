@@ -71,3 +71,7 @@
     </div>
   </div>
 </main>
+
+<div *ngIf="deck">
+  <app-share [text]="deck.title"></app-share>
+</div>

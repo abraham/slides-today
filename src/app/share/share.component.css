@@ -1,0 +1,22 @@
+@import '~@material/fab/dist/mdc.fab.css';
+@import '~@material/button/dist/mdc.button.css';
+@import '~@material/ripple/dist/mdc.ripple.css';
+@import '~@material/menu/dist/mdc.menu.css';
+@import '~@material/list/dist/mdc.list.css';
+
+.app-fab--absolute, .app-menu--absolute {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+   .app-fab--absolute, .app-menu--absolute {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+.mdc-simple-menu {
+  z-index: 15;
+}

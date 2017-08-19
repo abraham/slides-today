@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { InviteComponent } from './invite/invite.component';
 import { TagComponent } from './tag/tag.component';
 import { TagsComponent } from './tags/tags.component';
+import { ShareComponent } from './share/share.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TagsComponent } from './tags/tags.component';
     InviteComponent,
     TagComponent,
     TagsComponent,
+    ShareComponent,
   ],
   imports: [
     AppRoutingModule,
