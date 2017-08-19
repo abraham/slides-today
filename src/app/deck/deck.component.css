@@ -14,3 +14,7 @@
 .mdc-card__media.ng-lazyloaded {
   opacity: 1;
 }
+
+.mdc-card__title {
+  cursor: pointer;
+}

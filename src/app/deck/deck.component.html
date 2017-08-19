@@ -1,7 +1,7 @@
 <div class="mdc-card">
   <section class="mdc-card__primary">
     <h2 class="mdc-card__subtitle">{{deck.eventTitle}}</h2>
-    <h1 class="mdc-card__title mdc-card__title--large">{{deck.title}}</h1>
+    <h1 class="mdc-card__title mdc-card__title--large" (click)="goToDeck(deck.id)">{{deck.title}}</h1>
   </section>
   <section class="mdc-card__supporting-text">
     <app-tags [tags]="deck.tags" [currentTag]="currentTag"></app-tags>

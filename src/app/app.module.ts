@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CardActionComponent } from './card-action/card-action.component';
 import { DeckComponent } from './deck/deck.component';
 import { DecksComponent } from './decks/decks.component';
+import { DetailsComponent } from './details/details.component';
 import { HeaderComponent } from './header/header.component';
 import { InviteComponent } from './invite/invite.component';
 import { TagComponent } from './tag/tag.component';
@@ -21,6 +22,7 @@ import { TagsComponent } from './tags/tags.component';
     CardActionComponent,
     DeckComponent,
     DecksComponent,
+    DetailsComponent,
     HeaderComponent,
     InviteComponent,
     TagComponent,

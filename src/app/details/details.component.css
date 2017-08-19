@@ -1,0 +1,28 @@
+@import '~@material/layout-grid/dist/mdc.layout-grid.css';
+@import '~@material/elevation/dist/mdc.elevation.css';
+@import '~@material/list/dist/mdc.list.css';
+@import '~@material/toolbar/dist/mdc.toolbar.css';
+
+.mdc-layout-grid__inner .mdc-layout-grid__inner section {
+  margin: 16px;
+}
+
+header {
+  height: 200px;
+}
+
+.back, .home {
+  cursor: pointer;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.deck-details {
+  z-index: 10;
+  background-color: #fff;
+}

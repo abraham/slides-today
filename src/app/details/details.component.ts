@@ -1,26 +1,36 @@
-import { Component, Input } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Location } from '@angular/common';
+import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
+
+import 'rxjs/add/operator/switchMap';
 
 import { Deck } from '../deck';
+import { DeckService } from '../deck.service';
 
 @Component({
-  selector: 'app-deck',
-  templateUrl: './deck.component.html',
-  styleUrls: ['./deck.component.css']
+  selector: 'app-details',
+  templateUrl: './details.component.html',
+  styleUrls: ['./details.component.css'],
+  providers: [DeckService],
 })
+export class DetailsComponent implements OnInit {
 
-export class DeckComponent {
-  constructor (private router: Router) {}
+  constructor(private deckService: DeckService,
+              private route: ActivatedRoute,
+              private location: Location) { }
 
   @Input() deck: Deck;
-  @Input() currentTag: string;
 
-  offset = -200;
-  currentStyles = {};
-  imageLoaded: false;
-  defaultImage = '/assets/img/default.jpg';
+  @ViewChild('toolbarFixedEl') toolbarFixedEl;
+
+  currentTag: string;
+  title = 'Slides.today';
+  toolbar: MDCToolbar;
+  defaultImage = '/assets/img/default.png';
+
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
-  private size = '450x250';
+  private size = '640x320';
   private zoom = '9';
   private maptype = 'terrain';
   private apiUrl = 'https://maps.googleapis.com/maps/api/staticmap';
@@ -47,6 +57,19 @@ export class DeckComponent {
     'feature:water%7Celement:labels.text%7Cvisibility:off'
   ];
 
+  ngOnInit() {
+    this.route.paramMap
+      .switchMap((params: ParamMap) => {
+        return this.deckService.getDeck(+ params.get('id'));
+      })
+      .subscribe(deck => this.deck = deck);
+    this.initToolbar();
+  }
+
+  goBack(): void {
+    this.location.back();
+  }
+
   private center(): string {
     return encodeURIComponent(this.deck.location);
   }
@@ -59,21 +82,12 @@ export class DeckComponent {
     return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 
-  setCurrentStyles(): void {
-    if (this.imageLoaded) {
-      this.currentStyles = {
-        'background-size': 'cover'
-      };
-    } else {
-      this.currentStyles = {};
-    }
-  }
-
   mapUrl(): string {
     return `${this.apiUrl}?${this.apiParams()}`;
   }
 
-  goToDeck(id: number): void {
-    this.router.navigate(['/decks', id]);
+  initToolbar(): void {
+    this.toolbar = new MDCToolbar(this.toolbarFixedEl.nativeElement);
   }
+
 }

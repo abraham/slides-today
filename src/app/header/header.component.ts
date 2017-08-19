@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.initToolbar();
   }
+
   goHome (): void {
     this.router.navigate(['/']);
     window.scrollTo(0, 0);

@@ -1,3 +1,5 @@
+<app-header [title]="title"></app-header>
+
 <main class='mdc-layout-grid'>
   <div class="mdc-layout-grid__inner">
     <app-tags [tags]="tags" [currentTag]="currentTag" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-tags>
@@ -10,3 +12,5 @@
     <div *ngIf="!hasDecks()" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTag}}</div>
   </div>
 </main>
+
+<app-invite></app-invite>

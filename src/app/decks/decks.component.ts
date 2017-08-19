@@ -4,16 +4,14 @@ import { Location } from '@angular/common';
 
 import 'rxjs/add/operator/switchMap';
 
-import { AboutComponent } from '../about/about.component';
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
-import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-decks',
   templateUrl: './decks.component.html',
   styleUrls: ['./decks.component.scss'],
-  providers: [DeckService]
+  providers: [DeckService],
 })
 
 export class DecksComponent implements OnInit {
@@ -24,6 +22,7 @@ export class DecksComponent implements OnInit {
   decks: Deck[];
   currentTag: string;
   tags: string[] = [];
+  title = 'Slides.today';
 
   ngOnInit(): void {
     this.route.paramMap
