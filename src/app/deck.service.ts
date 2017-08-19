@@ -7,4 +7,8 @@ export class DeckService {
   getDecks(): Promise<Deck[]> {
     return Promise.resolve(DECKS);
   }
+
+  getDeckById(id: number): Promise<Deck> {
+    return Promise.resolve(DECKS.find(deck => deck.id === id));
+  }
 }

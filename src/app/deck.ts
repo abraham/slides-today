@@ -1,6 +1,7 @@
 import { Link } from './link';
 
 export class Deck {
+  id: number;
   title: string;
   date: string;
   description: string;
@@ -10,6 +11,7 @@ export class Deck {
   links: Link[];
 
   constructor(deck: any) {
+    this.id = deck.id;
     this.title = deck.title;
     this.date = deck.date;
     this.description = deck.description;
