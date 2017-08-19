@@ -4,7 +4,7 @@
 @import '~@material/toolbar/dist/mdc.toolbar.css';
 
 .mdc-layout-grid {
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .mdc-layout-grid__inner .mdc-layout-grid__inner section {
