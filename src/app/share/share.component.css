@@ -17,6 +17,10 @@
   }
 }
 
+.mdc-fab {
+  z-index: 14;
+}
+
 .mdc-simple-menu {
   z-index: 15;
 }
