@@ -2,6 +2,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { Location } from '@angular/common';
 import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
+import { Router } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
 
@@ -18,7 +19,8 @@ export class DetailsComponent implements OnInit {
 
   constructor(private deckService: DeckService,
               private route: ActivatedRoute,
-              private location: Location) { }
+              private location: Location,
+              private router: Router) { }
 
   @Input() deck: Deck;
 
@@ -68,7 +70,11 @@ export class DetailsComponent implements OnInit {
   }
 
   goBack(): void {
-    this.location.back();
+    if (window.history.length > 1) {
+      this.location.back();
+    } else {
+      this.router.navigate(['/']);
+    }
   }
 
   open(url: string): void {
