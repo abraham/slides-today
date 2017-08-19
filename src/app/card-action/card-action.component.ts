@@ -21,7 +21,9 @@ export class CardActionComponent implements OnInit {
     MDCRipple.attachTo(this.actionEl.nativeElement);
   }
 
-  open(url: string): void {
-    window.open(url);
+  open(): void {
+    if (this.url) {
+      window.open(this.url);
+    }
   }
 }

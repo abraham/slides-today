@@ -1,7 +1,7 @@
 <div class="mdc-card">
   <section class="mdc-card__primary">
     <h2 class="mdc-card__subtitle">{{deck.eventTitle}}</h2>
-    <h1 class="mdc-card__title mdc-card__title--large" (click)="goToDeck(deck.id)">{{deck.title}}</h1>
+    <h1 class="mdc-card__title mdc-card__title--large" (click)="goToDeck()">{{deck.title}}</h1>
   </section>
   <section class="mdc-card__supporting-text">
     <app-tags [tags]="deck.tags" [currentTag]="currentTag"></app-tags>
@@ -17,9 +17,8 @@
            (onLoad)="setCurrentStyles()">
   </section>
   <section #actions class="mdc-card__actions">
-    <app-card-action *ngFor="let link of deck.links"
-                     [text]="link.title"
-                     [url]="link.url">
+    <app-card-action [text]="'Details'"
+                     (click)="goToDeck()">
     </app-card-action>
   </section>
 </div>

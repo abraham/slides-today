@@ -15,7 +15,7 @@ header {
   height: 200px;
 }
 
-.back, .home {
+.back, .home, .speakers .mdc-list-item {
   cursor: pointer;
 }
 

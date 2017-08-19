@@ -73,7 +73,7 @@ export class DeckComponent {
     return `${this.apiUrl}?${this.apiParams()}`;
   }
 
-  goToDeck(id: number): void {
-    this.router.navigate(['/decks', id]);
+  goToDeck(): void {
+    this.router.navigate(['/decks', this.deck.id]);
   }
 }

@@ -70,6 +70,10 @@ export class DetailsComponent implements OnInit {
     this.location.back();
   }
 
+  open(url: string): void {
+    window.open(url);
+  }
+
   private center(): string {
     return encodeURIComponent(this.deck.location);
   }
