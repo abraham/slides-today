@@ -30,3 +30,11 @@ header {
   z-index: 10;
   background-color: #fff;
 }
+
+.mdc-typography--subheading2 .material-icons {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.75rem;
+  vertical-align: -2px;
+}
