@@ -58,6 +58,7 @@ export class DetailsComponent implements OnInit {
   ];
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     this.route.paramMap
       .switchMap((params: ParamMap) => {
         return this.deckService.getDeck(+ params.get('id'));
