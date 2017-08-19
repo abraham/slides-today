@@ -8,7 +8,7 @@ export class DeckService {
     return Promise.resolve(DECKS);
   }
 
-  getDeck(id: number): Promise<Deck> {
+  getDeck(id: string): Promise<Deck> {
     return Promise.resolve(DECKS.find(deck => deck.id === id));
   }
 }

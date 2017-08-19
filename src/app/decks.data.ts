@@ -2,7 +2,7 @@ import { Deck } from './deck';
 
 export const DECKS: Deck[] = [
   {
-    id: 23,
+    id: '-Krv_65pE2p9nJUXkhFl',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'August 22nd, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
@@ -23,7 +23,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 22,
+    id: '-Krv_4SqDbjoADBL6r3Q',
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 17th, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
@@ -44,7 +44,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 21,
+    id: '-Krv_2GgLtDjYwGOEm8v',
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 8th, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
@@ -65,7 +65,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 20,
+    id: '-Krv_0Yp5bPmylxcTnss',
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 3rd, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
@@ -86,7 +86,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 19,
+    id: '-KrvZzUSqxYoXmJWLGun',
     title: 'Get the Power of Native with Progressive Web Apps',
     date: 'July 22nd, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and home screen access.',
@@ -112,7 +112,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 18,
+    id: '-KrvZxXjRvdxuo_pWZGy',
     title: 'Getting Started with the Twitter API',
     date: 'July 18th, 2017',
     description: 'Learn from the author of TwitterOAuth how to quickly integrate your application with the Twitter API. We will show you how to speed up onboarding with “Sign in with Twitter” authentication, bootstrap profiles with Twitter identities, and increase reach with quick publishing to user timelines. We’ll go over some basic do’s and don’ts of the Twitter API and show how easy it is to integrate using the TwitterOAuth open source library.',
@@ -138,7 +138,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 17,
+    id: '-KrvZtwL_ZafufriB-ta',
     title: 'Web Components: Lego Bricks of the Web',
     date: 'July 17th, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
@@ -164,7 +164,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 16,
+    id: '-KrvZsDivrXv69eEkiRs',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'July 10th, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.  ',
@@ -185,7 +185,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 15,
+    id: '-KrvZof6--agoRIC6vl0',
     title: 'Google I/O Recap',
     date: 'June 15th, 2017',
     description: 'Experience highlights from the May 2017 Google I/O developer festival. Every spring, Google invites thousands of developers to a three-day festival where Google engineers and product managers teach technical skills, share insights, and announce new developer products. Abraham and Pearl will be there and they’re excited to tell you what they learned. ',
@@ -206,7 +206,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 14,
+    id: '-KrvZmqmksA5WVIr1uoA',
     title: 'Get talking with Actions on Google',
     date: 'April 15th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
@@ -227,7 +227,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 13,
+    id: '-KrvZlA6DeLeyBqBT4Jy',
     title: 'Web Components: Lego bricks of the web',
     date: 'March 22nd, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Use the native web platform to build performant, lightweight building blocks for your site. We will show you how to build custom elements using best practices and how to integrate them with your Angular project.',
@@ -248,7 +248,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 12,
+    id: '-KrvZjBO9DYgRe8s1IvT',
     title: 'Web Components: Lego bricks of the web',
     date: 'Februery 18th, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
@@ -269,7 +269,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 11,
+    id: '-KrvZhHuFAWhgI4tlPmB',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'Februery 18th, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
@@ -290,7 +290,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 10,
+    id: '-KrvZed8RQb9Pz5LvMOY',
     title: 'Get talking with Actions on Google',
     date: 'Februery 18th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
@@ -311,7 +311,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 9,
+    id: '-KrvZaHltvInXVa-kjNt',
     title: 'Get talking with Actions on Google',
     date: 'Februery 8th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
@@ -332,7 +332,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 8,
+    id: '-KrvZWvDU7VUnyPTDmSA',
     title: 'Burn down your competitors with Firebase',
     date: 'December 5th, 2016',
     description: 'Google’s Firebase provides a suite of products to help you quickly build realtime apps. We’ll show how Firebase can take care of authentication, database, storage, and scaling while you concentrate on user experience and building an amazing product.',
@@ -353,7 +353,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 7,
+    id: '-KrvZRBmB_NDgJ6z2m0T',
     title: 'Energize your development flow with CLIs',
     date: 'December 7th, 2016',
     description: 'Creating personalized CLIs can help you streamline recurring tasks, such as setting up new development environments, managing deployments, and wrangling data. We will walk you through building CLIs in Ruby to help you avoid costly mistakes and ensure consistent results. Create simple commands that perform powerful tasks.',
@@ -374,7 +374,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 6,
+    id: '-KrvZPN8eZVq6gUOfuQm',
     title: 'Web Components: Lego bricks of the web',
     date: 'November 3rd, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
@@ -395,7 +395,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 5,
+    id: '-KrvZMwl5K6WfArx9xkz',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'November 3rd, 2016',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
@@ -421,7 +421,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 4,
+    id: '-KrvZKom6cxpaOUtaxkK',
     title: 'Web Components: Lego bricks of the web',
     date: 'October 20th, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
@@ -442,7 +442,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 3,
+    id: '-KrvZIrGfzwEjp7UKulY',
     title: 'Web Components: Lego bricks of the web',
     date: 'October 1st, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
@@ -468,7 +468,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 2,
+    id: '-KrvZGc2sMFHbGMkaRNc',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'September 16th, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
@@ -489,7 +489,7 @@ export const DECKS: Deck[] = [
     ]
   },
   {
-    id: 1,
+    id: '-KrvZAS455BHznj4ugI2',
     title: 'The Bendy Game of Life³',
     date: 'June 15th, 2016',
     description: 'The Bendy Game of Life is a 3D version of Conway’s Game of Life, which simulates the evolution of a population given initial settings chosen by the player. Visually, the game board is a 3D grid with a variable number of cells filled in or “alive.” Depending on the number of “alive” or “dead” neighbor cells each cell has, it will die, survive, or come alive in the next turn or “generation.” Generations continue following this algorithm until the population stabilizes.',

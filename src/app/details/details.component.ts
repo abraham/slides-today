@@ -61,7 +61,7 @@ export class DetailsComponent implements OnInit {
     window.scrollTo(0, 0);
     this.route.paramMap
       .switchMap((params: ParamMap) => {
-        return this.deckService.getDeck(+ params.get('id'));
+        return this.deckService.getDeck(params.get('id'));
       })
       .subscribe(deck => this.deck = deck);
     this.initToolbar();

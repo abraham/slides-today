@@ -42,7 +42,7 @@ export class ShareComponent implements AfterViewInit {
     return encodeURIComponent(window.location.href);
   }
 
-  toggleMenu(event) {
+  toggleMenu() {
     this._menu.open = !this._menu.open;
   }
 

@@ -1,7 +1,7 @@
 import { Link } from './link';
 
 export class Deck {
-  id: number;
+  id: string;
   title: string;
   date: string;
   description: string;
