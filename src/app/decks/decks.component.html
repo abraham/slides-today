@@ -2,7 +2,7 @@
 
 <main class='mdc-layout-grid'>
   <div class="mdc-layout-grid__inner">
-    <app-tags [tags]="tags" [currentTag]="currentTag" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-tags>
+    <app-tags [tags]="tags.sort()" [currentTag]="currentTag" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-tags>
     <app-about *ngIf="!currentTag" class="mdc-layout-grid__cell"></app-about>
     <app-deck *ngFor="let deck of decks"
               [deck]="deck"

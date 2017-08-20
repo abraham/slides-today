@@ -29,13 +29,18 @@ export class Deck {
   }
 
   private _uniqueTags(tags): string[] {
-    const working: string[] = this._linkTags();
+    const working: string[] = [];
     tags.map((tag) => {
       if (!working.includes(tag)) {
         working.push(tag);
       }
     });
-    return working.sort();
+    this._linkTags().map(tag => {
+      if (!working.includes(tag)) {
+        working.push(tag);
+      }
+    });
+    return working;
   }
 
   private _linkTags(): string[] {
