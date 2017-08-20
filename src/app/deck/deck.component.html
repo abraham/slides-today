@@ -13,8 +13,7 @@
            [offset]="offset"
            [defaultImage]="defaultImage"
            [lazyLoad]="mapUrl()"
-           [ngStyle]="currentStyles"
-           (onLoad)="setCurrentStyles()">
+           [ngStyle]="currentStyles()">
   </section>
   <section #actions class="mdc-card__actions">
     <app-card-action [text]="'Details'"

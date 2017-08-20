@@ -16,7 +16,6 @@ export class DeckComponent {
   @Input() currentTag: string;
 
   offset = -200;
-  currentStyles = {};
   imageLoaded: false;
   defaultImage = '/assets/img/default.jpg';
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
@@ -59,13 +58,13 @@ export class DeckComponent {
     return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 
-  setCurrentStyles(): void {
+  currentStyles(): object {
     if (this.imageLoaded) {
-      this.currentStyles = {
+      return {
         'background-size': 'cover'
       };
     } else {
-      this.currentStyles = {};
+      return {};
     }
   }
 

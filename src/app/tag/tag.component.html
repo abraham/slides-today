@@ -1,7 +1,7 @@
 <div #tagEL class="md-chip md-chip-clickable mdc-typography mdc-ripple-surface"
-     [ngClass]="text"
+     [ngStyle]="currentStyles()"
      [class.md-chip-raised]="raised"
-     (click)="goToTag(text)">
-     {{text}}
+     (click)="goToTag(tag.id)">
+     {{tag.id}}
      <button *ngIf="raised" type="button" class="md-chip-remove"></button>
    </div>

@@ -8,16 +8,19 @@ import 'rxjs/add/operator/switchMap';
 
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
+import { Tag } from '../tag';
+import { TagService } from '../tag.service';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css'],
-  providers: [DeckService],
+  providers: [DeckService, TagService],
 })
 export class DetailsComponent implements OnInit {
 
   constructor(private deckService: DeckService,
+              private tagService: TagService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router) { }
@@ -25,8 +28,10 @@ export class DetailsComponent implements OnInit {
   @Input() deck: Deck;
 
   @ViewChild('toolbarFixedEl') toolbarFixedEl;
+  @ViewChild('detailsEl') detailsEl;
 
   currentTag: string;
+  primaryTag: Tag;
   title = 'Slides.today';
   toolbar: MDCToolbar;
   defaultImage = '/assets/img/default.png';
@@ -63,9 +68,15 @@ export class DetailsComponent implements OnInit {
     window.scrollTo(0, 0);
     this.route.paramMap
       .switchMap((params: ParamMap) => {
-        return this.deckService.getDeck(params.get('id'));
+        return Promise.all([
+          this.deckService.getDeck(params.get('id')),
+          this.tagService.getTags(),
+        ]);
       })
-      .subscribe(deck => this.deck = deck);
+      .subscribe(all => {
+        this.deck = all[0];
+        this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
+      });
     this.initToolbar();
   }
 
@@ -79,6 +90,17 @@ export class DetailsComponent implements OnInit {
 
   open(url: string): void {
     window.open(url);
+  }
+
+  currentStyles(): object {
+    if (this.primaryTag) {
+      return {
+        backgroundColor: this.primaryTag.backgroundColor,
+        color: this.primaryTag.color,
+      };
+    } else {
+      return {};
+    }
   }
 
   private center(): string {

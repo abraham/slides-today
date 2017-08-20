@@ -2,6 +2,8 @@ import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
 import { Router } from '@angular/router';
 
+import { Tag } from '../tag';
+
 @Component({
   selector: 'app-tag',
   templateUrl: './tag.component.html',
@@ -10,11 +12,10 @@ import { Router } from '@angular/router';
 
 export class TagComponent implements OnInit {
 
-  @Input() text: string;
+  @Input() tag: Tag;
   @Input() currentTag: string;
   @Input() raised: boolean;
   @ViewChild('tagEL') tagEL;
-
   constructor(private router: Router) { }
 
   ngOnInit() {
@@ -25,11 +26,22 @@ export class TagComponent implements OnInit {
     MDCRipple.attachTo(this.tagEL.nativeElement);
   }
 
-  goToTag(tag: string): void {
-    if (this.currentTag === tag) {
+  currentStyles(): object {
+    if (this.raised) {
+      return {};
+    } else {
+      return {
+        backgroundColor: this.tag.backgroundColor,
+        color: this.tag.color,
+      };
+    }
+  }
+
+  goToTag(id: string): void {
+    if (this.currentTag === id) {
       this.router.navigate(['/']);
     } else {
-      this.router.navigate(['/tags', { tag: tag}]);
+      this.router.navigate(['/tags', { tag: id}]);
     }
   }
 }

@@ -1,6 +1,6 @@
-<div class="md-chips">
+<div class="md-chips" *ngIf="tagData">
   <app-tag *ngFor="let tag of tags.sort()"
-           [text]="tag"
+           [tag]="getTag(tag)"
            [raised]="raised(tag)"
            [currentTag]="currentTag">
   </app-tag>
