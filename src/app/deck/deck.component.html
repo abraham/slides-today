@@ -17,7 +17,8 @@
   </section>
   <section #actions class="mdc-card__actions">
     <app-card-action [text]="'Details'"
-                     (click)="goToDeck()">
+                     [url]="url()"
+                     [blank]="false">
     </app-card-action>
   </section>
 </div>

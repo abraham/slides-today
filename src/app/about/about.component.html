@@ -10,7 +10,8 @@
   <section class="mdc-card__actions">
     <app-card-action *ngFor="let link of links"
                      [text]="link.title"
-                     [url]="link.url">
+                     [url]="link.url"
+                     [blank]="true">
     </app-card-action>
   </section>
 </div>

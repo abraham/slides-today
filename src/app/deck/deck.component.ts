@@ -72,7 +72,11 @@ export class DeckComponent {
     return `${this.apiUrl}?${this.apiParams()}`;
   }
 
+  url(): string {
+    return this.router.createUrlTree(['/decks', this.deck.id]).toString();
+  }
+
   goToDeck(): void {
-    this.router.navigate(['/decks', this.deck.id]);
+    this.router.navigate([this.url()]);
   }
 }

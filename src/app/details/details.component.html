@@ -63,7 +63,8 @@
             <nav>
               <app-card-action *ngFor="let link of deck.links"
                                [text]="link.title"
-                               [url]="link.url">
+                               [url]="link.url"
+                               [blank]="true">
               </app-card-action>
             </nav>
           </section>
