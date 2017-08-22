@@ -33,7 +33,7 @@
           </section>
           <div class="map"
                [defaultImage]="defaultImage"
-               [lazyLoad]="mapUrl()">
+               [lazyLoad]="mapUrl">
           </div>
           <section class="speakers">
             <h3 class="mdc-typography--subheading2"><i class="material-icons">people</i> Speakers</h3>
@@ -69,6 +69,20 @@
             </nav>
           </section>
         </div>
+      </div>
+    </div>
+    <div #embedEl class="deck-details mdc-elevation--z2 mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+      <div class="mdc-layout-grid__inner">
+        <section class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+          <iframe *ngIf="deck"
+                  [attr.src]="embedUrl"
+                  frameborder="0"
+                  [width]="embedDimensions.width"
+                  [height]="embedDimensions.height"
+                  allowfullscreen="true"
+                  mozallowfullscreen="true"
+                  webkitallowfullscreen="true"></iframe>
+        </section>
       </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
 import { Router } from '@angular/router';
@@ -23,18 +24,23 @@ export class DetailsComponent implements OnInit {
               private tagService: TagService,
               private route: ActivatedRoute,
               private location: Location,
-              private router: Router) { }
+              private router: Router,
+              private sanitizer: DomSanitizer) { }
 
   @Input() deck: Deck;
 
   @ViewChild('toolbarFixedEl') toolbarFixedEl;
   @ViewChild('detailsEl') detailsEl;
+  @ViewChild('embedEl') embedEl;
 
   currentTag: string;
   primaryTag: Tag;
   title = 'Slides.today';
   toolbar: MDCToolbar;
   defaultImage = '/assets/img/default.png';
+  embedDimensions: { width: number, height: number };
+  mapUrl: string;
+  embedUrl: SafeResourceUrl;
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';
@@ -76,8 +82,11 @@ export class DetailsComponent implements OnInit {
       .subscribe(all => {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
+        this.setMapUrl();
+        this.setEmbedUrl();
       });
     this.initToolbar();
+    this.setEmbedDimensions();
   }
 
   goBack(): void {
@@ -115,8 +124,22 @@ export class DetailsComponent implements OnInit {
     return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 
-  mapUrl(): string {
-    return `${this.apiUrl}?${this.apiParams()}`;
+  setMapUrl(): void {
+    this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
+  }
+
+  setEmbedUrl(): void {
+    const url = `${this.slideUrl()}/embed?start=false&loop=false&delayms=30000`;
+    this.embedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+  setEmbedDimensions(): void {
+    const width = this.embedEl.nativeElement.offsetWidth - 32;
+    const height = Math.round(width * 569 / 960) + 16;
+    this.embedDimensions = { width: width, height: height };
+  }
+
+  slideUrl(): string {
+    return this.deck.links.filter(link => link.title === 'Slides')[0].url;
   }
 
   initToolbar(): void {
