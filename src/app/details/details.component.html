@@ -73,16 +73,14 @@
     </div>
     <div #embedEl class="deck-details mdc-elevation--z2 mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
-        <section class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
-          <iframe *ngIf="deck"
-                  [attr.src]="embedUrl"
-                  frameborder="0"
-                  [width]="embedDimensions.width"
-                  [height]="embedDimensions.height"
-                  allowfullscreen="true"
-                  mozallowfullscreen="true"
-                  webkitallowfullscreen="true"></iframe>
-        </section>
+        <iframe *ngIf="deck"
+                [attr.src]="embedUrl"
+                frameborder="0"
+                [width]="embedDimensions.width"
+                [height]="embedDimensions.height"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"></iframe>
       </div>
     </div>
   </div>

@@ -133,7 +133,7 @@ export class DetailsComponent implements OnInit {
     this.embedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
   setEmbedDimensions(): void {
-    const width = this.embedEl.nativeElement.offsetWidth - 32;
+    const width = this.embedEl.nativeElement.offsetWidth;
     const height = Math.round(width * 569 / 960) + 16;
     this.embedDimensions = { width: width, height: height };
   }
