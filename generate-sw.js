@@ -38,6 +38,17 @@ const input = {
         },
         cacheableResponse: {statuses: [0, 200]}
       }
+    },
+    {
+      urlPattern: /^https:\/\/unpkg\.com\/(.*)/,
+      handler: 'cacheFirst',
+      options: {
+        cacheName: 'runtime-scripts',
+        cacheExpiration: {
+          maxAgeSeconds: 24 * 60 * 60,
+        },
+        cacheableResponse: {statuses: [0, 200]}
+      }
     }
   ],
   handleFetch: true,
