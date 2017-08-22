@@ -10,15 +10,15 @@ export class Deck {
   location: string;
   links: Link[];
 
-  constructor(deck: any) {
-    this.id = deck.id;
-    this.title = deck.title;
-    this.date = deck.date;
-    this.description = deck.description;
-    this.eventTitle = deck.eventTitle;
-    this.location = deck.location;
-    this.links = deck.links;
-    this.tags = deck.tags;
+  constructor(data: any) {
+    this.id = data.id;
+    this.title = data.title;
+    this.date = data.date;
+    this.description = data.description;
+    this.eventTitle = data.eventTitle;
+    this.location = data.location;
+    this.links = data.links;
+    this.tags = data.tags;
   }
 
   public set tags(tags: string[]) {

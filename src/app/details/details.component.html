@@ -1,6 +1,5 @@
 <header #toolbarFixedEl class="mdc-toolbar
-               mdc-toolbar--fixed
-               mdc-toolbar--waterfall"
+               mdc-toolbar--fixed"
                [ngStyle]="currentStyles">
   <div class="mdc-toolbar__row">
     <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
@@ -71,18 +70,14 @@
         </div>
       </div>
     </div>
-    <div #embedEl class="deck-details mdc-elevation--z2 mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-      <div class="mdc-layout-grid__inner">
-        <iframe *ngIf="deck"
-                [attr.src]="embedUrl"
-                frameborder="0"
-                [width]="embedDimensions.width"
-                [height]="embedDimensions.height"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"></iframe>
+
+    <ng-template ngFor let-embed [ngForOf]="embeds">
+      <div class="deck-details mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+        <div class="mdc-layout-grid__inner">
+          <app-embed [width]="embedWidth" [link]="embed"></app-embed>
+        </div>
       </div>
-    </div>
+    </ng-template>
   </div>
 </main>
 

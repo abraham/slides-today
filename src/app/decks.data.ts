@@ -1,4 +1,5 @@
 import { Deck } from './deck';
+import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
@@ -14,11 +15,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1TybgcgjmAFB8AHTOQzBMrKOc4XAma-HFEvdWqdXUOQc',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://www.midwestjs.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -35,11 +38,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1TXePoX459CGL8EEPYiAoLLdF092ev4f-GW0FK8Ftn6o',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://www.midwestjs.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -56,11 +61,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1wgFQACcTgft_lVSgFsduMLznG-iCM4NFF4bC6ZNYR6M',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/Rockford-Web-Devs/events/238442439/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -77,11 +84,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1k9uS824i0sieSy0O9KSBN67quT_5ZXQbC-w0P06PrWk',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://www.kcdc.info/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -98,16 +107,19 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1CGLXYGKqyb5Jxt62DAGDN8gjNJ56vZNJCzIG2OT6d64',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.codercruise.com/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Reviews',
         url: 'https://joind.in/event/codercruise/get-the-power-of-native-with-progressive-web-apps',
         tag: true,
+        service: 'joindin',
       },
     ]
   },
@@ -124,16 +136,19 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1TCVGVUZ0BFNAcf56mxyMQI7hHUOp2GzRwOKkZJ_lQi0',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.codercruise.com/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Reviews',
         url: 'https://joind.in/event/codercruise/getting-started-with-the-twitter-api',
         tag: true,
+        service: 'joindin',
       },
     ]
   },
@@ -150,16 +165,19 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1ddQ12a2EtnVRgWl4fCqK3HCfB3JvXlJrPm2oqS_HwbI',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.codercruise.com/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Reviews',
         url: 'https://joind.in/event/codercruise/web-components-lego-bricks-of-the-web',
         tag: true,
+        service: 'joindin',
       },
     ]
   },
@@ -176,11 +194,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/14FhXTP0Kx0Uli5YTzQcIWVUqKI7_-U_vr8NSZEo0rJA',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/MadisonJS/events/238952227/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -197,11 +217,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1J2VBd_msTRcZGuNk_Pj2i4SZEVXM_-hbsFW_kXxa_KE',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/gdg-madison/events/239355851/',
         tag: false,
+        service: 'meetup',
       },
     ]
   },
@@ -218,11 +240,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1trLvZmpDJca7Z0c-DaSUZg2ChdqFN5vj04q--TCcQKI',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/gdg-madison/events/237914183/',
         tag: false,
+        service: 'meetup',
       },
     ]
   },
@@ -239,11 +263,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/13ISIYU6v7xVY0IKMTBIi8VHI-VsIjwqBspAEbxspCCU',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://jazzcon.tech/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -260,11 +286,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1P4T2_aMgJlOO4seH4P6sDcQMgcAKkjUaOB-izjFVIdw',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://devfestkc.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -281,11 +309,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1uONFEBmXg6k1LZvC4KPXMCyrEMhEeOG8_2_UQ1-uzio',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://devfestkc.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -302,11 +332,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1L_IDKj0GzFmadZM__XAGo-7AzGDvlsFRUsid80O5TM0',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://devfestkc.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -323,11 +355,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1EjoqN1gs7Pfr_RRHRNI7CmNJmL4DgxzEFsroAkbpU7A',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/237220640/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -344,11 +378,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1UBKBBubWQtIniOGsu8jFKpFm0j2abRacGwRxyxMqBEc',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://confoo.ca/en/yvr2016',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -365,11 +401,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1hB8NNTm8AwelCeARZO9wc_bL-3cabTbhDvccAWXGujM',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://confoo.ca/en/yvr2016',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -386,11 +424,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://devfest2016.gdgsv.com/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -407,16 +447,19 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1uRDz3fStZ8oNBi3TK4K0fgIp0rlfsOz8jRhpaUCDGsA',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://mobileera.rocks/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Video',
         url: 'https://vimeo.com/190713344',
         tag: true,
+        service: 'vimeo',
       },
     ]
   },
@@ -433,11 +476,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/10mwL3h6RbjxEAH94M022EgHzFkIO_6lIb_HUWmT3l00',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://connect.tech/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -454,16 +499,19 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'http://2016.madisonphpconference.com/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Reviews',
         url: 'https://joind.in/event/madison-php-conference-2016/web-components-lego-bricks-of-the-web',
         tag: true,
+        service: 'joindin',
       },
     ]
   },
@@ -480,11 +528,13 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1Cr_Cf2Ef9L7ojQWUTy0kuDMUZHqMYf3d_PO1MQkBtg4',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/232947796/',
         tag: false,
+        service: 'external',
       },
     ]
   },
@@ -501,19 +551,23 @@ export const DECKS: Deck[] = [
         title: 'Slides',
         url: 'https://docs.google.com/presentation/d/1idTXiseohF54-OTHLTReKgFGDxbOVlCAX9UMYUFiois',
         tag: false,
+        service: 'google-slides',
       },
       {
         title: 'Event',
         url: 'https://www.meetup.com/madhackers/events/231725576/',
         tag: false,
+        service: 'external',
       },
       {
         title: 'Video',
         url: 'https://www.youtube.com/watch?v=_hewWDDvkMQ',
         tag: true,
+        service: 'youtube',
       },
     ]
   }
-].map((deck) => {
+].map(deck => {
+  deck.links = deck.links.map(link => new Link(link));
   return new Deck(deck);
 });

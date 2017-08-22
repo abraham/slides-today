@@ -1,6 +1,5 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Location } from '@angular/common';
 import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
 import { Router } from '@angular/router';
@@ -9,6 +8,7 @@ import 'rxjs/add/operator/switchMap';
 
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
+import { Link } from '../link';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 
@@ -24,14 +24,12 @@ export class DetailsComponent implements OnInit {
               private tagService: TagService,
               private route: ActivatedRoute,
               private location: Location,
-              private router: Router,
-              private sanitizer: DomSanitizer) { }
+              private router: Router) { }
 
   @Input() deck: Deck;
 
   @ViewChild('toolbarFixedEl') toolbarFixedEl;
   @ViewChild('detailsEl') detailsEl;
-  @ViewChild('embedEl') embedEl;
 
   currentTag: string;
   currentStyles = {};
@@ -39,9 +37,9 @@ export class DetailsComponent implements OnInit {
   title = 'Slides.today';
   toolbar: MDCToolbar;
   defaultImage = '/assets/img/default.png';
-  embedDimensions: { width: number, height: number };
   mapUrl: string;
-  embedUrl: SafeResourceUrl;
+  embeds: Link[];
+  embedWidth: number;
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';
@@ -84,11 +82,11 @@ export class DetailsComponent implements OnInit {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
         this.setMapUrl();
-        this.setEmbedUrl();
         this.setCurrentStyles();
+        this.setEmbeds();
+        this.setEmbedWidth();
       });
     this.initToolbar();
-    this.setEmbedDimensions();
   }
 
   goBack(): void {
@@ -128,22 +126,17 @@ export class DetailsComponent implements OnInit {
     this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
   }
 
-  setEmbedUrl(): void {
-    const url = `${this.slideUrl()}/embed?start=false&loop=false&delayms=30000`;
-    this.embedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-  setEmbedDimensions(): void {
-    const width = this.embedEl.nativeElement.offsetWidth;
-    const height = Math.round(width * 569 / 960) + 16;
-    this.embedDimensions = { width: width, height: height };
-  }
-
-  slideUrl(): string {
-    return this.deck.links.filter(link => link.title === 'Slides')[0].url;
+  setEmbedWidth(): void {
+    // The 6 is to offset for a scroll bar
+    this.embedWidth = this.detailsEl.nativeElement.offsetWidth;
   }
 
   initToolbar(): void {
     this.toolbar = new MDCToolbar(this.toolbarFixedEl.nativeElement);
   }
 
+  setEmbeds(): void {
+    const embedServices = ['youtube', 'google-slides'];
+    this.embeds = this.deck.links.filter(link => embedServices.includes(link.service));
+  }
 }

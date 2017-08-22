@@ -16,6 +16,7 @@ import { TagComponent } from './tag/tag.component';
 import { TagsComponent } from './tags/tags.component';
 import { ShareComponent } from './share/share.component';
 import { UpdateComponent } from './update/update.component';
+import { EmbedComponent } from './embed/embed.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { UpdateComponent } from './update/update.component';
     TagsComponent,
     ShareComponent,
     UpdateComponent,
+    EmbedComponent,
   ],
   imports: [
     AppRoutingModule,
