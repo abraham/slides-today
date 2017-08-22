@@ -7,9 +7,8 @@
     <app-deck *ngFor="let deck of decks"
               [deck]="deck"
               [currentTag]="currentTag"
-              [class.hidden]="hidden(deck)"
               class="mdc-layout-grid__cell"></app-deck>
-    <div *ngIf="!hasDecks()" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTag}}</div>
+    <div *ngIf="!hasDecks" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTag}}</div>
   </div>
 </main>
 

@@ -12,6 +12,8 @@ import { Tag } from '../tag';
 
 export class TagComponent implements OnInit {
 
+  currentStyles = {};
+
   @Input() tag: Tag;
   @Input() currentTag: string;
   @Input() raised: boolean;
@@ -20,21 +22,18 @@ export class TagComponent implements OnInit {
 
   ngOnInit() {
     this.initRipples();
+    this.setCurrentStyles();
   }
 
   initRipples(): void {
     MDCRipple.attachTo(this.tagEL.nativeElement);
   }
 
-  currentStyles(): object {
-    if (this.raised) {
-      return {};
-    } else {
-      return {
-        backgroundColor: this.tag.backgroundColor,
-        color: this.tag.color,
-      };
-    }
+  setCurrentStyles(): void {
+    this.currentStyles = {
+      backgroundColor: this.tag.backgroundColor,
+      color: this.tag.color,
+    };
   }
 
   goToTag(id: string): void {

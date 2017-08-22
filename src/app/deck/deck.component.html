@@ -12,12 +12,12 @@
   <section class="mdc-card__media"
            [offset]="offset"
            [defaultImage]="defaultImage"
-           [lazyLoad]="mapUrl()"
-           [ngStyle]="currentStyles()">
+           [lazyLoad]="mapUrl"
+           [ngStyle]="imageLoaded ? coverStyle : {}">
   </section>
   <section #actions class="mdc-card__actions">
     <app-card-action [text]="'Details'"
-                     [url]="url()"
+                     [url]="url"
                      [blank]="false">
     </app-card-action>
   </section>

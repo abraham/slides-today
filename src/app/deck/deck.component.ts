@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, HostBinding, OnChanges } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Deck } from '../deck';
@@ -9,15 +9,21 @@ import { Deck } from '../deck';
   styleUrls: ['./deck.component.css']
 })
 
-export class DeckComponent {
+export class DeckComponent implements OnInit, OnChanges {
   constructor (private router: Router) {}
 
   @Input() deck: Deck;
   @Input() currentTag: string;
 
+  @HostBinding('style.display') display = 'inline';
+
   offset = -200;
   imageLoaded: false;
   defaultImage = '/assets/img/default.jpg';
+  url: string;
+  mapUrl: string;
+  coverStyle = { 'background-size': 'cover' };
+
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '450x250';
   private zoom = '9';
@@ -46,6 +52,17 @@ export class DeckComponent {
     'feature:water%7Celement:labels.text%7Cvisibility:off'
   ];
 
+  ngOnInit() {
+    this.setMapUrl();
+    this.setUrl();
+  }
+
+  ngOnChanges(changes) {
+      if (changes.currentTag) {
+        this.setDisplay();
+      }
+    }
+
   private center(): string {
     return encodeURIComponent(this.deck.location);
   }
@@ -58,25 +75,24 @@ export class DeckComponent {
     return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 
-  currentStyles(): object {
-    if (this.imageLoaded) {
-      return {
-        'background-size': 'cover'
-      };
-    } else {
-      return {};
-    }
+  setMapUrl(): void {
+    this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
   }
 
-  mapUrl(): string {
-    return `${this.apiUrl}?${this.apiParams()}`;
-  }
-
-  url(): string {
-    return this.router.createUrlTree(['/decks', this.deck.id]).toString();
+  setUrl(): void {
+    this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
   }
 
   goToDeck(): void {
-    this.router.navigate([this.url()]);
+    this.router.navigate([this.url]);
+  }
+
+  setDisplay(): void {
+    const hidden = this.currentTag && !this.deck.tags.includes(this.currentTag);
+    if (hidden) {
+      this.display = 'none';
+    } else {
+      this.display = 'inline';
+    }
   }
 }

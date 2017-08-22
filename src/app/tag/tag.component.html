@@ -1,5 +1,5 @@
 <div #tagEL class="md-chip md-chip-clickable mdc-typography mdc-ripple-surface"
-     [ngStyle]="currentStyles()"
+     [ngStyle]="raised ? {} : currentStyles"
      [class.md-chip-raised]="raised"
      (click)="goToTag(tag.id)">
      {{tag.id}}

@@ -34,6 +34,7 @@ export class DetailsComponent implements OnInit {
   @ViewChild('embedEl') embedEl;
 
   currentTag: string;
+  currentStyles = {};
   primaryTag: Tag;
   title = 'Slides.today';
   toolbar: MDCToolbar;
@@ -84,6 +85,7 @@ export class DetailsComponent implements OnInit {
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
         this.setMapUrl();
         this.setEmbedUrl();
+        this.setCurrentStyles();
       });
     this.initToolbar();
     this.setEmbedDimensions();
@@ -101,14 +103,12 @@ export class DetailsComponent implements OnInit {
     window.open(url);
   }
 
-  currentStyles(): object {
+  setCurrentStyles(): void {
     if (this.primaryTag) {
-      return {
+      this.currentStyles = {
         backgroundColor: this.primaryTag.backgroundColor,
         color: this.primaryTag.color,
       };
-    } else {
-      return {};
     }
   }
 

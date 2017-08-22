@@ -23,6 +23,7 @@ export class DecksComponent implements OnInit {
   currentTag: string;
   tags: string[] = [];
   title = 'Slides.today';
+  hasDecks = true;
 
   ngOnInit(): void {
     this.route.paramMap
@@ -30,7 +31,10 @@ export class DecksComponent implements OnInit {
         this.triggerScroll();
         return Promise.resolve(params.get('tag'));
       })
-      .subscribe(tag => this.currentTag = tag);
+      .subscribe(tag => {
+        this.currentTag = tag;
+        this.setHasDecks();
+      });
     this.getTags();
     this.getDecks();
   }
@@ -43,8 +47,8 @@ export class DecksComponent implements OnInit {
     return this.currentTag && !deck.tags.includes(this.currentTag);
   }
 
-  hasDecks(): boolean {
-    return this.decks && this.decks.length > 0;
+  setHasDecks(): void {
+    this.hasDecks = document.querySelectorAll('app-deck:not(.hidden)').length > 0;
   }
 
   getDecks(): void {
