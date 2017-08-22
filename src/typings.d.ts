@@ -5,3 +5,4 @@ interface NodeModule {
 }
 
 interface Window { BroadcastChannel: any; }
+interface Navigator { share: any; }

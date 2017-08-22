@@ -42,6 +42,23 @@ export class ShareComponent implements AfterViewInit {
     return encodeURIComponent(window.location.href);
   }
 
+  startShare(): void {
+    if ('share' in navigator) {
+      this.nativeShare();
+    } else {
+      this.toggleMenu();
+    }
+  }
+
+  nativeShare(): void {
+    navigator.share({
+      text: this.text,
+      url: window.location.href,
+    }).then(() => console.log('Successful share'))
+    .catch(error => console.log('Error sharing:', error));
+
+  }
+
   toggleMenu() {
     this._menu.open = !this._menu.open;
   }
