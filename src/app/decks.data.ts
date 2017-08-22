@@ -12,7 +12,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1TybgcgjmAFB8AHTOQzBMrKOc4XAma-HFEvdWqdXUOQc/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1TybgcgjmAFB8AHTOQzBMrKOc4XAma-HFEvdWqdXUOQc',
         tag: false,
       },
       {
@@ -33,7 +33,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1TXePoX459CGL8EEPYiAoLLdF092ev4f-GW0FK8Ftn6o/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1TXePoX459CGL8EEPYiAoLLdF092ev4f-GW0FK8Ftn6o',
         tag: false,
       },
       {
@@ -54,7 +54,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1wgFQACcTgft_lVSgFsduMLznG-iCM4NFF4bC6ZNYR6M/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1wgFQACcTgft_lVSgFsduMLznG-iCM4NFF4bC6ZNYR6M',
         tag: false,
       },
       {
@@ -75,7 +75,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1k9uS824i0sieSy0O9KSBN67quT_5ZXQbC-w0P06PrWk/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1k9uS824i0sieSy0O9KSBN67quT_5ZXQbC-w0P06PrWk',
         tag: false,
       },
       {
@@ -96,7 +96,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1CGLXYGKqyb5Jxt62DAGDN8gjNJ56vZNJCzIG2OT6d64/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1CGLXYGKqyb5Jxt62DAGDN8gjNJ56vZNJCzIG2OT6d64',
         tag: false,
       },
       {
@@ -122,7 +122,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1TCVGVUZ0BFNAcf56mxyMQI7hHUOp2GzRwOKkZJ_lQi0/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1TCVGVUZ0BFNAcf56mxyMQI7hHUOp2GzRwOKkZJ_lQi0',
         tag: false,
       },
       {
@@ -148,7 +148,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1ddQ12a2EtnVRgWl4fCqK3HCfB3JvXlJrPm2oqS_HwbI/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1ddQ12a2EtnVRgWl4fCqK3HCfB3JvXlJrPm2oqS_HwbI',
         tag: false,
       },
       {
@@ -174,7 +174,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/14FhXTP0Kx0Uli5YTzQcIWVUqKI7_-U_vr8NSZEo0rJA/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/14FhXTP0Kx0Uli5YTzQcIWVUqKI7_-U_vr8NSZEo0rJA',
         tag: false,
       },
       {
@@ -195,7 +195,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1J2VBd_msTRcZGuNk_Pj2i4SZEVXM_-hbsFW_kXxa_KE/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1J2VBd_msTRcZGuNk_Pj2i4SZEVXM_-hbsFW_kXxa_KE',
         tag: false,
       },
       {
@@ -216,7 +216,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1trLvZmpDJca7Z0c-DaSUZg2ChdqFN5vj04q--TCcQKI/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1trLvZmpDJca7Z0c-DaSUZg2ChdqFN5vj04q--TCcQKI',
         tag: false,
       },
       {
@@ -237,7 +237,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/13ISIYU6v7xVY0IKMTBIi8VHI-VsIjwqBspAEbxspCCU/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/13ISIYU6v7xVY0IKMTBIi8VHI-VsIjwqBspAEbxspCCU',
         tag: false,
       },
       {
@@ -258,7 +258,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1P4T2_aMgJlOO4seH4P6sDcQMgcAKkjUaOB-izjFVIdw/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1P4T2_aMgJlOO4seH4P6sDcQMgcAKkjUaOB-izjFVIdw',
         tag: false,
       },
       {
@@ -279,7 +279,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1uONFEBmXg6k1LZvC4KPXMCyrEMhEeOG8_2_UQ1-uzio/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1uONFEBmXg6k1LZvC4KPXMCyrEMhEeOG8_2_UQ1-uzio',
         tag: false,
       },
       {
@@ -300,7 +300,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1L_IDKj0GzFmadZM__XAGo-7AzGDvlsFRUsid80O5TM0/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1L_IDKj0GzFmadZM__XAGo-7AzGDvlsFRUsid80O5TM0',
         tag: false,
       },
       {
@@ -321,7 +321,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1EjoqN1gs7Pfr_RRHRNI7CmNJmL4DgxzEFsroAkbpU7A/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1EjoqN1gs7Pfr_RRHRNI7CmNJmL4DgxzEFsroAkbpU7A',
         tag: false,
       },
       {
@@ -342,7 +342,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1UBKBBubWQtIniOGsu8jFKpFm0j2abRacGwRxyxMqBEc/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1UBKBBubWQtIniOGsu8jFKpFm0j2abRacGwRxyxMqBEc',
         tag: false,
       },
       {
@@ -363,7 +363,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1hB8NNTm8AwelCeARZO9wc_bL-3cabTbhDvccAWXGujM/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1hB8NNTm8AwelCeARZO9wc_bL-3cabTbhDvccAWXGujM',
         tag: false,
       },
       {
@@ -384,7 +384,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds',
         tag: false,
       },
       {
@@ -405,7 +405,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1uRDz3fStZ8oNBi3TK4K0fgIp0rlfsOz8jRhpaUCDGsA/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1uRDz3fStZ8oNBi3TK4K0fgIp0rlfsOz8jRhpaUCDGsA',
         tag: false,
       },
       {
@@ -431,7 +431,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/10mwL3h6RbjxEAH94M022EgHzFkIO_6lIb_HUWmT3l00/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/10mwL3h6RbjxEAH94M022EgHzFkIO_6lIb_HUWmT3l00',
         tag: false,
       },
       {
@@ -452,7 +452,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds',
         tag: false,
       },
       {
@@ -478,7 +478,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1Cr_Cf2Ef9L7ojQWUTy0kuDMUZHqMYf3d_PO1MQkBtg4/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1Cr_Cf2Ef9L7ojQWUTy0kuDMUZHqMYf3d_PO1MQkBtg4',
         tag: false,
       },
       {
@@ -499,7 +499,7 @@ export const DECKS: Deck[] = [
     links: [
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1idTXiseohF54-OTHLTReKgFGDxbOVlCAX9UMYUFiois/edit?usp=sharing',
+        url: 'https://docs.google.com/presentation/d/1idTXiseohF54-OTHLTReKgFGDxbOVlCAX9UMYUFiois',
         tag: false,
       },
       {
