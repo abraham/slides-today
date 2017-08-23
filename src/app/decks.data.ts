@@ -3,6 +3,23 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KsEs5JMWk87ZisLpW1F',
+    title: 'Material Design that Delights',
+    date: 'September 16th, 2017',
+    description: 'By reputation, programmers aren’t great designers. “Designed by developers” usually implies a terrible user experience. Material Design is helping to change this. Google’s UX designers have developed and refined the principles behind Material Design through testing with billions of users. Using Material Design, you can create intuitive experiences with smooth animations that delight users and showcase your brand. We’ll explain Material Design principles and show you how to implement them.',
+    eventTitle: 'GDG Madison',
+    tags: ['material-design'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/gdg-madison/events/242690232/',
+        tag: false,
+        service: 'external',
+      },
+    ]
+  },
+  {
     id: '-Krv_65pE2p9nJUXkhFl',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'August 22nd, 2017',

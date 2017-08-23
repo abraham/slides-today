@@ -76,4 +76,9 @@ export const TAGS: Tag[] = [
     backgroundColor: '#607D8B',
     color: '#fff',
   },
+  {
+    id: 'material-design',
+    backgroundColor: '#909090',
+    color: '#fff',
+  },
 ];
