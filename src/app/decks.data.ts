@@ -20,6 +20,29 @@ export const DECKS: Deck[] = [
     ]
   },
   {
+    id: '-KsK81gOZiIkIWcL5AhZ',
+    title: 'Making Slides.today',
+    date: 'August 24th, 2017',
+    description: 'Slides.today was created to provide a better experience for session attendees. Get an overview of the problems being solved, the tech stack making it all possible and the bumpy spots along the way.',
+    eventTitle: 'GDE Web Technologies Hangout',
+    tags: ['angular', 'progressivewebapps', '⚡'],
+    location: 'Earth',
+    links: [
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/12FIksFEGPhPXVdNdvElFXD-wb5iRYqV7BXAQ3zlxjco',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
+        title: 'Demo',
+        url: 'https://slides.today',
+        tag: true,
+        service: 'external',
+      },
+    ]
+  },
+  {
     id: '-Krv_65pE2p9nJUXkhFl',
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'August 22nd, 2017',
