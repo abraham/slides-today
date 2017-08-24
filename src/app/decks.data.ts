@@ -8,7 +8,7 @@ export const DECKS: Deck[] = [
     date: 'September 16th, 2017',
     description: 'By reputation, programmers aren’t great designers. “Designed by developers” usually implies a terrible user experience. Material Design is helping to change this. Google’s UX designers have developed and refined the principles behind Material Design through testing with billions of users. Using Material Design, you can create intuitive experiences with smooth animations that delight users and showcase your brand. We’ll explain Material Design principles and show you how to implement them.',
     eventTitle: 'GDG Madison',
-    tags: ['material-design'],
+    tags: ['materialdesign'],
     location: 'Madison, WI',
     links: [
       {
@@ -25,7 +25,7 @@ export const DECKS: Deck[] = [
     date: 'August 22nd, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
     eventTitle: 'Midwest JS',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Minneapolis, MN',
     links: [
       {
@@ -48,7 +48,7 @@ export const DECKS: Deck[] = [
     date: 'August 17th, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
     eventTitle: 'Midwest JS',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Minneapolis, MN',
     links: [
       {
@@ -71,7 +71,7 @@ export const DECKS: Deck[] = [
     date: 'August 8th, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
     eventTitle: 'Rockford Web Devs',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Rockford, IL',
     links: [
       {
@@ -94,7 +94,7 @@ export const DECKS: Deck[] = [
     date: 'August 3rd, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
     eventTitle: 'KCDC',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Kansas City, MO',
     links: [
       {
@@ -117,7 +117,7 @@ export const DECKS: Deck[] = [
     date: 'July 22nd, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and home screen access.',
     eventTitle: 'CoderCruise',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Cozumel, Mexico',
     links: [
       {
@@ -146,7 +146,7 @@ export const DECKS: Deck[] = [
     date: 'July 18th, 2017',
     description: 'Learn from the author of TwitterOAuth how to quickly integrate your application with the Twitter API. We will show you how to speed up onboarding with “Sign in with Twitter” authentication, bootstrap profiles with Twitter identities, and increase reach with quick publishing to user timelines. We’ll go over some basic do’s and don’ts of the Twitter API and show how easy it is to integrate using the TwitterOAuth open source library.',
     eventTitle: 'CoderCruise',
-    tags: ['twitter-api', 'php'],
+    tags: ['twitterapi', 'php'],
     location: 'Grand Cayman, Cayman Islands',
     links: [
       {
@@ -175,7 +175,7 @@ export const DECKS: Deck[] = [
     date: 'July 17th, 2017',
     description: 'Are you writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
     eventTitle: 'CoderCruise',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Montego Bay, Jamaica',
     links: [
       {
@@ -204,7 +204,7 @@ export const DECKS: Deck[] = [
     date: 'July 10th, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.  ',
     eventTitle: 'MadJS',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Madison, WI',
     links: [
       {
@@ -227,7 +227,7 @@ export const DECKS: Deck[] = [
     date: 'June 15th, 2017',
     description: 'Experience highlights from the May 2017 Google I/O developer festival. Every spring, Google invites thousands of developers to a three-day festival where Google engineers and product managers teach technical skills, share insights, and announce new developer products. Abraham and Pearl will be there and they’re excited to tell you what they learned. ',
     eventTitle: 'GDG Madison',
-    tags: ['google-io'],
+    tags: ['googleio'],
     location: 'Madison, WI',
     links: [
       {
@@ -250,7 +250,7 @@ export const DECKS: Deck[] = [
     date: 'April 15th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
     eventTitle: 'GDG Madison',
-    tags: ['actions-on-google'],
+    tags: ['actionsongoogle'],
     location: 'Madison, WI',
     links: [
       {
@@ -273,7 +273,7 @@ export const DECKS: Deck[] = [
     date: 'March 22nd, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Use the native web platform to build performant, lightweight building blocks for your site. We will show you how to build custom elements using best practices and how to integrate them with your Angular project.',
     eventTitle: 'JazzCon.Tech',
-    tags: ['web-components', 'angular'],
+    tags: ['webcomponents', 'angular'],
     location: 'New Orleans, LA',
     links: [
       {
@@ -296,7 +296,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 18th, 2017',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build custom elements and introduce you to the existing elements and tools available from Google’s Polymer Project.',
     eventTitle: 'DevFest KC',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Kansas City, MO',
     links: [
       {
@@ -319,7 +319,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 18th, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
     eventTitle: 'DevFest KC',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Kansas City, MO',
     links: [
       {
@@ -342,7 +342,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 18th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
     eventTitle: 'DevFest KC',
-    tags: ['actions-on-google'],
+    tags: ['actionsongoogle'],
     location: 'Kansas City, MO',
     links: [
       {
@@ -365,7 +365,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 8th, 2017',
     description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences or direct action commands. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
     eventTitle: 'GDG Chicago',
-    tags: ['actions-on-google'],
+    tags: ['actionsongoogle'],
     location: 'Chicago, IL',
     links: [
       {
@@ -434,7 +434,7 @@ export const DECKS: Deck[] = [
     date: 'November 3rd, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
     eventTitle: 'DevFest West',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Mountain View, CA',
     links: [
       {
@@ -457,7 +457,7 @@ export const DECKS: Deck[] = [
     date: 'November 3rd, 2016',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
     eventTitle: 'Mobile Era',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Oslo, Norway',
     links: [
       {
@@ -486,7 +486,7 @@ export const DECKS: Deck[] = [
     date: 'October 20th, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
     eventTitle: 'Connect.Tech',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Atlanta, GA',
     links: [
       {
@@ -509,7 +509,7 @@ export const DECKS: Deck[] = [
     date: 'October 1st, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
     eventTitle: 'Madison PHP Conference',
-    tags: ['web-components', 'polymer'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Madison, WI',
     links: [
       {
@@ -538,7 +538,7 @@ export const DECKS: Deck[] = [
     date: 'September 16th, 2016',
     description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build, test, and deploy a web component, and introduce you to the wide selection of existing web components available through Google\'s Polymer.',
     eventTitle: 'Windy City DevCon',
-    tags: ['progressive-web-apps'],
+    tags: ['progressivewebapps'],
     location: 'Chicago, IL',
     links: [
       {
@@ -561,7 +561,7 @@ export const DECKS: Deck[] = [
     date: 'June 15th, 2016',
     description: 'The Bendy Game of Life is a 3D version of Conway’s Game of Life, which simulates the evolution of a population given initial settings chosen by the player. Visually, the game board is a 3D grid with a variable number of cells filled in or “alive.” Depending on the number of “alive” or “dead” neighbor cells each cell has, it will die, survive, or come alive in the next turn or “generation.” Generations continue following this algorithm until the population stabilizes.',
     eventTitle: 'Madhackers',
-    tags: ['three-js', 'ruby', '⚡'],
+    tags: ['threejs', 'ruby', '⚡'],
     location: 'Madison, WI',
     links: [
       {

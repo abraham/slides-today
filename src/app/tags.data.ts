@@ -2,12 +2,12 @@ import { Tag } from './tag';
 
 export const TAGS: Tag[] = [
   {
-    id: 'web-components',
+    id: 'webcomponents',
     backgroundColor: '#2196F3',
     color: '#fff',
   },
   {
-    id: 'progressive-web-apps',
+    id: 'progressivewebapps',
     backgroundColor: '#8BC34A',
     color: '#000',
   },
@@ -17,7 +17,7 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
-    id: 'twitter-api',
+    id: 'twitterapi',
     backgroundColor: '#1da1f2',
     color: '#fff',
   },
@@ -42,7 +42,7 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
-    id: 'actions-on-google',
+    id: 'actionsongoogle',
     backgroundColor: '#4285f4',
     color: '#fff',
   },
@@ -52,7 +52,7 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
-    id: 'google-io',
+    id: 'googleio',
     backgroundColor: '#3fe7b8',
     color: '#000',
   },
@@ -67,7 +67,7 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
-    id: 'three-js',
+    id: 'threejs',
     backgroundColor: '#ECEFF1',
     color: '#000',
   },
@@ -77,7 +77,7 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
-    id: 'material-design',
+    id: 'materialdesign',
     backgroundColor: '#909090',
     color: '#fff',
   },

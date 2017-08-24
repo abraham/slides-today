@@ -2,6 +2,6 @@
      [ngStyle]="raised ? {} : currentStyles"
      [class.md-chip-raised]="raised"
      (click)="goToTag(tag.id)">
-     {{tag.id}}
+     #{{tag.id}}
      <button *ngIf="raised" type="button" class="md-chip-remove"></button>
    </div>
