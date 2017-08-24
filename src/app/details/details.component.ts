@@ -29,6 +29,7 @@ export class DetailsComponent implements OnInit {
   @Output() onColorsChange = new EventEmitter<{ color: string, backgroundColor: string }>();
 
   @ViewChild('detailsEl') detailsEl;
+  @ViewChild('mainEl') mainEl;
 
   currentTag: string;
   primaryTag: Tag;
@@ -83,7 +84,12 @@ export class DetailsComponent implements OnInit {
         this.setColors();
         this.setEmbeds();
         this.setEmbedWidth();
+        this.transitionIn();
       });
+  }
+
+  transitionIn(): void {
+    this.mainEl.nativeElement.classList.add('transitioned');
   }
 
   goBack(): void {

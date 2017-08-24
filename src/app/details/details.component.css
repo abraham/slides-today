@@ -10,8 +10,15 @@
   margin: 16px;
 }
 
-header {
-  height: 256px;
+main {
+  transition: all 400ms;
+  position: absolute;
+  top: 100vh;
+}
+
+main.transitioned {
+  position: relative;
+  top: 0;
 }
 
 .back, .home, .speakers .mdc-list-item {

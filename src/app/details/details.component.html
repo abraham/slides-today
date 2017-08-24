@@ -1,4 +1,4 @@
-<main class='mdc-layout-grid'>
+<main #mainEl class='mdc-layout-grid mdc-animation-deceleration-curve'>
   <div class="mdc-layout-grid__inner">
     <div #detailsEl class="deck-details mdc-elevation--z2 mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
@@ -22,8 +22,7 @@
             <h3 class="mdc-typography--subheading2"><i class="material-icons">place</i> {{deck.location}}</h3>
           </section>
           <div class="map"
-               [defaultImage]="defaultImage"
-               [lazyLoad]="mapUrl">
+               [style.backgroundImage]="'url(' + mapUrl + ')'">
           </div>
           <section class="speakers">
             <h3 class="mdc-typography--subheading2"><i class="material-icons">people</i> Speakers</h3>
@@ -63,7 +62,7 @@
     </div>
 
     <ng-template ngFor let-embed [ngForOf]="embeds">
-      <div class="deck-details mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
         <div class="mdc-layout-grid__inner">
           <app-embed [width]="embedWidth" [link]="embed"></app-embed>
         </div>

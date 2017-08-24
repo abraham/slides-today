@@ -9,13 +9,13 @@
 }
 
 .mdc-toolbar--details {
-  transition: background-color 200ms, height 200ms, position 200ms !important;
+  transition: background-color 400ms, height 400ms, position 400ms !important;
   height: 256px;
   position: absolute;
 }
 
 header.mdc-toolbar--home {
-  transition: background-color 200ms, height 200ms, position 200ms !important;
+  transition: background-color 400ms, height 400ms, position 400ms !important;
   height: inherit;
   position: fixed;
 }
