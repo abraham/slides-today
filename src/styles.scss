@@ -6,6 +6,10 @@ $mdc-theme-accent: #2196F3;
 @import "~@material/theme/mdc-theme";
 @import '~@material/typography/dist/mdc.typography.css';
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   margin: 0;
 }
