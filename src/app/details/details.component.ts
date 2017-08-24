@@ -1,7 +1,6 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, Output, ViewChild, EventEmitter } from '@angular/core';
 import { Location } from '@angular/common';
-import { MDCToolbar } from '@material/toolbar/dist/mdc.toolbar';
 import { Router } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
@@ -27,19 +26,18 @@ export class DetailsComponent implements OnInit {
               private router: Router) { }
 
   @Input() deck: Deck;
+  @Output() onColorsChange = new EventEmitter<{ color: string, backgroundColor: string }>();
 
-  @ViewChild('toolbarFixedEl') toolbarFixedEl;
   @ViewChild('detailsEl') detailsEl;
 
   currentTag: string;
-  currentStyles = {};
   primaryTag: Tag;
-  title = 'Slides.today';
-  toolbar: MDCToolbar;
+  title = '';
   defaultImage = '/assets/img/default.png';
   mapUrl: string;
   embeds: Link[];
   embedWidth: number;
+  colors: { color: string, backgroundColor: string };
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';
@@ -82,11 +80,10 @@ export class DetailsComponent implements OnInit {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
         this.setMapUrl();
-        this.setCurrentStyles();
+        this.setColors();
         this.setEmbeds();
         this.setEmbedWidth();
       });
-    this.initToolbar();
   }
 
   goBack(): void {
@@ -101,13 +98,12 @@ export class DetailsComponent implements OnInit {
     window.open(url);
   }
 
-  setCurrentStyles(): void {
-    if (this.primaryTag) {
-      this.currentStyles = {
-        backgroundColor: this.primaryTag.backgroundColor,
-        color: this.primaryTag.color,
-      };
-    }
+  setColors(): void {
+    this.colors = {
+      backgroundColor: this.primaryTag.backgroundColor,
+      color: this.primaryTag.color,
+    };
+    this.onColorsChange.emit(this.colors);
   }
 
   private center(): string {
@@ -127,12 +123,7 @@ export class DetailsComponent implements OnInit {
   }
 
   setEmbedWidth(): void {
-    // The 6 is to offset for a scroll bar
     this.embedWidth = this.detailsEl.nativeElement.offsetWidth;
-  }
-
-  initToolbar(): void {
-    this.toolbar = new MDCToolbar(this.toolbarFixedEl.nativeElement);
   }
 
   setEmbeds(): void {

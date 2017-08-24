@@ -22,7 +22,6 @@ export class DecksComponent implements OnInit {
   decks: Deck[];
   currentTag: string;
   tags: string[] = [];
-  title = 'Slides.today';
   hasDecks = true;
 
   ngOnInit(): void {

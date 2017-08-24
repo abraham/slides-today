@@ -14,9 +14,23 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   @ViewChild('toolbarAdjustEl') toolbarAdjustEl;
 
   @Input() title: string;
+  @Input() colors: { color: string, backgroundColor: string };
+  @Input() fixed: boolean;
   toolbar: MDCToolbar;
+  defaultClasses = 'mdc-toolbar--fixed mdc-toolbar--waterfall mdc-toolbar--flexible mdc-toolbar--flexible-default-behavior mdc-toolbar--flexible-space-maximized mdc-toolbar--home';
+  classes = this.defaultClasses;
 
   ngOnInit() {
+  }
+
+  transitionToDetails(): void {
+    this.toolbarAdjustEl.nativeElement.style.display = 'none';
+    this.classes = 'mdc-toolbar--details';
+  }
+
+  transitionToHome(): void {
+    this.toolbarAdjustEl.nativeElement.style.display = 'block';
+    this.classes = this.defaultClasses;
   }
 
   ngAfterViewInit(): void {

@@ -9,10 +9,14 @@
   <section class="mdc-card__supporting-text">
     {{deck.description}}
   </section>
-  <section class="mdc-card__media"
+  <!-- <section class="mdc-card__media"
            [offset]="offset"
            [defaultImage]="defaultImage"
            [lazyLoad]="mapUrl"
+           [ngStyle]="imageLoaded ? coverStyle : {}">
+  </section> -->
+  <section class="mdc-card__media"
+           [style.backgroundImage]="'url(' + mapUrl + ')'"
            [ngStyle]="imageLoaded ? coverStyle : {}">
   </section>
   <section #actions class="mdc-card__actions">

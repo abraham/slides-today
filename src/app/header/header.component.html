@@ -1,9 +1,7 @@
-<header #toolbarFixedEl class="mdc-toolbar
-               mdc-toolbar--fixed
-               mdc-toolbar--waterfall
-               mdc-toolbar--flexible
-               mdc-toolbar--flexible-default-behavior
-               mdc-toolbar--flexible-space-maximized">
+<header #toolbarFixedEl
+        [ngStyle]="colors"
+        [ngClass]="classes"
+        class="mdc-toolbar mdc-layout--transition mdc-animation-standard-curve">
   <div class="mdc-toolbar__row">
     <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <span class="mdc-toolbar__title" (click)="goHome()">{{title}}</span>
@@ -11,4 +9,4 @@
   </div>
 </header>
 
-<div #toolbarAdjustEl class="mdc-toolbar-fixed-adjust"></div>
+<div #toolbarAdjustEl [ngClass]="{'mdc-toolbar-fixed-adjustx': fixed}"></div>

@@ -1,7 +1,6 @@
 @import '~@material/layout-grid/dist/mdc.layout-grid.css';
 @import '~@material/elevation/dist/mdc.elevation.css';
 @import '~@material/list/dist/mdc.list.css';
-@import '~@material/toolbar/dist/mdc.toolbar.css';
 
 .mdc-layout-grid {
   max-width: 600px;
@@ -37,8 +36,4 @@ header {
   letter-spacing: 0.04em;
   line-height: 1.75rem;
   vertical-align: -2px;
-}
-
-.mdc-toolbar {
-  position: absolute;
 }

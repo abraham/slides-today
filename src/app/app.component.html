@@ -1,3 +1,5 @@
-<router-outlet></router-outlet>
+<app-header #headerEl [title]="title" [colors]="colors" [fixed]="fixed"></app-header>
+
+<router-outlet (activate)='onActivate($event)'></router-outlet>
 
 <app-update></app-update>
