@@ -24,8 +24,8 @@
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="manifest" href="/manifest.json">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="preload" as="style">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="preload" as="style">
 
   <style>
     html {
@@ -51,6 +51,16 @@
     JavaScript is required to view Slides.today.
   </noscript>
   <script>
+    const styles = [
+      'https://fonts.googleapis.com/css?family=Roboto',
+      'https://fonts.googleapis.com/icon?family=Material+Icons'
+    ].map(url => {
+      var link = document.createElement('link');
+      link.href = url;
+      link.rel = 'stylesheet';
+      document.body.appendChild(link);
+    });
+
     window.addEventListener('load', () => {
       document.querySelector('body').classList.add('transition');
 
@@ -72,6 +82,7 @@
 
     ga('send', 'pageview');
   </script>
+
   <script async src="https://www.google-analytics.com/analytics.js"></script>
   <script async src="https://unpkg.com/autotrack@2.4.1/autotrack.js"></script>
   </script>
