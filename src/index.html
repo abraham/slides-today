@@ -26,6 +26,23 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    html {
+      overflow-y: scroll;
+    }
+
+    body {
+      margin: 0;
+      background-color: #FF9800;
+      transition-duration: 800ms;
+      transition-property: background-color;
+    }
+
+    body.transition {
+      background-color: #fff;
+    }
+  </style>
 </head>
 <body class="mdc-typography">
   <app-root></app-root>
@@ -34,6 +51,10 @@
     JavaScript is required to view Slides.today.
   </noscript>
   <script>
+  window.addEventListener('load', () => {
+    document.querySelector('body').classList.add('transition');
+  });
+
   if(navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js')
     .catch(function(err) {
