@@ -1,5 +1,5 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Location } from '@angular/common';
 
 import 'rxjs/add/operator/switchMap';
@@ -24,6 +24,8 @@ export class DecksComponent implements OnInit {
   tags: string[] = [];
   hasDecks = true;
 
+  @ViewChild('mainEl') mainEl;
+
   ngOnInit(): void {
     this.route.paramMap
       .switchMap((params: ParamMap) => {
@@ -33,9 +35,14 @@ export class DecksComponent implements OnInit {
       .subscribe(tag => {
         this.currentTag = tag;
         this.setHasDecks();
+        this.transitionIn();
       });
     this.getTags();
     this.getDecks();
+  }
+
+  transitionIn(): void {
+    this.mainEl.nativeElement.classList.add('transitioned');
   }
 
   triggerScroll(): void {

@@ -12,6 +12,18 @@ main {
   max-width: 1600px;
 }
 
+.main {
+  transition-duration: 400ms;
+  transition-property: position, top;
+  position: absolute;
+  top: 100vh;
+}
+
+.main.transitioned {
+  top: 0;
+  position: relative;
+}
+
 .decks-empty {
   margin: 0 auto;
 }
