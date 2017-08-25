@@ -51,26 +51,26 @@
     JavaScript is required to view Slides.today.
   </noscript>
   <script>
-  window.addEventListener('load', () => {
-    document.querySelector('body').classList.add('transition');
-  });
+    window.addEventListener('load', () => {
+      document.querySelector('body').classList.add('transition');
 
-  if(navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js')
-    .catch(function(err) {
-      console.error('Unable to register service worker.', err);
+      if(navigator.serviceWorker) {
+        navigator.serviceWorker.register('/sw.js')
+        .catch(function(err) {
+          console.error('Unable to register service worker.', err);
+        });
+      }
     });
-  }
 
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-105094437-1', 'auto');
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-105094437-1', 'auto');
 
-  ga('require', 'eventTracker');
-  ga('require', 'outboundLinkTracker');
-  ga('require', 'pageVisibilityTracker');
-  ga('require', 'urlChangeTracker');
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'pageVisibilityTracker');
+    ga('require', 'urlChangeTracker');
 
-  ga('send', 'pageview');
+    ga('send', 'pageview');
   </script>
   <script async src="https://www.google-analytics.com/analytics.js"></script>
   <script async src="https://unpkg.com/autotrack@2.4.1/autotrack.js"></script>
