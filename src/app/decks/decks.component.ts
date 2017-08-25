@@ -35,14 +35,15 @@ export class DecksComponent implements OnInit {
       .subscribe(tag => {
         this.currentTag = tag;
         this.setHasDecks();
-        this.transitionIn();
       });
     this.getTags();
     this.getDecks();
   }
 
   transitionIn(): void {
-    this.mainEl.nativeElement.classList.add('transitioned');
+    setTimeout(() => {
+      this.mainEl.nativeElement.classList.add('transitioned');
+    }, 0);
   }
 
   triggerScroll(): void {
@@ -61,6 +62,7 @@ export class DecksComponent implements OnInit {
   getDecks(): void {
     this.deckService.getDecks().then((decks) => {
       this.decks = decks;
+      this.transitionIn();
     });
   }
 
