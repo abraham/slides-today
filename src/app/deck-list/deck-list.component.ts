@@ -55,7 +55,7 @@ export class DeckListComponent implements OnInit {
   }
 
   setHasDecks(): void {
-    // this.hasDecks = document.querySelectorAll('app-deck:not(.hidden)').length > 0;
+    // this.hasDecks = document.querySelectorAll('app-deck-summary:not(.hidden)').length > 0;
     this.hasDecks = true;
   }
 

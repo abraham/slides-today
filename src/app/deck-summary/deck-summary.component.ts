@@ -4,12 +4,12 @@ import { Router } from '@angular/router';
 import { Deck } from '../deck';
 
 @Component({
-  selector: 'app-deck',
-  templateUrl: './deck.component.html',
-  styleUrls: ['./deck.component.css']
+  selector: 'app-deck-summary',
+  templateUrl: './deck-summary.component.html',
+  styleUrls: ['./deck-summary.component.css']
 })
 
-export class DeckComponent implements OnInit, OnChanges {
+export class DeckSummaryComponent implements OnInit, OnChanges {
   constructor (private router: Router) {}
 
   @Input() deck: Deck;
