@@ -7,6 +7,20 @@
   transition: top 400ms;
   position: absolute;
   top: 100vh;
+  column-count: 1;
+  column-gap: 1em;
+}
+
+@media only screen and (min-width: 480px) {
+  .content {
+    column-count: 2;
+  }
+}
+
+.item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
 }
 
 .content.transitioned {
