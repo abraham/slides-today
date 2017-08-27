@@ -34,33 +34,9 @@
         </section>
       </div>
 
-      <div class="mdc-card item">
-        <section class="mdc-card__primary">
-          <h3 class="mdc-card__title mdc-card__title--large">Speakers</h3>
-        </section>
-        <section class="mdc-card__supporting-text">
-          <ul class="mdc-list mdc-list--avatar-list">
-            <li *ngIf="deck?.speakers.includes('pearl-latteier')" class="mdc-list-item" (click)="open('https://twitter.com/pblatteier')">
-              <span class="mdc-list-item__start-detail grey-bg">
-                <img class="mdc-list-item__start-detail" src="/assets/img/pearl-latteier.jpg" width="56" height="56" alt="Pearl Latteier">
-              </span>
-              <span class="mdc-list-item__text">
-                Pearl Latteier
-                <span class="mdc-list-item__text__secondary">@pblatteier</span>
-              </span>
-            </li>
-            <li *ngIf="deck?.speakers.includes('abraham-williams')"  class="mdc-list-item" (click)="open('https://twitter.com/abraham')">
-              <span class="mdc-list-item__start-detail grey-bg">
-                <img class="mdc-list-item__start-detail grey-bg" src="/assets/img/abraham-williams.jpg" width="56" height="56" alt="Abraham Williams">
-              </span>
-              <span class="mdc-list-item__text">
-                Abraham Williams
-                <span class="mdc-list-item__text__secondary">@abraham</span>
-              </span>
-            </li>
-          </ul>
-        </section>
-      </div>
+      <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
+        <app-speaker class="item" [id]="speaker"></app-speaker>
+      </ng-template>
 
       <div class="mdc-card item">
         <section class="mdc-card__primary">
