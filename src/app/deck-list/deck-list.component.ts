@@ -8,13 +8,13 @@ import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 
 @Component({
-  selector: 'app-decks',
-  templateUrl: './decks.component.html',
-  styleUrls: ['./decks.component.scss'],
+  selector: 'app-deck-list',
+  templateUrl: './deck-list.component.html',
+  styleUrls: ['./deck-list.component.scss'],
   providers: [DeckService],
 })
 
-export class DecksComponent implements OnInit {
+export class DeckListComponent implements OnInit {
   constructor(private deckService: DeckService,
               private route: ActivatedRoute,
               private location: Location) { }

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DecksComponent } from './decks/decks.component';
+import { DeckListComponent } from './deck-list/deck-list.component';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    component: DecksComponent,
+    component: DeckListComponent,
   },
 ];
 

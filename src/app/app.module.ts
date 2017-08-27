@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CardActionComponent } from './card-action/card-action.component';
 import { DeckComponent } from './deck/deck.component';
-import { DecksComponent } from './decks/decks.component';
+import { DeckListComponent } from './deck-list/deck-list.component';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 import { HeaderComponent } from './header/header.component';
 import { InviteComponent } from './invite/invite.component';
@@ -24,7 +24,7 @@ import { EmbedComponent } from './embed/embed.component';
     AppComponent,
     CardActionComponent,
     DeckComponent,
-    DecksComponent,
+    DeckListComponent,
     DeckDetailsComponent,
     HeaderComponent,
     InviteComponent,
