@@ -29,7 +29,7 @@ export class DeckDetailsComponent implements OnInit {
   @Output() onColorsChange = new EventEmitter<{ color: string, backgroundColor: string }>();
 
   @ViewChild('detailsEl') detailsEl;
-  @ViewChild('mainEl') mainEl;
+  @ViewChild('contentEl') contentEl;
 
   currentTag: string;
   primaryTag: Tag;
@@ -80,16 +80,18 @@ export class DeckDetailsComponent implements OnInit {
       .subscribe(all => {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
+        this.transitionIn();
         this.setMapUrl();
         this.setColors();
         this.setEmbeds();
         this.setEmbedWidth();
-        this.transitionIn();
       });
   }
 
   transitionIn(): void {
-    this.mainEl.nativeElement.classList.add('transitioned');
+    setTimeout(() => {
+      this.contentEl.nativeElement.classList.add('transitioned');
+    }, 0);
   }
 
   goBack(): void {
@@ -129,7 +131,9 @@ export class DeckDetailsComponent implements OnInit {
   }
 
   setEmbedWidth(): void {
-    this.embedWidth = this.detailsEl.nativeElement.offsetWidth;
+    setTimeout(() => {
+      this.embedWidth = this.detailsEl.nativeElement.offsetWidth;
+    });
   }
 
   setEmbeds(): void {

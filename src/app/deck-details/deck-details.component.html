@@ -1,33 +1,50 @@
-<main #mainEl class='mdc-layout-grid mdc-animation-deceleration-curve'>
+<main class='mdc-layout-grid'>
   <div class="mdc-layout-grid__inner">
-    <div #detailsEl class="deck-details mdc-elevation--z2 mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+      <i (click)="goBack()" [ngStyle]="{color: colors?.color}" class="back material-icons">arrow_back</i>
+    </div>
+
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>
+
+    <div #contentEl class="content mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile  mdc-layout-grid__cell--span-10-tablet mdc-layout-grid__cell--span-8-desktop">
       <div class="mdc-layout-grid__inner">
-        <section class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
-          <i (click)="goBack()" class="back material-icons">arrow_back</i>
-        </section>
-        <div *ngIf="deck" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-          <section>
-            <h1 class="mdc-typography--headline">{{deck.title}}</h1>
+        <div #detailsEl class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__primary">
+            <h1 class="mdc-card__title mdc-card__title--large mdc-typography--headline">{{deck?.title}}</h1>
+            <h2 class="mdc-card__subtitle mdc-typography--subheading2">{{deck?.eventTitle}} - {{deck?.date}}</h2>
           </section>
-          <section>
-            <h3 class="mdc-typography--subheading2">{{deck.eventTitle}} - {{deck.date}}</h3>
+          <section class="mdc-card__supporting-text">
+            {{deck?.description}}
           </section>
-          <section class="mdc-typography--body1">
-            {{deck.description}}
-          </section>
-          <section>
-            <app-tags [tags]="deck.tags"></app-tags>
-          </section>
-          <section>
-            <h3 class="mdc-typography--subheading2"><i class="material-icons">place</i> {{deck.location}}</h3>
-          </section>
-          <div class="map"
-               [style.backgroundImage]="'url(' + mapUrl + ')'">
+        </div>
+
+        <ng-template ngFor let-embed [ngForOf]="embeds">
+          <div class="mdc-layout-grid__cell  mdc-layout-grid__cell--span-6-desktop md-el mdc-elevation--z2">
+              <app-embed [width]="embedWidth" [link]="embed"></app-embed>
           </div>
-          <section class="speakers">
-            <h3 class="mdc-typography--subheading2"><i class="material-icons">people</i> Speakers</h3>
+        </ng-template>
+
+        <div class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__supporting-text">
+            <app-tags [tags]="deck?.tags"></app-tags>
+          </section>
+        </div>
+
+        <div class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__primary">
+            <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
+          </section>
+          <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
+          </section>
+        </div>
+
+        <div class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__primary">
+            <h3 class="mdc-card__title mdc-card__title--large">Speakers</h3>
+          </section>
+          <section class="mdc-card__supporting-text">
             <ul class="mdc-list mdc-list--avatar-list">
-              <li *ngIf="deck.speakers.includes('pearl-latteier')" class="mdc-list-item" (click)="open('https://twitter.com/pblatteier')">
+              <li *ngIf="deck?.speakers.includes('pearl-latteier')" class="mdc-list-item" (click)="open('https://twitter.com/pblatteier')">
                 <span class="mdc-list-item__start-detail grey-bg">
                   <img class="mdc-list-item__start-detail" src="/assets/img/pearl-latteier.jpg" width="56" height="56" alt="Pearl Latteier">
                 </span>
@@ -36,7 +53,7 @@
                   <span class="mdc-list-item__text__secondary">@pblatteier</span>
                 </span>
               </li>
-              <li *ngIf="deck.speakers.includes('abraham-williams')"  class="mdc-list-item" (click)="open('https://twitter.com/abraham')">
+              <li *ngIf="deck?.speakers.includes('abraham-williams')"  class="mdc-list-item" (click)="open('https://twitter.com/abraham')">
                 <span class="mdc-list-item__start-detail grey-bg">
                   <img class="mdc-list-item__start-detail grey-bg" src="/assets/img/abraham-williams.jpg" width="56" height="56" alt="Abraham Williams">
                 </span>
@@ -47,10 +64,15 @@
               </li>
             </ul>
           </section>
-          <section>
-            <h3 class="mdc-typography--subheading2"><i class="material-icons">link</i> Links</h3>
+        </div>
+
+        <div class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__primary">
+            <h3 class="mdc-card__title mdc-card__title--large">Links</h3>
+          </section>
+          <section class="mdc-card__supporting-text">
             <nav>
-              <app-card-action *ngFor="let link of deck.links"
+              <app-card-action *ngFor="let link of deck?.links"
                                [text]="link.title"
                                [url]="link.url"
                                [blank]="true">
@@ -61,16 +83,11 @@
       </div>
     </div>
 
-    <ng-template ngFor let-embed [ngForOf]="embeds">
-      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-        <div class="mdc-layout-grid__inner">
-          <app-embed [width]="embedWidth" [link]="embed"></app-embed>
-        </div>
-      </div>
-    </ng-template>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>
+
   </div>
 </main>
 
 <div *ngIf="deck">
-  <app-share [text]="deck.title"></app-share>
+  <app-share [text]="deck?.title"></app-share>
 </div>

@@ -12,18 +12,16 @@ export class EmbedComponent implements OnInit {
   @Input() link: Link;
   @Input() width: number;
 
-  height: number;
   url: SafeResourceUrl;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    this.setHeight();
     this.setUrl();
   }
 
-  setHeight(): void {
-    this.height = Math.round(this.width * this.ratioService()[this.link.service]);
+  height(): number {
+    return Math.round((this.width + 29) * this.ratioService()[this.link.service]);
   }
 
   setUrl(): void {

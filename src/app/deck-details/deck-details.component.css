@@ -1,22 +1,15 @@
-@import '~@material/layout-grid/dist/mdc.layout-grid.css';
+@import '~@material/card/dist/mdc.card.css';
 @import '~@material/elevation/dist/mdc.elevation.css';
+@import '~@material/layout-grid/dist/mdc.layout-grid.css';
 @import '~@material/list/dist/mdc.list.css';
 
-.mdc-layout-grid {
-  max-width: 600px;
-}
-
-.mdc-layout-grid__inner .mdc-layout-grid__inner section {
-  margin: 16px;
-}
-
-main {
-  transition: all 400ms;
+.content {
+  transition: top 400ms;
   position: absolute;
   top: 100vh;
 }
 
-main.transitioned {
+.content.transitioned {
   position: relative;
   top: 0;
 }
@@ -25,22 +18,17 @@ main.transitioned {
   cursor: pointer;
 }
 
-.map {
+.mdc-card__media {
   width: 100%;
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.deck-details {
+.mdc-layout-grid__cell {
   z-index: 10;
-  background-color: #fff;
 }
 
-.mdc-typography--subheading2 .material-icons {
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  line-height: 1.75rem;
-  vertical-align: -2px;
+.mdc-card, .mdc-elevation--z2 {
+  background-color: #fff;
 }
