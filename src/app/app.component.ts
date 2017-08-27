@@ -1,6 +1,6 @@
 import { Component, Input, ViewChild } from '@angular/core';
 
-import { DetailsComponent } from './details/details.component';
+import { DeckDetailsComponent } from './deck-details/deck-details.component';
 
 @Component({
   selector: 'app-root',

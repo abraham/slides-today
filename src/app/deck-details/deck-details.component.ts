@@ -12,12 +12,12 @@ import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 
 @Component({
-  selector: 'app-details',
-  templateUrl: './details.component.html',
-  styleUrls: ['./details.component.css'],
+  selector: 'app-deck-details',
+  templateUrl: './deck-details.component.html',
+  styleUrls: ['./deck-details.component.css'],
   providers: [DeckService, TagService],
 })
-export class DetailsComponent implements OnInit {
+export class DeckDetailsComponent implements OnInit {
 
   constructor(private deckService: DeckService,
               private tagService: TagService,
