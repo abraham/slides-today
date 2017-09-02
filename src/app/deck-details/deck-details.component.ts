@@ -90,8 +90,17 @@ export class DeckDetailsComponent implements OnInit {
 
   transitionIn(): void {
     setTimeout(() => {
-      this.contentEl.nativeElement.classList.add('transitioned');
+      this.transitionNextCard();
     }, 0);
+  }
+
+  transitionNextCard(): void {
+    const item = this.contentEl.nativeElement
+      .querySelector('.item:not(.transitioned)');
+    if (item) {
+      item.classList.add('transitioned');
+    }
+    setTimeout(this.transitionNextCard.bind(this), 50);
   }
 
   goBack(): void {

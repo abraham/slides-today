@@ -49,9 +49,11 @@ export class DeckListComponent implements OnInit {
   }
 
   transitionNextCard(): void {
-    this.transitionEl.nativeElement
-      .querySelector('.card-transition:not(.transitioned)')
-      .classList.add('transitioned');
+    const card = this.transitionEl.nativeElement
+      .querySelector('.card-transition:not(.transitioned)');
+    if (card) {
+      card.classList.add('transitioned');
+    }
     setTimeout(this.transitionNextCard.bind(this), 50);
   }
 

@@ -3,9 +3,6 @@
 @import '~@material/layout-grid/dist/mdc.layout-grid.css';
 
 .content {
-  transition: top 400ms;
-  position: absolute;
-  top: 100vh;
   column-count: 1;
   column-gap: 1em;
 }
@@ -20,11 +17,17 @@
   display: inline-block;
   margin: 0 0 1em;
   width: 100%;
+  transition-duration: 300ms;
+  transition-property: position, top, visibility;
+  position: absolute;
+  top: 100vh;
+  visibility: hidden;
 }
 
-.content.transitioned {
+.item.transitioned {
   position: relative;
   top: 0;
+  visibility: inherit;
 }
 
 .back, .home, .speakers .mdc-list-item {
