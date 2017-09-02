@@ -18,7 +18,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KsK81gOZiIkIWcL5AhZ',
@@ -42,7 +43,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-Krv_65pE2p9nJUXkhFl',
@@ -66,7 +68,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
@@ -90,7 +93,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
@@ -114,7 +118,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
@@ -138,7 +143,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
@@ -168,7 +174,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'joindin',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZxXjRvdxuo_pWZGy',
@@ -198,7 +205,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'joindin',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
@@ -228,7 +236,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'joindin',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZsDivrXv69eEkiRs',
@@ -252,7 +261,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZof6--agoRIC6vl0',
@@ -276,7 +286,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'meetup',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZmqmksA5WVIr1uoA',
@@ -300,7 +311,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'meetup',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
@@ -324,7 +336,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
@@ -348,7 +361,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
@@ -372,7 +386,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
@@ -396,7 +411,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
@@ -420,7 +436,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZWvDU7VUnyPTDmSA',
@@ -444,7 +461,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZRBmB_NDgJ6z2m0T',
@@ -468,7 +486,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
@@ -492,7 +511,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZMwl5K6WfArx9xkz',
@@ -522,7 +542,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'vimeo',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
@@ -546,7 +567,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
@@ -576,7 +598,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'joindin',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZGc2sMFHbGMkaRNc',
@@ -600,7 +623,8 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   },
   {
     id: '-KrvZAS455BHznj4ugI2',
@@ -630,7 +654,8 @@ export const DECKS: Deck[] = [
         tag: true,
         service: 'youtube',
       },
-    ]
+    ],
+    sponsors: ['bendyworks'],
   }
 ].map(deck => {
   deck.links = deck.links.map(link => new Link(link));

@@ -18,6 +18,7 @@ import { ShareComponent } from './share/share.component';
 import { UpdateComponent } from './update/update.component';
 import { EmbedComponent } from './embed/embed.component';
 import { SpeakerComponent } from './speaker/speaker.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { SpeakerComponent } from './speaker/speaker.component';
     UpdateComponent,
     EmbedComponent,
     SpeakerComponent,
+    SponsorComponent,
   ],
   imports: [
     AppRoutingModule,

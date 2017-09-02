@@ -1,7 +1,6 @@
 @import '~@material/card/dist/mdc.card.css';
 @import '~@material/elevation/dist/mdc.elevation.css';
 @import '~@material/layout-grid/dist/mdc.layout-grid.css';
-@import '~@material/list/dist/mdc.list.css';
 
 .content {
   transition: top 400ms;

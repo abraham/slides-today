@@ -1,0 +1,14 @@
+<div class="mdc-card">
+  <section class="mdc-card__primary">
+    <h1 class="mdc-card__title mdc-card__title--large">Sponsors</h1>
+  </section>
+  <section class="mdc-card__supporting-text mdc-list mdc-list--two-line mdc-list--avatar-list">
+      <a *ngFor="let sponsor of sponsors" class="mdc-list-item" [href]="sponsor.url" target="_blank" >
+        <img width="40" height="40" [src]="sponsor.image" class="mdc-list-item__start-detail" />
+        <span class="mdc-list-item__text">
+          {{sponsor.name}}
+          <span class="mdc-list-item__text__secondary">{{sponsor.description}}</span>
+        </span>
+      </a>
+  </section>
+</div>

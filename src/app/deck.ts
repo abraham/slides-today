@@ -9,6 +9,7 @@ export class Deck {
   location: string;
   speakers: string[];
   title: string;
+  sponsors: string[];
 
   private _tags: string[];
 
@@ -20,6 +21,7 @@ export class Deck {
     this.links = data.links;
     this.location = data.location;
     this.speakers = data.speakers;
+    this.sponsors = data.sponsors;
     this.tags = data.tags;
     this.title = data.title;
   }
