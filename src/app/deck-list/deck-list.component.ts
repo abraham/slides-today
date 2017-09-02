@@ -43,9 +43,16 @@ export class DeckListComponent implements OnInit {
 
   transitionIn(): void {
     setTimeout(() => {
-      this.transitionEl.nativeElement.classList.add('transitioned');
+      this.transitionNextCard();
       this.tagsEl.nativeElement.classList.add('transitioned');
     }, 0);
+  }
+
+  transitionNextCard(): void {
+    this.transitionEl.nativeElement
+      .querySelector('.card-transition:not(.transitioned)')
+      .classList.add('transitioned');
+    setTimeout(this.transitionNextCard.bind(this), 50);
   }
 
   triggerScroll(): void {

@@ -4,13 +4,13 @@
       <app-tags [tags]="tags.sort()"
                 [currentTag]="currentTag"></app-tags>
     </div>
-    <div #transitionEl class="transition mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+    <div #transitionEl class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner mdc-animation-deceleration-curve">
-        <app-about *ngIf="!currentTag" class="mdc-layout-grid__cell"></app-about>
+        <app-about *ngIf="!currentTag" class="mdc-layout-grid__cell card-transition mdc-animation-deceleration-curve"></app-about>
         <app-deck-summary *ngFor="let deck of decks"
                   [deck]="deck"
                   [currentTag]="currentTag"
-                  class="mdc-layout-grid__cell"></app-deck-summary>
+                  class="mdc-layout-grid__cell card-transition mdc-animation-deceleration-curve"></app-deck-summary>
         </div>
       <div *ngIf="!hasDecks" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTag}}</div>
     </div>

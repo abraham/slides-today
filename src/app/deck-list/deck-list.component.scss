@@ -22,16 +22,18 @@ main {
   opacity: 1;
 }
 
-.transition {
+.card-transition {
   transition-duration: 300ms;
-  transition-property: position, top;
+  transition-property: position, top, visibility;
   position: absolute;
   top: 100vh;
+  visibility: hidden;
 }
 
-.transition.transitioned {
-  top: 0;
+.card-transition.transitioned {
   position: relative;
+  top: 0;
+  visibility: inherit;
 }
 
 .decks-empty {
