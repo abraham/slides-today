@@ -1,7 +1,10 @@
-<main #mainEl class='main mdc-layout-grid'>
+<main class='main mdc-layout-grid'>
   <div class="mdc-layout-grid__inner">
-    <app-tags [tags]="tags.sort()" [currentTag]="currentTag" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-tags>
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+    <div #tagsEl class="tags-transition mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+      <app-tags [tags]="tags.sort()"
+                [currentTag]="currentTag"></app-tags>
+    </div>
+    <div #transitionEl class="transition mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner mdc-animation-deceleration-curve">
         <app-about *ngIf="!currentTag" class="mdc-layout-grid__cell"></app-about>
         <app-deck-summary *ngFor="let deck of decks"

@@ -24,7 +24,8 @@ export class DeckListComponent implements OnInit {
   tags: string[] = [];
   hasDecks = true;
 
-  @ViewChild('mainEl') mainEl;
+  @ViewChild('transitionEl') transitionEl;
+  @ViewChild('tagsEl') tagsEl;
 
   ngOnInit(): void {
     this.route.paramMap
@@ -42,7 +43,8 @@ export class DeckListComponent implements OnInit {
 
   transitionIn(): void {
     setTimeout(() => {
-      this.mainEl.nativeElement.classList.add('transitioned');
+      this.transitionEl.nativeElement.classList.add('transitioned');
+      this.tagsEl.nativeElement.classList.add('transitioned');
     }, 0);
   }
 

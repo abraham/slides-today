@@ -12,14 +12,24 @@ main {
   max-width: 1600px;
 }
 
-.main {
+.tags-transition {
+  transition-duration: 300ms;
+  transition-property: opacity;
+  opacity: 0;
+}
+
+.tags-transition.transitioned {
+  opacity: 1;
+}
+
+.transition {
   transition-duration: 300ms;
   transition-property: position, top;
   position: absolute;
   top: 100vh;
 }
 
-.main.transitioned {
+.transition.transitioned {
   top: 0;
   position: relative;
 }
