@@ -290,6 +290,25 @@ export const DECKS: Deck[] = [
     sponsors: ['bendyworks'],
   },
   {
+    id: '-Kt8ZOHSO3M-nLnxH8Fh',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'How to be a professional developer',
+    date: 'April 27th, 2017',
+    description: 'We will share our stories becoming professional software developers. Where the adentures took us. What went wrong along the way. And what to consider when you start your journey.',
+    eventTitle: 'UW Madison CS Lecture',
+    tags: ['culture'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1VFobwLLehLUePGT5EyGkzAqRJVC-UPmxtFEgVqlKFh0',
+        tag: false,
+        service: 'google-slides',
+      },
+    ],
+    sponsors: ['bendyworks'],
+  },
+  {
     id: '-KrvZmqmksA5WVIr1uoA',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
