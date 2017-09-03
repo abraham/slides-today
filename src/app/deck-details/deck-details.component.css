@@ -18,15 +18,13 @@
   margin: 0 0 1em;
   width: 100%;
   transition-duration: 300ms;
-  transition-property: position, top, visibility;
-  position: absolute;
-  top: 100vh;
+  transition-property: all;
+  margin-top: 100vh;
   visibility: hidden;
 }
 
 .item.transitioned {
-  position: relative;
-  top: 0;
+  margin-top: 0px;
   visibility: inherit;
 }
 
