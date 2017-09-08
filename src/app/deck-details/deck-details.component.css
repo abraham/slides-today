@@ -13,19 +13,30 @@
   }
 }
 
-.item {
+.item:not(.details) {
   display: inline-block;
   margin: 0 0 1em;
   width: 100%;
   transition-duration: 300ms;
   transition-property: all;
-  margin-top: 100vh;
-  visibility: hidden;
+  opacity: 0;
 }
 
 .item.transitioned {
-  margin-top: 0px;
-  visibility: inherit;
+  opacity: 1;
+}
+
+.details {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  position: absolute;
+  transition-duration: 300ms;
+  transition-property: all;
+}
+
+.details.transitioned {
+  position: static;
 }
 
 .back, .home, .speakers .mdc-list-item {

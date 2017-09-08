@@ -7,7 +7,8 @@
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>
 
     <div #contentEl class="content mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-8-desktop">
-      <div #detailsEl class="mdc-card item">
+      <div #detailsEl class="mdc-card item details mdc-animation-standard-curve-timing-function"
+                      [ngStyle]="currentPosition">
         <section class="mdc-card__primary">
           <h1 class="mdc-card__title mdc-card__title--large">{{deck?.title}}</h1>
           <h2 class="mdc-card__subtitle">{{deck?.eventTitle}} - {{deck?.date}}</h2>
@@ -28,12 +29,12 @@
       </div>
 
       <ng-template ngFor let-embed [ngForOf]="embeds">
-        <div class="item item mdc-elevation--z2">
+        <div class="item mdc-elevation--z2 mdc-animation-standard-curve-timing-function">
             <app-embed [width]="embedWidth" [link]="embed"></app-embed>
         </div>
       </ng-template>
 
-      <div class="mdc-card item">
+      <div class="mdc-card item mdc-animation-standard-curve-timing-function">
         <section class="mdc-card__primary">
           <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
         </section>
@@ -42,10 +43,10 @@
       </div>
 
       <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
-        <app-speaker class="item" [id]="speaker"></app-speaker>
+        <app-speaker class="item mdc-animation-standard-curve-timing-function" [id]="speaker"></app-speaker>
       </ng-template>
 
-      <app-sponsor [sponsorIds]="deck?.sponsors" class="item"></app-sponsor>
+      <app-sponsor [sponsorIds]="deck?.sponsors" class="item mdc-animation-standard-curve-timing-function"></app-sponsor>
     </div>
 
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>

@@ -5,11 +5,13 @@ import { Router } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
 
+import { AnimationService } from '../animation.service';
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 import { Link } from '../link';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
+import { Position } from '../position';
 
 @Component({
   selector: 'app-deck-details',
@@ -21,6 +23,7 @@ export class DeckDetailsComponent implements OnInit {
 
   constructor(private deckService: DeckService,
               private tagService: TagService,
+              private animationService: AnimationService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router) { }
@@ -39,6 +42,8 @@ export class DeckDetailsComponent implements OnInit {
   embeds: Link[];
   embedWidth: number;
   colors: { color: string, backgroundColor: string };
+  currentPosition: object;
+  startPosition: Position;
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';
@@ -70,6 +75,7 @@ export class DeckDetailsComponent implements OnInit {
 
   ngOnInit() {
     window.scrollTo(0, 0);
+    this.setCardPosition();
     this.route.paramMap
       .switchMap((params: ParamMap) => {
         return Promise.all([
@@ -89,9 +95,8 @@ export class DeckDetailsComponent implements OnInit {
   }
 
   transitionIn(): void {
-    setTimeout(() => {
-      this.transitionNextCard();
-    }, 0);
+    setTimeout(() => this.transitionDetailsCard(), 0);
+    setTimeout(() => this.transitionNextCard(), 200);
   }
 
   transitionNextCard(): void {
@@ -100,7 +105,33 @@ export class DeckDetailsComponent implements OnInit {
     if (item) {
       item.classList.add('transitioned');
     }
-    setTimeout(this.transitionNextCard.bind(this), 50);
+    setTimeout(() => this.transitionNextCard(), 50);
+  }
+
+  transitionDetailsCard(): void {
+    this.currentPosition = {
+      top: `${this.contentPosition().top}px`,
+      left: `${this.contentPosition().left}px`,
+      width: `${this.columnWidth()}px`,
+    };
+    setTimeout(() => this.currentPosition = null, 300);
+  }
+
+  columnWidth(): number {
+    const width = this.contentEl.nativeElement.getBoundingClientRect().width;
+    if (width >= 480) {
+      return width / 2 - 8;
+    } else {
+      return width;
+    }
+  }
+
+  contentPosition(): { top: number, left: number } {
+    const position = this.contentEl.nativeElement.getBoundingClientRect();
+    return {
+      top: position.top,
+      left: position.left,
+    };
   }
 
   goBack(): void {
@@ -113,6 +144,22 @@ export class DeckDetailsComponent implements OnInit {
 
   open(url: string): void {
     window.open(url);
+  }
+
+  setCardPosition(): void {
+    this.startPosition = this.animationService.startPosition;
+    if (this.startPosition) {
+      this.currentPosition = {
+        left: `${this.startPosition.left}px`,
+        top: `${this.startPosition.top}px`,
+        width: `${this.startPosition.width}px`,
+        height: `${this.startPosition.height}px`,
+      };
+    } else {
+      this.currentPosition = {
+        width: '300px',
+      };
+    }
   }
 
   setColors(): void {
@@ -141,7 +188,7 @@ export class DeckDetailsComponent implements OnInit {
 
   setEmbedWidth(): void {
     setTimeout(() => {
-      this.embedWidth = this.detailsEl.nativeElement.offsetWidth;
+      this.embedWidth = this.columnWidth();
     });
   }
 

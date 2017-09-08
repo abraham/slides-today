@@ -1,16 +1,21 @@
-import { Component, Input, OnInit, HostBinding, OnChanges } from '@angular/core';
+import { Component, Input, OnInit, HostBinding, OnChanges, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Deck } from '../deck';
+import { AnimationService } from '../animation.service';
+import { Position } from '../position';
 
 @Component({
   selector: 'app-deck-summary',
   templateUrl: './deck-summary.component.html',
-  styleUrls: ['./deck-summary.component.css']
+  styleUrls: ['./deck-summary.component.css'],
 })
 
 export class DeckSummaryComponent implements OnInit, OnChanges {
-  constructor (private router: Router) {}
+  constructor (private router: Router,
+               private animationService: AnimationService) {}
+
+  @ViewChild('cardEl') cardEl;
 
   @Input() deck: Deck;
   @Input() currentTag: string;
@@ -58,10 +63,20 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes) {
-      if (changes.currentTag) {
-        this.setDisplay();
-      }
+    if (changes.currentTag) {
+      this.setDisplay();
     }
+  }
+
+  private cardPosition(): Position {
+    const current = this.cardEl.nativeElement.getBoundingClientRect();
+    return {
+      left: current.left,
+      top: current.top,
+      width: current.width,
+      height: current.height,
+    };
+  }
 
   private center(): string {
     return encodeURIComponent(this.deck.location);
@@ -84,6 +99,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   goToDeck(): void {
+    this.animationService.startPosition = this.cardPosition();
     this.router.navigate([this.url]);
   }
 
