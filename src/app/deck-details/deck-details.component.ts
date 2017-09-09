@@ -75,7 +75,6 @@ export class DeckDetailsComponent implements OnInit {
 
   ngOnInit() {
     window.scrollTo(0, 0);
-    this.setCardPosition();
     this.route.paramMap
       .switchMap((params: ParamMap) => {
         return Promise.all([
@@ -86,6 +85,7 @@ export class DeckDetailsComponent implements OnInit {
       .subscribe(all => {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
+        this.setCardPosition();
         this.transitionIn();
         this.setMapUrl();
         this.setColors();
@@ -94,9 +94,17 @@ export class DeckDetailsComponent implements OnInit {
       });
   }
 
+  fromList(): boolean {
+    return !!this.animationService.startPosition;
+  }
+
   transitionIn(): void {
-    setTimeout(() => this.transitionDetailsCard(), 0);
-    setTimeout(() => this.transitionNextCard(), 200);
+    if (this.fromList()) {
+      setTimeout(() => this.transitionDetailsCard(), 0);
+      setTimeout(() => this.transitionNextCard(), 200);
+    } else {
+      setTimeout(() => this.transitionNextCard(), 0);
+    }
   }
 
   transitionNextCard(): void {
@@ -148,7 +156,8 @@ export class DeckDetailsComponent implements OnInit {
 
   setCardPosition(): void {
     this.startPosition = this.animationService.startPosition;
-    if (this.startPosition) {
+    if (this.fromList()) {
+      this.contentEl.nativeElement.classList.add('from-list');
       this.currentPosition = {
         left: `${this.startPosition.left}px`,
         top: `${this.startPosition.top}px`,
@@ -156,9 +165,7 @@ export class DeckDetailsComponent implements OnInit {
         height: `${this.startPosition.height}px`,
       };
     } else {
-      this.currentPosition = {
-        width: '300px',
-      };
+      this.contentEl.nativeElement.classList.add('from-navigation');
     }
   }
 
