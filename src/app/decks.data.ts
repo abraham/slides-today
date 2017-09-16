@@ -13,6 +13,12 @@ export const DECKS: Deck[] = [
     location: 'Madison, WI',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1_6parH6T8iUSZgjoVSI8nCYyYNL1rKyLAUoRrfxRsdk',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'https://www.meetup.com/gdg-madison/events/242690232/',
         tag: false,
