@@ -3,6 +3,63 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KuK3ne8fybZfk46Awp',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Web Components: Lego bricks of the web',
+    date: 'September 21st, 2017',
+    description: 'Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Use the native web platform to build performant, lightweight building blocks for your site. We will show you how to build custom elements using best practices and how to integrate them with your project.',
+    eventTitle: 'Connect.Tech',
+    tags: ['webcomponents'],
+    location: 'Atlanta, GA',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://connect.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
+    id: '-KuK2kY4Q3-cRwoh5wA5',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Energize your development flow with CLIs',
+    date: 'September 21st, 2017',
+    description: 'Creating personalized CLIs can help you streamline recurring tasks, such as setting up new development environments, managing deployments, and wrangling data. We will walk you through building CLIs in JavaScript to help you avoid costly mistakes and ensure consistent results. Create simple commands that perform powerful tasks.',
+    eventTitle: 'Connect.Tech',
+    tags: ['cli'],
+    location: 'Atlanta, GA',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://connect.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
+    id: '-KuK2OlDHUH8HD4-Qp2W',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Material Design that Delights',
+    date: 'September 21st, 2017',
+    description: 'By reputation, programmers aren’t great designers. “Designed by developers” usually implies a terrible user experience. Material Design is helping to change this. Google’s UX designers have developed and refined the principles behind Material Design through testing with billions of users. Using Material Design, you can create intuitive experiences with smooth animations that delight users and showcase your brand. We’ll explain Material Design principles and show you how to implement them.',
+    eventTitle: 'Connect.Tech',
+    tags: ['materialdesign'],
+    location: 'Atlanta, GA',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://connect.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
     id: '-KsEs5JMWk87ZisLpW1F',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
