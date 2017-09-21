@@ -13,6 +13,12 @@ export const DECKS: Deck[] = [
     location: 'Atlanta, GA',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/15Kx0hYzH9V50qvbqSpFJTgX0lhejC6QK5UlkcVgvX0I',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'http://connect.tech/',
         tag: false,
@@ -28,9 +34,15 @@ export const DECKS: Deck[] = [
     date: 'September 21st, 2017',
     description: 'Creating personalized CLIs can help you streamline recurring tasks, such as setting up new development environments, managing deployments, and wrangling data. We will walk you through building CLIs in JavaScript to help you avoid costly mistakes and ensure consistent results. Create simple commands that perform powerful tasks.',
     eventTitle: 'Connect.Tech',
-    tags: ['cli'],
+    tags: ['cli', 'javascript'],
     location: 'Atlanta, GA',
     links: [
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1CMsM3JGjldazx0efpaLjJVoKsXg8NQYmiKoPwIa6SKo',
+        tag: false,
+        service: 'google-slides',
+      },
       {
         title: 'Event',
         url: 'http://connect.tech/',
@@ -50,6 +62,12 @@ export const DECKS: Deck[] = [
     tags: ['materialdesign'],
     location: 'Atlanta, GA',
     links: [
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1-34iJL28_Mxa39KJUeMRY5Ozb5mT8e5ovQbSLzw4s_0',
+        tag: false,
+        service: 'google-slides',
+      },
       {
         title: 'Event',
         url: 'http://connect.tech/',

@@ -91,4 +91,9 @@ export const TAGS: Tag[] = [
     backgroundColor: '#FFEB3B',
     color: '#000',
   },
+  {
+    id: 'javascript',
+    backgroundColor: '#f7e018',
+    color: '#000',
+  },
 ];
