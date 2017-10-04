@@ -3,6 +3,25 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KvaqXVilT2vtW29jy3w',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Get Talking with Actions on Google',
+    date: 'October 5th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences with Node.js. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'Mobile Era',
+    tags: ['actionsongoogle'],
+    location: 'Oslo, Norway',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://mobileera.rocks/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
     id: '-KuK3ne8fybZfk46Awp',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
