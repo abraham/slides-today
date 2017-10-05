@@ -13,6 +13,12 @@ export const DECKS: Deck[] = [
     location: 'Oslo, Norway',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1UlOZt2UEt6Crr0-vNRGrjbMptWdSAA_TtuHxEXrrmGo',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'https://mobileera.rocks/',
         tag: false,
