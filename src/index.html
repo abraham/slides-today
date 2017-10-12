@@ -24,9 +24,6 @@
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="manifest" href="/manifest.json">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="preload" as="style">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="preload" as="style">
-
   <style>
     html {
       overflow-y: scroll;
@@ -51,17 +48,17 @@
     JavaScript is required to view Slides.today.
   </noscript>
   <script>
-    [
-      'https://fonts.googleapis.com/css?family=Roboto',
-      'https://fonts.googleapis.com/icon?family=Material+Icons'
-    ].map(url => {
-      var link = document.createElement('link');
-      link.href = url;
-      link.rel = 'stylesheet';
-      document.body.appendChild(link);
-    });
-
     window.addEventListener('load', () => {
+      [
+        'https://fonts.googleapis.com/css?family=Roboto',
+        'https://fonts.googleapis.com/icon?family=Material+Icons'
+      ].map(url => {
+        var link = document.createElement('link');
+        link.href = url;
+        link.rel = 'stylesheet';
+        document.body.appendChild(link);
+      });
+
       document.querySelector('body').classList.add('transition');
 
       [
