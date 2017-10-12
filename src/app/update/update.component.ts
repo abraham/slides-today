@@ -1,10 +1,10 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MDCSnackbar } from '@material/snackbar/dist/mdc.snackbar';
+import { MDCSnackbar } from '@material/snackbar';
 
 @Component({
   selector: 'app-update',
   templateUrl: './update.component.html',
-  styleUrls: ['./update.component.css']
+  styleUrls: ['./update.component.scss']
 })
 export class UpdateComponent implements OnInit {
 

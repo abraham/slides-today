@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { MDCRipple } from '@material/ripple';
 import { Router } from '@angular/router';
 
 import { Tag } from '../tag';
@@ -7,7 +7,7 @@ import { Tag } from '../tag';
 @Component({
   selector: 'app-tag',
   templateUrl: './tag.component.html',
-  styleUrls: ['../tags/chips.scss', './tag.component.css']
+  styleUrls: ['../tags/chips.scss', './tag.component.scss']
 })
 
 export class TagComponent implements OnInit {

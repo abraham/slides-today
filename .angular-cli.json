@@ -18,6 +18,11 @@
           "output": "./"
         }
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "../node_modules"
+        ]
+      },
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",

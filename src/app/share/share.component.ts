@@ -1,11 +1,11 @@
 import { Component, AfterViewInit, ViewChild, Input } from '@angular/core';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
-import { MDCSimpleMenu } from '@material/menu/dist/mdc.menu';
+import { MDCRipple } from '@material/ripple';
+import { MDCSimpleMenu } from '@material/menu';
 
 @Component({
   selector: 'app-share',
   templateUrl: './share.component.html',
-  styleUrls: ['./share.component.css']
+  styleUrls: ['./share.component.scss']
 })
 export class ShareComponent implements AfterViewInit {
 

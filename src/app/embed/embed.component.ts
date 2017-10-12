@@ -6,7 +6,7 @@ import { Link } from '../link';
 @Component({
   selector: 'app-embed',
   templateUrl: './embed.component.html',
-  styleUrls: ['./embed.component.css']
+  styleUrls: ['./embed.component.scss']
 })
 export class EmbedComponent implements OnInit {
   @Input() link: Link;

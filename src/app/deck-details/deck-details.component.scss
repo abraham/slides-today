@@ -1,6 +1,6 @@
-@import '~@material/card/dist/mdc.card.css';
-@import '~@material/elevation/dist/mdc.elevation.css';
-@import '~@material/layout-grid/dist/mdc.layout-grid.css';
+@import '~@material/card/mdc-card';
+@import '~@material/elevation/mdc-elevation';
+@import '~@material/layout-grid/mdc-layout-grid';
 
 .content {
   column-count: 1;

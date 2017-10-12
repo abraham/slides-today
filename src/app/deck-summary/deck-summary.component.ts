@@ -8,7 +8,7 @@ import { Position } from '../position';
 @Component({
   selector: 'app-deck-summary',
   templateUrl: './deck-summary.component.html',
-  styleUrls: ['./deck-summary.component.css'],
+  styleUrls: ['./deck-summary.component.scss'],
 })
 
 export class DeckSummaryComponent implements OnInit, OnChanges {

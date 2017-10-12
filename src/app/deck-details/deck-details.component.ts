@@ -16,7 +16,7 @@ import { Position } from '../position';
 @Component({
   selector: 'app-deck-details',
   templateUrl: './deck-details.component.html',
-  styleUrls: ['./deck-details.component.css'],
+  styleUrls: ['./deck-details.component.scss'],
   providers: [DeckService, TagService],
 })
 export class DeckDetailsComponent implements OnInit {

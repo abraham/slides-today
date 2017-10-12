@@ -7,7 +7,7 @@ import { Tag } from '../tag';
 @Component({
   selector: 'app-tags',
   templateUrl: './tags.component.html',
-  styleUrls: ['./chips.scss', './tags.component.css'],
+  styleUrls: ['./chips.scss', './tags.component.scss'],
   providers: [TagService],
 })
 

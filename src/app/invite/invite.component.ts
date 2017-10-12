@@ -1,11 +1,11 @@
 import { Component, AfterViewInit, ViewChild } from '@angular/core';
-import { MDCDialog } from '@material/dialog/dist/mdc.dialog';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { MDCDialog } from '@material/dialog';
+import { MDCRipple } from '@material/ripple';
 
 @Component({
   selector: 'app-invite',
   templateUrl: './invite.component.html',
-  styleUrls: ['./invite.component.css']
+  styleUrls: ['./invite.component.scss']
 })
 export class InviteComponent implements AfterViewInit {
 

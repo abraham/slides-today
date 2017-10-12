@@ -6,7 +6,7 @@ import { SpeakerService } from '../speaker.service';
 @Component({
   selector: 'app-speaker',
   templateUrl: './speaker.component.html',
-  styleUrls: ['./speaker.component.css'],
+  styleUrls: ['./speaker.component.scss'],
   providers: [SpeakerService],
 })
 export class SpeakerComponent implements OnInit {

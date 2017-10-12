@@ -1,11 +1,11 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCRipple } from '@material/ripple/dist/mdc.ripple';
+import { MDCRipple } from '@material/ripple';
 
 @Component({
   selector: 'app-card-action',
   templateUrl: './card-action.component.html',
-  styleUrls: ['./card-action.component.css']
+  styleUrls: ['./card-action.component.scss']
 })
 export class CardActionComponent implements OnInit {
   @Input() url: string;
