@@ -22,7 +22,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
 
   @HostBinding('style.display') display = 'inline';
 
-  offset = -200;
+  offset = 200;
   imageLoaded: false;
   defaultImage = '/assets/img/default.jpg';
   url: string;
