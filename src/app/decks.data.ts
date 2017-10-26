@@ -3,6 +3,31 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KxPBlPsbheNf4r4pr2g',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
+    title: 'Get Talking with Actions on Google',
+    date: 'October 27th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences with Node.js. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'BayFest DevFest',
+    tags: ['actionsongoogle'],
+    location: 'San Francisco, CA',
+    links: [
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1aZabNt_qH0g-gYGUSOHMSRP1sxZhHQbl7Wrh7EmOv_w',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
+        title: 'Event',
+        url: 'https://bayfest2017.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
+  },
+  {
     id: '-KvaqXVilT2vtW29jy3w',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
