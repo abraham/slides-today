@@ -3,6 +3,25 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KxhhEBwb_FmBY48u527',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Energize Your Development Flow With CLIs',
+    date: 'October 31st, 2017',
+    description: 'Creating personalized CLIs can help you streamline recurring tasks, such as setting up new development environments, managing deployments, and wrangling data.',
+    eventTitle: 'DevOpsDays Madison',
+    tags: ['cli', '⚡'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.devopsdays.org/events/2017-madison/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
     id: '-KxPBlPsbheNf4r4pr2g',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Get Talking with Actions on Google',
