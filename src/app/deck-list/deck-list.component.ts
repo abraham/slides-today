@@ -1,8 +1,7 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Location } from '@angular/common';
-
-import 'rxjs/add/operator/switchMap';
+import { switchMap } from 'rxjs/operators';
 
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';

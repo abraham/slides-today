@@ -13,8 +13,14 @@
     ],
     "lib": [
       "es2017",
-      "dom",
-      "typings"
+      "dom"
     ]
-  }
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
 }

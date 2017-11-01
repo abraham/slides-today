@@ -2,8 +2,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit, Input, Output, ViewChild, EventEmitter } from '@angular/core';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
-
-import 'rxjs/add/operator/switchMap';
+import { switchMap } from 'rxjs/operators';
 
 import { AnimationService } from '../animation.service';
 import { Deck } from '../deck';
