@@ -3,6 +3,25 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-KyHNIlh-LPp2TdEpVPs',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Get Talking with Actions on Google',
+    date: 'November 18th, 2017',
+    description: 'Let your users be the voice talent with Actions on Google. Learn how to design, develop, and distribute rich conversational experiences with Node.js. We’ll show you how to approach voice-driven, natural language interactions with API.AI’s powerful bot platform.',
+    eventTitle: 'Ohio DevFest',
+    tags: ['actionsongoogle'],
+    location: 'Columbus, OH',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://ohiodevfest.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
+  },
+  {
     id: '-KxhhEBwb_FmBY48u527',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize Your Development Flow With CLIs',
