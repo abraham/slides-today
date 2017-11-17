@@ -13,6 +13,12 @@ export const DECKS: Deck[] = [
     location: 'Columbus, OH',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/18ZprFHDj6Z9dMqAZ81BQB1c1aFCP8AQOLdR_Ko0fLPQ',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'https://ohiodevfest.com/',
         tag: false,
