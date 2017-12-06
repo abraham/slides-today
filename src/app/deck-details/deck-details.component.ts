@@ -199,7 +199,7 @@ export class DeckDetailsComponent implements OnInit {
   }
 
   setEmbeds(): void {
-    const embedServices = ['youtube', 'google-slides'];
+    const embedServices = ['youtube', 'google-slides', 'vimeo'];
     this.embeds = this.deck.links.filter(link => embedServices.includes(link.service));
   }
 }
