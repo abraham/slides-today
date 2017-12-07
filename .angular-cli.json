@@ -15,14 +15,10 @@
         {
           "glob": "workbox-sw.prod.v1.3.0.js",
           "input": "../node_modules/workbox-sw/build/importScripts/",
-          "output": "./"
+          "output": "./",
+          "allowOutsideOutDir": false
         }
       ],
-      "stylePreprocessorOptions": {
-        "includePaths": [
-          "../node_modules"
-        ]
-      },
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -33,6 +29,11 @@
       "styles": [
         "styles.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "../node_modules"
+        ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -68,5 +69,8 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
+  },
+  "warnings": {
+    "typescriptMismatch": false
   }
 }
