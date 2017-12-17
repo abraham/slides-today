@@ -5,11 +5,12 @@
   "scripts": {
     "build-prod": "ng build --prod --build-optimizer && npm run generate-sw",
     "build": "ng build",
-    "deploy": "npm run build-prod && firebase deploy",
+    "deploy": "firebase deploy",
     "e2e": "ng e2e",
     "generate-sw": "node generate-sw.js",
     "lint": "ng lint",
     "ng": "ng",
+    "predeploy": "npm run build-prod",
     "serve": "ng serve --aot",
     "test": "ng test"
   },
