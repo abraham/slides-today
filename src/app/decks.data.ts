@@ -130,6 +130,12 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Video',
+        url: 'https://vimeo.com/248349297',
+        tag: true,
+        service: 'vimeo',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
   },
