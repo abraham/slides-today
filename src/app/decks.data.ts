@@ -3,6 +3,25 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-L2RQBa9SprUe5OSYebU',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Build, Test, and Deploy a Web Component',
+    date: 'January 12th, 2017',
+    description: 'In this session, you will build, test, and deploy a web component using Nutmeg. Nutmeg is a tool that scaffolds a component with tests and best practices baked in. We will walk you through the process, and you will leave with a basic component that you can modify and build upon.',
+    eventTitle: 'WindyCity DevFest',
+    tags: ['webcomponents', 'nutmeg'],
+    location: 'Chicago, IL',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://windycity.devfest.io',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+  },
+  {
     id: '-KyHNIlh-LPp2TdEpVPs',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
