@@ -9,12 +9,18 @@ export const DECKS: Deck[] = [
     date: 'January 12th, 2017',
     description: 'In this session, you will build, test, and deploy a web component using Nutmeg. Nutmeg is a tool that scaffolds a component with tests and best practices baked in. We will walk you through the process, and you will leave with a basic component that you can modify and build upon.',
     eventTitle: 'WindyCity DevFest',
-    tags: ['webcomponents', 'nutmeg'],
+    tags: ['nutmeg', 'webcomponents'],
     location: 'Chicago, IL',
     links: [
       {
         title: 'Event',
         url: 'https://windycity.devfest.io',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Nutmeg',
+        url: 'https://nutmeg.tools',
         tag: false,
         service: 'external',
       },
