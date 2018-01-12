@@ -13,6 +13,12 @@ export const DECKS: Deck[] = [
     location: 'Chicago, IL',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/19-9bdqK8fl8kjbCWR7txFbVFgJDUbmgty1VyM17xm4A',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'https://windycity.devfest.io',
         tag: false,
