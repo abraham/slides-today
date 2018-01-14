@@ -15,4 +15,11 @@ export const SPONSORS: Sponsor[] = [
     url: 'https://www.google.com',
     image: '/assets/img/sponsors/google.png',
   },
+  {
+    id: '-L2mH7p5JFsCTXU4A4w4',
+    name: 'Nutmeg',
+    description: 'Vanilla Web Components with a little spice',
+    url: 'https://nutmeg.tools',
+    image: '/assets/img/sponsors/nutmeg.png',
+  },
 ];
