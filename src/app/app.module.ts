@@ -1,7 +1,8 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import 'twitter-status';
 
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
@@ -39,6 +40,7 @@ import { AnimationService } from './animation.service';
     SpeakerComponent,
     SponsorComponent,
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,

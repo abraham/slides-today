@@ -47,6 +47,12 @@
       </ng-template>
 
       <app-sponsor [sponsorIds]="deck?.sponsors" class="item mdc-animation-standard-curve-timing-function"></app-sponsor>
+
+      <ng-template ngFor let-status [ngForOf]="statuses">
+        <div class="item">
+          <twitter-status [status]="status"></twitter-status>
+        </div>
+      </ng-template>
     </div>
 
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>

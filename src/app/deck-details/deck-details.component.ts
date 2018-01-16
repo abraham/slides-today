@@ -11,6 +11,7 @@ import { Link } from '../link';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 import { Position } from '../position';
+import { STATUSES } from '../status.data';
 
 @Component({
   selector: 'app-deck-details',
@@ -43,6 +44,7 @@ export class DeckDetailsComponent implements OnInit {
   colors: { color: string, backgroundColor: string };
   currentPosition: object;
   startPosition: Position;
+  statuses: any[];
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';
@@ -90,6 +92,7 @@ export class DeckDetailsComponent implements OnInit {
         this.setColors();
         this.setEmbeds();
         this.setEmbedWidth();
+        this.statuses = STATUSES[this.deck.id] || [];
       });
   }
 

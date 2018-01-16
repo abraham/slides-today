@@ -26,11 +26,13 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@webcomponents/webcomponentsjs": "^1.0.22",
     "autotrack": "^2.4.1",
     "core-js": "^2.5.1",
     "material-components-web": "^0.28.0",
     "ng-lazyload-image": "^3.4.2",
     "rxjs": "^5.5.6",
+    "twitter-status": "^0.1.2",
     "zone.js": "^0.8.20"
   },
   "devDependencies": {
