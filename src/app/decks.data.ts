@@ -30,6 +30,12 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Video',
+        url: 'https://www.youtube.com/watch?v=sDkr_gegFTk',
+        tag: true,
+        service: 'youtube',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-Kt8bVVFVc8xQNx9AP_E', '-L2mH7p5JFsCTXU4A4w4'],
   },
@@ -135,7 +141,7 @@ export const DECKS: Deck[] = [
         url: 'https://vimeo.com/243435933',
         tag: true,
         service: 'vimeo',
-      }
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
   },
