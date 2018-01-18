@@ -1,4 +1,5 @@
 import { Link } from './link';
+import * as tweetsData from './tweets.data.json';
 
 export class Deck {
   date: string;
@@ -10,6 +11,7 @@ export class Deck {
   speakers: string[];
   title: string;
   sponsors: string[];
+  tweets: object[];
 
   private _tags: string[];
 
@@ -24,6 +26,7 @@ export class Deck {
     this.sponsors = data.sponsors;
     this.tags = data.tags;
     this.title = data.title;
+    this.tweets = data.tweets.map((id: string) => tweetsData[id]);
   }
 
   public set tags(tags: string[]) {

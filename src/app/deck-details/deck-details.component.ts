@@ -11,7 +11,6 @@ import { Link } from '../link';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 import { Position } from '../position';
-import { STATUSES } from '../status.data';
 
 @Component({
   selector: 'app-deck-details',
@@ -92,7 +91,6 @@ export class DeckDetailsComponent implements OnInit {
         this.setColors();
         this.setEmbeds();
         this.setEmbedWidth();
-        this.statuses = STATUSES[this.deck.id] || [];
       });
   }
 

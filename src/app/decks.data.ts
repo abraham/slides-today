@@ -20,6 +20,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
   },
   {
     id: '-L2RQBa9SprUe5OSYebU',
@@ -57,6 +58,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp', '-L2mH7p5JFsCTXU4A4w4'],
+    tweets: ['950816989899051017', '951921453263355904'],
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
@@ -82,6 +84,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
   },
   {
     id: '-KxhhEBwb_FmBY48u527',
@@ -107,6 +110,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KxPBlPsbheNf4r4pr2g',
@@ -132,6 +136,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
   },
   {
     id: '-KvaqXVilT2vtW29jy3w',
@@ -163,6 +168,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
@@ -194,6 +200,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KuK2kY4Q3-cRwoh5wA5',
@@ -219,6 +226,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KuK2OlDHUH8HD4-Qp2W',
@@ -250,6 +258,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KsEs5JMWk87ZisLpW1F',
@@ -275,6 +284,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KsK81gOZiIkIWcL5AhZ',
@@ -300,6 +310,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-Krv_65pE2p9nJUXkhFl',
@@ -325,6 +336,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
@@ -350,6 +362,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
@@ -375,6 +388,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
@@ -400,6 +414,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
@@ -431,6 +446,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZxXjRvdxuo_pWZGy',
@@ -462,6 +478,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
@@ -493,6 +510,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZsDivrXv69eEkiRs',
@@ -518,6 +536,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZof6--agoRIC6vl0',
@@ -543,6 +562,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-Kt8ZOHSO3M-nLnxH8Fh',
@@ -562,6 +582,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZmqmksA5WVIr1uoA',
@@ -587,6 +608,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
@@ -612,6 +634,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
@@ -637,6 +660,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
@@ -662,6 +686,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
@@ -687,6 +712,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
@@ -712,6 +738,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZWvDU7VUnyPTDmSA',
@@ -737,6 +764,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZRBmB_NDgJ6z2m0T',
@@ -762,6 +790,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
@@ -787,6 +816,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZMwl5K6WfArx9xkz',
@@ -818,6 +848,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
@@ -843,6 +874,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
@@ -874,6 +906,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZGc2sMFHbGMkaRNc',
@@ -899,6 +932,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   },
   {
     id: '-KrvZAS455BHznj4ugI2',
@@ -930,6 +964,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
   }
 ].map(deck => {
   deck.links = deck.links.map(link => new Link(link));
