@@ -12,7 +12,8 @@
     "ng": "ng",
     "predeploy": "npm run build-prod",
     "serve": "ng serve --aot",
-    "test": "ng test"
+    "test": "ng test",
+    "tweet": "node ./scripts/get-tweet.js"
   },
   "private": true,
   "dependencies": {
@@ -56,6 +57,7 @@
     "protractor": "^5.2.0",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",
+    "twitter": "^1.7.1",
     "typescript": "^2.6.2",
     "workbox-build": "^2.1.2",
     "workbox-sw": "^2.1.2"
