@@ -1332,5 +1332,701 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "790155059476692992": {
+    "created_at": "Sun Oct 23 11:37:01 +0000 2016",
+    "id": 790155059476693000,
+    "id_str": "790155059476692992",
+    "full_text": "We welcome @abraham and @pblatteier to talk about progressive web apps, doing all the stuff you thought you needed native for.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      126
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            11,
+            19
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            24,
+            35
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 4179545055,
+      "id_str": "4179545055",
+      "name": "Mobile Era",
+      "screen_name": "mobileeraconf",
+      "location": "Oslo, Norway",
+      "description": "Northern Europe's Premier Conference for Mobile Developers. October 5-6th 2017, Oslo, Norway. Program: https://t.co/d3lUXRFce4",
+      "url": "https://t.co/xKYD24oq6U",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/xKYD24oq6U",
+              "expanded_url": "http://mobileera.rocks",
+              "display_url": "mobileera.rocks",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/d3lUXRFce4",
+              "expanded_url": "https://mobileera.rocks/schedule/day1",
+              "display_url": "mobileera.rocks/schedule/day1",
+              "indices": [
+                103,
+                126
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 453,
+      "friends_count": 241,
+      "listed_count": 23,
+      "created_at": "Fri Nov 13 15:21:31 +0000 2015",
+      "favourites_count": 1035,
+      "utc_offset": 3600,
+      "time_zone": "Stockholm",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 909,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/4179545055/1507282893",
+      "profile_link_color": "00AAC6",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "794119798816993280": {
+    "created_at": "Thu Nov 03 10:11:28 +0000 2016",
+    "id": 794119798816993300,
+    "id_str": "794119798816993280",
+    "full_text": "Service Worker is the magic that makes PWAsome @abraham and @pblatteier - @mobileeraconf https://t.co/vgsyz6SG5C",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      88
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            47,
+            55
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            60,
+            71
+          ]
+        },
+        {
+          "screen_name": "mobileeraconf",
+          "name": "Mobile Era",
+          "id": 4179545055,
+          "id_str": "4179545055",
+          "indices": [
+            74,
+            88
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 794119795235049500,
+          "id_str": "794119795235049472",
+          "indices": [
+            89,
+            112
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwVHvxAXUAApCKO.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwVHvxAXUAApCKO.jpg",
+          "url": "https://t.co/vgsyz6SG5C",
+          "display_url": "pic.twitter.com/vgsyz6SG5C",
+          "expanded_url": "https://twitter.com/jhannes/status/794119798816993280/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 720,
+              "h": 405,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 720,
+              "h": 405,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 794119795235049500,
+          "id_str": "794119795235049472",
+          "indices": [
+            89,
+            112
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwVHvxAXUAApCKO.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwVHvxAXUAApCKO.jpg",
+          "url": "https://t.co/vgsyz6SG5C",
+          "display_url": "pic.twitter.com/vgsyz6SG5C",
+          "expanded_url": "https://twitter.com/jhannes/status/794119798816993280/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 720,
+              "h": 405,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 720,
+              "h": 405,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.tweetcaster.com\" rel=\"nofollow\">TweetCaster for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 13368602,
+      "id_str": "13368602",
+      "name": "Johannes Brodwall",
+      "screen_name": "jhannes",
+      "location": "Oslo, Norway",
+      "description": "Passionate and opinionated about agile software development, .NET and Java.",
+      "url": "http://t.co/JG5gZTRGP6",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/JG5gZTRGP6",
+              "expanded_url": "http://johannesbrodwall.com",
+              "display_url": "johannesbrodwall.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2637,
+      "friends_count": 346,
+      "listed_count": 134,
+      "created_at": "Mon Feb 11 23:45:53 +0000 2008",
+      "favourites_count": 398,
+      "utc_offset": 3600,
+      "time_zone": "Stockholm",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 4266,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368602/1398834947",
+      "profile_link_color": "1E1E26",
+      "profile_sidebar_border_color": "87BC44",
+      "profile_sidebar_fill_color": "E0FF92",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "794126674539540481": {
+    "created_at": "Thu Nov 03 10:38:48 +0000 2016",
+    "id": 794126674539540500,
+    "id_str": "794126674539540481",
+    "full_text": "PWAs are awesome, soo close to native. If most of your users are from iOS, wait.Otherwise start today! @abraham @pblatteier #mobileera #oslo https://t.co/dmKEo8pbed",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      140
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "mobileera",
+          "indices": [
+            124,
+            134
+          ]
+        },
+        {
+          "text": "oslo",
+          "indices": [
+            135,
+            140
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            103,
+            111
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            112,
+            123
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 794126659607793700,
+          "id_str": "794126659607793664",
+          "indices": [
+            141,
+            164
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwVN_UyXEAAszBZ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwVN_UyXEAAszBZ.jpg",
+          "url": "https://t.co/dmKEo8pbed",
+          "display_url": "pic.twitter.com/dmKEo8pbed",
+          "expanded_url": "https://twitter.com/gabororosz/status/794126674539540481/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 794126659607793700,
+          "id_str": "794126659607793664",
+          "indices": [
+            141,
+            164
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwVN_UyXEAAszBZ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwVN_UyXEAAszBZ.jpg",
+          "url": "https://t.co/dmKEo8pbed",
+          "display_url": "pic.twitter.com/dmKEo8pbed",
+          "expanded_url": "https://twitter.com/gabororosz/status/794126674539540481/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 69055562,
+      "id_str": "69055562",
+      "name": "Gábor Orosz",
+      "screen_name": "gabororosz",
+      "location": "Budapest",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 326,
+      "friends_count": 1398,
+      "listed_count": 16,
+      "created_at": "Wed Aug 26 18:27:00 +0000 2009",
+      "favourites_count": 30867,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1727,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "BADFCD",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/378800000498012165/d28874cd367193ff61035298c1500271_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000498012165/d28874cd367193ff61035298c1500271_normal.jpeg",
+      "profile_link_color": "FF0000",
+      "profile_sidebar_border_color": "F2E195",
+      "profile_sidebar_fill_color": "FFF7CC",
+      "profile_text_color": "0C3E53",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "e42ed02b50d62e29",
+      "url": "https://api.twitter.com/1.1/geo/id/e42ed02b50d62e29.json",
+      "place_type": "city",
+      "name": "Oslo",
+      "full_name": "Oslo, Norway",
+      "country_code": "NO",
+      "country": "Norway",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4914682,
+              59.8097794
+            ],
+            [
+              10.9515836,
+              59.8097794
+            ],
+            [
+              10.9515836,
+              60.1350316
+            ],
+            [
+              10.4914682,
+              60.1350316
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "804389956118544385": {
+    "created_at": "Thu Dec 01 18:21:25 +0000 2016",
+    "id": 804389956118544400,
+    "id_str": "804389956118544385",
+    "full_text": "Mobile Era 2016 - @abraham &amp; @pblatteier “Leverage the power of native with Progressive Web Apps”\nhttps://t.co/kF24SllTgi",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      125
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            18,
+            26
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            33,
+            44
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/kF24SllTgi",
+          "expanded_url": "https://vimeo.com/190713344",
+          "display_url": "vimeo.com/190713344",
+          "indices": [
+            102,
+            125
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 4179545055,
+      "id_str": "4179545055",
+      "name": "Mobile Era",
+      "screen_name": "mobileeraconf",
+      "location": "Oslo, Norway",
+      "description": "Northern Europe's Premier Conference for Mobile Developers. October 5-6th 2017, Oslo, Norway. Program: https://t.co/d3lUXRFce4",
+      "url": "https://t.co/xKYD24oq6U",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/xKYD24oq6U",
+              "expanded_url": "http://mobileera.rocks",
+              "display_url": "mobileera.rocks",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/d3lUXRFce4",
+              "expanded_url": "https://mobileera.rocks/schedule/day1",
+              "display_url": "mobileera.rocks/schedule/day1",
+              "indices": [
+                103,
+                126
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 453,
+      "friends_count": 241,
+      "listed_count": 23,
+      "created_at": "Fri Nov 13 15:21:31 +0000 2015",
+      "favourites_count": 1035,
+      "utc_offset": 3600,
+      "time_zone": "Stockholm",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 909,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/4179545055/1507282893",
+      "profile_link_color": "00AAC6",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 13,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
