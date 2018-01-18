@@ -16,10 +16,11 @@ const client = new Twitter({
   access_token_secret: config.accesTokenSecret
 });
 
-console.log(`Gettint Tweet ${id}`);
+console.log(`Getting tweet ${id}`);
 
 client.get('statuses/show', { id: id, tweet_mode: 'extended', include_entities: true }, (error, tweet, response) => {
   if(error) { console.log('ERROR', error); }
   allTweets[id] = tweet;
   fs.writeFileSync(dataFilePath, JSON.stringify(allTweets, null, 2));
+  console.log('Updated tweets.data.json');
 });
