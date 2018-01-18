@@ -20,7 +20,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: ['953794723105378312'],
+    tweets: ['953794723105378312', '951268923915362304'],
   },
   {
     id: '-L2RQBa9SprUe5OSYebU',
@@ -58,7 +58,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp', '-L2mH7p5JFsCTXU4A4w4'],
-    tweets: ['950816989899051017', '951921453263355904'],
+    tweets: ['943953366975164416', '950816989899051017', '951921453263355904', '953344287529406464'],
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
@@ -84,7 +84,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: [],
+    tweets: ['919925917987852288', '920148209145602048', '931881304773349377', '926099368184336385', '931888327225200641'],
   },
   {
     id: '-KxhhEBwb_FmBY48u527',
@@ -110,7 +110,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['925423098949664771', '922541889257201664', '924834217984274432'],
   },
   {
     id: '-KxPBlPsbheNf4r4pr2g',
@@ -136,7 +136,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: [],
+    tweets: ['921429362582458368', '922581908495765504'],
   },
   {
     id: '-KvaqXVilT2vtW29jy3w',
@@ -168,7 +168,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['910405673829068800', '915893077427970048', '915896274376888320', '915896396603150336', '915887624916733953', '915896603822755840', '915902741574189056', '915897980095430656', '936247200065183745', '899952541374365696'],
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
@@ -200,7 +200,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['911234750697885696', '911230303368335360', '907358460161003521', '907363405375438848', '910673310614196225', '911306200263864321', '911289694134112257', '911230303368335360', '911309425012625408', '944050485220249600'],
   },
   {
     id: '-KuK2kY4Q3-cRwoh5wA5',
@@ -226,7 +226,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['907358460161003521', '907363405375438848', '910673310614196225', '911306200263864321', '911289694134112257'],
   },
   {
     id: '-KuK2OlDHUH8HD4-Qp2W',
@@ -258,7 +258,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['910925563359039488', '907358460161003521', '907363405375438848', '910673310614196225', '911306200263864321', '911289694134112257', '941859976334766080'],
   },
   {
     id: '-KsEs5JMWk87ZisLpW1F',
@@ -316,7 +316,7 @@ export const DECKS: Deck[] = [
     id: '-Krv_65pE2p9nJUXkhFl',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
-    date: 'August 22nd, 2017',
+    date: 'August 18th, 2017',
     description: 'As developers, we want to create apps that engage users across multiple devices. But building native apps is costly and cumbersome. Progressive Web Apps (PWAs) combine the power of native apps with the ease of building and deploying web apps. Learn to craft PWA experiences using new web standards, including service workers, push notifications, and homescreen access.',
     eventTitle: 'Midwest JS',
     tags: ['progressivewebapps'],
@@ -336,7 +336,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['898604361693052930', '898614470720626688', '898622088113561600', '898624897072549888', '898613448761724929', '899096055538647041', '899688823784968192'],
+    tweets: ['898604361693052930', '898614470720626688', '898622088113561600', '898624897072549888', '898613448761724929', '899096055538647041', '899688823784968192', '898578086035431425'],
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
@@ -362,7 +362,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['898218006970552323'],
+    tweets: ['898218006970552323', '898578086035431425'],
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
@@ -388,7 +388,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['895061646066012161'],
+    tweets: ['893086931789254656', '894571533674446849', '895012653260832768', '895061646066012161', '895078995502485509'],
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
@@ -414,7 +414,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['893163520111652865'],
+    tweets: ['896143571203440642', '892444846430068736', '893163520111652865'],
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
