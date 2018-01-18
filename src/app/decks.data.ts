@@ -3,10 +3,29 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-L364aLyZ3nMk0QYaBU8',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Wicked Fast ⚡ Mobile Web',
+    date: 'Februery 17th, 2018',
+    description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
+    eventTitle: 'DevFest KC',
+    tags: ['progressivewebapps'],
+    location: 'Kansas City, MO',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://devfestkc.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+  },
+  {
     id: '-L2RQBa9SprUe5OSYebU',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component',
-    date: 'January 12th, 2017',
+    date: 'January 12th, 2018',
     description: 'In this session, you will build, test, and deploy a web component using Nutmeg. Nutmeg is a tool that scaffolds a component with tests and best practices baked in. We will walk you through the process, and you will leave with a basic component that you can modify and build upon.',
     eventTitle: 'WindyCity DevFest',
     tags: ['nutmeg', 'webcomponents'],
@@ -37,7 +56,7 @@ export const DECKS: Deck[] = [
         service: 'youtube',
       },
     ],
-    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-Kt8bVVFVc8xQNx9AP_E', '-L2mH7p5JFsCTXU4A4w4'],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp', '-L2mH7p5JFsCTXU4A4w4'],
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
