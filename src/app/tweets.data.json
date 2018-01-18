@@ -2028,5 +2028,3286 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "806611805137051648": {
+    "created_at": "Wed Dec 07 21:30:15 +0000 2016",
+    "id": 806611805137051600,
+    "id_str": "806611805137051648",
+    "full_text": "Scripts: Vital for error-prone, mission-critical tasks. Like deployment. ~@abraham &amp; @pblatteier of @bendyworks present at @confooca",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      136
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            74,
+            82
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            89,
+            100
+          ]
+        },
+        {
+          "screen_name": "bendyworks",
+          "name": "Bendyworks",
+          "id": 31920143,
+          "id_str": "31920143",
+          "indices": [
+            104,
+            115
+          ]
+        },
+        {
+          "screen_name": "confooca",
+          "name": "ConFoo Conference",
+          "id": 59477405,
+          "id_str": "59477405",
+          "indices": [
+            127,
+            136
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 17503660,
+      "id_str": "17503660",
+      "name": "Raymond T. Hightower",
+      "screen_name": "RayHightower",
+      "location": "Chicago, IL, USA",
+      "description": "Tech company founder & president for 21 years before selling to @8thLightInc. Software developer. Creator of @WindyCityRails.",
+      "url": "https://t.co/4Gzd6FZQUK",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/4Gzd6FZQUK",
+              "expanded_url": "http://RayHightower.com",
+              "display_url": "RayHightower.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2291,
+      "friends_count": 238,
+      "listed_count": 244,
+      "created_at": "Thu Nov 20 03:40:09 +0000 2008",
+      "favourites_count": 2959,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 9603,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/692076866656600065/soxm_4Og.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/692076866656600065/soxm_4Og.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/879907936956502016/oiNNj6ao_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/879907936956502016/oiNNj6ao_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/17503660/1499998344",
+      "profile_link_color": "000000",
+      "profile_sidebar_border_color": "86A4A6",
+      "profile_sidebar_fill_color": "A0C5C7",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "806667421960372224": {
+    "created_at": "Thu Dec 08 01:11:15 +0000 2016",
+    "id": 806667421960372200,
+    "id_str": "806667421960372224",
+    "full_text": "Good job @confooca! My favoritate talk at #ConFoo was on #Firebase by @abraham and @pblatteier",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      94
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ConFoo",
+          "indices": [
+            42,
+            49
+          ]
+        },
+        {
+          "text": "Firebase",
+          "indices": [
+            57,
+            66
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "confooca",
+          "name": "ConFoo Conference",
+          "id": 59477405,
+          "id_str": "59477405",
+          "indices": [
+            9,
+            18
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            70,
+            78
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            83,
+            94
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 72260306,
+      "id_str": "72260306",
+      "name": "Zeeshan Rasool",
+      "screen_name": "zeeshanrasool7",
+      "location": "Vancouver / Islamabad",
+      "description": "Product Designer / Developer. Tech @Skyrkt. Code @Quupe_Inc. Design @MRKSmedia. Master of Digital Media. Lives on chocolate.",
+      "url": "https://t.co/aT9HqS7pRn",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/aT9HqS7pRn",
+              "expanded_url": "http://www.zeeshanrasool.com",
+              "display_url": "zeeshanrasool.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 329,
+      "friends_count": 450,
+      "listed_count": 32,
+      "created_at": "Mon Sep 07 11:15:53 +0000 2009",
+      "favourites_count": 122,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1412,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "1A1B1F",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/395316716/IMG_7774-1.JPG",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/395316716/IMG_7774-1.JPG",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/868275180145065984/r5P1WqNp_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/868275180145065984/r5P1WqNp_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/72260306/1498443653",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "1e5cb4d0509db554",
+      "url": "https://api.twitter.com/1.1/geo/id/1e5cb4d0509db554.json",
+      "place_type": "city",
+      "name": "Vancouver",
+      "full_name": "Vancouver, British Columbia",
+      "country_code": "CA",
+      "country": "Canada",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.224215,
+              49.19854
+            ],
+            [
+              -123.022947,
+              49.19854
+            ],
+            [
+              -123.022947,
+              49.316738
+            ],
+            [
+              -123.224215,
+              49.316738
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "821087333264998400": {
+    "created_at": "Mon Jan 16 20:10:49 +0000 2017",
+    "id": 821087333264998400,
+    "id_str": "821087333264998400",
+    "full_text": "Looking forward to speaking at @GDGKansasCity with @pblatteier on #WebComponents, #PWAs and #ActionsOnGoogle. https://t.co/4flJ4rMIWg",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      133
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "WebComponents",
+          "indices": [
+            66,
+            80
+          ]
+        },
+        {
+          "text": "PWAs",
+          "indices": [
+            82,
+            87
+          ]
+        },
+        {
+          "text": "ActionsOnGoogle",
+          "indices": [
+            92,
+            108
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "GDGKansasCity",
+          "name": "GDG Kansas City",
+          "id": 858239083,
+          "id_str": "858239083",
+          "indices": [
+            31,
+            45
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            51,
+            62
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/4flJ4rMIWg",
+          "expanded_url": "https://devfestkc.com/",
+          "display_url": "devfestkc.com",
+          "indices": [
+            110,
+            133
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8158,
+      "friends_count": 401,
+      "listed_count": 581,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 15743,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 44635,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "38AFFF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "821097210771279882": {
+    "created_at": "Mon Jan 16 20:50:04 +0000 2017",
+    "id": 821097210771279900,
+    "id_str": "821097210771279882",
+    "full_text": "Don't miss out on @abraham &amp; @pblatteier speaking at #DevFestKC! Register today! https://t.co/7h8M6orPjg https://t.co/udiQHK5upS",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      108
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "DevFestKC",
+          "indices": [
+            57,
+            67
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            18,
+            26
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            33,
+            44
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/7h8M6orPjg",
+          "expanded_url": "https://devfestkc.com",
+          "display_url": "devfestkc.com",
+          "indices": [
+            85,
+            108
+          ]
+        },
+        {
+          "url": "https://t.co/udiQHK5upS",
+          "expanded_url": "https://twitter.com/abraham/status/821087333264998400",
+          "display_url": "twitter.com/abraham/status…",
+          "indices": [
+            109,
+            132
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 858239083,
+      "id_str": "858239083",
+      "name": "GDG Kansas City",
+      "screen_name": "GDGKansasCity",
+      "location": "Kansas City",
+      "description": "Google Developer Group (GDG) is a  #KansasCity non-profit org for developers interested in Google's developer tech - #Android #AngularJS #Cloud #Analytics",
+      "url": "https://t.co/weBndveP7H",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/weBndveP7H",
+              "expanded_url": "https://gdgkc.org",
+              "display_url": "gdgkc.org",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 322,
+      "friends_count": 208,
+      "listed_count": 36,
+      "created_at": "Tue Oct 02 15:26:32 +0000 2012",
+      "favourites_count": 299,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 747,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/2673463578/ca6c750390ad295e5a224c4297b5ca0b_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2673463578/ca6c750390ad295e5a224c4297b5ca0b_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/858239083/1493222510",
+      "profile_link_color": "DD2E44",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 821087333264998400,
+    "quoted_status_id_str": "821087333264998400",
+    "quoted_status": {
+      "created_at": "Mon Jan 16 20:10:49 +0000 2017",
+      "id": 821087333264998400,
+      "id_str": "821087333264998400",
+      "full_text": "Looking forward to speaking at @GDGKansasCity with @pblatteier on #WebComponents, #PWAs and #ActionsOnGoogle. https://t.co/4flJ4rMIWg",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        133
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WebComponents",
+            "indices": [
+              66,
+              80
+            ]
+          },
+          {
+            "text": "PWAs",
+            "indices": [
+              82,
+              87
+            ]
+          },
+          {
+            "text": "ActionsOnGoogle",
+            "indices": [
+              92,
+              108
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "GDGKansasCity",
+            "name": "GDG Kansas City",
+            "id": 858239083,
+            "id_str": "858239083",
+            "indices": [
+              31,
+              45
+            ]
+          },
+          {
+            "screen_name": "pblatteier",
+            "name": "Pearl Latteier",
+            "id": 202376085,
+            "id_str": "202376085",
+            "indices": [
+              51,
+              62
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/4flJ4rMIWg",
+            "expanded_url": "https://devfestkc.com/",
+            "display_url": "devfestkc.com",
+            "indices": [
+              110,
+              133
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 9436992,
+        "id_str": "9436992",
+        "name": "Abraham Williams",
+        "screen_name": "abraham",
+        "location": "Madison, WI",
+        "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+        "url": "https://t.co/ck29y8mOBT",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/ck29y8mOBT",
+                "expanded_url": "https://abrah.am/",
+                "display_url": "abrah.am",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 8158,
+        "friends_count": 401,
+        "listed_count": 581,
+        "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+        "favourites_count": 15743,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 44635,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+        "profile_link_color": "38AFFF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "454545",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 9,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "823909988137635841": {
+    "created_at": "Tue Jan 24 15:07:03 +0000 2017",
+    "id": 823909988137635800,
+    "id_str": "823909988137635841",
+    "full_text": "The dynamic duo of @pblatteier and @abraham will dive into \"Web Components: Lego bricks of the web\" @Jazz_Con  - early bird ends this week!",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      139
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            19,
+            30
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            35,
+            43
+          ]
+        },
+        {
+          "screen_name": "Jazz_Con",
+          "name": "JazzCon.Tech",
+          "id": 791361411289145300,
+          "id_str": "791361411289145344",
+          "indices": [
+            100,
+            109
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 791361411289145300,
+      "id_str": "791361411289145344",
+      "name": "JazzCon.Tech",
+      "screen_name": "Jazz_Con",
+      "location": "New Orleans, LA",
+      "description": "Music. Web. Code.  A conference on Web, JavaScript, Angular, React, and much more! March 21-23 2018, NOLA",
+      "url": "https://t.co/oW79gI4n3R",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/oW79gI4n3R",
+              "expanded_url": "http://jazzcon.tech",
+              "display_url": "jazzcon.tech",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 322,
+      "friends_count": 226,
+      "listed_count": 47,
+      "created_at": "Wed Oct 26 19:30:38 +0000 2016",
+      "favourites_count": 73,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 326,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/802712699314520064/ggektUCv_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/802712699314520064/ggektUCv_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/791361411289145344/1480216424",
+      "profile_link_color": "0093BA",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "845053059927625728": {
+    "created_at": "Thu Mar 23 23:22:04 +0000 2017",
+    "id": 845053059927625700,
+    "id_str": "845053059927625728",
+    "full_text": "https://t.co/IEBwrIeVbi",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      0
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 845053058165952500,
+          "id_str": "845053058165952514",
+          "indices": [
+            0,
+            23
+          ],
+          "media_url": "http://pbs.twimg.com/media/C7o7R3RW0AInoUa.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C7o7R3RW0AInoUa.jpg",
+          "url": "https://t.co/IEBwrIeVbi",
+          "display_url": "pic.twitter.com/IEBwrIeVbi",
+          "expanded_url": "https://twitter.com/dottechconfs/status/845053059927625728/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 800,
+              "h": 600,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 600,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 845053058165952500,
+          "id_str": "845053058165952514",
+          "indices": [
+            0,
+            23
+          ],
+          "media_url": "http://pbs.twimg.com/media/C7o7R3RW0AInoUa.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C7o7R3RW0AInoUa.jpg",
+          "url": "https://t.co/IEBwrIeVbi",
+          "display_url": "pic.twitter.com/IEBwrIeVbi",
+          "expanded_url": "https://twitter.com/dottechconfs/status/845053059927625728/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 800,
+              "h": 600,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 800,
+              "h": 600,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 845012618372894700,
+      "id_str": "845012618372894720",
+      "name": "DotTechConfs",
+      "screen_name": "dottechconfs",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 5,
+      "friends_count": 1,
+      "listed_count": 0,
+      "created_at": "Thu Mar 23 20:41:22 +0000 2017",
+      "favourites_count": 0,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 47,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/845014748882071552/d58JAbj5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/845014748882071552/d58JAbj5_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "und"
+  },
+  "859112402306174976": {
+    "created_at": "Mon May 01 18:28:52 +0000 2017",
+    "id": 859112402306175000,
+    "id_str": "859112402306174976",
+    "full_text": "\"My favorite Meetup so far!\" #gdgfeedback https://t.co/bDcN8tYEfl",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      41
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "gdgfeedback",
+          "indices": [
+            29,
+            41
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 859111722174607400,
+          "id_str": "859111722174607361",
+          "indices": [
+            42,
+            65
+          ],
+          "media_url": "http://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
+          "url": "https://t.co/bDcN8tYEfl",
+          "display_url": "pic.twitter.com/bDcN8tYEfl",
+          "expanded_url": "https://twitter.com/gdgmadison/status/859112402306174976/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 859111722174607400,
+          "id_str": "859111722174607361",
+          "indices": [
+            42,
+            65
+          ],
+          "media_url": "http://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
+          "url": "https://t.co/bDcN8tYEfl",
+          "display_url": "pic.twitter.com/bDcN8tYEfl",
+          "expanded_url": "https://twitter.com/gdgmadison/status/859112402306174976/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 60940193,
+      "id_str": "60940193",
+      "name": "GDG Madison",
+      "screen_name": "gdgmadison",
+      "location": "Madison, WI",
+      "description": "Google Developer Group Madison",
+      "url": "https://t.co/jmpo3XZoV1",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/jmpo3XZoV1",
+              "expanded_url": "https://gdgmadison.com",
+              "display_url": "gdgmadison.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 96,
+      "friends_count": 48,
+      "listed_count": 12,
+      "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+      "favourites_count": 69,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 383,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "884571840101928962": {
+    "created_at": "Tue Jul 11 00:35:35 +0000 2017",
+    "id": 884571840101929000,
+    "id_str": "884571840101928962",
+    "full_text": "Thanks @abraham and @pblatteier for presenting tonight at @MadJavaScript https://t.co/ZbtHSFCOnK",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      72
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            7,
+            15
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            20,
+            31
+          ]
+        },
+        {
+          "screen_name": "MadJavaScript",
+          "name": "MadJS",
+          "id": 458405320,
+          "id_str": "458405320",
+          "indices": [
+            58,
+            72
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 884571832996683800,
+          "id_str": "884571832996683776",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DEahZTwVYAAAgI9.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DEahZTwVYAAAgI9.jpg",
+          "url": "https://t.co/ZbtHSFCOnK",
+          "display_url": "pic.twitter.com/ZbtHSFCOnK",
+          "expanded_url": "https://twitter.com/jthoms1/status/884571840101928962/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 884571832996683800,
+          "id_str": "884571832996683776",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DEahZTwVYAAAgI9.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DEahZTwVYAAAgI9.jpg",
+          "url": "https://t.co/ZbtHSFCOnK",
+          "display_url": "pic.twitter.com/ZbtHSFCOnK",
+          "expanded_url": "https://twitter.com/jthoms1/status/884571840101928962/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 15965108,
+      "id_str": "15965108",
+      "name": "JoshuaJS 💎",
+      "screen_name": "jthoms1",
+      "location": "Madison, WI",
+      "description": "Dev at @Ionicframework working on @stenciljs. In Madison, previously Provo, St. Louis, and So Illinois. JS, FP and APIs. Organizer of @madjavascript.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 856,
+      "friends_count": 611,
+      "listed_count": 76,
+      "created_at": "Sun Aug 24 03:09:47 +0000 2008",
+      "favourites_count": 8518,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 4614,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897859316513783808/exBCIyz0_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897859316513783808/exBCIyz0_normal.jpg",
+      "profile_link_color": "465B9B",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "884572018888388611": {
+    "created_at": "Tue Jul 11 00:36:18 +0000 2017",
+    "id": 884572018888388600,
+    "id_str": "884572018888388611",
+    "full_text": "TY @abraham &amp; @pblatteier for a great presentation of PWAs at MadJS",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      71
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            3,
+            11
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            18,
+            29
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 8367072,
+      "id_str": "8367072",
+      "name": "Charlene W",
+      "screen_name": "cwroblew",
+      "location": "Wisconsin",
+      "description": "Database Developer specializing in Web Apps using PHP and MySQL #PHP7 #MySQL #database #webdeveloper",
+      "url": "http://t.co/N82mIuT4j5",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/N82mIuT4j5",
+              "expanded_url": "http://webwisewardens.com",
+              "display_url": "webwisewardens.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 502,
+      "friends_count": 1743,
+      "listed_count": 108,
+      "created_at": "Wed Aug 22 20:26:57 +0000 2007",
+      "favourites_count": 739,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 7408,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/481834649019101186/4Am46vxZ_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/481834649019101186/4Am46vxZ_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/8367072/1403713321",
+      "profile_link_color": "19CF86",
+      "profile_sidebar_border_color": "44BC55",
+      "profile_sidebar_fill_color": "ABFF92",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "893163520111652865": {
+    "created_at": "Thu Aug 03 17:35:52 +0000 2017",
+    "id": 893163520111652900,
+    "id_str": "893163520111652865",
+    "full_text": "Nothing better than kicking off @kc_dc seeing @abraham @pblatteier, fellow @gdg organizers on the streets! Good luck w the talk! #kcdc #gdg https://t.co/6JEuv6ZYwc",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      139
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "kcdc",
+          "indices": [
+            129,
+            134
+          ]
+        },
+        {
+          "text": "gdg",
+          "indices": [
+            135,
+            139
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "kc_dc",
+          "name": "Kansas City Dev Con",
+          "id": 87091420,
+          "id_str": "87091420",
+          "indices": [
+            32,
+            38
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            46,
+            54
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            55,
+            66
+          ]
+        },
+        {
+          "screen_name": "gdg",
+          "name": "GDG",
+          "id": 443290756,
+          "id_str": "443290756",
+          "indices": [
+            75,
+            79
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 893163505645375500,
+          "id_str": "893163505645375488",
+          "indices": [
+            140,
+            163
+          ],
+          "media_url": "http://pbs.twimg.com/media/DGUneehV0AA8tOU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DGUneehV0AA8tOU.jpg",
+          "url": "https://t.co/6JEuv6ZYwc",
+          "display_url": "pic.twitter.com/6JEuv6ZYwc",
+          "expanded_url": "https://twitter.com/ladyleet/status/893163520111652865/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1638,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 893163505645375500,
+          "id_str": "893163505645375488",
+          "indices": [
+            140,
+            163
+          ],
+          "media_url": "http://pbs.twimg.com/media/DGUneehV0AA8tOU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DGUneehV0AA8tOU.jpg",
+          "url": "https://t.co/6JEuv6ZYwc",
+          "display_url": "pic.twitter.com/6JEuv6ZYwc",
+          "expanded_url": "https://twitter.com/ladyleet/status/893163520111652865/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 544,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1638,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 960,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 17503069,
+      "id_str": "17503069",
+      "name": "Tracy Lee | ladyleet",
+      "screen_name": "ladyleet",
+      "location": "SF Bay & Raleigh",
+      "description": "GoogleDevExpert, #RxJS Core Team, Consult/Mentor @thisdotlabs, @thisdotmedia, Keynote Speaker, @GDGSV @moderndotweb @rxworkshop https://t.co/91rgJnzJcY #FOODIE",
+      "url": "https://t.co/UVYEjTBNS8",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/UVYEjTBNS8",
+              "expanded_url": "http://thisdot.co/labs",
+              "display_url": "thisdot.co/labs",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/91rgJnzJcY",
+              "expanded_url": "http://ladyleet.com",
+              "display_url": "ladyleet.com",
+              "indices": [
+                128,
+                151
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 27076,
+      "friends_count": 5927,
+      "listed_count": 1140,
+      "created_at": "Thu Nov 20 03:10:21 +0000 2008",
+      "favourites_count": 63598,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 56531,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "005C4E",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/551645306/rainbow-star-kawaii-535324_1280_1024.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/551645306/rainbow-star-kawaii-535324_1280_1024.jpg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/950722990483955712/qe6O4YM2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/950722990483955712/qe6O4YM2_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/17503069/1502725622",
+      "profile_link_color": "040070",
+      "profile_sidebar_border_color": "001D8F",
+      "profile_sidebar_fill_color": "CAD0EB",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "895061646066012161": {
+    "created_at": "Tue Aug 08 23:18:20 +0000 2017",
+    "id": 895061646066012200,
+    "id_str": "895061646066012161",
+    "full_text": "Welcome to @abraham and @pblatteier from @bendyworks talking about Web Components. https://t.co/a8jcFqCW9d",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      82
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            11,
+            19
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            24,
+            35
+          ]
+        },
+        {
+          "screen_name": "bendyworks",
+          "name": "Bendyworks",
+          "id": 31920143,
+          "id_str": "31920143",
+          "indices": [
+            41,
+            52
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 895061497570746400,
+          "id_str": "895061497570746368",
+          "indices": [
+            83,
+            106
+          ],
+          "media_url": "http://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
+          "url": "https://t.co/a8jcFqCW9d",
+          "display_url": "pic.twitter.com/a8jcFqCW9d",
+          "expanded_url": "https://twitter.com/rkfdweb/status/895061646066012161/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 895061497570746400,
+          "id_str": "895061497570746368",
+          "indices": [
+            83,
+            106
+          ],
+          "media_url": "http://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
+          "url": "https://t.co/a8jcFqCW9d",
+          "display_url": "pic.twitter.com/a8jcFqCW9d",
+          "expanded_url": "https://twitter.com/rkfdweb/status/895061646066012161/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 4104273013,
+      "id_str": "4104273013",
+      "name": "Rockford Web Devs",
+      "screen_name": "rkfdweb",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 74,
+      "friends_count": 135,
+      "listed_count": 9,
+      "created_at": "Mon Nov 02 17:50:48 +0000 2015",
+      "favourites_count": 44,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 259,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/661239657921835008/OBtH4ziT_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/661239657921835008/OBtH4ziT_normal.png",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "898218006970552323": {
+    "created_at": "Thu Aug 17 16:20:35 +0000 2017",
+    "id": 898218006970552300,
+    "id_str": "898218006970552323",
+    "full_text": "Cool web component info. Peaked my interest in ShadowDOM &amp; polymer. thx @abraham @pblatteier @midwest_js #midwestjs https://t.co/AT3MUgYCOK",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      119
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "midwestjs",
+          "indices": [
+            109,
+            119
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            76,
+            84
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            85,
+            96
+          ]
+        },
+        {
+          "screen_name": "midwest_js",
+          "name": "Midwest JS",
+          "id": 2196056617,
+          "id_str": "2196056617",
+          "indices": [
+            97,
+            108
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 898218004483366900,
+          "id_str": "898218004483366912",
+          "indices": [
+            120,
+            143
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHcchCAXYAA9BH3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHcchCAXYAA9BH3.jpg",
+          "url": "https://t.co/AT3MUgYCOK",
+          "display_url": "pic.twitter.com/AT3MUgYCOK",
+          "expanded_url": "https://twitter.com/TechnoloD/status/898218006970552323/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 898218004483366900,
+          "id_str": "898218004483366912",
+          "indices": [
+            120,
+            143
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHcchCAXYAA9BH3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHcchCAXYAA9BH3.jpg",
+          "url": "https://t.co/AT3MUgYCOK",
+          "display_url": "pic.twitter.com/AT3MUgYCOK",
+          "expanded_url": "https://twitter.com/TechnoloD/status/898218006970552323/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3301659265,
+      "id_str": "3301659265",
+      "name": "David Brewitz 👨‍💻",
+      "screen_name": "TechnoloD",
+      "location": "Minnesota, USA",
+      "description": "Husband, father, technology systems #webdev #javascript #API #blockchain #data #business #analytics #wine #naps #learning. 👨‍💻 {views == mine}",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 221,
+      "friends_count": 416,
+      "listed_count": 10,
+      "created_at": "Thu Jul 30 14:48:38 +0000 2015",
+      "favourites_count": 577,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 336,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/908893706853474304/UVV4AMRf_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/908893706853474304/UVV4AMRf_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3301659265/1454099837",
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "898604361693052930": {
+    "created_at": "Fri Aug 18 17:55:49 +0000 2017",
+    "id": 898604361693052900,
+    "id_str": "898604361693052930",
+    "full_text": "If you are at #MidwestJS find Pearl @pblatteier and get her business card. Brilliant.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      85
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MidwestJS",
+          "indices": [
+            14,
+            24
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            36,
+            47
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 21673841,
+      "id_str": "21673841",
+      "name": "Chris Ward",
+      "screen_name": "cwardphotos",
+      "location": "Minneapolis",
+      "description": "java, javascript, robots, developer, hacker, softball watching parent, vanagon, bicycles, video games, books, politics, photography, made in canuck land",
+      "url": "https://t.co/n3m3FSVbGz",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/n3m3FSVbGz",
+              "expanded_url": "http://www.cyberward.net",
+              "display_url": "cyberward.net",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 835,
+      "friends_count": 556,
+      "listed_count": 98,
+      "created_at": "Mon Feb 23 17:53:36 +0000 2009",
+      "favourites_count": 2505,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 6100,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "022330",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1327589918/cwardphotos_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1327589918/cwardphotos_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/21673841/1443750766",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "A8C7F7",
+      "profile_sidebar_fill_color": "C0DFEC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "898614470720626688": {
+    "created_at": "Fri Aug 18 18:35:59 +0000 2017",
+    "id": 898614470720626700,
+    "id_str": "898614470720626688",
+    "full_text": "Full house for progressive web app (service worker) talk with @pblatteier @abraham  @midwest_js https://t.co/HRNKnAc8H8",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      95
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            62,
+            73
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            74,
+            82
+          ]
+        },
+        {
+          "screen_name": "midwest_js",
+          "name": "Midwest JS",
+          "id": 2196056617,
+          "id_str": "2196056617",
+          "indices": [
+            84,
+            95
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 898614450692833300,
+          "id_str": "898614450692833280",
+          "indices": [
+            96,
+            119
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
+          "url": "https://t.co/HRNKnAc8H8",
+          "display_url": "pic.twitter.com/HRNKnAc8H8",
+          "expanded_url": "https://twitter.com/jeffbski/status/898614470720626688/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1152,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 898614450692833300,
+          "id_str": "898614450692833280",
+          "indices": [
+            96,
+            119
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
+          "url": "https://t.co/HRNKnAc8H8",
+          "display_url": "pic.twitter.com/HRNKnAc8H8",
+          "expanded_url": "https://twitter.com/jeffbski/status/898614470720626688/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1152,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 675,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 37806143,
+      "id_str": "37806143",
+      "name": "Jeff Barczewski",
+      "screen_name": "jeffbski",
+      "location": "St. Louis, MO USA",
+      "description": "Ex-MasterCard, ApplePay, Full stack developer, React.js, Node.js, Javascript, Instructor, Entrepreneur, Husband, Father, Genesis Ministry, Catholic, Skier",
+      "url": "http://t.co/teE1yG6dxj",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/teE1yG6dxj",
+              "expanded_url": "http://codewinds.com/",
+              "display_url": "codewinds.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1384,
+      "friends_count": 1673,
+      "listed_count": 146,
+      "created_at": "Tue May 05 00:27:27 +0000 2009",
+      "favourites_count": 2161,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3203,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/725425772/dc1aa71281d97b16e7bbcd4c219ebb8a.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/725425772/dc1aa71281d97b16e7bbcd4c219ebb8a.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/874628255155765249/AgxHaO1d_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/874628255155765249/AgxHaO1d_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/37806143/1354285788",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "898622088113561600": {
+    "created_at": "Fri Aug 18 19:06:16 +0000 2017",
+    "id": 898622088113561600,
+    "id_str": "898622088113561600",
+    "full_text": "Progressive Web Apps w/ Service Workers idly standing by to help out when called. @abraham @pblatteier @midwest_js https://t.co/gPuXx30x34",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      114
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            82,
+            90
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            91,
+            102
+          ]
+        },
+        {
+          "screen_name": "midwest_js",
+          "name": "Midwest JS",
+          "id": 2196056617,
+          "id_str": "2196056617",
+          "indices": [
+            103,
+            114
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 898622086419062800,
+          "id_str": "898622086419062785",
+          "indices": [
+            115,
+            138
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiMBshUIAEt7Ze.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiMBshUIAEt7Ze.jpg",
+          "url": "https://t.co/gPuXx30x34",
+          "display_url": "pic.twitter.com/gPuXx30x34",
+          "expanded_url": "https://twitter.com/TechnoloD/status/898622088113561600/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 898622086419062800,
+          "id_str": "898622086419062785",
+          "indices": [
+            115,
+            138
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiMBshUIAEt7Ze.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiMBshUIAEt7Ze.jpg",
+          "url": "https://t.co/gPuXx30x34",
+          "display_url": "pic.twitter.com/gPuXx30x34",
+          "expanded_url": "https://twitter.com/TechnoloD/status/898622088113561600/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3301659265,
+      "id_str": "3301659265",
+      "name": "David Brewitz 👨‍💻",
+      "screen_name": "TechnoloD",
+      "location": "Minnesota, USA",
+      "description": "Husband, father, technology systems #webdev #javascript #API #blockchain #data #business #analytics #wine #naps #learning. 👨‍💻 {views == mine}",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 221,
+      "friends_count": 416,
+      "listed_count": 10,
+      "created_at": "Thu Jul 30 14:48:38 +0000 2015",
+      "favourites_count": 577,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 336,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/908893706853474304/UVV4AMRf_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/908893706853474304/UVV4AMRf_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3301659265/1454099837",
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "898624897072549888": {
+    "created_at": "Fri Aug 18 19:17:25 +0000 2017",
+    "id": 898624897072549900,
+    "id_str": "898624897072549888",
+    "full_text": "Great PWA talk! @abraham @pblatteier",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      36
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            16,
+            24
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            25,
+            36
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 385215168,
+      "id_str": "385215168",
+      "name": "I am Josh.",
+      "screen_name": "JoshLovesDesign",
+      "location": "",
+      "description": "Be kind.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 37,
+      "friends_count": 120,
+      "listed_count": 4,
+      "created_at": "Wed Oct 05 02:46:14 +0000 2011",
+      "favourites_count": 605,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 258,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/949647893165621248/le6Bej0s_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/949647893165621248/le6Bej0s_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/385215168/1507323879",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "tl"
+  },
+  "898613448761724929": {
+    "created_at": "Fri Aug 18 18:31:56 +0000 2017",
+    "id": 898613448761724900,
+    "id_str": "898613448761724929",
+    "full_text": "@midwest_js full room for progressive web apps with @pblatteier and @abraham #midwestjs https://t.co/IxKiamR2xk",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      87
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "midwestjs",
+          "indices": [
+            77,
+            87
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "midwest_js",
+          "name": "Midwest JS",
+          "id": 2196056617,
+          "id_str": "2196056617",
+          "indices": [
+            0,
+            11
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            52,
+            63
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            68,
+            76
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 898613441342001200,
+          "id_str": "898613441342001152",
+          "indices": [
+            88,
+            111
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+          "url": "https://t.co/IxKiamR2xk",
+          "display_url": "pic.twitter.com/IxKiamR2xk",
+          "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 898613441342001200,
+          "id_str": "898613441342001152",
+          "indices": [
+            88,
+            111
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+          "url": "https://t.co/IxKiamR2xk",
+          "display_url": "pic.twitter.com/IxKiamR2xk",
+          "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 2196056617,
+    "in_reply_to_user_id_str": "2196056617",
+    "in_reply_to_screen_name": "midwest_js",
+    "user": {
+      "id": 16821400,
+      "id_str": "16821400",
+      "name": "Justin James",
+      "screen_name": "digitaldrummerj",
+      "location": "Maricopa, Az",
+      "description": "Microsoft MVP, Developer Evangelist & Professional Speaker specializing in making the complex simple and easy to understand",
+      "url": "http://t.co/B7DlUAqK4J",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/B7DlUAqK4J",
+              "expanded_url": "http://digitaldrummerj.me",
+              "display_url": "digitaldrummerj.me",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 592,
+      "friends_count": 479,
+      "listed_count": 72,
+      "created_at": "Fri Oct 17 06:55:35 +0000 2008",
+      "favourites_count": 251,
+      "utc_offset": -25200,
+      "time_zone": "Arizona",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1911,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "1A1B1F",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/894951276374401024/TZ2NBnMS_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/894951276374401024/TZ2NBnMS_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/16821400/1502208046",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "181A1E",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 12,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "899096055538647041": {
+    "created_at": "Sun Aug 20 02:29:38 +0000 2017",
+    "id": 899096055538647000,
+    "id_str": "899096055538647041",
+    "full_text": "@abraham @angular @materialdesign @Firebase @GoogleMapsAPI Really enjoyed your talk on Friday. @pblatteier and you were great! Excited to play with PWAs.",
+    "truncated": false,
+    "display_text_range": [
+      59,
+      153
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "angular",
+          "name": "Angular",
+          "id": 202230373,
+          "id_str": "202230373",
+          "indices": [
+            9,
+            17
+          ]
+        },
+        {
+          "screen_name": "materialdesign",
+          "name": "Material Design",
+          "id": 816364272452128800,
+          "id_str": "816364272452128768",
+          "indices": [
+            18,
+            33
+          ]
+        },
+        {
+          "screen_name": "Firebase",
+          "name": "Firebase",
+          "id": 447644824,
+          "id_str": "447644824",
+          "indices": [
+            34,
+            43
+          ]
+        },
+        {
+          "screen_name": "GoogleMapsAPI",
+          "name": "Google Maps API",
+          "id": 23000450,
+          "id_str": "23000450",
+          "indices": [
+            44,
+            58
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            95,
+            106
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+    "in_reply_to_status_id": 899080854550573000,
+    "in_reply_to_status_id_str": "899080854550573056",
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 832851509347917800,
+      "id_str": "832851509347917825",
+      "name": "Clever Beagle",
+      "screen_name": "clvrbgl",
+      "location": "Chicago, IL",
+      "description": "Ship your first software product with experience, not stress. 1-on-1 mentorship, tools, and resources for building and shipping your first software product.",
+      "url": "https://t.co/zBjEwnfiVV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/zBjEwnfiVV",
+              "expanded_url": "http://cleverbeagle.com",
+              "display_url": "cleverbeagle.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 123,
+      "friends_count": 122,
+      "listed_count": 3,
+      "created_at": "Sat Feb 18 07:17:28 +0000 2017",
+      "favourites_count": 117,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 701,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/832851509347917825/1504487657",
+      "profile_link_color": "4285F4",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "899688823784968192": {
+    "created_at": "Mon Aug 21 17:45:05 +0000 2017",
+    "id": 899688823784968200,
+    "id_str": "899688823784968192",
+    "full_text": "Not 100% doable with Pup but really enjoyed this talk @midwest_js last week on #PWAs by @abraham and @pblatteier\nhttps://t.co/JNyZpEGn2e",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      136
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PWAs",
+          "indices": [
+            79,
+            84
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "midwest_js",
+          "name": "Midwest JS",
+          "id": 2196056617,
+          "id_str": "2196056617",
+          "indices": [
+            54,
+            65
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            88,
+            96
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            101,
+            112
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/JNyZpEGn2e",
+          "expanded_url": "https://clvr.fyi/2wveekz",
+          "display_url": "clvr.fyi/2wveekz",
+          "indices": [
+            113,
+            136
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 832851509347917800,
+      "id_str": "832851509347917825",
+      "name": "Clever Beagle",
+      "screen_name": "clvrbgl",
+      "location": "Chicago, IL",
+      "description": "Ship your first software product with experience, not stress. 1-on-1 mentorship, tools, and resources for building and shipping your first software product.",
+      "url": "https://t.co/zBjEwnfiVV",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/zBjEwnfiVV",
+              "expanded_url": "http://cleverbeagle.com",
+              "display_url": "cleverbeagle.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 123,
+      "friends_count": 122,
+      "listed_count": 3,
+      "created_at": "Sat Feb 18 07:17:28 +0000 2017",
+      "favourites_count": 117,
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 701,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/832851509347917825/1504487657",
+      "profile_link_color": "4285F4",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }

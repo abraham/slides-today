@@ -336,7 +336,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['898604361693052930', '898614470720626688', '898622088113561600', '898624897072549888', '898613448761724929', '899096055538647041', '899688823784968192'],
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
@@ -362,7 +362,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['898218006970552323'],
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
@@ -388,7 +388,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['895061646066012161'],
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
@@ -414,7 +414,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['893163520111652865'],
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
@@ -536,7 +536,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['884571840101928962', '884572018888388611'],
   },
   {
     id: '-KrvZof6--agoRIC6vl0',
@@ -562,7 +562,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['859112402306174976'],
   },
   {
     id: '-Kt8ZOHSO3M-nLnxH8Fh',
@@ -634,7 +634,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['823909988137635841', '845053059927625728'],
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
@@ -660,7 +660,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['821087333264998400', '821097210771279882'],
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
@@ -686,7 +686,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['821087333264998400', '821097210771279882'],
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
@@ -712,7 +712,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['821087333264998400', '821097210771279882'],
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
@@ -764,7 +764,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['806667421960372224'],
   },
   {
     id: '-KrvZRBmB_NDgJ6z2m0T',
@@ -790,7 +790,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['806611805137051648'],
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
