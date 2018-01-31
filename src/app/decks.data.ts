@@ -108,6 +108,12 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Video',
+        url: 'https://www.youtube.com/watch?v=zLTT8jlHbvc',
+        tag: true,
+        service: 'youtube',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
     tweets: ['925423098949664771', '922541889257201664', '924834217984274432'],
