@@ -127,10 +127,10 @@ export class DeckDetailsComponent implements OnInit {
 
   columnWidth(): number {
     const width = this.contentEl.nativeElement.getBoundingClientRect().width;
-    if (width >= 480) {
-      return width / 2 - 8;
+    if (width >= 640) {
+      return width / 2 - 16;
     } else {
-      return width;
+      return width - 16;
     }
   }
 
