@@ -34,7 +34,7 @@
     "material-components-web": "^0.28.0",
     "ng-lazyload-image": "^3.4.2",
     "rxjs": "^5.5.6",
-    "twitter-status": "^0.1.4",
+    "twitter-status": "^0.1.5",
     "zone.js": "^0.8.20"
   },
   "devDependencies": {
