@@ -5,12 +5,13 @@ export class Deck {
   date: string;
   description: string;
   eventTitle: string;
+  github: string;
   id: string;
   links: Link[];
   location: string;
   speakers: string[];
-  title: string;
   sponsors: string[];
+  title: string;
   tweets: object[];
 
   private _tags: string[];
@@ -19,6 +20,7 @@ export class Deck {
     this.date = data.date;
     this.description = data.description;
     this.eventTitle = data.eventTitle;
+    this.github = data.github;
     this.id = data.id;
     this.links = data.links;
     this.location = data.location;

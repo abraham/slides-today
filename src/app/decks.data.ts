@@ -4,6 +4,7 @@ import { Link } from './link';
 export const DECKS: Deck[] = [
   {
     id: '-L364aLyZ3nMk0QYaBU8',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
     date: 'Februery 17th, 2018',
@@ -24,6 +25,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L2RQBa9SprUe5OSYebU',
+    github: 'abraham/nutmeg-cli',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component',
     date: 'January 12th, 2018',
@@ -62,6 +64,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
     date: 'November 18th, 2017',
@@ -88,6 +91,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KxhhEBwb_FmBY48u527',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize Your Development Flow With CLIs',
     date: 'October 31st, 2017',
@@ -120,6 +124,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KxPBlPsbheNf4r4pr2g',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Get Talking with Actions on Google',
     date: 'October 27th, 2017',
@@ -146,6 +151,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KvaqXVilT2vtW29jy3w',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
     date: 'October 5th, 2017',
@@ -178,6 +184,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'September 21st, 2017',
@@ -210,6 +217,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2kY4Q3-cRwoh5wA5',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize your development flow with CLIs',
     date: 'September 21st, 2017',
@@ -236,6 +244,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2OlDHUH8HD4-Qp2W',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
     date: 'September 21st, 2017',
@@ -268,6 +277,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsEs5JMWk87ZisLpW1F',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
     date: 'September 16th, 2017',
@@ -294,6 +304,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsK81gOZiIkIWcL5AhZ',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Making Slides.today',
     date: 'August 24th, 2017',
@@ -320,6 +331,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_65pE2p9nJUXkhFl',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'August 18th, 2017',
@@ -346,6 +358,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 17th, 2017',
@@ -372,6 +385,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 8th, 2017',
@@ -398,6 +412,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 3rd, 2017',
@@ -424,6 +439,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get the Power of Native with Progressive Web Apps',
     date: 'July 22nd, 2017',
@@ -456,6 +472,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZxXjRvdxuo_pWZGy',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Getting Started with the Twitter API',
     date: 'July 18th, 2017',
@@ -488,6 +505,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'July 17th, 2017',
@@ -520,6 +538,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZsDivrXv69eEkiRs',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'July 10th, 2017',
@@ -546,6 +565,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZof6--agoRIC6vl0',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Google I/O Recap',
     date: 'June 15th, 2017',
@@ -572,6 +592,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Kt8ZOHSO3M-nLnxH8Fh',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'How to be a professional developer',
     date: 'April 27th, 2017',
@@ -592,6 +613,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZmqmksA5WVIr1uoA',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
     date: 'April 15th, 2017',
@@ -618,6 +640,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'March 22nd, 2017',
@@ -644,6 +667,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'Februery 18th, 2017',
@@ -670,6 +694,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'Februery 18th, 2017',
@@ -696,6 +721,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
     date: 'Februery 18th, 2017',
@@ -722,6 +748,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
     date: 'Februery 8th, 2017',
@@ -748,6 +775,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZWvDU7VUnyPTDmSA',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Burn down your competitors with Firebase',
     date: 'December 5th, 2016',
@@ -774,6 +802,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZRBmB_NDgJ6z2m0T',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize your development flow with CLIs',
     date: 'December 7th, 2016',
@@ -800,6 +829,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'November 3rd, 2016',
@@ -826,6 +856,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZMwl5K6WfArx9xkz',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'November 3rd, 2016',
@@ -858,6 +889,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'October 20th, 2016',
@@ -884,6 +916,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'October 1st, 2016',
@@ -916,6 +949,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZGc2sMFHbGMkaRNc',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'September 16th, 2016',
@@ -942,6 +976,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZAS455BHznj4ugI2',
+    github: '',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'The Bendy Game of Life³',
     date: 'June 15th, 2016',
