@@ -184,7 +184,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'September 21st, 2017',
@@ -331,7 +331,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_65pE2p9nJUXkhFl',
-    github: '',
+    github: 'abraham/sprinkle',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'August 18th, 2017',
@@ -358,7 +358,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 17th, 2017',
@@ -385,7 +385,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 8th, 2017',
@@ -412,7 +412,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'August 3rd, 2017',
@@ -472,7 +472,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZxXjRvdxuo_pWZGy',
-    github: '',
+    github: 'abraham/twitteroauth',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Getting Started with the Twitter API',
     date: 'July 18th, 2017',
@@ -505,7 +505,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
     date: 'July 17th, 2017',
@@ -538,7 +538,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZsDivrXv69eEkiRs',
-    github: '',
+    github: 'abraham/sprinkle',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'July 10th, 2017',
@@ -640,7 +640,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'March 22nd, 2017',
@@ -667,7 +667,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'Februery 18th, 2017',
@@ -694,7 +694,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
-    github: '',
+    github: 'abraham/sprinkle',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'Februery 18th, 2017',
@@ -829,7 +829,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'November 3rd, 2016',
@@ -856,7 +856,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZMwl5K6WfArx9xkz',
-    github: '',
+    github: 'abraham/sprinkle',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'November 3rd, 2016',
@@ -889,7 +889,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'October 20th, 2016',
@@ -916,7 +916,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
-    github: '',
+    github: 'pearlbea/better-img',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
     date: 'October 1st, 2016',
@@ -949,7 +949,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZGc2sMFHbGMkaRNc',
-    github: '',
+    github: 'abraham/sprinkle',
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
     date: 'September 16th, 2016',
