@@ -4,64 +4,67 @@
       <i (click)="goBack()" [ngStyle]="{color: colors?.color}" class="back material-icons">arrow_back</i>
     </div>
 
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-mobile mdc-layout-grid__cell--span-0-tablet mdc-layout-grid__cell--span-2-desktop"></div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>
 
-    <div #contentEl class="content mdc-layout-grid__cell mdc-layout-grid__cell--span-6-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-8-desktop">
-      <div #detailsEl class="mdc-card item details mdc-animation-standard-curve-timing-function"
-                      [ngStyle]="currentPosition">
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">{{deck?.title}}</h1>
-          <h2 class="mdc-card__subtitle">{{deck?.eventTitle}} - {{deck?.date}}</h2>
-        </section>
-        <section class="mdc-card__supporting-text">
-          {{deck?.description}}
-        </section>
-        <section class="mdc-card__supporting-text">
-          <app-tags [tags]="deck?.tags"></app-tags>
-        </section>
-        <section class="mdc-card__actions">
-          <app-card-action *ngFor="let link of deck?.links"
-                           [text]="link.title"
-                           [url]="link.url"
-                           [blank]="true">
-          </app-card-action>
-        </section>
+    <div #contentEl class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-8-desktop">
+      <div class="mdc-layout-grid__inner">
+        <div #detailsEl class="mdc-card item details mdc-animation-standard-curve-timing-function mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
+                        [ngStyle]="currentPosition">
+          <section class="mdc-card__primary">
+            <h1 class="mdc-card__title mdc-card__title--large">{{deck?.title}}</h1>
+            <h2 class="mdc-card__subtitle">{{deck?.eventTitle}} - {{deck?.date}}</h2>
+          </section>
+          <section class="mdc-card__supporting-text">
+            {{deck?.description}}
+          </section>
+          <section class="mdc-card__supporting-text">
+            <app-tags [tags]="deck?.tags"></app-tags>
+          </section>
+          <section class="mdc-card__actions">
+            <app-card-action *ngFor="let link of deck?.links"
+                             [text]="link.title"
+                             [url]="link.url"
+                             [blank]="true">
+            </app-card-action>
+          </section>
+        </div>
+
+        <ng-template ngFor let-embed [ngForOf]="embeds">
+          <div class="item mdc-elevation--z2 mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+              <app-embed [width]="embedWidth" [link]="embed" [colors]="colors"></app-embed>
+          </div>
+        </ng-template>
+
+        <div class="mdc-card item mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+          <section class="mdc-card__primary">
+            <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
+          </section>
+          <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
+          </section>
+        </div>
+
+        <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
+          <app-speaker class="item mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
+                       [id]="speaker"></app-speaker>
+        </ng-template>
+
+        <ng-template ngFor let-github [ngForOf]="deck?.githubRepos">
+          <div class="item mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+            <github-repository [ownerRepo]="github"></github-repository>
+          </div>
+        </ng-template>
+
+        <app-sponsor [sponsorIds]="deck?.sponsors" class="item mdc-animation-standard-curve-timing-function mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"></app-sponsor>
+
+        <ng-template ngFor let-status [ngForOf]="deck?.tweets">
+          <div class="item mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+            <twitter-status [status]="status"></twitter-status>
+          </div>
+        </ng-template>
       </div>
-
-      <ng-template ngFor let-embed [ngForOf]="embeds">
-        <div class="item mdc-elevation--z2 mdc-animation-standard-curve-timing-function">
-            <app-embed [width]="embedWidth" [link]="embed" [colors]="colors"></app-embed>
-        </div>
-      </ng-template>
-
-      <div class="mdc-card item mdc-animation-standard-curve-timing-function">
-        <section class="mdc-card__primary">
-          <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
-        </section>
-        <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
-        </section>
-      </div>
-
-      <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
-        <app-speaker class="item mdc-animation-standard-curve-timing-function" [id]="speaker"></app-speaker>
-      </ng-template>
-
-      <ng-template ngFor let-github [ngForOf]="deck?.githubRepos">
-        <div class="item">
-          <github-repository [ownerRepo]="github"></github-repository>
-        </div>
-      </ng-template>
-
-      <app-sponsor [sponsorIds]="deck?.sponsors" class="item mdc-animation-standard-curve-timing-function"></app-sponsor>
-
-      <ng-template ngFor let-status [ngForOf]="deck?.tweets">
-        <div class="item">
-          <twitter-status [status]="status"></twitter-status>
-        </div>
-      </ng-template>
     </div>
 
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-mobile mdc-layout-grid__cell--span-0-tablet mdc-layout-grid__cell--span-2-desktop"></div>
+    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-1-tablet mdc-layout-grid__cell--span-2-desktop"></div>
 
   </div>
 </main>
