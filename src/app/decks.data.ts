@@ -24,6 +24,33 @@ export const DECKS: Deck[] = [
     tweets: ['953794723105378312', '951268923915362304', '959496608059621376'],
   },
   {
+    id: '-L4XFgBQVuADA_659dmn',
+    githubRepos: ['abraham/nutmeg-cli'],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Build, Test, and Deploy a Web Component with Nutmeg',
+    date: 'Februery 12th, 2018',
+    description: 'Nutmeg is a tool that scaffolds a component with tests and best practices baked in. We will walk you through the process of building, testing, and publishing a component, and you will leave with a basic component that you can modify and build upon.',
+    eventTitle: 'MadJS',
+    tags: ['nutmeg', 'webcomponents'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/MadisonJS/events/wqxgqlyxdbqb/',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Nutmeg',
+        url: 'https://nutmeg.tools',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-L2mH7p5JFsCTXU4A4w4'],
+    tweets: ['960232281800691713'],
+  },
+  {
     id: '-L4XD4YE5oD6j3rU0eEO',
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
