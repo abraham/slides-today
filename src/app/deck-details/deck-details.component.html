@@ -46,6 +46,12 @@
         <app-speaker class="item mdc-animation-standard-curve-timing-function" [id]="speaker"></app-speaker>
       </ng-template>
 
+      <div *ngIf="deck?.github">
+        <div class="item">
+          <github-repository [ownerRepo]="deck.github"></github-repository>
+        </div>
+      </div>
+
       <app-sponsor [sponsorIds]="deck?.sponsors" class="item mdc-animation-standard-curve-timing-function"></app-sponsor>
 
       <ng-template ngFor let-status [ngForOf]="deck?.tweets">

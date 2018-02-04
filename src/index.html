@@ -71,7 +71,7 @@
         document.body.appendChild(script);
       });
 
-      if(navigator.serviceWorker) {
+      if(navigator.serviceWorker && location.host !== 'localhost:4200') {
         navigator.serviceWorker.register('/sw.js')
         .catch(function(err) {
           console.error('Unable to register service worker.', err);
