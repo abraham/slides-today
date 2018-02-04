@@ -24,6 +24,27 @@ export const DECKS: Deck[] = [
     tweets: [],
   },
   {
+    id: '-L4XGyqXUs5d8Wm_hluF',
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Wicked Fast ⚡ Mobile Web',
+    date: 'March 21-23rd, 2018',
+    description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
+    eventTitle: 'JazzCon.Tech',
+    tags: ['progressivewebapps'],
+    location: 'New Orleans, LA',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://jazzcon.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: ['958067513379745792'],
+  },
+  {
     id: '-L364aLyZ3nMk0QYaBU8',
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],

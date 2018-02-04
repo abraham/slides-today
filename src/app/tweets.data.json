@@ -14313,5 +14313,254 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "958067513379745792": {
+    "created_at": "Mon Jan 29 20:01:09 +0000 2018",
+    "id": 958067513379745800,
+    "id_str": "958067513379745792",
+    "full_text": "We're please to announce Thunder and Lightning, aka @abraham and @pblatteier have confirmed for the event. They're presenting:\n\"Wicked Fast ⚡ Mobile Web\"\nhttps://t.co/ak3iSbKBSN 2018 #NewOrleans https://t.co/lWQ9CRxfa0",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      194
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NewOrleans",
+          "indices": [
+            183,
+            194
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            52,
+            60
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            65,
+            76
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ak3iSbKBSN",
+          "expanded_url": "http://JazzCon.Tech",
+          "display_url": "JazzCon.Tech",
+          "indices": [
+            154,
+            177
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 958067427773841400,
+          "id_str": "958067427773841408",
+          "indices": [
+            195,
+            218
+          ],
+          "media_url": "http://pbs.twimg.com/media/DUu9P99VAAA9Fn-.png",
+          "media_url_https": "https://pbs.twimg.com/media/DUu9P99VAAA9Fn-.png",
+          "url": "https://t.co/lWQ9CRxfa0",
+          "display_url": "pic.twitter.com/lWQ9CRxfa0",
+          "expanded_url": "https://twitter.com/Jazz_Con/status/958067513379745792/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 340,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 958067427773841400,
+          "id_str": "958067427773841408",
+          "indices": [
+            195,
+            218
+          ],
+          "media_url": "http://pbs.twimg.com/media/DUu9P99VAAA9Fn-.png",
+          "media_url_https": "https://pbs.twimg.com/media/DUu9P99VAAA9Fn-.png",
+          "url": "https://t.co/lWQ9CRxfa0",
+          "display_url": "pic.twitter.com/lWQ9CRxfa0",
+          "expanded_url": "https://twitter.com/Jazz_Con/status/958067513379745792/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 340,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          }
+        },
+        {
+          "id": 958067443510870000,
+          "id_str": "958067443510870017",
+          "indices": [
+            195,
+            218
+          ],
+          "media_url": "http://pbs.twimg.com/media/DUu9Q4lVAAEgArL.png",
+          "media_url_https": "https://pbs.twimg.com/media/DUu9Q4lVAAEgArL.png",
+          "url": "https://t.co/lWQ9CRxfa0",
+          "display_url": "pic.twitter.com/lWQ9CRxfa0",
+          "expanded_url": "https://twitter.com/Jazz_Con/status/958067513379745792/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1012,
+              "h": 506,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 340,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 791361411289145300,
+      "id_str": "791361411289145344",
+      "name": "JazzCon.Tech",
+      "screen_name": "Jazz_Con",
+      "location": "New Orleans, LA",
+      "description": "Music. Web. Code.  A conference on Web, JavaScript, Angular, React, and much more! March 21-23 2018, NOLA",
+      "url": "https://t.co/oW79gI4n3R",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/oW79gI4n3R",
+              "expanded_url": "http://jazzcon.tech",
+              "display_url": "jazzcon.tech",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 331,
+      "friends_count": 225,
+      "listed_count": 49,
+      "created_at": "Wed Oct 26 19:30:38 +0000 2016",
+      "favourites_count": 78,
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 359,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/802712699314520064/ggektUCv_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/802712699314520064/ggektUCv_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/791361411289145344/1480216424",
+      "profile_link_color": "0093BA",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8,
+    "favorite_count": 15,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
