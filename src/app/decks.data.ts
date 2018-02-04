@@ -10,7 +10,7 @@ export const DECKS: Deck[] = [
     date: 'March 27th, 2018',
     description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
     eventTitle: 'MilwaukeeJS',
-    tags: ['progressivewebapps'],
+    tags: ['progressivewebapps', 'perfmatters'],
     location: 'Milwaukee, WI',
     links: [
       {
@@ -31,7 +31,7 @@ export const DECKS: Deck[] = [
     date: 'March 21-23rd, 2018',
     description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
     eventTitle: 'JazzCon.Tech',
-    tags: ['progressivewebapps'],
+    tags: ['progressivewebapps', 'perfmatters'],
     location: 'New Orleans, LA',
     links: [
       {
@@ -52,7 +52,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 17th, 2018',
     description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
     eventTitle: 'DevFest KC',
-    tags: ['progressivewebapps'],
+    tags: ['progressivewebapps', 'perfmatters'],
     location: 'Kansas City, MO',
     links: [
       {
@@ -100,7 +100,7 @@ export const DECKS: Deck[] = [
     date: 'Februery 10th, 2018',
     description: 'Mobile has far outpaced desktop, especially in emerging markets. At the same time, the size of mobile apps has ballooned. Large applications fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Progressive web apps can serve mobile users better. We’ll show you how to make PWAs that download almost instantly and work offline while still providing the functionality of native apps.',
     eventTitle: 'DevFest MN',
-    tags: ['progressivewebapps'],
+    tags: ['progressivewebapps', 'perfmatters'],
     location: 'Minneapolis, MN',
     links: [
       {
