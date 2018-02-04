@@ -3,6 +3,27 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-L4XGwe63N_sxVJu9y_S',
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Wicked Fast ⚡ Mobile Web',
+    date: 'March 27th, 2018',
+    description: 'Ever-larger mobile apps fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Make Progressive Web Apps that download almost instantly and work offline while still providing the functionality of native apps.',
+    eventTitle: 'MilwaukeeJS',
+    tags: ['progressivewebapps'],
+    location: 'Milwaukee, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/milwaukeejs/events/247249876/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
+  },
+  {
     id: '-L364aLyZ3nMk0QYaBU8',
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
