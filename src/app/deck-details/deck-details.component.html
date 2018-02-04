@@ -30,17 +30,21 @@
         </div>
 
         <ng-template ngFor let-embed [ngForOf]="embeds">
-          <div class="item mdc-elevation--z2 mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+          <div class="item mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
               <app-embed [width]="embedWidth" [link]="embed" [colors]="colors"></app-embed>
+            </div>
           </div>
         </ng-template>
 
-        <div class="mdc-card item mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
-          <section class="mdc-card__primary">
-            <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
-          </section>
-          <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
-          </section>
+        <div class="item mdc-animation-standard-curve-timing-function  mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+          <div class="mdc-card">
+            <section class="mdc-card__primary">
+              <h2 class="mdc-card__title mdc-card__title--large">{{deck?.location}}</h2>
+            </section>
+            <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
+            </section>
+          </div>
         </div>
 
         <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
@@ -50,7 +54,9 @@
 
         <ng-template ngFor let-github [ngForOf]="deck?.githubRepos">
           <div class="item mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
-            <github-repository [ownerRepo]="github"></github-repository>
+            <div class="mdc-card">
+              <github-repository [ownerRepo]="github"></github-repository>
+            </div>
           </div>
         </ng-template>
 
@@ -58,7 +64,9 @@
 
         <ng-template ngFor let-status [ngForOf]="deck?.tweets">
           <div class="item mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile  mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
-            <twitter-status [status]="status"></twitter-status>
+            <div class="mdc-card">
+              <twitter-status [status]="status"></twitter-status>
+            </div>
           </div>
         </ng-template>
       </div>
