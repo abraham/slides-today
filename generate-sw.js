@@ -49,7 +49,29 @@ const input = {
         },
         cacheableResponse: {statuses: [0, 200]}
       }
-    }
+    },
+    {
+      urlPattern: /^https:\/\/api\.github\.com\/(.*)/,
+      handler: 'cacheFirst',
+      options: {
+        cacheName: 'runtime-data',
+        cacheExpiration: {
+          maxAgeSeconds: 24 * 60 * 60,
+        },
+        cacheableResponse: {statuses: [0, 200]}
+      }
+    },
+    {
+      urlPattern: /^https:\/\/pbs\.twimg\.com\/(.*)/,
+      handler: 'cacheFirst',
+      options: {
+        cacheName: 'runtime-images',
+        cacheExpiration: {
+          maxAgeSeconds: 24 * 60 * 60,
+        },
+        cacheableResponse: {statuses: [0, 200]}
+      }
+    },
   ],
   handleFetch: true,
   maximumFileSizeToCacheInBytes: 4000000
