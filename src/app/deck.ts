@@ -5,7 +5,7 @@ export class Deck {
   date: string;
   description: string;
   eventTitle: string;
-  github: string;
+  githubRepos: string[];
   id: string;
   links: Link[];
   location: string;
@@ -20,7 +20,7 @@ export class Deck {
     this.date = data.date;
     this.description = data.description;
     this.eventTitle = data.eventTitle;
-    this.github = data.github;
+    this.githubRepos = data.githubRepos;
     this.id = data.id;
     this.links = data.links;
     this.location = data.location;
