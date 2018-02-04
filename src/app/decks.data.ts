@@ -24,6 +24,27 @@ export const DECKS: Deck[] = [
     tweets: ['953794723105378312', '951268923915362304', '959496608059621376'],
   },
   {
+    id: '-L4XD4YE5oD6j3rU0eEO',
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Wicked Fast ⚡ Mobile Web',
+    date: 'Februery 10th, 2018',
+    description: 'Mobile has far outpaced desktop, especially in emerging markets. At the same time, the size of mobile apps has ballooned. Large applications fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Progressive web apps can serve mobile users better. We’ll show you how to make PWAs that download almost instantly and work offline while still providing the functionality of native apps.',
+    eventTitle: 'DevFest MN',
+    tags: ['progressivewebapps'],
+    location: 'Minneapolis, MN',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://devfest.mn/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: ['958037035780005888', '956172293834788864', '960230711516127232'],
+  },
+  {
     id: '-L2RQBa9SprUe5OSYebU',
     githubRepos: ['abraham/nutmeg-cli'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
