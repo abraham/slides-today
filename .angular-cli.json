@@ -71,6 +71,6 @@
     "component": {}
   },
   "warnings": {
-    "typescriptMismatch": false
+    "typescriptMismatch": true
   }
 }
