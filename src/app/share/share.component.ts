@@ -28,10 +28,6 @@ export class ShareComponent implements AfterViewInit {
 
   initRipples(): void {
     MDCRipple.attachTo(this.fabEl.nativeElement);
-    // const items = this.menuEl.nativeElement.querySelectorAll('.mdc-list-item:not(.mdc-ripple-upgraded)');
-    // Array.from(items).forEach(item => {
-    //   MDCRipple.attachTo(item);
-    // });
   }
 
   shareText(): string {
