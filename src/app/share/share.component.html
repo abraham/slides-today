@@ -7,16 +7,18 @@
   </span>
 </button>
 
-<div #menuEl class="mdc-simple-menu mdc-simple-menu--open-from-bottom-right app-menu--absolute" tabindex="-1">
-  <ul class="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true">
-    <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('google')">
-      Google+
-    </li>
-    <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('twitter')">
-      Twitter
-    </li>
-    <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('facebook')">
-      Facebook
-    </li>
-  </ul>
+<div class="app-menu--absolute mdc-menu-anchor">
+  <div #menuEl class="mdc-menu xapp-menu--absolute" tabindex="-1">
+    <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('google')">
+        Google+
+      </li>
+      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('twitter')">
+        Twitter
+      </li>
+      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('facebook')">
+        Facebook
+      </li>
+    </ul>
+  </div>
 </div>

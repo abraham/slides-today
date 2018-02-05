@@ -4,16 +4,27 @@
 @import '~@material/menu/mdc-menu';
 @import '~@material/list/mdc-list';
 
-.app-fab--absolute, .app-menu--absolute {
+.app-fab--absolute {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
 }
 
+.app-menu--absolute {
+  position: fixed;
+  bottom: .75rem;
+  right: .75rem;
+}
+
 @media(min-width: 1024px) {
-   .app-fab--absolute, .app-menu--absolute {
-    bottom: 1.5rem;
-    right: 1.5rem;
+   .app-fab--absolute {
+     bottom: 1.5rem;
+     right: 1.5rem;
+   }
+
+   .app-menu--absolute {
+    bottom: 1.25rem;
+    right: 1.25rem;
   }
 }
 
@@ -21,6 +32,6 @@
   z-index: 14;
 }
 
-.mdc-simple-menu {
+.mdc-menu-anchor {
   z-index: 15;
 }

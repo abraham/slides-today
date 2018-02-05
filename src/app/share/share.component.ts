@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, ViewChild, Input } from '@angular/core';
 import { MDCRipple } from '@material/ripple';
-import { MDCSimpleMenu } from '@material/menu';
+import { MDCMenu } from '@material/menu';
 
 @Component({
   selector: 'app-share',
@@ -11,7 +11,7 @@ export class ShareComponent implements AfterViewInit {
 
   constructor() { }
 
-  _menu: MDCSimpleMenu;
+  _menu: MDCMenu;
   @ViewChild('fabEl') fabEl;
   @ViewChild('menuEl') menuEl;
   @Input() text: string;
@@ -22,7 +22,7 @@ export class ShareComponent implements AfterViewInit {
   };
 
   ngAfterViewInit() {
-    this._menu = new MDCSimpleMenu(this.menuEl.nativeElement);
+    this._menu = new MDCMenu(this.menuEl.nativeElement);
     this.initRipples();
   }
 
