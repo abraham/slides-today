@@ -1,10 +1,10 @@
-<div class="mdc-card speaker-card speaker-card--with-avatar">
-  <section class="mdc-card__primary">
-    <div class="speaker-card__avatar" [style.backgroundImage]="'url(' + speaker?.imageUrl + ')'"></div>
-    <h1 class="mdc-card__title x-mdc-card__title--large">{{speaker?.name}}</h1>
-    <h2 class="mdc-card__subtitle">{{speaker?.title}}</h2>
+<div class="mdc-card">
+  <section class="card__primary">
+    <div class="card__avatar" [style.backgroundImage]="'url(' + speaker?.imageUrl + ')'"></div>
+    <h2 class="card__title mdc-typography--title">{{speaker?.name}}</h2>
+    <h3 class="card__subtitle mdc-typography--subheading1">{{speaker?.title}}</h3>
   </section>
-  <section class="mdc-card__supporting-text">
+  <section class="card__secondary">
     {{speaker?.bio}}
   </section>
   <section #actions class="mdc-card__actions">

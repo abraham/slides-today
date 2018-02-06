@@ -3,5 +3,7 @@ $mdc-theme-primary: #E65100;
 $mdc-theme-secondary: #E91E63;
 $mdc-theme-background: #FAFAFA;
 
-@import "~@material/theme/mdc-theme";
+@import '~@material/theme/mdc-theme';
 @import '~@material/typography/mdc-typography';
+
+@import './app/card/card';

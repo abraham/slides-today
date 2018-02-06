@@ -5,11 +5,8 @@
   background-color: #fff;
 }
 
-.mdc-card__title {
-  font-weight: bolder;
-}
-
-.speaker-card__avatar {
+.card__avatar {
+  margin-top: 8px;
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
@@ -19,6 +16,6 @@
   background-size: cover;
 }
 
-.speaker-card--with-avatar .mdc-card__title, .speaker-card--with-avatar .mdc-card__subtitle {
+.card__title, .card__subtitle {
   margin-left: 56px;
 }

@@ -1,0 +1,31 @@
+@import '~@material/card/mdc-card';
+
+.mdc-card {
+  background-color: #FFFFFF !important;
+}
+
+.card__primary {
+  padding: 1rem;
+
+  .card__title {
+    margin: 0;
+  }
+
+  .card__subtitle {
+    margin: 0;
+  }
+}
+
+.card__secondary {
+  color: var(--mdc-theme-text-secondary-on-background, rgba(0, 0, 0, 0.54));
+  padding: 0 1rem 8px 1rem;
+}
+
+.mdc-card__media {
+  margin-top: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
