@@ -3,7 +3,7 @@
     <h2 class="card__subtitle mdc-typography--subheading1">{{deck.eventTitle}}</h2>
     <h1 class="card__title mdc-typography--title" (click)="goToDeck()">{{deck.title}}</h1>
   </section>
-  <section class="card__secondary mdc-typography--body1">
+  <section class="card__secondary">
     <app-tags [tags]="deck.tags" [currentTag]="currentTag"></app-tags>
   </section>
   <section class="card__secondary mdc-typography--body1">
