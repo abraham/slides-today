@@ -7,7 +7,7 @@ import { Tag } from '../tag';
 @Component({
   selector: 'app-tag',
   templateUrl: './tag.component.html',
-  styleUrls: ['../tags/chips.scss', './tag.component.scss']
+  styleUrls: ['./tag.component.scss']
 })
 
 export class TagComponent implements OnInit {
