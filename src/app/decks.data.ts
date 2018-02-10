@@ -104,6 +104,12 @@ export const DECKS: Deck[] = [
     location: 'Minneapolis, MN',
     links: [
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1KtnpUlkpocftv1pV0xzEGYLkBI8xZBX4EodP19oMSuE',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Event',
         url: 'https://devfest.mn/',
         tag: false,
