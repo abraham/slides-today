@@ -21,7 +21,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: [],
+    tweets: ['962113749317496833'],
   },
   {
     id: '-L4XGwe63N_sxVJu9y_S',
