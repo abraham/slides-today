@@ -25,7 +25,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XGwe63N_sxVJu9y_S',
-    githubRepos: [],
+    githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
     date: 'March 27th, 2018',
@@ -46,7 +46,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XGyqXUs5d8Wm_hluF',
-    githubRepos: [],
+    githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
     date: 'March 21-23rd, 2018',
@@ -67,7 +67,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L364aLyZ3nMk0QYaBU8',
-    githubRepos: [],
+    githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
     date: 'Februery 17th, 2018',
@@ -115,7 +115,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XD4YE5oD6j3rU0eEO',
-    githubRepos: [],
+    githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
     date: 'Februery 10th, 2018',
