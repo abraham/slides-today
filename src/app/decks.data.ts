@@ -10,7 +10,7 @@ export const DECKS: Deck[] = [
     date: 'April 17-19th, 2018',
     description: 'First we had full stack Rails. Then we had Rails APIs powering Single Page Applications. Now take it to the next level with PRPL Rails. The PRPL (Push, Render, Pre-cache, Lazy-load) pattern condenses the best practices for fast Progressive Web Apps. In this workshop, we’ll show you how to bring the performance lessons from modern JavaScript to your Rails apps. You don’t need a heavy JS framework to compete in today’s marketplace where instant loading and offline capability are expected.',
     eventTitle: 'RailsConf',
-    tags: ['progressivewebapps', 'perfmatters', 'ruby'],
+    tags: ['progressivewebapps', 'perfmatters', 'ruby', 'rails'],
     location: 'Pittsburgh, PA',
     links: [
       {

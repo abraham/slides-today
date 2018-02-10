@@ -27,6 +27,11 @@ export const TAGS: Tag[] = [
     color: '#fff',
   },
   {
+    id: 'rails',
+    backgroundColor: '#cc0000',
+    color: '#fff',
+  },
+  {
     id: 'ruby',
     backgroundColor: '#CC342D',
     color: '#fff',
