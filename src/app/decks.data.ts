@@ -3,6 +3,27 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-L5--GW61Db8VwUox-p9',
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'PRPL on Rails',
+    date: 'April 17-19th, 2018',
+    description: 'First we had full stack Rails. Then we had Rails APIs powering Single Page Applications. Now take it to the next level with PRPL Rails. The PRPL (Push, Render, Pre-cache, Lazy-load) pattern condenses the best practices for fast Progressive Web Apps. In this workshop, we’ll show you how to bring the performance lessons from modern JavaScript to your Rails apps. You don’t need a heavy JS framework to compete in today’s marketplace where instant loading and offline capability are expected.',
+    eventTitle: 'RailsConf',
+    tags: ['progressivewebapps', 'perfmatters', 'ruby'],
+    location: 'Pittsburgh, PA',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://railsconf.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
+  },
+  {
     id: '-L4XGwe63N_sxVJu9y_S',
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
