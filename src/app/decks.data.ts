@@ -104,6 +104,12 @@ export const DECKS: Deck[] = [
         service: 'external',
       },
       {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1DklFPKTZDVxiPbDTAQ9I52pyPjLxOgG9QaZGYfn1a-0',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
         title: 'Nutmeg',
         url: 'https://nutmeg.tools',
         tag: false,
@@ -111,7 +117,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-L2mH7p5JFsCTXU4A4w4'],
-    tweets: ['960232281800691713'],
+    tweets: ['960232281800691713', '954469903855177728'],
   },
   {
     id: '-L4XD4YE5oD6j3rU0eEO',
