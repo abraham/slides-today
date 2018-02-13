@@ -3,6 +3,27 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-L5FKqFC-hNbu9mSyi2K',
+    githubRepos: [],
+    speakers: ['-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Web Components: Lego bricks of the web',
+    date: 'June 21-22nd, 2018',
+    description: 'Writing the same login form over and over? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. You’ll leave this session knowing how to build and test web components using best practices.',
+    eventTitle: 'We RISE Tech Conference',
+    tags: ['webcomponents'],
+    location: 'Atlanta, GA',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://werise.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: ['963467104430280705'],
+  },
+  {
     id: '-L5--GW61Db8VwUox-p9',
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
