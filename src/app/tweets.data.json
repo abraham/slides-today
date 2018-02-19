@@ -17445,5 +17445,130 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "965590494498770944": {
+    "created_at": "Mon Feb 19 14:14:48 +0000 2018",
+    "id": 965590494498771000,
+    "id_str": "965590494498770944",
+    "full_text": "@chatasweetie @abraham @pblatteier I keep thinking about this talk and how easily understandable it was. &lt;3",
+    "truncated": false,
+    "display_text_range": [
+      35,
+      110
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "chatasweetie",
+          "name": "Jessica D Earley-Cha",
+          "id": 24482524,
+          "id_str": "24482524",
+          "indices": [
+            0,
+            13
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            14,
+            22
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            23,
+            34
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitterrific.com\" rel=\"nofollow\">Twitterrific</a>",
+    "in_reply_to_status_id": 964955311823097900,
+    "in_reply_to_status_id_str": "964955311823097857",
+    "in_reply_to_user_id": 24482524,
+    "in_reply_to_user_id_str": "24482524",
+    "in_reply_to_screen_name": "chatasweetie",
+    "user": {
+      "id": 28685631,
+      "id_str": "28685631",
+      "name": "Neem Serra",
+      "screen_name": "TeamNeem",
+      "location": "St. Louis",
+      "description": "Mobile developer. Biologist. Teacher at heart. @STLTechies creator. St. Louis Cardinals fan. @WomenTechmakers St. Louis lead. Cupcake in a doughnut world.",
+      "url": "https://t.co/Yd7fggA12R",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Yd7fggA12R",
+              "expanded_url": "http://neemserra.com",
+              "display_url": "neemserra.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1377,
+      "friends_count": 924,
+      "listed_count": 69,
+      "created_at": "Fri Apr 03 23:32:35 +0000 2009",
+      "favourites_count": 6981,
+      "utc_offset": -21600,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 7359,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EBEBEB",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/931348000970100737/kAfRTChb_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/931348000970100737/kAfRTChb_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/28685631/1435539200",
+      "profile_link_color": "990000",
+      "profile_sidebar_border_color": "DFDFDF",
+      "profile_sidebar_fill_color": "F3F3F3",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
   }
 }
