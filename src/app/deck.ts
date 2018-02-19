@@ -6,6 +6,7 @@ export class Deck {
   description: string;
   eventTitle: string;
   githubRepos: string[];
+  nodePackages: string[];
   id: string;
   links: Link[];
   location: string;
@@ -24,6 +25,7 @@ export class Deck {
     this.id = data.id;
     this.links = data.links;
     this.location = data.location;
+    this.nodePackages = data.nodePackages;
     this.speakers = data.speakers;
     this.sponsors = data.sponsors;
     this.tags = data.tags;

@@ -4,6 +4,7 @@ import { Link } from './link';
 export const DECKS: Deck[] = [
   {
     id: '-L5FKqFC-hNbu9mSyi2K',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -25,6 +26,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L5--GW61Db8VwUox-p9',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'PRPL on Rails',
@@ -46,6 +48,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XGwe63N_sxVJu9y_S',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
@@ -67,6 +70,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XGyqXUs5d8Wm_hluF',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
@@ -88,6 +92,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L364aLyZ3nMk0QYaBU8',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
@@ -115,6 +120,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XFgBQVuADA_659dmn',
+    nodePackages: ['@nutmeg/cli'],
     githubRepos: ['abraham/nutmeg-cli'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component with Nutmeg',
@@ -148,6 +154,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XD4YE5oD6j3rU0eEO',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle', 'GoogleChrome/workbox', 'PolymerLabs/prpl-ce-firebase'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Wicked Fast ⚡ Mobile Web',
@@ -175,6 +182,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L2RQBa9SprUe5OSYebU',
+    nodePackages: ['@nutmeg/cli'],
     githubRepos: ['abraham/nutmeg-cli'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component',
@@ -214,6 +222,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
@@ -241,6 +250,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KxhhEBwb_FmBY48u527',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize Your Development Flow With CLIs',
@@ -274,6 +284,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KxPBlPsbheNf4r4pr2g',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Get Talking with Actions on Google',
@@ -301,6 +312,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KvaqXVilT2vtW29jy3w',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
@@ -334,6 +346,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -367,6 +380,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2kY4Q3-cRwoh5wA5',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize your development flow with CLIs',
@@ -394,6 +408,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2OlDHUH8HD4-Qp2W',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
@@ -427,6 +442,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsEs5JMWk87ZisLpW1F',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
@@ -454,6 +470,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsK81gOZiIkIWcL5AhZ',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Making Slides.today',
@@ -481,6 +498,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_65pE2p9nJUXkhFl',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -508,6 +526,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -535,6 +554,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -562,6 +582,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -589,6 +610,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZzUSqxYoXmJWLGun',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get the Power of Native with Progressive Web Apps',
@@ -622,6 +644,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZxXjRvdxuo_pWZGy',
+    nodePackages: [],
     githubRepos: ['abraham/twitteroauth'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Getting Started with the Twitter API',
@@ -655,6 +678,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -688,6 +712,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZsDivrXv69eEkiRs',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -715,6 +740,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZof6--agoRIC6vl0',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Google I/O Recap',
@@ -742,6 +768,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Kt8ZOHSO3M-nLnxH8Fh',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'How to be a professional developer',
@@ -763,6 +790,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZmqmksA5WVIr1uoA',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -790,6 +818,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
+    nodePackages: [],
     githubRepos: ['angular/angular', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -817,6 +846,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -844,6 +874,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZhHuFAWhgI4tlPmB',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -871,6 +902,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -898,6 +930,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -925,6 +958,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZWvDU7VUnyPTDmSA',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Burn down your competitors with Firebase',
@@ -952,6 +986,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZRBmB_NDgJ6z2m0T',
+    nodePackages: [],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize your development flow with CLIs',
@@ -979,6 +1014,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1006,6 +1042,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZMwl5K6WfArx9xkz',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -1039,6 +1076,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1066,6 +1104,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
+    nodePackages: [],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1099,6 +1138,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZGc2sMFHbGMkaRNc',
+    nodePackages: [],
     githubRepos: ['abraham/sprinkle'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Leverage the power of native with Progressive Web Apps',
@@ -1126,6 +1166,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZAS455BHznj4ugI2',
+    nodePackages: [],
     githubRepos: ['bendyworks/life'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'The Bendy Game of Life³',
