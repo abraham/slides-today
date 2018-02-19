@@ -68,9 +68,10 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+    }
   },
   "warnings": {
-    "typescriptMismatch": true
+    "typescriptMismatch": false
   }
 }
