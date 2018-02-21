@@ -17570,5 +17570,140 @@
     "favorited": false,
     "retweeted": false,
     "lang": "en"
+  },
+  "966298434104852480": {
+    "created_at": "Wed Feb 21 13:07:54 +0000 2018",
+    "id": 966298434104852500,
+    "id_str": "966298434104852480",
+    "full_text": "Super excited to be offering the PRPL on Rails workshop with @abraham at @railsconf https://t.co/ZhcAn6zXfS #perfmatters",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      120
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "perfmatters",
+          "indices": [
+            108,
+            120
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            61,
+            69
+          ]
+        },
+        {
+          "screen_name": "railsconf",
+          "name": "RailsConf",
+          "id": 5493662,
+          "id_str": "5493662",
+          "indices": [
+            73,
+            83
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ZhcAn6zXfS",
+          "expanded_url": "http://railsconf.com/program/workshops#session-586",
+          "display_url": "railsconf.com/program/worksh…",
+          "indices": [
+            84,
+            107
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 202376085,
+      "id_str": "202376085",
+      "name": "Pearl Latteier",
+      "screen_name": "pblatteier",
+      "location": "Madison, WI",
+      "description": "Developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert",
+      "url": "https://t.co/rDYQj6hdWQ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/rDYQj6hdWQ",
+              "expanded_url": "https://pearlbea.com/",
+              "display_url": "pearlbea.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 359,
+      "friends_count": 350,
+      "listed_count": 23,
+      "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+      "favourites_count": 905,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 377,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1487804964",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
