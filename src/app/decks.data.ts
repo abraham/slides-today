@@ -4,7 +4,7 @@ import { Link } from './link';
 export const DECKS: Deck[] = [
   {
     id: '-L5FKqFC-hNbu9mSyi2K',
-    nodePackages: [],
+    nodePackages: ['@webcomponents/webcomponentsjs'],
     githubRepos: [],
     speakers: ['-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -120,7 +120,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L4XFgBQVuADA_659dmn',
-    nodePackages: ['@nutmeg/cli'],
+    nodePackages: ['@nutmeg/cli', '@webcomponents/webcomponentsjs'],
     githubRepos: ['abraham/nutmeg-cli'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component with Nutmeg',
@@ -182,7 +182,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L2RQBa9SprUe5OSYebU',
-    nodePackages: ['@nutmeg/cli'],
+    nodePackages: ['@nutmeg/cli', '@webcomponents/webcomponentsjs'],
     githubRepos: ['abraham/nutmeg-cli'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Build, Test, and Deploy a Web Component',
@@ -222,7 +222,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KyHNIlh-LPp2TdEpVPs',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
@@ -284,7 +284,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KxPBlPsbheNf4r4pr2g',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Get Talking with Actions on Google',
@@ -312,7 +312,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KvaqXVilT2vtW29jy3w',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get Talking with Actions on Google',
@@ -346,7 +346,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK3ne8fybZfk46Awp',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -408,8 +408,8 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2OlDHUH8HD4-Qp2W',
-    nodePackages: [],
-    githubRepos: [],
+    nodePackages: ['material-components-web'],
+    githubRepos: ['material-components/material-components-web'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
     date: 'September 21st, 2017',
@@ -442,8 +442,8 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsEs5JMWk87ZisLpW1F',
-    nodePackages: [],
-    githubRepos: [],
+    nodePackages: ['material-components-web'],
+    githubRepos: ['material-components/material-components-web'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Material Design that Delights',
     date: 'September 16th, 2017',
@@ -470,7 +470,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KsK81gOZiIkIWcL5AhZ',
-    nodePackages: [],
+    nodePackages: ['@angular/cli'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
     title: 'Making Slides.today',
@@ -526,7 +526,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_4SqDbjoADBL6r3Q',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -554,7 +554,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_2GgLtDjYwGOEm8v',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -582,7 +582,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-Krv_0Yp5bPmylxcTnss',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -678,7 +678,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZtwL_ZafufriB-ta',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego Bricks of the Web',
@@ -790,7 +790,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZmqmksA5WVIr1uoA',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -818,7 +818,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZlA6DeLeyBqBT4Jy',
-    nodePackages: [],
+    nodePackages: ['@angular/cli', '@webcomponents/webcomponentsjs'],
     githubRepos: ['angular/angular', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -846,7 +846,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZjBO9DYgRe8s1IvT',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -902,7 +902,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZed8RQb9Pz5LvMOY',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -930,7 +930,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZaHltvInXVa-kjNt',
-    nodePackages: [],
+    nodePackages: ['actions-on-google'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Get talking with Actions on Google',
@@ -958,7 +958,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZWvDU7VUnyPTDmSA',
-    nodePackages: [],
+    nodePackages: ['firebase'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Burn down your competitors with Firebase',
@@ -1014,7 +1014,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZPN8eZVq6gUOfuQm',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1076,7 +1076,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZKom6cxpaOUtaxkK',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer', '@webcomponents/webcomponentsjs'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1104,7 +1104,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZIrGfzwEjp7UKulY',
-    nodePackages: [],
+    nodePackages: ['@polymer/polymer'],
     githubRepos: ['polymer/polymer', 'abraham/sprinkle', 'pearlbea/better-img'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
@@ -1166,7 +1166,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KrvZAS455BHznj4ugI2',
-    nodePackages: [],
+    nodePackages: ['three'],
     githubRepos: ['bendyworks/life'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'The Bendy Game of Life³',
