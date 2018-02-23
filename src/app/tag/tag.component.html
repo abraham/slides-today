@@ -1,7 +1,11 @@
-<div #tagEL class="mdc-chip"
+<div #tagEL
+     class="mdc-chip"
      [ngStyle]="raised ? {} : currentStyles"
      [class.md-chip-raised]="raised"
      (click)="goToTag(tag.id)">
   <div class="mdc-chip__text">#{{tag.id}}</div>
-  <button *ngIf="raised" type="button" class="chip-remove"></button>
+  <i *ngIf="raised"
+     class="material-icons mdc-chip__icon mdc-chip__icon--trailing"
+     tabindex="0"
+     role="button">cancel</i>
 </div>
