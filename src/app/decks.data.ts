@@ -380,7 +380,7 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-KuK2kY4Q3-cRwoh5wA5',
-    nodePackages: [],
+    nodePackages: ['commander'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'Energize your development flow with CLIs',
