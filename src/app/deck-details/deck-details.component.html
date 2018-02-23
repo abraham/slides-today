@@ -51,6 +51,10 @@
         <github-repository class="item mdc-elevation--z1" [ownerRepo]="github"></github-repository>
       </ng-template>
 
+      <ng-template ngFor let-name [ngForOf]="deck?.nodePackages">
+        <node-package class="item mdc-elevation--z1" [name]="name"></node-package>
+      </ng-template>
+
       <div class="item">
         <app-sponsor [sponsorIds]="deck?.sponsors"></app-sponsor>
       </div>
