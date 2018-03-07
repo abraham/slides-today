@@ -66,7 +66,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: [],
+    tweets: ['971193765133275137'],
   },
   {
     id: '-L4XGyqXUs5d8Wm_hluF',
