@@ -86,6 +86,12 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1XmBtLHuZG2AE8LoyeOGMt85tkXc-126VPQgQJMUKeZg',
+        tag: false,
+        service: 'google-slides',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
     tweets: ['958067513379745792', '965580941027627008', '974066074256777216'],
