@@ -18106,5 +18106,823 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "977283646808715264": {
+    "created_at": "Fri Mar 23 20:39:13 +0000 2018",
+    "id": 977283646808715300,
+    "id_str": "977283646808715264",
+    "full_text": "Some painful truths being reiterated by @pblatteier &amp; @abraham. #JazzCon \n\n- no one wants to download your app\n- no one wants to wait for your site to load https://t.co/A6IYxSS8Vh",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      159
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "JazzCon",
+          "indices": [
+            68,
+            76
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            40,
+            51
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            58,
+            66
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 977283619050881000,
+          "id_str": "977283619050881024",
+          "indices": [
+            160,
+            183
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+          "url": "https://t.co/A6IYxSS8Vh",
+          "display_url": "pic.twitter.com/A6IYxSS8Vh",
+          "expanded_url": "https://twitter.com/macdonst/status/977283646808715264/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 977283619050881000,
+          "id_str": "977283619050881024",
+          "indices": [
+            160,
+            183
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+          "url": "https://t.co/A6IYxSS8Vh",
+          "display_url": "pic.twitter.com/A6IYxSS8Vh",
+          "expanded_url": "https://twitter.com/macdonst/status/977283646808715264/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 847761,
+      "id_str": "847761",
+      "name": "Simon MacDonald",
+      "screen_name": "macdonst",
+      "location": "",
+      "description": "Father, Software Engineer, Comic Enthusiast and Coffee Lover",
+      "url": "http://t.co/Z97Ii287U7",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/Z97Ii287U7",
+              "expanded_url": "http://simonmacdonald.com",
+              "display_url": "simonmacdonald.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2114,
+      "friends_count": 853,
+      "listed_count": 156,
+      "created_at": "Fri Mar 09 21:18:37 +0000 2007",
+      "favourites_count": 4285,
+      "utc_offset": -14400,
+      "time_zone": "America/Toronto",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 24326,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/767728805125292032/SeAvBxLT_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/767728805125292032/SeAvBxLT_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/847761/1398447798",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "dd3b100831dd1763",
+      "url": "https://api.twitter.com/1.1/geo/id/dd3b100831dd1763.json",
+      "place_type": "city",
+      "name": "New Orleans",
+      "full_name": "New Orleans, LA",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.137908,
+              29.889574
+            ],
+            [
+              -89.884108,
+              29.889574
+            ],
+            [
+              -89.884108,
+              30.075628
+            ],
+            [
+              -90.137908,
+              30.075628
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 7,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "977289554855104512": {
+    "created_at": "Fri Mar 23 21:02:41 +0000 2018",
+    "id": 977289554855104500,
+    "id_str": "977289554855104512",
+    "full_text": "@abraham with @pblatteier on building perfect PWAs https://t.co/iljPYLNNNV",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      50
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            14,
+            25
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 977289549402591200,
+          "id_str": "977289549402591234",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAHqtLX0AIdYq8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAHqtLX0AIdYq8.jpg",
+          "url": "https://t.co/iljPYLNNNV",
+          "display_url": "pic.twitter.com/iljPYLNNNV",
+          "expanded_url": "https://twitter.com/kejt_bw/status/977289554855104512/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 977289549402591200,
+          "id_str": "977289549402591234",
+          "indices": [
+            51,
+            74
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAHqtLX0AIdYq8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAHqtLX0AIdYq8.jpg",
+          "url": "https://t.co/iljPYLNNNV",
+          "display_url": "pic.twitter.com/iljPYLNNNV",
+          "expanded_url": "https://twitter.com/kejt_bw/status/977289554855104512/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 3320945841,
+      "id_str": "3320945841",
+      "name": "Kasia Jastrzębska",
+      "screen_name": "kejt_bw",
+      "location": "Gdańsk, Pomorskie",
+      "description": "Frontend Developer & UI Designer",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 470,
+      "friends_count": 154,
+      "listed_count": 12,
+      "created_at": "Fri Jun 12 13:58:34 +0000 2015",
+      "favourites_count": 904,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 582,
+      "lang": "pl",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/910825228175069184/WC_iMm7-_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/910825228175069184/WC_iMm7-_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3320945841/1506023622",
+      "profile_link_color": "3B94D9",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "977294561658712064": {
+    "created_at": "Fri Mar 23 21:22:35 +0000 2018",
+    "id": 977294561658712000,
+    "id_str": "977294561658712064",
+    "full_text": "“Wicked fast PWAs” with @pblatteier and @abraham https://t.co/z6I0nbqWSy",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      48
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            24,
+            35
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            40,
+            48
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 977294553752457200,
+          "id_str": "977294553752457216",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+          "url": "https://t.co/z6I0nbqWSy",
+          "display_url": "pic.twitter.com/z6I0nbqWSy",
+          "expanded_url": "https://twitter.com/mhartington/status/977294561658712064/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 977294553752457200,
+          "id_str": "977294553752457216",
+          "indices": [
+            49,
+            72
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+          "url": "https://t.co/z6I0nbqWSy",
+          "display_url": "pic.twitter.com/z6I0nbqWSy",
+          "expanded_url": "https://twitter.com/mhartington/status/977294561658712064/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 152382384,
+      "id_str": "152382384",
+      "name": "Mike Hartington",
+      "screen_name": "mhartington",
+      "location": "Rhode Island",
+      "description": "Developer Advocate for @Ionicframework. Google Developer Expert. Unix, Neovim, PWAs. Constantly sarcastic",
+      "url": "https://t.co/pRkO4RE4H6",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/pRkO4RE4H6",
+              "expanded_url": "http://mhartington.io/",
+              "display_url": "mhartington.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 3933,
+      "friends_count": 849,
+      "listed_count": 162,
+      "created_at": "Sat Jun 05 20:20:04 +0000 2010",
+      "favourites_count": 6311,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 11199,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/968479346351656960/SLNP0djX_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/968479346351656960/SLNP0djX_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/152382384/1519738329",
+      "profile_link_color": "1B2B34",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "977294756962283521": {
+    "created_at": "Fri Mar 23 21:23:21 +0000 2018",
+    "id": 977294756962283500,
+    "id_str": "977294756962283521",
+    "full_text": "Learning how to make web apps wicked fast on mobile from @pblatteier &amp; @abraham at @Jazz_Con⚡tl;dr: less code === more fast! https://t.co/ATYxwonHh2",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      128
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            57,
+            68
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            75,
+            83
+          ]
+        },
+        {
+          "screen_name": "Jazz_Con",
+          "name": "JazzCon.Tech",
+          "id": 791361411289145300,
+          "id_str": "791361411289145344",
+          "indices": [
+            87,
+            96
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 977294734652772400,
+          "id_str": "977294734652772352",
+          "indices": [
+            129,
+            152
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+          "url": "https://t.co/ATYxwonHh2",
+          "display_url": "pic.twitter.com/ATYxwonHh2",
+          "expanded_url": "https://twitter.com/AnjanaVakil/status/977294756962283521/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 977294734652772400,
+          "id_str": "977294734652772352",
+          "indices": [
+            129,
+            152
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+          "url": "https://t.co/ATYxwonHh2",
+          "display_url": "pic.twitter.com/ATYxwonHh2",
+          "expanded_url": "https://twitter.com/AnjanaVakil/status/977294756962283521/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3999382594,
+      "id_str": "3999382594",
+      "name": "Anjana Vakil",
+      "screen_name": "AnjanaVakil",
+      "location": "A suitcase",
+      "description": "Wanderer and wonderer.\nEngineering + Learning at @Mapbox.\n@Mozilla TechSpeaker.\nAlumna of @Outreachy, @RecurseCenter, @Uni_Saarland, & @UCBerkeley.",
+      "url": "https://t.co/1TAxxjgklJ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/1TAxxjgklJ",
+              "expanded_url": "http://vakila.github.io",
+              "display_url": "vakila.github.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 11477,
+      "friends_count": 425,
+      "listed_count": 190,
+      "created_at": "Tue Oct 20 04:03:13 +0000 2015",
+      "favourites_count": 1461,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 895,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3999382594/1457539458",
+      "profile_link_color": "19CF86",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 13,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
