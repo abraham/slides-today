@@ -19051,5 +19051,547 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "978720626100854784": {
+    "created_at": "Tue Mar 27 19:49:15 +0000 2018",
+    "id": 978720626100854800,
+    "id_str": "978720626100854784",
+    "full_text": "Zipping to Milwaukee soon to speak at @mkejs with @abraham about Wicked Fast⚡Mobile Web: https://t.co/BvcVXZZzhH\n@RokkinCat #PWA #perfmatters",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      141
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PWA",
+          "indices": [
+            124,
+            128
+          ]
+        },
+        {
+          "text": "perfmatters",
+          "indices": [
+            129,
+            141
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mkejs",
+          "name": "Milwaukee JavaScript",
+          "id": 894420716,
+          "id_str": "894420716",
+          "indices": [
+            38,
+            44
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            50,
+            58
+          ]
+        },
+        {
+          "screen_name": "RokkinCat",
+          "name": "RokkinCat",
+          "id": 378776812,
+          "id_str": "378776812",
+          "indices": [
+            113,
+            123
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/BvcVXZZzhH",
+          "expanded_url": "https://www.meetup.com/milwaukeejs/events/247249876/",
+          "display_url": "meetup.com/milwaukeejs/ev…",
+          "indices": [
+            89,
+            112
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 202376085,
+      "id_str": "202376085",
+      "name": "Pearl Latteier",
+      "screen_name": "pblatteier",
+      "location": "Madison, WI",
+      "description": "Developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert",
+      "url": "https://t.co/rDYQj6hdWQ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/rDYQj6hdWQ",
+              "expanded_url": "https://pearlbea.com/",
+              "display_url": "pearlbea.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 390,
+      "friends_count": 378,
+      "listed_count": 22,
+      "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+      "favourites_count": 1010,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 410,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1487804964",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "978769577353138176": {
+    "created_at": "Tue Mar 27 23:03:46 +0000 2018",
+    "id": 978769577353138200,
+    "id_str": "978769577353138176",
+    "full_text": "The magic behind @mkejs https://t.co/aKLXV0FUW4",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      23
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mkejs",
+          "name": "Milwaukee JavaScript",
+          "id": 894420716,
+          "id_str": "894420716",
+          "indices": [
+            17,
+            23
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 978769550261891100,
+          "id_str": "978769550261891072",
+          "indices": [
+            24,
+            47
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZVJuGBUMAAZEWU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZVJuGBUMAAZEWU.jpg",
+          "url": "https://t.co/aKLXV0FUW4",
+          "display_url": "pic.twitter.com/aKLXV0FUW4",
+          "expanded_url": "https://twitter.com/abraham/status/978769577353138176/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 978769550261891100,
+          "id_str": "978769550261891072",
+          "indices": [
+            24,
+            47
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZVJuGBUMAAZEWU.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZVJuGBUMAAZEWU.jpg",
+          "url": "https://t.co/aKLXV0FUW4",
+          "display_url": "pic.twitter.com/aKLXV0FUW4",
+          "expanded_url": "https://twitter.com/abraham/status/978769577353138176/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8315,
+      "friends_count": 476,
+      "listed_count": 582,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 17711,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 45345,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "38AFFF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "978774808879140864": {
+    "created_at": "Tue Mar 27 23:24:33 +0000 2018",
+    "id": 978774808879140900,
+    "id_str": "978774808879140864",
+    "full_text": "Learning about making lightning fast Mobile web apps with PWAs and PRPL with @abraham and @pblatteier at the @RokkinCat office. https://t.co/ym30fQ2kq7",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      127
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            77,
+            85
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            90,
+            101
+          ]
+        },
+        {
+          "screen_name": "RokkinCat",
+          "name": "RokkinCat",
+          "id": 378776812,
+          "id_str": "378776812",
+          "indices": [
+            109,
+            119
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 978774782492663800,
+          "id_str": "978774782492663808",
+          "indices": [
+            128,
+            151
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZVOepmV4AA_z3w.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZVOepmV4AA_z3w.jpg",
+          "url": "https://t.co/ym30fQ2kq7",
+          "display_url": "pic.twitter.com/ym30fQ2kq7",
+          "expanded_url": "https://twitter.com/mkejs/status/978774808879140864/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 978774782492663800,
+          "id_str": "978774782492663808",
+          "indices": [
+            128,
+            151
+          ],
+          "media_url": "http://pbs.twimg.com/media/DZVOepmV4AA_z3w.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DZVOepmV4AA_z3w.jpg",
+          "url": "https://t.co/ym30fQ2kq7",
+          "display_url": "pic.twitter.com/ym30fQ2kq7",
+          "expanded_url": "https://twitter.com/mkejs/status/978774808879140864/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 894420716,
+      "id_str": "894420716",
+      "name": "Milwaukee JavaScript",
+      "screen_name": "mkejs",
+      "location": "Milwaukee, WI",
+      "description": "The Milwaukee JavaScript Meetup",
+      "url": "https://t.co/MiWwG44tlW",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/MiWwG44tlW",
+              "expanded_url": "http://mkejs.com",
+              "display_url": "mkejs.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 356,
+      "friends_count": 28,
+      "listed_count": 35,
+      "created_at": "Sun Oct 21 01:58:58 +0000 2012",
+      "favourites_count": 18,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 469,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/709153499053862912/Ki_Ni67W_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/709153499053862912/Ki_Ni67W_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/894420716/1457910367",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }

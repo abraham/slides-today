@@ -64,9 +64,15 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/11RokAGxYsM9wi7L6wK2tQR-5bmw5Wpc1H3ZehQObc4U',
+        tag: false,
+        service: 'google-slides',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: ['971193765133275137', '977228750483066881'],
+    tweets: ['971193765133275137', '977228750483066881', '978720626100854784', '978769577353138176', '978774808879140864'],
   },
   {
     id: '-L4XGyqXUs5d8Wm_hluF',
