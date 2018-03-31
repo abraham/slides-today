@@ -1,7 +1,6 @@
 <div #tagEL
      class="mdc-chip"
      [ngStyle]="raised ? {} : currentStyles"
-     [class.md-chip-raised]="raised"
      (click)="goToTag(tag.id)">
   <div class="mdc-chip__text">#{{tag.id}}</div>
   <i *ngIf="raised"
