@@ -19593,5 +19593,142 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "984082047806394368": {
+    "created_at": "Wed Apr 11 14:53:38 +0000 2018",
+    "id": 984082047806394400,
+    "id_str": "984082047806394368",
+    "full_text": "We're turning PRPL with excitement for @railsconf! Come to the \"PRPL on Rails\" workshop hosted by our very own @abraham &amp; @pblatteier https://t.co/6Brcq7cLW1",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      161
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "railsconf",
+          "name": "RailsConf",
+          "id": 5493662,
+          "id_str": "5493662",
+          "indices": [
+            39,
+            49
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            111,
+            119
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            126,
+            137
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/6Brcq7cLW1",
+          "expanded_url": "http://railsconf.com/program/workshops#session-586",
+          "display_url": "railsconf.com/program/worksh…",
+          "indices": [
+            138,
+            161
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 31920143,
+      "id_str": "31920143",
+      "name": "Bendyworks",
+      "screen_name": "bendyworks",
+      "location": "Madison, WI",
+      "description": "We collaborate with customers to design and develop digital applications that charm the people who use them.",
+      "url": "https://t.co/nSohQ3T0sE",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/nSohQ3T0sE",
+              "expanded_url": "https://bendyworks.com",
+              "display_url": "bendyworks.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1526,
+      "friends_count": 159,
+      "listed_count": 85,
+      "created_at": "Thu Apr 16 15:55:09 +0000 2009",
+      "favourites_count": 519,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1507,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000010511453/5300a8951f22737ef1080395990cbee1.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000010511453/5300a8951f22737ef1080395990cbee1.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/378800000055310259/7054b0f8b53ce136bda546666b413ad8_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000055310259/7054b0f8b53ce136bda546666b413ad8_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/31920143/1431361301",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "E0E0E0",
+      "profile_text_color": "383838",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
