@@ -111,4 +111,9 @@ export const TAGS: Tag[] = [
     backgroundColor: '#f8ac04',
     color: '#000',
   },
+  {
+    id: 'workshop',
+    backgroundColor: '#009688',
+    color: '#fff',
+  },
 ];

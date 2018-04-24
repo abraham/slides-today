@@ -19730,5 +19730,2050 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "985879253085548544": {
+    "created_at": "Mon Apr 16 13:55:05 +0000 2018",
+    "id": 985879253085548500,
+    "id_str": "985879253085548544",
+    "full_text": "Got an awesome introduction to PRPL ( https://t.co/et2UW8BGge ) from some folks at @bendyworks.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      95
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "bendyworks",
+          "name": "Bendyworks",
+          "id": 31920143,
+          "id_str": "31920143",
+          "indices": [
+            83,
+            94
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/et2UW8BGge",
+          "expanded_url": "http://ow.ly/4BKy30juWW0",
+          "display_url": "ow.ly/4BKy30juWW0",
+          "indices": [
+            38,
+            61
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 836383764725043200,
+      "id_str": "836383764725043200",
+      "name": "Shaun",
+      "screen_name": "cototally",
+      "location": "Wisconsin, USA",
+      "description": "I am a developer.",
+      "url": "https://t.co/KerunOXAFe",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/KerunOXAFe",
+              "expanded_url": "http://cototal.com",
+              "display_url": "cototal.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 16,
+      "friends_count": 70,
+      "listed_count": 1,
+      "created_at": "Tue Feb 28 01:13:23 +0000 2017",
+      "favourites_count": 4,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 130,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/896453612120948736/3KzSFbIy_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/896453612120948736/3KzSFbIy_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "988535041067274242": {
+    "created_at": "Mon Apr 23 21:48:14 +0000 2018",
+    "id": 988535041067274200,
+    "id_str": "988535041067274242",
+    "full_text": "We had awesome times at @RailsConf!\n\nhttps://t.co/ba7lQhJlU1 https://t.co/rQGVErcKmy",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      60
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "railsconf",
+          "name": "RailsConf",
+          "id": 5493662,
+          "id_str": "5493662",
+          "indices": [
+            24,
+            34
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ba7lQhJlU1",
+          "expanded_url": "https://bendyworks.com/blog/awesome-times-at-railsconf?utm_source=twitter&utm_medium=social&utm_campaign=blogged-awesome-times-at-railsconf",
+          "display_url": "bendyworks.com/blog/awesome-t…",
+          "indices": [
+            37,
+            60
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 988535003956072400,
+          "id_str": "988535003956072448",
+          "indices": [
+            61,
+            84
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
+          "url": "https://t.co/rQGVErcKmy",
+          "display_url": "pic.twitter.com/rQGVErcKmy",
+          "expanded_url": "https://twitter.com/bendyworks/status/988535041067274242/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 720,
+              "h": 480,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 720,
+              "h": 480,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 988535003956072400,
+          "id_str": "988535003956072448",
+          "indices": [
+            61,
+            84
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
+          "url": "https://t.co/rQGVErcKmy",
+          "display_url": "pic.twitter.com/rQGVErcKmy",
+          "expanded_url": "https://twitter.com/bendyworks/status/988535041067274242/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 720,
+              "h": 480,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 720,
+              "h": 480,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              3,
+              2
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/Dbf7WT7XUAAZ8gX.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 31920143,
+      "id_str": "31920143",
+      "name": "Bendyworks",
+      "screen_name": "bendyworks",
+      "location": "Madison, WI",
+      "description": "We collaborate with customers to design and develop digital applications that charm the people who use them.",
+      "url": "https://t.co/nSohQ3T0sE",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/nSohQ3T0sE",
+              "expanded_url": "https://bendyworks.com",
+              "display_url": "bendyworks.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1535,
+      "friends_count": 159,
+      "listed_count": 85,
+      "created_at": "Thu Apr 16 15:55:09 +0000 2009",
+      "favourites_count": 526,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1517,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000010511453/5300a8951f22737ef1080395990cbee1.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000010511453/5300a8951f22737ef1080395990cbee1.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/378800000055310259/7054b0f8b53ce136bda546666b413ad8_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000055310259/7054b0f8b53ce136bda546666b413ad8_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/31920143/1431361301",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "E0E0E0",
+      "profile_text_color": "383838",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "984541225096278016": {
+    "created_at": "Thu Apr 12 21:18:14 +0000 2018",
+    "id": 984541225096278000,
+    "id_str": "984541225096278016",
+    "full_text": "It's pretty easy getting @workboxjs and @rails webpacker working together. Come to the \"PRPL on Rails\" @railsconf session with @pblatteier and stay tuned for followup blog posts.\n\nhttps://t.co/sduRINLCyk",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      203
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "workboxjs",
+          "name": "Workbox",
+          "id": 903470844407459800,
+          "id_str": "903470844407459841",
+          "indices": [
+            25,
+            35
+          ]
+        },
+        {
+          "screen_name": "rails",
+          "name": "Ruby on Rails",
+          "id": 3116191,
+          "id_str": "3116191",
+          "indices": [
+            40,
+            46
+          ]
+        },
+        {
+          "screen_name": "railsconf",
+          "name": "RailsConf",
+          "id": 5493662,
+          "id_str": "5493662",
+          "indices": [
+            103,
+            113
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            127,
+            138
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/sduRINLCyk",
+          "expanded_url": "https://railsconf.com/program/workshops#session-586",
+          "display_url": "railsconf.com/program/worksh…",
+          "indices": [
+            180,
+            203
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8342,
+      "friends_count": 500,
+      "listed_count": 583,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 18337,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 45562,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "38AFFF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "987397466298368000": {
+    "created_at": "Fri Apr 20 18:27:55 +0000 2018",
+    "id": 987397466298368000,
+    "id_str": "987397466298368000",
+    "full_text": "Had a blast this year. Hope to attend with @pblatteier again! https://t.co/LnMApx3ZEh",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      61
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            43,
+            54
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/LnMApx3ZEh",
+          "expanded_url": "https://twitter.com/railsconf/status/987074473806516225",
+          "display_url": "twitter.com/railsconf/stat…",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8343,
+      "friends_count": 500,
+      "listed_count": 583,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 18342,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 45562,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "38AFFF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 987074473806516200,
+    "quoted_status_id_str": "987074473806516225",
+    "quoted_status": {
+      "created_at": "Thu Apr 19 21:04:28 +0000 2018",
+      "id": 987074473806516200,
+      "id_str": "987074473806516225",
+      "full_text": "Next year’s RailsConf will be in beautiful Minneapolis, from April 30-May 2, 2019!",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        82
+      ],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"http://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 5493662,
+        "id_str": "5493662",
+        "name": "RailsConf",
+        "screen_name": "railsconf",
+        "location": "Pittsburgh, PA",
+        "description": "Join us for RailsConf 2018, this year in Pittsburgh from April 17-19!",
+        "url": "https://t.co/VAMeLRYWbl",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/VAMeLRYWbl",
+                "expanded_url": "http://railsconf.com",
+                "display_url": "railsconf.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 21616,
+        "friends_count": 2703,
+        "listed_count": 990,
+        "created_at": "Wed Apr 25 10:27:29 +0000 2007",
+        "favourites_count": 63,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2575,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "8F2128",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/438646409/twitter_icon.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/438646409/twitter_icon.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/5493662/1513099900",
+        "profile_link_color": "E81C4F",
+        "profile_sidebar_border_color": "545553",
+        "profile_sidebar_fill_color": "AC7979",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 73,
+      "favorite_count": 208,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "986665491241545738": {
+    "created_at": "Wed Apr 18 17:59:19 +0000 2018",
+    "id": 986665491241545700,
+    "id_str": "986665491241545738",
+    "full_text": "Did you know that the avg site load time on mobile is 19 seconds? TIL that fun fact and about to learn how the PRPL pattern can help! Push, Render, Pre-cache, Lazy-load #perfmatters #railsconf",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      192
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "perfmatters",
+          "indices": [
+            169,
+            181
+          ]
+        },
+        {
+          "text": "railsconf",
+          "indices": [
+            182,
+            192
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 284086094,
+      "id_str": "284086094",
+      "name": "Nicole Lopez",
+      "screen_name": "Bint_alBeatz",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 399,
+      "friends_count": 1097,
+      "listed_count": 15,
+      "created_at": "Mon Apr 18 16:02:24 +0000 2011",
+      "favourites_count": 2633,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1795,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/2727443183/9f31d28aa1c9da479c24af833f52fa62_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2727443183/9f31d28aa1c9da479c24af833f52fa62_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/284086094/1493100817",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "986689221288177673": {
+    "created_at": "Wed Apr 18 19:33:36 +0000 2018",
+    "id": 986689221288177700,
+    "id_str": "986689221288177673",
+    "full_text": "Learning PRPL and using Service Workers to precache and load some of the resources offline at #RailsConf 🎉 https://t.co/M7n4XtXqtc",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      106
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "RailsConf",
+          "indices": [
+            94,
+            104
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 986689206633271300,
+          "id_str": "986689206633271296",
+          "indices": [
+            107,
+            130
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
+          "url": "https://t.co/M7n4XtXqtc",
+          "display_url": "pic.twitter.com/M7n4XtXqtc",
+          "expanded_url": "https://twitter.com/exAspArk/status/986689221288177673/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 986689206633271300,
+          "id_str": "986689206633271296",
+          "indices": [
+            107,
+            130
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
+          "url": "https://t.co/M7n4XtXqtc",
+          "display_url": "pic.twitter.com/M7n4XtXqtc",
+          "expanded_url": "https://twitter.com/exAspArk/status/986689221288177673/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 100720027,
+      "id_str": "100720027",
+      "name": "exAspArk",
+      "screen_name": "exAspArk",
+      "location": "",
+      "description": "",
+      "url": "https://t.co/gpe1UZKS8K",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/gpe1UZKS8K",
+              "expanded_url": "https://exaspark.me",
+              "display_url": "exaspark.me",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 333,
+      "friends_count": 176,
+      "listed_count": 22,
+      "created_at": "Thu Dec 31 08:20:03 +0000 2009",
+      "favourites_count": 1607,
+      "utc_offset": 10800,
+      "time_zone": "Volgograd",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 7660,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "022330",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/752102477537898496/MAqJ7n6z_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/752102477537898496/MAqJ7n6z_normal.jpg",
+      "profile_link_color": "3B94D9",
+      "profile_sidebar_border_color": "04224F",
+      "profile_sidebar_fill_color": "E6E67A",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "986722481078788096": {
+    "created_at": "Wed Apr 18 21:45:46 +0000 2018",
+    "id": 986722481078788100,
+    "id_str": "986722481078788096",
+    "full_text": "It’s almost laughable how straightforward offline capabilities are with the right Service Worker code. Thanks for the awesome PRPL workshop at #RailsConf, @pblatteier and @abraham!!",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      181
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "RailsConf",
+          "indices": [
+            143,
+            153
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            155,
+            166
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            171,
+            179
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1949721,
+      "id_str": "1949721",
+      "name": "Brad Grzesiak",
+      "screen_name": "listrophy",
+      "location": "Madison, WI",
+      "description": "CEO of @bendyworks. Feminist. Software craftsperson. Strong, independent man. Science consultant. Aerospace Engineer. Punner. Citizen of Madison. he/him",
+      "url": "https://t.co/bhwr3OAq72",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/bhwr3OAq72",
+              "expanded_url": "http://bendyworks.com",
+              "display_url": "bendyworks.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2217,
+      "friends_count": 1008,
+      "listed_count": 171,
+      "created_at": "Thu Mar 22 22:58:07 +0000 2007",
+      "favourites_count": 1071,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 21346,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/89542177/small_moon_rotated.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/89542177/small_moon_rotated.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/891032984047964160/6YBgrmOd_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/891032984047964160/6YBgrmOd_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1949721/1406066570",
+      "profile_link_color": "545454",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "BABABA",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "946ccd22e1c9cda1",
+      "url": "https://api.twitter.com/1.1/geo/id/946ccd22e1c9cda1.json",
+      "place_type": "city",
+      "name": "Pittsburgh",
+      "full_name": "Pittsburgh, PA",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.095586,
+              40.3615796
+            ],
+            [
+              -79.8657933,
+              40.3615796
+            ],
+            [
+              -79.8657933,
+              40.501198
+            ],
+            [
+              -80.095586,
+              40.501198
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 12,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "986664993570598918": {
+    "created_at": "Wed Apr 18 17:57:20 +0000 2018",
+    "id": 986664993570598900,
+    "id_str": "986664993570598918",
+    "full_text": "#PerfMatters, or so @abraham and @pblatteier would have us believe. https://t.co/ZP8DBiEWEA",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      67
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PerfMatters",
+          "indices": [
+            0,
+            12
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            20,
+            28
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            33,
+            44
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 986664985408532500,
+          "id_str": "986664985408532481",
+          "indices": [
+            68,
+            91
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFWk5-XcAE9TZd.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFWk5-XcAE9TZd.jpg",
+          "url": "https://t.co/ZP8DBiEWEA",
+          "display_url": "pic.twitter.com/ZP8DBiEWEA",
+          "expanded_url": "https://twitter.com/scottyschup/status/986664993570598918/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 986664985408532500,
+          "id_str": "986664985408532481",
+          "indices": [
+            68,
+            91
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFWk5-XcAE9TZd.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFWk5-XcAE9TZd.jpg",
+          "url": "https://t.co/ZP8DBiEWEA",
+          "display_url": "pic.twitter.com/ZP8DBiEWEA",
+          "expanded_url": "https://twitter.com/scottyschup/status/986664993570598918/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 122526469,
+      "id_str": "122526469",
+      "name": "S. Scott Schupbach",
+      "screen_name": "scottyschup",
+      "location": "Chicago, IL",
+      "description": "Software engineer. True neutral. Superpowers: Ruby, JavaScript. Kryptonite: first-time PostgreSQL setup. Days since last stepped on Lego: 13. Pronouns: he/him",
+      "url": "https://t.co/ze62P4a7ce",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ze62P4a7ce",
+              "expanded_url": "http://scottschupbach.com",
+              "display_url": "scottschupbach.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 118,
+      "friends_count": 270,
+      "listed_count": 9,
+      "created_at": "Sat Mar 13 01:09:53 +0000 2010",
+      "favourites_count": 242,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 247,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "709397",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/862466010569244672/09tz1iWJ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/862466010569244672/09tz1iWJ_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/122526469/1523945676",
+      "profile_link_color": "091047",
+      "profile_sidebar_border_color": "86A4A6",
+      "profile_sidebar_fill_color": "A0C5C7",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "986665141667356672": {
+    "created_at": "Wed Apr 18 17:57:55 +0000 2018",
+    "id": 986665141667356700,
+    "id_str": "986665141667356672",
+    "full_text": "Soooo freaking stoked to be at the PRPL workshop #perfmatters with @pblatteier and @abraham https://t.co/3M5s6BeSCK",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      91
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "perfmatters",
+          "indices": [
+            49,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            67,
+            78
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            83,
+            91
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 986664961186426900,
+          "id_str": "986664961186426880",
+          "indices": [
+            92,
+            115
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFWjfvXcAAefoK.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFWjfvXcAAefoK.jpg",
+          "url": "https://t.co/3M5s6BeSCK",
+          "display_url": "pic.twitter.com/3M5s6BeSCK",
+          "expanded_url": "https://twitter.com/Bint_alBeatz/status/986665141667356672/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 986664961186426900,
+          "id_str": "986664961186426880",
+          "indices": [
+            92,
+            115
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFWjfvXcAAefoK.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFWjfvXcAAefoK.jpg",
+          "url": "https://t.co/3M5s6BeSCK",
+          "display_url": "pic.twitter.com/3M5s6BeSCK",
+          "expanded_url": "https://twitter.com/Bint_alBeatz/status/986665141667356672/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 284086094,
+      "id_str": "284086094",
+      "name": "Nicole Lopez",
+      "screen_name": "Bint_alBeatz",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 399,
+      "friends_count": 1097,
+      "listed_count": 15,
+      "created_at": "Mon Apr 18 16:02:24 +0000 2011",
+      "favourites_count": 2633,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1795,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/2727443183/9f31d28aa1c9da479c24af833f52fa62_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2727443183/9f31d28aa1c9da479c24af833f52fa62_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/284086094/1493100817",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "986666656603795457": {
+    "created_at": "Wed Apr 18 18:03:56 +0000 2018",
+    "id": 986666656603795500,
+    "id_str": "986666656603795457",
+    "full_text": "Watching @pblatteier &amp; @abraham kill their PRPL on Rails Workshop at #RailsConf2018! (Song and dance included 💃🏾) #RailsConf https://t.co/72iRE9JpLM",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      128
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "RailsConf2018",
+          "indices": [
+            73,
+            87
+          ]
+        },
+        {
+          "text": "RailsConf",
+          "indices": [
+            118,
+            128
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            9,
+            20
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            27,
+            35
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 986666643580432400,
+          "id_str": "986666643580432388",
+          "indices": [
+            129,
+            152
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+          "url": "https://t.co/72iRE9JpLM",
+          "display_url": "pic.twitter.com/72iRE9JpLM",
+          "expanded_url": "https://twitter.com/ericastanley/status/986666656603795457/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 584,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 331,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 996,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 986666643580432400,
+          "id_str": "986666643580432388",
+          "indices": [
+            129,
+            152
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+          "url": "https://t.co/72iRE9JpLM",
+          "display_url": "pic.twitter.com/72iRE9JpLM",
+          "expanded_url": "https://twitter.com/ericastanley/status/986666656603795457/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 584,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 331,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 996,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 42508332,
+      "id_str": "42508332",
+      "name": "Erica Stanley",
+      "screen_name": "ericastanley",
+      "location": "Atlanta, GA",
+      "description": "Engineering Manager @SalesLoft | Founder of @WWCAtl | Advisory Council for #AbidotATL | Tech & Social Entrepreneur | Speaker | Co-organizer @WeRISEConf",
+      "url": "https://t.co/s8JASfGuKS",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/s8JASfGuKS",
+              "expanded_url": "http://www.ericastanley.io/",
+              "display_url": "ericastanley.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2022,
+      "friends_count": 1092,
+      "listed_count": 148,
+      "created_at": "Mon May 25 23:02:41 +0000 2009",
+      "favourites_count": 19093,
+      "utc_offset": -14400,
+      "time_zone": "America/New_York",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1574,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "ADD8C7",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/472071105503457280/EslsiONb.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/472071105503457280/EslsiONb.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/717491328364339200/w-BLzvFQ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/717491328364339200/w-BLzvFQ_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/42508332/1401384782",
+      "profile_link_color": "EEBD39",
+      "profile_sidebar_border_color": "F27D4D",
+      "profile_sidebar_fill_color": "C4C395",
+      "profile_text_color": "B39964",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "986694371138523136": {
+    "created_at": "Wed Apr 18 19:54:04 +0000 2018",
+    "id": 986694371138523100,
+    "id_str": "986694371138523136",
+    "full_text": "@abraham @pblatteier great workshop and resources on speeding up web apps at #railsconf thanks!",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      95
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "railsconf",
+          "indices": [
+            77,
+            87
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            9,
+            20
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 175855743,
+      "id_str": "175855743",
+      "name": "Joe Merante",
+      "screen_name": "joemerante",
+      "location": "Brooklyn, NY",
+      "description": "Some code, some law, occasional insights and complaints. Not my employer's opinion.",
+      "url": "https://t.co/2RUGeLxGJI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/2RUGeLxGJI",
+              "expanded_url": "http://joemerante.com",
+              "display_url": "joemerante.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 447,
+      "friends_count": 689,
+      "listed_count": 39,
+      "created_at": "Sat Aug 07 20:36:33 +0000 2010",
+      "favourites_count": 849,
+      "utc_offset": -14400,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 4356,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/901599319408697345/9tIPPsqf_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/901599319408697345/9tIPPsqf_normal.jpg",
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "986591451969712128": {
+    "created_at": "Wed Apr 18 13:05:06 +0000 2018",
+    "id": 986591451969712100,
+    "id_str": "986591451969712128",
+    "full_text": "At #railsconf? Come to \"PRPL on Rails\" at 1:50 in Room 317-318. We are the only offline session/workshop.\n\nhttps://t.co/sduRINLCyk @pblatteier https://t.co/8A1FRZaXHI",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      142
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "railsconf",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            131,
+            142
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/sduRINLCyk",
+          "expanded_url": "https://railsconf.com/program/workshops#session-586",
+          "display_url": "railsconf.com/program/worksh…",
+          "indices": [
+            107,
+            130
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 986591442675163100,
+          "id_str": "986591442675163137",
+          "indices": [
+            143,
+            166
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+          "url": "https://t.co/8A1FRZaXHI",
+          "display_url": "pic.twitter.com/8A1FRZaXHI",
+          "expanded_url": "https://twitter.com/abraham/status/986591451969712128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 986591442675163100,
+          "id_str": "986591442675163137",
+          "indices": [
+            143,
+            166
+          ],
+          "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+          "url": "https://t.co/8A1FRZaXHI",
+          "display_url": "pic.twitter.com/8A1FRZaXHI",
+          "expanded_url": "https://twitter.com/abraham/status/986591451969712128/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8343,
+      "friends_count": 500,
+      "listed_count": 583,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 18342,
+      "utc_offset": -18000,
+      "time_zone": "Central Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 45562,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729249839/f94e1a2a25a84262f1de849a15a58e3d.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "38AFFF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 13,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }

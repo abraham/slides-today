@@ -42,9 +42,21 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1KoXhyTMxhxPsrIccmMbLmZy6qI8VMjnlpWV29Ab8nl4',
+        tag: false,
+        service: 'google-slides',
+      },
+      {
+        title: 'Workshop',
+        url: 'https://www.notion.so/RailsConf-PRPL-on-Rails-470694f92d76434cb996967bb216b689',
+        tag: true,
+        service: 'external',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['962113749317496833', '963472868653793280', '966298434104852480', '984082047806394368'],
+    tweets: ['962113749317496833', '963472868653793280', '966298434104852480', '984082047806394368', '984541225096278016', '985879253085548544', '986665491241545738', '986689221288177673', '986722481078788096', '986664993570598918', '986665141667356672', '986666656603795457', '986694371138523136', '986591451969712128', '987397466298368000', '988535041067274242'],
   },
   {
     id: '-L4XGwe63N_sxVJu9y_S',
