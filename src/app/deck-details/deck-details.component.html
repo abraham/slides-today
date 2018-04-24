@@ -9,10 +9,10 @@
     <div #contentEl class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-8-desktop">
       <div #detailsEl class="item details mdc-card" [ngStyle]="currentPosition">
         <section class="card__primary">
-          <h1 class="card__title mdc-typography--title">{{deck?.title}}</h1>
-          <h2 class="card__subtitle mdc-typography--subheading1">{{deck?.eventTitle}} · {{deck?.date}}</h2>
+          <h1 class="card__title mdc-typography--headline6">{{deck?.title}}</h1>
+          <h2 class="card__subtitle mdc-typography--subtitle2">{{deck?.eventTitle}} · {{deck?.date}}</h2>
         </section>
-        <section class="card__secondary mdc-typography--body1">
+        <section class="card__secondary mdc-typography--body2">
           {{deck?.description}}
         </section>
         <section class="card__secondary">
@@ -35,7 +35,7 @@
 
       <div class="item mdc-card">
         <section class="card__primary">
-          <h2 class="card__title mdc-typography--title">{{deck?.location}}</h2>
+          <h2 class="card__title mdc-typography--headline6">{{deck?.location}}</h2>
         </section>
         <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
         </section>
