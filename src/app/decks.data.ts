@@ -3,6 +3,28 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-LAsARo49bKU50Ymnim3',
+    nodePackages: ['firebase-tools', 'firebase-admin'],
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Oh Node you didn’t! Go serverless with Cloud Functions for Firebase',
+    date: 'June 11th, 2018',
+    description: 'Cloud Functions for Firebase allow you to run event-driven Node.js on Google’s infrastructure. Functions offer rich integration with the Firebase and Google Cloud platforms, including Realtime Database, Firestore and Authentication. Alternatively, you can augment your existing architecture with simple yet powerful HTTP webhooks. Use Functions to run background processes, send notifications to users, call third-party APIs, and more. No need to worry about server management: Functions are easy to deploy and scale automatically.',
+    eventTitle: 'MadJS',
+    tags: ['firebase', 'javascript'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/MadisonJS/events/wqxgqlyxjbpb/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
+  },
+  {
     id: '-L5FKqFC-hNbu9mSyi2K',
     nodePackages: ['@webcomponents/webcomponentsjs'],
     githubRepos: [],
@@ -26,8 +48,8 @@ export const DECKS: Deck[] = [
   },
   {
     id: '-L5--GW61Db8VwUox-p9',
-    nodePackages: [],
-    githubRepos: [],
+    nodePackages: ['@rails/webpacker', 'workbox'],
+    githubRepos: ['rails/rails'],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
     title: 'PRPL on Rails',
     date: 'April 17-19th, 2018',
