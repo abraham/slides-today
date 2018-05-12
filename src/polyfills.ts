@@ -55,8 +55,6 @@ import 'core-js/es7/reflect';
  */
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
-import '@webcomponents/webcomponentsjs/webcomponents-sd-ce.js';
-
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
@@ -70,3 +68,5 @@ import '@webcomponents/webcomponentsjs/webcomponents-sd-ce.js';
  * Need to import at least one locale-data with intl.
  */
 // import 'intl/locale-data/jsonp/en';
+
+import '@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce.js';

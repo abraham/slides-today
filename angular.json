@@ -25,7 +25,6 @@
               "src/assets",
               "src/favicon.png",
               "src/manifest.json",
-              "src/sw.js",
               {
                 "glob": "workbox-sw.prod.v1.3.0.js",
                 "input": "node_modules/workbox-sw/build/importScripts",
@@ -89,7 +88,6 @@
               "src/assets",
               "src/favicon.png",
               "src/manifest.json",
-              "src/sw.js",
               {
                 "glob": "workbox-sw.prod.v1.3.0.js",
                 "input": "node_modules/workbox-sw/build/importScripts",
