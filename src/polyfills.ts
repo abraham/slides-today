@@ -69,4 +69,12 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 // import 'intl/locale-data/jsonp/en';
 
-import '@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce.js';
+const polyfills = [];
+if (!('customElements' in window)) {
+   polyfills.push(import('@webcomponents/webcomponentsjs/webcomponents-sd-ce'));
+}
+Promise.all(polyfills).then(() => {
+  import('github-repository');
+  import('node-package');
+  import('twitter-status');
+});

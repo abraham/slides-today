@@ -2,9 +2,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import 'github-repository';
-import 'node-package';
-import 'twitter-status';
 
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
