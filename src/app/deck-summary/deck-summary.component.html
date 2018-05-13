@@ -4,7 +4,7 @@
     <h1 class="card__title mdc-typography--headline6" (click)="goToDeck()">{{deck.title}}</h1>
   </section>
   <section class="card__secondary">
-    <app-tags [tags]="deck.tags" [currentTag]="currentTag"></app-tags>
+    <app-tags [tagIds]="deck.tags" [currentTags]="currentTags"></app-tags>
   </section>
   <section class="card__secondary mdc-typography--body2">
     {{deck.description}}

@@ -18,7 +18,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   @ViewChild('cardEl') cardEl;
 
   @Input() deck: Deck;
-  @Input() currentTag: string;
+  @Input() currentTags: string[];
 
   @HostBinding('style.display') display = 'inline';
 
@@ -63,7 +63,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes) {
-    if (changes.currentTag) {
+    if (changes.currentTags) {
       this.setDisplay();
     }
   }
@@ -103,9 +103,12 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
     this.router.navigate([this.url]);
   }
 
+  private hidden(): boolean {
+    return this.currentTags.length !== 0 && !this.currentTags.every(tag => this.deck.tags.includes(tag));
+  }
+
   setDisplay(): void {
-    const hidden = this.currentTag && !this.deck.tags.includes(this.currentTag);
-    if (hidden) {
+    if (this.hidden()) {
       this.display = 'none';
     } else {
       this.display = 'inline';

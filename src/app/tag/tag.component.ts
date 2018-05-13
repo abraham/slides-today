@@ -1,8 +1,8 @@
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { MDCRipple } from '@material/ripple';
-import { Router } from '@angular/router';
+import { Component, Input, Output, OnInit, ViewChild } from '@angular/core';
 
+import { Router } from '@angular/router';
 import { Tag } from '../tag';
+import { TagsComponent } from '../tags/tags.component';
 
 @Component({
   selector: 'app-tag',
@@ -14,19 +14,15 @@ export class TagComponent implements OnInit {
 
   currentStyles = {};
 
-  @Input() tag: Tag;
+  @Input() set: TagsComponent;
+  @Input() @Output() tag: Tag;
   @Input() currentTag: string;
   @Input() raised: boolean;
-  @ViewChild('tagEL') tagEL;
+  @ViewChild('tagEl') tagEl;
   constructor(private router: Router) { }
 
   ngOnInit() {
-    this.initRipples();
     this.setCurrentStyles();
-  }
-
-  initRipples(): void {
-    MDCRipple.attachTo(this.tagEL.nativeElement);
   }
 
   setCurrentStyles(): void {
@@ -36,11 +32,14 @@ export class TagComponent implements OnInit {
     };
   }
 
-  goToTag(id: string): void {
-    if (this.currentTag === id) {
-      this.router.navigate(['/']);
-    } else {
-      this.router.navigate(['/tags', { tag: id}]);
-    }
+  updateFilter(event, id: string): void {
+    const ids = this.set.selectedTags(id);
+    requestAnimationFrame(() => {
+      if (ids.length === 0) {
+        this.router.navigate(['/']);
+      } else {
+        this.router.navigate(['/tags', { tags: ids }]);
+      }
+    });
   }
 }

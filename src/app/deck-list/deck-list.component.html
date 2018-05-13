@@ -1,18 +1,18 @@
 <main class='main mdc-layout-grid'>
   <div class="mdc-layout-grid__inner">
     <div #tagsEl class="tags-transition mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-      <app-tags [tags]="tags.sort()"
-                [currentTag]="currentTag"></app-tags>
+      <app-tags [tagIds]="tags.sort()"
+                [currentTags]="currentTags"></app-tags>
     </div>
     <div #transitionEl class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner mdc-animation-deceleration-curve">
-        <app-about *ngIf="!currentTag" class="mdc-layout-grid__cell card-transition mdc-animation-deceleration-curve"></app-about>
+        <app-about *ngIf="currentTags.length === 0" class="mdc-layout-grid__cell card-transition mdc-animation-deceleration-curve"></app-about>
         <app-deck-summary *ngFor="let deck of decks"
                   [deck]="deck"
-                  [currentTag]="currentTag"
+                  [currentTags]="currentTags"
                   class="mdc-layout-grid__cell card-transition mdc-animation-deceleration-curve"></app-deck-summary>
         </div>
-      <div *ngIf="!hasDecks" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTag}}</div>
+      <div *ngIf="!hasDecks" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTags}}</div>
     </div>
   </div>
 </main>

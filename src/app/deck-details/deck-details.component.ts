@@ -33,7 +33,7 @@ export class DeckDetailsComponent implements OnInit {
   @ViewChild('detailsEl') detailsEl;
   @ViewChild('contentEl') contentEl;
 
-  currentTag: string;
+  currentTags: string[] = [];
   primaryTag: Tag;
   title = '';
   defaultImage = '/assets/img/default.png';

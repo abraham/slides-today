@@ -19,7 +19,7 @@ export class DeckListComponent implements OnInit {
               private location: Location) { }
 
   decks: Deck[];
-  currentTag: string;
+  currentTags: string[] = [];
   tags: string[] = [];
   hasDecks = true;
 
@@ -30,10 +30,10 @@ export class DeckListComponent implements OnInit {
     this.route.paramMap
       .switchMap((params: ParamMap) => {
         this.triggerScroll();
-        return Promise.resolve(params.get('tag'));
+        return Promise.resolve(params.get('tags'));
       })
-      .subscribe(tag => {
-        this.currentTag = tag;
+      .subscribe(tags => {
+        this.currentTags = tags ? tags.split(',') : [];
         this.setHasDecks();
       });
     this.getTags();
@@ -60,12 +60,7 @@ export class DeckListComponent implements OnInit {
     window.dispatchEvent(new Event('scroll'));
   }
 
-  hidden(deck): boolean {
-    return this.currentTag && !deck.tags.includes(this.currentTag);
-  }
-
   setHasDecks(): void {
-    // this.hasDecks = document.querySelectorAll('app-deck-summary:not(.hidden)').length > 0;
     this.hasDecks = true;
   }
 
