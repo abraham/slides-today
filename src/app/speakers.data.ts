@@ -21,6 +21,12 @@ export const SPEAKERS: Speaker[] = [
       service: 'external',
     },
     {
+      title: 'GDE',
+      url: 'https://developers.google.com/experts/people/abraham-williams',
+      tag: false,
+      service: 'external',
+    },
+    {
       title: 'Homepage',
       url: 'https://abrah.am',
       tag: false,
@@ -44,6 +50,12 @@ export const SPEAKERS: Speaker[] = [
       {
         title: 'GitHub',
         url: 'https://github.com/pearlbea',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'GDE',
+        url: 'https://developers.google.com/experts/people/pearl-latteier',
         tag: false,
         service: 'external',
       },
