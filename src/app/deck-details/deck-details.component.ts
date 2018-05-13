@@ -85,8 +85,6 @@ export class DeckDetailsComponent implements OnInit {
       .subscribe(all => {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
-        this.setCardPosition();
-        this.transitionIn();
         this.setMapUrl();
         this.setColors();
         this.setEmbeds();
@@ -96,33 +94,6 @@ export class DeckDetailsComponent implements OnInit {
 
   fromList(): boolean {
     return !!this.animationService.startPosition;
-  }
-
-  transitionIn(): void {
-    if (this.fromList()) {
-      setTimeout(() => this.transitionDetailsCard(), 0);
-      setTimeout(() => this.transitionNextCard(), 200);
-    } else {
-      setTimeout(() => this.transitionNextCard(), 0);
-    }
-  }
-
-  transitionNextCard(): void {
-    const item = this.contentEl.nativeElement
-      .querySelector('.item:not(.transitioned)');
-    if (item) {
-      item.classList.add('transitioned');
-    }
-    setTimeout(() => this.transitionNextCard(), 50);
-  }
-
-  transitionDetailsCard(): void {
-    this.currentPosition = {
-      top: `${this.contentPosition().top}px`,
-      left: `${this.contentPosition().left}px`,
-      width: `${this.columnWidth()}px`,
-    };
-    setTimeout(() => this.currentPosition = null, 300);
   }
 
   columnWidth(): number {
@@ -152,21 +123,6 @@ export class DeckDetailsComponent implements OnInit {
 
   open(url: string): void {
     window.open(url);
-  }
-
-  setCardPosition(): void {
-    this.startPosition = this.animationService.startPosition;
-    if (this.fromList()) {
-      this.contentEl.nativeElement.classList.add('from-list');
-      this.currentPosition = {
-        left: `${this.startPosition.left}px`,
-        top: `${this.startPosition.top}px`,
-        width: `${this.startPosition.width}px`,
-        height: `${this.startPosition.height}px`,
-      };
-    } else {
-      this.contentEl.nativeElement.classList.add('from-navigation');
-    }
   }
 
   setColors(): void {

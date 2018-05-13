@@ -23,7 +23,6 @@ export class DeckListComponent implements OnInit {
   tags: string[] = [];
   hasDecks = true;
 
-  @ViewChild('transitionEl') transitionEl;
   @ViewChild('tagsEl') tagsEl;
 
   ngOnInit(): void {
@@ -40,22 +39,6 @@ export class DeckListComponent implements OnInit {
     this.getDecks();
   }
 
-  transitionIn(): void {
-    setTimeout(() => {
-      this.transitionNextCard();
-      this.tagsEl.nativeElement.classList.add('transitioned');
-    }, 0);
-  }
-
-  transitionNextCard(): void {
-    const card = this.transitionEl.nativeElement
-      .querySelector('.card-transition:not(.transitioned)');
-    if (card) {
-      card.classList.add('transitioned');
-    }
-    setTimeout(this.transitionNextCard.bind(this), 50);
-  }
-
   triggerScroll(): void {
     window.dispatchEvent(new Event('scroll'));
   }
@@ -67,7 +50,6 @@ export class DeckListComponent implements OnInit {
   getDecks(): void {
     this.deckService.getDecks().then((decks) => {
       this.decks = decks;
-      this.transitionIn();
     });
   }
 
