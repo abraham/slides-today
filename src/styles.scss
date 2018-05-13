@@ -7,3 +7,12 @@ $mdc-theme-background: #FAFAFA;
 @import '~@material/typography/mdc-typography';
 
 @import './app/card/card';
+
+// Make the details page cards display in front of header color on Safari
+app-root {
+  position: absolute;
+
+  app-deck-details {
+    position: relative;
+  }
+}
