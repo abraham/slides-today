@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "ng build",
-    "build:prod": "ng build --prod --build-optimizer && npm run build:sw",
+    "build:prod": "ng build --prod && npm run build:sw",
     "build:sw": "node generate-sw.js",
     "deploy": "npm run build:prod && firebase deploy",
     "e2e": "ng e2e",
