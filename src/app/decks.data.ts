@@ -1,7 +1,31 @@
 import { Deck } from './deck';
 import { Link } from './link';
 
+// Get an ID with firebase.database().ref('test').push().key
+
 export const DECKS: Deck[] = [
+  {
+    id: '-L5FKqFC-hNbu9mSyi2K',
+    nodePackages: ['polymer-cli', '@webcomponents/webcomponentsjs'],
+    githubRepos: [],
+    speakers: ['-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Web Components: Lego bricks of the web',
+    date: 'June 21-22nd, 2018',
+    description: 'Writing the same login form over and over? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. You’ll leave this session knowing how to build and test web components using best practices.',
+    eventTitle: 'We RISE Tech Conference',
+    tags: ['webcomponents'],
+    location: 'Atlanta, GA',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://werise.tech/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: ['963467104430280705'],
+  },
   {
     id: '-LAsARo49bKU50Ymnim3',
     nodePackages: ['firebase-tools', 'firebase-admin'],
@@ -25,26 +49,60 @@ export const DECKS: Deck[] = [
     tweets: [],
   },
   {
-    id: '-L5FKqFC-hNbu9mSyi2K',
-    nodePackages: ['@webcomponents/webcomponentsjs'],
+    id: '-LCMdMuGkknPKKc9acHB',
+    nodePackages: [],
     githubRepos: [],
-    speakers: ['-KsZTNlw7dpLoH5mrsT4'],
-    title: 'Web Components: Lego bricks of the web',
-    date: 'June 21-22nd, 2018',
-    description: 'Writing the same login form over and over? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. You’ll leave this session knowing how to build and test web components using best practices.',
-    eventTitle: 'We RISE Tech Conference',
-    tags: ['webcomponents'],
-    location: 'Atlanta, GA',
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Google I/O Extended Recap',
+    date: 'June 15th, 2018',
+    description: "It's Google I/O season again! Pearl and Abraham will be at #io18 taking notes. Come have a look at all the new developer tools, platforms, APIs, etc announced.",
+    eventTitle: 'MadJS',
+    tags: ['googleio'],
+    location: 'Madison, WI',
     links: [
       {
         title: 'Event',
-        url: 'https://werise.tech/',
+        url: 'https://www.meetup.com/gdgmadison/events/248749497/',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Google I/O',
+        url: 'https://www.google.com/io',
         tag: false,
         service: 'external',
       },
     ],
-    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['963467104430280705'],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
+  },
+  {
+    id: '-LCMbFpq1s_PSG6UX6Nh',
+    nodePackages: [],
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
+    title: 'JavaScript at Google I/O',
+    date: 'May 14th, 2018',
+    description: 'Lots of JavaScript announcements happened at this years Google I/O. Come hear a summary of all the announcements and how the will affect our year ahead.',
+    eventTitle: 'MadJS',
+    tags: ['googleio', 'javascript'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/MadisonJS/events/242810950/',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Google I/O',
+        url: 'https://www.google.com/io',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: [],
   },
   {
     id: '-L5--GW61Db8VwUox-p9',
