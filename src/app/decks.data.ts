@@ -56,7 +56,7 @@ export const DECKS: Deck[] = [
     title: 'Google I/O Extended Recap',
     date: 'June 15th, 2018',
     description: "It's Google I/O season again! Pearl and Abraham will be at #io18 taking notes. Come have a look at all the new developer tools, platforms, APIs, etc announced.",
-    eventTitle: 'MadJS',
+    eventTitle: 'GDG Madison',
     tags: ['googleio'],
     location: 'Madison, WI',
     links: [
