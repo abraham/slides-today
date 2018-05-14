@@ -13,7 +13,7 @@ export const DECKS: Deck[] = [
     date: 'June 21-22nd, 2018',
     description: 'Writing the same login form over and over? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. You’ll leave this session knowing how to build and test web components using best practices.',
     eventTitle: 'We RISE Tech Conference',
-    tags: ['webcomponents'],
+    tags: ['webcomponents', 'polymer'],
     location: 'Atlanta, GA',
     links: [
       {
@@ -100,9 +100,15 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1uw-Eku4hf5TN1EqsKtAoOkM1Lv2gDVSQELI0cSazb4A',
+        tag: false,
+        service: 'google-slides',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: [],
+    tweets: ['996045503728103427'],
   },
   {
     id: '-L5--GW61Db8VwUox-p9',
