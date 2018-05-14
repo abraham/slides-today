@@ -102,7 +102,7 @@ export const DECKS: Deck[] = [
       },
       {
         title: 'Slides',
-        url: 'https://docs.google.com/presentation/d/1uw-Eku4hf5TN1EqsKtAoOkM1Lv2gDVSQELI0cSazb4A',
+        url: 'https://docs.google.com/presentation/d/1l3Hgcjhk0d0szrZ17vCA3OhL_2i-0zCqTTGYkKqEZr0',
         tag: false,
         service: 'google-slides',
       },
