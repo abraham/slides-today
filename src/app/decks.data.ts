@@ -74,7 +74,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: [],
+    tweets: ['991793023242653697', '994291303260176384', '996126442072272899'],
   },
   {
     id: '-LCMbFpq1s_PSG6UX6Nh',
@@ -108,7 +108,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: ['996045503728103427'],
+    tweets: ['996045503728103427', '996397019462848512'],
   },
   {
     id: '-L5--GW61Db8VwUox-p9',
