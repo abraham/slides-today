@@ -11,7 +11,7 @@ import { Link } from './link';
 export const DECKS: Deck[] = [
   {
     id: '-L5FKqFC-hNbu9mSyi2K',
-    nodePackages: ['polymer-cli', '@webcomponents/webcomponentsjs'],
+    nodePackages: ['polymer-cli', '@nutmeg/cli', '@stencil/core', '@webcomponents/webcomponentsjs'],
     githubRepos: [],
     speakers: ['-KsZTNlw7dpLoH5mrsT4'],
     title: 'Web Components: Lego bricks of the web',
