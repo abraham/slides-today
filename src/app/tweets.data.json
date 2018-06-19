@@ -22848,5 +22848,337 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1009102897433513987": {
+    "created_at": "Tue Jun 19 15:57:33 +0000 2018",
+    "id": 1009102897433514000,
+    "id_str": "1009102897433513987",
+    "full_text": "The awesome @pblatteier is presenting \"@Web_Components: Lego bricks of the web\" at @WeRiseConf on Thursday! Go say hi if you're going to be there.\n\nhttps://t.co/GPQw0GDic3 https://t.co/uP5JHNzAyi",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      171
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            12,
+            23
+          ]
+        },
+        {
+          "screen_name": "Web_Components",
+          "name": "Web Components",
+          "id": 2477133162,
+          "id_str": "2477133162",
+          "indices": [
+            39,
+            54
+          ]
+        },
+        {
+          "screen_name": "WeRiseConf",
+          "name": "We RISE Tech Conf",
+          "id": 824430116281450500,
+          "id_str": "824430116281450496",
+          "indices": [
+            83,
+            94
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/GPQw0GDic3",
+          "expanded_url": "https://werise.tech/sessions/2018/6/3/web-components-lego-bricks-of-the-web",
+          "display_url": "werise.tech/sessions/2018/…",
+          "indices": [
+            148,
+            171
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1009102058476179500,
+          "id_str": "1009102058476179456",
+          "indices": [
+            172,
+            195
+          ],
+          "media_url": "http://pbs.twimg.com/media/DgEM-cmWkAA2a3V.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DgEM-cmWkAA2a3V.jpg",
+          "url": "https://t.co/uP5JHNzAyi",
+          "display_url": "pic.twitter.com/uP5JHNzAyi",
+          "expanded_url": "https://twitter.com/abraham/status/1009102897433513987/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1009102058476179500,
+          "id_str": "1009102058476179456",
+          "indices": [
+            172,
+            195
+          ],
+          "media_url": "http://pbs.twimg.com/media/DgEM-cmWkAA2a3V.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DgEM-cmWkAA2a3V.jpg",
+          "url": "https://t.co/uP5JHNzAyi",
+          "display_url": "pic.twitter.com/uP5JHNzAyi",
+          "expanded_url": "https://twitter.com/abraham/status/1009102897433513987/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8501,
+      "friends_count": 538,
+      "listed_count": 580,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 19760,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 46118,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1006928289578078208": {
+    "created_at": "Wed Jun 13 15:56:26 +0000 2018",
+    "id": 1006928289578078200,
+    "id_str": "1006928289578078208",
+    "full_text": "Can't wait for @WeRiseConf next week! I'll be there talking about web components. https://t.co/GIdeW5jbf6",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      105
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "WeRiseConf",
+          "name": "We RISE Tech Conf",
+          "id": 824430116281450500,
+          "id_str": "824430116281450496",
+          "indices": [
+            15,
+            26
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/GIdeW5jbf6",
+          "expanded_url": "https://bendyworks.com/blog/we-rise-tech-conference?utm_source=twitter&utm_medium=social&utm_campaign=blogged-we-rise-tech-conference",
+          "display_url": "bendyworks.com/blog/we-rise-t…",
+          "indices": [
+            82,
+            105
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 202376085,
+      "id_str": "202376085",
+      "name": "Pearl Latteier",
+      "screen_name": "pblatteier",
+      "location": "Madison, WI",
+      "description": "Developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert",
+      "url": "https://t.co/rDYQj6hdWQ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/rDYQj6hdWQ",
+              "expanded_url": "https://pearlbea.com/",
+              "display_url": "pearlbea.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 640,
+      "friends_count": 431,
+      "listed_count": 27,
+      "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+      "favourites_count": 1313,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 520,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/906298234108133376/GM6gVuCC_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1487804964",
+      "profile_link_color": "B00020",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 11,
+    "favorite_count": 24,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }

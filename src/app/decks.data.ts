@@ -3,6 +3,11 @@ import { Link } from './link';
 
 // Get an ID with firebase.database().ref('test').push().key
 
+// Mobile Era tweets to include when adding the Deck
+// https://twitter.com/abraham/status/1009144217585815553
+// https://twitter.com/jhannes/status/1009146601099747328
+// https://twitter.com/webmaxru/status/1009146548339519489
+
 export const DECKS: Deck[] = [
   {
     id: '-L5FKqFC-hNbu9mSyi2K',
@@ -22,9 +27,15 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'external',
       },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1Z4Ou9fThi0OR-pLva3UdQdaC4NJaXSiiIN4Os3Fo1R0',
+        tag: false,
+        service: 'google-slides',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['963467104430280705', '986658249016520705'],
+    tweets: ['963467104430280705', '986658249016520705', '1006928289578078208', '1009102897433513987'],
   },
   {
     id: '-LAsARo49bKU50Ymnim3',
