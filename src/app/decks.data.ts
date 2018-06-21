@@ -35,7 +35,7 @@ export const DECKS: Deck[] = [
         service: 'google-slides',
       },
     ],
-    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
     tweets: ['963467104430280705', '986658249016520705', '1006928289578078208', '1009102897433513987'],
   },
   {
