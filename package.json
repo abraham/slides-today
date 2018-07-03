@@ -26,7 +26,7 @@
     "@angular/platform-browser": "6.0.7",
     "@angular/platform-browser-dynamic": "6.0.7",
     "@angular/router": "6.0.7",
-    "@webcomponents/webcomponentsjs": "1.0.1",
+    "@webcomponents/webcomponentsjs": "^2.0.2",
     "autotrack": "2.4.1",
     "core-js": "^2.5.7",
     "github-repository": "^0.2.2",

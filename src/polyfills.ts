@@ -71,7 +71,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 const polyfills = [];
 if (!('customElements' in window)) {
-   polyfills.push(import('@webcomponents/webcomponentsjs/webcomponents-sd-ce'));
+   polyfills.push(import('@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce'));
 }
 Promise.all(polyfills).then(() => {
   import('github-repository');
