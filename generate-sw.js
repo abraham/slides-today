@@ -1,6 +1,6 @@
 const workboxBuild = require('workbox-build');
 const SRC_DIR = 'src';
-const BUILD_DIR = 'dist';
+const BUILD_DIR = 'dist/slides-today';
 
 const input = {
   swDest: `${BUILD_DIR}/sw.js`,
