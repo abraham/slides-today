@@ -73,8 +73,10 @@ const polyfills = [];
 if (!('customElements' in window)) {
    polyfills.push(import('@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce'));
 }
-Promise.all(polyfills).then(() => {
-  import('github-repository');
-  import('node-package');
-  import('twitter-status');
-});
+Promise.all(polyfills)
+  .then(() => {
+    import('github-repository');
+    import('node-package');
+    import('twitter-status');
+  })
+  .catch((error: Error) => console.log('import components error', error));
