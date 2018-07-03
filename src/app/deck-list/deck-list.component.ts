@@ -27,10 +27,10 @@ export class DeckListComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap
-      .switchMap((params: ParamMap) => {
-        this.triggerScroll();
-        return Promise.resolve(params.get('tags'));
-      })
+      .pipe(switchMap((params: ParamMap) => {
+          this.triggerScroll();
+          return Promise.resolve(params.get('tags'));
+        }))
       .subscribe(tags => {
         this.currentTags = tags ? tags.split(',') : [];
         this.setHasDecks();

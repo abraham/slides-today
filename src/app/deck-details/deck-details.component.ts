@@ -76,12 +76,12 @@ export class DeckDetailsComponent implements OnInit {
   ngOnInit() {
     window.scrollTo(0, 0);
     this.route.paramMap
-      .switchMap((params: ParamMap) => {
-        return Promise.all([
-          this.deckService.getDeck(params.get('id')),
-          this.tagService.getTags(),
-        ]);
-      })
+      .pipe(switchMap((params: ParamMap) => {
+          return Promise.all([
+            this.deckService.getDeck(params.get('id')),
+            this.tagService.getTags(),
+          ]);
+        }))
       .subscribe(all => {
         this.deck = all[0];
         this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
