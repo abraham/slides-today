@@ -1,5 +1,5 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Component, OnInit, Input, Output, ViewChild, EventEmitter } from '@angular/core';
+import { AfterContentChecked, Component, OnInit, Input, Output, ViewChild, EventEmitter } from '@angular/core';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
@@ -18,7 +18,7 @@ import { Position } from '../position';
   styleUrls: ['./deck-details.component.scss'],
   providers: [DeckService, TagService],
 })
-export class DeckDetailsComponent implements OnInit {
+export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   constructor(private deckService: DeckService,
               private tagService: TagService,
@@ -88,8 +88,11 @@ export class DeckDetailsComponent implements OnInit {
         this.setMapUrl();
         this.setColors();
         this.setEmbeds();
-        this.setEmbedWidth();
       });
+  }
+
+  ngAfterContentChecked() {
+    this.setEmbedWidth();
   }
 
   fromList(): boolean {
@@ -150,9 +153,9 @@ export class DeckDetailsComponent implements OnInit {
   }
 
   setEmbedWidth(): void {
-    setTimeout(() => {
+    if (this.embedWidth !== this.columnWidth()) {
       this.embedWidth = this.columnWidth();
-    });
+    }
   }
 
   setEmbeds(): void {
