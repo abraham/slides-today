@@ -55,8 +55,8 @@
         <node-package class="item mdc-elevation--z1" [name]="name"></node-package>
       </ng-template>
 
-      <div class="item">
-        <app-sponsor [sponsorIds]="deck?.sponsors"></app-sponsor>
+      <div class="item" *ngIf="deck">
+        <app-sponsor [sponsorIds]="deck.sponsors"></app-sponsor>
       </div>
 
       <ng-template ngFor let-status [ngForOf]="deck?.tweets">

@@ -18,12 +18,12 @@ export class SponsorComponent implements OnInit {
   sponsors: Sponsor[];
 
   ngOnInit() {
-    setTimeout(() => {
-      this.getSponsors();
-    }, 0);
+    this.getSponsors();
   }
 
   getSponsors(): void {
-    this.sponsorService.filter(this.sponsorIds).then(sponsors => this.sponsors = sponsors);
+    this.sponsorService
+      .filter(this.sponsorIds)
+      .then(sponsors => this.sponsors = sponsors);
   }
 }
