@@ -8,9 +8,9 @@ import { MDCRipple } from '@material/ripple';
   styleUrls: ['./card-action.component.scss']
 })
 export class CardActionComponent implements OnInit {
-  @Input() url: string;
-  @Input() text: string;
-  @Input() blank: boolean;
+  @Input() url = '';
+  @Input() text = '';
+  @Input() blank = false;
   @ViewChild('actionEl') actionEl!: ElementRef;
 
   constructor(private router: Router) { }
@@ -23,7 +23,7 @@ export class CardActionComponent implements OnInit {
     MDCRipple.attachTo(this.actionEl.nativeElement);
   }
 
-  open(event): void {
+  open(event: MouseEvent): void {
     event.preventDefault();
     if (this.blank) {
       window.open(this.url);

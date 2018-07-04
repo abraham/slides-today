@@ -45,6 +45,7 @@
     "@angular/language-service": "6.0.7",
     "@types/jasmine": "2.8.8",
     "@types/jasminewd2": "2.0.3",
+    "@types/material-components-web": "^0.35.0",
     "@types/node": "10.5.1",
     "codelyzer": "4.4.2",
     "firebase-tools": "3.19.3",
