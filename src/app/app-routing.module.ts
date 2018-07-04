@@ -24,3 +24,5 @@ const routes: Routes = [
   ]
 })
 export class AppRoutingModule { }
+
+export type RoutedComponents = DeckDetailsComponent | DeckListComponent;

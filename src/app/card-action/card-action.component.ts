@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { MDCRipple } from '@material/ripple';
 
@@ -11,7 +11,7 @@ export class CardActionComponent implements OnInit {
   @Input() url: string;
   @Input() text: string;
   @Input() blank: boolean;
-  @ViewChild('actionEl') actionEl;
+  @ViewChild('actionEl') actionEl!: ElementRef;
 
   constructor(private router: Router) { }
 

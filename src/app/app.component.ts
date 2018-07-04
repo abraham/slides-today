@@ -1,6 +1,8 @@
 import { Component, Input, ViewChild } from '@angular/core';
 
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
+import { HeaderComponent } from './header/header.component';
+import { RoutedComponents } from './app-routing.module';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +17,9 @@ export class AppComponent {
   colors = this.defaultColors;
   fixed = true;
 
-  @ViewChild('headerEl') headerEl;
+  @ViewChild('headerEl') headerEl!: HeaderComponent;
 
-  onActivate(event): void {
+  onActivate(event: RoutedComponents): void {
     if ('title' in event) {
       this.title = event.title;
     } else {
