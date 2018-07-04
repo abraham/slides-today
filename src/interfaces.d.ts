@@ -5,7 +5,6 @@ interface NodeModule {
 }
 
 interface Window { BroadcastChannel: any; }
-interface Navigator { share: any; }
 
 declare module '*.json' {
     const value: any;

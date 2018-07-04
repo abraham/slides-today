@@ -1,6 +1,20 @@
-import { Component, AfterViewInit, ViewChild, Input } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, Input, ElementRef } from '@angular/core';
 import { MDCRipple } from '@material/ripple';
 import { MDCMenu } from '@material/menu';
+
+interface ShareOptions {
+  title: string;
+  text: string;
+  url: string;
+}
+
+type NavigatorShare = (options: ShareOptions) => Promise<{}>;
+
+declare global {
+  interface Navigator {
+    share?: NavigatorShare;
+  }
+}
 
 @Component({
   selector: 'app-share',
@@ -11,59 +25,62 @@ export class ShareComponent implements AfterViewInit {
 
   constructor() { }
 
-  _menu: MDCMenu;
-  @ViewChild('fabEl') fabEl;
-  @ViewChild('menuEl') menuEl;
-  @Input() text: string;
-  services = {
+  private menu!: MDCMenu;
+
+  @ViewChild('fabEl') fabEl!: ElementRef;
+  @ViewChild('menuEl') menuEl!: ElementRef;
+  @Input() text = '';
+
+  private services: { [key: string]: () => string } = {
     google: () => `https://plus.google.com/share?url=${this.shareUrl()}`,
-    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText() + ' ' + this.shareUrl()}`,
+    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText()} ${this.shareUrl()}`,
     facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl()}`,
   };
 
   ngAfterViewInit() {
-    this._menu = new MDCMenu(this.menuEl.nativeElement);
+    this.menu = new MDCMenu(this.menuEl.nativeElement);
     this.initRipples();
   }
 
-  initRipples(): void {
+  private initRipples(): void {
     MDCRipple.attachTo(this.fabEl.nativeElement);
   }
 
-  shareText(): string {
+  private shareText(): string {
     return encodeURIComponent(this.text);
   }
 
-  shareUrl(): string {
+  private shareUrl(): string {
     return encodeURIComponent(window.location.href);
   }
 
   startShare(): void {
-    if ('share' in navigator) {
-      this.nativeShare();
+    if (navigator.share) {
+      navigator.share(this.shareOptions)
+        .then(() => console.log('Successful share'))
+        .catch((error: Error) => console.log('Error sharing:', error));
     } else {
       this.toggleMenu();
     }
   }
 
-  nativeShare(): void {
-    navigator.share({
+  private get shareOptions(): ShareOptions {
+    return {
+      title: 'Slides.Today',
       text: this.text,
       url: window.location.href,
-    }).then(() => console.log('Successful share'))
-    .catch(error => console.log('Error sharing:', error));
-
+    };
   }
 
-  toggleMenu() {
-    this._menu.open = !this._menu.open;
+  private toggleMenu() {
+    this.menu.open = !this.menu.open;
   }
 
-  open(url) {
+  private open(url: string) {
     window.open(url);
   }
 
-  share(service: string) {
+  private share(service: string) {
     window.open(this.services[service]());
   }
 }
