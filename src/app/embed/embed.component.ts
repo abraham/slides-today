@@ -9,28 +9,28 @@ import { Link } from '../link';
   styleUrls: ['./embed.component.scss']
 })
 export class EmbedComponent implements OnInit {
-  @Input() link: Link;
-  @Input() width: number;
-  @Input() colors: { color: string, backgroundColor: string };
+  @Input() link!: Link;
+  @Input() width!: number;
+  @Input() colors!: { color: string, backgroundColor: string };
 
-  url: SafeResourceUrl;
+  url?: SafeResourceUrl;
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor(private sanitizer: DomSanitizer) { console.log(this.link); }
 
   ngOnInit() {
     this.setUrl();
   }
 
   height(): number {
-    return Math.round((this.width + 29) * this.ratioService()[this.link.service]);
+    return Math.round((this.width + 29) * this.ratioService[this.link.service]);
   }
 
   setUrl(): void {
-    const unsafeUrl = this.urlService()[this.link.service]();
+    const unsafeUrl = this.urlService[this.link.service]();
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(unsafeUrl);
   }
 
-  urlService(): object {
+  get urlService(): {[index: string]: () => string} {
     return {
       'youtube': this.buildYoutubeUrl.bind(this),
       'google-slides': this.buildGoogleSlidesUrl.bind(this),
@@ -38,7 +38,7 @@ export class EmbedComponent implements OnInit {
     };
   }
 
-  ratioService(): object {
+  get ratioService(): {[index: string]: number} {
     return {
       'youtube': 315 / 560,
       'google-slides': 569 / 960,
@@ -59,8 +59,7 @@ export class EmbedComponent implements OnInit {
   }
 
   buildGoogleSlidesUrl(): string {
-    return  `${this.link.url}/embed?start=false&loop=false&delayms=30000`;
-
+    return `${this.link.url}/embed?start=false&loop=false&delayms=30000`;
   }
 
   parseVimeoId(): string {
