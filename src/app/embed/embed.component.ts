@@ -30,7 +30,7 @@ export class EmbedComponent implements OnInit {
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(unsafeUrl);
   }
 
-  get urlService(): {[index: string]: () => string} {
+  get urlService(): { [index: string]: () => string } {
     return {
       'youtube': this.buildYoutubeUrl.bind(this),
       'google-slides': this.buildGoogleSlidesUrl.bind(this),
@@ -38,7 +38,7 @@ export class EmbedComponent implements OnInit {
     };
   }
 
-  get ratioService(): {[index: string]: number} {
+  get ratioService(): { [index: string]: number } {
     return {
       'youtube': 315 / 560,
       'google-slides': 569 / 960,

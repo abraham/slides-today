@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, AfterViewInit, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { MDCToolbar } from '@material/toolbar';
 import { Router } from '@angular/router';
 
@@ -10,15 +10,23 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit, AfterViewInit {
   constructor(private router: Router) { }
 
-  @ViewChild('toolbarFixedEl') toolbarFixedEl;
-  @ViewChild('toolbarAdjustEl') toolbarAdjustEl;
+  @ViewChild('toolbarFixedEl') toolbarFixedEl!: ElementRef;
+  @ViewChild('toolbarAdjustEl') toolbarAdjustEl!: ElementRef;
 
-  @Input() title: string;
-  @Input() colors: { color: string, backgroundColor: string };
-  @Input() fixed: boolean;
-  toolbar: MDCToolbar;
-  defaultClasses = 'mdc-toolbar--fixed mdc-toolbar--waterfall mdc-toolbar--flexible mdc-toolbar--flexible-default-behavior mdc-toolbar--flexible-space-maximized mdc-toolbar--home';
-  classes = this.defaultClasses;
+  @Input() title!: string;
+  @Input() colors!: { color: string, backgroundColor: string };
+  @Input() fixed = true;
+
+  private toolbar?: MDCToolbar;
+  private defaultClasses = `
+    mdc-toolbar--fixed
+    mdc-toolbar--flexible
+    mdc-toolbar--flexible-default-behavior
+    mdc-toolbar--flexible-space-maximized
+    mdc-toolbar--home
+    mdc-toolbar--waterfall
+  `;
+  private classes = this.defaultClasses;
 
   ngOnInit() {
   }
