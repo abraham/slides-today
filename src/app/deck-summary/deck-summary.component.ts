@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, HostBinding, OnChanges, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, HostBinding, OnChanges, SimpleChanges, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { Deck } from '../deck';
@@ -15,18 +15,18 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   constructor (private router: Router,
                private animationService: AnimationService) {}
 
-  @ViewChild('cardEl') cardEl;
+  @ViewChild('cardEl') cardEl!: ElementRef;
 
-  @Input() deck: Deck;
-  @Input() currentTags: string[];
+  @Input() deck?: Deck;
+  @Input() currentTags: string[] = [];
 
   @HostBinding('style.display') display = 'inline';
 
   offset = 200;
-  imageLoaded: false;
+  imageLoaded = false;
   defaultImage = '/assets/img/default.jpg';
-  url: string;
-  mapUrl: string;
+  url?: string;
+  mapUrl?: string;
   coverStyle = { 'background-size': 'cover' };
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
@@ -62,7 +62,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
     this.setUrl();
   }
 
-  ngOnChanges(changes) {
+  ngOnChanges(changes: SimpleChanges) {
     if (changes.currentTags) {
       this.setDisplay();
     }
@@ -79,7 +79,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   private center(): string {
-    return encodeURIComponent(this.deck.location);
+    return encodeURIComponent(this.deck ? this.deck.location : '');
   }
 
   private styleParams(): string {
@@ -95,6 +95,7 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   setUrl(): void {
+    if (!this.deck) { return; }
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
   }
 
@@ -104,7 +105,10 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   private hidden(): boolean {
-    return this.currentTags.length !== 0 && !this.currentTags.every(tag => this.deck.tags.includes(tag));
+    const deckTags = this.deck ? this.deck.tags : [];
+    const selectedTags = this.currentTags.length !== 0;
+    const selectedTagsOnDeck = !this.currentTags.every(tag => deckTags.includes(tag));
+    return selectedTags && selectedTagsOnDeck;
   }
 
   setDisplay(): void {
