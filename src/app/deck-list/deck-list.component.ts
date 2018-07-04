@@ -1,5 +1,5 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Location } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 
@@ -18,12 +18,12 @@ export class DeckListComponent implements OnInit {
               private route: ActivatedRoute,
               private location: Location) { }
 
-  decks: Deck[];
+  decks: Deck[] = [];
   currentTags: string[] = [];
   tags: string[] = [];
   hasDecks = true;
 
-  @ViewChild('tagsEl') tagsEl;
+  @ViewChild('tagsEl') tagsEl!: ElementRef;
 
   ngOnInit(): void {
     this.route.paramMap

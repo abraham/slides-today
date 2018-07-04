@@ -4,6 +4,14 @@ import { MDCChip, MDCChipSet } from '@material/chips';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 
+type ChipSet = MDCChipSet & {
+  chips: MDCChip[];
+};
+
+type Chip = MDCChip & {
+  root_: HTMLDivElement;
+};
+
 @Component({
   selector: 'app-tags',
   templateUrl: './tags.component.html',
@@ -43,9 +51,9 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   selectedTags(activatedId: string): string[] {
-    const ids: string[] = this.chipSet.chips
-      .filter((chip: MDCChip) => chip.isSelected())
-      .map((chip: MDCChip) => chip.root_.dataset.id);
+    const ids: string[] = (this.chipSet as ChipSet).chips
+      .filter((chip: Chip) => chip.isSelected())
+      .map((chip: Chip) => chip.root_.dataset.id);
 
     if (ids.includes(activatedId)) {
       return ids.filter(id => id !== activatedId);
