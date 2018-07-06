@@ -1,5 +1,11 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { MDCSnackbar } from '@material/snackbar';
+
+declare global {
+  interface Window {
+    BroadcastChannel: new(name: string) => BroadcastChannel;
+  }
+}
 
 @Component({
   selector: 'app-update',
@@ -7,17 +13,19 @@ import { MDCSnackbar } from '@material/snackbar';
   styleUrls: ['./update.component.scss']
 })
 export class UpdateComponent implements OnInit {
+  private readonly CHANNEL_NAME = 'precache-updates';
+  private readonly EVENT_TYPE = 'CACHE_UPDATED';
 
   constructor() { }
 
-  @ViewChild('snackbarEl') snackbarEl;
-  precacheUpdates: any;
-  private _snackbar: MDCSnackbar;
+  @ViewChild('snackbarEl') snackbarEl!: ElementRef;
+  precacheUpdates!: BroadcastChannel;
+  private snackbar!: MDCSnackbar;
 
   ngOnInit() {
-    this._snackbar = new MDCSnackbar(this.snackbarEl.nativeElement);
+    this.snackbar = new MDCSnackbar(this.snackbarEl.nativeElement);
     if ('BroadcastChannel' in window) {
-      this.precacheUpdates = new window.BroadcastChannel('precache-updates');
+      this.precacheUpdates = new window.BroadcastChannel(this.CHANNEL_NAME);
       this.precacheUpdates.onmessage = this.onPrecacheUpdate.bind(this);
     } else {
       console.log('BroadcastChannel not supported');
@@ -25,7 +33,7 @@ export class UpdateComponent implements OnInit {
   }
 
   onPrecacheUpdate(event: MessageEvent): void {
-    if (event && event.data && event.data.type === 'CACHE_UPDATED') {
+    if (event && event.data && event.data.type === this.EVENT_TYPE) {
       this.showUpdate();
     }
   }
@@ -40,6 +48,6 @@ export class UpdateComponent implements OnInit {
       }
     };
 
-    this._snackbar.show(dataObj);
+    this.snackbar.show(dataObj);
   }
 }
