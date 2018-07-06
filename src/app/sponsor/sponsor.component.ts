@@ -13,9 +13,9 @@ export class SponsorComponent implements OnInit {
 
   constructor(private sponsorService: SponsorsService) { }
 
-  @Input() sponsorIds: string[];
+  @Input() sponsorIds: string[] = [];
 
-  sponsors: Sponsor[];
+  sponsors: Sponsor[] = [];
 
   ngOnInit() {
     this.getSponsors();
