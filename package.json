@@ -35,7 +35,7 @@
     "ng-lazyload-image": "4.0.0",
     "node-package": "1.1.1",
     "rxjs": "6.2.1",
-    "twitter-status": "0.2.5",
+    "twitter-status": "0.3.0",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
