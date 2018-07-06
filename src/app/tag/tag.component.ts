@@ -1,4 +1,4 @@
-import { Component, Input, Output, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, Output, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 import { Router } from '@angular/router';
 import { Tag } from '../tag';
@@ -14,11 +14,11 @@ export class TagComponent implements OnInit {
 
   currentStyles = {};
 
-  @Input() set: TagsComponent;
-  @Input() @Output() tag: Tag;
-  @Input() currentTag: string;
-  @Input() raised: boolean;
-  @ViewChild('tagEl') tagEl;
+  @Input() set!: TagsComponent;
+  @Input() @Output() tag!: Tag;
+  @Input() currentTag!: string;
+  @Input() raised = false;
+  @ViewChild('tagEl') tagEl?: ElementRef;
   constructor(private router: Router) { }
 
   ngOnInit() {
@@ -32,7 +32,7 @@ export class TagComponent implements OnInit {
     };
   }
 
-  updateFilter(event, id: string): void {
+  updateFilter(event: MouseEvent, id: string): void {
     const ids = this.set.selectedTags(id);
     requestAnimationFrame(() => {
       if (ids.length === 0) {
