@@ -19,7 +19,6 @@ import { UpdateComponent } from './update/update.component';
 import { EmbedComponent } from './embed/embed.component';
 import { SpeakerComponent } from './speaker/speaker.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
-import { AnimationService } from './animation.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +45,7 @@ import { AnimationService } from './animation.service';
     BrowserModule,
     LazyLoadImageModule,
   ],
-  providers: [AnimationService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -5,12 +5,12 @@
                 [currentTags]="currentTags"></app-tags>
     </div>
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-      <div class="mdc-layout-grid__inner mdc-animation-deceleration-curve">
-        <app-about *ngIf="currentTags.length === 0" class="mdc-layout-grid__cell mdc-animation-deceleration-curve"></app-about>
+      <div class="mdc-layout-grid__inner">
+        <app-about *ngIf="currentTags.length === 0" class="mdc-layout-grid__cell"></app-about>
         <app-deck-summary *ngFor="let deck of decks"
                   [deck]="deck"
                   [currentTags]="currentTags"
-                  class="mdc-layout-grid__cell mdc-animation-deceleration-curve"></app-deck-summary>
+                  class="mdc-layout-grid__cell"></app-deck-summary>
         </div>
       <div *ngIf="!hasDecks" class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">Nothing found for {{currentTags}}</div>
     </div>

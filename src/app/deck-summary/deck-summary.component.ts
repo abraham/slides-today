@@ -2,8 +2,6 @@ import { Component, Input, OnInit, HostBinding, OnChanges, SimpleChanges, ViewCh
 import { Router } from '@angular/router';
 
 import { Deck } from '../deck';
-import { AnimationService } from '../animation.service';
-import { Position } from '../position';
 
 @Component({
   selector: 'app-deck-summary',
@@ -12,8 +10,7 @@ import { Position } from '../position';
 })
 
 export class DeckSummaryComponent implements OnInit, OnChanges {
-  constructor (private router: Router,
-               private animationService: AnimationService) {}
+  constructor (private router: Router) {}
 
   @ViewChild('cardEl') cardEl!: ElementRef;
 
@@ -68,16 +65,6 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
     }
   }
 
-  private cardPosition(): Position {
-    const current = this.cardEl.nativeElement.getBoundingClientRect();
-    return {
-      left: current.left,
-      top: current.top,
-      width: current.width,
-      height: current.height,
-    };
-  }
-
   private center(): string {
     return encodeURIComponent(this.deck ? this.deck.location : '');
   }
@@ -100,7 +87,6 @@ export class DeckSummaryComponent implements OnInit, OnChanges {
   }
 
   goToDeck(): void {
-    this.animationService.startPosition = this.cardPosition();
     this.router.navigate([this.url]);
   }
 

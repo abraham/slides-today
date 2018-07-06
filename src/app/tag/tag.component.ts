@@ -34,6 +34,7 @@ export class TagComponent implements OnInit {
 
   updateFilter(event: MouseEvent, id: string): void {
     const ids = this.set.selectedTags(id);
+    // This waits until the chip state has been updated before performing navigation
     requestAnimationFrame(() => {
       if (ids.length === 0) {
         this.router.navigate(['/']);

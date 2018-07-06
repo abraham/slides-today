@@ -4,13 +4,11 @@ import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
 
-import { AnimationService } from '../animation.service';
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 import { Link } from '../link';
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
-import { Position } from '../position';
 
 @Component({
   selector: 'app-deck-details',
@@ -22,7 +20,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   constructor(private deckService: DeckService,
               private tagService: TagService,
-              private animationService: AnimationService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router) { }
@@ -41,8 +38,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   embeds: Link[];
   embedWidth: number;
   colors: { color: string, backgroundColor: string };
-  currentPosition: object;
-  startPosition: Position;
   statuses: any[];
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
@@ -95,10 +90,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     this.setEmbedWidth();
   }
 
-  fromList(): boolean {
-    return !!this.animationService.startPosition;
-  }
-
   columnWidth(): number {
     const width = this.contentEl.nativeElement.getBoundingClientRect().width;
     if (width >= 640) {
@@ -106,14 +97,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     } else {
       return width - 16;
     }
-  }
-
-  contentPosition(): { top: number, left: number } {
-    const position = this.contentEl.nativeElement.getBoundingClientRect();
-    return {
-      top: position.top,
-      left: position.left,
-    };
   }
 
   goBack(): void {
