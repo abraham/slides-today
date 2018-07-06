@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     mdc-toolbar--home
     mdc-toolbar--waterfall
   `;
-  private classes = this.defaultClasses;
+  public classes = this.defaultClasses;
 
   ngOnInit() {
   }

@@ -80,7 +80,7 @@ export class ShareComponent implements AfterViewInit {
     window.open(url);
   }
 
-  private share(service: string) {
+  public share(service: string) {
     window.open(this.services[service]());
   }
 }
