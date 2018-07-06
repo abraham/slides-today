@@ -12,11 +12,14 @@ import { SpeakerService } from '../speaker.service';
 export class SpeakerComponent implements OnInit {
   constructor(private speakerService: SpeakerService) { }
 
-  @Input() id: string;
+  @Input() id?: string;
 
-  speaker: Speaker;
+  speaker?: Speaker;
 
   ngOnInit() {
-    this.speakerService.getSpeaker(this.id).then(speaker => this.speaker = speaker);
+    if (this.id) {
+      this.speakerService.getSpeaker(this.id)
+        .then(speaker => this.speaker = speaker);
+    }
   }
 }
