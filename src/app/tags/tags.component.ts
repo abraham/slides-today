@@ -1,11 +1,11 @@
-import { AfterViewInit, Component, Input, OnInit, ViewChild, OnChanges } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit, ViewChild, OnChanges, ElementRef, SimpleChanges } from '@angular/core';
 import { MDCChip, MDCChipSet } from '@material/chips';
 
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 
 type ChipSet = MDCChipSet & {
-  chips: MDCChip[];
+  chips: Chip[];
 };
 
 type Chip = MDCChip & {
@@ -22,12 +22,12 @@ type Chip = MDCChip & {
 export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
   constructor(private tagService: TagService) { }
 
-  tags: Promise<Tag[]>;
-  private chipSet: MDCChipSet;
+  tags: Promise<Tag[]> = Promise.resolve([]);
+  private chipSet!: ChipSet;
 
   @Input() currentTags: string[] = [];
   @Input() tagIds: string[] = [];
-  @ViewChild('tagsEl') tagsEl;
+  @ViewChild('tagsEl') tagsEl!: ElementRef;
 
   ngOnInit() {
     this.tagIds = this.tagIds || [];
@@ -40,11 +40,11 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
 
   ngAfterViewInit() {
     requestAnimationFrame(() => {
-      this.chipSet = MDCChipSet.attachTo(this.tagsEl.nativeElement);
+      this.chipSet = MDCChipSet.attachTo(this.tagsEl.nativeElement) as ChipSet;
     });
   }
 
-  ngOnChanges(changes) {
+  ngOnChanges(changes: SimpleChanges) {
     if (changes.tagIds && changes.tagIds.currentValue) {
       this.tags = this.tagService.filterTags(this.tagIds);
     }
@@ -53,7 +53,7 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
   selectedTags(activatedId: string): string[] {
     const ids: string[] = (this.chipSet as ChipSet).chips
       .filter((chip: Chip) => chip.isSelected())
-      .map((chip: Chip) => chip.root_.dataset.id);
+      .map((chip: Chip) => chip.root_.dataset.id as string);
 
     if (ids.includes(activatedId)) {
       return ids.filter(id => id !== activatedId);
