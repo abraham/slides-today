@@ -11,7 +11,7 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
-    id: '-LH8wTBkC8kd7wpjCMiF',
+    id: '-LH9-K13Y-H5XF9wQQi8',
     nodePackages: ['workbox-cli'],
     githubRepos: [],
     speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
