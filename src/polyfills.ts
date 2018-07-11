@@ -69,14 +69,16 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 // import 'intl/locale-data/jsonp/en';
 
-const polyfills = [];
-if (!('customElements' in window)) {
-   polyfills.push(import('@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce'));
+declare global {
+  interface Window {
+    WebComponents: {
+      waitFor: (callback: () => void) => void;
+    };
+  }
 }
-Promise.all(polyfills)
-  .then(() => {
-    import('github-repository');
-    import('node-package');
-    import('twitter-status');
-  })
-  .catch((error: Error) => console.log('import components error', error));
+
+window.WebComponents.waitFor(() => {
+  import('github-repository');
+  import('node-package');
+  import('twitter-status');
+});
