@@ -11,6 +11,50 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-LH8wTBkC8kd7wpjCMiF',
+    nodePackages: ['workbox-cli'],
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Wicked Fast ⚡ Mobile Web',
+    date: 'August 8-10th, 2018',
+    description: 'Mobile has outpaced desktop, especially in emerging markets. At the same time, the size of mobile apps has ballooned. Large applications fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Progressive web apps can serve mobile users better. We’ll show you how to make PWAs that download almost instantly and work offline while still providing the functionality of native apps.',
+    eventTitle: 'Midwest JS',
+    tags: ['progressivewebapps', 'perfmatters'],
+    location: 'Minneapolis, MN',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://www.midwestjs.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
+  },
+  {
+    id: '-LH8wTBkC8kd7wpjCMiF',
+    nodePackages: ['typescript'],
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'const name: Language = \'TypeScript\';',
+    date: 'August 8-10th, 2018',
+    description: 'Want to ship JavaScript with fewer errors? Want to write it in a language that is self-documenting, easy to debug, and well supported in your favorite editors? Yes you do! In this session, we\'ll show TypeScript newbies how to code with this superset of JavaScript that compiles to plain JavaScript. Use modern JS features like async/await, describe your APIs with powerful types, and get your code autocompleting with style.',
+    eventTitle: 'Midwest JS',
+    tags: ['typescript'],
+    location: 'Minneapolis, MN',
+    links: [
+      {
+        title: 'Event',
+        url: 'http://www.midwestjs.com/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: [],
+  },
+  {
     id: '-L5FKqFC-hNbu9mSyi2K',
     nodePackages: ['polymer-cli', '@nutmeg/cli', '@stencil/core', '@webcomponents/webcomponentsjs'],
     githubRepos: [],

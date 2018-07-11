@@ -116,4 +116,9 @@ export const TAGS: Tag[] = [
     backgroundColor: '#009688',
     color: '#fff',
   },
+  {
+    id: 'typescript',
+    backgroundColor: '#007ACC',
+    color: '#fff',
+  },
 ];
