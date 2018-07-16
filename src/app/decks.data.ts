@@ -78,9 +78,15 @@ export const DECKS: Deck[] = [
         tag: false,
         service: 'google-slides',
       },
+      {
+        title: 'Video',
+        url: 'https://vimeo.com/279043106',
+        tag: true,
+        service: 'vimeo',
+      },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
-    tweets: ['963467104430280705', '986658249016520705', '1006928289578078208', '1009102897433513987', '1009816712471072769'],
+    tweets: ['963467104430280705', '986658249016520705', '1006928289578078208', '1009102897433513987', '1009816712471072769', '1018927263054749697'],
   },
   {
     id: '-LAsARo49bKU50Ymnim3',
