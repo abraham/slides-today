@@ -31,7 +31,7 @@
     "autotrack": "2.4.1",
     "core-js": "2.5.7",
     "github-repository": "0.2.2",
-    "material-components-web": "0.37.0",
+    "material-components-web": "0.37.1",
     "ng-lazyload-image": "4.0.0",
     "node-package": "1.1.1",
     "rxjs": "6.2.2",
