@@ -48,7 +48,7 @@
     "@types/material-components-web": "0.35.0",
     "@types/node": "10.5.2",
     "codelyzer": "4.4.2",
-    "firebase-tools": "3.19.3",
+    "firebase-tools": "4.0.0",
     "jasmine": "3.1.0",
     "jasmine-core": "3.1.0",
     "jasmine-spec-reporter": "4.2.1",
