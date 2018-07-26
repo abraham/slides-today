@@ -69,6 +69,3 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 // import 'intl/locale-data/jsonp/en';
 
 import 'zone.js/dist/webapis-shadydom.js';
-import 'github-repository';
-import 'node-package';
-import 'twitter-status';
