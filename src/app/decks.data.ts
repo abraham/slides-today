@@ -30,7 +30,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['1017076463420497920'],
+    tweets: ['1017076463420497920', '1025134843833794562'],
   },
   {
     id: '-LH8wTBkC8kd7wpjCMiF',
@@ -52,7 +52,7 @@ export const DECKS: Deck[] = [
       },
     ],
     sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
-    tweets: ['1017072896450138113'],
+    tweets: ['1017072896450138113', '1025134843833794562'],
   },
   {
     id: '-LINCDSTh6Q2zD_kL0Me',
