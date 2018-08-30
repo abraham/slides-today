@@ -19,7 +19,7 @@
   "dependencies": {
     "@abraham/reflection": "0.4.2",
     "@angular/animations": "6.1.6",
-    "@angular/cdk": "6.4.6",
+    "@angular/cdk": "6.4.7",
     "@angular/common": "6.1.6",
     "@angular/compiler": "6.1.6",
     "@angular/core": "6.1.6",
