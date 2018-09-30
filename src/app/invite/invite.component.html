@@ -1,10 +1,9 @@
-<button #fabEl class="mdc-fab material-icons app-fab--absolute"
+<button #fabEl class="mdc-fab mdc-fab--extended app-fab--absolute"
                aria-label="Invite to speak"
                title="Invite to speak"
                (click)="openDialog($event)">
-  <span class="mdc-fab__icon">
-    mic
-  </span>
+  <span class="mdc-fab__icon material-icons">mic</span>
+  <span class="mdc-fab__label">Invite</span>
 </button>
 
 <aside #dialogEl id="invite-to-speak-dialog"
