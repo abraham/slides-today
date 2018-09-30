@@ -6,17 +6,17 @@
   <span class="mdc-fab__label">Share</span>
 </button>
 
-<div class="app-menu--absolute mdc-menu-anchor">
-  <div #menuEl class="mdc-menu xapp-menu--absolute" tabindex="-1">
-    <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
-      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('google')">
-        Google+
+<div class="app-menu--absolute mdc-menu-surface--anchor">
+  <div #menuEl class="mdc-menu mdc-menu-surface" tabindex="-1">
+    <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+      <li class="mdc-list-item" role="menuitem" (click)="share('google')">
+        <span class="mdc-list-item__text">Google+</span>
       </li>
-      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('twitter')">
-        Twitter
+      <li class="mdc-list-item" role="menuitem" (click)="share('twitter')">
+        <span class="mdc-list-item__text">Twitter</span>
       </li>
-      <li class="mdc-list-item" role="menuitem" tabindex="0" (click)="share('facebook')">
-        Facebook
+      <li class="mdc-list-item" role="menuitem" (click)="share('facebook')">
+        <span class="mdc-list-item__text">Facebook</span>
       </li>
     </ul>
   </div>

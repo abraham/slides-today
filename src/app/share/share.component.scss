@@ -1,8 +1,9 @@
-@import '~@material/fab/mdc-fab';
 @import '~@material/button/mdc-button';
-@import '~@material/ripple/mdc-ripple';
-@import '~@material/menu/mdc-menu';
+@import '~@material/fab/mdc-fab';
 @import '~@material/list/mdc-list';
+@import '~@material/menu-surface/mdc-menu-surface';
+@import '~@material/menu/mdc-menu';
+@import '~@material/ripple/mdc-ripple';
 
 .app-fab--absolute {
   position: fixed;
@@ -14,6 +15,7 @@
   position: fixed;
   bottom: .75rem;
   right: .75rem;
+  z-index: 15;
 }
 
 @media(min-width: 1024px) {
@@ -30,8 +32,4 @@
 
 .mdc-fab {
   z-index: 14;
-}
-
-.mdc-menu-anchor {
-  z-index: 15;
 }
