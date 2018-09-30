@@ -48,7 +48,7 @@
       </ng-template>
 
       <ng-template ngFor let-github [ngForOf]="deck?.githubRepos">
-        <github-repository class="item mdc-elevation--z1" [attr.ownerRepo]="github"></github-repository>
+        <github-repository class="item mdc-elevation--z1" [attr.owner-repo]="github"></github-repository>
       </ng-template>
 
       <ng-template ngFor let-name [ngForOf]="deck?.nodePackages">
