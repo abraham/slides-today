@@ -9,6 +9,7 @@ type ChipSet = MDCChipSet & {
 
 type Chip = MDCChip & {
   root_: HTMLDivElement;
+  selected: boolean;
 };
 
 @Component({
@@ -51,7 +52,7 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
 
   selectedTags(activatedId: string): string[] {
     const ids: string[] = (this.chipSet as ChipSet).chips
-      .filter((chip: Chip) => chip.isSelected())
+      .filter((chip: Chip) => chip.selected)
       .map((chip: Chip) => chip.root_.dataset.id as string);
 
     if (ids.includes(activatedId)) {
