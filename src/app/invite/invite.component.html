@@ -6,24 +6,25 @@
   <span class="mdc-fab__label">Invite</span>
 </button>
 
-<aside #dialogEl id="invite-to-speak-dialog"
-  class="mdc-dialog"
-  role="alertdialog"
-  aria-labelledby="invite-to-speak-label"
-  aria-describedby="invite-to-speak-description">
-  <div class="mdc-dialog__surface">
-    <header class="mdc-dialog__header">
-      <h2 id="invite-to-speak-label" class="mdc-dialog__header__title">
+<div #dialogEl id="invite-to-speak-dialog"
+       class="mdc-dialog"
+       role="alertdialog"
+       aria-modal="true"
+       aria-labelledby="invite-to-speak-title"
+       aria-describedby="invite-to-speak-content">
+  <div class="mdc-dialog__container">
+    <div class="mdc-dialog__surface">
+      <h2 id="invite-to-speak-title" class="mdc-dialog__title">
         Need speakers for your next event?
       </h2>
-    </header>
-    <section id="invite-to-speak-description" class="mdc-dialog__body">
-      We like visiting new places and meeting new audiences. If you are looking for speakers for your next event, drop us an email.
-    </section>
-    <footer class="mdc-dialog__footer">
-      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Cancel</button>
-      <button type="button" class="mdc-button mdc-button--unelevated mdc-dialog__footer__button mdc-dialog__footer__button--accept" (click)="open('https://goo.gl/forms/cOfJAqVi9v6gbWX43')">Invite</button>
-    </footer>
+      <div id="invite-to-speak-content" class="mdc-dialog__content">
+        We like visiting new places and meeting new audiences. If you are looking for speakers for your next event, drop us an email.
+      </div>
+      <footer class="mdc-dialog__actions">
+        <button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="no">Cancel</button>
+        <button type="button" class="mdc-button mdc-button--unelevated mdc-dialog__button" (click)="open('https://goo.gl/forms/cOfJAqVi9v6gbWX43')" data-mdc-dialog-action="yes">Invite</button>
+      </footer>
+    </div>
   </div>
-  <div class="mdc-dialog__backdrop"></div>
-</aside>
+  <div class="mdc-dialog__scrim"></div>
+</div>

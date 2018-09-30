@@ -2,21 +2,22 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { MDCDialog } from '@material/dialog';
 import { MDCRipple } from '@material/ripple';
 
+type Dialog = MDCDialog & {
+  open: () => void;
+};
+
 @Component({
   selector: 'app-invite',
   templateUrl: './invite.component.html',
   styleUrls: ['./invite.component.scss']
 })
 export class InviteComponent implements AfterViewInit {
-
-  constructor() { }
-
-  private dialog!: MDCDialog;
+  private dialog!: Dialog;
   @ViewChild('fabEl') fabEl!: ElementRef;
   @ViewChild('dialogEl') dialogEl!: ElementRef;
 
   ngAfterViewInit() {
-    this.dialog = new MDCDialog(this.dialogEl.nativeElement);
+    this.dialog = new MDCDialog(this.dialogEl.nativeElement) as Dialog;
     this.initRipples();
   }
 
@@ -29,7 +30,7 @@ export class InviteComponent implements AfterViewInit {
   }
 
   openDialog(_event: MouseEvent) {
-    this.dialog.show();
+    this.dialog.open();
   }
 
   open(url: string) {
