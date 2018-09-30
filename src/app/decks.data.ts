@@ -13,6 +13,34 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-LNgNypVZXbVlFIElUIN',
+    nodePackages: ['@nutmeg/cli', '@webcomponents/webcomponentsjs'],
+    githubRepos: ['abraham/nutmeg-cli'],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp'],
+    title: 'Build, Test, and Deploy a Web Component',
+    date: 'October 13th, 2018',
+    description: 'In this session, you will learn how to build, test, and deploy a web component using Nutmeg. Nutmeg is a tool for scaffolding components with tests and best practices baked in. We will walk you through the process, and you will leave with the knowledge you need to make and share your own components.',
+    eventTitle: 'Ohio DevFest',
+    tags: ['nutmeg', 'webcomponents'],
+    location: 'Cincinnati, OH',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://ohiodevfest.com',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Nutmeg',
+        url: 'https://nutmeg.tools',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp', '-L2mH7p5JFsCTXU4A4w4'],
+    tweets: [],
+  },
+  {
     id: '-LH9-K13Y-H5XF9wQQi8',
     nodePackages: ['workbox-cli'],
     githubRepos: [],
