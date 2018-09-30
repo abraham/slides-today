@@ -1,6 +1,6 @@
-import { Component, AfterViewInit, ViewChild, Input, ElementRef } from '@angular/core';
-import { MDCRipple } from '@material/ripple';
+import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
+import { MDCRipple } from '@material/ripple';
 
 interface ShareOptions {
   title: string;
@@ -74,10 +74,6 @@ export class ShareComponent implements AfterViewInit {
 
   private toggleMenu() {
     this.menu.open = !this.menu.open;
-  }
-
-  private open(url: string) {
-    window.open(url);
   }
 
   public share(service: string) {

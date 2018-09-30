@@ -1,6 +1,5 @@
-import { Component, Input, OnInit, HostBinding, OnChanges, SimpleChanges, ViewChild, ElementRef } from '@angular/core';
+import { Component, ElementRef, HostBinding, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-
 import { Deck } from '../deck';
 
 @Component({

@@ -1,8 +1,6 @@
-import { Component, Input, ViewChild } from '@angular/core';
-
-import { DeckDetailsComponent } from './deck-details/deck-details.component';
-import { HeaderComponent } from './header/header.component';
+import { Component, ViewChild } from '@angular/core';
 import { RoutedComponents } from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',

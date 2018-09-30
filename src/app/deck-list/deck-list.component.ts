@@ -1,8 +1,6 @@
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { Location } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
-
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 
@@ -15,8 +13,7 @@ import { DeckService } from '../deck.service';
 
 export class DeckListComponent implements OnInit {
   constructor(private deckService: DeckService,
-              private route: ActivatedRoute,
-              private location: Location) { }
+              private route: ActivatedRoute) { }
 
   decks: Deck[] = [];
   currentTags: string[] = [];

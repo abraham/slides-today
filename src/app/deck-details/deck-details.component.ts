@@ -1,9 +1,7 @@
-import { ActivatedRoute, ParamMap } from '@angular/router';
-import { AfterContentChecked, Component, OnInit, Input, Output, ViewChild, EventEmitter } from '@angular/core';
 import { Location } from '@angular/common';
-import { Router } from '@angular/router';
+import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
-
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 import { Link } from '../link';

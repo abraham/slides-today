@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { MDCDialog } from '@material/dialog';
 import { MDCRipple } from '@material/ripple';
 
@@ -28,7 +28,7 @@ export class InviteComponent implements AfterViewInit {
     });
   }
 
-  openDialog(event: MouseEvent) {
+  openDialog(_event: MouseEvent) {
     this.dialog.show();
   }
 

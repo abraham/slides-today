@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-import { DeckListComponent } from './deck-list/deck-list.component';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
+import { DeckListComponent } from './deck-list/deck-list.component';
 
 const routes: Routes = [
   {

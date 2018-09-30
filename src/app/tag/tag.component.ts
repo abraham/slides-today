@@ -1,5 +1,4 @@
-import { Component, Input, Output, OnInit, ViewChild, ElementRef } from '@angular/core';
-
+import { Component, ElementRef, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { Tag } from '../tag';
 import { TagsComponent } from '../tags/tags.component';
@@ -32,7 +31,7 @@ export class TagComponent implements OnInit {
     };
   }
 
-  updateFilter(event: MouseEvent, id: string): void {
+  updateFilter(_event: MouseEvent, id: string): void {
     const ids = this.set.selectedTags(id);
     // This waits until the chip state has been updated before performing navigation
     requestAnimationFrame(() => {

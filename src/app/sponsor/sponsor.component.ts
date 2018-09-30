@@ -1,7 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
-
-import { SponsorsService } from '../sponsor.service';
+import { Component, Input, OnInit } from '@angular/core';
 import { Sponsor } from '../sponsor';
+import { SponsorsService } from '../sponsor.service';
 
 @Component({
   selector: 'app-sponsor',

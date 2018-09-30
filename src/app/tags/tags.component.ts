@@ -1,6 +1,5 @@
-import { AfterViewInit, Component, Input, OnInit, ViewChild, OnChanges, ElementRef, SimpleChanges } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { MDCChip, MDCChipSet } from '@material/chips';
-
 import { Tag } from '../tag';
 import { TagService } from '../tag.service';
 
