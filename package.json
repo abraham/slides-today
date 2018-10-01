@@ -13,7 +13,7 @@
     "start": "ng serve",
     "start:prod": "npm run build:prod && lite-server --baseDir dist/slides-today",
     "test": "npm run build && npm run build:prod",
-    "tweet": "node ./scripts/get-tweet.js"
+    "get-tweet": "node ./scripts/get-tweet.js"
   },
   "private": true,
   "dependencies": {

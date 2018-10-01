@@ -4,17 +4,12 @@ const fs = require('fs');
 const path = require('path');
 const Twitter = require('twitter');
 
-const config = require(path.resolve('./.twitter.json'));
+const twitterCredentials = require(path.resolve('./.twitter.json'));
 const dataFilePath = path.resolve('./src/app/tweets.data.json');
 const allTweets = require(dataFilePath);
 
 const id = process.argv[2];
-const client = new Twitter({
-  consumer_key: config.consumerKey,
-  consumer_secret: config.consumerSecret,
-  access_token_key: config.accesTokenKey,
-  access_token_secret: config.accesTokenSecret
-});
+const client = new Twitter(twitterCredentials);
 
 console.log(`Getting tweet ${id}`);
 
