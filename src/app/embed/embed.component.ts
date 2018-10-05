@@ -14,7 +14,7 @@ export class EmbedComponent implements OnInit {
 
   url?: SafeResourceUrl;
 
-  constructor(private sanitizer: DomSanitizer) { console.log(this.link); }
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
     this.setUrl();
