@@ -3,6 +3,11 @@
 @import '~@material/button/mdc-button';
 @import '~@material/ripple/mdc-ripple';
 
+.mdc-fab {
+  color: #000;
+  background-color: #FF9800;
+}
+
 .app-fab--absolute.app-fab--absolute {
   position: fixed;
   bottom: 1rem;

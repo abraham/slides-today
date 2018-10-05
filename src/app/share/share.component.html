@@ -1,7 +1,8 @@
 <button #fabEl class="mdc-fab mdc-fab--extended app-fab--absolute"
                aria-label="Share"
                title="Share"
-               (click)="startShare()">
+               (click)="startShare()"
+               [ngStyle]="colors">
   <span class="mdc-fab__icon material-icons">share</span>
   <span class="mdc-fab__label">Share</span>
 </button>

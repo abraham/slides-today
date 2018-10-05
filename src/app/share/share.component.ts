@@ -22,14 +22,15 @@ declare global {
   styleUrls: ['./share.component.scss']
 })
 export class ShareComponent implements AfterViewInit {
-
-  constructor() { }
-
   private menu!: MDCMenu;
 
   @ViewChild('fabEl') fabEl!: ElementRef;
   @ViewChild('menuEl') menuEl!: ElementRef;
   @Input() text = '';
+  @Input() colors = {
+    backgroundColor: '#e91e63',
+    color: '#fff'
+  };
 
   private services: { [key: string]: () => string } = {
     google: () => `https://plus.google.com/share?url=${this.shareUrl()}`,
