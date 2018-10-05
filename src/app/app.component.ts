@@ -28,11 +28,23 @@ export class AppComponent {
     } else {
       this.colors = this.defaultColors;
       this.headerEl.transitionToHome();
+      this.setThemeColor();
     }
   }
 
   onColorsChange(colors: { color: string, backgroundColor: string }): void {
     this.headerEl.transitionToDetails();
     this.colors = colors;
+    this.setThemeColor();
+  }
+
+  private setThemeColor() {
+    if (this.themeEl) {
+      this.themeEl.setAttribute('content', this.colors.backgroundColor);
+    }
+  }
+
+  private get themeEl() {
+    return document.querySelector('meta[name="theme-color"]');
   }
 }
