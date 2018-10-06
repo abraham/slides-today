@@ -24,7 +24,7 @@ export class TagComponent implements OnInit {
     this.setCurrentStyles();
   }
 
-  setCurrentStyles(): void {
+  private setCurrentStyles(): void {
     this.currentStyles = {
       backgroundColor: this.tag.backgroundColor,
       color: this.tag.color,
