@@ -8,6 +8,14 @@ interface ShareOptions {
   url: string;
 }
 
+type Menu = MDCMenu & {
+  menuSurface_: {
+    root_: {
+      addEventListener: (event: string, callback: () => void) => void;
+    }
+  }
+};
+
 type NavigatorShare = (options: ShareOptions) => Promise<{}>;
 
 declare global {
@@ -22,7 +30,7 @@ declare global {
   styleUrls: ['./share.component.scss']
 })
 export class ShareComponent implements AfterViewInit {
-  private menu!: MDCMenu;
+  private menu!: Menu;
 
   @ViewChild('fabEl') fabEl!: ElementRef;
   @ViewChild('menuEl') menuEl!: ElementRef;
@@ -39,8 +47,9 @@ export class ShareComponent implements AfterViewInit {
   };
 
   ngAfterViewInit() {
-    this.menu = new MDCMenu(this.menuEl.nativeElement);
+    this.menu = new MDCMenu(this.menuEl.nativeElement) as Menu;
     this.initRipples();
+    this.menu.menuSurface_.root_.addEventListener('MDCMenuSurface:closed', () => this.showFab());
   }
 
   private initRipples(): void {
@@ -61,8 +70,13 @@ export class ShareComponent implements AfterViewInit {
         .then(() => console.log('Successful share'))
         .catch((error: Error) => console.log('Error sharing:', error));
     } else {
-      this.toggleMenu();
+      this.fabEl.nativeElement.classList.add('mdc-fab--exited');
+      this.menu.open = true;
     }
+  }
+
+  private showFab() {
+    this.fabEl.nativeElement.classList.remove('mdc-fab--exited');
   }
 
   private get shareOptions(): ShareOptions {
@@ -73,11 +87,8 @@ export class ShareComponent implements AfterViewInit {
     };
   }
 
-  private toggleMenu() {
-    this.menu.open = !this.menu.open;
-  }
-
   public share(service: string) {
+    this.showFab();
     window.open(this.services[service]());
   }
 }
