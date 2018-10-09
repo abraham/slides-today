@@ -46,7 +46,7 @@
             <section class="card__primary">
               <h2 class="card__title mdc-typography--headline6">{{deck?.location}}</h2>
             </section>
-            <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
+            <section *ngIf="mapUrl" class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
             </section>
           </div>
 

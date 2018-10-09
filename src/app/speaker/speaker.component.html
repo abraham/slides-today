@@ -1,6 +1,6 @@
 <div class="mdc-card">
   <section class="card__primary">
-    <div class="card__avatar" [style.backgroundImage]="'url(' + speaker?.imageUrl + ')'"></div>
+    <div *ngIf="speaker?.imageUrl" class="card__avatar" [style.backgroundImage]="'url(' + speaker?.imageUrl + ')'"></div>
     <h2 class="card__title mdc-typography--headline6">{{speaker?.name}}</h2>
     <h3 class="card__subtitle mdc-typography--subtitle2">{{speaker?.title}}</h3>
   </section>
