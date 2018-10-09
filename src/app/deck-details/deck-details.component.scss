@@ -8,21 +8,11 @@
 
 .deck-content {
   padding: 8px;
-  column-count: 1;
-  column-gap: 1em;
-  width: 100%;
 }
 
-@media only screen and (min-width: 1024px) {
-  .deck-content {
-    column-count: 2;
-  }
-}
 
 .item {
-  width: 100%;
   margin: 0.5em 0;
-  display: inline-block;
 }
 
 .mdc-layout-grid__cell {
@@ -31,5 +21,4 @@
 
 .mdc-card, .mdc-elevation--z1 {
   background-color: #fff;
-  width: 100%;
 }

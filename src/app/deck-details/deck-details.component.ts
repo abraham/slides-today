@@ -24,9 +24,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   @Input() deck: Deck;
   @Output() onColorsChange = new EventEmitter<{ color: string, backgroundColor: string }>();
-
   @ViewChild('detailsEl') detailsEl;
-  @ViewChild('contentEl') contentEl;
 
   currentTags: string[] = [];
   primaryTag: Tag;
@@ -89,11 +87,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   columnWidth(): number {
-    const width = this.contentEl.nativeElement.getBoundingClientRect().width;
+    const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
     if (width >= 640) {
-      return width / 2 - 16;
+      return width / 2;
     } else {
-      return width - 16;
+      return width;
     }
   }
 
