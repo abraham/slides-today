@@ -121,4 +121,9 @@ export const TAGS: Tag[] = [
     backgroundColor: '#007ACC',
     color: '#fff',
   },
+  {
+    id: 'flutter',
+    backgroundColor: '#0091EA',
+    color: '#fff',
+  },
 ];

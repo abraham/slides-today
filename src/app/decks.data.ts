@@ -13,6 +13,34 @@ import { Link } from './link';
 
 export const DECKS: Deck[] = [
   {
+    id: '-LOtsfrT-CXp-Va8TnXZ',
+    nodePackages: [],
+    githubRepos: ['flutter/flutter'],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Get Flapping with Flutter',
+    date: 'October 15th, 2018',
+    description: 'Flutter is hybrid mobile framework from Google that allows you to quickly create beautiful native apps for iOS and Android from a single codebase. Abraham and Pearl will give an tour of Flutter, highlighting its widget library and tools for speedy development.',
+    eventTitle: 'GDG Madison',
+    tags: ['flutter'],
+    location: 'Madison, WI',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://www.meetup.com/gdgmadison/events/254581634/',
+        tag: false,
+        service: 'external',
+      },
+      {
+        title: 'Slides',
+        url: 'https://docs.google.com/presentation/d/1tGseDua5A2LRAg2OFx0FXfkVBhofp0nvWxMbzJ_XebI',
+        tag: false,
+        service: 'google-slides',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E', '-KxPCvJa7J1Ggg1xZpCp'],
+    tweets: ['1051614088260923392'],
+  },
+  {
     id: '-LNgNypVZXbVlFIElUIN',
     nodePackages: ['@nutmeg/cli', '@webcomponents/webcomponentsjs'],
     githubRepos: ['abraham/nutmeg-cli'],
