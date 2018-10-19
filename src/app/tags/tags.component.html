@@ -2,7 +2,6 @@
   <app-tag *ngFor="let tag of tags | async"
            [tag]="tag"
            [set]="this"
-           [raised]="isRaised(tag.id)"
-           [currentTag]="currentTag">
+           [raised]="isRaised(tag.id)">
   </app-tag>
 </div>
