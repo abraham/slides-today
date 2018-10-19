@@ -34,7 +34,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   embeds: Link[];
   embedWidth: number;
   colors: { color: string, backgroundColor: string };
-  statuses: any[];
 
   private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
   private size = '640x320';

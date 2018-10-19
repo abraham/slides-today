@@ -1,5 +1,5 @@
 import { Link } from './link';
-import * as tweetsData from './tweets.data.json';
+import tweetsData from './tweets.data.json';
 
 export class Deck {
   date: string;
