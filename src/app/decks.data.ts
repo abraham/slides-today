@@ -3,15 +3,51 @@ import { Link } from './link';
 
 // Get an ID with firebase.database().ref('test').push().key
 
-// Mobile Era tweets to include when adding the Deck
-// https://twitter.com/abraham/status/1009144217585815553
-// https://twitter.com/jhannes/status/1009146601099747328
-// https://twitter.com/webmaxru/status/1009146548339519489
-// https://twitter.com/mobileeraconf/status/1009461773722845185
-// https://twitter.com/pblatteier/status/1042916266175025152
-// https://twitter.com/mobileeraconf/status/1043069070436909057
-
 export const DECKS: Deck[] = [
+  {
+    id: '-LP90xu1JfaAgTCyhC3D',
+    nodePackages: ['workbox-cli'],
+    githubRepos: [],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'How Do Service Workers Even?',
+    date: 'November 2nd, 2018',
+    description: "Magic! But seriously, how do they work? Service workers do a lot of great stuff: cache files for offline, make your site faster, enable push notifications, and so much more. Service workers are the future of modern web applications but they can be difficult to work with. We'll guide you through the inner workings of these background JavaScript threads and show you how to avoid some common pitfalls. We'll also show how Google's open source Workbox library gives you the tools to build real world applications and manage the service worker lifecycle with ease.",
+    eventTitle: 'Mobile Era',
+    tags: ['progressivewebapps'],
+    location: 'Oslo, Norway',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://mobileera.rocks/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: ['1009144217585815553', '1009146601099747328', '1009146548339519489', '1009461773722845185', '1042916266175025152'],
+  },
+  {
+    id: '-LP961nGz8QvS_Oq1WNY',
+    nodePackages: [],
+    githubRepos: ['flutter/flutter'],
+    speakers: ['-KsZTL-5U4v1UYxq4Zbp', '-KsZTNlw7dpLoH5mrsT4'],
+    title: 'Get Flapping with Flutter',
+    date: 'October 31st, 2018',
+    description: 'Flutter is tool from Google for quickly creating beautiful native apps for iOS and Android. In this introductory workshop, we’ll take you from zero to soaring and you will leave with a fully functional app that you can use as a starting point for your own creations.',
+    eventTitle: 'Mobile Era',
+    tags: ['flutter', 'workshop'],
+    location: 'Oslo, Norway',
+    links: [
+      {
+        title: 'Event',
+        url: 'https://mobileera.rocks/',
+        tag: false,
+        service: 'external',
+      },
+    ],
+    sponsors: ['-Kt8bVVFVc8xQNx9AP_E'],
+    tweets: ['1043069070436909057'],
+  },
   {
     id: '-LOtsfrT-CXp-Va8TnXZ',
     nodePackages: [],
