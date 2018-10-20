@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Sponsor } from './sponsor';
-import { SPONSORS } from './sponsors.data';
+import sponsors from './sponsors.data.json';
+
+const SPONSORS = sponsors as Sponsor[];
 
 @Injectable()
 export class SponsorsService {
