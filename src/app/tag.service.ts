@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Tag } from './tag';
-import { TAGS } from './tags.data';
+import tags from './tags.data.json';
+
+const TAGS = tags as Tag[];
 
 @Injectable()
 export class TagService {
