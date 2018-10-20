@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Speaker } from './speaker';
-import { SPEAKERS } from './speakers.data';
+import speakers from './speakers.data.json';
+
+const SPEAKERS = speakers as Speaker[];
 
 @Injectable()
 export class SpeakerService {
