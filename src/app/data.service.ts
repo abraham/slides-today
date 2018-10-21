@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Deck } from './deck';
 import decks from './decks.data.json';
-import { Link } from './link';
 import { Speaker } from './speaker';
 import speakers from './speakers.data.json';
 import { Sponsor } from './sponsor';
@@ -11,10 +10,7 @@ import { Tag } from './tag';
 import tags from './tags.data.json';
 
 const DECKS: Deck[] = decks.map(deck => {
-  return new Deck({
-    ...deck,
-    links: deck.links.map(link => new Link(link))
-  });
+  return new Deck(deck);
 });
 
 @Injectable()
