@@ -117,6 +117,10 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     return of(id);
   }
 
+  sponsorIds$(ids: string[]): Observable<string[]> {
+    return of(ids);
+  }
+
   private center(): string {
     return encodeURIComponent(this.deck.location);
   }

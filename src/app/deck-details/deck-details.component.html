@@ -51,7 +51,7 @@
           </div>
 
           <div class="item" *ngIf="deck">
-            <app-sponsor [sponsorIds]="deck.sponsors"></app-sponsor>
+            <app-sponsor [sponsorIds$]="sponsorIds$(deck.sponsors)"></app-sponsor>
           </div>
 
         </div>

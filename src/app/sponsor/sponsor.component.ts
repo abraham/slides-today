@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Sponsor } from '../sponsor';
 
@@ -10,14 +11,16 @@ import { Sponsor } from '../sponsor';
   providers: [DataService]
 })
 export class SponsorComponent implements OnInit {
-
   constructor(private dataService: DataService) { }
 
-  @Input() sponsorIds: string[] = [];
+  @Input() sponsorIds$!: Observable<string[]>;
 
-  public sponsors$: Observable<Sponsor[]>;
+  public sponsors$?: Observable<Sponsor[]>;
 
   ngOnInit() {
-    this.sponsors$ = this.dataService.filterSponsors$(this.sponsorIds);
+    this.sponsors$ = this.sponsorIds$
+        .pipe(
+          switchMap((ids: string[]) => this.dataService.filterSponsors$(ids))
+        );
   }
 }
