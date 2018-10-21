@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
 import { Speaker } from '../speaker';
@@ -9,14 +9,16 @@ import { Speaker } from '../speaker';
   styleUrls: ['./speaker.component.scss'],
   providers: [DataService],
 })
-export class SpeakerComponent implements OnInit {
-  constructor(private dataService: DataService) { }
+export class SpeakerComponent implements OnChanges {
+  constructor(private dataService: DataService) {}
 
-  @Input() id: string;
+  @Input() id?: string;
 
-  public speaker$: Observable<Speaker>;
+  public speaker$?: Observable<Speaker>;
 
-  ngOnInit() {
-    this.speaker$ = this.dataService.speaker$(this.id);
+  public ngOnChanges(changes: SimpleChanges) {
+    if (changes['id'] && this.id) {
+      this.speaker$ = this.dataService.speaker$(this.id);
+    }
   }
 }

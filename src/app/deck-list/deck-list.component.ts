@@ -14,9 +14,11 @@ import { Deck } from '../deck';
 
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
-              private route: ActivatedRoute) { }
+              private route: ActivatedRoute) {
+    this.decks$ = this.dataService.decks$;
+  }
 
-  decks$: Observable<Deck[]> = this.dataService.decks$;
+  decks$: Observable<Deck[]>;
   currentTags: string[] = [];
   tags: string[] = [];
   hasDecks = true;
