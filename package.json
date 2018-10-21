@@ -13,7 +13,8 @@
     "start": "ng serve",
     "start:prod": "npm run build:prod && lite-server --baseDir dist/slides-today",
     "test": "npm run build && npm run build:prod",
-    "get-tweet": "ts-node  --project scripts/tsconfig.json scripts/get-tweet.ts"
+    "get-tweet": "ts-node  --project scripts/tsconfig.json scripts/get-tweet.ts",
+    "update-tweets": "ts-node  --project scripts/tsconfig.json scripts/update-tweets.ts"
   },
   "private": true,
   "dependencies": {
