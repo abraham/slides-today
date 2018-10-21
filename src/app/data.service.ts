@@ -10,8 +10,6 @@ import sponsors from './sponsors.data.json';
 import { Tag } from './tag';
 import tags from './tags.data.json';
 
-// Get an ID with firebase.database().ref('test').push().key
-
 const DECKS: Deck[] = decks.map(deck => {
   return new Deck({
     ...deck,
