@@ -3,6 +3,7 @@ import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, Vi
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { rgb } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
@@ -44,9 +45,9 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
             this.dataService.tags$.toPromise(),
           ]);
         }))
-      .subscribe(all => {
-        this.deck = all[0];
-        this.primaryTag = all[1].find(tag => tag.id === this.deck.tags[0]);
+      .subscribe(([deck, tags]) => {
+        this.deck = deck;
+        this.primaryTag = tags.find(tag => tag.id === this.deck.tags[0]);
         this.setColors();
         this.setEmbeds();
       });
@@ -79,8 +80,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   setColors(): void {
     this.colors = {
-      backgroundColor: this.primaryTag.backgroundColor,
-      color: this.primaryTag.color,
+      backgroundColor: rgb(this.primaryTag.primaryColor),
+      color: rgb(this.primaryTag.complementaryColor),
     };
     this.onColorsChange.emit(this.colors);
   }

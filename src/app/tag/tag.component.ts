@@ -1,5 +1,6 @@
 import { Component, ElementRef, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { rgb } from '../color';
 import { Tag } from '../tag';
 import { TagsComponent } from '../tags/tags.component';
 
@@ -8,7 +9,6 @@ import { TagsComponent } from '../tags/tags.component';
   templateUrl: './tag.component.html',
   styleUrls: ['./tag.component.scss']
 })
-
 export class TagComponent implements OnInit {
 
   currentStyles = {};
@@ -26,8 +26,8 @@ export class TagComponent implements OnInit {
 
   private setCurrentStyles(): void {
     this.currentStyles = {
-      backgroundColor: this.tag.backgroundColor,
-      color: this.tag.color,
+      border: `solid ${rgb(this.tag.primaryColor)} 1px`,
+      backgroundColor: rgb({ ...this.tag.primaryColor, a: 0.05 })
     };
   }
 

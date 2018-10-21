@@ -14,6 +14,7 @@ export class MapComponent implements OnInit {
 
   public mapUrl?: string;
   public defaultImage = '/assets/img/default.png';
+  public offset = 200;
 
   private defaultLocation = 'Madison, WI';
   private location?: string;

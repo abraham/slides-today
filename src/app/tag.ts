@@ -1,5 +1,7 @@
+import { Color } from './color';
+
 export interface Tag {
   id: string;
-  backgroundColor: string;
-  color: string;
+  primaryColor: Color;
+  complementaryColor: Color;
 }

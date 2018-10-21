@@ -11,7 +11,7 @@ import { HeaderComponent } from './header/header.component';
 export class AppComponent {
   defaultTitle = 'Slides.today';
   title = this.defaultTitle;
-  defaultColors = { color: '#000', backgroundColor: '#FF9800' };
+  defaultColors = { color: '#000', backgroundColor: 'rgb(255, 152, 0)' };
   colors = this.defaultColors;
   fixed = true;
 

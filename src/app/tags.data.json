@@ -1,127 +1,327 @@
 [
   {
     "id": "webcomponents",
-    "backgroundColor": "#2196F3",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 33,
+      "b": 150,
+      "g": 243
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "progressivewebapps",
-    "backgroundColor": "#8BC34A",
-    "color": "#000"
+    "primaryColor": {
+      "r": 139,
+      "b": 195,
+      "g": 74
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "polymer",
-    "backgroundColor": "#f50057",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 245,
+      "b": 0,
+      "g": 87
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "twitterapi",
-    "backgroundColor": "#1da1f2",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 29,
+      "b": 161,
+      "g": 242
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "php",
-    "backgroundColor": "#8892be",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 136,
+      "b": 146,
+      "g": 190
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "rails",
-    "backgroundColor": "#cc0000",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 204,
+      "b": 0,
+      "g": 0
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "ruby",
-    "backgroundColor": "#CC342D",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 204,
+      "b": 52,
+      "g": 45
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "firebase",
-    "backgroundColor": "#ff9800",
-    "color": "#000"
+    "primaryColor": {
+      "r": 255,
+      "b": 152,
+      "g": 0
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "cli",
-    "backgroundColor": "#212121",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 33,
+      "b": 33,
+      "g": 33
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "actionsongoogle",
-    "backgroundColor": "#4285f4",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 66,
+      "b": 133,
+      "g": 244
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "angular",
-    "backgroundColor": "#da0b37",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 218,
+      "b": 11,
+      "g": 55
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "googleio",
-    "backgroundColor": "#3fe7b8",
-    "color": "#000"
+    "primaryColor": {
+      "r": 63,
+      "b": 231,
+      "g": 184
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "video",
-    "backgroundColor": "#9C27B0",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 156,
+      "b": 39,
+      "g": 176
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "⚡",
-    "backgroundColor": "#212121",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 33,
+      "b": 33,
+      "g": 33
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "threejs",
-    "backgroundColor": "#ECEFF1",
-    "color": "#000"
+    "primaryColor": {
+      "r": 236,
+      "b": 239,
+      "g": 241
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "reviews",
-    "backgroundColor": "#607D8B",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 96,
+      "b": 125,
+      "g": 139
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "materialdesign",
-    "backgroundColor": "#909090",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 144,
+      "b": 144,
+      "g": 144
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "demo",
-    "backgroundColor": "#212121",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 33,
+      "b": 33,
+      "g": 33
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "culture",
-    "backgroundColor": "#FFEB3B",
-    "color": "#000"
+    "primaryColor": {
+      "r": 255,
+      "b": 235,
+      "g": 59
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "javascript",
-    "backgroundColor": "#f7e018",
-    "color": "#000"
+    "primaryColor": {
+      "r": 247,
+      "b": 224,
+      "g": 24
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "nutmeg",
-    "backgroundColor": "#4d597b",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 77,
+      "b": 89,
+      "g": 123
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "perfmatters",
-    "backgroundColor": "#f8ac04",
-    "color": "#000"
+    "primaryColor": {
+      "r": 248,
+      "b": 172,
+      "g": 4
+    },
+    "complementaryColor": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
   },
   {
     "id": "workshop",
-    "backgroundColor": "#009688",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 0,
+      "b": 150,
+      "g": 136
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "typescript",
-    "backgroundColor": "#007ACC",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 0,
+      "b": 122,
+      "g": 204
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   },
   {
     "id": "flutter",
-    "backgroundColor": "#0091EA",
-    "color": "#fff"
+    "primaryColor": {
+      "r": 0,
+      "b": 145,
+      "g": 234
+    },
+    "complementaryColor": {
+      "r": 255,
+      "b": 255,
+      "g": 255
+    }
   }
 ]
