@@ -12,6 +12,7 @@ import { DeckSummaryComponent } from './deck-summary/deck-summary.component';
 import { EmbedComponent } from './embed/embed.component';
 import { HeaderComponent } from './header/header.component';
 import { InviteComponent } from './invite/invite.component';
+import { MapComponent } from './map/map.component';
 import { ShareComponent } from './share/share.component';
 import { SpeakerComponent } from './speaker/speaker.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
@@ -24,18 +25,19 @@ import { UpdateComponent } from './update/update.component';
     AboutComponent,
     AppComponent,
     CardActionComponent,
-    DeckSummaryComponent,
-    DeckListComponent,
     DeckDetailsComponent,
+    DeckListComponent,
+    DeckSummaryComponent,
+    EmbedComponent,
     HeaderComponent,
     InviteComponent,
-    TagComponent,
-    TagsComponent,
+    MapComponent,
     ShareComponent,
-    UpdateComponent,
-    EmbedComponent,
     SpeakerComponent,
     SponsorComponent,
+    TagComponent,
+    TagsComponent,
+    UpdateComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   imports: [

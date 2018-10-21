@@ -38,20 +38,16 @@
 
           <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
             <div class="item">
-              <app-speaker [speakerId$]="speakerId$(speaker)"></app-speaker>
+              <app-speaker [speakerId$]="of(speaker)"></app-speaker>
             </div>
           </ng-template>
 
-          <div class="item mdc-card">
-            <section class="card__primary">
-              <h2 class="card__title mdc-typography--headline6">{{deck?.location}}</h2>
-            </section>
-            <section *ngIf="mapUrl" class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
-            </section>
+          <div class="item" *ngIf="deck">
+            <app-map [location$]="of(deck.location)"></app-map>
           </div>
 
           <div class="item" *ngIf="deck">
-            <app-sponsor [sponsorIds$]="sponsorIds$(deck.sponsors)"></app-sponsor>
+            <app-sponsor [sponsorIds$]="of(deck.sponsors)"></app-sponsor>
           </div>
 
         </div>
