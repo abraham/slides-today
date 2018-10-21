@@ -1,6 +1,7 @@
 import { Location } from '@angular/common';
 import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
@@ -110,6 +111,10 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       color: this.primaryTag.color,
     };
     this.onColorsChange.emit(this.colors);
+  }
+
+  speakerId$(id: string): Observable<string> {
+    return of(id);
   }
 
   private center(): string {

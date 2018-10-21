@@ -38,7 +38,7 @@
 
           <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
             <div class="item">
-              <app-speaker [id]="speaker"></app-speaker>
+              <app-speaker [speakerId$]="speakerId$(speaker)"></app-speaker>
             </div>
           </ng-template>
 

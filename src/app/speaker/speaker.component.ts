@@ -1,5 +1,6 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Speaker } from '../speaker';
 
@@ -9,16 +10,17 @@ import { Speaker } from '../speaker';
   styleUrls: ['./speaker.component.scss'],
   providers: [DataService],
 })
-export class SpeakerComponent implements OnChanges {
+export class SpeakerComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
-  @Input() id?: string;
+  @Input() speakerId$!: Observable<string>;
 
   public speaker$?: Observable<Speaker>;
 
-  public ngOnChanges(changes: SimpleChanges) {
-    if (changes['id'] && this.id) {
-      this.speaker$ = this.dataService.speaker$(this.id);
-    }
+  public ngOnInit() {
+    this.speaker$ = this.speakerId$
+        .pipe(
+          switchMap((id: string) => this.dataService.speaker$(id))
+        );
   }
 }
