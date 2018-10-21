@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-map',
@@ -13,7 +14,7 @@ export class MapComponent implements OnInit {
 
   public mapUrl?: string;
   private location?: string;
-  private key = 'AIzaSyBxTKLxL_bTN7s2U85AgzhDSBh3EoobixY';
+  private key = environment.googleMaps.key;
   private size = '640x320';
   private zoom = '9';
   private maptype = 'terrain';
