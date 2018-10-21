@@ -13,7 +13,8 @@ export class MapComponent implements OnInit {
   @Input() location$: Observable<string>;
 
   public mapUrl?: string;
-  private location?: string;
+  public location?: string;
+
   private key = environment.googleMaps.key;
   private size = '640x320';
   private zoom = '9';
