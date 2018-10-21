@@ -21,7 +21,7 @@
       {
         "title": "Event",
         "url": "https://mobileera.rocks/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -61,7 +61,7 @@
       {
         "title": "Event",
         "url": "https://mobileera.rocks/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -96,13 +96,13 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdgmadison/events/254581634/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1tGseDua5A2LRAg2OFx0FXfkVBhofp0nvWxMbzJ_XebI",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -139,19 +139,19 @@
       {
         "title": "Event",
         "url": "https://ohiodevfest.com",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Nutmeg",
         "url": "https://nutmeg.tools",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1VcQukPoKMCah8QZ1MACR5oyqRVUp3G4UKF90PHJbBmI",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -188,13 +188,13 @@
       {
         "title": "Event",
         "url": "http://www.midwestjs.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1OCibeJVil_10Shx88JH426-VDDq2MhK4ewVpsKhdoRk",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -231,13 +231,13 @@
       {
         "title": "Event",
         "url": "http://www.midwestjs.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1HkGh_fBU6FXYYgDIbJl9h_w56dEUEXcPczpDHeSTyCk",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -275,13 +275,13 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdg-tc/events/253141841/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1gKNpq4Pw-yj0SGzyTOaTX68OzWUg_r84QtV1YY29aMQ",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -318,19 +318,19 @@
       {
         "title": "Event",
         "url": "https://werise.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1Z4Ou9fThi0OR-pLva3UdQdaC4NJaXSiiIN4Os3Fo1R0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Video",
         "url": "https://vimeo.com/279043106",
-        "tag": true,
+        "useAsTag": true,
         "service": "vimeo"
       }
     ],
@@ -371,13 +371,13 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyxjbpb/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1l-rUpmREfqFoDMgGhDf6GANWlnDoe7ha-QF3SIggqik",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -406,19 +406,19 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdgmadison/events/248749497/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Google I/O",
         "url": "https://www.google.com/io",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1BMkxzP8QtEBpyPbCUKl3GXGPtRXKZ-XHOokpxko4lEQ",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -452,19 +452,19 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/MadisonJS/events/242810950/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Google I/O",
         "url": "https://www.google.com/io",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1l3Hgcjhk0d0szrZ17vCA3OhL_2i-0zCqTTGYkKqEZr0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -505,19 +505,19 @@
       {
         "title": "Event",
         "url": "https://railsconf.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1KoXhyTMxhxPsrIccmMbLmZy6qI8VMjnlpWV29Ab8nl4",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Workshop",
         "url": "https://www.notion.so/RailsConf-PRPL-on-Rails-470694f92d76434cb996967bb216b689",
-        "tag": true,
+        "useAsTag": true,
         "service": "external"
       }
     ],
@@ -568,13 +568,13 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/milwaukeejs/events/247249876/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/11RokAGxYsM9wi7L6wK2tQR-5bmw5Wpc1H3ZehQObc4U",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -615,13 +615,13 @@
       {
         "title": "Event",
         "url": "http://jazzcon.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1XmBtLHuZG2AE8LoyeOGMt85tkXc-126VPQgQJMUKeZg",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -664,13 +664,13 @@
       {
         "title": "Event",
         "url": "https://devfestkc.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1rb9hj0QBCiHco6nAbjEZkAzi-gYynQ9Dpwk7geTUY5Y",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -716,19 +716,19 @@
       {
         "title": "Event",
         "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyxdbqb/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1DklFPKTZDVxiPbDTAQ9I52pyPjLxOgG9QaZGYfn1a-0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Nutmeg",
         "url": "https://nutmeg.tools",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -768,13 +768,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1KtnpUlkpocftv1pV0xzEGYLkBI8xZBX4EodP19oMSuE",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://devfest.mn/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -817,25 +817,25 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/19-9bdqK8fl8kjbCWR7txFbVFgJDUbmgty1VyM17xm4A",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://windycity.devfest.io",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Nutmeg",
         "url": "https://nutmeg.tools",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://www.youtube.com/watch?v=sDkr_gegFTk",
-        "tag": true,
+        "useAsTag": true,
         "service": "youtube"
       }
     ],
@@ -873,13 +873,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/18ZprFHDj6Z9dMqAZ81BQB1c1aFCP8AQOLdR_Ko0fLPQ",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://ohiodevfest.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -915,19 +915,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/15_TkIBU_r4vKCECoNVF-uRRpSwV_k6KU3uKWiUoa_4M",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.devopsdays.org/events/2017-madison/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://www.youtube.com/watch?v=zLTT8jlHbvc",
-        "tag": true,
+        "useAsTag": true,
         "service": "youtube"
       }
     ],
@@ -962,13 +962,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1aZabNt_qH0g-gYGUSOHMSRP1sxZhHQbl7Wrh7EmOv_w",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://bayfest2017.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1002,19 +1002,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1UlOZt2UEt6Crr0-vNRGrjbMptWdSAA_TtuHxEXrrmGo",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://mobileera.rocks/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://vimeo.com/243435933",
-        "tag": true,
+        "useAsTag": true,
         "service": "vimeo"
       }
     ],
@@ -1061,19 +1061,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/15Kx0hYzH9V50qvbqSpFJTgX0lhejC6QK5UlkcVgvX0I",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://connect.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://vimeo.com/248349297",
-        "tag": true,
+        "useAsTag": true,
         "service": "vimeo"
       }
     ],
@@ -1116,13 +1116,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1CMsM3JGjldazx0efpaLjJVoKsXg8NQYmiKoPwIa6SKo",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://connect.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1161,19 +1161,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1-34iJL28_Mxa39KJUeMRY5Ozb5mT8e5ovQbSLzw4s_0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://connect.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://vimeo.com/247560382",
-        "tag": true,
+        "useAsTag": true,
         "service": "vimeo"
       }
     ],
@@ -1214,13 +1214,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1_6parH6T8iUSZgjoVSI8nCYyYNL1rKyLAUoRrfxRsdk",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdg-madison/events/242690232/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1252,13 +1252,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/12FIksFEGPhPXVdNdvElFXD-wb5iRYqV7BXAQ3zlxjco",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Demo",
         "url": "https://slides.today",
-        "tag": true,
+        "useAsTag": true,
         "service": "external"
       }
     ],
@@ -1289,13 +1289,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1TybgcgjmAFB8AHTOQzBMrKOc4XAma-HFEvdWqdXUOQc",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://www.midwestjs.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1341,13 +1341,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1TXePoX459CGL8EEPYiAoLLdF092ev4f-GW0FK8Ftn6o",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://www.midwestjs.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1387,13 +1387,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1wgFQACcTgft_lVSgFsduMLznG-iCM4NFF4bC6ZNYR6M",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/Rockford-Web-Devs/events/238442439/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1436,13 +1436,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1k9uS824i0sieSy0O9KSBN67quT_5ZXQbC-w0P06PrWk",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://www.kcdc.info/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1477,19 +1477,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1CGLXYGKqyb5Jxt62DAGDN8gjNJ56vZNJCzIG2OT6d64",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.codercruise.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Reviews",
         "url": "https://joind.in/event/codercruise/get-the-power-of-native-with-progressive-web-apps",
-        "tag": true,
+        "useAsTag": true,
         "service": "joindin"
       }
     ],
@@ -1521,19 +1521,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1TCVGVUZ0BFNAcf56mxyMQI7hHUOp2GzRwOKkZJ_lQi0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.codercruise.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Reviews",
         "url": "https://joind.in/event/codercruise/getting-started-with-the-twitter-api",
-        "tag": true,
+        "useAsTag": true,
         "service": "joindin"
       }
     ],
@@ -1570,19 +1570,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1ddQ12a2EtnVRgWl4fCqK3HCfB3JvXlJrPm2oqS_HwbI",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.codercruise.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Reviews",
         "url": "https://joind.in/event/codercruise/web-components-lego-bricks-of-the-web",
-        "tag": true,
+        "useAsTag": true,
         "service": "joindin"
       }
     ],
@@ -1613,13 +1613,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/14FhXTP0Kx0Uli5YTzQcIWVUqKI7_-U_vr8NSZEo0rJA",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/MadisonJS/events/238952227/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1651,13 +1651,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1J2VBd_msTRcZGuNk_Pj2i4SZEVXM_-hbsFW_kXxa_KE",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdg-madison/events/239355851/",
-        "tag": false,
+        "useAsTag": false,
         "service": "meetup"
       }
     ],
@@ -1688,7 +1688,7 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1VFobwLLehLUePGT5EyGkzAqRJVC-UPmxtFEgVqlKFh0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       }
     ],
@@ -1719,13 +1719,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1trLvZmpDJca7Z0c-DaSUZg2ChdqFN5vj04q--TCcQKI",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/gdg-madison/events/237914183/",
-        "tag": false,
+        "useAsTag": false,
         "service": "meetup"
       }
     ],
@@ -1762,13 +1762,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/13ISIYU6v7xVY0IKMTBIi8VHI-VsIjwqBspAEbxspCCU",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://jazzcon.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1808,13 +1808,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1P4T2_aMgJlOO4seH4P6sDcQMgcAKkjUaOB-izjFVIdw",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://devfestkc.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1848,13 +1848,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1uONFEBmXg6k1LZvC4KPXMCyrEMhEeOG8_2_UQ1-uzio",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://devfestkc.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1888,13 +1888,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1L_IDKj0GzFmadZM__XAGo-7AzGDvlsFRUsid80O5TM0",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://devfestkc.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1928,13 +1928,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1EjoqN1gs7Pfr_RRHRNI7CmNJmL4DgxzEFsroAkbpU7A",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/237220640/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -1965,13 +1965,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1UBKBBubWQtIniOGsu8jFKpFm0j2abRacGwRxyxMqBEc",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://confoo.ca/en/yvr2016",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -2003,13 +2003,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1hB8NNTm8AwelCeARZO9wc_bL-3cabTbhDvccAWXGujM",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://confoo.ca/en/yvr2016",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -2048,13 +2048,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://devfest2016.gdgsv.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -2088,19 +2088,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1uRDz3fStZ8oNBi3TK4K0fgIp0rlfsOz8jRhpaUCDGsA",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://mobileera.rocks/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://vimeo.com/190713344",
-        "tag": true,
+        "useAsTag": true,
         "service": "vimeo"
       }
     ],
@@ -2142,13 +2142,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/10mwL3h6RbjxEAH94M022EgHzFkIO_6lIb_HUWmT3l00",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://connect.tech/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -2184,19 +2184,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1TG01U4MpZCPHsTzPdICVGMiIik_onEGJAeTIoAj47ds",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "http://2016.madisonphpconference.com/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Reviews",
         "url": "https://joind.in/event/madison-php-conference-2016/web-components-lego-bricks-of-the-web",
-        "tag": true,
+        "useAsTag": true,
         "service": "joindin"
       }
     ],
@@ -2230,13 +2230,13 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1Cr_Cf2Ef9L7ojQWUTy0kuDMUZHqMYf3d_PO1MQkBtg4",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/232947796/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ],
@@ -2271,19 +2271,19 @@
       {
         "title": "Slides",
         "url": "https://docs.google.com/presentation/d/1idTXiseohF54-OTHLTReKgFGDxbOVlCAX9UMYUFiois",
-        "tag": false,
+        "useAsTag": false,
         "service": "google-slides"
       },
       {
         "title": "Event",
         "url": "https://www.meetup.com/madhackers/events/231725576/",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Video",
         "url": "https://www.youtube.com/watch?v=_hewWDDvkMQ",
-        "tag": true,
+        "useAsTag": true,
         "service": "youtube"
       }
     ],

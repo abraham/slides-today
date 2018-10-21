@@ -56,6 +56,6 @@ export class Deck {
   }
 
   private _linkTags(): string[] {
-    return this.links.filter(link => link.tag).map(link => link.title.toLowerCase());
+    return this.links.filter(link => link.useAsTag).map(link => link.title.toLowerCase());
   }
 }

@@ -3,6 +3,6 @@ import { Service } from './service';
 export interface Link {
   title: string;
   url: string;
-  tag: boolean;
+  useAsTag: boolean;
   service: Service;
 }

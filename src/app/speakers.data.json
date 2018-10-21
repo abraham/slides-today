@@ -9,25 +9,25 @@
       {
         "title": "Twitter",
         "url": "https://twitter.com/abraham",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "GitHub",
         "url": "https://github.com/abraham",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "GDE",
         "url": "https://developers.google.com/experts/people/abraham-williams",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Homepage",
         "url": "https://abrah.am",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ]
@@ -42,25 +42,25 @@
       {
         "title": "Twitter",
         "url": "https://twitter.com/pblatteier",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "GitHub",
         "url": "https://github.com/pearlbea",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "GDE",
         "url": "https://developers.google.com/experts/people/pearl-latteier",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       },
       {
         "title": "Homepage",
         "url": "https://pearlbea.com",
-        "tag": false,
+        "useAsTag": false,
         "service": "external"
       }
     ]
