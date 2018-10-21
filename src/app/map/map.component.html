@@ -1,7 +1,4 @@
-<div class="mdc-card">
-  <section class="card__primary">
-    <h2 class="card__title mdc-typography--headline6">{{location}}</h2>
-  </section>
-  <section class="mdc-card__media" [style.backgroundImage]="'url(' + mapUrl + ')'">
-  </section>
-</div>
+<section class="mdc-card__media"
+         [offset]="offset"
+         [defaultImage]="defaultImage"
+         [lazyLoad]="mapUrl">

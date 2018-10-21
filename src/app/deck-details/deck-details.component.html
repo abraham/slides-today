@@ -43,7 +43,12 @@
           </ng-template>
 
           <div class="item" *ngIf="deck">
-            <app-map [location$]="of(deck.location)"></app-map>
+            <div class="mdc-card">
+              <section class="card__primary">
+                <h2 class="card__title mdc-typography--headline6">{{deck.location}}</h2>
+              </section>
+              <app-map [location$]="of(deck.location)"></app-map>
+            </div>
           </div>
 
           <div class="item" *ngIf="deck">

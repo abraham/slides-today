@@ -10,11 +10,13 @@ import { environment } from '../../environments/environment';
 export class MapComponent implements OnInit {
   constructor() { }
 
-  @Input() location$: Observable<string>;
+  @Input() location$!: Observable<string>;
 
   public mapUrl?: string;
-  public location?: string;
+  public defaultImage = '/assets/img/default.png';
 
+  private defaultLocation = 'Madison, WI';
+  private location?: string;
   private key = environment.googleMaps.key;
   private size = '640x320';
   private zoom = '9';
@@ -50,7 +52,6 @@ export class MapComponent implements OnInit {
     });
   }
 
-
   private styleParams(): string {
     return `style=${this.mapStyles.join('&style=')}`;
   }
@@ -60,6 +61,6 @@ export class MapComponent implements OnInit {
   }
 
   private center(): string {
-    return encodeURIComponent(this.location);
+    return encodeURIComponent(this.location || this.defaultLocation);
   }
 }

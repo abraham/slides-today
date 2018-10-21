@@ -9,12 +9,7 @@
   <section class="card__secondary mdc-typography--body2">
     {{deck.description}}
   </section>
-  <section class="mdc-card__media"
-           [offset]="offset"
-           [defaultImage]="defaultImage"
-           [lazyLoad]="mapUrl"
-           [ngStyle]="imageLoaded ? coverStyle : {}">
-  </section>
+  <app-map [location$]="of(deck.location)"></app-map>
   <section #actions class="mdc-card__actions">
     <app-card-action [text]="'Details'"
                      [url]="url"
