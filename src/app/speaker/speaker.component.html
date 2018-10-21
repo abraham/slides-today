@@ -1,14 +1,14 @@
-<div class="mdc-card">
+<div *ngIf="speaker$ | async as speaker" class="mdc-card">
   <section class="card__primary">
-    <div *ngIf="speaker?.imageUrl" class="card__avatar" [style.backgroundImage]="'url(' + speaker?.imageUrl + ')'"></div>
-    <h2 class="card__title mdc-typography--headline6">{{speaker?.name}}</h2>
-    <h3 class="card__subtitle mdc-typography--subtitle2">{{speaker?.title}}</h3>
+    <div *ngIf="speaker.imageUrl" class="card__avatar" [style.backgroundImage]="'url(' + speaker.imageUrl + ')'"></div>
+    <h2 class="card__title mdc-typography--headline6">{{speaker.name}}</h2>
+    <h3 class="card__subtitle mdc-typography--subtitle2">{{speaker.title}}</h3>
   </section>
   <section class="card__secondary">
-    {{speaker?.bio}}
+    {{speaker.bio}}
   </section>
-  <section #actions class="mdc-card__actions">
-    <ng-template ngFor let-link [ngForOf]="speaker?.links">
+  <section class="mdc-card__actions">
+    <ng-template ngFor let-link [ngForOf]="speaker.links">
       <app-card-action [text]="link.title"
                        [url]="link.url"
                        [blank]="true">

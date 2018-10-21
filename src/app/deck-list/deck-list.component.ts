@@ -1,26 +1,25 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { DataService } from '../data.service';
 import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
 
 @Component({
   selector: 'app-deck-list',
   templateUrl: './deck-list.component.html',
   styleUrls: ['./deck-list.component.scss'],
-  providers: [DeckService],
+  providers: [DataService],
 })
 
 export class DeckListComponent implements OnInit {
-  constructor(private deckService: DeckService,
+  constructor(private dataService: DataService,
               private route: ActivatedRoute) { }
 
-  decks: Deck[] = [];
+  decks$: Observable<Deck[]> = this.dataService.decks$;
   currentTags: string[] = [];
   tags: string[] = [];
   hasDecks = true;
-
-  @ViewChild('tagsEl') tagsEl!: ElementRef;
 
   ngOnInit(): void {
     this.route.paramMap
@@ -32,8 +31,6 @@ export class DeckListComponent implements OnInit {
         this.currentTags = tags ? tags.split(',') : [];
         this.setHasDecks();
       });
-    this.getTags();
-    this.getDecks();
   }
 
   triggerScroll(): void {
@@ -42,25 +39,5 @@ export class DeckListComponent implements OnInit {
 
   setHasDecks(): void {
     this.hasDecks = true;
-  }
-
-  getDecks(): void {
-    this.deckService.getDecks().then((decks) => {
-      this.decks = decks;
-    });
-  }
-
-  getTags(): void {
-    this.deckService.getDecks().then((decks) => {
-      const working: string[] = [];
-      decks.map((deck) => {
-        deck.tags.map((tag) => {
-          if (!working.includes(tag)) {
-            working.push(tag);
-          }
-        });
-      });
-      this.tags = working.sort();
-    });
   }
 }

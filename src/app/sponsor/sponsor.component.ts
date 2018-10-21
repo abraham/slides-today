@@ -1,28 +1,23 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { DataService } from '../data.service';
 import { Sponsor } from '../sponsor';
-import { SponsorsService } from '../sponsor.service';
 
 @Component({
   selector: 'app-sponsor',
   templateUrl: './sponsor.component.html',
   styleUrls: ['./sponsor.component.scss'],
-  providers: [SponsorsService]
+  providers: [DataService]
 })
 export class SponsorComponent implements OnInit {
 
-  constructor(private sponsorService: SponsorsService) { }
+  constructor(private dataService: DataService) { }
 
   @Input() sponsorIds: string[] = [];
 
-  sponsors: Sponsor[] = [];
+  public sponsors$: Observable<Sponsor[]>;
 
   ngOnInit() {
-    this.getSponsors();
-  }
-
-  getSponsors(): void {
-    this.sponsorService
-      .filter(this.sponsorIds)
-      .then(sponsors => this.sponsors = sponsors);
+    this.sponsors$ = this.dataService.filterSponsors$(this.sponsorIds);
   }
 }

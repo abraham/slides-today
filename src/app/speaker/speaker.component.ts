@@ -1,24 +1,22 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { DataService } from '../data.service';
 import { Speaker } from '../speaker';
-import { SpeakerService } from '../speaker.service';
 
 @Component({
   selector: 'app-speaker',
   templateUrl: './speaker.component.html',
   styleUrls: ['./speaker.component.scss'],
-  providers: [SpeakerService],
+  providers: [DataService],
 })
 export class SpeakerComponent implements OnInit {
-  constructor(private speakerService: SpeakerService) { }
+  constructor(private dataService: DataService) { }
 
-  @Input() id?: string;
+  @Input() id: string;
 
-  speaker?: Speaker;
+  public speaker$: Observable<Speaker>;
 
   ngOnInit() {
-    if (this.id) {
-      this.speakerService.getSpeaker(this.id)
-        .then(speaker => this.speaker = speaker);
-    }
+    this.speaker$ = this.dataService.speaker$(this.id);
   }
 }

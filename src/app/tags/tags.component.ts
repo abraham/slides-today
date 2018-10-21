@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { MDCChip, MDCChipSet } from '@material/chips';
 import { Tag } from '../tag';
-import { TagService } from '../tag.service';
+import { DataService } from '../data.service';
 
 type ChipSet = MDCChipSet & {
   chips: Chip[];
@@ -16,11 +16,11 @@ type Chip = MDCChip & {
   selector: 'app-tags',
   templateUrl: './tags.component.html',
   styleUrls: ['./tags.component.scss'],
-  providers: [TagService],
+  providers: [DataService],
 })
 
 export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
-  constructor(private tagService: TagService) { }
+  constructor(private dataService: DataService) { }
 
   tags: Promise<Tag[]> = Promise.resolve([]);
   private chipSet!: ChipSet;
@@ -32,9 +32,9 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
   ngOnInit() {
     this.tagIds = this.tagIds || [];
     if (this.tagIds && this.tagIds.length === 0) {
-      this.tags = this.tagService.getTags();
+      this.tags = this.dataService.tags$.toPromise();
     } else {
-      this.tags = this.tagService.filterTags(this.tagIds);
+      this.tags = this.dataService.filterTags$(this.tagIds).toPromise();
     }
   }
 
@@ -46,7 +46,7 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes.tagIds && changes.tagIds.currentValue) {
-      this.tags = this.tagService.filterTags(this.tagIds);
+      this.tags = this.dataService.filterTags$(this.tagIds).toPromise();
     }
   }
 

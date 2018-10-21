@@ -2,22 +2,20 @@ import { Location } from '@angular/common';
 import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { switchMap } from 'rxjs/operators';
+import { DataService } from '../data.service';
 import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
 import { Link } from '../link';
 import { Tag } from '../tag';
-import { TagService } from '../tag.service';
 
 @Component({
   selector: 'app-deck-details',
   templateUrl: './deck-details.component.html',
   styleUrls: ['./deck-details.component.scss'],
-  providers: [DeckService, TagService],
+  providers: [DataService],
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
-  constructor(private deckService: DeckService,
-              private tagService: TagService,
+  constructor(private dataService: DataService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router) { }
@@ -68,8 +66,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     this.route.paramMap
       .pipe(switchMap((params: ParamMap) => {
           return Promise.all([
-            this.deckService.getDeck(params.get('id')),
-            this.tagService.getTags(),
+            this.dataService.deck$(params.get('id')).toPromise(),
+            this.dataService.tags$.toPromise(),
           ]);
         }))
       .subscribe(all => {
