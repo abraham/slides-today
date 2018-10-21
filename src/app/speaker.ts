@@ -1,6 +1,6 @@
 import { Link } from './link';
 
-export class Speaker {
+export interface Speaker {
   id: string;
   name: string;
   title: string;

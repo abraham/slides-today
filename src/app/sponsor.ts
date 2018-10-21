@@ -1,4 +1,4 @@
-export class Sponsor {
+export interface Sponsor {
   id: string;
   name: string;
   description: string;
