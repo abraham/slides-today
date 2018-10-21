@@ -41,3 +41,4 @@ Thumbs.db
 .firebase
 .firebaserc
 .twitter.json
+*firebase-adminsdk*
