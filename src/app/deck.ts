@@ -1,8 +1,8 @@
+import dayjs from 'dayjs';
 import { Link } from './link';
 import tweetsData from './tweets.data.json';
 
 export class Deck {
-  date: string;
   description: string;
   eventTitle: string;
   githubRepos: string[];
@@ -16,9 +16,16 @@ export class Deck {
   tweets: object[];
 
   private _tags: string[];
+  private _date: {
+    start: dayjs.Dayjs;
+    end: dayjs.Dayjs;
+  };
 
   constructor(data: any) {
-    this.date = data.date;
+    this._date = {
+      start: dayjs(data.date.start),
+      end: dayjs(data.date.end)
+    };
     this.description = data.description;
     this.eventTitle = data.eventTitle;
     this.githubRepos = data.githubRepos;
@@ -31,6 +38,14 @@ export class Deck {
     this.tags = data.tags;
     this.title = data.title;
     this.tweets = data.tweets.map((id: string) => tweetsData[id]);
+  }
+
+  public get date(): string {
+    if (this._date.start.isSame(this._date.end)) {
+      return this._date.start.format('MMM D, YYYY');
+    } else {
+      return `${this._date.start.format('MMM D')}-${this._date.end.format('D, YYYY')}`;
+    }
   }
 
   public set tags(tags: string[]) {
