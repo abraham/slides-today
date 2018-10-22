@@ -5,7 +5,7 @@
       "workbox-cli"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -28,10 +28,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "1009144217585815553",
       "1009146601099747328",
       "1009146548339519489",
@@ -47,7 +47,7 @@
     "githubRepos": [
       "flutter/flutter"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -71,10 +71,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "1043069070436909057",
       "1045785299543101440",
       "1045825768222326784"
@@ -86,7 +86,7 @@
     "githubRepos": [
       "flutter/flutter"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -115,11 +115,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "1051614088260923392"
     ]
   },
@@ -132,7 +132,7 @@
     "githubRepos": [
       "abraham/nutmeg-cli"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp"
     ],
     "title": "Build, Test, and Deploy a Web Component",
@@ -167,12 +167,12 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp",
       "-L2mH7p5JFsCTXU4A4w4"
     ],
-    "tweets": [
+    "tweetIds": [
       "1046769630486953984",
       "1048956615016243200"
     ]
@@ -183,7 +183,7 @@
       "workbox-cli"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -213,10 +213,10 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "1017076463420497920",
       "1021783154204573697",
       "1025134843833794562",
@@ -230,7 +230,7 @@
       "typescript"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -259,10 +259,10 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "1017072896450138113",
       "1025134843833794562",
       "1027578013125357569",
@@ -276,7 +276,7 @@
       "firebase-admin"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -306,10 +306,10 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "1022575954806366208",
       "1030877810540392448"
     ]
@@ -323,7 +323,7 @@
       "@webcomponents/webcomponentsjs"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTNlw7dpLoH5mrsT4"
     ],
     "title": "Web Components: Lego bricks of the web",
@@ -358,11 +358,11 @@
         "service": "vimeo"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "963467104430280705",
       "986658249016520705",
       "1006928289578078208",
@@ -378,7 +378,7 @@
       "firebase-admin"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -408,16 +408,16 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-LCMdMuGkknPKKc9acHB",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -452,11 +452,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "991793023242653697",
       "994291303260176384",
       "996126442072272899"
@@ -466,7 +466,7 @@
     "id": "-LCMbFpq1s_PSG6UX6Nh",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp"
     ],
     "title": "JavaScript at Google I/O",
@@ -501,11 +501,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "996045503728103427",
       "996397019462848512"
     ]
@@ -519,7 +519,7 @@
     "githubRepos": [
       "rails/rails"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -557,10 +557,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "962113749317496833",
       "963472868653793280",
       "966298434104852480",
@@ -587,7 +587,7 @@
       "GoogleChrome/workbox",
       "PolymerLabs/prpl-ce-firebase"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -617,11 +617,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "971193765133275137",
       "977228750483066881",
       "978720626100854784",
@@ -637,7 +637,7 @@
       "GoogleChrome/workbox",
       "PolymerLabs/prpl-ce-firebase"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -667,11 +667,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "958067513379745792",
       "965580941027627008",
       "974066074256777216",
@@ -689,7 +689,7 @@
       "GoogleChrome/workbox",
       "PolymerLabs/prpl-ce-firebase"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -719,11 +719,11 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "953794723105378312",
       "951268923915362304",
       "959496608059621376",
@@ -744,7 +744,7 @@
     "githubRepos": [
       "abraham/nutmeg-cli"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -780,11 +780,11 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-L2mH7p5JFsCTXU4A4w4"
     ],
-    "tweets": [
+    "tweetIds": [
       "960232281800691713",
       "954469903855177728",
       "963209302868676610",
@@ -799,7 +799,7 @@
       "GoogleChrome/workbox",
       "PolymerLabs/prpl-ce-firebase"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -829,11 +829,11 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "958037035780005888",
       "956172293834788864",
       "960230711516127232",
@@ -851,7 +851,7 @@
     "githubRepos": [
       "abraham/nutmeg-cli"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -893,12 +893,12 @@
         "service": "youtube"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp",
       "-L2mH7p5JFsCTXU4A4w4"
     ],
-    "tweets": [
+    "tweetIds": [
       "943953366975164416",
       "950816989899051017",
       "951921453263355904",
@@ -911,7 +911,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -940,10 +940,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "919925917987852288",
       "920148209145602048",
       "931881304773349377",
@@ -955,7 +955,7 @@
     "id": "-KxhhEBwb_FmBY48u527",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -991,10 +991,10 @@
         "service": "youtube"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "925423098949664771",
       "922541889257201664",
       "924834217984274432",
@@ -1007,7 +1007,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp"
     ],
     "title": "Get Talking with Actions on Google",
@@ -1035,10 +1035,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
-    "tweets": [
+    "tweetIds": [
       "921429362582458368",
       "922581908495765504"
     ]
@@ -1049,7 +1049,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1084,10 +1084,10 @@
         "service": "vimeo"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "910405673829068800",
       "915893077427970048",
       "915896274376888320",
@@ -1111,7 +1111,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1146,10 +1146,10 @@
         "service": "vimeo"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "911234750697885696",
       "911230303368335360",
       "907358460161003521",
@@ -1168,7 +1168,7 @@
       "commander"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1198,10 +1198,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "907358460161003521",
       "907363405375438848",
       "910673310614196225",
@@ -1217,7 +1217,7 @@
     "githubRepos": [
       "material-components/material-components-web"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1252,10 +1252,10 @@
         "service": "vimeo"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "910925563359039488",
       "907358460161003521",
       "907363405375438848",
@@ -1273,7 +1273,7 @@
     "githubRepos": [
       "material-components/material-components-web"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1302,10 +1302,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KsK81gOZiIkIWcL5AhZ",
@@ -1313,7 +1313,7 @@
       "@angular/cli"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp"
     ],
     "title": "Making Slides.today",
@@ -1343,10 +1343,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-Krv_65pE2p9nJUXkhFl",
@@ -1354,7 +1354,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1383,10 +1383,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "898604361693052930",
       "898614470720626688",
       "898622088113561600",
@@ -1408,7 +1408,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1438,10 +1438,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "898218006970552323",
       "898578086035431425"
     ]
@@ -1457,7 +1457,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1487,10 +1487,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "893086931789254656",
       "894571533674446849",
       "895012653260832768",
@@ -1509,7 +1509,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1539,10 +1539,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "896143571203440642",
       "892444846430068736",
       "893163520111652865"
@@ -1554,7 +1554,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1589,10 +1589,10 @@
         "service": "joindin"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZxXjRvdxuo_pWZGy",
@@ -1600,7 +1600,7 @@
     "githubRepos": [
       "abraham/twitteroauth"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1636,10 +1636,10 @@
         "service": "joindin"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZtwL_ZafufriB-ta",
@@ -1652,7 +1652,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1688,10 +1688,10 @@
         "service": "joindin"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZsDivrXv69eEkiRs",
@@ -1699,7 +1699,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1728,10 +1728,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "884571840101928962",
       "884572018888388611"
     ]
@@ -1740,7 +1740,7 @@
     "id": "-KrvZof6--agoRIC6vl0",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1769,10 +1769,10 @@
         "service": "meetup"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "859112402306174976"
     ]
   },
@@ -1780,7 +1780,7 @@
     "id": "-Kt8ZOHSO3M-nLnxH8Fh",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1803,10 +1803,10 @@
         "service": "google-slides"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZmqmksA5WVIr1uoA",
@@ -1814,7 +1814,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1843,10 +1843,10 @@
         "service": "meetup"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZlA6DeLeyBqBT4Jy",
@@ -1859,7 +1859,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1889,10 +1889,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "823909988137635841",
       "845053059927625728"
     ]
@@ -1908,7 +1908,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1938,10 +1938,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "821087333264998400",
       "821097210771279882"
     ]
@@ -1952,7 +1952,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -1981,10 +1981,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "821087333264998400",
       "821097210771279882"
     ]
@@ -1995,7 +1995,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2024,10 +2024,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "821087333264998400",
       "821097210771279882"
     ]
@@ -2038,7 +2038,7 @@
       "actions-on-google"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2067,10 +2067,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZWvDU7VUnyPTDmSA",
@@ -2078,7 +2078,7 @@
       "firebase"
     ],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2107,10 +2107,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "806667421960372224"
     ]
   },
@@ -2118,7 +2118,7 @@
     "id": "-KrvZRBmB_NDgJ6z2m0T",
     "nodePackages": [],
     "githubRepos": [],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2148,10 +2148,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "806611805137051648"
     ]
   },
@@ -2166,7 +2166,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2196,10 +2196,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "797885305479045120",
       "797888037958991872"
     ]
@@ -2210,7 +2210,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2245,10 +2245,10 @@
         "service": "vimeo"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "790155059476692992",
       "794119798816993280",
       "794126674539540481",
@@ -2266,7 +2266,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2296,10 +2296,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZIrGfzwEjp7UKulY",
@@ -2311,7 +2311,7 @@
       "abraham/sprinkle",
       "pearlbea/better-img"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2347,10 +2347,10 @@
         "service": "joindin"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": [
+    "tweetIds": [
       "782225060568465408",
       "785575712002445316"
     ]
@@ -2361,7 +2361,7 @@
     "githubRepos": [
       "abraham/sprinkle"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2390,10 +2390,10 @@
         "service": "external"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   },
   {
     "id": "-KrvZAS455BHznj4ugI2",
@@ -2403,7 +2403,7 @@
     "githubRepos": [
       "bendyworks/life"
     ],
-    "speakers": [
+    "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
@@ -2440,9 +2440,9 @@
         "service": "youtube"
       }
     ],
-    "sponsors": [
+    "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
-    "tweets": []
+    "tweetIds": []
   }
 ]

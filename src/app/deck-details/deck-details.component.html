@@ -36,9 +36,9 @@
             </div>
           </ng-template>
 
-          <ng-template ngFor let-speaker [ngForOf]="deck?.speakers">
+          <ng-template ngFor let-speakerId [ngForOf]="deck?.speakerIds">
             <div class="item">
-              <app-speaker [speakerId$]="of(speaker)"></app-speaker>
+              <app-speaker [speakerId$]="of(speakerId)"></app-speaker>
             </div>
           </ng-template>
 
@@ -52,7 +52,7 @@
           </div>
 
           <div class="item" *ngIf="deck">
-            <app-sponsor [sponsorIds$]="of(deck.sponsors)"></app-sponsor>
+            <app-sponsor [sponsorIds$]="of(deck.sponsorIds)"></app-sponsor>
           </div>
 
         </div>

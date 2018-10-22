@@ -10,8 +10,8 @@ export class Deck {
   id: string;
   links: Link[];
   location: string;
-  speakers: string[];
-  sponsors: string[];
+  speakerIds: string[];
+  sponsorIds: string[];
   title: string;
   tweets: object[];
 
@@ -33,11 +33,11 @@ export class Deck {
     this.links = data.links;
     this.location = data.location;
     this.nodePackages = data.nodePackages;
-    this.speakers = data.speakers;
-    this.sponsors = data.sponsors;
+    this.speakerIds = data.speakerIds;
+    this.sponsorIds = data.sponsorIds;
     this.tags = data.tags;
     this.title = data.title;
-    this.tweets = data.tweets.map((id: string) => tweetsData[id]);
+    this.tweets = data.tweetIds.map((id: string) => tweetsData[id]);
   }
 
   public get date(): string {
