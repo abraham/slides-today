@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import { filter } from 'rxjs/operators';
 import { Deck } from './deck';
 import decks from './decks.data.json';
 import { Speaker } from './speaker';
@@ -15,7 +16,7 @@ const DECKS: Deck[] = decks.map(deck => {
 
 @Injectable()
 export class DataService {
-  public decks$ = of(DECKS);
+  public decks$ = of(...DECKS).pipe(filter(deck => !deck.archived));
   public tags$ = of(tags);
   public speakers$ = of(speakers);
 

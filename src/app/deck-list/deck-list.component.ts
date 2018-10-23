@@ -18,7 +18,8 @@ export class DeckListComponent implements OnInit {
     this.decks$ = this.dataService.decks$;
   }
 
-  decks$: Observable<Deck[]>;
+  decks$: Observable<Deck>;
+  decks: Deck[] = [];
   currentTags: string[] = [];
   tags: string[] = [];
   hasDecks = true;
@@ -33,6 +34,8 @@ export class DeckListComponent implements OnInit {
         this.currentTags = tags ? tags.split(',') : [];
         this.setHasDecks();
       });
+
+    this.decks$.subscribe(deck => this.decks.push(deck));
   }
 
   triggerScroll(): void {

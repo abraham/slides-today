@@ -3,13 +3,14 @@ import { Link } from './link';
 import tweetsData from './tweets.data.json';
 
 export class Deck {
+  archived: boolean;
   description: string;
   eventTitle: string;
   githubRepos: string[];
-  nodePackages: string[];
   id: string;
   links: Link[];
   location: string;
+  nodePackages: string[];
   speakerIds: string[];
   sponsorIds: string[];
   title: string;
@@ -26,6 +27,7 @@ export class Deck {
       start: dayjs(data.date.start),
       end: dayjs(data.date.end)
     };
+    this.archived = data.archived;
     this.description = data.description;
     this.eventTitle = data.eventTitle;
     this.githubRepos = data.githubRepos;
