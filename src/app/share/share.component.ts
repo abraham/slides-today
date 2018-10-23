@@ -41,7 +41,6 @@ export class ShareComponent implements AfterViewInit {
   };
 
   private services: { [key: string]: () => string } = {
-    google: () => `https://plus.google.com/share?url=${this.shareUrl()}`,
     twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText()} ${this.shareUrl()}`,
     facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl()}`,
   };
