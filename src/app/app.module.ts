@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CardActionComponent } from './card-action/card-action.component';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 import { DeckListComponent } from './deck-list/deck-list.component';
+import { DeckResourcesComponent } from './deck-resources/deck-resources.component';
 import { DeckSummaryComponent } from './deck-summary/deck-summary.component';
 import { EmbedComponent } from './embed/embed.component';
 import { HeaderComponent } from './header/header.component';
@@ -27,6 +28,7 @@ import { UpdateComponent } from './update/update.component';
     CardActionComponent,
     DeckDetailsComponent,
     DeckListComponent,
+    DeckResourcesComponent,
     DeckSummaryComponent,
     EmbedComponent,
     HeaderComponent,

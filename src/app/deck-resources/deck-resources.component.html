@@ -1,0 +1,17 @@
+<div class="mdc-card">
+  <section class="card__primary">
+    <h1 class="card__title mdc-typography--headline6">Resources</h1>
+  </section>
+  <section class="card__secondary">
+
+    <div class="mdc-list mdc-list--dense">
+      <a *ngFor="let resource of resources" class="mdc-list-item" [href]="resource.url" target="_blank" >
+        <span class="mdc-list-item__text">
+          {{resource.title}}
+        </span>
+        <span class="mdc-list-item__meta material-icons" aria-hidden="true">open_in_new</span>
+      </a>
+    </div>
+
+  </section>
+</div>

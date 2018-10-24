@@ -1,5 +1,6 @@
 import dayjs from 'dayjs';
 import { Link } from './link';
+import { Resource } from './resource';
 import tweetsData from './tweets.data.json';
 
 export class Deck {
@@ -9,6 +10,7 @@ export class Deck {
   githubRepos: string[];
   id: string;
   links: Link[];
+  resources: Resource[];
   location: string;
   nodePackages: string[];
   speakerIds: string[];
@@ -33,6 +35,7 @@ export class Deck {
     this.githubRepos = data.githubRepos;
     this.id = data.id;
     this.links = data.links;
+    this.resources = data.resources;
     this.location = data.location;
     this.nodePackages = data.nodePackages;
     this.speakerIds = data.speakerIds;
@@ -73,6 +76,9 @@ export class Deck {
   }
 
   private _linkTags(): string[] {
-    return this.links.filter(link => link.useAsTag).map(link => link.title.toLowerCase());
+    const tags = [];
+    tags.concat(this.links.filter(link => link.useAsTag).map(link => link.title.toLowerCase()));
+    tags.concat(this.resources.filter(resource => resource.useAsTag).map(resource => resource.title.toLowerCase()));
+    return tags;
   }
 }

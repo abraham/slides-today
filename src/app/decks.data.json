@@ -29,6 +29,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -74,6 +75,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -120,6 +122,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -173,6 +176,56 @@
         "service": "google-slides"
       }
     ],
+    "resources": [
+      {
+        "title": "Nutmeg website",
+        "url": "https://nutmeg.tools",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "npm - How to Publish & Update a Package",
+        "url": "https://docs.npmjs.com/getting-started/publishing-npm-packages",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
+        "url": "https://www.typescriptlang.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "lit-html - HTML template literals in JavaScript",
+        "url": "https://github.com/Polymer/lit-html",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "webcomponents.org - Discuss & share web components",
+        "url": "https://www.webcomponents.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "MDN - Using custom elements",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "MDN - Using shadow DOM",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Fundamentals - Custom Elemnt Best Practices",
+        "url": "https://developers.google.com/web/fundamentals/web-components/best-practices",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp",
@@ -220,6 +273,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -267,6 +321,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -315,6 +370,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -368,6 +424,7 @@
         "service": "vimeo"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -419,6 +476,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -464,6 +522,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -514,6 +573,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -571,6 +631,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -632,6 +693,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -683,6 +745,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -736,6 +799,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -798,6 +862,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-L2mH7p5JFsCTXU4A4w4"
@@ -848,6 +913,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
@@ -913,6 +979,7 @@
         "service": "youtube"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp",
@@ -961,6 +1028,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
@@ -1013,6 +1081,7 @@
         "service": "youtube"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1058,6 +1127,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
@@ -1108,6 +1178,7 @@
         "service": "vimeo"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1171,6 +1242,7 @@
         "service": "vimeo"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1224,6 +1296,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1279,6 +1352,7 @@
         "service": "vimeo"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1330,6 +1404,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1372,6 +1447,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1413,6 +1489,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1469,6 +1546,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1519,6 +1597,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1572,6 +1651,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1623,6 +1703,7 @@
         "service": "joindin"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1671,6 +1752,7 @@
         "service": "joindin"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1724,6 +1806,7 @@
         "service": "joindin"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1765,6 +1848,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1807,6 +1891,7 @@
         "service": "meetup"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1842,6 +1927,7 @@
         "service": "google-slides"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1883,6 +1969,7 @@
         "service": "meetup"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1930,6 +2017,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -1980,6 +2068,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2024,6 +2113,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2068,6 +2158,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2112,6 +2203,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2153,6 +2245,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2195,6 +2288,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2244,6 +2338,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2294,6 +2389,7 @@
         "service": "vimeo"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2346,6 +2442,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2398,6 +2495,7 @@
         "service": "joindin"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2442,6 +2540,7 @@
         "service": "external"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2493,6 +2592,7 @@
         "service": "youtube"
       }
     ],
+    "resources": [],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],

@@ -55,6 +55,10 @@
             <app-sponsor [sponsorIds$]="of(deck.sponsorIds)"></app-sponsor>
           </div>
 
+          <div class="item" *ngIf="deck?.resources.length > 0">
+            <app-deck-resources [resources]="deck.resources"></app-deck-resources>
+          </div>
+
         </div>
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
 
