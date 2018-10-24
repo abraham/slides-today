@@ -36,7 +36,7 @@
     "autotrack": "2.4.1",
     "core-js": "2.5.7",
     "dayjs": "1.7.7",
-    "firebase-admin": "6.0.0",
+    "firebase-admin": "6.1.0",
     "github-repository": "0.3.0",
     "material-components-web": "0.40.1",
     "ng-lazyload-image": "4.0.0",
