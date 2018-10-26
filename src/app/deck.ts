@@ -53,32 +53,20 @@ export class Deck {
     }
   }
 
-  public set tags(tags: string[]) {
-    this._tags = this._uniqueTags(tags);
+  public set tags(baseTags: string[]) {
+    this._tags = baseTags.concat(this.linkTags)
+      .reduce((uniqueTags, tag) => {
+      return uniqueTags.includes(tag) ? uniqueTags : uniqueTags.concat(tag);
+    }, []);
   }
+
   public get tags(): string[] {
     return this._tags;
   }
 
-  private _uniqueTags(tags): string[] {
-    const working: string[] = [];
-    tags.map((tag) => {
-      if (!working.includes(tag)) {
-        working.push(tag);
-      }
-    });
-    this._linkTags().map(tag => {
-      if (!working.includes(tag)) {
-        working.push(tag);
-      }
-    });
-    return working;
-  }
-
-  private _linkTags(): string[] {
-    const tags = [];
-    tags.concat(this.links.filter(link => link.useAsTag).map(link => link.title.toLowerCase()));
-    tags.concat(this.resources.filter(resource => resource.useAsTag).map(resource => resource.title.toLowerCase()));
-    return tags;
+  private get linkTags(): string[] {
+    return this.links.concat(this.resources)
+      .filter(link => link.useAsTag)
+      .map(link => link.title.toLowerCase());
   }
 }
