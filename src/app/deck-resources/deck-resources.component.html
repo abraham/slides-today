@@ -5,7 +5,7 @@
   <section class="card__secondary">
 
     <div class="mdc-list mdc-list--dense">
-      <a *ngFor="let resource of resources" class="mdc-list-item" [href]="resource.url" target="_blank" >
+      <a *ngFor="let resource of resources" class="mdc-list-item" [href]="resource.url" target="_blank" rel="noopener">
         <span class="mdc-list-item__text">
           {{resource.title}}
         </span>
