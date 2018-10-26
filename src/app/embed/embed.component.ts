@@ -8,6 +8,7 @@ import { Link } from '../link';
   styleUrls: ['./embed.component.scss']
 })
 export class EmbedComponent implements OnInit {
+  @Input() title!: string;
   @Input() link!: Link;
   @Input() width!: number;
   @Input() colors!: { color: string, backgroundColor: string };
