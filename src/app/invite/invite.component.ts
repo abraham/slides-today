@@ -18,6 +18,7 @@ export class InviteComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.dialog = new MDCDialog(this.dialogEl.nativeElement) as Dialog;
+    this.dialog.listen('MDCDialog:closing', () => this.fabEl.nativeElement.classList.remove('mdc-fab--exited'));
     this.initRipples();
   }
 
@@ -31,6 +32,7 @@ export class InviteComponent implements AfterViewInit {
 
   openDialog(_event: MouseEvent) {
     this.dialog.open();
+    this.fabEl.nativeElement.classList.add('mdc-fab--exited');
   }
 
   open(url: string) {
