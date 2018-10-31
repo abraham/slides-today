@@ -82,7 +82,86 @@
         "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Flutter.io",
+        "url": "https://flutter.io/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter by Example",
+        "url": "https://flutterbyexample.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Codelabs",
+        "url": "https://codelabs.developers.google.com/?cat=Flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Codelabs",
+        "url": "https://codelabs.developers.google.com/?cat=Flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Udacity - Build Native Mobile Apps with Flutter",
+        "url": "https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Zero to One with Flutter",
+        "url": "https://medium.com/flutter-io/zero-to-one-with-flutter-43b13fd7b354",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "It's All Widgets!",
+        "url": "https://itsallwidgets.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "How I built a cross-platform, connected app in ~7 days",
+        "url": "https://medium.com/@aubykhan/how-i-built-a-cross-platform-connected-app-in-7-days-93728a987424",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Awesome Flutter",
+        "url": "https://github.com/Solido/awesome-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "What’s Revolutionary about Flutter",
+        "url": "https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Writing widget tests for navigation events",
+        "url": "https://iirokrankka.com/2018/08/22/writing-widget-tests-for-navigation-events/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Why Flutter doesn’t use OEM widgets",
+        "url": "https://medium.com/flutter-io/why-flutter-doesnt-use-oem-widgets-94746e812510",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Why Flutter Uses Dart",
+        "url": "https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -134,7 +213,86 @@
         "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Flutter.io",
+        "url": "https://flutter.io/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter by Example",
+        "url": "https://flutterbyexample.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Codelabs",
+        "url": "https://codelabs.developers.google.com/?cat=Flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Codelabs",
+        "url": "https://codelabs.developers.google.com/?cat=Flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Udacity - Build Native Mobile Apps with Flutter",
+        "url": "https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Zero to One with Flutter",
+        "url": "https://medium.com/flutter-io/zero-to-one-with-flutter-43b13fd7b354",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "It's All Widgets!",
+        "url": "https://itsallwidgets.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "How I built a cross-platform, connected app in ~7 days",
+        "url": "https://medium.com/@aubykhan/how-i-built-a-cross-platform-connected-app-in-7-days-93728a987424",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Awesome Flutter",
+        "url": "https://github.com/Solido/awesome-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "What’s Revolutionary about Flutter",
+        "url": "https://hackernoon.com/whats-revolutionary-about-flutter-946915b09514",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Writing widget tests for navigation events",
+        "url": "https://iirokrankka.com/2018/08/22/writing-widget-tests-for-navigation-events/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Why Flutter doesn’t use OEM widgets",
+        "url": "https://medium.com/flutter-io/why-flutter-doesnt-use-oem-widgets-94746e812510",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Why Flutter Uses Dart",
+        "url": "https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
