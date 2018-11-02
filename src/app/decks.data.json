@@ -27,6 +27,12 @@
         "url": "https://mobileera.rocks/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1arh8x1GEnyVHnpavEWW2uNy5Ef9jTf1rB6dlneVz5ps",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [],
