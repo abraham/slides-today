@@ -41,7 +41,74 @@
         "service": "vimeo"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "The Service Worker Lifecycle",
+        "url": "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "A Tale of Four Caches",
+        "url": "https://calendar.perfplanet.com/2016/a-tale-of-four-caches/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using Service Workers",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Service Worker Checklist",
+        "url": "https://developers.google.com/web/tools/workbox/guides/service-worker-checklist",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "How can I remove a buggy service worker, or implement a \"kill switch\"?",
+        "url": "https://stackoverflow.com/a/38980776/26406",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Service worker JavaScript update frequency (every 24 hours?)",
+        "url": "https://stackoverflow.com/a/38854905/26406",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Recommended precache payload size?",
+        "url": "https://stackoverflow.com/a/51595559/26406",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "What limitations apply to opaque responses?",
+        "url": "https://stackoverflow.com/a/39109790/26406",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Conflicting service worker scopes (broader and narrow)",
+        "url": "https://stackoverflow.com/a/47149987/26406",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Estimating Available Storage Space",
+        "url": "https://developers.google.com/web/updates/2017/08/estimating-available-storage-space",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Service Workers in Production",
+        "url": "https://developers.google.com/web/showcase/2015/service-workers-iowa",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
