@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCRipple } from '@material/ripple';
+import { MDCRipple } from '@material/ripple/index';
 
 @Component({
   selector: 'app-card-action',

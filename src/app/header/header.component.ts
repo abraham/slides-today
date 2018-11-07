@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCToolbar } from '@material/toolbar';
+import { MDCToolbar } from '@material/toolbar/index';
 
 @Component({
   selector: 'app-header',

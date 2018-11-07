@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { MDCDialog } from '@material/dialog';
-import { MDCRipple } from '@material/ripple';
+import { MDCDialog } from '@material/dialog/index';
+import { MDCRipple } from '@material/ripple/index';
 
 type Dialog = MDCDialog & {
   open: () => void;
