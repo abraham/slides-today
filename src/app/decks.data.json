@@ -426,6 +426,12 @@
         "url": "https://docs.google.com/presentation/d/1VcQukPoKMCah8QZ1MACR5oyqRVUp3G4UKF90PHJbBmI",
         "useAsTag": false,
         "service": "google-slides"
+      },
+      {
+        "title": "Video",
+        "url": "https://www.youtube.com/watch?v=Oyy5T0qWGYA",
+        "useAsTag": true,
+        "service": "youtube"
       }
     ],
     "resources": [
