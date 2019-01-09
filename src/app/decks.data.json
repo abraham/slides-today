@@ -1,5 +1,41 @@
 [
   {
+    "id": "-LVjycv296-Ko3q8LfI6",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "It's a Wonderful Web!",
+    "date": {
+      "start": "2019-01-15T00:00:00.000Z",
+      "end": "2019-01-15T00:00:00.000Z"
+    },
+    "description": "The web is a wonderful platform offering a dizzying number of APIs and features that you can leverage in your apps. Come learn about the coolest current and upcoming web APIs you've never heard of. We'll show you some new ways to use the platform and give you a peek at some developing standards.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "javascript"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/257115992/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1082783473910382592"
+    ]
+  },
+  {
     "id": "-LP90xu1JfaAgTCyhC3D",
     "archived": false,
     "nodePackages": [
