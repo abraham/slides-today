@@ -70,7 +70,7 @@
     "node-sass": "4.11.0",
     "protractor": "5.4.2",
     "ts-node": "7.0.1",
-    "tslint": "5.12.0",
+    "tslint": "5.12.1",
     "twit": "2.2.11",
     "typescript": "3.2.2",
     "workbox-build": "2.1.3",
