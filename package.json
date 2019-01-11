@@ -74,6 +74,6 @@
     "twit": "2.2.11",
     "typescript": "3.2.2",
     "workbox-build": "3.6.3",
-    "workbox-sw": "2.1.3"
+    "workbox-sw": "3.6.3"
   }
 }
