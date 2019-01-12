@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-
 export class AppComponent {
   defaultTitle = 'Slides.today';
   title = this.defaultTitle;

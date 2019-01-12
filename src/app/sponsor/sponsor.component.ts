@@ -8,7 +8,6 @@ import { Sponsor } from '../sponsor';
   selector: 'app-sponsor',
   templateUrl: './sponsor.component.html',
   styleUrls: ['./sponsor.component.scss'],
-  providers: [DataService]
 })
 export class SponsorComponent implements OnInit {
   constructor(private dataService: DataService) { }

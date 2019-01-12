@@ -8,7 +8,6 @@ import { Speaker } from '../speaker';
   selector: 'app-speaker',
   templateUrl: './speaker.component.html',
   styleUrls: ['./speaker.component.scss'],
-  providers: [DataService],
 })
 export class SpeakerComponent implements OnInit {
   constructor(private dataService: DataService) {}

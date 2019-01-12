@@ -13,7 +13,6 @@ import { Tag } from '../tag';
   selector: 'app-deck-details',
   templateUrl: './deck-details.component.html',
   styleUrls: ['./deck-details.component.scss'],
-  providers: [DataService],
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 

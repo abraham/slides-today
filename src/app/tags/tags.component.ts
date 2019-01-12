@@ -16,9 +16,7 @@ type Chip = MDCChip & {
   selector: 'app-tags',
   templateUrl: './tags.component.html',
   styleUrls: ['./tags.component.scss'],
-  providers: [DataService],
 })
-
 export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
   constructor(private dataService: DataService) { }
 

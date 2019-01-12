@@ -9,7 +9,6 @@ import { Deck } from '../deck';
   selector: 'app-deck-list',
   templateUrl: './deck-list.component.html',
   styleUrls: ['./deck-list.component.scss'],
-  providers: [DataService],
 })
 
 export class DeckListComponent implements OnInit {

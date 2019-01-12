@@ -20,6 +20,7 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { TagComponent } from './tag/tag.component';
 import { TagsComponent } from './tags/tags.component';
 import { UpdateComponent } from './update/update.component';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { UpdateComponent } from './update/update.component';
     BrowserModule,
     LazyLoadImageModule,
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
