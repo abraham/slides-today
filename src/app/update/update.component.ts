@@ -7,6 +7,12 @@ declare global {
   }
 }
 
+type Snackbar = MDCSnackbar & {
+  labelText: string;
+  actionButtonText: string;
+  open: () => void;
+};
+
 @Component({
   selector: 'app-update',
   templateUrl: './update.component.html',
@@ -20,10 +26,10 @@ export class UpdateComponent implements OnInit {
 
   @ViewChild('snackbarEl') snackbarEl!: ElementRef;
   precacheUpdates!: BroadcastChannel;
-  private snackbar!: MDCSnackbar;
+  private snackbar!: Snackbar;
 
   ngOnInit() {
-    this.snackbar = new MDCSnackbar(this.snackbarEl.nativeElement);
+    this.snackbar = new MDCSnackbar(this.snackbarEl.nativeElement) as Snackbar;
     if ('BroadcastChannel' in window) {
       this.precacheUpdates = new window.BroadcastChannel(this.CHANNEL_NAME);
       this.precacheUpdates.onmessage = this.onPrecacheUpdate.bind(this);
@@ -38,16 +44,13 @@ export class UpdateComponent implements OnInit {
     }
   }
 
-  showUpdate(): void {
-    const dataObj = {
-      message: 'A new version of Slides.today is available.',
-      actionText: 'Reload',
-      timeout: 5000,
-      actionHandler: () => {
-        window.location.reload();
-      }
-    };
+  reload(): void {
+    window.location.reload();
+  }
 
-    this.snackbar.show(dataObj);
+  showUpdate(): void {
+    this.snackbar.labelText = 'A new version of Slides.today is available.';
+    this.snackbar.actionButtonText = 'Reload';
+    this.snackbar.open();
   }
 }
