@@ -15,6 +15,8 @@ export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
               private route: ActivatedRoute) {
     this.decks$ = this.dataService.decks$;
+    this.dataService.selectedTagIds$
+        .subscribe(selectedTagIds => console.log('DeckListComponent.ctor', {selectedTagIds}));
   }
 
   decks$: Observable<Deck>;
