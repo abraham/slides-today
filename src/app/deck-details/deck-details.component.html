@@ -21,7 +21,7 @@
               {{deck?.description}}
             </section>
             <section class="card__secondary">
-              <app-tags [tagIds]="deck?.tags"></app-tags>
+              <app-tags [currentTags]="deck?.tags || []"></app-tags>
             </section>
             <section class="mdc-card__actions">
               <app-card-action *ngFor="let link of deck?.links"

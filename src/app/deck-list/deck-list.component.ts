@@ -14,16 +14,12 @@ import { Deck } from '../deck';
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
               private route: ActivatedRoute) {
-    this.decks$ = this.dataService.decks$;
-    this.dataService.selectedTagIds$
-        .subscribe(selectedTagIds => console.log('DeckListComponent.ctor', {selectedTagIds}));
+    this.selectedTagIds$ = this.dataService.selectedTagIds$;
+    this.decks$ = this.dataService.filterDecks$(this.selectedTagIds$);
   }
 
-  decks$: Observable<Deck>;
-  decks: Deck[] = [];
-  currentTags: string[] = [];
-  tags: string[] = [];
-  hasDecks = true;
+  selectedTagIds$: Observable<string[]>;
+  decks$: Observable<Deck[]>;
 
   ngOnInit(): void {
     this.route.paramMap
@@ -32,18 +28,13 @@ export class DeckListComponent implements OnInit {
           return Promise.resolve(params.get('tags'));
         }))
       .subscribe(tags => {
-        this.currentTags = tags ? tags.split(',') : [];
-        this.setHasDecks();
+        // this.currentTags = tags ? tags.split(',') : [];
+        // this.setHasDecks();
       });
 
-    this.decks$.subscribe(deck => this.decks.push(deck));
   }
 
   triggerScroll(): void {
     window.dispatchEvent(new Event('scroll'));
-  }
-
-  setHasDecks(): void {
-    this.hasDecks = true;
   }
 }
