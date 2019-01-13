@@ -10,9 +10,8 @@ import sponsors from './sponsors.data.json';
 import { Tag, TagSelectionEvent } from './tag';
 import tags from './tags.data.json';
 
-const DECKS: Deck[] = decks.map(deck => {
-  return new Deck(deck);
-});
+const DECKS: Deck[] = decks.map(deck => new Deck(deck));
+const TAGS: Tag[] = tags.map(tag => ({ ...tag, selected: false }));
 
 @Injectable()
 export class DataService {
@@ -23,7 +22,7 @@ export class DataService {
   }
 
   public decks$ = of(...DECKS).pipe(filter(deck => !deck.archived));
-  public tags$ = of(tags);
+  public tags$ = of(TAGS);
   public speakers$ = of(speakers);
   public selectedTagIds$ = new BehaviorSubject<string[]>([]);
 

@@ -1,9 +1,13 @@
 import { Color } from './color';
 
-export interface Tag {
+export interface TagData {
   id: string;
   primaryColor: Color;
   complementaryColor: Color;
+}
+
+export interface Tag extends TagData {
+  selected: boolean;
 }
 
 export interface TagSelectionEvent {
