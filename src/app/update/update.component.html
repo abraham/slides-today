@@ -1,9 +1,8 @@
-<div #snackbarEl class="mdc-snackbar mdc-snackbar--align-start"
-     aria-live="assertive"
-     aria-atomic="true"
-     aria-hidden="true">
-  <div class="mdc-snackbar__text"></div>
-  <div class="mdc-snackbar__action-wrapper">
-    <button type="button" class="mdc-snackbar__action-button mdc-theme--primary"></button>
+<div #snackbarEl class="mdc-snackbar mdc-snackbar--leading">
+  <div class="mdc-snackbar__surface">
+    <div class="mdc-snackbar__label" role="status" aria-live="polite"></div>
+    <div class="mdc-snackbar__actions">
+      <button type="button" class="mdc-button mdc-snackbar__action mdc-theme--primary" (click)="reload()"></button>
+    </div>
   </div>
 </div>
