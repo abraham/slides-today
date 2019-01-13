@@ -1,5 +1,5 @@
 <header #toolbarFixedEl
-        [ngStyle]="colors"
+        [ngStyle]="theme$ | async"
         [ngClass]="classes"
         class="mdc-toolbar">
   <div class="mdc-toolbar__row">

@@ -32,6 +32,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
     this.primaryTag$.subscribe(this.setColors.bind(this));
     this.deck$.subscribe(this.init.bind(this));
+    this.theme$ = this.dataService.theme$;
   }
 
   @Input() deck: Deck;
@@ -40,6 +41,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   title = ''; // Clear site title
   deck$: Observable<Deck>;
+  theme$: Observable<Theme>;
   of = of;
   primaryTag$: Observable<Tag>;
   defaultImage = '/assets/img/default.png';
@@ -89,11 +91,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private setColors(tag: Tag): void {
     console.log('DeckDetails.setColors', tag, this);
-    this.colors = {
+    const theme = {
       backgroundColor: rgb(tag.primaryColor),
       color: rgb(tag.complementaryColor),
     };
-    this.onColorsChange.emit(this.colors);
+    this.dataService.theme$.next(theme);
   }
 
   private setEmbedWidth(): void {

@@ -14,6 +14,7 @@ import { Deck } from '../deck';
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
               private route: ActivatedRoute) {
+    this.dataService.resetTheme();
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
     this.decks$ = this.dataService.filterDecks$(this.selectedTagIds$);
   }

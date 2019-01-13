@@ -1,21 +1,27 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { MDCToolbar } from '@material/toolbar/index';
+import { Observable } from 'rxjs';
+import { Theme } from '../color';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit, AfterViewInit {
-  constructor(private router: Router) { }
+export class HeaderComponent implements AfterViewInit {
+  constructor(private dataService: DataService,
+              private router: Router) {
+    this.theme$ = this.dataService.theme$;
+  }
 
-  @ViewChild('toolbarFixedEl') toolbarFixedEl!: ElementRef;
-  @ViewChild('toolbarAdjustEl') toolbarAdjustEl!: ElementRef;
+  theme$: Observable<Theme>;
 
   @Input() title!: string;
-  @Input() colors!: { color: string, backgroundColor: string };
   @Input() fixed = true;
+  @ViewChild('toolbarFixedEl') toolbarFixedEl!: ElementRef;
+  @ViewChild('toolbarAdjustEl') toolbarAdjustEl!: ElementRef;
 
   private toolbar?: MDCToolbar;
   private defaultClasses = `
@@ -27,9 +33,6 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     mdc-toolbar--waterfall
   `;
   public classes = this.defaultClasses;
-
-  ngOnInit() {
-  }
 
   transitionToDetails(): void {
     this.toolbarAdjustEl.nativeElement.style.display = 'none';

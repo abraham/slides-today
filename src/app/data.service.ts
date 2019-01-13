@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
 import { map, scan, tap } from 'rxjs/operators';
+import { DEFAULT_THEME, Theme } from './color';
 import { Deck } from './deck';
 import deckData from './decks.data.json';
 import { Speaker } from './speaker';
@@ -27,8 +28,13 @@ export class DataService {
   public selectedTagIds$ = new BehaviorSubject<string[]>([]);
   public speakers$ = of(speakers);
   public tags$ = new BehaviorSubject<Tag[]>([]);
+  public theme$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
 
   private tagSelection$ = new Subject<TagSelectionEvent>();
+
+  public resetTheme() {
+    this.theme$.next(DEFAULT_THEME);
+  }
 
   public tagSelection(event: TagSelectionEvent) {
     console.log('DataService.tagSelection', event);
