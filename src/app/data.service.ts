@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, of, BehaviorSubject } from 'rxjs';
 import { filter } from 'rxjs/operators';
 import { Deck } from './deck';
 import decks from './decks.data.json';
@@ -7,7 +7,7 @@ import { Speaker } from './speaker';
 import speakers from './speakers.data.json';
 import { Sponsor } from './sponsor';
 import sponsors from './sponsors.data.json';
-import { Tag } from './tag';
+import { Tag, TagSelectionEvent } from './tag';
 import tags from './tags.data.json';
 
 const DECKS: Deck[] = decks.map(deck => {
@@ -19,6 +19,12 @@ export class DataService {
   public decks$ = of(...DECKS).pipe(filter(deck => !deck.archived));
   public tags$ = of(tags);
   public speakers$ = of(speakers);
+
+  public selectedTagIds$ = new BehaviorSubject<string[]>([]);
+
+  public tagSelection(event: TagSelectionEvent) {
+    console.log('DataService.tagSelection', event);
+  }
 
   public deck$(id: string): Observable<Deck> {
     return of(DECKS.find(deck => deck.id === id));

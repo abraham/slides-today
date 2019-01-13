@@ -1,7 +1,6 @@
-<div #tagEl
+<div #chip
      [attr.class]="'mdc-chip' + (raised ? ' mdc-chip--selected' : '')"
      [ngStyle]="currentStyles"
-     (click)="updateFilter($event, tag.id)"
      [attr.data-id]="tag.id">
      <div class="mdc-chip__checkmark" >
        <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
