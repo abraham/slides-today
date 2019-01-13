@@ -5,6 +5,11 @@ export interface Color {
   a?: number;
 }
 
+export  interface Theme {
+  color: string;
+  backgroundColor: string;
+}
+
 export function rgb(color: Color) {
   if (color.a === undefined) {
     return `rgb(${color.r}, ${color.g}, ${color.b})`;

@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { RoutedComponents } from './app-routing.module';
+import { Theme } from './color';
 import { HeaderComponent } from './header/header.component';
 
 @Component({
@@ -10,8 +11,8 @@ import { HeaderComponent } from './header/header.component';
 export class AppComponent {
   defaultTitle = 'Slides.today';
   title = this.defaultTitle;
-  defaultColors = { color: '#000', backgroundColor: 'rgb(255, 152, 0)' };
-  colors = this.defaultColors;
+  defaultColors: Theme = { color: '#000', backgroundColor: 'rgb(255, 152, 0)' };
+  colors: Theme = this.defaultColors;
   fixed = true;
 
   @ViewChild('headerEl') headerEl!: HeaderComponent;
