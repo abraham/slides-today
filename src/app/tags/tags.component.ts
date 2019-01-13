@@ -1,7 +1,8 @@
 import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { MDCChip, MDCChipSet } from '@material/chips/index';
-import { Tag } from '../tag';
+import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
+import { Tag } from '../tag';
 
 type ChipSet = MDCChipSet & {
   chips: Chip[];
@@ -18,9 +19,13 @@ type Chip = MDCChip & {
   styleUrls: ['./tags.component.scss'],
 })
 export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService) {
+    this.tags$ = this.dataService.tags$;
+  }
 
+  tags$: Observable<Tag[]>;
   tags: Promise<Tag[]> = Promise.resolve([]);
+
   private chipSet!: ChipSet;
 
   @Input() currentTags: string[] = [];
@@ -58,9 +63,5 @@ export class TagsComponent implements OnInit, AfterViewInit, OnChanges {
     } else {
       return ids.concat(activatedId);
     }
-  }
-
-  isRaised(id: string): boolean {
-    return this.currentTags.includes(id);
   }
 }

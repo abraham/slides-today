@@ -29,10 +29,8 @@ export class TagComponent implements OnInit {
 
   currentStyles = {};
 
-  @Input() set!: TagsComponent;
-  @Input() @Output() tag!: Tag;
+  @Input() tag!: Tag;
   @Input() currentTag!: string;
-  @Input() raised = false;
   @ViewChild('chip') chip!: ElementRef;
 
   ngOnInit() {
@@ -46,18 +44,6 @@ export class TagComponent implements OnInit {
       border: `solid ${rgb(this.tag.primaryColor)} 1px`,
       backgroundColor: rgb({ ...this.tag.primaryColor, a: 0.05 })
     };
-  }
-
-  updateFilter(_event: MouseEvent, id: string): void {
-    const ids = this.set.selectedTags(id);
-    // This waits until the chip state has been updated before performing navigation
-    requestAnimationFrame(() => {
-      if (ids.length === 0) {
-        this.router.navigate(['/']);
-      } else {
-        this.router.navigate(['/tags', { tags: ids }]);
-      }
-    });
   }
 
   emitTagSelection(event: ChipSelectionEvent) {
