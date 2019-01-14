@@ -1,21 +1,24 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { RoutedComponents } from './app-routing.module';
-import { HeaderComponent } from './header/header.component';
+import { Theme } from './color';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-
 export class AppComponent {
-  defaultTitle = 'Slides.today';
-  title = this.defaultTitle;
-  defaultColors = { color: '#000', backgroundColor: 'rgb(255, 152, 0)' };
-  colors = this.defaultColors;
-  fixed = true;
+  constructor(private dataService: DataService,
+              private router: Router) {
+    this.dataService.theme$.subscribe(this.setThemeColor.bind(this));
+    this.dataService.path$.subscribe(this.updatePath.bind(this));
+  }
 
-  @ViewChild('headerEl') headerEl!: HeaderComponent;
+  defaultTitle = 'Slides.today';
+  showBack = true;
+  title = this.defaultTitle;
 
   onActivate(event: RoutedComponents): void {
     if ('title' in event) {
@@ -23,28 +26,26 @@ export class AppComponent {
     } else {
       this.title = this.defaultTitle;
     }
-    if ('onColorsChange' in event) {
-      event.onColorsChange.subscribe(this.onColorsChange.bind(this));
+    if ('showBack' in event) {
+      this.showBack = event.showBack;
     } else {
-      this.colors = this.defaultColors;
-      this.headerEl.transitionToHome();
-      this.setThemeColor();
+      this.showBack = false;
     }
   }
 
-  onColorsChange(colors: { color: string, backgroundColor: string }): void {
-    this.headerEl.transitionToDetails();
-    this.colors = colors;
-    this.setThemeColor();
-  }
-
-  private setThemeColor() {
-    if (this.themeEl) {
-      this.themeEl.setAttribute('content', this.colors.backgroundColor);
-    }
+  private setThemeColor(theme: Theme) {
+    this.themeEl.setAttribute('content', theme.backgroundColor);
   }
 
   private get themeEl() {
     return document.querySelector('meta[name="theme-color"]');
+  }
+
+  private updatePath(tagIds: string[]) {
+    if (tagIds.length === 0) {
+      this.router.navigate(['/']);
+    } else {
+      this.router.navigate(['/tags', { tags: tagIds }]);
+    }
   }
 }

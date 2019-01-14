@@ -2,21 +2,12 @@
 @import '~@material/elevation/mdc-elevation';
 @import '~@material/layout-grid/mdc-layout-grid';
 
-.back, .home, .speakers .mdc-list-item {
-  cursor: pointer;
-}
-
 .deck-content {
   padding: 8px;
 }
 
-
 .item {
   margin: 0.5em 0;
-}
-
-.mdc-layout-grid__cell {
-  z-index: 10;
 }
 
 .mdc-card, .mdc-elevation--z1 {

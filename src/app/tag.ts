@@ -5,3 +5,9 @@ export interface Tag {
   primaryColor: Color;
   complementaryColor: Color;
 }
+
+export interface TagSelectionEvent {
+  id: string;
+  selected: boolean;
+  updatePath: boolean;
+}

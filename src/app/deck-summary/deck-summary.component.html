@@ -4,16 +4,11 @@
     <h1 class="card__title mdc-typography--headline6" (click)="goToDeck()">{{deck.title}}</h1>
   </section>
   <section class="card__secondary">
-    <app-tags [tagIds]="deck.tags" [currentTags]="currentTags"></app-tags>
+    <app-tags [currentTags]="deck.tags"></app-tags>
   </section>
-  <section class="card__secondary mdc-typography--body2">
-    {{deck.description}}
-  </section>
+  <section class="card__secondary mdc-typography--body2">{{deck.description}}</section>
   <app-map [location$]="of(deck.location)"></app-map>
   <section #actions class="mdc-card__actions">
-    <app-card-action [text]="'Details'"
-                     [url]="url"
-                     [blank]="false">
-    </app-card-action>
+    <app-card-action [text]="'Details'" [url]="url" [blank]="false"></app-card-action>
   </section>
 </div>

@@ -1,6 +1,9 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu/index';
 import { MDCRipple } from '@material/ripple/index';
+import { Observable } from 'rxjs';
+import { Theme } from '../color';
+import { DataService } from '../data.service';
 
 interface ShareOptions {
   title: string;
@@ -30,15 +33,17 @@ declare global {
   styleUrls: ['./share.component.scss']
 })
 export class ShareComponent implements AfterViewInit {
+  constructor(private dataService: DataService) {
+    this.theme$ = this.dataService.theme$;
+  }
+
+  theme$: Observable<Theme>;
+
   private menu!: Menu;
 
   @ViewChild('fabEl') fabEl!: ElementRef;
   @ViewChild('menuEl') menuEl!: ElementRef;
   @Input() text = '';
-  @Input() colors = {
-    backgroundColor: '#e91e63',
-    color: '#fff'
-  };
 
   private services: { [key: string]: () => string } = {
     twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText()} ${this.shareUrl()}`,

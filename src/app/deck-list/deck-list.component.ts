@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
+import { map, switchMap, tap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 
@@ -9,40 +9,37 @@ import { Deck } from '../deck';
   selector: 'app-deck-list',
   templateUrl: './deck-list.component.html',
   styleUrls: ['./deck-list.component.scss'],
-  providers: [DataService],
 })
-
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
               private route: ActivatedRoute) {
-    this.decks$ = this.dataService.decks$;
+    this.dataService.resetTheme();
+    this.selectedTagIds$ = this.dataService.selectedTagIds$;
+    this.decks$ = this.dataService.filterDecks$(this.selectedTagIds$);
   }
 
-  decks$: Observable<Deck>;
-  decks: Deck[] = [];
-  currentTags: string[] = [];
-  tags: string[] = [];
-  hasDecks = true;
+  selectedTagIds$: Observable<string[]>;
+  decks$: Observable<Deck[]>;
 
-  ngOnInit(): void {
-    this.route.paramMap
-      .pipe(switchMap((params: ParamMap) => {
-          this.triggerScroll();
-          return Promise.resolve(params.get('tags'));
-        }))
-      .subscribe(tags => {
-        this.currentTags = tags ? tags.split(',') : [];
-        this.setHasDecks();
-      });
+  ngOnInit() {
+    this.route.paramMap.pipe(
+      map(params => params.get('id')),
+      switchMap(id => this.dataService.deck$(id)),
+    );
 
-    this.decks$.subscribe(deck => this.decks.push(deck));
+    this.route.paramMap.pipe(
+      map(params => params.get('tags')),
+      tap(() => this.triggerScroll()),
+    ).subscribe(tags => {
+      if (tags) {
+        tags.split(',').map(tag => {
+          this.dataService.tagSelection({ id: tag, selected: true, updatePath: false });
+        });
+      }
+    });
   }
 
-  triggerScroll(): void {
+  private triggerScroll(): void {
     window.dispatchEvent(new Event('scroll'));
-  }
-
-  setHasDecks(): void {
-    this.hasDecks = true;
   }
 }

@@ -1,7 +1,3 @@
 <div #tagsEl class="mdc-chip-set mdc-chip-set--filter">
-  <app-tag *ngFor="let tag of tags | async"
-           [tag]="tag"
-           [set]="this"
-           [raised]="isRaised(tag.id)">
-  </app-tag>
+  <app-tag *ngFor="let tag of tags$ | async" [tag]="tag"></app-tag>
 </div>

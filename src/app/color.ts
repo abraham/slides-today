@@ -1,8 +1,18 @@
+export const DEFAULT_THEME = {
+  color: '#000',
+  backgroundColor: 'rgb(255, 152, 0)',
+};
+
 export interface Color {
   r: number;
   g: number;
   b: number;
   a?: number;
+}
+
+export  interface Theme {
+  color: string;
+  backgroundColor: string;
 }
 
 export function rgb(color: Color) {

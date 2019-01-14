@@ -1,9 +1,9 @@
 import { Location } from '@angular/common';
 import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
-import { ActivatedRoute, ParamMap, Router } from '@angular/router';
-import { of } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
-import { rgb } from '../color';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Observable, of } from 'rxjs';
+import { map, switchMap } from 'rxjs/operators';
+import { rgb, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
@@ -13,57 +13,50 @@ import { Tag } from '../tag';
   selector: 'app-deck-details',
   templateUrl: './deck-details.component.html',
   styleUrls: ['./deck-details.component.scss'],
-  providers: [DataService],
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
-
   constructor(private dataService: DataService,
               private route: ActivatedRoute,
               private location: Location,
-              private router: Router) { }
+              private router: Router) {
+    this.deck$ = this.route.paramMap.pipe(
+      map(params => params.get('id')),
+      switchMap(id => this.dataService.deck$(id)),
+    );
+    this.primaryTag$ = this.deck$.pipe(
+      switchMap(deck => this.dataService.tag$(deck.tags[0])),
+    );
+
+    this.primaryTag$.subscribe(this.setColors.bind(this));
+    this.deck$.subscribe(this.init.bind(this));
+    this.theme$ = this.dataService.theme$;
+  }
 
   @Input() deck: Deck;
-  @Output() onColorsChange = new EventEmitter<{ color: string, backgroundColor: string }>();
+  @Output() onColorsChange = new EventEmitter<Theme>();
   @ViewChild('detailsEl') detailsEl;
 
+  showBack = true; // Show back button in app bar
+  title = ''; // Clear site title
+  deck$: Observable<Deck>;
+  theme$: Observable<Theme>;
   of = of;
-  currentTags: string[] = [];
-  primaryTag: Tag;
-  title = '';
+  primaryTag$: Observable<Tag>;
   defaultImage = '/assets/img/default.png';
   mapUrl: string;
   embeds: Link[];
   embedWidth: number;
-  colors: { color: string, backgroundColor: string };
+  colors: {
+    color: string,
+    backgroundColor: string,
+  };
 
   ngOnInit() {
     window.scrollTo(0, 0);
-    this.route.paramMap
-      .pipe(switchMap((params: ParamMap) => {
-          return Promise.all([
-            this.dataService.deck$(params.get('id')).toPromise(),
-            this.dataService.tags$.toPromise(),
-          ]);
-        }))
-      .subscribe(([deck, tags]) => {
-        this.deck = deck;
-        this.primaryTag = tags.find(tag => tag.id === this.deck.tags[0]);
-        this.setColors();
-        this.setEmbeds();
-      });
   }
 
   ngAfterContentChecked() {
     this.setEmbedWidth();
-  }
-
-  columnWidth(): number {
-    const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
-    if (width >= 640) {
-      return width / 2;
-    } else {
-      return width;
-    }
   }
 
   goBack(): void {
@@ -78,22 +71,37 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     window.open(url);
   }
 
-  setColors(): void {
-    this.colors = {
-      backgroundColor: rgb(this.primaryTag.primaryColor),
-      color: rgb(this.primaryTag.complementaryColor),
-    };
-    this.onColorsChange.emit(this.colors);
+  private init(deck: Deck) {
+    this.setEmbedWidth();
+    this.setEmbeds(deck);
   }
 
-  setEmbedWidth(): void {
+  private columnWidth(): number {
+    if (!this.detailsEl) { return; }
+    const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
+    if (width >= 640) {
+      return width / 2;
+    } else {
+      return width;
+    }
+  }
+
+  private setColors(tag: Tag): void {
+    const theme = {
+      backgroundColor: rgb(tag.primaryColor),
+      color: rgb(tag.complementaryColor),
+    };
+    this.dataService.theme$.next(theme);
+  }
+
+  private setEmbedWidth(): void {
     if (this.embedWidth !== this.columnWidth()) {
       this.embedWidth = this.columnWidth();
     }
   }
 
-  setEmbeds(): void {
+  private setEmbeds(deck: Deck): void {
     const embedServices = ['youtube', 'google-slides', 'vimeo'];
-    this.embeds = this.deck.links.filter(link => embedServices.includes(link.service));
+    this.embeds = deck.links.filter(link => embedServices.includes(link.service));
   }
 }
