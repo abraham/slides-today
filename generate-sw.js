@@ -22,7 +22,7 @@ const input = {
       handler: 'cacheFirst',
       options: {
         cacheName: 'runtime-maps',
-        cacheExpiration: {
+        expiration: {
           maxAgeSeconds: 24 * 60 * 60,
         },
         cacheableResponse: {statuses: [0, 200]}
@@ -33,7 +33,7 @@ const input = {
       handler: 'cacheFirst',
       options: {
         cacheName: 'runtime-fonts',
-        cacheExpiration: {
+        expiration: {
           maxAgeSeconds: 24 * 60 * 60,
         },
         cacheableResponse: {statuses: [0, 200]}
@@ -44,7 +44,7 @@ const input = {
       handler: 'cacheFirst',
       options: {
         cacheName: 'runtime-scripts',
-        cacheExpiration: {
+        expiration: {
           maxAgeSeconds: 24 * 60 * 60,
         },
         cacheableResponse: {statuses: [0, 200]}
@@ -55,7 +55,7 @@ const input = {
       handler: 'cacheFirst',
       options: {
         cacheName: 'runtime-data',
-        cacheExpiration: {
+        expiration: {
           maxAgeSeconds: 24 * 60 * 60,
         },
         cacheableResponse: {statuses: [0, 200]}
@@ -66,17 +66,20 @@ const input = {
       handler: 'cacheFirst',
       options: {
         cacheName: 'runtime-images',
-        cacheExpiration: {
+        expiration: {
           maxAgeSeconds: 24 * 60 * 60,
         },
         cacheableResponse: {statuses: [0, 200]}
       }
     },
   ],
-  handleFetch: true,
   maximumFileSizeToCacheInBytes: 4000000
 };
 
-workboxBuild.generateSW(input).then(() => {
-  console.log('The production service worker has been injected with a precache list.');
-});
+workboxBuild.generateSW(input)
+  .then(() => {
+    console.log('The production service worker has been injected with a precache list.');
+  }).catch(error => {
+    console.log(error);
+    process.exit(1);
+  });
