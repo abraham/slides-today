@@ -36,6 +36,67 @@
     ]
   },
   {
+    "id": "-LW8yUIFeLq7Yk3PpbXl",
+    "archived": false,
+    "nodePackages": ["rxjs"],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "Intro to RxJS",
+    "date": {
+      "start": "2019-01-14T00:00:00.000Z",
+      "end": "2019-01-14T00:00:00.000Z"
+    },
+    "description": "Callbacks got you down? Try reactive programming with RxJS to handle sequences of asynchronous events cleanly. Learn how to work with streams and perform function operations on events. We'll look at some common use-cases and a real world implementation in Angular.",
+    "eventTitle": "MadJS",
+    "tags": [
+      "javascript"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzcbsb/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "RxJS",
+        "url": "https://rxjs.dev/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "RxJS Marbles",
+        "url": "http://rxmarbles.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Learn RxJS",
+        "url": "https://www.learnrxjs.io",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Build Reactive Websites with RxJS",
+        "url": "https://pragprog.com/book/rkrxjs/build-reactive-websites-with-rxjs",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1084265618508075009",
+      "1084625752929128448"
+    ]
+  },
+  {
     "id": "-LP90xu1JfaAgTCyhC3D",
     "archived": false,
     "nodePackages": [
