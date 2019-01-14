@@ -77,6 +77,10 @@ const input = {
   maximumFileSizeToCacheInBytes: 4000000
 };
 
-workboxBuild.generateSW(input).then(() => {
-  console.log('The production service worker has been injected with a precache list.');
-});
+workboxBuild.generateSW(input)
+  .then(() => {
+    console.log('The production service worker has been injected with a precache list.');
+  }).catch(error => {
+    console.log(error);
+    process.exit(1);
+  });
