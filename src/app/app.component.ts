@@ -1,9 +1,7 @@
-import { Component, ViewChild } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component } from '@angular/core';
 import { RoutedComponents } from './app-routing.module';
 import { Theme } from './color';
 import { DataService } from './data.service';
-import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -16,16 +14,19 @@ export class AppComponent {
   }
 
   defaultTitle = 'Slides.today';
+  showBack = true;
   title = this.defaultTitle;
-  fixed = true;
-
-  @ViewChild('headerEl') headerEl!: HeaderComponent;
 
   onActivate(event: RoutedComponents): void {
     if ('title' in event) {
       this.title = event.title;
     } else {
       this.title = this.defaultTitle;
+    }
+    if ('showBack' in event) {
+      this.showBack = event.showBack;
+    } else {
+      this.showBack = false;
     }
   }
 

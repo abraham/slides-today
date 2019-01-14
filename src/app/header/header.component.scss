@@ -1,21 +1,5 @@
-@import '~@material/toolbar/mdc-toolbar';
+@import '~@material/top-app-bar/mdc-top-app-bar';
 
-.mdc-toolbar__title {
-  cursor: pointer;
-}
-
-.mdc-layout {
-  color: white;
-}
-
-.mdc-toolbar--details {
+.mdc-top-app-bar {
   transition: background-color 400ms, height 400ms, position 400ms !important;
-  height: 256px;
-  position: absolute;
-}
-
-header.mdc-toolbar--home {
-  transition: background-color 400ms, height 400ms, position 400ms !important;
-  height: inherit;
-  position: fixed;
 }

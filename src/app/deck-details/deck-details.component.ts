@@ -39,6 +39,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   @Output() onColorsChange = new EventEmitter<Theme>();
   @ViewChild('detailsEl') detailsEl;
 
+  showBack = true; // Show back button in app bar
   title = ''; // Clear site title
   deck$: Observable<Deck>;
   theme$: Observable<Theme>;
@@ -79,7 +80,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private columnWidth(): number {
-    console.log('DeckDetails.columnWidth', this.detailsEl);
     if (!this.detailsEl) { return; }
     const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
     if (width >= 640) {
@@ -90,7 +90,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setColors(tag: Tag): void {
-    console.log('DeckDetails.setColors', tag, this);
     const theme = {
       backgroundColor: rgb(tag.primaryColor),
       color: rgb(tag.complementaryColor),

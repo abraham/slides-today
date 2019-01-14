@@ -1,6 +1,7 @@
+import { Location } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCToolbar } from '@material/toolbar/index';
+import { MDCTopAppBar } from '@material/top-app-bar/index';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
 import { DataService } from '../data.service';
@@ -12,6 +13,7 @@ import { DataService } from '../data.service';
 })
 export class HeaderComponent implements AfterViewInit {
   constructor(private dataService: DataService,
+              private location: Location,
               private router: Router) {
     this.theme$ = this.dataService.theme$;
   }
@@ -19,30 +21,10 @@ export class HeaderComponent implements AfterViewInit {
   theme$: Observable<Theme>;
 
   @Input() title!: string;
-  @Input() fixed = true;
-  @ViewChild('toolbarFixedEl') toolbarFixedEl!: ElementRef;
-  @ViewChild('toolbarAdjustEl') toolbarAdjustEl!: ElementRef;
+  @Input() showBack = false;
+  @ViewChild('appBar') appBar!: ElementRef;
 
-  private toolbar?: MDCToolbar;
-  private defaultClasses = `
-    mdc-toolbar--fixed
-    mdc-toolbar--flexible
-    mdc-toolbar--flexible-default-behavior
-    mdc-toolbar--flexible-space-maximized
-    mdc-toolbar--home
-    mdc-toolbar--waterfall
-  `;
-  public classes = this.defaultClasses;
-
-  transitionToDetails(): void {
-    this.toolbarAdjustEl.nativeElement.style.display = 'none';
-    this.classes = 'mdc-toolbar--details';
-  }
-
-  transitionToHome(): void {
-    this.toolbarAdjustEl.nativeElement.style.display = 'block';
-    this.classes = this.defaultClasses;
-  }
+  private toolbar?: MDCTopAppBar;
 
   ngAfterViewInit(): void {
     this.initToolbar();
@@ -54,7 +36,14 @@ export class HeaderComponent implements AfterViewInit {
   }
 
   initToolbar(): void {
-    this.toolbar = new MDCToolbar(this.toolbarFixedEl.nativeElement);
-    this.toolbar.fixedAdjustElement = this.toolbarAdjustEl.nativeElement;
+    this.toolbar = new MDCTopAppBar(this.appBar.nativeElement);
+  }
+
+  goBack(): void {
+    if (window.history.length > 1) {
+      this.location.back();
+    } else {
+      this.router.navigate(['/']);
+    }
   }
 }
