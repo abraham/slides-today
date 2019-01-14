@@ -51,7 +51,8 @@
     "description": "Callbacks got you down? Try reactive programming with RxJS to handle sequences of asynchronous events cleanly. Learn how to work with streams and perform function operations on events. We'll look at some common use-cases and a real world implementation in Angular.",
     "eventTitle": "MadJS",
     "tags": [
-      "javascript"
+      "javascript",
+      "typescript"
     ],
     "location": "Madison, WI",
     "links": [
@@ -60,6 +61,12 @@
         "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzcbsb/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1JjD4QTS80RR3-QbCRscxuGWxgjmO1_wRS5_upl0Is8Y",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [
@@ -86,6 +93,18 @@
         "url": "https://pragprog.com/book/rkrxjs/build-reactive-websites-with-rxjs",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "StackBlitz",
+        "url": "https://stackblitz.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Convert Slides.today to RxJS",
+        "url": "https://github.com/abraham/slides-today/pull/342",
+        "useAsTag": false,
+        "service": "external"
       }
     ],
     "sponsorIds": [
@@ -93,7 +112,8 @@
     ],
     "tweetIds": [
       "1084265618508075009",
-      "1084625752929128448"
+      "1084625752929128448",
+      "1084903751012495360"
     ]
   },
   {
