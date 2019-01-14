@@ -7,3 +7,7 @@
 .mdc-top-app-bar__row {
   transition: height 400ms !important;
 }
+
+.header-adjust {
+  transition: padding-top 400ms;
+}
