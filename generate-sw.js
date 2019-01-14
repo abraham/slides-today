@@ -1,6 +1,7 @@
-const workboxBuild = require('workbox-build');
-const SRC_DIR = 'src';
+const { generateSW } = require('workbox-build');
+
 const BUILD_DIR = 'dist/slides-today';
+const CHANNEL_NAME = 'precache-updates';
 
 const input = {
   swDest: `${BUILD_DIR}/sw.js`,
@@ -76,9 +77,9 @@ const input = {
   maximumFileSizeToCacheInBytes: 4000000
 };
 
-workboxBuild.generateSW(input)
-  .then(() => {
-    console.log('The production service worker has been injected with a precache list.');
+generateSW(input)
+  .then(({count, size}) => {
+    console.log(`Generated ${input.swDest}, which will precache ${count} files, totaling ${size} bytes.`);
   }).catch(error => {
     console.log(error);
     process.exit(1);
