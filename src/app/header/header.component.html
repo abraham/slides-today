@@ -1,4 +1,6 @@
-<header #appBar class="mdc-top-app-bar mdc-top-app-bar--prominent mdc-top-app-bar--fixed" [ngStyle]="theme$ | async">
+<header #appBar
+        [className]="showBack ? 'mdc-top-app-bar mdc-top-app-bar--fixed' : 'mdc-top-app-bar mdc-top-app-bar--fixed mdc-top-app-bar--prominent'"
+        [ngStyle]="theme$ | async">
   <div class="mdc-top-app-bar__row">
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
       <a *ngIf="showBack" (click)="goBack()" class="mdc-top-app-bar__navigation-icon back" title="back">
@@ -9,4 +11,4 @@
   </div>
 </header>
 
-<div class="mdc-top-app-bar--prominent-fixed-adjust"></div>
+<div [className]="showBack ? 'mdc-top-app-bar--fixed-adjust' : 'mdc-top-app-bar--prominent-fixed-adjust'"></div>
