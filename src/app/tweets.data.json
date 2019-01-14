@@ -31238,5 +31238,138 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1084903751012495360": {
+    "created_at": "Mon Jan 14 20:03:05 +0000 2019",
+    "id": 1084903751012495400,
+    "id_str": "1084903751012495360",
+    "full_text": "@stackblitz is amazing. I'm using it for all the #rxjs examples for tonight's @MadJavaScript.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      93
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "rxjs",
+          "indices": [
+            49,
+            54
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "stackblitz",
+          "name": "StackBlitz",
+          "id": 2279695508,
+          "id_str": "2279695508",
+          "indices": [
+            0,
+            11
+          ]
+        },
+        {
+          "screen_name": "MadJavaScript",
+          "name": "MadJS",
+          "id": 458405320,
+          "id_str": "458405320",
+          "indices": [
+            78,
+            92
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 2279695508,
+    "in_reply_to_user_id_str": "2279695508",
+    "in_reply_to_screen_name": "stackblitz",
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                109,
+                132
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9001,
+      "friends_count": 763,
+      "listed_count": 603,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 25684,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 48726,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
   }
 }
