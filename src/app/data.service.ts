@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
-import { map, scan, tap } from 'rxjs/operators';
+import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
 import { DEFAULT_THEME, Theme } from './color';
 import { Deck } from './deck';
 import deckData from './decks.data.json';
@@ -18,9 +18,7 @@ export class DataService {
   constructor() {
     this.tagSelection$.pipe(
       scan<TagSelectionEvent, string[]>(this.updateSelectedTagIds.bind(this), []),
-      tap(selections => console.log('DataService.constructor.selections', selections)),
     ).subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
-
     this.tags$.next(tagData);
   }
 
@@ -32,12 +30,23 @@ export class DataService {
 
   private tagSelection$ = new Subject<TagSelectionEvent>();
 
+  public get path$(): Observable<string[]> {
+    return combineLatest(
+      this.tagSelection$,
+      this.selectedTagIds$,
+    ).pipe(
+      share(),
+      filter(([selection, _selectedTagIds]) => selection.updatePath),
+      map(([_selection, selectedTagIds]) => selectedTagIds),
+      distinctUntilChanged(equalArray),
+    );
+  }
+
   public resetTheme() {
     this.theme$.next(DEFAULT_THEME);
   }
 
   public tagSelection(event: TagSelectionEvent) {
-    console.log('DataService.tagSelection', event);
     this.tagSelection$.next(event);
   }
 
@@ -50,8 +59,6 @@ export class DataService {
       this.decks$,
       selectedTagIds$,
       this.filterDecks,
-    ).pipe(
-      tap(thing => console.log('DataService.filterDecks$1', thing)),
     );
   }
 
@@ -95,4 +102,11 @@ export class DataService {
 
 function unique(values: string[]): string[] {
   return [...new Set(values)];
+}
+
+function equalArray(array1: string[], array2: string[]) {
+  return array1.length === array2.length &&
+    array1.sort().every((value, index) => {
+      return value === array2.sort()[index];
+    });
 }

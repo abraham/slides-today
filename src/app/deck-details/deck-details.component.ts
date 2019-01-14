@@ -2,7 +2,7 @@ import { Location } from '@angular/common';
 import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
-import { map, switchMap, tap } from 'rxjs/operators';
+import { map, switchMap } from 'rxjs/operators';
 import { rgb, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
@@ -20,14 +20,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
               private location: Location,
               private router: Router) {
     this.deck$ = this.route.paramMap.pipe(
-      tap((thing) => console.log('DeckDetailsComponent.ctor.id1', thing.get('id'))),
       map(params => params.get('id')),
       switchMap(id => this.dataService.deck$(id)),
-      tap((thing) => console.log('DeckDetailsComponent.ctor.id2', thing)),
     );
     this.primaryTag$ = this.deck$.pipe(
       switchMap(deck => this.dataService.tag$(deck.tags[0])),
-      tap((thing) => console.log('DeckDetailsComponent.ctor.id3', thing)),
     );
 
     this.primaryTag$.subscribe(this.setColors.bind(this));

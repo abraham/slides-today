@@ -51,7 +51,8 @@ export class TagComponent implements OnInit {
   private emitTagSelection(event: ChipSelectionEvent) {
     this.dataService.tagSelection({
       id: event.target.dataset.id,
-      selected: event.detail.selected
+      selected: event.detail.selected,
+      updatePath: true,
     });
   }
 

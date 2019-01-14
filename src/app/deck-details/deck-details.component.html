@@ -29,7 +29,7 @@
 
           <ng-template ngFor let-embed [ngForOf]="embeds">
             <div class="item">
-              <app-embed [width]="embedWidth" [link]="embed" [title]="deck.title" [colors]="colors"></app-embed>
+              <app-embed [width]="embedWidth" [link]="embed" [title]="deck.title" [colors]="theme$ | async"></app-embed>
             </div>
           </ng-template>
 

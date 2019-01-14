@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { RoutedComponents } from './app-routing.module';
 import { Theme } from './color';
 import { DataService } from './data.service';
@@ -9,8 +10,10 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService,
+              private router: Router) {
     this.dataService.theme$.subscribe(this.setThemeColor.bind(this));
+    this.dataService.path$.subscribe(this.updatePath.bind(this));
   }
 
   defaultTitle = 'Slides.today';
@@ -36,5 +39,13 @@ export class AppComponent {
 
   private get themeEl() {
     return document.querySelector('meta[name="theme-color"]');
+  }
+
+  private updatePath(tagIds: string[]) {
+    if (tagIds.length === 0) {
+      this.router.navigate(['/']);
+    } else {
+      this.router.navigate(['/tags', { tags: tagIds }]);
+    }
   }
 }

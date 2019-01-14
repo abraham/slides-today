@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
+import { map, switchMap, tap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 
@@ -10,7 +10,6 @@ import { Deck } from '../deck';
   templateUrl: './deck-list.component.html',
   styleUrls: ['./deck-list.component.scss'],
 })
-
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
               private route: ActivatedRoute) {
@@ -22,20 +21,25 @@ export class DeckListComponent implements OnInit {
   selectedTagIds$: Observable<string[]>;
   decks$: Observable<Deck[]>;
 
-  ngOnInit(): void {
-    this.route.paramMap
-      .pipe(switchMap((params: ParamMap) => {
-          this.triggerScroll();
-          return Promise.resolve(params.get('tags'));
-        }))
-      .subscribe(tags => {
-        // this.currentTags = tags ? tags.split(',') : [];
-        // this.setHasDecks();
-      });
+  ngOnInit() {
+    this.route.paramMap.pipe(
+      map(params => params.get('id')),
+      switchMap(id => this.dataService.deck$(id)),
+    );
 
+    this.route.paramMap.pipe(
+      map(params => params.get('tags')),
+      tap(() => this.triggerScroll()),
+    ).subscribe(tags => {
+      if (tags) {
+        tags.split(',').map(tag => {
+          this.dataService.tagSelection({ id: tag, selected: true, updatePath: false });
+        });
+      }
+    });
   }
 
-  triggerScroll(): void {
+  private triggerScroll(): void {
     window.dispatchEvent(new Event('scroll'));
   }
 }
