@@ -31371,5 +31371,427 @@
     "favorited": false,
     "retweeted": false,
     "lang": "en"
+  },
+  "1084977300817539072": {
+    "created_at": "Tue Jan 15 00:55:21 +0000 2019",
+    "id": 1084977300817539100,
+    "id_str": "1084977300817539072",
+    "full_text": "@abraham walking us through RxJs at tonight’s @MadJavaScript meetup! https://t.co/2cW5qhV5vH",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      68
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "MadJavaScript",
+          "name": "MadJS",
+          "id": 458405320,
+          "id_str": "458405320",
+          "indices": [
+            46,
+            60
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1084977295612272600,
+          "id_str": "1084977295612272640",
+          "indices": [
+            69,
+            92
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dw6dGhZVYAAwwfX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dw6dGhZVYAAwwfX.jpg",
+          "url": "https://t.co/2cW5qhV5vH",
+          "display_url": "pic.twitter.com/2cW5qhV5vH",
+          "expanded_url": "https://twitter.com/dotNetkow/status/1084977300817539072/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1084977295612272600,
+          "id_str": "1084977295612272640",
+          "indices": [
+            69,
+            92
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dw6dGhZVYAAwwfX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dw6dGhZVYAAwwfX.jpg",
+          "url": "https://t.co/2cW5qhV5vH",
+          "display_url": "pic.twitter.com/2cW5qhV5vH",
+          "expanded_url": "https://twitter.com/dotNetkow/status/1084977300817539072/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 114582988,
+      "id_str": "114582988",
+      "name": "Matt Netkow",
+      "screen_name": "dotNetkow",
+      "location": "Madison WI | Chicago IL",
+      "description": "Sr Product Evangelist @IonicFramework. @Pluralsight Author, Entrepreneur @Fitwatchr & @BeerSwift. @SlalomSeattle alum. Love heavy metal 🤘, hiking🥾,🍺, horror 😈",
+      "url": "https://t.co/j4iXoXHSwJ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/j4iXoXHSwJ",
+              "expanded_url": "https://bit.ly/PGBFundamentals",
+              "display_url": "bit.ly/PGBFundamentals",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 879,
+      "friends_count": 1304,
+      "listed_count": 66,
+      "created_at": "Mon Feb 15 22:33:20 +0000 2010",
+      "favourites_count": 1474,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5489,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/741738487586529282/uRtQ2hdf_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/741738487586529282/uRtQ2hdf_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/114582988/1525190296",
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1084984591201550336": {
+    "created_at": "Tue Jan 15 01:24:19 +0000 2019",
+    "id": 1084984591201550300,
+    "id_str": "1084984591201550336",
+    "full_text": "Learning about RxJS from @abraham at @MadJavaScript. https://t.co/iZow8HfDHl",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      52
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            25,
+            33
+          ]
+        },
+        {
+          "screen_name": "MadJavaScript",
+          "name": "MadJS",
+          "id": 458405320,
+          "id_str": "458405320",
+          "indices": [
+            37,
+            51
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1084984578316685300,
+          "id_str": "1084984578316685312",
+          "indices": [
+            53,
+            76
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
+          "url": "https://t.co/iZow8HfDHl",
+          "display_url": "pic.twitter.com/iZow8HfDHl",
+          "expanded_url": "https://twitter.com/jthoms1/status/1084984591201550336/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1084984578316685300,
+          "id_str": "1084984578316685312",
+          "indices": [
+            53,
+            76
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
+          "url": "https://t.co/iZow8HfDHl",
+          "display_url": "pic.twitter.com/iZow8HfDHl",
+          "expanded_url": "https://twitter.com/jthoms1/status/1084984591201550336/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 15965108,
+      "id_str": "15965108",
+      "name": "Josh Thomas",
+      "screen_name": "jthoms1",
+      "location": "Madison, WI",
+      "description": "Dev at @Ionicframework working on @stenciljs. In Madison, previously Provo, St. Louis, and So Illinois. JS, FP and APIs. Organizer of @madjavascript.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1324,
+      "friends_count": 738,
+      "listed_count": 89,
+      "created_at": "Sun Aug 24 03:09:47 +0000 2008",
+      "favourites_count": 14527,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5928,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1059563199886848001/tiMPEjsr_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1059563199886848001/tiMPEjsr_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/15965108/1541454731",
+      "profile_link_color": "465B9B",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": {
+      "type": "Point",
+      "coordinates": [
+        43.073644,
+        -89.3872852
+      ]
+    },
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        -89.3872852,
+        43.073644
+      ]
+    },
+    "place": {
+      "id": "07d9cd8314c80003",
+      "url": "https://api.twitter.com/1.1/geo/id/07d9cd8314c80003.json",
+      "place_type": "poi",
+      "name": "Madison Public Library - Interim",
+      "full_name": "Madison Public Library - Interim",
+      "country_code": "US",
+      "country": "United States",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.38429049712803,
+              43.072554200101024
+            ],
+            [
+              -89.38429049712803,
+              43.072554200101024
+            ],
+            [
+              -89.38429049712803,
+              43.072554200101024
+            ],
+            [
+              -89.38429049712803,
+              43.072554200101024
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
