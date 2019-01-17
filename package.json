@@ -72,7 +72,7 @@
     "ts-node": "7.0.1",
     "tslint": "5.12.1",
     "twit": "2.2.11",
-    "typescript": "3.2.2",
+    "typescript": "3.2.4",
     "workbox-build": "3.6.3",
     "workbox-sw": "3.6.3"
   }
