@@ -3,7 +3,9 @@
     "id": "-LWX8wc1lU2-uNoK785K",
     "archived": false,
     "nodePackages": [],
-    "githubRepos": [],
+    "githubRepos": [
+      "flutter/flutter"
+    ],
     "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
@@ -28,13 +30,101 @@
         "service": "external"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Flutter",
+        "url": "https://flutter.io",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
     "tweetIds": [
       "1083774559768248320",
       "1086315553269211137"
+    ]
+  },
+  {
+    "id": "-LWXRvwKF9eB48Ilzfbz",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "It’s a Wonderful Web",
+    "date": {
+      "start": "2019-02-02T00:00:00.000Z",
+      "end": "2019-02-02T00:00:00.000Z"
+    },
+    "description": "The web is a wonderful platform offering a dizzying number of APIs and features that you can leverage in your apps. Come learn about the coolest current and upcoming web APIs you've never heard of. We'll show you some new ways to use the platform and give you a peek at some developing standards.",
+    "eventTitle": "DevFestMN",
+    "tags": [
+      "javascript"
+    ],
+    "location": "Minneapolis, MN",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://devfest.mn/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1086345626160431105"
+    ]
+  },
+  {
+    "id": "-LWXQLgSyqqSBxVr5Wo0",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [
+      "flutter/flutter"
+    ],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Get Flapping With Flutter",
+    "date": {
+      "start": "2019-02-02T00:00:00.000Z",
+      "end": "2019-02-02T00:00:00.000Z"
+    },
+    "description": "Flutter is a new tool from Google that allows you to quickly create beautiful native apps for iOS and Android from a single codebase. We'll take you on a tour of Flutter, highlighting its extensive widget library and tools for speedy development. We'll show you how Flutter works, how it compares with other cross-platform frameworks, and how to create and test Flutter apps.",
+    "eventTitle": "DevFestMN",
+    "tags": [
+      "flutter"
+    ],
+    "location": "Minneapolis, MN",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://devfest.mn/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Flutter",
+        "url": "https://flutter.io",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1086345173624328193"
     ]
   },
   {
