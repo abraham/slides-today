@@ -1,5 +1,43 @@
 [
   {
+    "id": "-LWX8wc1lU2-uNoK785K",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Get Flapping With Flutter",
+    "date": {
+      "start": "2019-06-05T00:00:00.000Z",
+      "end": "2019-06-07T00:00:00.000Z"
+    },
+    "description": "Flutter is a new tool from Google that allows you to quickly create beautiful native apps for iOS and Android from a single codebase. We'll take attendees on a tour of Flutter, highlighting its extensive widget library and tools for speedy development. We'll show attendees how Flutter works, how it compares with other cross-platform frameworks, and how to create and test Flutter apps.",
+    "eventTitle": "REFACTR.TECH",
+    "tags": [
+      "flutter",
+      "workshop"
+    ],
+    "location": "Atlanta, GA",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://refactr.tech",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1083774559768248320",
+      "1086315553269211137"
+    ]
+  },
+  {
     "id": "-LVjycv296-Ko3q8LfI6",
     "archived": false,
     "nodePackages": [],
