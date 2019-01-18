@@ -26,8 +26,8 @@ export class Deck {
 
   constructor(data: any) {
     this._date = {
-      start: dayjs(data.date.start),
-      end: dayjs(data.date.end)
+      start: dayjs(data.date.start).add(1, 'day'),
+      end: dayjs(data.date.end).add(1, 'day')
     };
     this.archived = data.archived;
     this.description = data.description;
