@@ -47,6 +47,44 @@
     ]
   },
   {
+    "id": "-LWvdW63XDtQujh8U7XY",
+    "archived": false,
+    "nodePackages": [
+      "actions-on-google"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "See your Action on Google in action",
+    "date": {
+      "start": "2019-02-09T00:00:00.000Z",
+      "end": "2019-02-09T00:00:00.000Z"
+    },
+    "description": "Virtual personal assistants aren't just about voice; learn how to use visuals on devices like watches and car displays to differentiate your app. Take your app to the next level and start including, images, carousels, and even tables in your responses. We'll cover how to know what features your user's device supports and best practices adding rich visuals and interactions to you Actions on Google app.",
+    "eventTitle": "DevFest KC",
+    "tags": [
+      "actionsongoogle",
+      "firebase"
+    ],
+    "location": "Kansas City, MO",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://devfestkc.com/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1088108103374114817"
+    ]
+  },
+  {
     "id": "-LWXRvwKF9eB48Ilzfbz",
     "archived": false,
     "nodePackages": [],
