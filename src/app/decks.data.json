@@ -166,6 +166,52 @@
     ]
   },
   {
+    "id": "-LX-BBFrNGjo4laRZuHU",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [
+      "flutter/flutter"
+    ],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "Flutter for web developers",
+    "date": {
+      "start": "2019-01-25T00:00:00.000Z",
+      "end": "2019-01-25T00:00:00.000Z"
+    },
+    "description": "Flutter helps you rapidly build native mobile interfaces that look good and have fantastic performance. Flutter is welcoming to web developers, and its widget composition will make you feel right at home. Come learn how to create, debug, and test your first Flutter app.",
+    "eventTitle": "SFHTML5",
+    "tags": [
+      "flutter",
+      "javascript"
+    ],
+    "location": "San Francisco, CA",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/sfhtml5/events/256523273/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Flutter",
+        "url": "https://flutter.io",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+      "1088438092699222016"
+    ]
+  },
+  {
     "id": "-LVjycv296-Ko3q8LfI6",
     "archived": false,
     "nodePackages": [],
