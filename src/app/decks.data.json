@@ -201,6 +201,18 @@
         "url": "https://flutter.io",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "A Month of Flutter",
+        "url": "https://bendyworks.com/blog/a-month-of-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Directory",
+        "url": "https://flutter.directory",
+        "useAsTag": false,
+        "service": "external"
       }
     ],
     "sponsorIds": [
@@ -208,7 +220,8 @@
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
     "tweetIds": [
-      "1088438092699222016"
+      "1088438092699222016",
+      "1088607444689801216"
     ]
   },
   {
