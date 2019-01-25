@@ -193,6 +193,12 @@
         "url": "https://www.meetup.com/sfhtml5/events/256523273/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1TGpn2V0Arrq2S-2Nj732sZdglc0r4SP67VcrzZHGs5M",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [
@@ -211,6 +217,30 @@
       {
         "title": "Flutter Directory",
         "url": "https://flutter.directory",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "It's All Widgets!",
+        "url": "https://itsallwidgets.com",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter Codelabs",
+        "url": "https://flutter.io/docs/codelabs",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter by Example",
+        "url": "https://flutterbyexample.com",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Awesome Flutter",
+        "url": "https://github.com/Solido/awesome-flutter",
         "useAsTag": false,
         "service": "external"
       }
