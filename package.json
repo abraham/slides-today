@@ -69,7 +69,7 @@
     "lite-server": "2.4.0",
     "node-sass": "4.11.0",
     "protractor": "5.4.2",
-    "ts-node": "8.0.1",
+    "ts-node": "8.0.2",
     "tslint": "5.12.1",
     "twit": "2.2.11",
     "typescript": "3.2.4",
