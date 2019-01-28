@@ -33432,16 +33432,16 @@
         }
       },
       "protected": false,
-      "followers_count": 4558,
-      "friends_count": 1089,
+      "followers_count": 4582,
+      "friends_count": 1091,
       "listed_count": 154,
       "created_at": "Mon Apr 30 11:42:46 +0000 2012",
-      "favourites_count": 13312,
+      "favourites_count": 13394,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 9268,
+      "statuses_count": 9313,
       "lang": "en",
       "contributors_enabled": false,
       "is_translator": false,
@@ -33472,7 +33472,1714 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 6,
-    "favorite_count": 36,
+    "favorite_count": 45,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1088974294594408448": {
+    "created_at": "Sat Jan 26 01:37:58 +0000 2019",
+    "id": 1088974294594408400,
+    "id_str": "1088974294594408448",
+    "full_text": ".@abraham is here!! He is going to talk about his #flutter journey as a web dev at @sfhtml5 https://t.co/ArrQbsOCRf",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      91
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "flutter",
+          "indices": [
+            50,
+            58
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            1,
+            9
+          ]
+        },
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            83,
+            91
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1088974289896788000,
+          "id_str": "1088974289896787968",
+          "indices": [
+            92,
+            115
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
+          "url": "https://t.co/ArrQbsOCRf",
+          "display_url": "pic.twitter.com/ArrQbsOCRf",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088974294594408448/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088974289896788000,
+          "id_str": "1088974289896787968",
+          "indices": [
+            92,
+            115
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
+          "url": "https://t.co/ArrQbsOCRf",
+          "display_url": "pic.twitter.com/ArrQbsOCRf",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088974294594408448/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 567162844,
+      "id_str": "567162844",
+      "name": "Nilay Yener",
+      "screen_name": "nlycskn",
+      "location": "",
+      "description": "people first! \n💙 @flutterio @dart_lang #DevRel",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4582,
+      "friends_count": 1091,
+      "listed_count": 154,
+      "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+      "favourites_count": 13394,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9313,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A879A3",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1544035617",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2AD9D",
+      "profile_text_color": "9F4E79",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 18,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1088986530490667008": {
+    "created_at": "Sat Jan 26 02:26:35 +0000 2019",
+    "id": 1088986530490667000,
+    "id_str": "1088986530490667008",
+    "full_text": "This is happening @sfhtml5 is about to start with @abraham @peterlubbers https://t.co/W8tw3c0TTR",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      72
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            18,
+            26
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            50,
+            58
+          ]
+        },
+        {
+          "screen_name": "peterlubbers",
+          "name": "Peter Lubbers",
+          "id": 69380896,
+          "id_str": "69380896",
+          "indices": [
+            59,
+            72
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1088986524098584600,
+          "id_str": "1088986524098584577",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzbeVYVYAEbEKX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzbeVYVYAEbEKX.jpg",
+          "url": "https://t.co/W8tw3c0TTR",
+          "display_url": "pic.twitter.com/W8tw3c0TTR",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088986530490667008/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088986524098584600,
+          "id_str": "1088986524098584577",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzbeVYVYAEbEKX.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzbeVYVYAEbEKX.jpg",
+          "url": "https://t.co/W8tw3c0TTR",
+          "display_url": "pic.twitter.com/W8tw3c0TTR",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088986530490667008/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1088986524094324700,
+          "id_str": "1088986524094324736",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzbeVXUYAAVqxE.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzbeVXUYAAVqxE.jpg",
+          "url": "https://t.co/W8tw3c0TTR",
+          "display_url": "pic.twitter.com/W8tw3c0TTR",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088986530490667008/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1088986524094423000,
+          "id_str": "1088986524094423041",
+          "indices": [
+            73,
+            96
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzbeVXV4AE5vGj.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzbeVXV4AE5vGj.jpg",
+          "url": "https://t.co/W8tw3c0TTR",
+          "display_url": "pic.twitter.com/W8tw3c0TTR",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088986530490667008/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 567162844,
+      "id_str": "567162844",
+      "name": "Nilay Yener",
+      "screen_name": "nlycskn",
+      "location": "",
+      "description": "people first! \n💙 @flutterio @dart_lang #DevRel",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4582,
+      "friends_count": 1091,
+      "listed_count": 154,
+      "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+      "favourites_count": 13394,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9313,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A879A3",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1544035617",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2AD9D",
+      "profile_text_color": "9F4E79",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1088992660054990848": {
+    "created_at": "Sat Jan 26 02:50:57 +0000 2019",
+    "id": 1088992660054990800,
+    "id_str": "1088992660054990848",
+    "full_text": "#flutterio on typewriters? hm🤔 yes if it does have a #RaspberryPi 😛 @abraham is speaking about @flutterio from a web dev’s perspective, showing #Dart vs #TypeScript examples https://t.co/ly8Vdggn7h",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      173
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "flutterio",
+          "indices": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "RaspberryPi",
+          "indices": [
+            53,
+            65
+          ]
+        },
+        {
+          "text": "Dart",
+          "indices": [
+            144,
+            149
+          ]
+        },
+        {
+          "text": "TypeScript",
+          "indices": [
+            153,
+            164
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            68,
+            76
+          ]
+        },
+        {
+          "screen_name": "flutterio",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            95,
+            105
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1088992656934355000,
+          "id_str": "1088992656934354945",
+          "indices": [
+            174,
+            197
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
+          "url": "https://t.co/ly8Vdggn7h",
+          "display_url": "pic.twitter.com/ly8Vdggn7h",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088992660054990848/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088992656934355000,
+          "id_str": "1088992656934354945",
+          "indices": [
+            174,
+            197
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
+          "url": "https://t.co/ly8Vdggn7h",
+          "display_url": "pic.twitter.com/ly8Vdggn7h",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088992660054990848/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1088992656884002800,
+          "id_str": "1088992656884002816",
+          "indices": [
+            174,
+            197
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzhDTyUcAApBcM.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzhDTyUcAApBcM.jpg",
+          "url": "https://t.co/ly8Vdggn7h",
+          "display_url": "pic.twitter.com/ly8Vdggn7h",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088992660054990848/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 567162844,
+      "id_str": "567162844",
+      "name": "Nilay Yener",
+      "screen_name": "nlycskn",
+      "location": "",
+      "description": "people first! \n💙 @flutterio @dart_lang #DevRel",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4582,
+      "friends_count": 1091,
+      "listed_count": 154,
+      "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+      "favourites_count": 13394,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9313,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A879A3",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1544035617",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2AD9D",
+      "profile_text_color": "9F4E79",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1088997210199535617": {
+    "created_at": "Sat Jan 26 03:09:02 +0000 2019",
+    "id": 1088997210199535600,
+    "id_str": "1088997210199535617",
+    "full_text": "Wohoo! @abraham is launching https://t.co/bfGLujaZPN next week - a categorized #flutterio article directory, follow him for the updates! https://t.co/NnwU1zlZtK",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      136
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "flutterio",
+          "indices": [
+            79,
+            89
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            7,
+            15
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/bfGLujaZPN",
+          "expanded_url": "http://flutter.directory",
+          "display_url": "flutter.directory",
+          "indices": [
+            29,
+            52
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1088997206126776300,
+          "id_str": "1088997206126776320",
+          "indices": [
+            137,
+            160
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
+          "url": "https://t.co/NnwU1zlZtK",
+          "display_url": "pic.twitter.com/NnwU1zlZtK",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088997210199535617/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088997206126776300,
+          "id_str": "1088997206126776320",
+          "indices": [
+            137,
+            160
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
+          "url": "https://t.co/NnwU1zlZtK",
+          "display_url": "pic.twitter.com/NnwU1zlZtK",
+          "expanded_url": "https://twitter.com/nlycskn/status/1088997210199535617/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 567162844,
+      "id_str": "567162844",
+      "name": "Nilay Yener",
+      "screen_name": "nlycskn",
+      "location": "",
+      "description": "people first! \n💙 @flutterio @dart_lang #DevRel",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4582,
+      "friends_count": 1091,
+      "listed_count": 154,
+      "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+      "favourites_count": 13394,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9313,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A879A3",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1544035617",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2AD9D",
+      "profile_text_color": "9F4E79",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 29,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1088998295966347266": {
+    "created_at": "Sat Jan 26 03:13:21 +0000 2019",
+    "id": 1088998295966347300,
+    "id_str": "1088998295966347266",
+    "full_text": ".@abraham is doing a #Flutter demo @sfhtml5 https://t.co/rHdY6XXQR8",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      43
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Flutter",
+          "indices": [
+            21,
+            29
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            1,
+            9
+          ]
+        },
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            35,
+            43
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1088998287749767200,
+          "id_str": "1088998287749767169",
+          "indices": [
+            44,
+            67
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+          "url": "https://t.co/rHdY6XXQR8",
+          "display_url": "pic.twitter.com/rHdY6XXQR8",
+          "expanded_url": "https://twitter.com/maxkatz/status/1088998295966347266/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088998287749767200,
+          "id_str": "1088998287749767169",
+          "indices": [
+            44,
+            67
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+          "url": "https://t.co/rHdY6XXQR8",
+          "display_url": "pic.twitter.com/rHdY6XXQR8",
+          "expanded_url": "https://twitter.com/maxkatz/status/1088998295966347266/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 19208994,
+      "id_str": "19208994",
+      "name": "Ⓜ️🅰️❎",
+      "screen_name": "maxkatz",
+      "location": "San Francisco Bay Area",
+      "description": "Program Director, Developer Advocacy, 🥑👉👁🐝Ⓜ️",
+      "url": "https://t.co/y1SWjPrIqE",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/y1SWjPrIqE",
+              "expanded_url": "http://maxkatz.org",
+              "display_url": "maxkatz.org",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1920,
+      "friends_count": 1034,
+      "listed_count": 202,
+      "created_at": "Mon Jan 19 23:40:34 +0000 2009",
+      "favourites_count": 96,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 23343,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/868568925188915200/JIKwiGwN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/868568925188915200/JIKwiGwN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/19208994/1443722548",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1089178475766853632": {
+    "created_at": "Sat Jan 26 15:09:19 +0000 2019",
+    "id": 1089178475766853600,
+    "id_str": "1089178475766853632",
+    "full_text": "Thanks for having me @sfhtml5 @flutterio! https://t.co/duWgXpcir7",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      41
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            21,
+            29
+          ]
+        },
+        {
+          "screen_name": "flutterio",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            30,
+            40
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1089178462764421100,
+          "id_str": "1089178462764421120",
+          "indices": [
+            42,
+            65
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+          "url": "https://t.co/duWgXpcir7",
+          "display_url": "pic.twitter.com/duWgXpcir7",
+          "expanded_url": "https://twitter.com/abraham/status/1089178475766853632/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1089178462764421100,
+          "id_str": "1089178462764421120",
+          "indices": [
+            42,
+            65
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+          "url": "https://t.co/duWgXpcir7",
+          "display_url": "pic.twitter.com/duWgXpcir7",
+          "expanded_url": "https://twitter.com/abraham/status/1089178475766853632/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                109,
+                132
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9066,
+      "friends_count": 767,
+      "listed_count": 606,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 25904,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 48830,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1089242150057852929": {
+    "created_at": "Sat Jan 26 19:22:20 +0000 2019",
+    "id": 1089242150057852900,
+    "id_str": "1089242150057852929",
+    "full_text": "@abraham @sfhtml5 @flutterio Thank YOU for the great talk and demo",
+    "truncated": false,
+    "display_text_range": [
+      29,
+      66
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            9,
+            17
+          ]
+        },
+        {
+          "screen_name": "flutterio",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            18,
+            28
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1089178475766853600,
+    "in_reply_to_status_id_str": "1089178475766853632",
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 69380896,
+      "id_str": "69380896",
+      "name": "Peter Lubbers",
+      "screen_name": "peterlubbers",
+      "location": "Lake Tahoe, California",
+      "description": "Head of Google Developer Studio, founder SFHTML5, Author Pro HTML5 Programming, ultra-marathon runner, bungee-jumper, skydiver, Flywheeler (tweets my own)",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 5571,
+      "friends_count": 79,
+      "listed_count": 268,
+      "created_at": "Thu Aug 27 19:31:11 +0000 2009",
+      "favourites_count": 3211,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3799,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/2312513233/zq71bas59jq85c11duon_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/2312513233/zq71bas59jq85c11duon_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/69380896/1357876383",
+      "profile_link_color": "3B94D9",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "1089291729809825792": {
+    "created_at": "Sat Jan 26 22:39:21 +0000 2019",
+    "id": 1089291729809825800,
+    "id_str": "1089291729809825792",
+    "full_text": "@abraham @sfhtml5 @flutterio Thank you for coming :)",
+    "truncated": false,
+    "display_text_range": [
+      29,
+      52
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "sfhtml5",
+          "name": "San Francisco HTML5",
+          "id": 275405363,
+          "id_str": "275405363",
+          "indices": [
+            9,
+            17
+          ]
+        },
+        {
+          "screen_name": "flutterio",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            18,
+            28
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1089178475766853600,
+    "in_reply_to_status_id_str": "1089178475766853632",
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 567162844,
+      "id_str": "567162844",
+      "name": "Nilay Yener",
+      "screen_name": "nlycskn",
+      "location": "",
+      "description": "people first! \n💙 @flutterio @dart_lang #DevRel",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4582,
+      "friends_count": 1091,
+      "listed_count": 154,
+      "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+      "favourites_count": 13394,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9313,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "A879A3",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1073825137001152513/JAApKMsl_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1544035617",
+      "profile_link_color": "91D2FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2AD9D",
+      "profile_text_color": "9F4E79",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "1088967375947362305": {
+    "created_at": "Sat Jan 26 01:10:29 +0000 2019",
+    "id": 1088967375947362300,
+    "id_str": "1088967375947362305",
+    "full_text": "Oh hey https://t.co/A9VLfBnyck",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      6
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1088967366514360300,
+          "id_str": "1088967366514360320",
+          "indices": [
+            7,
+            30
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzKDN0UwAAh1iC.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzKDN0UwAAh1iC.jpg",
+          "url": "https://t.co/A9VLfBnyck",
+          "display_url": "pic.twitter.com/A9VLfBnyck",
+          "expanded_url": "https://twitter.com/abraham/status/1088967375947362305/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1088967366514360300,
+          "id_str": "1088967366514360320",
+          "indices": [
+            7,
+            30
+          ],
+          "media_url": "http://pbs.twimg.com/media/DxzKDN0UwAAh1iC.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DxzKDN0UwAAh1iC.jpg",
+          "url": "https://t.co/A9VLfBnyck",
+          "display_url": "pic.twitter.com/A9VLfBnyck",
+          "expanded_url": "https://twitter.com/abraham/status/1088967375947362305/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                109,
+                132
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9066,
+      "friends_count": 767,
+      "listed_count": 606,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 25904,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 48830,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 14,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,

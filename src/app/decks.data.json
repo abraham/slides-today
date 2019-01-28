@@ -199,6 +199,12 @@
         "url": "https://docs.google.com/presentation/d/1TGpn2V0Arrq2S-2Nj732sZdglc0r4SP67VcrzZHGs5M",
         "useAsTag": false,
         "service": "google-slides"
+      },
+      {
+        "title": "Video",
+        "url": "https://www.youtube.com/watch?v=lhyAMLmQuCI",
+        "useAsTag": true,
+        "service": "youtube"
       }
     ],
     "resources": [
@@ -251,7 +257,16 @@
     ],
     "tweetIds": [
       "1088438092699222016",
-      "1088607444689801216"
+      "1088607444689801216",
+      "1088967375947362305",
+      "1088974294594408448",
+      "1088986530490667008",
+      "1088992660054990848",
+      "1088997210199535617",
+      "1088998295966347266",
+      "1089178475766853632",
+      "1089242150057852929",
+      "1089291729809825792"
     ]
   },
   {
