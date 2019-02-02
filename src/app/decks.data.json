@@ -94,7 +94,7 @@
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
     ],
-    "title": "It’s a Wonderful Web",
+    "title": "It's a Wonderful Web",
     "date": {
       "start": "2019-02-02T00:00:00.000Z",
       "end": "2019-02-02T00:00:00.000Z"
@@ -111,9 +111,64 @@
         "url": "https://devfest.mn/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/130HfSzBKyHvfPpi9tCPhVlSrYQBHyciPRr3H2Bkb0mk",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "The Intl.RelativeTimeFormat API",
+        "url": "https://developers.google.com/web/updates/2018/10/intl-relativetimeformat",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Well-Controlled Scrolling with CSS Scroll Snap",
+        "url": "https://developers.google.com/web/updates/2018/07/css-scroll-snap",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Page Lifecycle API",
+        "url": "https://developers.google.com/web/updates/2018/07/page-lifecycle-api",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Unblocking Clipboard Access",
+        "url": "https://developers.google.com/web/updates/2018/03/clipboardapi",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "CSS Paint API",
+        "url": "https://developers.google.com/web/updates/2018/01/paintapi",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Introducing Background Fetch",
+        "url": "https://developers.google.com/web/updates/2018/12/background-fetch",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "ResizeObserver: It’s Like document.onresize for Elements",
+        "url": "https://developers.google.com/web/updates/2016/10/resizeobserver",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Portals",
+        "url": "https://github.com/WICG/portals",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
