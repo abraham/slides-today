@@ -36097,5 +36097,830 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1091830033138810885": {
+    "created_at": "Sat Feb 02 22:45:39 +0000 2019",
+    "id": 1091830033138810900,
+    "id_str": "1091830033138810885",
+    "full_text": "\"It's a Wonderful Web\" @ #DevFestMN \n@howitson @_KylePaul getting a shot of @pblatteier and @abraham's fancy aprons. https://t.co/SJxcl6MDAz",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      116
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "DevFestMN",
+          "indices": [
+            25,
+            35
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "howitson",
+          "name": "Bryce Howitson",
+          "id": 29362720,
+          "id_str": "29362720",
+          "indices": [
+            37,
+            46
+          ]
+        },
+        {
+          "screen_name": "_KylePaul",
+          "name": "Kyle Paul",
+          "id": 141054465,
+          "id_str": "141054465",
+          "indices": [
+            47,
+            57
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            76,
+            87
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            92,
+            100
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1091830011277930500,
+          "id_str": "1091830011277930496",
+          "indices": [
+            117,
+            140
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+          "url": "https://t.co/SJxcl6MDAz",
+          "display_url": "pic.twitter.com/SJxcl6MDAz",
+          "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1091830011277930500,
+          "id_str": "1091830011277930496",
+          "indices": [
+            117,
+            140
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+          "url": "https://t.co/SJxcl6MDAz",
+          "display_url": "pic.twitter.com/SJxcl6MDAz",
+          "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1091830020740243500,
+          "id_str": "1091830020740243456",
+          "indices": [
+            117,
+            140
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dyb1nn1UYAAjKOD.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dyb1nn1UYAAjKOD.jpg",
+          "url": "https://t.co/SJxcl6MDAz",
+          "display_url": "pic.twitter.com/SJxcl6MDAz",
+          "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2016,
+              "h": 1512,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 65219208,
+      "id_str": "65219208",
+      "name": "noble.",
+      "screen_name": "nobleackerson",
+      "location": "Washington, DC",
+      "description": "@GoogleDevExpert for Product Strategy, Intl. speaker, AR/VR engineer/mentor, and Recovering startup founder.\nCurrently, Sr. Manager, Product & Tech @NDI.",
+      "url": "https://t.co/bzii5nmNY8",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/bzii5nmNY8",
+              "expanded_url": "https://nobles.page",
+              "display_url": "nobles.page",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2134,
+      "friends_count": 602,
+      "listed_count": 113,
+      "created_at": "Thu Aug 13 00:42:20 +0000 2009",
+      "favourites_count": 6533,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5515,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/930270263056334849/PWUkPvQn_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/930270263056334849/PWUkPvQn_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/65219208/1508246352",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "CCE6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 10,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1091827657732435969": {
+    "created_at": "Sat Feb 02 22:36:13 +0000 2019",
+    "id": 1091827657732436000,
+    "id_str": "1091827657732435969",
+    "full_text": "@abraham &amp; @pblatteier winning the #gdeapronchallenge while speaking at @devfestmn https://t.co/NSAM0ZWiIh",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      86
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "gdeapronchallenge",
+          "indices": [
+            39,
+            57
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            15,
+            26
+          ]
+        },
+        {
+          "screen_name": "devfestmn",
+          "name": "DevFestMN",
+          "id": 2290467152,
+          "id_str": "2290467152",
+          "indices": [
+            76,
+            86
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1091827647535968300,
+          "id_str": "1091827647535968256",
+          "indices": [
+            87,
+            110
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dybzde9U8AASecr.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dybzde9U8AASecr.jpg",
+          "url": "https://t.co/NSAM0ZWiIh",
+          "display_url": "pic.twitter.com/NSAM0ZWiIh",
+          "expanded_url": "https://twitter.com/howitson/status/1091827657732435969/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1091827647535968300,
+          "id_str": "1091827647535968256",
+          "indices": [
+            87,
+            110
+          ],
+          "media_url": "http://pbs.twimg.com/media/Dybzde9U8AASecr.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Dybzde9U8AASecr.jpg",
+          "url": "https://t.co/NSAM0ZWiIh",
+          "display_url": "pic.twitter.com/NSAM0ZWiIh",
+          "expanded_url": "https://twitter.com/howitson/status/1091827657732435969/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 29362720,
+      "id_str": "29362720",
+      "name": "Bryce Howitson",
+      "screen_name": "howitson",
+      "location": "Minneapolis MN",
+      "description": "Product Strategist /UX Designer I help companies build relevant, intuitive and beautiful software. Currently @curiousmpls",
+      "url": "https://t.co/90M5CUWUAt",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/90M5CUWUAt",
+              "expanded_url": "http://www.brycehowitson.com",
+              "display_url": "brycehowitson.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 349,
+      "friends_count": 305,
+      "listed_count": 41,
+      "created_at": "Tue Apr 07 02:53:42 +0000 2009",
+      "favourites_count": 82,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 880,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1062762584607059968/HDvdGG5x_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1062762584607059968/HDvdGG5x_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/29362720/1415743350",
+      "profile_link_color": "4A913C",
+      "profile_sidebar_border_color": "0F100E",
+      "profile_sidebar_fill_color": "D4D2C4",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 11,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1092537441116975105": {
+    "created_at": "Mon Feb 04 21:36:38 +0000 2019",
+    "id": 1092537441116975100,
+    "id_str": "1092537441116975105",
+    "full_text": "Thanks @abraham &amp; @pblatteier! Learned about Intl.RelativeTimeFormat on Saturday @devfestmn and implemented in a project today.",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      131
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            7,
+            15
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            22,
+            33
+          ]
+        },
+        {
+          "screen_name": "devfestmn",
+          "name": "DevFestMN",
+          "id": 2290467152,
+          "id_str": "2290467152",
+          "indices": [
+            85,
+            95
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 29362720,
+      "id_str": "29362720",
+      "name": "Bryce Howitson",
+      "screen_name": "howitson",
+      "location": "Minneapolis MN",
+      "description": "Product Strategist /UX Designer I help companies build relevant, intuitive and beautiful software. Currently @curiousmpls",
+      "url": "https://t.co/90M5CUWUAt",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/90M5CUWUAt",
+              "expanded_url": "http://www.brycehowitson.com",
+              "display_url": "brycehowitson.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 349,
+      "friends_count": 305,
+      "listed_count": 41,
+      "created_at": "Tue Apr 07 02:53:42 +0000 2009",
+      "favourites_count": 82,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 880,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1062762584607059968/HDvdGG5x_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1062762584607059968/HDvdGG5x_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/29362720/1415743350",
+      "profile_link_color": "4A913C",
+      "profile_sidebar_border_color": "0F100E",
+      "profile_sidebar_fill_color": "D4D2C4",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "1092804955390570497": {
+    "created_at": "Tue Feb 05 15:19:39 +0000 2019",
+    "id": 1092804955390570500,
+    "id_str": "1092804955390570497",
+    "full_text": "Wouldn't it be neat to add some visuals to your @ActionsOnGoogle? Come to my session at @devfestkc to learn how!\n\nhttps://t.co/4flJ4rv84I https://t.co/zG2YqlbPBr",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      137
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "ActionsOnGoogle",
+          "name": "Actions on Google",
+          "id": 857372550241726500,
+          "id_str": "857372550241726464",
+          "indices": [
+            48,
+            64
+          ]
+        },
+        {
+          "screen_name": "devfestkc",
+          "name": "DevFest KC",
+          "id": 4894485559,
+          "id_str": "4894485559",
+          "indices": [
+            88,
+            98
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/4flJ4rv84I",
+          "expanded_url": "https://devfestkc.com/",
+          "display_url": "devfestkc.com",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1092804947656224800,
+          "id_str": "1092804947656224773",
+          "indices": [
+            138,
+            161
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DypsT1nWsAU7hki.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DypsT1nWsAU7hki.jpg",
+          "url": "https://t.co/zG2YqlbPBr",
+          "display_url": "pic.twitter.com/zG2YqlbPBr",
+          "expanded_url": "https://twitter.com/abraham/status/1092804955390570497/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1092804947656224800,
+          "id_str": "1092804947656224773",
+          "indices": [
+            138,
+            161
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/DypsT1nWsAU7hki.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DypsT1nWsAU7hki.jpg",
+          "url": "https://t.co/zG2YqlbPBr",
+          "display_url": "pic.twitter.com/zG2YqlbPBr",
+          "expanded_url": "https://twitter.com/abraham/status/1092804955390570497/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 320,
+              "h": 180,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/DypsT1nWsAU7hki.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                109,
+                132
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9106,
+      "friends_count": 778,
+      "listed_count": 607,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 26167,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 48943,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
