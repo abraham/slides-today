@@ -75,16 +75,79 @@
         "url": "https://devfestkc.com/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/16K9vNib7mA_fSBrJlR3Qq__u5NQnwf_RByQac8Qt3tU",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Actions on Google",
+        "url": "https://developers.google.com/actions/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using Cloud Storage for Firebase for hosting rich media in your Actions",
+        "url": "https://medium.com/google-developers/using-cloud-storage-for-firebase-for-hosting-rich-media-in-your-actions-a838977eb758",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Codelabs",
+        "url": "https://developers.google.com/actions/codelabs/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Developer Console",
+        "url": "https://console.actions.google.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Actions on Google Node package",
+        "url": "https://www.npmjs.com/package/actions-on-google",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Design Actions for the Google Assistant beyond smart speakers",
+        "url": "https://www.youtube.com/watch?v=JDakZMlXpQo",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "ngrok",
+        "url": "https://ngrok.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Cloud Functions for Firebase",
+        "url": "https://firebase.google.com/products/functions/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Fireship: Google Assistant Quick Start for Developers",
+        "url": "https://www.youtube.com/watch?v=WZY_in9oAjA",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
     "tweetIds": [
       "1088108103374114817",
       "1090811036662419456",
-      "1092804955390570497"
+      "1092804955390570497",
+      "1094355202898055168",
+      "1094450673087889408"
     ]
   },
   {
