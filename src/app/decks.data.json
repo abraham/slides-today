@@ -48,6 +48,58 @@
     ]
   },
   {
+    "id": "-LZ7xtUvx3YN_0VCWIlz",
+    "archived": false,
+    "nodePackages": [
+      "lit-element",
+      "lit-html"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "LitElement",
+    "date": {
+      "start": "2019-02-15T00:00:00.000Z",
+      "end": "2019-02-15T00:00:00.000Z"
+    },
+    "description": "Intro to Polymer's LitElement base class for creating fast, lightweight web components.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "webcomponents",
+      "⚡"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/258106113/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1tvZvUGHHzjZzAo5pY2DNtF_bLgKzzhCNhmNKpWOqL_o",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [
+      {
+        "title": "LitElement",
+        "url": "https://lit-element.polymer-project.org",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1096463902685126656"
+    ]
+  },
+  {
     "id": "-LWvdW63XDtQujh8U7XY",
     "archived": false,
     "nodePackages": [
