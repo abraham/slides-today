@@ -73,7 +73,7 @@
     "tslint": "5.13.0",
     "twit": "2.2.11",
     "typescript": "3.2.4",
-    "workbox-build": "3.6.3",
+    "workbox-build": "4.0.0",
     "workbox-sw": "3.6.3"
   }
 }
