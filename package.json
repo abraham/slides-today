@@ -30,7 +30,7 @@
     "@angular/platform-browser": "7.2.7",
     "@angular/platform-browser-dynamic": "7.2.7",
     "@angular/router": "7.2.7",
-    "@firebase/app": "0.3.9",
+    "@firebase/app": "0.3.10",
     "@firebase/firestore": "1.0.4",
     "@webcomponents/webcomponentsjs": "2.2.7",
     "autotrack": "2.4.1",
