@@ -49,6 +49,57 @@
     ]
   },
   {
+    "id": "-L_7rNsg4xOgbZS1pSvD",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "IWD Global Diversity CFP Day Workshop",
+    "date": {
+      "start": "2019-03-02T00:00:00.000Z",
+      "end": "2019-03-02T00:00:00.000Z"
+    },
+    "description": "Are you a member of an underrepresented or marginalised group? Have you always wanted to become a tech conference speaker? Let 2019 be the year that you make that dream a reality! Join GDG Madison and Madison Women in Tech in celebrating International Women's Day and Global CFP Diversity Day!",
+    "eventTitle": "GDG Madison & Madison WiT",
+    "tags": [
+      "workshop"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/259107470/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/Madison-Women-in-Tech/events/259301208/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1I_uBcqAdO8DoqFHQwvMhhTfwSrzgRXkYtPpUxKiMmGY",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+      "1099452663291363328",
+      "1100422875834650624",
+      "1101951191494389761"
+    ]
+  },
+  {
     "id": "-LZ7xtUvx3YN_0VCWIlz",
     "archived": false,
     "nodePackages": [
