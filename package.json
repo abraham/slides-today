@@ -35,7 +35,7 @@
     "@webcomponents/webcomponentsjs": "2.2.7",
     "autotrack": "2.4.1",
     "core-js": "2.6.5",
-    "dayjs": "1.8.10",
+    "dayjs": "1.8.11",
     "firebase-admin": "7.1.1",
     "github-repository": "0.3.0",
     "material-components-web": "0.44.1",
