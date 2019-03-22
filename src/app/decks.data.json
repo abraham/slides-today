@@ -98,6 +98,12 @@
         "url": "https://lit-element.polymer-project.org",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "node-package",
+        "url": "https://www.npmjs.com/package/node-package",
+        "useAsTag": false,
+        "service": "external"
       }
     ],
     "sponsorIds": [],
