@@ -49,6 +49,61 @@
     ]
   },
   {
+    "id": "-La_xLBpgk7ddPQy4CSI",
+    "archived": false,
+    "nodePackages": [
+      "lit-element",
+      "lit-html",
+      "node-package"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "Web Components",
+    "date": {
+      "start": "2019-02-22T00:00:00.000Z",
+      "end": "2019-02-22T00:00:00.000Z"
+    },
+    "description": "Web components offer a modular approach to creating reusable UI widgets. Define custom HTML tags that are easy to share and usable in any framework.",
+    "eventTitle": "YWeb",
+    "tags": [
+      "webcomponents",
+      "⚡"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1yeVUiyLadpNzY_9mnDOPERlRY7b8KTmxiQC7d-SsFm0",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [
+      {
+        "title": "MDN: Web Components",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Fundamentals: Web Components",
+        "url": "https://developers.google.com/web/fundamentals/web-components/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "LitElement",
+        "url": "https://lit-element.polymer-project.org",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [],
+    "tweetIds": []
+  },
+  {
     "id": "-L_7rNsg4xOgbZS1pSvD",
     "archived": false,
     "nodePackages": [],
