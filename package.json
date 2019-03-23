@@ -68,7 +68,7 @@
     "karma-jasmine-html-reporter": "1.4.0",
     "lite-server": "2.4.0",
     "node-sass": "4.11.0",
-    "protractor": "5.4.2",
+    "protractor": "6.0.0",
     "ts-node": "8.0.3",
     "tslint": "5.14.0",
     "twit": "2.2.11",
