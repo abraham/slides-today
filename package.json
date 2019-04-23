@@ -32,7 +32,7 @@
     "@angular/router": "7.2.13",
     "@firebase/app": "0.3.16",
     "@firebase/firestore": "1.1.4",
-    "@webcomponents/webcomponentsjs": "2.2.9",
+    "@webcomponents/webcomponentsjs": "2.2.10",
     "autotrack": "2.4.1",
     "core-js": "2.6.5",
     "dayjs": "1.8.12",
