@@ -38681,5 +38681,243 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1123076975759953920": {
+    "created_at": "Tue Apr 30 04:09:51 +0000 2019",
+    "id": 1123076975759953900,
+    "id_str": "1123076975759953920",
+    "full_text": "Are you as excited about @RefactrTech in June as @pblatteier and I are? We're running an all day @FlutterDev workshop! Sign up with code SPEAKER-ABRAHAMW for 20% off https://t.co/XwI4O3tzEJ https://t.co/RPHuxPzY8L",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      189
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "RefactrTech",
+          "name": "REFACTR.TECH",
+          "id": 824430116281450500,
+          "id_str": "824430116281450496",
+          "indices": [
+            25,
+            37
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            49,
+            60
+          ]
+        },
+        {
+          "screen_name": "FlutterDev",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            97,
+            108
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/XwI4O3tzEJ",
+          "expanded_url": "https://refactr.tech",
+          "display_url": "refactr.tech",
+          "indices": [
+            166,
+            189
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1123076968784846800,
+          "id_str": "1123076968784846848",
+          "indices": [
+            190,
+            213
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+          "url": "https://t.co/RPHuxPzY8L",
+          "display_url": "pic.twitter.com/RPHuxPzY8L",
+          "expanded_url": "https://twitter.com/abraham/status/1123076975759953920/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1123076968784846800,
+          "id_str": "1123076968784846848",
+          "indices": [
+            190,
+            213
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+          "url": "https://t.co/RPHuxPzY8L",
+          "display_url": "pic.twitter.com/RPHuxPzY8L",
+          "expanded_url": "https://twitter.com/abraham/status/1123076975759953920/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 640,
+              "h": 360,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/D5X4jYPX4AAgnjN.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison organizer",
+      "url": "https://t.co/ck29y8mOBT",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/ck29y8mOBT",
+              "expanded_url": "https://abrah.am/",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                100,
+                123
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9190,
+      "friends_count": 857,
+      "listed_count": 608,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 27997,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 49610,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
