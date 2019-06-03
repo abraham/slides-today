@@ -51,6 +51,48 @@
     ]
   },
   {
+    "id": "-LgTd2GCgDOD36wEIQ_E",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "JavaScript at Google I/O 2019",
+    "date": {
+      "start": "2019-06-03T00:00:00.000Z",
+      "end": "2019-06-03T00:00:00.000Z"
+    },
+    "description": "Every year Google hosts thousands of developers in Mountain View for their developer conference I/O. This year Abraham will be there taking notes on all the JavaScript related announcements. Come hear a summary of all the important new products, features and standards from 2019",
+    "eventTitle": "MadJS",
+    "tags": [
+      "googleio",
+      "javascript"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzjbnb/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1XuzSGqpD2iLx2QEWl2NmbZYkelvE0ei7badwGYvIZ1k",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1133854040205537285"
+    ]
+  },
+  {
     "id": "-La_xLBpgk7ddPQy4CSI",
     "archived": false,
     "nodePackages": [
