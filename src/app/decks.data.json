@@ -4,7 +4,9 @@
     "archived": false,
     "nodePackages": [],
     "githubRepos": [
-      "flutter/flutter"
+      "flutter/flutter",
+      "abraham/birb",
+      "ericwindmill/flutter_by_example_apps"
     ],
     "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
@@ -28,12 +30,42 @@
         "url": "https://refactr.tech",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1bpfSS1CLorgjJCqZboXavLAlw9GYuBpibU4kG3NWte4",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [
       {
         "title": "Flutter",
         "url": "https://flutter.io",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Intro to Dart for Java Developers",
+        "url": "https://codelabs.developers.google.com/codelabs/from-java-to-dart/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter by Example - Build a Basic App",
+        "url": "https://flutterbyexample.com/basic-dogs-app-setup",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "A Month of Flutter",
+        "url": "https://bendyworks.com/blog/a-month-of-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Awesome Flutter",
+        "url": "https://github.com/Solido/awesome-flutter",
         "useAsTag": false,
         "service": "external"
       }
@@ -47,7 +79,10 @@
       "1090381591199780864",
       "1100129539362091009",
       "1109156799301779456",
-      "1123076975759953920"
+      "1114231232798363650",
+      "1123076975759953920",
+      "1125474921776205824",
+      "1129037796814069761"
     ]
   },
   {
