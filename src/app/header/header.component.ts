@@ -22,7 +22,7 @@ export class HeaderComponent implements AfterViewInit {
 
   @Input() title!: string;
   @Input() showBack = false;
-  @ViewChild('appBar') appBar!: ElementRef;
+  @ViewChild('appBar', { static: true }) appBar!: ElementRef;
 
   private toolbar?: MDCTopAppBar;
 
