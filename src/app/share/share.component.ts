@@ -11,14 +11,6 @@ interface ShareOptions {
   url: string;
 }
 
-type Menu = MDCMenu & {
-  menuSurface_: {
-    root_: {
-      addEventListener: (event: string, callback: () => void) => void;
-    }
-  }
-};
-
 type NavigatorShare = (options: ShareOptions) => Promise<{}>;
 
 declare global {
@@ -39,10 +31,10 @@ export class ShareComponent implements AfterViewInit {
 
   theme$: Observable<Theme>;
 
-  private menu!: Menu;
+  private menu!: MDCMenu;
 
-  @ViewChild('fabEl') fabEl!: ElementRef;
-  @ViewChild('menuEl') menuEl!: ElementRef;
+  @ViewChild('fabEl', { static: true }) fabEl!: ElementRef;
+  @ViewChild('menuEl', { static: true }) menuEl!: ElementRef;
   @Input() text = '';
 
   private services: { [key: string]: () => string } = {
@@ -51,9 +43,9 @@ export class ShareComponent implements AfterViewInit {
   };
 
   ngAfterViewInit() {
-    this.menu = new MDCMenu(this.menuEl.nativeElement) as Menu;
+    this.menu = new MDCMenu(this.menuEl.nativeElement);
     this.initRipples();
-    this.menu.menuSurface_.root_.addEventListener('MDCMenuSurface:closed', () => this.showFab());
+    this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
   }
 
   private initRipples(): void {

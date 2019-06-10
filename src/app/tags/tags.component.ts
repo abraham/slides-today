@@ -4,15 +4,6 @@ import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
 import { Tag } from '../tag';
 
-type ChipSet = MDCChipSet & {
-  chips: Chip[];
-};
-
-type Chip = MDCChip & {
-  root_: HTMLDivElement;
-  selected: boolean;
-};
-
 @Component({
   selector: 'app-tags',
   templateUrl: './tags.component.html',
@@ -25,10 +16,10 @@ export class TagsComponent implements OnInit, AfterViewInit {
 
   tags$: Observable<Tag[]>;
 
-  private chipSet!: ChipSet;
+  private chipSet!: MDCChipSet;
 
   @Input() currentTags: string[] = [];
-  @ViewChild('tagsEl') tagsEl!: ElementRef;
+  @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
 
   ngOnInit() {
     this.tags$ = this.dataService.filterTags$(this.currentTags);
@@ -36,7 +27,7 @@ export class TagsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     requestAnimationFrame(() => {
-      this.chipSet = MDCChipSet.attachTo(this.tagsEl.nativeElement) as ChipSet;
+      this.chipSet = MDCChipSet.attachTo(this.tagsEl.nativeElement);
     });
   }
 }

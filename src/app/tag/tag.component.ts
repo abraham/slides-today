@@ -32,7 +32,7 @@ export class TagComponent implements OnInit {
 
   @Input() tag!: Tag;
   @Input() currentTag!: string;
-  @ViewChild('chip') chip!: ElementRef;
+  @ViewChild('chip', { static: true }) chip!: ElementRef;
 
   ngOnInit() {
     this.setCurrentStyles();

@@ -14,7 +14,7 @@ export class DeckSummaryComponent implements OnInit {
 
   @Input() deck!: Deck;
   @Input() currentTags: string[] = [];
-  @ViewChild('cardEl') cardEl!: ElementRef;
+  @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
   of = of;
   url?: string;

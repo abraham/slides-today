@@ -9,8 +9,9 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "downlevelIteration": true,
     "module": "esnext",
-    "target": "esnext",
+    "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
     ],

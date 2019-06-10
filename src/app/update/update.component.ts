@@ -24,7 +24,7 @@ export class UpdateComponent implements OnInit {
 
   constructor() { }
 
-  @ViewChild('snackbarEl') snackbarEl!: ElementRef;
+  @ViewChild('snackbarEl', { static: true }) snackbarEl!: ElementRef;
   precacheUpdates!: BroadcastChannel;
   private snackbar!: Snackbar;
 

@@ -11,7 +11,7 @@ export class CardActionComponent implements OnInit {
   @Input() url = '';
   @Input() text = '';
   @Input() blank = false;
-  @ViewChild('actionEl') actionEl!: ElementRef;
+  @ViewChild('actionEl', { static: true }) actionEl!: ElementRef;
 
   constructor(private router: Router) { }
 
