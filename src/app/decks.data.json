@@ -1,5 +1,45 @@
 [
   {
+    "id": "-Lh1uKFqF1GyBZbwuEp-",
+    "archived": false,
+    "nodePackages": [
+      "workbox-cli"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Wicked Fast 🔥 Mobile Web",
+    "date": {
+      "start": "2019-08-05T00:00:00.000Z",
+      "end": "2019-08-08T00:00:00.000Z"
+    },
+    "description": "Mobile has outpaced desktop, especially in emerging markets. At the same time, the size of mobile apps has ballooned. Large applications fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Progressive web apps can serve mobile users better. We’ll show you how to make PWAs that download almost instantly and work offline while still providing the functionality of native apps.",
+    "eventTitle": "THAT Conference",
+    "tags": [
+      "progressivewebapps",
+      "perfmatters"
+    ],
+    "location": "Wisconsin Dells, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.thatconference.com/sessions/session/13853",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1134187827544121344",
+      "1138122423931461632"
+    ]
+  },
+  {
     "id": "-LWX8wc1lU2-uNoK785K",
     "archived": false,
     "nodePackages": [],
