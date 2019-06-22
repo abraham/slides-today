@@ -65,6 +65,12 @@
         "url": "https://www.meetup.com/gdgmadison/events/261959209/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1h_z_Lq5vI3b0LqQaugwsxbh9rz3SXkTnfjEa6sdjHxM",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [],
