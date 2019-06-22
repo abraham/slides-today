@@ -40319,5 +40319,548 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1138843787302711296": {
+    "created_at": "Wed Jun 12 16:21:32 +0000 2019",
+    "id": 1138843787302711300,
+    "id_str": "1138843787302711296",
+    "full_text": "And @gdgmadison is running a CFP writing workshop on June 22nd if you want some guidance on submitting to conferences.\n\nhttps://t.co/nOLrfc7Jnn https://t.co/7eZ5BGWldd",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      143
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "gdgmadison",
+          "name": "GDG Madison",
+          "id": 60940193,
+          "id_str": "60940193",
+          "indices": [
+            4,
+            15
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/nOLrfc7Jnn",
+          "expanded_url": "https://www.meetup.com/gdgmadison/events/261959209/",
+          "display_url": "meetup.com/gdgmadison/eve…",
+          "indices": [
+            120,
+            143
+          ]
+        },
+        {
+          "url": "https://t.co/7eZ5BGWldd",
+          "expanded_url": "https://twitter.com/abraham/status/1138830389823397888",
+          "display_url": "twitter.com/abraham/status…",
+          "indices": [
+            144,
+            167
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                100,
+                123
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9060,
+      "friends_count": 905,
+      "listed_count": 613,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 29724,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 50083,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1138830389823397900,
+    "quoted_status_id_str": "1138830389823397888",
+    "quoted_status_permalink": {
+      "url": "https://t.co/7eZ5BGWldd",
+      "expanded": "https://twitter.com/abraham/status/1138830389823397888",
+      "display": "twitter.com/abraham/status…"
+    },
+    "quoted_status": {
+      "created_at": "Wed Jun 12 15:28:18 +0000 2019",
+      "id": 1138830389823397900,
+      "id_str": "1138830389823397888",
+      "full_text": "FYI if you are thinking about submitting to @devfestwi there is currently a lot less competition for 10 minute slots. 10 minutes is perfect for new presenters or covering a single idea.\n\nhttps://t.co/v8Ti2ehurD https://t.co/gtVzPYGKlm",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        210
+      ],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "devfestwi",
+            "name": "DevFest WI",
+            "id": 1115261401273180200,
+            "id_str": "1115261401273180160",
+            "indices": [
+              44,
+              54
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/v8Ti2ehurD",
+            "expanded_url": "https://devfestwi.com/blog/posts/call-for-proposals/",
+            "display_url": "devfestwi.com/blog/posts/cal…",
+            "indices": [
+              187,
+              210
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1138830383926186000,
+            "id_str": "1138830383926185985",
+            "indices": [
+              211,
+              234
+            ],
+            "media_url": "http://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
+            "url": "https://t.co/gtVzPYGKlm",
+            "display_url": "pic.twitter.com/gtVzPYGKlm",
+            "expanded_url": "https://twitter.com/abraham/status/1138830389823397888/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 930,
+                "h": 498,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 364,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 930,
+                "h": 498,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1138830383926186000,
+            "id_str": "1138830383926185985",
+            "indices": [
+              211,
+              234
+            ],
+            "media_url": "http://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
+            "url": "https://t.co/gtVzPYGKlm",
+            "display_url": "pic.twitter.com/gtVzPYGKlm",
+            "expanded_url": "https://twitter.com/abraham/status/1138830389823397888/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 930,
+                "h": 498,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 364,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 930,
+                "h": 498,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 9436992,
+        "id_str": "9436992",
+        "name": "Abraham Williams",
+        "screen_name": "abraham",
+        "location": "Madison, WI",
+        "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/xkQ8kgmapt",
+                "expanded_url": "https://slides.today",
+                "display_url": "slides.today",
+                "indices": [
+                  100,
+                  123
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 9060,
+        "friends_count": 905,
+        "listed_count": 613,
+        "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+        "favourites_count": 29724,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 50083,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+        "profile_link_color": "2196F3",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "454545",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 8,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "retweet_count": 2,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1138445549382897665": {
+    "created_at": "Tue Jun 11 13:59:04 +0000 2019",
+    "id": 1138445549382897700,
+    "id_str": "1138445549382897665",
+    "full_text": "Submit your proposals if you haven't already! https://t.co/NqN7kJcD1h https://t.co/0YuXYkURiQ",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      69
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/NqN7kJcD1h",
+          "expanded_url": "https://devfestwi.com/blog/posts/call-for-proposals/",
+          "display_url": "devfestwi.com/blog/posts/cal…",
+          "indices": [
+            46,
+            69
+          ]
+        },
+        {
+          "url": "https://t.co/0YuXYkURiQ",
+          "expanded_url": "https://twitter.com/abraham/status/1138444885294551041",
+          "display_url": "twitter.com/abraham/status…",
+          "indices": [
+            70,
+            93
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1115261401273180200,
+      "id_str": "1115261401273180160",
+      "name": "DevFest WI",
+      "screen_name": "devfestwi",
+      "location": "Madison, WI",
+      "description": "An inclusive, positive conference for all technologist. Coming to Madison Sept 28th.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 34,
+      "friends_count": 14,
+      "listed_count": 2,
+      "created_at": "Mon Apr 08 14:33:33 +0000 2019",
+      "favourites_count": 22,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 19,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1115261928677543936/osZpVEPf_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1115261928677543936/osZpVEPf_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1115261401273180160/1558216896",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1138444885294551000,
+    "quoted_status_id_str": "1138444885294551041",
+    "quoted_status_permalink": {
+      "url": "https://t.co/0YuXYkURiQ",
+      "expanded": "https://twitter.com/abraham/status/1138444885294551041",
+      "display": "twitter.com/abraham/status…"
+    },
+    "quoted_status": {
+      "created_at": "Tue Jun 11 13:56:26 +0000 2019",
+      "id": 1138444885294551000,
+      "id_str": "1138444885294551041",
+      "full_text": "Very excited about the @devfestwi content lineup. @pblatteier and I have confirmed about half-a-dozen speakers so far and there's about 30 submissions to the CFP that also look great!",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        183
+      ],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "devfestwi",
+            "name": "DevFest WI",
+            "id": 1115261401273180200,
+            "id_str": "1115261401273180160",
+            "indices": [
+              23,
+              33
+            ]
+          },
+          {
+            "screen_name": "pblatteier",
+            "name": "Pearl Latteier",
+            "id": 202376085,
+            "id_str": "202376085",
+            "indices": [
+              50,
+              61
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 9436992,
+        "id_str": "9436992",
+        "name": "Abraham Williams",
+        "screen_name": "abraham",
+        "location": "Madison, WI",
+        "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/xkQ8kgmapt",
+                "expanded_url": "https://slides.today",
+                "display_url": "slides.today",
+                "indices": [
+                  100,
+                  123
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 9060,
+        "friends_count": 905,
+        "listed_count": 613,
+        "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+        "favourites_count": 29724,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 50083,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+        "profile_link_color": "2196F3",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "454545",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 13,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "retweet_count": 4,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
