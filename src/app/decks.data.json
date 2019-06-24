@@ -40,6 +40,49 @@
     ]
   },
   {
+    "id": "-LhzzWvjPqjdqbkK1_Ar",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Conference Proposal Writing Workshop",
+    "date": {
+      "start": "2019-06-22T00:00:00.000Z",
+      "end": "2019-06-22T00:00:00.000Z"
+    },
+    "description": "The first step in speaking at a conference is submitting a proposal. We've opened a Call for Proposals (CFP) for DevFest WI and want you to come speak! (See the CFP at https://devfestwi.com/blog/posts/call-for-proposals/.) If you don't have any experience submitting to conferences come learn some best practices for writing abstracts you can use for DevFest WI (or any other conference).",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "workshop"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/261959209/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1h_z_Lq5vI3b0LqQaugwsxbh9rz3SXkTnfjEa6sdjHxM",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1138445549382897665",
+      "1138843787302711296"
+    ]
+  },
+  {
     "id": "-LWX8wc1lU2-uNoK785K",
     "archived": false,
     "nodePackages": [],
