@@ -212,6 +212,47 @@
     ]
   },
   {
+    "id": "-Lk34U_kWF81vbNCDjfA",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "I/O Extended 2019 Madison",
+    "date": {
+      "start": "2019-05-15T00:00:00.000Z",
+      "end": "2019-05-15T00:00:00.000Z"
+    },
+    "description": "Welcome to I/O Extended 2019! Join us for a presentation from Abraham Williams covering all the important announcements from Google's annual developer conference.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "googleio"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/261036478/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1rZaN9BMMOmmQKQEP1LE7pd-Eloe_b3fQwC7rKP9vTJs",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1123697658470850568"
+    ]
+  },
+  {
     "id": "-La_xLBpgk7ddPQy4CSI",
     "archived": false,
     "nodePackages": [
