@@ -212,6 +212,52 @@
     ]
   },
   {
+    "id": "-Lk36dkisnaey-w7sMgT",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Flutter mobile app development study jam",
+    "date": {
+      "start": "2019-06-03T00:00:00.000Z",
+      "end": "2019-06-03T00:00:00.000Z"
+    },
+    "description": "Come learn how to make cross platform mobiles that are fast and look good. This is an intro class that will introduce you to the Dart programming language and the Flutter SDK.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "flutter",
+      "workshop"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzjbnb/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1Q8Ptpww3OjyOVNeWk7X5Wh6cya-LlP9Jk98iHd_8f-4",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+      "1128114293508124677",
+      "1131576413075714058",
+      "1132298457904025600"
+    ]
+  },
+  {
     "id": "-Lk34U_kWF81vbNCDjfA",
     "archived": false,
     "nodePackages": [],

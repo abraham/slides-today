@@ -41272,5 +41272,537 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1131576413075714058": {
+    "created_at": "Thu May 23 15:03:35 +0000 2019",
+    "id": 1131576413075714000,
+    "id_str": "1131576413075714058",
+    "full_text": "Interested in learning how to build an @FlutterDev app? @gdgmadison is running a workshop on Saturday at @bendyworks. Get on the waitlist now! https://t.co/qoSfM7oSd6",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      166
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FlutterDev",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            39,
+            50
+          ]
+        },
+        {
+          "screen_name": "gdgmadison",
+          "name": "GDG Madison",
+          "id": 60940193,
+          "id_str": "60940193",
+          "indices": [
+            56,
+            67
+          ]
+        },
+        {
+          "screen_name": "bendyworks",
+          "name": "Bendyworks",
+          "id": 31920143,
+          "id_str": "31920143",
+          "indices": [
+            105,
+            116
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/qoSfM7oSd6",
+          "expanded_url": "https://www.meetup.com/gdgmadison/events/261440417/",
+          "display_url": "meetup.com/gdgmadison/eve…",
+          "indices": [
+            143,
+            166
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/xkQ8kgmapt",
+              "expanded_url": "https://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                100,
+                123
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9086,
+      "friends_count": 930,
+      "listed_count": 612,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 30698,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 50308,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1128114293508124677": {
+    "created_at": "Tue May 14 01:46:21 +0000 2019",
+    "id": 1128114293508124700,
+    "id_str": "1128114293508124677",
+    "full_text": "Interested in building beautiful cross platform apps with a single codebase? Come to our all day @FlutterDev workshop May 25th!\n\nhttps://t.co/mCxdCxDlrP https://t.co/JYIBSW7LQM",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      152
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FlutterDev",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            97,
+            108
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/mCxdCxDlrP",
+          "expanded_url": "https://www.meetup.com/gdgmadison/events/261440417/",
+          "display_url": "meetup.com/gdgmadison/eve…",
+          "indices": [
+            129,
+            152
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1128113167798870000,
+          "id_str": "1128113167798870016",
+          "indices": [
+            153,
+            176
+          ],
+          "media_url": "http://pbs.twimg.com/media/D6fc8vkXoAAFNy1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D6fc8vkXoAAFNy1.jpg",
+          "url": "https://t.co/JYIBSW7LQM",
+          "display_url": "pic.twitter.com/JYIBSW7LQM",
+          "expanded_url": "https://twitter.com/gdgmadison/status/1128114293508124677/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1600,
+              "h": 733,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 312,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 550,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1128113167798870000,
+          "id_str": "1128113167798870016",
+          "indices": [
+            153,
+            176
+          ],
+          "media_url": "http://pbs.twimg.com/media/D6fc8vkXoAAFNy1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D6fc8vkXoAAFNy1.jpg",
+          "url": "https://t.co/JYIBSW7LQM",
+          "display_url": "pic.twitter.com/JYIBSW7LQM",
+          "expanded_url": "https://twitter.com/gdgmadison/status/1128114293508124677/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1600,
+              "h": 733,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 312,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 550,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 60940193,
+      "id_str": "60940193",
+      "name": "GDG Madison",
+      "screen_name": "gdgmadison",
+      "location": "Madison, WI",
+      "description": "Google Developer Group Madison. Hosting @DevFestWI Sept 28th.",
+      "url": "https://t.co/jmpo3XZoV1",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/jmpo3XZoV1",
+              "expanded_url": "https://gdgmadison.com",
+              "display_url": "gdgmadison.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 146,
+      "friends_count": 50,
+      "listed_count": 15,
+      "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+      "favourites_count": 156,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 496,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1111957581914873856/WQ60P3yw_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1111957581914873856/WQ60P3yw_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1132298457904025600": {
+    "created_at": "Sat May 25 14:52:44 +0000 2019",
+    "id": 1132298457904025600,
+    "id_str": "1132298457904025600",
+    "full_text": "Getting ready for the @FlutterDev #flutterStudyJam at @bendyworks https://t.co/sDdvqAevQ2",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      65
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "flutterStudyJam",
+          "indices": [
+            34,
+            50
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FlutterDev",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            22,
+            33
+          ]
+        },
+        {
+          "screen_name": "bendyworks",
+          "name": "Bendyworks",
+          "id": 31920143,
+          "id_str": "31920143",
+          "indices": [
+            54,
+            65
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1132298447888031700,
+          "id_str": "1132298447888031744",
+          "indices": [
+            66,
+            89
+          ],
+          "media_url": "http://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
+          "url": "https://t.co/sDdvqAevQ2",
+          "display_url": "pic.twitter.com/sDdvqAevQ2",
+          "expanded_url": "https://twitter.com/gdgmadison/status/1132298457904025600/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1132298447888031700,
+          "id_str": "1132298447888031744",
+          "indices": [
+            66,
+            89
+          ],
+          "media_url": "http://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
+          "url": "https://t.co/sDdvqAevQ2",
+          "display_url": "pic.twitter.com/sDdvqAevQ2",
+          "expanded_url": "https://twitter.com/gdgmadison/status/1132298457904025600/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 60940193,
+      "id_str": "60940193",
+      "name": "GDG Madison",
+      "screen_name": "gdgmadison",
+      "location": "Madison, WI",
+      "description": "Google Developer Group Madison. Hosting @DevFestWI Sept 28th.",
+      "url": "https://t.co/jmpo3XZoV1",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/jmpo3XZoV1",
+              "expanded_url": "https://gdgmadison.com",
+              "display_url": "gdgmadison.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 146,
+      "friends_count": 50,
+      "listed_count": 15,
+      "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+      "favourites_count": 156,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 496,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1111957581914873856/WQ60P3yw_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1111957581914873856/WQ60P3yw_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 26,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
