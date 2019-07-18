@@ -40,6 +40,39 @@
     ]
   },
   {
+    "id": "-Lk38kV8Icsivp6-E9Qj",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "Being a developer",
+    "date": {
+      "start": "2019-06-27T00:00:00.000Z",
+      "end": "2019-06-27T00:00:00.000Z"
+    },
+    "description": "Madym visit Bendyworks to learn about a career in coding",
+    "eventTitle": "Maydm",
+    "tags": [
+      "culture"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1OQTRBQ4Cu5MrjWlz7J54tt5Ond-Ihf9YPvqOqk1fPbI",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": []
+  },
+  {
     "id": "-LhzzWvjPqjdqbkK1_Ar",
     "archived": false,
     "nodePackages": [],
