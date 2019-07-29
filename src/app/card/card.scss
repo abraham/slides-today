@@ -2,18 +2,13 @@
 
 .mdc-card {
   background-color: #FFFFFF !important;
-  border-radius: 8px;
   overflow: hidden;
 }
 
 .card__primary {
-  padding: 1rem;
+  padding: 16px;
 
-  .card__title {
-    margin: 0;
-  }
-
-  .card__subtitle {
+  .card__title, .card__subtitle {
     margin: 0;
   }
 }

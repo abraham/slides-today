@@ -1,14 +1,13 @@
-<div #cardEl class="mdc-card">
-  <section class="card__primary">
+<div #cardEl class="mdc-card mdc-card--outlined">
+  <section class="mdc-card__primary-action card__primary" (click)="goToDeck()">
+    <h1 class="card__title mdc-typography--headline6">{{deck.title}}</h1>
     <h2 class="card__subtitle mdc-typography--subtitle2">{{deck.eventTitle}} · {{deck.date}}</h2>
-    <h1 class="card__title mdc-typography--headline6" (click)="goToDeck()">{{deck.title}}</h1>
   </section>
   <section class="card__secondary">
     <app-tags [currentTags]="deck.tags"></app-tags>
   </section>
   <section class="card__secondary mdc-typography--body2">{{deck.description}}</section>
-  <app-map [location$]="of(deck.location)"></app-map>
-  <section #actions class="mdc-card__actions">
+  <section #actions class="mdc-card__actions mdc-card__actions--full-bleed">
     <app-card-action [text]="'Details'" [url]="url" [blank]="false"></app-card-action>
   </section>
 </div>

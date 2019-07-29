@@ -7,7 +7,7 @@
       <div class="mdc-layout-grid__inner">
 
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
-          <div #detailsEl class="item details mdc-card">
+          <div #detailsEl class="item details mdc-card mdc-card--outlined">
             <section class="card__primary">
               <h1 class="card__title mdc-typography--headline6">{{deck.title}}</h1>
               <h2 class="card__subtitle mdc-typography--subtitle2">{{deck.eventTitle}} · {{deck.date}}</h2>
@@ -40,7 +40,7 @@
           </ng-template>
 
           <div class="item" *ngIf="deck">
-            <div class="mdc-card">
+            <div class="mdc-card mdc-card--outlined">
               <section class="card__primary">
                 <h2 class="card__title mdc-typography--headline6">{{deck.location}}</h2>
               </section>
@@ -60,15 +60,15 @@
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
 
           <ng-template ngFor let-github [ngForOf]="deck.githubRepos">
-            <github-repository class="item mdc-elevation--z1" [attr.owner-repo]="github"></github-repository>
+            <github-repository class="item" [attr.owner-repo]="github"></github-repository>
           </ng-template>
 
           <ng-template ngFor let-name [ngForOf]="deck.nodePackages">
-            <node-package class="item mdc-elevation--z1" [attr.name]="name"></node-package>
+            <node-package class="item" [attr.name]="name"></node-package>
           </ng-template>
 
           <ng-template ngFor let-status [ngForOf]="deck.tweets">
-            <twitter-status class="item mdc-elevation--z1" [status]="status"></twitter-status>
+            <twitter-status class="item" [status]="status"></twitter-status>
           </ng-template>
 
         </div>
