@@ -1,2 +1,6 @@
 @import '~@material/button/mdc-button';
 @import '~@material/ripple/mdc-ripple';
+
+:host {
+  width: 100%;
+}

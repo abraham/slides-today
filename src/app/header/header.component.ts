@@ -39,7 +39,8 @@ export class HeaderComponent implements AfterViewInit {
     this.toolbar = new MDCTopAppBar(this.appBar.nativeElement);
   }
 
-  goBack(): void {
+  goBack(e: MouseEvent): void {
+    e.preventDefault();
     if (window.history.length > 1) {
       this.location.back();
     } else {
