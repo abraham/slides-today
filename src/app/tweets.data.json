@@ -41946,5 +41946,359 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1143698586707906566": {
+    "created_at": "Wed Jun 26 01:52:46 +0000 2019",
+    "id": 1143698586707906600,
+    "id_str": "1143698586707906566",
+    "full_text": "Join us for a talk on Web Performance on August 1st. @pblatteier and @abraham will show you how to make progressive web apps that download almost instantly and work offline while still providing the functionality of native apps. https://t.co/ERFaPzPxoE",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      252
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            53,
+            64
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            69,
+            77
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ERFaPzPxoE",
+          "expanded_url": "https://www.eventbrite.com/e/web-performance-tickets-64148926165",
+          "display_url": "eventbrite.com/e/web-performa…",
+          "indices": [
+            229,
+            252
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 784236971073777700,
+      "id_str": "784236971073777664",
+      "name": "Codecinella Madison",
+      "screen_name": "codecinella",
+      "location": "Madison, WI",
+      "description": "Lady Bug Fixers",
+      "url": "https://t.co/7ld3gfQj7k",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/7ld3gfQj7k",
+              "expanded_url": "http://codecinella.org",
+              "display_url": "codecinella.org",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 87,
+      "friends_count": 52,
+      "listed_count": 3,
+      "created_at": "Fri Oct 07 03:40:39 +0000 2016",
+      "favourites_count": 15,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 96,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/784259076540604416/barCigP-_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/784259076540604416/barCigP-_normal.jpg",
+      "profile_link_color": "FF00FF",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1155865594476060673": {
+    "created_at": "Mon Jul 29 15:40:07 +0000 2019",
+    "id": 1155865594476060700,
+    "id_str": "1155865594476060673",
+    "full_text": "Very excited to be speaking at @codecinella with @pblatteier on Thursday about mobile web performance.\n\nhttps://t.co/ukvSMl6uBU https://t.co/pdF0bXDYGq",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      127
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "codecinella",
+          "name": "Codecinella Madison",
+          "id": 784236971073777700,
+          "id_str": "784236971073777664",
+          "indices": [
+            31,
+            43
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            49,
+            60
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ukvSMl6uBU",
+          "expanded_url": "https://www.meetup.com/codecinella-madison/events/262567309/",
+          "display_url": "meetup.com/codecinella-ma…",
+          "indices": [
+            104,
+            127
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1155865588444651500,
+          "id_str": "1155865588444651522",
+          "indices": [
+            128,
+            151
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/EAp1oO9XYAI3O53.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EAp1oO9XYAI3O53.jpg",
+          "url": "https://t.co/pdF0bXDYGq",
+          "display_url": "pic.twitter.com/pdF0bXDYGq",
+          "expanded_url": "https://twitter.com/abraham/status/1155865594476060673/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1155865588444651500,
+          "id_str": "1155865588444651522",
+          "indices": [
+            128,
+            151
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/EAp1oO9XYAI3O53.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EAp1oO9XYAI3O53.jpg",
+          "url": "https://t.co/pdF0bXDYGq",
+          "display_url": "pic.twitter.com/pdF0bXDYGq",
+          "expanded_url": "https://twitter.com/abraham/status/1155865594476060673/photo/1",
+          "type": "animated_gif",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 480,
+              "h": 264,
+              "resize": "fit"
+            }
+          },
+          "video_info": {
+            "aspect_ratio": [
+              20,
+              11
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/tweet_video/EAp1oO9XYAI3O53.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                100,
+                123
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9128,
+      "friends_count": 939,
+      "listed_count": 612,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 31057,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 50370,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
