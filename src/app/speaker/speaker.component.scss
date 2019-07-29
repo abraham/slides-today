@@ -5,17 +5,16 @@
   background-color: #fff;
 }
 
+.card__primary > div {
+  display: inline-block;
+}
+
 .card__avatar {
-  margin-top: 8px;
-  position: absolute;
+  margin-right: 16px;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.card__avatar ~ .card__title, .card__avatar ~ .card__subtitle {
-  margin-left: 56px;
 }
