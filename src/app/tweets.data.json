@@ -42300,5 +42300,240 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1156553569396387840": {
+    "created_at": "Wed Jul 31 13:13:53 +0000 2019",
+    "id": 1156553569396387800,
+    "id_str": "1156553569396387840",
+    "full_text": "Join me at @codecinella Thursday! I'll be discussing mobile web performance with @abraham #perfmatters https://t.co/LQPYBkOcfw",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      102
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "perfmatters",
+          "indices": [
+            90,
+            102
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "codecinella",
+          "name": "Codecinella Madison",
+          "id": 784236971073777700,
+          "id_str": "784236971073777664",
+          "indices": [
+            11,
+            23
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            81,
+            89
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/LQPYBkOcfw",
+          "expanded_url": "https://twitter.com/MSNTechEvents/status/1156550851856601088",
+          "display_url": "twitter.com/MSNTechEvents/…",
+          "indices": [
+            103,
+            126
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 202376085,
+      "id_str": "202376085",
+      "name": "Pearl Latteier",
+      "screen_name": "pblatteier",
+      "location": "Madison, WI",
+      "description": "Developer at @PropellerHealth, organizer of @devfestwi and @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead, @mozTechSpeakers",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 996,
+      "friends_count": 684,
+      "listed_count": 39,
+      "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+      "favourites_count": 2757,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 901,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1535673161",
+      "profile_link_color": "B00020",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1156550851856601000,
+    "quoted_status_id_str": "1156550851856601088",
+    "quoted_status_permalink": {
+      "url": "https://t.co/LQPYBkOcfw",
+      "expanded": "https://twitter.com/MSNTechEvents/status/1156550851856601088",
+      "display": "twitter.com/MSNTechEvents/…"
+    },
+    "quoted_status": {
+      "created_at": "Wed Jul 31 13:03:05 +0000 2019",
+      "id": 1156550851856601000,
+      "id_str": "1156550851856601088",
+      "full_text": "Coming to the Codecinella Madison meetup tomorrow? You can still join us: https://t.co/SihfPTXmIS",
+      "truncated": false,
+      "display_text_range": [
+        0,
+        97
+      ],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/SihfPTXmIS",
+            "expanded_url": "http://j.mp/2RxHY8C",
+            "display_url": "j.mp/2RxHY8C",
+            "indices": [
+              74,
+              97
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://techeventsnetwork.com/\" rel=\"nofollow\">Tech Events Network - Madison</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 733906336765730800,
+        "id_str": "733906336765730817",
+        "name": "Madison Tech Events",
+        "screen_name": "MSNTechEvents",
+        "location": "Madison, WI",
+        "description": "Events for developers, technologists, and other geeks in Madison, WI. If I'm missing your event, tweet me! (We only tweet tech events, not jobs.)",
+        "url": "https://t.co/W1zy76vYiI",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/W1zy76vYiI",
+                "expanded_url": "https://techeventsnetwork.com/cities/madison",
+                "display_url": "techeventsnetwork.com/cities/madison",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1931,
+        "friends_count": 1755,
+        "listed_count": 39,
+        "created_at": "Sat May 21 06:24:40 +0000 2016",
+        "favourites_count": 2,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2639,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/736767753361596417/01JqdUD5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/736767753361596417/01JqdUD5_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/733906336765730817/1464494135",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "retweet_count": 1,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
