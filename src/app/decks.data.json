@@ -70,6 +70,12 @@
         "url": "https://www.meetup.com/codecinella-madison/events/262567309/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/18ADMTCw3Z2XX4yrnzstuTt-9iDFf6j5DH-Xr1WZtEQY",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [],
