@@ -1923,7 +1923,146 @@
         "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Google Web Fundamentals - Performance",
+        "url": "https://developers.google.com/web/fundamentals/performance/rail",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "What Forces Layout, by Paul Irish",
+        "url": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "The Cost of JavaScript, Addy Osmani",
+        "url": "https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Can You Afford It?: Real-world Web Performance Budgets",
+        "url": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Primer on Web Performance, by Ilya Grigorik",
+        "url": "https://hpbn.co/primer-on-web-performance/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Chrome Dev Tools -  Performance Analysis Reference",
+        "url": "https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "PRPL with Custom Elements and Firebase",
+        "url": "https://codelabs.developers.google.com/codelabs/prpl-ce-firebase/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Performance Optimization with webpack",
+        "url": "https://developers.google.com/web/fundamentals/performance/webpack/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Shipping system fonts to GitHub.com",
+        "url": "http://markdotto.com/2018/02/07/github-system-fonts/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using Immutable Caching To Speed Up The Web",
+        "url": "https://hacks.mozilla.org/2017/01/using-immutable-caching-to-speed-up-the-web/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Font Optimization",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "CSS Triggers",
+        "url": "https://csstriggers.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Workbox",
+        "url": "https://developers.google.com/web/tools/workbox/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Mobile Speed Matters",
+        "url": "https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "PageSpeed",
+        "url": "https://developers.google.com/speed/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "WebPageTest",
+        "url": "https://www.webpagetest.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Font Optimization",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Webpack Code Splitting",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "GatsbyJS",
+        "url": "https://www.gatsbyjs.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Preact CLI",
+        "url": "https://github.com/developit/preact-cli",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Polymer PWA Starter Kit",
+        "url": "https://github.com/Polymer/pwa-starter-kit",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Stencil PWA Toolkit",
+        "url": "https://stenciljs.com/pwa",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Img-2",
+        "url": "https://github.com/RevillWeb/img-2",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
@@ -2343,7 +2482,146 @@
         "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "Google Web Fundamentals - Performance",
+        "url": "https://developers.google.com/web/fundamentals/performance/rail",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "What Forces Layout, by Paul Irish",
+        "url": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "The Cost of JavaScript, Addy Osmani",
+        "url": "https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Can You Afford It?: Real-world Web Performance Budgets",
+        "url": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Primer on Web Performance, by Ilya Grigorik",
+        "url": "https://hpbn.co/primer-on-web-performance/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Chrome Dev Tools -  Performance Analysis Reference",
+        "url": "https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "PRPL with Custom Elements and Firebase",
+        "url": "https://codelabs.developers.google.com/codelabs/prpl-ce-firebase/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Performance Optimization with webpack",
+        "url": "https://developers.google.com/web/fundamentals/performance/webpack/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Shipping system fonts to GitHub.com",
+        "url": "http://markdotto.com/2018/02/07/github-system-fonts/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using Immutable Caching To Speed Up The Web",
+        "url": "https://hacks.mozilla.org/2017/01/using-immutable-caching-to-speed-up-the-web/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Font Optimization",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "CSS Triggers",
+        "url": "https://csstriggers.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Workbox",
+        "url": "https://developers.google.com/web/tools/workbox/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Mobile Speed Matters",
+        "url": "https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "PageSpeed",
+        "url": "https://developers.google.com/speed/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "WebPageTest",
+        "url": "https://www.webpagetest.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Font Optimization",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Webpack Code Splitting",
+        "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "GatsbyJS",
+        "url": "https://www.gatsbyjs.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Preact CLI",
+        "url": "https://github.com/developit/preact-cli",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Polymer PWA Starter Kit",
+        "url": "https://github.com/Polymer/pwa-starter-kit",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Stencil PWA Toolkit",
+        "url": "https://stenciljs.com/pwa",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Img-2",
+        "url": "https://github.com/RevillWeb/img-2",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E",
       "-KxPCvJa7J1Ggg1xZpCp"
