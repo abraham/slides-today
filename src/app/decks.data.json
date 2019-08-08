@@ -29,6 +29,12 @@
         "url": "https://www.thatconference.com/sessions/session/13853",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/19cNKqRqTqcm54vWk1vYSRq0PzZB3rw3lvaWlwXw9kw4",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [
@@ -99,6 +105,12 @@
         "service": "external"
       },
       {
+        "title": "Native lazy-loading for the web",
+        "url": "https://web.dev/native-lazy-loading",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
         "title": "CSS Triggers",
         "url": "https://csstriggers.com/",
         "useAsTag": false,
@@ -141,20 +153,26 @@
         "service": "external"
       },
       {
+        "title": "AMP",
+        "url": "https://amp.dev",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
         "title": "GatsbyJS",
         "url": "https://www.gatsbyjs.org/",
         "useAsTag": false,
         "service": "external"
       },
       {
-        "title": "Preact CLI",
-        "url": "https://github.com/developit/preact-cli",
+        "title": "Polymer PWA Starter Kit",
+        "url": "https://github.com/Polymer/pwa-starter-kit",
         "useAsTag": false,
         "service": "external"
       },
       {
-        "title": "Polymer PWA Starter Kit",
-        "url": "https://github.com/Polymer/pwa-starter-kit",
+        "title": "Preact CLI",
+        "url": "https://github.com/developit/preact-cli",
         "useAsTag": false,
         "service": "external"
       },
