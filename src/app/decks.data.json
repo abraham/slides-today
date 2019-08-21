@@ -1,5 +1,44 @@
 [
   {
+    "id": "-LmpPnfy1BFMiyObH9wf",
+    "archived": false,
+    "nodePackages": [
+      "lit-element",
+      "@webcomponents/webcomponentsjs"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Web Components: Building Blocks of the Web",
+    "date": {
+      "start": "2018-08-26T00:00:00.000Z",
+      "end": "2018-08-26T00:00:00.000Z"
+    },
+    "description": "Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build and test native web components using best practices.",
+    "eventTitle": "Forward Technology Conference",
+    "tags": [
+      "webcomponents"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://forwardtechnologyconference2019.sched.com/event/SkN9/web-components-building-blocks-of-the-web",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1164243571525980160"
+    ]
+  },
+  {
     "id": "-Lh1uKFqF1GyBZbwuEp-",
     "archived": false,
     "nodePackages": [
