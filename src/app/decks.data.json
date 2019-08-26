@@ -3,10 +3,14 @@
     "id": "-LmpPnfy1BFMiyObH9wf",
     "archived": false,
     "nodePackages": [
+      "@webcomponents/webcomponentsjs",
       "lit-element",
-      "@webcomponents/webcomponentsjs"
+      "@nutmeg/cli",
+      "stencil"
     ],
-    "githubRepos": [],
+    "githubRepos": [
+      "pearlbea/better-img"
+    ],
     "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp",
       "-KsZTNlw7dpLoH5mrsT4"
@@ -19,7 +23,8 @@
     "description": "Writing the same login form over and over again? Web components offer a modular approach to creating reusable UI widgets. Ditch large, complex frameworks and drop these lightweight building blocks into your site. We will show you how to build and test native web components using best practices.",
     "eventTitle": "Forward Technology Conference",
     "tags": [
-      "webcomponents"
+      "webcomponents",
+      "javascript"
     ],
     "location": "Madison, WI",
     "links": [
@@ -28,9 +33,76 @@
         "url": "https://forwardtechnologyconference2019.sched.com/event/SkN9/web-components-building-blocks-of-the-web",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1abeZip1A6uoK26E_tdo5jm1my6llRXB8vLt6PucyzWk",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
-    "resources": [],
+    "resources": [
+      {
+        "title": "WebComponents.org",
+        "url": "https://www.webcomponents.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "MDN - Web Components",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Fundamentals - Web Components",
+        "url": "https://developers.google.com/web/fundamentals/web-components/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Web Components Gold Standard",
+        "url": "https://github.com/webcomponents/gold-standard/wiki",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Custom Elements Everywhere",
+        "url": "https://custom-elements-everywhere.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "<better-img>",
+        "url": "https://github.com/pearlbea/better-img",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "<better-img> demo",
+        "url": "https://component-demo.firebaseapp.com/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Nutmeg",
+        "url": "https://nutmeg.tools",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Polymer Project",
+        "url": "https://www.polymer-project.org/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Stencil",
+        "url": "https://stenciljs.com/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
     "sponsorIds": [
       "-Kt8bVVFVc8xQNx9AP_E"
     ],
