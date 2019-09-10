@@ -21,7 +21,7 @@
   "dependencies": {
     "@abraham/reflection": "0.5.1",
     "@angular/animations": "8.2.4",
-    "@angular/cdk": "8.1.4",
+    "@angular/cdk": "8.2.0",
     "@angular/common": "8.2.4",
     "@angular/compiler": "8.2.4",
     "@angular/core": "8.2.4",
