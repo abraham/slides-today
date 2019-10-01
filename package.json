@@ -51,7 +51,7 @@
     "@angular/compiler-cli": "8.2.6",
     "@angular/language-service": "8.2.6",
     "@types/jasmine": "3.4.2",
-    "@types/jasminewd2": "2.0.7",
+    "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "0.43.1",
     "@types/node": "12.7.8",
     "@types/twit": "2.2.22",
