@@ -54,7 +54,7 @@
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "0.43.1",
     "@types/node": "12.7.12",
-    "@types/twit": "2.2.22",
+    "@types/twit": "2.2.23",
     "codelyzer": "5.1.2",
     "firebase-tools": "7.5.0",
     "jasmine": "3.5.0",
