@@ -31,7 +31,7 @@
     "@angular/platform-browser-dynamic": "8.2.6",
     "@angular/router": "8.2.6",
     "@firebase/app": "0.4.16",
-    "@firebase/firestore": "1.5.1",
+    "@firebase/firestore": "1.6.1",
     "@webcomponents/webcomponentsjs": "2.2.10",
     "autotrack": "2.4.1",
     "core-js": "3.2.1",
