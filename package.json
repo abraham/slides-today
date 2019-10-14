@@ -19,7 +19,7 @@
   },
   "private": true,
   "dependencies": {
-    "@abraham/reflection": "0.5.1",
+    "@abraham/reflection": "0.6.0",
     "@angular/animations": "8.2.10",
     "@angular/cdk": "8.2.0",
     "@angular/common": "8.2.10",
