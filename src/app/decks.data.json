@@ -16,7 +16,7 @@
       "start": "2019-10-15T00:00:00.000Z",
       "end": "2019-10-15T00:00:00.000Z"
     },
-    "description": "Flutter is a new tool from Google that allows you to quickly create beautiful native apps for iOS and Android from a single codebase. We'll take attendees on a tour of Flutter, highlighting its extensive widget library and tools for speedy development. We'll show attendees how Flutter works, how it compares with other cross-platform frameworks, and how to create and test Flutter apps.",
+    "description": "Developer teams have long dreamed of a single codebase to rule them all. With Flutter we finally we have a solution that delivers. Flutter allows you to build beautiful, native applications for mobile, web, and desktop without sacrificing user experience. Learn how Flutter for Web works and why you should use it for your next app.",
     "eventTitle": "GDG Madison",
     "tags": [
       "flutter"
@@ -802,7 +802,7 @@
     "links": [
       {
         "title": "Event",
-        "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzjbnb/",
+        "url": "https://www.meetup.com/gdgmadison/events/261440417/",
         "useAsTag": false,
         "service": "external"
       },
