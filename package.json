@@ -34,7 +34,7 @@
     "@firebase/firestore": "1.6.3",
     "@webcomponents/webcomponentsjs": "2.3.0",
     "autotrack": "2.4.1",
-    "core-js": "3.3.5",
+    "core-js": "3.3.6",
     "dayjs": "1.8.16",
     "firebase-admin": "8.7.0",
     "github-repository": "0.3.0",
