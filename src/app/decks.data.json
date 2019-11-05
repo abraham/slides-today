@@ -1,5 +1,89 @@
 [
   {
+    "id": "-LsvgW977QhhdDTJqe9K",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [
+      "flutter/flutter",
+      "abraham/birb",
+      "ericwindmill/flutter_by_example_apps",
+      "abraham/we-rate-dogs"
+    ],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "Flutter All the Things",
+    "date": {
+      "start": "2019-11-07T00:00:00.000Z",
+      "end": "2019-11-08T00:00:00.000Z"
+    },
+    "description": "Developer teams have long dreamed of a single codebase to rule them all. With Flutter we finally we have a solution that delivers. Flutter allows you to build beautiful, native applications for mobile, web, and desktop without sacrificing user experience. Learn how Flutter for Web works and why you should use it for your next app.",
+    "eventTitle": "Mobile Era",
+    "tags": [
+      "flutter",
+      "progressivewebapps"
+    ],
+    "location": "Oslo, Norway",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://mobileera.rocks/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Flutter",
+        "url": "https://flutter.io",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Intro to Dart for Java Developers",
+        "url": "https://codelabs.developers.google.com/codelabs/from-java-to-dart/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Flutter by Example - Build a Basic App",
+        "url": "https://flutterbyexample.com/basic-dogs-app-setup",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "A Month of Flutter",
+        "url": "https://bendyworks.com/blog/a-month-of-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Awesome Flutter",
+        "url": "https://github.com/Solido/awesome-flutter",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "We Rate Dogs demo",
+        "url": "https://era-of-dogs.web.app/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E"
+    ],
+    "tweetIds": [
+      "1177173214168080385",
+      "1188817126917840897",
+      "1188830653304967168",
+      "1190274434357252097",
+      "1191432978343374849",
+      "1191494515451924482",
+      "1191641487223574528"
+    ]
+  },
+  {
     "id": "-LrEQ-w_dkhBWxp8-kpT",
     "archived": false,
     "nodePackages": [],
