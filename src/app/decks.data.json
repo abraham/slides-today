@@ -2,12 +2,14 @@
   {
     "id": "-LsvgW977QhhdDTJqe9K",
     "archived": false,
-    "nodePackages": [],
+    "nodePackages": [
+      "firebase-tools"
+    ],
     "githubRepos": [
       "flutter/flutter",
       "abraham/birb",
       "ericwindmill/flutter_by_example_apps",
-      "abraham/we-rate-dogs"
+      "abraham/era-of-dogs"
     ],
     "speakerIds": [
       "-KsZTL-5U4v1UYxq4Zbp"
@@ -29,6 +31,18 @@
         "title": "Event",
         "url": "https://mobileera.rocks/",
         "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1q9NVH3QZY1j1MX_2YKTMPItb2Gb__zN89L_T2G_lDX0",
+        "useAsTag": false,
+        "service": "google-slides"
+      },
+      {
+        "title": "Demo",
+        "url": "https://era-of-dogs.web.app",
+        "useAsTag": true,
         "service": "external"
       }
     ],
