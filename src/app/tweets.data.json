@@ -44816,5 +44816,1507 @@
     "possibly_sensitive": false,
     "possibly_sensitive_appealable": false,
     "lang": "en"
+  },
+  "1192769633125851136": {
+    "created_at": "Fri Nov 08 11:43:35 +0000 2019",
+    "id": 1192769633125851100,
+    "id_str": "1192769633125851136",
+    "full_text": "The spirit of @pblatteier is enjoying some snow in Oslo #mobileera https://t.co/1Ft1CjhGYO",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      66
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "mobileera",
+          "indices": [
+            56,
+            66
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            14,
+            25
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1192769604826861600,
+          "id_str": "1192769604826861568",
+          "indices": [
+            67,
+            90
+          ],
+          "media_url": "http://pbs.twimg.com/media/EI2RotKWkAAGb_t.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EI2RotKWkAAGb_t.jpg",
+          "url": "https://t.co/1Ft1CjhGYO",
+          "display_url": "pic.twitter.com/1Ft1CjhGYO",
+          "expanded_url": "https://twitter.com/abraham/status/1192769633125851136/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "orig": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1192769604826861600,
+          "id_str": "1192769604826861568",
+          "indices": [
+            67,
+            90
+          ],
+          "media_url": "http://pbs.twimg.com/media/EI2RotKWkAAGb_t.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EI2RotKWkAAGb_t.jpg",
+          "url": "https://t.co/1Ft1CjhGYO",
+          "display_url": "pic.twitter.com/1Ft1CjhGYO",
+          "expanded_url": "https://twitter.com/abraham/status/1192769633125851136/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "orig": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "large": {
+              "faces": []
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                99,
+                122
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9291,
+      "friends_count": 1085,
+      "listed_count": 610,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 34574,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 51324,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1192369344224940034": {
+    "created_at": "Thu Nov 07 09:12:59 +0000 2019",
+    "id": 1192369344224940000,
+    "id_str": "1192369344224940034",
+    "full_text": "@abraham co-presenting with the peacock @pblatteier at @mobileeraconf to a packed room! https://t.co/acmMuL4kNf",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      87
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            40,
+            51
+          ]
+        },
+        {
+          "screen_name": "mobileeraconf",
+          "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
+          "id": 4179545055,
+          "id_str": "4179545055",
+          "indices": [
+            55,
+            69
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1192369336389918700,
+          "id_str": "1192369336389918720",
+          "indices": [
+            88,
+            111
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIwlmBCW4AAW8zh.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIwlmBCW4AAW8zh.jpg",
+          "url": "https://t.co/acmMuL4kNf",
+          "display_url": "pic.twitter.com/acmMuL4kNf",
+          "expanded_url": "https://twitter.com/hjnilsson/status/1192369344224940034/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "type": "user",
+                  "user_id": "9436992",
+                  "screen_name": "abraham",
+                  "name": "Abraham Williams"
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 594,
+                  "y": 665,
+                  "h": 55,
+                  "w": 55
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1014,
+                  "y": 1136,
+                  "h": 94,
+                  "w": 94
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1014,
+                  "y": 1136,
+                  "h": 94,
+                  "w": 94
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 336,
+                  "y": 377,
+                  "h": 31,
+                  "w": 31
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1192369336389918700,
+          "id_str": "1192369336389918720",
+          "indices": [
+            88,
+            111
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIwlmBCW4AAW8zh.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIwlmBCW4AAW8zh.jpg",
+          "url": "https://t.co/acmMuL4kNf",
+          "display_url": "pic.twitter.com/acmMuL4kNf",
+          "expanded_url": "https://twitter.com/hjnilsson/status/1192369344224940034/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "type": "user",
+                  "user_id": "9436992",
+                  "screen_name": "abraham",
+                  "name": "Abraham Williams"
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 594,
+                  "y": 665,
+                  "h": 55,
+                  "w": 55
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1014,
+                  "y": 1136,
+                  "h": 94,
+                  "w": 94
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1014,
+                  "y": 1136,
+                  "h": 94,
+                  "w": 94
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 336,
+                  "y": 377,
+                  "h": 31,
+                  "w": 31
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": 9436992,
+    "in_reply_to_user_id_str": "9436992",
+    "in_reply_to_screen_name": "abraham",
+    "user": {
+      "id": 612306761,
+      "id_str": "612306761",
+      "name": "Nilsson",
+      "screen_name": "hjnilsson",
+      "location": "Oslo",
+      "description": "",
+      "url": "https://t.co/LqeAHloPOP",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/LqeAHloPOP",
+              "expanded_url": "http://hjnilsson.com",
+              "display_url": "hjnilsson.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 63,
+      "friends_count": 87,
+      "listed_count": 3,
+      "created_at": "Tue Jun 19 05:57:52 +0000 2012",
+      "favourites_count": 144,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 285,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/800335349310488576/Fo7WRhBh_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/800335349310488576/Fo7WRhBh_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": true,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 6,
+    "favorited": true,
+    "retweeted": true,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1192378114598416384": {
+    "created_at": "Thu Nov 07 09:47:50 +0000 2019",
+    "id": 1192378114598416400,
+    "id_str": "1192378114598416384",
+    "full_text": "Flutter is for more than mobile development. Nice talk by @abraham #MobileEra https://t.co/5oDdR4R5fe",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      77
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MobileEra",
+          "indices": [
+            67,
+            77
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            58,
+            66
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1192378102162350000,
+          "id_str": "1192378102162350080",
+          "indices": [
+            78,
+            101
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+          "url": "https://t.co/5oDdR4R5fe",
+          "display_url": "pic.twitter.com/5oDdR4R5fe",
+          "expanded_url": "https://twitter.com/JanSBor/status/1192378114598416384/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 48,
+                  "y": 1466,
+                  "h": 138,
+                  "w": 138
+                },
+                {
+                  "x": 462,
+                  "y": 1362,
+                  "h": 248,
+                  "w": 248
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 48,
+                  "y": 1466,
+                  "h": 138,
+                  "w": 138
+                },
+                {
+                  "x": 462,
+                  "y": 1362,
+                  "h": 248,
+                  "w": 248
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 28,
+                  "y": 858,
+                  "h": 80,
+                  "w": 80
+                },
+                {
+                  "x": 270,
+                  "y": 798,
+                  "h": 145,
+                  "w": 145
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 15,
+                  "y": 486,
+                  "h": 45,
+                  "w": 45
+                },
+                {
+                  "x": 153,
+                  "y": 452,
+                  "h": 82,
+                  "w": 82
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1192378102162350000,
+          "id_str": "1192378102162350080",
+          "indices": [
+            78,
+            101
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+          "url": "https://t.co/5oDdR4R5fe",
+          "display_url": "pic.twitter.com/5oDdR4R5fe",
+          "expanded_url": "https://twitter.com/JanSBor/status/1192378114598416384/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1536,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 900,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 48,
+                  "y": 1466,
+                  "h": 138,
+                  "w": 138
+                },
+                {
+                  "x": 462,
+                  "y": 1362,
+                  "h": 248,
+                  "w": 248
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 48,
+                  "y": 1466,
+                  "h": 138,
+                  "w": 138
+                },
+                {
+                  "x": 462,
+                  "y": 1362,
+                  "h": 248,
+                  "w": 248
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 28,
+                  "y": 858,
+                  "h": 80,
+                  "w": 80
+                },
+                {
+                  "x": 270,
+                  "y": 798,
+                  "h": 145,
+                  "w": 145
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 15,
+                  "y": 486,
+                  "h": 45,
+                  "w": 45
+                },
+                {
+                  "x": 153,
+                  "y": 452,
+                  "h": 82,
+                  "w": 82
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154251253,
+      "id_str": "154251253",
+      "name": "Jan Sølve Borlaug",
+      "screen_name": "JanSBor",
+      "location": "Oslo",
+      "description": "Work at Visma Software. Tweet about everything",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 223,
+      "friends_count": 279,
+      "listed_count": 6,
+      "created_at": "Thu Jun 10 19:29:58 +0000 2010",
+      "favourites_count": 1574,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1372,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/977829080/IMG_9830_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/977829080/IMG_9830_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 10,
+    "favorited": true,
+    "retweeted": true,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1192389530050953216": {
+    "created_at": "Thu Nov 07 10:33:12 +0000 2019",
+    "id": 1192389530050953200,
+    "id_str": "1192389530050953216",
+    "full_text": "The @FlutterDev All the Things slides are available at https://t.co/DnP6u1v9BG #MobileEra https://t.co/rIKvs25dHM",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      89
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MobileEra",
+          "indices": [
+            79,
+            89
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "FlutterDev",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            4,
+            15
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/DnP6u1v9BG",
+          "expanded_url": "https://slides.today/decks/-LsvgW977QhhdDTJqe9K",
+          "display_url": "slides.today/decks/-LsvgW97…",
+          "indices": [
+            55,
+            78
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1192389511193346000,
+          "id_str": "1192389511193346048",
+          "indices": [
+            90,
+            113
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIw38WCUwAAYb3Z.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIw38WCUwAAYb3Z.jpg",
+          "url": "https://t.co/rIKvs25dHM",
+          "display_url": "pic.twitter.com/rIKvs25dHM",
+          "expanded_url": "https://twitter.com/abraham/status/1192389530050953216/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1363,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 799,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": [
+                {
+                  "x": 378,
+                  "y": 202,
+                  "h": 191,
+                  "w": 191
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1139,
+                  "y": 609,
+                  "h": 577,
+                  "w": 577
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 667,
+                  "y": 357,
+                  "h": 338,
+                  "w": 338
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1763,
+                  "y": 943,
+                  "h": 894,
+                  "w": 894
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1192389511193346000,
+          "id_str": "1192389511193346048",
+          "indices": [
+            90,
+            113
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIw38WCUwAAYb3Z.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIw38WCUwAAYb3Z.jpg",
+          "url": "https://t.co/rIKvs25dHM",
+          "display_url": "pic.twitter.com/rIKvs25dHM",
+          "expanded_url": "https://twitter.com/abraham/status/1192389530050953216/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 453,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1363,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 799,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "small": {
+              "faces": [
+                {
+                  "x": 378,
+                  "y": 202,
+                  "h": 191,
+                  "w": 191
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1139,
+                  "y": 609,
+                  "h": 577,
+                  "w": 577
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 667,
+                  "y": 357,
+                  "h": 338,
+                  "w": 338
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1763,
+                  "y": 943,
+                  "h": 894,
+                  "w": 894
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                99,
+                122
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9291,
+      "friends_count": 1085,
+      "listed_count": 610,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 34574,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 51324,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "1192390813654761473": {
+    "created_at": "Thu Nov 07 10:38:18 +0000 2019",
+    "id": 1192390813654761500,
+    "id_str": "1192390813654761473",
+    "full_text": "The spirit of @pblatteier is at @mobileeraconf #MobileEra https://t.co/Yq6UPPdb4g",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      57
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MobileEra",
+          "indices": [
+            47,
+            57
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            14,
+            25
+          ]
+        },
+        {
+          "screen_name": "mobileeraconf",
+          "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
+          "id": 4179545055,
+          "id_str": "4179545055",
+          "indices": [
+            32,
+            46
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 1192390796198023200,
+          "id_str": "1192390796198023168",
+          "indices": [
+            58,
+            81
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIw5HJDUEAARbIB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIw5HJDUEAARbIB.jpg",
+          "url": "https://t.co/Yq6UPPdb4g",
+          "display_url": "pic.twitter.com/Yq6UPPdb4g",
+          "expanded_url": "https://twitter.com/abraham/status/1192390813654761473/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 1291,
+                  "y": 1111,
+                  "h": 119,
+                  "w": 119
+                },
+                {
+                  "x": 669,
+                  "y": 747,
+                  "h": 369,
+                  "w": 369
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 756,
+                  "y": 651,
+                  "h": 70,
+                  "w": 70
+                },
+                {
+                  "x": 392,
+                  "y": 438,
+                  "h": 216,
+                  "w": 216
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 428,
+                  "y": 369,
+                  "h": 39,
+                  "w": 39
+                },
+                {
+                  "x": 222,
+                  "y": 248,
+                  "h": 122,
+                  "w": 122
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 2543,
+                  "y": 2189,
+                  "h": 236,
+                  "w": 236
+                },
+                {
+                  "x": 1319,
+                  "y": 1472,
+                  "h": 728,
+                  "w": 728
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1192390796198023200,
+          "id_str": "1192390796198023168",
+          "indices": [
+            58,
+            81
+          ],
+          "media_url": "http://pbs.twimg.com/media/EIw5HJDUEAARbIB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/EIw5HJDUEAARbIB.jpg",
+          "url": "https://t.co/Yq6UPPdb4g",
+          "display_url": "pic.twitter.com/Yq6UPPdb4g",
+          "expanded_url": "https://twitter.com/abraham/status/1192390813654761473/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1536,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 900,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 510,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "x": 1291,
+                  "y": 1111,
+                  "h": 119,
+                  "w": 119
+                },
+                {
+                  "x": 669,
+                  "y": 747,
+                  "h": 369,
+                  "w": 369
+                }
+              ]
+            },
+            "medium": {
+              "faces": [
+                {
+                  "x": 756,
+                  "y": 651,
+                  "h": 70,
+                  "w": 70
+                },
+                {
+                  "x": 392,
+                  "y": 438,
+                  "h": 216,
+                  "w": 216
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 428,
+                  "y": 369,
+                  "h": 39,
+                  "w": 39
+                },
+                {
+                  "x": 222,
+                  "y": 248,
+                  "h": 122,
+                  "w": 122
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 2543,
+                  "y": 2189,
+                  "h": 236,
+                  "w": 236
+                },
+                {
+                  "x": 1319,
+                  "y": 1472,
+                  "h": 728,
+                  "w": 728
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                99,
+                122
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9291,
+      "friends_count": 1085,
+      "listed_count": 610,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 34574,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 51324,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 14,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
   }
 }
