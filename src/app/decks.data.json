@@ -1,5 +1,63 @@
 [
   {
+    "id": "-Ltqo26YtMnty25H6Kn-",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Chrome Dev Summit 2019 Extended Madison",
+    "date": {
+      "start": "2019-11-15T00:00:00.000Z",
+      "end": "2019-11-15T00:00:00.000Z"
+    },
+    "description": "What is CDS?\nCDS is a two-day summit from the Chrome team to learn about the latest techniques for building for the modern Web, get an early insight into what the team is working on, and to share your thoughts on how they can move the platform forward.\nWhat is CDS Extended?\nCDS Extended events are organized by local developer communities around the world to watch the livestream or YouTube videos in a meetup-style forum.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "javascript",
+      "progressivewebapps",
+      "perfmatters"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/266191346/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1zY0MY_pUcnaRu4tFPGY6v8GbGsrqwi6mZtJLy0o4nDQ",
+        "useAsTag": false,
+        "service": "google-slides"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Chrome Dev Summit",
+        "url": "https://developer.chrome.com/devsummit/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "CDS session recordings",
+        "url": "https://www.youtube.com/playlist?list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+      "1195432793511268358"
+    ]
+  },
+  {
     "id": "-LsvgW977QhhdDTJqe9K",
     "archived": false,
     "nodePackages": [
