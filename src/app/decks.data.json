@@ -1,4 +1,56 @@
 [
+
+  {
+    "id": "-LuDRrqze7iAsV4W4b9W",
+    "archived": false,
+    "nodePackages": [
+      "@angular/cli",
+      "@angular/pwa",
+      "@angular/fire"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp"
+    ],
+    "title": "PWAs with Angular",
+    "date": {
+      "start": "2019-12-04T00:00:00.000Z",
+      "end": "2019-12-04T00:00:00.000Z"
+    },
+    "description": "Get an overview of what Progressive Web Apps are and how they can make your website fast, reliable, and engaging. Learn how Angular makes building PWAs quick and easy and some new features in version 9 that help make Angular apps PWAwesome.",
+    "eventTitle": "Modern Web",
+    "tags": [
+      "angular",
+      "javascript",
+      "progressivewebapps",
+      "perfmatters",
+      "firebase"
+    ],
+    "location": "Mountain View, CA",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/modernweb/events/266448593/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Angular",
+        "url": "https://angular.io/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+      "1197542082698760197"
+    ]
+  },
   {
     "id": "-Ltqo26YtMnty25H6Kn-",
     "archived": false,
