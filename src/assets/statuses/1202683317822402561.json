@@ -1,0 +1,700 @@
+{
+  "created_at": "Thu Dec 05 20:17:02 +0000 2019",
+  "id": 1202683317822402600,
+  "id_str": "1202683317822402561",
+  "full_text": "For amazing speakers at last night’s @moderndotweb + @angular + @gdgsv Bay Area holiday party at Google HQ!\n\nThx @abraham @Jakeherringbone @DeborahKurata @mgechev for speaking! \n\nAnd thank you @evahowe for hosting! #angular #modernweb https://t.co/t9JN0TqjQd",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    234
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "angular",
+        "indices": [
+          215,
+          223
+        ]
+      },
+      {
+        "text": "modernweb",
+        "indices": [
+          224,
+          234
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "moderndotweb",
+        "name": "Modern Web",
+        "id": 4482528994,
+        "id_str": "4482528994",
+        "indices": [
+          37,
+          50
+        ]
+      },
+      {
+        "screen_name": "angular",
+        "name": "Angular",
+        "id": 202230373,
+        "id_str": "202230373",
+        "indices": [
+          53,
+          61
+        ]
+      },
+      {
+        "screen_name": "gdgsv",
+        "name": "GDG Silicon Valley",
+        "id": 17302763,
+        "id_str": "17302763",
+        "indices": [
+          64,
+          70
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          113,
+          121
+        ]
+      },
+      {
+        "screen_name": "Jakeherringbone",
+        "name": "Alex 🦅 Eagle",
+        "id": 8124762,
+        "id_str": "8124762",
+        "indices": [
+          122,
+          138
+        ]
+      },
+      {
+        "screen_name": "DeborahKurata",
+        "name": "Deborah Kurata",
+        "id": 802671878,
+        "id_str": "802671878",
+        "indices": [
+          139,
+          153
+        ]
+      },
+      {
+        "screen_name": "mgechev",
+        "name": "Minko Gechev",
+        "id": 178817640,
+        "id_str": "178817640",
+        "indices": [
+          154,
+          162
+        ]
+      },
+      {
+        "screen_name": "evahowe",
+        "name": "evahowe",
+        "id": 14605476,
+        "id_str": "14605476",
+        "indices": [
+          193,
+          201
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1202683312948547600,
+        "id_str": "1202683312948547584",
+        "indices": [
+          235,
+          258
+        ],
+        "media_url": "http://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
+        "url": "https://t.co/t9JN0TqjQd",
+        "display_url": "pic.twitter.com/t9JN0TqjQd",
+        "expanded_url": "https://twitter.com/ladyleet/status/1202683317822402561/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "178817640",
+                "screen_name": "mgechev",
+                "name": "Minko Gechev"
+              },
+              {
+                "type": "user",
+                "user_id": "4482528994",
+                "screen_name": "moderndotweb",
+                "name": "Modern Web"
+              },
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "802671878",
+                "screen_name": "DeborahKurata",
+                "name": "Deborah Kurata"
+              },
+              {
+                "type": "user",
+                "user_id": "8124762",
+                "screen_name": "Jakeherringbone",
+                "name": "Alex 🦅 Eagle"
+              },
+              {
+                "type": "user",
+                "user_id": "202230373",
+                "screen_name": "angular",
+                "name": "Angular"
+              },
+              {
+                "type": "user",
+                "user_id": "17302763",
+                "screen_name": "gdgsv",
+                "name": "GDG Silicon Valley"
+              },
+              {
+                "type": "user",
+                "user_id": "50090898",
+                "screen_name": "googledevs",
+                "name": "Google Developers"
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1040,
+                "y": 410,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 1128,
+                "y": 554,
+                "h": 106,
+                "w": 106
+              },
+              {
+                "x": 1454,
+                "y": 484,
+                "h": 134,
+                "w": 134
+              },
+              {
+                "x": 776,
+                "y": 560,
+                "h": 120,
+                "w": 120
+              },
+              {
+                "x": 836,
+                "y": 1218,
+                "h": 126,
+                "w": 126
+              },
+              {
+                "x": 1092,
+                "y": 158,
+                "h": 550,
+                "w": 550
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 609,
+                "y": 240,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 660,
+                "y": 324,
+                "h": 62,
+                "w": 62
+              },
+              {
+                "x": 851,
+                "y": 283,
+                "h": 78,
+                "w": 78
+              },
+              {
+                "x": 454,
+                "y": 328,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 489,
+                "y": 713,
+                "h": 73,
+                "w": 73
+              },
+              {
+                "x": 639,
+                "y": 92,
+                "h": 322,
+                "w": 322
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 345,
+                "y": 136,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 374,
+                "y": 183,
+                "h": 35,
+                "w": 35
+              },
+              {
+                "x": 482,
+                "y": 160,
+                "h": 44,
+                "w": 44
+              },
+              {
+                "x": 257,
+                "y": 185,
+                "h": 39,
+                "w": 39
+              },
+              {
+                "x": 277,
+                "y": 404,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 362,
+                "y": 52,
+                "h": 182,
+                "w": 182
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1040,
+                "y": 410,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 1128,
+                "y": 554,
+                "h": 106,
+                "w": 106
+              },
+              {
+                "x": 1454,
+                "y": 484,
+                "h": 134,
+                "w": 134
+              },
+              {
+                "x": 776,
+                "y": 560,
+                "h": 120,
+                "w": 120
+              },
+              {
+                "x": 836,
+                "y": 1218,
+                "h": 126,
+                "w": 126
+              },
+              {
+                "x": 1092,
+                "y": 158,
+                "h": 550,
+                "w": 550
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1202683312948547600,
+        "id_str": "1202683312948547584",
+        "indices": [
+          235,
+          258
+        ],
+        "media_url": "http://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
+        "url": "https://t.co/t9JN0TqjQd",
+        "display_url": "pic.twitter.com/t9JN0TqjQd",
+        "expanded_url": "https://twitter.com/ladyleet/status/1202683317822402561/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "178817640",
+                "screen_name": "mgechev",
+                "name": "Minko Gechev"
+              },
+              {
+                "type": "user",
+                "user_id": "4482528994",
+                "screen_name": "moderndotweb",
+                "name": "Modern Web"
+              },
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "802671878",
+                "screen_name": "DeborahKurata",
+                "name": "Deborah Kurata"
+              },
+              {
+                "type": "user",
+                "user_id": "8124762",
+                "screen_name": "Jakeherringbone",
+                "name": "Alex 🦅 Eagle"
+              },
+              {
+                "type": "user",
+                "user_id": "202230373",
+                "screen_name": "angular",
+                "name": "Angular"
+              },
+              {
+                "type": "user",
+                "user_id": "17302763",
+                "screen_name": "gdgsv",
+                "name": "GDG Silicon Valley"
+              },
+              {
+                "type": "user",
+                "user_id": "50090898",
+                "screen_name": "googledevs",
+                "name": "Google Developers"
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1040,
+                "y": 410,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 1128,
+                "y": 554,
+                "h": 106,
+                "w": 106
+              },
+              {
+                "x": 1454,
+                "y": 484,
+                "h": 134,
+                "w": 134
+              },
+              {
+                "x": 776,
+                "y": 560,
+                "h": 120,
+                "w": 120
+              },
+              {
+                "x": 836,
+                "y": 1218,
+                "h": 126,
+                "w": 126
+              },
+              {
+                "x": 1092,
+                "y": 158,
+                "h": 550,
+                "w": 550
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 609,
+                "y": 240,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 660,
+                "y": 324,
+                "h": 62,
+                "w": 62
+              },
+              {
+                "x": 851,
+                "y": 283,
+                "h": 78,
+                "w": 78
+              },
+              {
+                "x": 454,
+                "y": 328,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 489,
+                "y": 713,
+                "h": 73,
+                "w": 73
+              },
+              {
+                "x": 639,
+                "y": 92,
+                "h": 322,
+                "w": 322
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 345,
+                "y": 136,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 374,
+                "y": 183,
+                "h": 35,
+                "w": 35
+              },
+              {
+                "x": 482,
+                "y": 160,
+                "h": 44,
+                "w": 44
+              },
+              {
+                "x": 257,
+                "y": 185,
+                "h": 39,
+                "w": 39
+              },
+              {
+                "x": 277,
+                "y": 404,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 362,
+                "y": 52,
+                "h": 182,
+                "w": 182
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1040,
+                "y": 410,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 1128,
+                "y": 554,
+                "h": 106,
+                "w": 106
+              },
+              {
+                "x": 1454,
+                "y": 484,
+                "h": 134,
+                "w": 134
+              },
+              {
+                "x": 776,
+                "y": 560,
+                "h": 120,
+                "w": 120
+              },
+              {
+                "x": 836,
+                "y": 1218,
+                "h": 126,
+                "w": 126
+              },
+              {
+                "x": 1092,
+                "y": 158,
+                "h": 550,
+                "w": 550
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 17503069,
+    "id_str": "17503069",
+    "name": "Tracy Lee | ladyleet",
+    "screen_name": "ladyleet",
+    "location": "SF Bay & Raleigh",
+    "description": "CEO @thisdotlabs, Keynote Spkr, GoogleDevExpert, MSFT MVP, RxJS Core, Devrel @nodejs, Advisor @vuevixens, @moderndotweb, Serial Entrepreneur (1 exit) #fempire",
+    "url": "https://t.co/UVYEjTBNS8",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/UVYEjTBNS8",
+            "expanded_url": "http://thisdot.co/labs",
+            "display_url": "thisdot.co/labs",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 32803,
+    "friends_count": 7495,
+    "listed_count": 1352,
+    "created_at": "Thu Nov 20 03:10:21 +0000 2008",
+    "favourites_count": 128758,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 74525,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "005C4E",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1100539287546802178/1HozznL5_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1100539287546802178/1HozznL5_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/17503069/1567371882",
+    "profile_link_color": "040070",
+    "profile_sidebar_border_color": "001D8F",
+    "profile_sidebar_fill_color": "CAD0EB",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 17,
+  "favorited": true,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}
