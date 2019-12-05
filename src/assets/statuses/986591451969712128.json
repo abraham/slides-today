@@ -1,0 +1,347 @@
+{
+  "created_at": "Wed Apr 18 13:05:06 +0000 2018",
+  "id": 986591451969712100,
+  "id_str": "986591451969712128",
+  "full_text": "At #railsconf? Come to \"PRPL on Rails\" at 1:50 in Room 317-318. We are the only offline session/workshop.\n\nhttps://t.co/sduRINLCyk @pblatteier https://t.co/8A1FRZaXHI",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    142
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "railsconf",
+        "indices": [
+          3,
+          13
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          131,
+          142
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/sduRINLCyk",
+        "expanded_url": "https://railsconf.com/program/workshops#session-586",
+        "display_url": "railsconf.com/program/worksh…",
+        "indices": [
+          107,
+          130
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 986591442675163100,
+        "id_str": "986591442675163137",
+        "indices": [
+          143,
+          166
+        ],
+        "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+        "url": "https://t.co/8A1FRZaXHI",
+        "display_url": "pic.twitter.com/8A1FRZaXHI",
+        "expanded_url": "https://twitter.com/abraham/status/986591451969712128/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1886,
+                "y": 1354,
+                "h": 273,
+                "w": 273
+              },
+              {
+                "x": 1095,
+                "y": 903,
+                "h": 311,
+                "w": 311
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 701,
+                "y": 503,
+                "h": 101,
+                "w": 101
+              },
+              {
+                "x": 407,
+                "y": 336,
+                "h": 115,
+                "w": 115
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 397,
+                "y": 285,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 230,
+                "y": 190,
+                "h": 65,
+                "w": 65
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1197,
+                "y": 859,
+                "h": 173,
+                "w": 173
+              },
+              {
+                "x": 695,
+                "y": 573,
+                "h": 197,
+                "w": 197
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 986591442675163100,
+        "id_str": "986591442675163137",
+        "indices": [
+          143,
+          166
+        ],
+        "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
+        "url": "https://t.co/8A1FRZaXHI",
+        "display_url": "pic.twitter.com/8A1FRZaXHI",
+        "expanded_url": "https://twitter.com/abraham/status/986591451969712128/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1886,
+                "y": 1354,
+                "h": 273,
+                "w": 273
+              },
+              {
+                "x": 1095,
+                "y": 903,
+                "h": 311,
+                "w": 311
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 701,
+                "y": 503,
+                "h": 101,
+                "w": 101
+              },
+              {
+                "x": 407,
+                "y": 336,
+                "h": 115,
+                "w": 115
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 397,
+                "y": 285,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 230,
+                "y": 190,
+                "h": 65,
+                "w": 65
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1197,
+                "y": 859,
+                "h": 173,
+                "w": 173
+              },
+              {
+                "x": 695,
+                "y": 573,
+                "h": 197,
+                "w": 197
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 35343,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 51516,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 13,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

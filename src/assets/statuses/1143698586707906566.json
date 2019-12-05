@@ -1,0 +1,128 @@
+{
+  "created_at": "Wed Jun 26 01:52:46 +0000 2019",
+  "id": 1143698586707906600,
+  "id_str": "1143698586707906566",
+  "full_text": "Join us for a talk on Web Performance on August 1st. @pblatteier and @abraham will show you how to make progressive web apps that download almost instantly and work offline while still providing the functionality of native apps. https://t.co/ERFaPzPxoE",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    252
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          53,
+          64
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          69,
+          77
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/ERFaPzPxoE",
+        "expanded_url": "https://www.eventbrite.com/e/web-performance-tickets-64148926165",
+        "display_url": "eventbrite.com/e/web-performa…",
+        "indices": [
+          229,
+          252
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 784236971073777700,
+    "id_str": "784236971073777664",
+    "name": "Codecinella Madison",
+    "screen_name": "codecinella",
+    "location": "Madison, WI",
+    "description": "Lady Bug Fixers",
+    "url": "https://t.co/7ld3gfQj7k",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/7ld3gfQj7k",
+            "expanded_url": "http://codecinella.org",
+            "display_url": "codecinella.org",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 94,
+    "friends_count": 52,
+    "listed_count": 3,
+    "created_at": "Fri Oct 07 03:40:39 +0000 2016",
+    "favourites_count": 15,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 97,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/784259076540604416/barCigP-_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/784259076540604416/barCigP-_normal.jpg",
+    "profile_link_color": "FF00FF",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 4,
+  "favorited": false,
+  "retweeted": true,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

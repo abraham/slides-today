@@ -1,0 +1,240 @@
+{
+  "created_at": "Wed Apr 18 18:03:56 +0000 2018",
+  "id": 986666656603795500,
+  "id_str": "986666656603795457",
+  "full_text": "Watching @pblatteier &amp; @abraham kill their PRPL on Rails Workshop at #RailsConf2018! (Song and dance included 💃🏾) #RailsConf https://t.co/72iRE9JpLM",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    128
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "RailsConf2018",
+        "indices": [
+          73,
+          87
+        ]
+      },
+      {
+        "text": "RailsConf",
+        "indices": [
+          118,
+          128
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          9,
+          20
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          27,
+          35
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 986666643580432400,
+        "id_str": "986666643580432388",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+        "url": "https://t.co/72iRE9JpLM",
+        "display_url": "pic.twitter.com/72iRE9JpLM",
+        "expanded_url": "https://twitter.com/ericastanley/status/986666656603795457/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 584,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 331,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 996,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 986666643580432400,
+        "id_str": "986666643580432388",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
+        "url": "https://t.co/72iRE9JpLM",
+        "display_url": "pic.twitter.com/72iRE9JpLM",
+        "expanded_url": "https://twitter.com/ericastanley/status/986666656603795457/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 584,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 331,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 996,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 42508332,
+    "id_str": "42508332",
+    "name": "Erica Stanley",
+    "screen_name": "ericastanley",
+    "location": "Atlanta, GA",
+    "description": "Engineering Manager @MozillaReality | Formerly @SalesLoft | Founder @WWCAtl | Tech Advisor @ATLTechVillage | Organizer @RefactrTech | #BlackTechTwitter| she/her",
+    "url": "https://t.co/IFzhw6UFtL",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/IFzhw6UFtL",
+            "expanded_url": "https://REFACTR.TECH",
+            "display_url": "REFACTR.TECH",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3713,
+    "friends_count": 1560,
+    "listed_count": 199,
+    "created_at": "Mon May 25 23:02:41 +0000 2009",
+    "favourites_count": 86913,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 3059,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "ADD8C7",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/717491328364339200/w-BLzvFQ_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/717491328364339200/w-BLzvFQ_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/42508332/1401384782",
+    "profile_link_color": "EEBD39",
+    "profile_sidebar_border_color": "F27D4D",
+    "profile_sidebar_fill_color": "C4C395",
+    "profile_text_color": "B39964",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 7,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

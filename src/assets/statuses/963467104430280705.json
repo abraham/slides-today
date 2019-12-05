@@ -1,0 +1,393 @@
+{
+  "created_at": "Tue Feb 13 17:37:12 +0000 2018",
+  "id": 963467104430280700,
+  "id_str": "963467104430280705",
+  "full_text": "SPEAKER ANNOUNCEMENT: @pblatteier is going to explain how web components are the lego bricks of the web. 💻 Get your super early bird ticket for only $125! https://t.co/tscFwuES3S #werisetech #atlanta #tech #conference #webcomponents #frameworks #ui #widgets #javascript https://t.co/mbQ2Ff9ghu",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    269
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "werisetech",
+        "indices": [
+          179,
+          190
+        ]
+      },
+      {
+        "text": "atlanta",
+        "indices": [
+          191,
+          199
+        ]
+      },
+      {
+        "text": "tech",
+        "indices": [
+          200,
+          205
+        ]
+      },
+      {
+        "text": "conference",
+        "indices": [
+          206,
+          217
+        ]
+      },
+      {
+        "text": "webcomponents",
+        "indices": [
+          218,
+          232
+        ]
+      },
+      {
+        "text": "frameworks",
+        "indices": [
+          233,
+          244
+        ]
+      },
+      {
+        "text": "ui",
+        "indices": [
+          245,
+          248
+        ]
+      },
+      {
+        "text": "widgets",
+        "indices": [
+          249,
+          257
+        ]
+      },
+      {
+        "text": "javascript",
+        "indices": [
+          258,
+          269
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          22,
+          33
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/tscFwuES3S",
+        "expanded_url": "https://buff.ly/2EUWQaM",
+        "display_url": "buff.ly/2EUWQaM",
+        "indices": [
+          155,
+          178
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 963467102370742300,
+        "id_str": "963467102370742272",
+        "indices": [
+          270,
+          293
+        ],
+        "media_url": "http://pbs.twimg.com/media/DV7sOZWVQAAL0Be.png",
+        "media_url_https": "https://pbs.twimg.com/media/DV7sOZWVQAAL0Be.png",
+        "url": "https://t.co/mbQ2Ff9ghu",
+        "display_url": "pic.twitter.com/mbQ2Ff9ghu",
+        "expanded_url": "https://twitter.com/WeRiseConf/status/963467104430280705/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 378,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 810,
+            "h": 450,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 810,
+            "h": 450,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 489,
+                "y": 119,
+                "h": 108,
+                "w": 108
+              },
+              {
+                "x": 39,
+                "y": 166,
+                "h": 106,
+                "w": 106
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 963467102370742300,
+        "id_str": "963467102370742272",
+        "indices": [
+          270,
+          293
+        ],
+        "media_url": "http://pbs.twimg.com/media/DV7sOZWVQAAL0Be.png",
+        "media_url_https": "https://pbs.twimg.com/media/DV7sOZWVQAAL0Be.png",
+        "url": "https://t.co/mbQ2Ff9ghu",
+        "display_url": "pic.twitter.com/mbQ2Ff9ghu",
+        "expanded_url": "https://twitter.com/WeRiseConf/status/963467104430280705/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 378,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 810,
+            "h": 450,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 810,
+            "h": 450,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 489,
+                "y": 119,
+                "h": 108,
+                "w": 108
+              },
+              {
+                "x": 39,
+                "y": 166,
+                "h": 106,
+                "w": 106
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 583,
+                "y": 142,
+                "h": 129,
+                "w": 129
+              },
+              {
+                "x": 47,
+                "y": 198,
+                "h": 127,
+                "w": 127
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 824430116281450500,
+    "id_str": "824430116281450496",
+    "name": "REFACTR.TECH",
+    "screen_name": "RefactrTech",
+    "location": "Atlanta, GA",
+    "description": "2nd annual conference showcasing marginalized people & allies in #tech. 4/22 - 4/24/2020. Tickets on sale now! #diversity #inclusion",
+    "url": "https://t.co/c6cmSDONtH",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/c6cmSDONtH",
+            "expanded_url": "http://www.refactr.tech/",
+            "display_url": "refactr.tech",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 2220,
+    "friends_count": 230,
+    "listed_count": 76,
+    "created_at": "Thu Jan 26 01:33:51 +0000 2017",
+    "favourites_count": 2961,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2555,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1575263925",
+    "profile_link_color": "CF057C",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 6,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,357 @@
+{
+  "created_at": "Fri Mar 23 20:39:13 +0000 2018",
+  "id": 977283646808715300,
+  "id_str": "977283646808715264",
+  "full_text": "Some painful truths being reiterated by @pblatteier &amp; @abraham. #JazzCon \n\n- no one wants to download your app\n- no one wants to wait for your site to load https://t.co/A6IYxSS8Vh",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    159
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "JazzCon",
+        "indices": [
+          68,
+          76
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          40,
+          51
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          58,
+          66
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 977283619050881000,
+        "id_str": "977283619050881024",
+        "indices": [
+          160,
+          183
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+        "url": "https://t.co/A6IYxSS8Vh",
+        "display_url": "pic.twitter.com/A6IYxSS8Vh",
+        "expanded_url": "https://twitter.com/macdonst/status/977283646808715264/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1680,
+                "y": 720,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 430,
+                "y": 552,
+                "h": 258,
+                "w": 258
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1680,
+                "y": 720,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 430,
+                "y": 552,
+                "h": 258,
+                "w": 258
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 557,
+                "y": 239,
+                "h": 28,
+                "w": 28
+              },
+              {
+                "x": 142,
+                "y": 183,
+                "h": 85,
+                "w": 85
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 984,
+                "y": 421,
+                "h": 50,
+                "w": 50
+              },
+              {
+                "x": 251,
+                "y": 323,
+                "h": 151,
+                "w": 151
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 977283619050881000,
+        "id_str": "977283619050881024",
+        "indices": [
+          160,
+          183
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
+        "url": "https://t.co/A6IYxSS8Vh",
+        "display_url": "pic.twitter.com/A6IYxSS8Vh",
+        "expanded_url": "https://twitter.com/macdonst/status/977283646808715264/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1680,
+                "y": 720,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 430,
+                "y": 552,
+                "h": 258,
+                "w": 258
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1680,
+                "y": 720,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 430,
+                "y": 552,
+                "h": 258,
+                "w": 258
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 557,
+                "y": 239,
+                "h": 28,
+                "w": 28
+              },
+              {
+                "x": 142,
+                "y": 183,
+                "h": 85,
+                "w": 85
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 984,
+                "y": 421,
+                "h": 50,
+                "w": 50
+              },
+              {
+                "x": 251,
+                "y": 323,
+                "h": 151,
+                "w": 151
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 847761,
+    "id_str": "847761",
+    "name": "Simon MacDonald",
+    "screen_name": "macdonst",
+    "location": "Ottawa, Ontario",
+    "description": "Father, Software Engineer, Comic Enthusiast, Coffee Lover and Developer 🥑 for @AdobeIO",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 2412,
+    "friends_count": 861,
+    "listed_count": 152,
+    "created_at": "Fri Mar 09 21:18:37 +0000 2007",
+    "favourites_count": 4647,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 27466,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1190262563818364929/I9eQ02Ni_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1190262563818364929/I9eQ02Ni_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/847761/1568812789",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": true,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "dd3b100831dd1763",
+    "url": "https://api.twitter.com/1.1/geo/id/dd3b100831dd1763.json",
+    "place_type": "city",
+    "name": "New Orleans",
+    "full_name": "New Orleans, LA",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -90.137908,
+            29.889574
+          ],
+          [
+            -89.884108,
+            29.889574
+          ],
+          [
+            -89.884108,
+            30.075628
+          ],
+          [
+            -90.137908,
+            30.075628
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 9,
+  "favorite_count": 13,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

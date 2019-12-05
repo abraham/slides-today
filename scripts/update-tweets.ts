@@ -2,23 +2,23 @@ import * as fs from 'fs';
 import * as path from 'path';
 import Twit from 'twit';
 import twitterCredentials from '../.twitter.json';
-import allTweets from '../src/app/tweets.data.json';
+import decks from '../src/app/decks.data.json';
 
-const dataFilePath = path.resolve('./src/app/tweets.data.json');
+const filePath = (id: string) => path.resolve(`./src/assets/statuses/${id}.json`);
 const client = new Twit({ ...twitterCredentials, strictSSL: true });
+const tweetIds = decks.flatMap(({ tweetIds }) => tweetIds);
 
-const work = Object.keys(allTweets).map(async (id: string) => {
+const work = tweetIds.map(async (id: string) => {
   console.log(`Getting tweet ${id}`);
   const showParams = { id: id, tweet_mode: 'extended', include_entities: true };
   try {
     const { data } = await client.get('statuses/show', showParams);
-    (allTweets as { [index: string]: any })[id] = data;
+    fs.writeFileSync(filePath(id), JSON.stringify(data, null, 2));
   } catch (e) {
     console.log('ERROR', id, e.message);
   }
 });
 
 Promise.all(work).then(() => {
-  fs.writeFileSync(dataFilePath, JSON.stringify(allTweets, null, 2));
-  console.log('Updated tweets.data.json');
+  console.log(`Updated ${work.length} tweets.`);
 });

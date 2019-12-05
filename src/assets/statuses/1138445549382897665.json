@@ -1,0 +1,251 @@
+{
+  "created_at": "Tue Jun 11 13:59:04 +0000 2019",
+  "id": 1138445549382897700,
+  "id_str": "1138445549382897665",
+  "full_text": "Submit your proposals if you haven't already! https://t.co/NqN7kJcD1h https://t.co/0YuXYkURiQ",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    69
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/NqN7kJcD1h",
+        "expanded_url": "https://devfestwi.com/blog/posts/call-for-proposals/",
+        "display_url": "devfestwi.com/blog/posts/cal…",
+        "indices": [
+          46,
+          69
+        ]
+      },
+      {
+        "url": "https://t.co/0YuXYkURiQ",
+        "expanded_url": "https://twitter.com/abraham/status/1138444885294551041",
+        "display_url": "twitter.com/abraham/status…",
+        "indices": [
+          70,
+          93
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1115261401273180200,
+    "id_str": "1115261401273180160",
+    "name": "DevFest WI",
+    "screen_name": "devfestwi",
+    "location": "Madison, WI",
+    "description": "An inclusive, positive conference for all technologist. Coming to Madison Sept 28th. Organized by @gdgmadison.",
+    "url": "https://t.co/gA5hBxBTme",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/gA5hBxBTme",
+            "expanded_url": "https://devfestwi.com",
+            "display_url": "devfestwi.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 98,
+    "friends_count": 32,
+    "listed_count": 2,
+    "created_at": "Mon Apr 08 14:33:33 +0000 2019",
+    "favourites_count": 147,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 177,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1173413557003849728/katnhacs_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1173413557003849728/katnhacs_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1115261401273180160/1558216896",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": true,
+  "quoted_status_id": 1138444885294551000,
+  "quoted_status_id_str": "1138444885294551041",
+  "quoted_status_permalink": {
+    "url": "https://t.co/0YuXYkURiQ",
+    "expanded": "https://twitter.com/abraham/status/1138444885294551041",
+    "display": "twitter.com/abraham/status…"
+  },
+  "quoted_status": {
+    "created_at": "Tue Jun 11 13:56:26 +0000 2019",
+    "id": 1138444885294551000,
+    "id_str": "1138444885294551041",
+    "full_text": "Very excited about the @devfestwi content lineup. @pblatteier and I have confirmed about half-a-dozen speakers so far and there's about 30 submissions to the CFP that also look great!",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      183
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "devfestwi",
+          "name": "DevFest WI",
+          "id": 1115261401273180200,
+          "id_str": "1115261401273180160",
+          "indices": [
+            23,
+            33
+          ]
+        },
+        {
+          "screen_name": "pblatteier",
+          "name": "Pearl Latteier",
+          "id": 202376085,
+          "id_str": "202376085",
+          "indices": [
+            50,
+            61
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 9436992,
+      "id_str": "9436992",
+      "name": "Abraham Williams",
+      "screen_name": "abraham",
+      "location": "Madison, WI",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
+              "display_url": "abrah.am",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                99,
+                122
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 9330,
+      "friends_count": 1106,
+      "listed_count": 606,
+      "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+      "favourites_count": 35343,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 51516,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+      "profile_link_color": "2196F3",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "454545",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 13,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "retweet_count": 4,
+  "favorite_count": 6,
+  "favorited": false,
+  "retweeted": true,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

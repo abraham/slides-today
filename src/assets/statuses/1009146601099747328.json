@@ -1,0 +1,127 @@
+{
+  "created_at": "Tue Jun 19 18:51:13 +0000 2018",
+  "id": 1009146601099747300,
+  "id_str": "1009146601099747328",
+  "full_text": "@abraham @pblatteier @mobileeraconf We're very much looking forward to having you back. You two are part of the Mobile Era family! 💖",
+  "truncated": false,
+  "display_text_range": [
+    36,
+    132
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          0,
+          8
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          9,
+          20
+        ]
+      },
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era Conference 🇳🇴",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          21,
+          35
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": 1009144217585815600,
+  "in_reply_to_status_id_str": "1009144217585815553",
+  "in_reply_to_user_id": 9436992,
+  "in_reply_to_user_id_str": "9436992",
+  "in_reply_to_screen_name": "abraham",
+  "user": {
+    "id": 13368602,
+    "id_str": "13368602",
+    "name": "Johannes Brodwall",
+    "screen_name": "jhannes",
+    "location": "Oslo, Norway",
+    "description": "Programmer and provocateur. I want to help teams find their way together to more habitable code. Father of two boys. He/him.",
+    "url": "https://t.co/BfGASyqA5T",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/BfGASyqA5T",
+            "expanded_url": "http://johannesbrodwall.com",
+            "display_url": "johannesbrodwall.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3706,
+    "friends_count": 452,
+    "listed_count": 141,
+    "created_at": "Mon Feb 11 23:45:53 +0000 2008",
+    "favourites_count": 2144,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 5850,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "9AE4E8",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368602/1398834947",
+    "profile_link_color": "1E1E26",
+    "profile_sidebar_border_color": "87BC44",
+    "profile_sidebar_fill_color": "E0FF92",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

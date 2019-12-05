@@ -1,0 +1,127 @@
+{
+  "created_at": "Mon Oct 10 20:20:19 +0000 2016",
+  "id": 785575712002445300,
+  "id_str": "785575712002445316",
+  "full_text": ".@abraham @pblatteier Really enjoyed your talk at Madison PHP! Wondering when/if https://t.co/TzvsOITRyD might be live?",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    119
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          1,
+          9
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          10,
+          21
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/TzvsOITRyD",
+        "expanded_url": "http://sprinkle.space",
+        "display_url": "sprinkle.space",
+        "indices": [
+          81,
+          104
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 15523378,
+    "id_str": "15523378",
+    "name": "Benjamin Uzelac",
+    "screen_name": "buzelac",
+    "location": "Illinois, USA",
+    "description": "Web developer. Ultimate. Pipe tobacco. Music.",
+    "url": "http://t.co/2Ssgn5tmFu",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "http://t.co/2Ssgn5tmFu",
+            "expanded_url": "http://buzelac.com",
+            "display_url": "buzelac.com",
+            "indices": [
+              0,
+              22
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 281,
+    "friends_count": 270,
+    "listed_count": 9,
+    "created_at": "Tue Jul 22 00:37:02 +0000 2008",
+    "favourites_count": 266,
+    "utc_offset": -21600,
+    "time_zone": "Central Time (US & Canada)",
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 3192,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "131516",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1785436576/ben_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1785436576/ben_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15523378/1387253878",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "EEEEEE",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 4,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

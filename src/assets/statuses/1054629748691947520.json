@@ -1,0 +1,139 @@
+{
+  "created_at": "Tue Oct 23 07:05:00 +0000 2018",
+  "id": 1054629748691947500,
+  "id_str": "1054629748691947520",
+  "full_text": "\"How Do Service Workers Even?\"  If you're going to @mobileeraconf and care about PWAs, then you *have* to go watch @pblatteier and @abraham talk about common pitfalls in service worker! https://t.co/BMyIdrHHcF",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    209
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era Conference 🇳🇴",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          51,
+          65
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          115,
+          126
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          131,
+          139
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/BMyIdrHHcF",
+        "expanded_url": "https://mobileera.rocks/schedule/2018-11-02?sessionId=100",
+        "display_url": "mobileera.rocks/schedule/2018-…",
+        "indices": [
+          186,
+          209
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 29650035,
+    "id_str": "29650035",
+    "name": "mike geyser ⟨ 🐘 ⁄ ⟩",
+    "screen_name": "mikegeyser",
+    "location": "Jozi",
+    "description": "pro·gram·mer/ˈprōˌgramər/ Noun: A person who writes computer programs. I am both more and less than this. @googledevexpert in Web Tech. My opinions are my own.",
+    "url": "https://t.co/trJBZ5t6VI",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/trJBZ5t6VI",
+            "expanded_url": "https://mikerambl.es",
+            "display_url": "mikerambl.es",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1911,
+    "friends_count": 831,
+    "listed_count": 71,
+    "created_at": "Wed Apr 08 05:37:43 +0000 2009",
+    "favourites_count": 14129,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 17307,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1070571238110703621/PQ9wPYXz_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1070571238110703621/PQ9wPYXz_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/29650035/1495949480",
+    "profile_link_color": "B30000",
+    "profile_sidebar_border_color": "5B5E61",
+    "profile_sidebar_fill_color": "AAACAD",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

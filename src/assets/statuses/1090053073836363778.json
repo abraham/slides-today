@@ -1,0 +1,124 @@
+{
+  "created_at": "Tue Jan 29 01:04:39 +0000 2019",
+  "id": 1090053073836363800,
+  "id_str": "1090053073836363778",
+  "full_text": "Looking forward to #DevFestMN on Saturday! Will be presenting with @abraham on @flutterio and web APIs. Use discount code FriendOfPearl for 20% off your ticket. https://t.co/rDZnk6tuWr",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    184
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestMN",
+        "indices": [
+          19,
+          29
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          67,
+          75
+        ]
+      },
+      {
+        "screen_name": "flutterio",
+        "name": "Check out @FlutterDev for the latest from Flutter",
+        "id": 1105926449016463400,
+        "id_str": "1105926449016463361",
+        "indices": [
+          79,
+          89
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/rDZnk6tuWr",
+        "expanded_url": "https://devfest.mn/",
+        "display_url": "devfest.mn",
+        "indices": [
+          161,
+          184
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 202376085,
+    "id_str": "202376085",
+    "name": "Pearl Latteier",
+    "screen_name": "pblatteier",
+    "location": "Madison, WI",
+    "description": "Developer at @PropellerHealth, organizer of @devfestwi and @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead, @mozTechSpeakers",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1025,
+    "friends_count": 721,
+    "listed_count": 41,
+    "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+    "favourites_count": 3100,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 1003,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1535673161",
+    "profile_link_color": "B00020",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": true,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 17,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

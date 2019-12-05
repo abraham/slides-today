@@ -1,0 +1,159 @@
+{
+  "created_at": "Thu Apr 12 21:18:14 +0000 2018",
+  "id": 984541225096278000,
+  "id_str": "984541225096278016",
+  "full_text": "It's pretty easy getting @workboxjs and @rails webpacker working together. Come to the \"PRPL on Rails\" @railsconf session with @pblatteier and stay tuned for followup blog posts.\n\nhttps://t.co/sduRINLCyk",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    203
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "workboxjs",
+        "name": "Workbox",
+        "id": 903470844407459800,
+        "id_str": "903470844407459841",
+        "indices": [
+          25,
+          35
+        ]
+      },
+      {
+        "screen_name": "rails",
+        "name": "Ruby on Rails",
+        "id": 3116191,
+        "id_str": "3116191",
+        "indices": [
+          40,
+          46
+        ]
+      },
+      {
+        "screen_name": "railsconf",
+        "name": "RailsConf",
+        "id": 5493662,
+        "id_str": "5493662",
+        "indices": [
+          103,
+          113
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          127,
+          138
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/sduRINLCyk",
+        "expanded_url": "https://railsconf.com/program/workshops#session-586",
+        "display_url": "railsconf.com/program/worksh…",
+        "indices": [
+          180,
+          203
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 35343,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 51516,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 6,
+  "favorite_count": 6,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

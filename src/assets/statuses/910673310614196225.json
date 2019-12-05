@@ -1,0 +1,537 @@
+{
+  "created_at": "Thu Sep 21 01:13:31 +0000 2017",
+  "id": 910673310614196200,
+  "id_str": "910673310614196225",
+  "full_text": "Starting off the #connectjs speaker dinner w @tzmanics @pblatteier @abraham! Love my #javascript #gdg #gde friends! #angular @connect_js https://t.co/vOstY0jjDS",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    136
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "connectjs",
+        "indices": [
+          17,
+          27
+        ]
+      },
+      {
+        "text": "javascript",
+        "indices": [
+          85,
+          96
+        ]
+      },
+      {
+        "text": "gdg",
+        "indices": [
+          97,
+          101
+        ]
+      },
+      {
+        "text": "gde",
+        "indices": [
+          102,
+          106
+        ]
+      },
+      {
+        "text": "angular",
+        "indices": [
+          116,
+          124
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "Tzmanics",
+        "name": "😆Tara Z. Manicsic🐺",
+        "id": 1365687402,
+        "id_str": "1365687402",
+        "indices": [
+          45,
+          54
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          55,
+          66
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          67,
+          75
+        ]
+      },
+      {
+        "screen_name": "connect_js",
+        "name": "CONNECT.TECH",
+        "id": 2649853080,
+        "id_str": "2649853080",
+        "indices": [
+          125,
+          136
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 910673301709705200,
+        "id_str": "910673301709705219",
+        "indices": [
+          137,
+          160
+        ],
+        "media_url": "http://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
+        "url": "https://t.co/vOstY0jjDS",
+        "display_url": "pic.twitter.com/vOstY0jjDS",
+        "expanded_url": "https://twitter.com/ladyleet/status/910673310614196225/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 680,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 2048,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "17503069",
+                "screen_name": "ladyleet",
+                "name": "Tracy Lee | ladyleet"
+              },
+              {
+                "type": "user",
+                "user_id": "202376085",
+                "screen_name": "pblatteier",
+                "name": "Pearl Latteier"
+              },
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "1365687402",
+                "screen_name": "Tzmanics",
+                "name": "😆Tara Z. Manicsic🐺"
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 342,
+                "y": 353,
+                "h": 140,
+                "w": 140
+              },
+              {
+                "x": 548,
+                "y": 421,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 46,
+                "y": 377,
+                "h": 161,
+                "w": 161
+              },
+              {
+                "x": 773,
+                "y": 98,
+                "h": 187,
+                "w": 187
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 193,
+                "y": 200,
+                "h": 79,
+                "w": 79
+              },
+              {
+                "x": 310,
+                "y": 239,
+                "h": 78,
+                "w": 78
+              },
+              {
+                "x": 26,
+                "y": 213,
+                "h": 91,
+                "w": 91
+              },
+              {
+                "x": 438,
+                "y": 55,
+                "h": 106,
+                "w": 106
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 584,
+                "y": 604,
+                "h": 240,
+                "w": 240
+              },
+              {
+                "x": 936,
+                "y": 720,
+                "h": 236,
+                "w": 236
+              },
+              {
+                "x": 80,
+                "y": 644,
+                "h": 276,
+                "w": 276
+              },
+              {
+                "x": 1320,
+                "y": 168,
+                "h": 320,
+                "w": 320
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 584,
+                "y": 604,
+                "h": 240,
+                "w": 240
+              },
+              {
+                "x": 936,
+                "y": 720,
+                "h": 236,
+                "w": 236
+              },
+              {
+                "x": 80,
+                "y": 644,
+                "h": 276,
+                "w": 276
+              },
+              {
+                "x": 1320,
+                "y": 168,
+                "h": 320,
+                "w": 320
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 910673301709705200,
+        "id_str": "910673301709705219",
+        "indices": [
+          137,
+          160
+        ],
+        "media_url": "http://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
+        "url": "https://t.co/vOstY0jjDS",
+        "display_url": "pic.twitter.com/vOstY0jjDS",
+        "expanded_url": "https://twitter.com/ladyleet/status/910673310614196225/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 680,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 2048,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "17503069",
+                "screen_name": "ladyleet",
+                "name": "Tracy Lee | ladyleet"
+              },
+              {
+                "type": "user",
+                "user_id": "202376085",
+                "screen_name": "pblatteier",
+                "name": "Pearl Latteier"
+              },
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "1365687402",
+                "screen_name": "Tzmanics",
+                "name": "😆Tara Z. Manicsic🐺"
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 342,
+                "y": 353,
+                "h": 140,
+                "w": 140
+              },
+              {
+                "x": 548,
+                "y": 421,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 46,
+                "y": 377,
+                "h": 161,
+                "w": 161
+              },
+              {
+                "x": 773,
+                "y": 98,
+                "h": 187,
+                "w": 187
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 193,
+                "y": 200,
+                "h": 79,
+                "w": 79
+              },
+              {
+                "x": 310,
+                "y": 239,
+                "h": 78,
+                "w": 78
+              },
+              {
+                "x": 26,
+                "y": 213,
+                "h": 91,
+                "w": 91
+              },
+              {
+                "x": 438,
+                "y": 55,
+                "h": 106,
+                "w": 106
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 584,
+                "y": 604,
+                "h": 240,
+                "w": 240
+              },
+              {
+                "x": 936,
+                "y": 720,
+                "h": 236,
+                "w": 236
+              },
+              {
+                "x": 80,
+                "y": 644,
+                "h": 276,
+                "w": 276
+              },
+              {
+                "x": 1320,
+                "y": 168,
+                "h": 320,
+                "w": 320
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 584,
+                "y": 604,
+                "h": 240,
+                "w": 240
+              },
+              {
+                "x": 936,
+                "y": 720,
+                "h": 236,
+                "w": 236
+              },
+              {
+                "x": 80,
+                "y": 644,
+                "h": 276,
+                "w": 276
+              },
+              {
+                "x": 1320,
+                "y": 168,
+                "h": 320,
+                "w": 320
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 17503069,
+    "id_str": "17503069",
+    "name": "Tracy Lee | ladyleet",
+    "screen_name": "ladyleet",
+    "location": "SF Bay & Raleigh",
+    "description": "CEO @thisdotlabs, Keynote Spkr, GoogleDevExpert, MSFT MVP, RxJS Core, Devrel @nodejs, Advisor @vuevixens, @moderndotweb, Serial Entrepreneur (1 exit) #fempire",
+    "url": "https://t.co/UVYEjTBNS8",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/UVYEjTBNS8",
+            "expanded_url": "http://thisdot.co/labs",
+            "display_url": "thisdot.co/labs",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 32804,
+    "friends_count": 7495,
+    "listed_count": 1352,
+    "created_at": "Thu Nov 20 03:10:21 +0000 2008",
+    "favourites_count": 128789,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 74526,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "005C4E",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1100539287546802178/1HozznL5_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1100539287546802178/1HozznL5_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/17503069/1567371882",
+    "profile_link_color": "040070",
+    "profile_sidebar_border_color": "001D8F",
+    "profile_sidebar_fill_color": "CAD0EB",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 23,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

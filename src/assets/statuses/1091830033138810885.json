@@ -1,0 +1,531 @@
+{
+  "created_at": "Sat Feb 02 22:45:39 +0000 2019",
+  "id": 1091830033138810900,
+  "id_str": "1091830033138810885",
+  "full_text": "\"It's a Wonderful Web\" @ #DevFestMN \n@howitson @_KylePaul getting a shot of @pblatteier and @abraham's fancy aprons. https://t.co/SJxcl6MDAz",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    116
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestMN",
+        "indices": [
+          25,
+          35
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "howitson",
+        "name": "Bryce Howitson - UX & UI + Apps/AR/VR/Voice",
+        "id": 29362720,
+        "id_str": "29362720",
+        "indices": [
+          37,
+          46
+        ]
+      },
+      {
+        "screen_name": "_KylePaul",
+        "name": "Kyle Paul",
+        "id": 141054465,
+        "id_str": "141054465",
+        "indices": [
+          47,
+          57
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          76,
+          87
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          92,
+          100
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1091830011277930500,
+        "id_str": "1091830011277930496",
+        "indices": [
+          117,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+        "url": "https://t.co/SJxcl6MDAz",
+        "display_url": "pic.twitter.com/SJxcl6MDAz",
+        "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 622,
+                "y": 427,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 683,
+                "y": 458,
+                "h": 44,
+                "w": 44
+              },
+              {
+                "x": 1033,
+                "y": 815,
+                "h": 42,
+                "w": 42
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 352,
+                "y": 242,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 387,
+                "y": 259,
+                "h": 25,
+                "w": 25
+              },
+              {
+                "x": 585,
+                "y": 462,
+                "h": 23,
+                "w": 23
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1062,
+                "y": 730,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 1166,
+                "y": 782,
+                "h": 76,
+                "w": 76
+              },
+              {
+                "x": 1764,
+                "y": 1392,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1062,
+                "y": 730,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 1166,
+                "y": 782,
+                "h": 76,
+                "w": 76
+              },
+              {
+                "x": 1764,
+                "y": 1392,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1091830011277930500,
+        "id_str": "1091830011277930496",
+        "indices": [
+          117,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dyb1nElU8AAqy6L.jpg",
+        "url": "https://t.co/SJxcl6MDAz",
+        "display_url": "pic.twitter.com/SJxcl6MDAz",
+        "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 622,
+                "y": 427,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 683,
+                "y": 458,
+                "h": 44,
+                "w": 44
+              },
+              {
+                "x": 1033,
+                "y": 815,
+                "h": 42,
+                "w": 42
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 352,
+                "y": 242,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 387,
+                "y": 259,
+                "h": 25,
+                "w": 25
+              },
+              {
+                "x": 585,
+                "y": 462,
+                "h": 23,
+                "w": 23
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1062,
+                "y": 730,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 1166,
+                "y": 782,
+                "h": 76,
+                "w": 76
+              },
+              {
+                "x": 1764,
+                "y": 1392,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1062,
+                "y": 730,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 1166,
+                "y": 782,
+                "h": 76,
+                "w": 76
+              },
+              {
+                "x": 1764,
+                "y": 1392,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 1091830020740243500,
+        "id_str": "1091830020740243456",
+        "indices": [
+          117,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dyb1nn1UYAAjKOD.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dyb1nn1UYAAjKOD.jpg",
+        "url": "https://t.co/SJxcl6MDAz",
+        "display_url": "pic.twitter.com/SJxcl6MDAz",
+        "expanded_url": "https://twitter.com/nobleackerson/status/1091830033138810885/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2016,
+            "h": 1512,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 503,
+                "y": 264,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 199,
+                "y": 268,
+                "h": 27,
+                "w": 27
+              },
+              {
+                "x": 130,
+                "y": 104,
+                "h": 126,
+                "w": 126
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1494,
+                "y": 783,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 592,
+                "y": 795,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 387,
+                "y": 309,
+                "h": 374,
+                "w": 374
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 889,
+                "y": 466,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 352,
+                "y": 473,
+                "h": 48,
+                "w": 48
+              },
+              {
+                "x": 230,
+                "y": 183,
+                "h": 222,
+                "w": 222
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1494,
+                "y": 783,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 592,
+                "y": 795,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 387,
+                "y": 309,
+                "h": 374,
+                "w": 374
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 65219208,
+    "id_str": "65219208",
+    "name": "noble.",
+    "screen_name": "nobleackerson",
+    "location": "Washington, DC",
+    "description": "Certified Design Sprint Master▫️AR/VR engineer▫️Founding member OpenARCloud (Privacy WGC)",
+    "url": "https://t.co/bzii5nEoPG",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/bzii5nEoPG",
+            "expanded_url": "https://nobles.page",
+            "display_url": "nobles.page",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 2358,
+    "friends_count": 703,
+    "listed_count": 124,
+    "created_at": "Thu Aug 13 00:42:20 +0000 2009",
+    "favourites_count": 9109,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 6194,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1156210398191861760/A5cdHNoo_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1156210398191861760/A5cdHNoo_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/65219208/1557103077",
+    "profile_link_color": "0084B4",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "CCE6FF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": false,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

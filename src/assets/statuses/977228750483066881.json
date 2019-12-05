@@ -1,0 +1,129 @@
+{
+  "created_at": "Fri Mar 23 17:01:04 +0000 2018",
+  "id": 977228750483066900,
+  "id_str": "977228750483066881",
+  "full_text": "Curious how to build a web app that matches the speed and functionality of a mobile app? Pearl and Abraham from @bendyworks will be talking about progressive web apps next week Tuesday at @mkejs\n\nhttps://t.co/GLBpvvQIr5",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    219
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "bendyworks",
+        "name": "Bendyworks",
+        "id": 31920143,
+        "id_str": "31920143",
+        "indices": [
+          112,
+          123
+        ]
+      },
+      {
+        "screen_name": "mkejs",
+        "name": "Milwaukee JavaScript",
+        "id": 894420716,
+        "id_str": "894420716",
+        "indices": [
+          188,
+          194
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/GLBpvvQIr5",
+        "expanded_url": "https://www.meetup.com/milwaukeejs/events/247249876/",
+        "display_url": "meetup.com/milwaukeejs/ev…",
+        "indices": [
+          196,
+          219
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 378776812,
+    "id_str": "378776812",
+    "name": "RokkinCat",
+    "screen_name": "RokkinCat",
+    "location": "Milwaukee",
+    "description": "Hand-coded digital products. A Milwaukee based software consulting company.",
+    "url": "http://t.co/RiwBHYfMcB",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "http://t.co/RiwBHYfMcB",
+            "expanded_url": "http://rokkincat.com",
+            "display_url": "rokkincat.com",
+            "indices": [
+              0,
+              22
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 797,
+    "friends_count": 343,
+    "listed_count": 41,
+    "created_at": "Fri Sep 23 19:58:53 +0000 2011",
+    "favourites_count": 403,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 1104,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "131516",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/976587275155922945/RinTm4WT_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/976587275155922945/RinTm4WT_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/378776812/1409447081",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "EEEEEE",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 2,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

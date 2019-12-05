@@ -1,0 +1,240 @@
+{
+  "created_at": "Mon May 14 15:12:08 +0000 2018",
+  "id": 996045503728103400,
+  "id_str": "996045503728103427",
+  "full_text": "Interested in what JavaScript things @googledevs talked about at #io18? Come to @MadJavaScript tonight!\n\nhttps://t.co/uLN6TmFco0 https://t.co/NW7Y0U5GHW",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    128
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "io18",
+        "indices": [
+          65,
+          70
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "googledevs",
+        "name": "Google Developers",
+        "id": 50090898,
+        "id_str": "50090898",
+        "indices": [
+          37,
+          48
+        ]
+      },
+      {
+        "screen_name": "MadJavaScript",
+        "name": "MadJS",
+        "id": 458405320,
+        "id_str": "458405320",
+        "indices": [
+          80,
+          94
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/uLN6TmFco0",
+        "expanded_url": "https://www.meetup.com/MadisonJS/events/242810950/",
+        "display_url": "meetup.com/MadisonJS/even…",
+        "indices": [
+          105,
+          128
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 996045279282520000,
+        "id_str": "996045279282520064",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdKp53vW4AAVWhs.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdKp53vW4AAVWhs.jpg",
+        "url": "https://t.co/NW7Y0U5GHW",
+        "display_url": "pic.twitter.com/NW7Y0U5GHW",
+        "expanded_url": "https://twitter.com/abraham/status/996045503728103427/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          }
+        },
+        "features": {}
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 996045279282520000,
+        "id_str": "996045279282520064",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DdKp53vW4AAVWhs.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DdKp53vW4AAVWhs.jpg",
+        "url": "https://t.co/NW7Y0U5GHW",
+        "display_url": "pic.twitter.com/NW7Y0U5GHW",
+        "expanded_url": "https://twitter.com/abraham/status/996045503728103427/photo/1",
+        "type": "animated_gif",
+        "sizes": {
+          "medium": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 310,
+            "h": 206,
+            "resize": "fit"
+          }
+        },
+        "video_info": {
+          "aspect_ratio": [
+            155,
+            103
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/DdKp53vW4AAVWhs.mp4"
+            }
+          ]
+        },
+        "features": {}
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 35343,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 51516,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

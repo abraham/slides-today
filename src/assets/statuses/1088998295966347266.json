@@ -1,0 +1,289 @@
+{
+  "created_at": "Sat Jan 26 03:13:21 +0000 2019",
+  "id": 1088998295966347300,
+  "id_str": "1088998295966347266",
+  "full_text": ".@abraham is doing a #Flutter demo @sfhtml5 https://t.co/rHdY6XXQR8",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    43
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Flutter",
+        "indices": [
+          21,
+          29
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          1,
+          9
+        ]
+      },
+      {
+        "screen_name": "sfhtml5",
+        "name": "San Francisco HTML5",
+        "id": 275405363,
+        "id_str": "275405363",
+        "indices": [
+          35,
+          43
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1088998287749767200,
+        "id_str": "1088998287749767169",
+        "indices": [
+          44,
+          67
+        ],
+        "media_url": "http://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+        "url": "https://t.co/rHdY6XXQR8",
+        "display_url": "pic.twitter.com/rHdY6XXQR8",
+        "expanded_url": "https://twitter.com/maxkatz/status/1088998295966347266/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 953,
+                "y": 454,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 540,
+                "y": 257,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1088998287749767200,
+        "id_str": "1088998287749767169",
+        "indices": [
+          44,
+          67
+        ],
+        "media_url": "http://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DxzmLEZVYAEsW_L.jpg",
+        "url": "https://t.co/rHdY6XXQR8",
+        "display_url": "pic.twitter.com/rHdY6XXQR8",
+        "expanded_url": "https://twitter.com/maxkatz/status/1088998295966347266/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 953,
+                "y": 454,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 540,
+                "y": 257,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 19208994,
+    "id_str": "19208994",
+    "name": "Max Katz",
+    "screen_name": "maxkatz",
+    "location": "San Francisco Bay Area",
+    "description": "Program Director, Developer Advocacy, @ibmdeveloper/@ibm || Previously @Evite, Sigma Storage, @Exadel, @Apperyio",
+    "url": "https://t.co/y1SWjPrIqE",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/y1SWjPrIqE",
+            "expanded_url": "http://maxkatz.org",
+            "display_url": "maxkatz.org",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 2022,
+    "friends_count": 1095,
+    "listed_count": 200,
+    "created_at": "Mon Jan 19 23:40:34 +0000 2009",
+    "favourites_count": 112,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 25263,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/868568925188915200/JIKwiGwN_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/868568925188915200/JIKwiGwN_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/19208994/1443722548",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": true,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 1,
+  "favorite_count": 8,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

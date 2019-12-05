@@ -1,0 +1,291 @@
+{
+  "created_at": "Sat Jan 26 15:09:19 +0000 2019",
+  "id": 1089178475766853600,
+  "id_str": "1089178475766853632",
+  "full_text": "Thanks for having me @sfhtml5 @flutterio! https://t.co/duWgXpcir7",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    41
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "sfhtml5",
+        "name": "San Francisco HTML5",
+        "id": 275405363,
+        "id_str": "275405363",
+        "indices": [
+          21,
+          29
+        ]
+      },
+      {
+        "screen_name": "flutterio",
+        "name": "Check out @FlutterDev for the latest from Flutter",
+        "id": 1105926449016463400,
+        "id_str": "1105926449016463361",
+        "indices": [
+          30,
+          40
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1089178462764421100,
+        "id_str": "1089178462764421120",
+        "indices": [
+          42,
+          65
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+        "url": "https://t.co/duWgXpcir7",
+        "display_url": "pic.twitter.com/duWgXpcir7",
+        "expanded_url": "https://twitter.com/abraham/status/1089178475766853632/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 459,
+                "y": 183,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 260,
+                "y": 104,
+                "h": 41,
+                "w": 41
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1089178462764421100,
+        "id_str": "1089178462764421120",
+        "indices": [
+          42,
+          65
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dx2KCooUUAAgP9f.jpg",
+        "url": "https://t.co/duWgXpcir7",
+        "display_url": "pic.twitter.com/duWgXpcir7",
+        "expanded_url": "https://twitter.com/abraham/status/1089178475766853632/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 459,
+                "y": 183,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 260,
+                "y": 104,
+                "h": 41,
+                "w": 41
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 35343,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 51516,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

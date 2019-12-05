@@ -1,0 +1,124 @@
+{
+  "created_at": "Wed Apr 18 19:54:04 +0000 2018",
+  "id": 986694371138523100,
+  "id_str": "986694371138523136",
+  "full_text": "@abraham @pblatteier great workshop and resources on speeding up web apps at #railsconf thanks!",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    95
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "railsconf",
+        "indices": [
+          77,
+          87
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          0,
+          8
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          9,
+          20
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 9436992,
+  "in_reply_to_user_id_str": "9436992",
+  "in_reply_to_screen_name": "abraham",
+  "user": {
+    "id": 175855743,
+    "id_str": "175855743",
+    "name": "Joe Merante",
+    "screen_name": "joemerante",
+    "location": "New York, NY",
+    "description": "Software developer and (not your) lawyer, CIPP/US, senior consultant @StrideDev. My opinions only, some get deleted. 🎸",
+    "url": "https://t.co/dbVfh6lY0O",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/dbVfh6lY0O",
+            "expanded_url": "http://linkedin.com/in/joemerante",
+            "display_url": "linkedin.com/in/joemerante",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 419,
+    "friends_count": 780,
+    "listed_count": 38,
+    "created_at": "Sat Aug 07 20:36:33 +0000 2010",
+    "favourites_count": 1039,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 4675,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1146580976937648130/dcDfVm1U_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1146580976937648130/dcDfVm1U_normal.png",
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 2,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

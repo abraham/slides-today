@@ -1,0 +1,225 @@
+{
+  "created_at": "Fri Mar 23 21:22:35 +0000 2018",
+  "id": 977294561658712000,
+  "id_str": "977294561658712064",
+  "full_text": "“Wicked fast PWAs” with @pblatteier and @abraham https://t.co/z6I0nbqWSy",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    48
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          24,
+          35
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          40,
+          48
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 977294553752457200,
+        "id_str": "977294553752457216",
+        "indices": [
+          49,
+          72
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+        "url": "https://t.co/z6I0nbqWSy",
+        "display_url": "pic.twitter.com/z6I0nbqWSy",
+        "expanded_url": "https://twitter.com/mhartington/status/977294561658712064/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 977294553752457200,
+        "id_str": "977294553752457216",
+        "indices": [
+          49,
+          72
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
+        "url": "https://t.co/z6I0nbqWSy",
+        "display_url": "pic.twitter.com/z6I0nbqWSy",
+        "expanded_url": "https://twitter.com/mhartington/status/977294561658712064/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 152382384,
+    "id_str": "152382384",
+    "name": "Mike Hartington",
+    "screen_name": "mhartington",
+    "location": "Rhode Island",
+    "description": "Developer Advocate for @Ionicframework. Google Developer Expert. I've been known to do stuff with code. he/him. npx mhartington",
+    "url": "https://t.co/pRkO4Rmtiw",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/pRkO4Rmtiw",
+            "expanded_url": "http://mhartington.io/",
+            "display_url": "mhartington.io",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 8995,
+    "friends_count": 1374,
+    "listed_count": 250,
+    "created_at": "Sat Jun 05 20:20:04 +0000 2010",
+    "favourites_count": 15120,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 18270,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1084993841898446849/DJ8XtR6L_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1084993841898446849/DJ8XtR6L_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/152382384/1573361715",
+    "profile_link_color": "1B2B34",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 11,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

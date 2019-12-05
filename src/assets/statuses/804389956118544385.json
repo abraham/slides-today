@@ -1,0 +1,139 @@
+{
+  "created_at": "Thu Dec 01 18:21:25 +0000 2016",
+  "id": 804389956118544400,
+  "id_str": "804389956118544385",
+  "full_text": "Mobile Era 2016 - @abraham &amp; @pblatteier “Leverage the power of native with Progressive Web Apps”\nhttps://t.co/kF24SllTgi",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    125
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          18,
+          26
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          33,
+          44
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/kF24SllTgi",
+        "expanded_url": "https://vimeo.com/190713344",
+        "display_url": "vimeo.com/190713344",
+        "indices": [
+          102,
+          125
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4179545055,
+    "id_str": "4179545055",
+    "name": "Mobile Era Conference 🇳🇴",
+    "screen_name": "mobileeraconf",
+    "location": "Oslo, Norway",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
+    "url": "https://t.co/xKYD24oq6U",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/xKYD24oq6U",
+            "expanded_url": "http://mobileera.rocks",
+            "display_url": "mobileera.rocks",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
+            "indices": [
+              129,
+              152
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
+    "created_at": "Fri Nov 13 15:21:31 +0000 2015",
+    "favourites_count": 1777,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 1519,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/4179545055/1530016851",
+    "profile_link_color": "2956A3",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 13,
+  "favorite_count": 10,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

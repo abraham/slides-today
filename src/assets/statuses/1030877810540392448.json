@@ -1,0 +1,376 @@
+{
+  "created_at": "Sat Aug 18 18:03:17 +0000 2018",
+  "id": 1030877810540392400,
+  "id_str": "1030877810540392448",
+  "full_text": "I'm ready to go #SERVERLESS with @Firebase! Thanks to @abraham and @pblatteier for the fun and informative talk at @gdgtc! https://t.co/ljdegO6fns",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    122
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "SERVERLESS",
+        "indices": [
+          16,
+          27
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "Firebase",
+        "name": "Firebase",
+        "id": 447644824,
+        "id_str": "447644824",
+        "indices": [
+          33,
+          42
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          54,
+          62
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          67,
+          78
+        ]
+      },
+      {
+        "screen_name": "gdgtc",
+        "name": "GDG Twin Cities - DevFestMN Focus: ML+AI Sep 27th",
+        "id": 48334750,
+        "id_str": "48334750",
+        "indices": [
+          115,
+          121
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1030873839473844200,
+        "id_str": "1030873839473844224",
+        "indices": [
+          123,
+          146
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
+        "url": "https://t.co/ljdegO6fns",
+        "display_url": "pic.twitter.com/ljdegO6fns",
+        "expanded_url": "https://twitter.com/_maiyerlee/status/1030877810540392448/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 361,
+                "y": 633,
+                "h": 149,
+                "w": 149
+              },
+              {
+                "x": 355,
+                "y": 821,
+                "h": 143,
+                "w": 143
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 712,
+                "y": 1248,
+                "h": 295,
+                "w": 295
+              },
+              {
+                "x": 700,
+                "y": 1618,
+                "h": 283,
+                "w": 283
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 211,
+                "y": 371,
+                "h": 87,
+                "w": 87
+              },
+              {
+                "x": 208,
+                "y": 481,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 210,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 118,
+                "y": 272,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1030873839473844200,
+        "id_str": "1030873839473844224",
+        "indices": [
+          123,
+          146
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
+        "url": "https://t.co/ljdegO6fns",
+        "display_url": "pic.twitter.com/ljdegO6fns",
+        "expanded_url": "https://twitter.com/_maiyerlee/status/1030877810540392448/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 361,
+                "y": 633,
+                "h": 149,
+                "w": 149
+              },
+              {
+                "x": 355,
+                "y": 821,
+                "h": 143,
+                "w": 143
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 712,
+                "y": 1248,
+                "h": 295,
+                "w": 295
+              },
+              {
+                "x": 700,
+                "y": 1618,
+                "h": 283,
+                "w": 283
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 211,
+                "y": 371,
+                "h": 87,
+                "w": 87
+              },
+              {
+                "x": 208,
+                "y": 481,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 210,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 118,
+                "y": 272,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 999354697789202400,
+    "id_str": "999354697789202433",
+    "name": "MYL",
+    "screen_name": "_maiyerlee",
+    "location": "Minneapolis, MN",
+    "description": "Software Engineer 👩‍💻, Organizer @mplsjrdevs",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 51,
+    "friends_count": 265,
+    "listed_count": 1,
+    "created_at": "Wed May 23 18:21:41 +0000 2018",
+    "favourites_count": 275,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 87,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1165666113608474626/UpXsH0te_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1165666113608474626/UpXsH0te_normal.jpg",
+    "profile_link_color": "00CCCC",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "8e9665cec9370f0f",
+    "url": "https://api.twitter.com/1.1/geo/id/8e9665cec9370f0f.json",
+    "place_type": "city",
+    "name": "Minneapolis",
+    "full_name": "Minneapolis, MN",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -93.329515,
+            44.889964
+          ],
+          [
+            -93.194578,
+            44.889964
+          ],
+          [
+            -93.194578,
+            45.051257
+          ],
+          [
+            -93.329515,
+            45.051257
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 17,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

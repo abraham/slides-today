@@ -1,0 +1,293 @@
+{
+  "created_at": "Wed Jan 24 14:30:14 +0000 2018",
+  "id": 956172293834788900,
+  "id_str": "956172293834788864",
+  "full_text": "😃 Very excited to be speaking at #DevfestMN w @pblatteier @abraham  @devfestmn @SRobTweets @CeruleanOtter &amp; many more awesome speakers😍! If you find yourself in Minnesota 2/10 come join us! Here's 20% off 😘 https://t.co/DVtMHKQVcN https://t.co/C9zOFxo4c8",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    234
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevfestMN",
+        "indices": [
+          33,
+          43
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          46,
+          57
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          58,
+          66
+        ]
+      },
+      {
+        "screen_name": "devfestmn",
+        "name": "DevFestMN",
+        "id": 2290467152,
+        "id_str": "2290467152",
+        "indices": [
+          68,
+          78
+        ]
+      },
+      {
+        "screen_name": "SRobTweets",
+        "name": "Sara Robinson",
+        "id": 332018940,
+        "id_str": "332018940",
+        "indices": [
+          79,
+          90
+        ]
+      },
+      {
+        "screen_name": "CeruleanOtter",
+        "name": "Lyla Fujiwara",
+        "id": 263277632,
+        "id_str": "263277632",
+        "indices": [
+          91,
+          105
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/DVtMHKQVcN",
+        "expanded_url": "https://devfestmn.eventbrite.com/?discount=FriendOfTaraZ.Manicsic",
+        "display_url": "devfestmn.eventbrite.com/?discount=Frie…",
+        "indices": [
+          211,
+          234
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 956172279779442700,
+        "id_str": "956172279779442688",
+        "indices": [
+          235,
+          258
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
+        "url": "https://t.co/C9zOFxo4c8",
+        "display_url": "pic.twitter.com/C9zOFxo4c8",
+        "expanded_url": "https://twitter.com/Tzmanics/status/956172293834788864/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          }
+        },
+        "features": {}
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 956172279779442700,
+        "id_str": "956172279779442688",
+        "indices": [
+          235,
+          258
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
+        "url": "https://t.co/C9zOFxo4c8",
+        "display_url": "pic.twitter.com/C9zOFxo4c8",
+        "expanded_url": "https://twitter.com/Tzmanics/status/956172293834788864/photo/1",
+        "type": "animated_gif",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 260,
+            "h": 172,
+            "resize": "fit"
+          }
+        },
+        "video_info": {
+          "aspect_ratio": [
+            65,
+            43
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/DUUBn1hUQAAIa0i.mp4"
+            }
+          ]
+        },
+        "features": {}
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1365687402,
+    "id_str": "1365687402",
+    "name": "😆Tara Z. Manicsic🐺",
+    "screen_name": "Tzmanics",
+    "location": "Cincinnati, OH",
+    "description": "craft().code().contemplate().communicate()",
+    "url": "https://t.co/ejwv1LyV9l",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ejwv1LyV9l",
+            "expanded_url": "http://tzmanics.com",
+            "display_url": "tzmanics.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3752,
+    "friends_count": 800,
+    "listed_count": 141,
+    "created_at": "Sat Apr 20 00:12:20 +0000 2013",
+    "favourites_count": 7542,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 3565,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1565297654",
+    "profile_link_color": "ABB8C2",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "e444ecd51bd16ff3",
+    "url": "https://api.twitter.com/1.1/geo/id/e444ecd51bd16ff3.json",
+    "place_type": "city",
+    "name": "Cincinnati",
+    "full_name": "Cincinnati, OH",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -84.710722,
+            39.052962
+          ],
+          [
+            -84.3689026,
+            39.052962
+          ],
+          [
+            -84.3689026,
+            39.2211137
+          ],
+          [
+            -84.710722,
+            39.2211137
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 11,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,497 @@
+{
+  "created_at": "Fri Sep 22 19:08:24 +0000 2017",
+  "id": 911306200263864300,
+  "id_str": "911306200263864321",
+  "full_text": "Everyone thinks @abraham @pearl @joshj and I are really nice people. Glad @connect_js could capture our true colors 😡😜 https://t.co/TePEnuQF56",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    118
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          16,
+          24
+        ]
+      },
+      {
+        "screen_name": "Pearl",
+        "name": "Pearl Margaret Ganzon",
+        "id": 1606711,
+        "id_str": "1606711",
+        "indices": [
+          25,
+          31
+        ]
+      },
+      {
+        "screen_name": "joshj",
+        "name": "Josh Jensen",
+        "id": 1102881,
+        "id_str": "1102881",
+        "indices": [
+          32,
+          38
+        ]
+      },
+      {
+        "screen_name": "connect_js",
+        "name": "CONNECT.TECH",
+        "id": 2649853080,
+        "id_str": "2649853080",
+        "indices": [
+          74,
+          85
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/TePEnuQF56",
+        "expanded_url": "https://twitter.com/connecteventsio/status/911289694134112257",
+        "display_url": "twitter.com/connecteventsi…",
+        "indices": [
+          119,
+          142
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1365687402,
+    "id_str": "1365687402",
+    "name": "😆Tara Z. Manicsic🐺",
+    "screen_name": "Tzmanics",
+    "location": "Cincinnati, OH",
+    "description": "craft().code().contemplate().communicate()",
+    "url": "https://t.co/ejwv1LyV9l",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ejwv1LyV9l",
+            "expanded_url": "http://tzmanics.com",
+            "display_url": "tzmanics.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3752,
+    "friends_count": 800,
+    "listed_count": 141,
+    "created_at": "Sat Apr 20 00:12:20 +0000 2013",
+    "favourites_count": 7542,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 3565,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1565297654",
+    "profile_link_color": "ABB8C2",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "8173485c72e78ca5",
+    "url": "https://api.twitter.com/1.1/geo/id/8173485c72e78ca5.json",
+    "place_type": "city",
+    "name": "Atlanta",
+    "full_name": "Atlanta, GA",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -84.576827,
+            33.6475029
+          ],
+          [
+            -84.289385,
+            33.6475029
+          ],
+          [
+            -84.289385,
+            33.8868859
+          ],
+          [
+            -84.576827,
+            33.8868859
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": true,
+  "quoted_status_id": 911289694134112300,
+  "quoted_status_id_str": "911289694134112257",
+  "quoted_status_permalink": {
+    "url": "https://t.co/TePEnuQF56",
+    "expanded": "https://twitter.com/connecteventsio/status/911289694134112257",
+    "display": "twitter.com/connecteventsi…"
+  },
+  "quoted_status": {
+    "created_at": "Fri Sep 22 18:02:48 +0000 2017",
+    "id": 911289694134112300,
+    "id_str": "911289694134112257",
+    "full_text": "https://t.co/udZEPch6ja",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      0
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 911289660223111200,
+          "id_str": "911289660223111168",
+          "indices": [
+            0,
+            23
+          ],
+          "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
+          "url": "https://t.co/udZEPch6ja",
+          "display_url": "pic.twitter.com/udZEPch6ja",
+          "expanded_url": "https://twitter.com/connecteventsio/status/911289694134112257/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 896,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1530,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 508,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 837,
+                  "y": 437,
+                  "h": 99,
+                  "w": 99
+                },
+                {
+                  "x": 601,
+                  "y": 466,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 474,
+                  "y": 247,
+                  "h": 56,
+                  "w": 56
+                },
+                {
+                  "x": 340,
+                  "y": 264,
+                  "h": 62,
+                  "w": 62
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 911289660223111200,
+          "id_str": "911289660223111168",
+          "indices": [
+            0,
+            23
+          ],
+          "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
+          "url": "https://t.co/udZEPch6ja",
+          "display_url": "pic.twitter.com/udZEPch6ja",
+          "expanded_url": "https://twitter.com/connecteventsio/status/911289694134112257/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 896,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 1530,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 508,
+              "resize": "fit"
+            }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 837,
+                  "y": 437,
+                  "h": 99,
+                  "w": 99
+                },
+                {
+                  "x": 601,
+                  "y": 466,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 474,
+                  "y": 247,
+                  "h": 56,
+                  "w": 56
+                },
+                {
+                  "x": 340,
+                  "y": 264,
+                  "h": 62,
+                  "w": 62
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 860957169524629500,
+      "id_str": "860957169524629508",
+      "name": "connectevents.io",
+      "screen_name": "connecteventsio",
+      "location": "Atlanta USA",
+      "description": "Technology Conference Creation, Execution and Production",
+      "url": "https://t.co/TVN68h3mNL",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/TVN68h3mNL",
+              "expanded_url": "http://connectevents.io",
+              "display_url": "connectevents.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 143,
+      "friends_count": 20,
+      "listed_count": 2,
+      "created_at": "Sat May 06 20:39:19 +0000 2017",
+      "favourites_count": 9,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 673,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1188092672780591104/jRrE5l5g_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1188092672780591104/jRrE5l5g_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/860957169524629508/1572099424",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "und"
+  },
+  "retweet_count": 1,
+  "favorite_count": 11,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

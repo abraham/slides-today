@@ -1,0 +1,137 @@
+{
+  "created_at": "Fri Sep 22 19:21:12 +0000 2017",
+  "id": 911309425012625400,
+  "id_str": "911309425012625408",
+  "full_text": "@szynszyliszys I saw @pblatteier @abraham for the first time at Midwestjs and loved their delivery. Very fun. Wish I was there. @connect_js",
+  "truncated": false,
+  "display_text_range": [
+    15,
+    139
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "szynszyliszys",
+        "name": "Anna Migas",
+        "id": 106479510,
+        "id_str": "106479510",
+        "indices": [
+          0,
+          14
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          21,
+          32
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          33,
+          41
+        ]
+      },
+      {
+        "screen_name": "connect_js",
+        "name": "CONNECT.TECH",
+        "id": 2649853080,
+        "id_str": "2649853080",
+        "indices": [
+          128,
+          139
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+  "in_reply_to_status_id": 911230303368335400,
+  "in_reply_to_status_id_str": "911230303368335360",
+  "in_reply_to_user_id": 106479510,
+  "in_reply_to_user_id_str": "106479510",
+  "in_reply_to_screen_name": "szynszyliszys",
+  "user": {
+    "id": 37806143,
+    "id_str": "37806143",
+    "name": "Jeff Barczewski",
+    "screen_name": "jeffbski",
+    "location": "St. Louis, MO USA",
+    "description": "Full Stack Instructor, Coach, Consultant, JavaScript (JS), Node.js, React.js, Functional Programming, Ex-MasterCard, ApplePay, Husband, Father, Catholic, Skier",
+    "url": "https://t.co/teE1yFOCFL",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/teE1yFOCFL",
+            "expanded_url": "http://codewinds.com/",
+            "display_url": "codewinds.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1602,
+    "friends_count": 1720,
+    "listed_count": 146,
+    "created_at": "Tue May 05 00:27:27 +0000 2009",
+    "favourites_count": 2822,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 3366,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/874628255155765249/AgxHaO1d_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/874628255155765249/AgxHaO1d_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/37806143/1354285788",
+    "profile_link_color": "0084B4",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 4,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

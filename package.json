@@ -13,9 +13,9 @@
     "start": "ng serve",
     "start:prod": "npm run build:prod && lite-server --baseDir dist/slides-today",
     "test": "npm run build && npm run build:prod",
-    "get-tweet": "ts-node  --project scripts/tsconfig.json scripts/get-tweet.ts",
-    "id": "ts-node  --project scripts/tsconfig.json scripts/id.ts",
-    "update-tweets": "ts-node  --project scripts/tsconfig.json scripts/update-tweets.ts"
+    "get-tweet": "ts-node --project scripts/tsconfig.json scripts/get-tweet.ts",
+    "id": "ts-node --project scripts/tsconfig.json scripts/id.ts",
+    "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts"
   },
   "private": true,
   "dependencies": {
@@ -72,6 +72,7 @@
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
     "twit": "2.2.11",
+    "twitter-d": "0.4.0",
     "typescript": "3.5.3",
     "workbox-build": "4.3.1",
     "workbox-sw": "4.3.1"

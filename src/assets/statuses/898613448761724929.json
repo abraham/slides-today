@@ -1,0 +1,586 @@
+{
+  "created_at": "Fri Aug 18 18:31:56 +0000 2017",
+  "id": 898613448761724900,
+  "id_str": "898613448761724929",
+  "full_text": "@midwest_js full room for progressive web apps with @pblatteier and @abraham #midwestjs https://t.co/IxKiamR2xk",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    87
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "midwestjs",
+        "indices": [
+          77,
+          87
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "midwest_js",
+        "name": "Midwest JS",
+        "id": 2196056617,
+        "id_str": "2196056617",
+        "indices": [
+          0,
+          11
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          52,
+          63
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          68,
+          76
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 898613441342001200,
+        "id_str": "898613441342001152",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "url": "https://t.co/IxKiamR2xk",
+        "display_url": "pic.twitter.com/IxKiamR2xk",
+        "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 581,
+                "y": 298,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 202,
+                "y": 326,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 430,
+                "y": 333,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 63,
+                "y": 340,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 310,
+                "y": 284,
+                "h": 31,
+                "w": 31
+              },
+              {
+                "x": 324,
+                "y": 247,
+                "h": 30,
+                "w": 30
+              },
+              {
+                "x": 82,
+                "y": 366,
+                "h": 31,
+                "w": 31
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1750,
+                "y": 898,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 610,
+                "y": 982,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 1296,
+                "y": 1004,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 192,
+                "y": 1024,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 936,
+                "y": 858,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 978,
+                "y": 744,
+                "h": 92,
+                "w": 92
+              },
+              {
+                "x": 248,
+                "y": 1104,
+                "h": 96,
+                "w": 96
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1750,
+                "y": 898,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 610,
+                "y": 982,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 1296,
+                "y": 1004,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 192,
+                "y": 1024,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 936,
+                "y": 858,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 978,
+                "y": 744,
+                "h": 92,
+                "w": 92
+              },
+              {
+                "x": 248,
+                "y": 1104,
+                "h": 96,
+                "w": 96
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 1025,
+                "y": 526,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 357,
+                "y": 575,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 759,
+                "y": 588,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 112,
+                "y": 600,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 548,
+                "y": 502,
+                "h": 55,
+                "w": 55
+              },
+              {
+                "x": 573,
+                "y": 435,
+                "h": 53,
+                "w": 53
+              },
+              {
+                "x": 145,
+                "y": 646,
+                "h": 56,
+                "w": 56
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 898613441342001200,
+        "id_str": "898613441342001152",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "url": "https://t.co/IxKiamR2xk",
+        "display_url": "pic.twitter.com/IxKiamR2xk",
+        "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 581,
+                "y": 298,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 202,
+                "y": 326,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 430,
+                "y": 333,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 63,
+                "y": 340,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 310,
+                "y": 284,
+                "h": 31,
+                "w": 31
+              },
+              {
+                "x": 324,
+                "y": 247,
+                "h": 30,
+                "w": 30
+              },
+              {
+                "x": 82,
+                "y": 366,
+                "h": 31,
+                "w": 31
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1750,
+                "y": 898,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 610,
+                "y": 982,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 1296,
+                "y": 1004,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 192,
+                "y": 1024,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 936,
+                "y": 858,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 978,
+                "y": 744,
+                "h": 92,
+                "w": 92
+              },
+              {
+                "x": 248,
+                "y": 1104,
+                "h": 96,
+                "w": 96
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1750,
+                "y": 898,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 610,
+                "y": 982,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 1296,
+                "y": 1004,
+                "h": 72,
+                "w": 72
+              },
+              {
+                "x": 192,
+                "y": 1024,
+                "h": 74,
+                "w": 74
+              },
+              {
+                "x": 936,
+                "y": 858,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 978,
+                "y": 744,
+                "h": 92,
+                "w": 92
+              },
+              {
+                "x": 248,
+                "y": 1104,
+                "h": 96,
+                "w": 96
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 1025,
+                "y": 526,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 357,
+                "y": 575,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 759,
+                "y": 588,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 112,
+                "y": 600,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 548,
+                "y": 502,
+                "h": 55,
+                "w": 55
+              },
+              {
+                "x": 573,
+                "y": 435,
+                "h": 53,
+                "w": 53
+              },
+              {
+                "x": 145,
+                "y": 646,
+                "h": 56,
+                "w": 56
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 2196056617,
+  "in_reply_to_user_id_str": "2196056617",
+  "in_reply_to_screen_name": "midwest_js",
+  "user": {
+    "id": 16821400,
+    "id_str": "16821400",
+    "name": "Justin James",
+    "screen_name": "digitaldrummerj",
+    "location": "Chandler, AZ",
+    "description": "Founder of Let Your Nerd Be Heard, Microsoft MVP, Angular lover, Speaking Coach & Speaker specializing in making the complex simple and easy to understand",
+    "url": "https://t.co/5T6nJ65O7l",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/5T6nJ65O7l",
+            "expanded_url": "https://digitaldrummerj.me",
+            "display_url": "digitaldrummerj.me",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 921,
+    "friends_count": 703,
+    "listed_count": 75,
+    "created_at": "Fri Oct 17 06:55:35 +0000 2008",
+    "favourites_count": 911,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2888,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1058421853981630466/t5rmZ1e2_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1058421853981630466/t5rmZ1e2_normal.jpg",
+    "profile_link_color": "2FC2EF",
+    "profile_sidebar_border_color": "181A1E",
+    "profile_sidebar_fill_color": "252429",
+    "profile_text_color": "666666",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 12,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

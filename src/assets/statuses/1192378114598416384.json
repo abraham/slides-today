@@ -1,0 +1,313 @@
+{
+  "created_at": "Thu Nov 07 09:47:50 +0000 2019",
+  "id": 1192378114598416400,
+  "id_str": "1192378114598416384",
+  "full_text": "Flutter is for more than mobile development. Nice talk by @abraham #MobileEra https://t.co/5oDdR4R5fe",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    77
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "MobileEra",
+        "indices": [
+          67,
+          77
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          58,
+          66
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1192378102162350000,
+        "id_str": "1192378102162350080",
+        "indices": [
+          78,
+          101
+        ],
+        "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+        "url": "https://t.co/5oDdR4R5fe",
+        "display_url": "pic.twitter.com/5oDdR4R5fe",
+        "expanded_url": "https://twitter.com/JanSBor/status/1192378114598416384/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 48,
+                "y": 1466,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 462,
+                "y": 1362,
+                "h": 248,
+                "w": 248
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 48,
+                "y": 1466,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 462,
+                "y": 1362,
+                "h": 248,
+                "w": 248
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 28,
+                "y": 858,
+                "h": 80,
+                "w": 80
+              },
+              {
+                "x": 270,
+                "y": 798,
+                "h": 145,
+                "w": 145
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 15,
+                "y": 486,
+                "h": 45,
+                "w": 45
+              },
+              {
+                "x": 153,
+                "y": 452,
+                "h": 82,
+                "w": 82
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1192378102162350000,
+        "id_str": "1192378102162350080",
+        "indices": [
+          78,
+          101
+        ],
+        "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
+        "url": "https://t.co/5oDdR4R5fe",
+        "display_url": "pic.twitter.com/5oDdR4R5fe",
+        "expanded_url": "https://twitter.com/JanSBor/status/1192378114598416384/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 48,
+                "y": 1466,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 462,
+                "y": 1362,
+                "h": 248,
+                "w": 248
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 48,
+                "y": 1466,
+                "h": 138,
+                "w": 138
+              },
+              {
+                "x": 462,
+                "y": 1362,
+                "h": 248,
+                "w": 248
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 28,
+                "y": 858,
+                "h": 80,
+                "w": 80
+              },
+              {
+                "x": 270,
+                "y": 798,
+                "h": 145,
+                "w": 145
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 15,
+                "y": 486,
+                "h": 45,
+                "w": 45
+              },
+              {
+                "x": 153,
+                "y": 452,
+                "h": 82,
+                "w": 82
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 154251253,
+    "id_str": "154251253",
+    "name": "Jan Sølve Borlaug",
+    "screen_name": "JanSBor",
+    "location": "Oslo",
+    "description": "Work at Visma Software. Tweet about everything",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 222,
+    "friends_count": 279,
+    "listed_count": 6,
+    "created_at": "Thu Jun 10 19:29:58 +0000 2010",
+    "favourites_count": 1600,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 1375,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/977829080/IMG_9830_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/977829080/IMG_9830_normal.jpg",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 10,
+  "favorited": true,
+  "retweeted": true,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}
