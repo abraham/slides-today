@@ -1,0 +1,228 @@
+{
+  "created_at": "Fri Nov 02 08:14:14 +0000 2018",
+  "id": 1058271048322424800,
+  "id_str": "1058271048322424833",
+  "full_text": "How do service workers even? By @pblatteier and @abraham https://t.co/eUH6m8I56F",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    56
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          32,
+          43
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          48,
+          56
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1058271003367751700,
+        "id_str": "1058271003367751680",
+        "indices": [
+          57,
+          80
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
+        "url": "https://t.co/eUH6m8I56F",
+        "display_url": "pic.twitter.com/eUH6m8I56F",
+        "expanded_url": "https://twitter.com/JoubranJad/status/1058271048322424833/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1058271003367751700,
+        "id_str": "1058271003367751680",
+        "indices": [
+          57,
+          80
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
+        "url": "https://t.co/eUH6m8I56F",
+        "display_url": "pic.twitter.com/eUH6m8I56F",
+        "expanded_url": "https://twitter.com/JoubranJad/status/1058271048322424833/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1536,
+            "h": 2048,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 510,
+            "h": 680,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 900,
+            "h": 1200,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 360315066,
+    "id_str": "360315066",
+    "name": "Jad Joubran",
+    "screen_name": "JoubranJad",
+    "location": "Amsterdam, The Netherlands",
+    "description": "Google Developer Expert, PWA & Web Consultant  🗺👫 w/ @nicolesaidy",
+    "url": "https://t.co/YgoN8fPi4u",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/YgoN8fPi4u",
+            "expanded_url": "https://jadjoubran.io",
+            "display_url": "jadjoubran.io",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3563,
+    "friends_count": 2346,
+    "listed_count": 155,
+    "created_at": "Tue Aug 23 01:05:27 +0000 2011",
+    "favourites_count": 26838,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 26251,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1011147606788136962/GdXKb3An_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1011147606788136962/GdXKb3An_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/360315066/1529911610",
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "e42ed02b50d62e29",
+    "url": "https://api.twitter.com/1.1/geo/id/e42ed02b50d62e29.json",
+    "place_type": "city",
+    "name": "Oslo",
+    "full_name": "Oslo, Norge",
+    "country_code": "NO",
+    "country": "Norge",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            10.4914682,
+            59.8097794
+          ],
+          [
+            10.9515836,
+            59.8097794
+          ],
+          [
+            10.9515836,
+            60.1350316
+          ],
+          [
+            10.4914682,
+            60.1350316
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 1,
+  "favorite_count": 2,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,127 @@
+{
+  "created_at": "Mon Oct 23 19:15:01 +0000 2017",
+  "id": 922541889257201700,
+  "id_str": "922541889257201664",
+  "full_text": "Ever wondered if a CLI might help deal with repetitive tasks? @abraham and @pblatteier will show you how they can! https://t.co/Bxsa1rSJvl",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    138
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          62,
+          70
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          75,
+          86
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/Bxsa1rSJvl",
+        "expanded_url": "https://www.devopsdays.org/events/2017-madison/program/energize-your-workflow-with-clis/",
+        "display_url": "devopsdays.org/events/2017-ma…",
+        "indices": [
+          115,
+          138
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 714903438488944600,
+    "id_str": "714903438488944640",
+    "name": "DevOps Days Madison",
+    "screen_name": "devopsdaysmsn",
+    "location": "Madison, WI",
+    "description": "Official Twitter account for DevOps Days Madison.",
+    "url": "https://t.co/tGKw8Q61fa",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/tGKw8Q61fa",
+            "expanded_url": "http://www.devopsdaysmsn.org",
+            "display_url": "devopsdaysmsn.org",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 243,
+    "friends_count": 46,
+    "listed_count": 10,
+    "created_at": "Tue Mar 29 19:53:56 +0000 2016",
+    "favourites_count": 44,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 165,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/742781913362890753/98eIzkCK_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/742781913362890753/98eIzkCK_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/714903438488944640/1465928074",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 7,
+  "favorite_count": 6,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

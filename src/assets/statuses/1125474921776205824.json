@@ -1,0 +1,268 @@
+{
+  "created_at": "Mon May 06 18:58:26 +0000 2019",
+  "id": 1125474921776205800,
+  "id_str": "1125474921776205824",
+  "full_text": "WORKSHOP HIGHLIGHT: \"Get Flapping with Flutter\" with @pblatteier &amp; @abraham. #Flutter is a new tool from #Google that allows you to quickly create native apps for iOS and Android from a single codebase.https://t.co/G9LfZJYDWg #refactr #diversity #inclusion  #tech #conference https://t.co/KrmeNzXF9Z",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    279
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Flutter",
+        "indices": [
+          81,
+          89
+        ]
+      },
+      {
+        "text": "Google",
+        "indices": [
+          109,
+          116
+        ]
+      },
+      {
+        "text": "refactr",
+        "indices": [
+          230,
+          238
+        ]
+      },
+      {
+        "text": "diversity",
+        "indices": [
+          239,
+          249
+        ]
+      },
+      {
+        "text": "inclusion",
+        "indices": [
+          250,
+          260
+        ]
+      },
+      {
+        "text": "tech",
+        "indices": [
+          262,
+          267
+        ]
+      },
+      {
+        "text": "conference",
+        "indices": [
+          268,
+          279
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          53,
+          64
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          71,
+          79
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/G9LfZJYDWg",
+        "expanded_url": "https://buff.ly/2vEeSKT",
+        "display_url": "buff.ly/2vEeSKT",
+        "indices": [
+          206,
+          229
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1125474910812270600,
+        "id_str": "1125474910812270594",
+        "indices": [
+          280,
+          303
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
+        "url": "https://t.co/KrmeNzXF9Z",
+        "display_url": "pic.twitter.com/KrmeNzXF9Z",
+        "expanded_url": "https://twitter.com/RefactrTech/status/1125474921776205824/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1125474910812270600,
+        "id_str": "1125474910812270594",
+        "indices": [
+          280,
+          303
+        ],
+        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
+        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
+        "url": "https://t.co/KrmeNzXF9Z",
+        "display_url": "pic.twitter.com/KrmeNzXF9Z",
+        "expanded_url": "https://twitter.com/RefactrTech/status/1125474921776205824/photo/1",
+        "type": "animated_gif",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 480,
+            "h": 286,
+            "resize": "fit"
+          }
+        },
+        "video_info": {
+          "aspect_ratio": [
+            240,
+            143
+          ],
+          "variants": [
+            {
+              "bitrate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/D559d-aUcAI8_kB.mp4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 824430116281450500,
+    "id_str": "824430116281450496",
+    "name": "REFACTR.TECH",
+    "screen_name": "RefactrTech",
+    "location": "Atlanta, GA",
+    "description": "Showcasing voices of marginalized people & allies on #tech topics, #diversity, #inclusion, and #intersectionality in tech. 6/5 - 6/7/19. Get your tix! #refactr",
+    "url": "https://t.co/gN0DB8wlDz",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/gN0DB8wlDz",
+            "expanded_url": "http://refactr.tech/",
+            "display_url": "refactr.tech",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1699,
+    "friends_count": 220,
+    "listed_count": 62,
+    "created_at": "Thu Jan 26 01:33:51 +0000 2017",
+    "favourites_count": 2164,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2073,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1551323780",
+    "profile_link_color": "CF057C",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 6,
+  "favorite_count": 8,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

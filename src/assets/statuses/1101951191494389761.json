@@ -1,0 +1,233 @@
+{
+  "created_at": "Sat Mar 02 21:03:31 +0000 2019",
+  "id": 1101951191494389800,
+  "id_str": "1101951191494389761",
+  "full_text": "Hosting an #IWD19 @gdcfpday workshop with @Madison_WIT. Thanks to @bendyworks @WomenTechmakers and @maydmtech for the support. https://t.co/dkdc05q1QQ",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    126
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "IWD19",
+        "indices": [
+          11,
+          17
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "gdcfpday",
+        "name": "Global Diversity CFP",
+        "id": 903903705019371500,
+        "id_str": "903903705019371520",
+        "indices": [
+          18,
+          27
+        ]
+      },
+      {
+        "screen_name": "Madison_WIT",
+        "name": "Madison Women in Tech",
+        "id": 2291587940,
+        "id_str": "2291587940",
+        "indices": [
+          42,
+          54
+        ]
+      },
+      {
+        "screen_name": "bendyworks",
+        "name": "Bendyworks",
+        "id": 31920143,
+        "id_str": "31920143",
+        "indices": [
+          66,
+          77
+        ]
+      },
+      {
+        "screen_name": "WomenTechmakers",
+        "name": "Women Techmakers",
+        "id": 2362618909,
+        "id_str": "2362618909",
+        "indices": [
+          78,
+          94
+        ]
+      },
+      {
+        "screen_name": "maydmtech",
+        "name": "Maydm",
+        "id": 700407408582127600,
+        "id_str": "700407408582127616",
+        "indices": [
+          99,
+          109
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1101951182963204100,
+        "id_str": "1101951182963204096",
+        "indices": [
+          127,
+          150
+        ],
+        "media_url": "http://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
+        "url": "https://t.co/dkdc05q1QQ",
+        "display_url": "pic.twitter.com/dkdc05q1QQ",
+        "expanded_url": "https://twitter.com/gdgmadison/status/1101951191494389761/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1101951182963204100,
+        "id_str": "1101951182963204096",
+        "indices": [
+          127,
+          150
+        ],
+        "media_url": "http://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
+        "url": "https://t.co/dkdc05q1QQ",
+        "display_url": "pic.twitter.com/dkdc05q1QQ",
+        "expanded_url": "https://twitter.com/gdgmadison/status/1101951191494389761/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 60940193,
+    "id_str": "60940193",
+    "name": "GDG Madison",
+    "screen_name": "gdgmadison",
+    "location": "Madison, WI",
+    "description": "Google Developer Group Madison",
+    "url": "https://t.co/jmpo3XZoV1",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/jmpo3XZoV1",
+            "expanded_url": "https://gdgmadison.com",
+            "display_url": "gdgmadison.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 128,
+    "friends_count": 49,
+    "listed_count": 12,
+    "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+    "favourites_count": 122,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 459,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 21,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

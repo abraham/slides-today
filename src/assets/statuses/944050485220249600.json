@@ -1,0 +1,224 @@
+{
+  "created_at": "Fri Dec 22 03:42:29 +0000 2017",
+  "id": 944050485220249600,
+  "id_str": "944050485220249600",
+  "full_text": "New Connect.Tech17 video: \"Web Components - Lego Bricks of the Web\" by @pblatteier and @abraham of @bendyworks \nhttps://t.co/saXU1qWy8T \n@connect_js https://t.co/4VbM2jMvuX",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    148
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          71,
+          82
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          87,
+          95
+        ]
+      },
+      {
+        "screen_name": "bendyworks",
+        "name": "Bendyworks",
+        "id": 31920143,
+        "id_str": "31920143",
+        "indices": [
+          99,
+          110
+        ]
+      },
+      {
+        "screen_name": "connect_js",
+        "name": "CONNECT.TECH",
+        "id": 2649853080,
+        "id_str": "2649853080",
+        "indices": [
+          137,
+          148
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/saXU1qWy8T",
+        "expanded_url": "https://www.recallact.com/ZZ6",
+        "display_url": "recallact.com/ZZ6",
+        "indices": [
+          112,
+          135
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 944050243489820700,
+        "id_str": "944050243489820674",
+        "indices": [
+          149,
+          172
+        ],
+        "media_url": "http://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
+        "url": "https://t.co/4VbM2jMvuX",
+        "display_url": "pic.twitter.com/4VbM2jMvuX",
+        "expanded_url": "https://twitter.com/recallact/status/944050485220249600/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 944050243489820700,
+        "id_str": "944050243489820674",
+        "indices": [
+          149,
+          172
+        ],
+        "media_url": "http://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
+        "url": "https://t.co/4VbM2jMvuX",
+        "display_url": "pic.twitter.com/4VbM2jMvuX",
+        "expanded_url": "https://twitter.com/recallact/status/944050485220249600/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 640,
+            "h": 360,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 3044943586,
+    "id_str": "3044943586",
+    "name": "RecallAct",
+    "screen_name": "recallact",
+    "location": "Alpharetta, GA",
+    "description": "Latest tech presentation videos from meetups, camps and conferences",
+    "url": "http://t.co/QkVDL7UiVY",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "http://t.co/QkVDL7UiVY",
+            "expanded_url": "http://www.recallact.com",
+            "display_url": "recallact.com",
+            "indices": [
+              0,
+              22
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 468,
+    "friends_count": 2344,
+    "listed_count": 7,
+    "created_at": "Thu Feb 19 16:26:50 +0000 2015",
+    "favourites_count": 20,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 191,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/820127379582382080/-weQGmqE_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/820127379582382080/-weQGmqE_normal.jpg",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

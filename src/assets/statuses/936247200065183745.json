@@ -1,0 +1,137 @@
+{
+  "created_at": "Thu Nov 30 14:55:01 +0000 2017",
+  "id": 936247200065183700,
+  "id_str": "936247200065183745",
+  "full_text": "Couldn't make it to @mobileeraconf? You can watch my and @abraham's talk about @ActionsOnGoogle here: https://t.co/7apISoJnbB",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    125
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          20,
+          34
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          57,
+          65
+        ]
+      },
+      {
+        "screen_name": "ActionsOnGoogle",
+        "name": "Actions on Google",
+        "id": 857372550241726500,
+        "id_str": "857372550241726464",
+        "indices": [
+          79,
+          95
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/7apISoJnbB",
+        "expanded_url": "https://vimeo.com/243435933",
+        "display_url": "vimeo.com/243435933",
+        "indices": [
+          102,
+          125
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 202376085,
+    "id_str": "202376085",
+    "name": "Pearl Latteier",
+    "screen_name": "pblatteier",
+    "location": "Madison, WI",
+    "description": "Senior developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead.",
+    "url": "https://t.co/rDYQj6hdWQ",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/rDYQj6hdWQ",
+            "expanded_url": "https://pearlbea.com/",
+            "display_url": "pearlbea.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 806,
+    "friends_count": 543,
+    "listed_count": 33,
+    "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+    "favourites_count": 1920,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 713,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1535673161",
+    "profile_link_color": "B00020",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 1,
+  "favorite_count": 3,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

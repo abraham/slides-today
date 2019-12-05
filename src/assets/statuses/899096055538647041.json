@@ -1,0 +1,155 @@
+{
+  "created_at": "Sun Aug 20 02:29:38 +0000 2017",
+  "id": 899096055538647000,
+  "id_str": "899096055538647041",
+  "full_text": "@abraham @angular @materialdesign @Firebase @GoogleMapsAPI Really enjoyed your talk on Friday. @pblatteier and you were great! Excited to play with PWAs.",
+  "truncated": false,
+  "display_text_range": [
+    59,
+    153
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          0,
+          8
+        ]
+      },
+      {
+        "screen_name": "angular",
+        "name": "Angular",
+        "id": 202230373,
+        "id_str": "202230373",
+        "indices": [
+          9,
+          17
+        ]
+      },
+      {
+        "screen_name": "materialdesign",
+        "name": "Material Design",
+        "id": 816364272452128800,
+        "id_str": "816364272452128768",
+        "indices": [
+          18,
+          33
+        ]
+      },
+      {
+        "screen_name": "Firebase",
+        "name": "Firebase",
+        "id": 447644824,
+        "id_str": "447644824",
+        "indices": [
+          34,
+          43
+        ]
+      },
+      {
+        "screen_name": "GoogleMapsAPI",
+        "name": "Google Maps API",
+        "id": 938176330474053600,
+        "id_str": "938176330474053632",
+        "indices": [
+          44,
+          58
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          95,
+          106
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+  "in_reply_to_status_id": 899080854550573000,
+  "in_reply_to_status_id_str": "899080854550573056",
+  "in_reply_to_user_id": 9436992,
+  "in_reply_to_user_id_str": "9436992",
+  "in_reply_to_screen_name": "abraham",
+  "user": {
+    "id": 832851509347917800,
+    "id_str": "832851509347917825",
+    "name": "Clever Beagle",
+    "screen_name": "clvrbgl",
+    "location": "Chicago, IL",
+    "description": "Ship your first software product with experience, not stress. 1-on-1 mentorship, tools, and resources for building and shipping your first software product.",
+    "url": "https://t.co/zBjEwnfiVV",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/zBjEwnfiVV",
+            "expanded_url": "http://cleverbeagle.com",
+            "display_url": "cleverbeagle.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 186,
+    "friends_count": 211,
+    "listed_count": 4,
+    "created_at": "Sat Feb 18 07:17:28 +0000 2017",
+    "favourites_count": 229,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 1308,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/859062856616206336/5QeJbE3C_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/832851509347917825/1523766246",
+    "profile_link_color": "4285F4",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 2,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

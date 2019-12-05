@@ -1,0 +1,255 @@
+{
+  "created_at": "Thu Jan 31 03:16:32 +0000 2019",
+  "id": 1090811036662419500,
+  "id_str": "1090811036662419456",
+  "full_text": "Less than two weeks left! Don't be the one that misses out on these rockstar speakers!! Grab your ticket before they're all gone! \nhttps://t.co/4xWy5ZTBIP \n#DevFestKC #DevFest19\n#Flutter #MachineLearning #TensorFlow #Diversity #Chatbots #GoogleAssistant #Firebase #Serverless https://t.co/osW2gN40BM",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    275
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestKC",
+        "indices": [
+          156,
+          166
+        ]
+      },
+      {
+        "text": "DevFest19",
+        "indices": [
+          167,
+          177
+        ]
+      },
+      {
+        "text": "Flutter",
+        "indices": [
+          178,
+          186
+        ]
+      },
+      {
+        "text": "MachineLearning",
+        "indices": [
+          187,
+          203
+        ]
+      },
+      {
+        "text": "TensorFlow",
+        "indices": [
+          204,
+          215
+        ]
+      },
+      {
+        "text": "Diversity",
+        "indices": [
+          216,
+          226
+        ]
+      },
+      {
+        "text": "Chatbots",
+        "indices": [
+          227,
+          236
+        ]
+      },
+      {
+        "text": "GoogleAssistant",
+        "indices": [
+          237,
+          253
+        ]
+      },
+      {
+        "text": "Firebase",
+        "indices": [
+          254,
+          263
+        ]
+      },
+      {
+        "text": "Serverless",
+        "indices": [
+          264,
+          275
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/4xWy5ZTBIP",
+        "expanded_url": "https://devfestkc.com",
+        "display_url": "devfestkc.com",
+        "indices": [
+          131,
+          154
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1090808737156067300,
+        "id_str": "1090808737156067328",
+        "indices": [
+          276,
+          299
+        ],
+        "media_url": "http://pbs.twimg.com/media/DyNUxGAUcAAdKth.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DyNUxGAUcAAdKth.jpg",
+        "url": "https://t.co/osW2gN40BM",
+        "display_url": "pic.twitter.com/osW2gN40BM",
+        "expanded_url": "https://twitter.com/devfestkc/status/1090811036662419456/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1090808737156067300,
+        "id_str": "1090808737156067328",
+        "indices": [
+          276,
+          299
+        ],
+        "media_url": "http://pbs.twimg.com/media/DyNUxGAUcAAdKth.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DyNUxGAUcAAdKth.jpg",
+        "url": "https://t.co/osW2gN40BM",
+        "display_url": "pic.twitter.com/osW2gN40BM",
+        "expanded_url": "https://twitter.com/devfestkc/status/1090811036662419456/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4894485559,
+    "id_str": "4894485559",
+    "name": "DevFest KC",
+    "screen_name": "devfestkc",
+    "location": "Kansas City, MO",
+    "description": "#DevFestKC is a 100% community organized developer conference with exciting topics! #mobile #webdev #cloud #vr #machinelearning",
+    "url": "https://t.co/lPp52fH9HW",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/lPp52fH9HW",
+            "expanded_url": "https://devfestkc.com",
+            "display_url": "devfestkc.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 87,
+    "friends_count": 33,
+    "listed_count": 2,
+    "created_at": "Thu Feb 11 22:07:21 +0000 2016",
+    "favourites_count": 220,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 203,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1090808517395542017/T-XCUFLK_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1090808517395542017/T-XCUFLK_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/4894485559/1548903528",
+    "profile_link_color": "AF3939",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 8,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

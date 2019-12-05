@@ -1,0 +1,212 @@
+{
+  "created_at": "Sat Feb 17 20:02:02 +0000 2018",
+  "id": 964953101865283600,
+  "id_str": "964953101865283584",
+  "full_text": "Fun talk about making your mobile web fast! with @abraham and @pblatteier at @devfestkc #DevFestKC https://t.co/WEzPzooPrY",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    98
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestKC",
+        "indices": [
+          88,
+          98
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          49,
+          57
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          62,
+          73
+        ]
+      },
+      {
+        "screen_name": "devfestkc",
+        "name": "DevFest KC",
+        "id": 4894485559,
+        "id_str": "4894485559",
+        "indices": [
+          77,
+          87
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 964953080167977000,
+        "id_str": "964953080167976960",
+        "indices": [
+          99,
+          122
+        ],
+        "media_url": "http://pbs.twimg.com/media/DWQztsBU0AAVkD3.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DWQztsBU0AAVkD3.jpg",
+        "url": "https://t.co/WEzPzooPrY",
+        "display_url": "pic.twitter.com/WEzPzooPrY",
+        "expanded_url": "https://twitter.com/mad_team/status/964953101865283584/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 964953080167977000,
+        "id_str": "964953080167976960",
+        "indices": [
+          99,
+          122
+        ],
+        "media_url": "http://pbs.twimg.com/media/DWQztsBU0AAVkD3.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DWQztsBU0AAVkD3.jpg",
+        "url": "https://t.co/WEzPzooPrY",
+        "display_url": "pic.twitter.com/WEzPzooPrY",
+        "expanded_url": "https://twitter.com/mad_team/status/964953101865283584/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 238361959,
+    "id_str": "238361959",
+    "name": "James Coggan",
+    "screen_name": "mad_team",
+    "location": "London, England",
+    "description": "GDE for IoT. Originally from Brazil. \nPassionate Android software Engineer at @americanexpress I do not speak in behalf of my employer.",
+    "url": "https://t.co/oP2VGWqQqZ",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/oP2VGWqQqZ",
+            "expanded_url": "http://jamescoggan.com",
+            "display_url": "jamescoggan.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 1394,
+    "friends_count": 826,
+    "listed_count": 52,
+    "created_at": "Sat Jan 15 00:30:05 +0000 2011",
+    "favourites_count": 5601,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2628,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/972899979382743040/L8SYH2mA_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/972899979382743040/L8SYH2mA_normal.jpg",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 6,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

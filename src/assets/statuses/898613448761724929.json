@@ -1,0 +1,213 @@
+{
+  "created_at": "Fri Aug 18 18:31:56 +0000 2017",
+  "id": 898613448761724900,
+  "id_str": "898613448761724929",
+  "full_text": "@midwest_js full room for progressive web apps with @pblatteier and @abraham #midwestjs https://t.co/IxKiamR2xk",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    87
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "midwestjs",
+        "indices": [
+          77,
+          87
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "midwest_js",
+        "name": "Midwest JS",
+        "id": 2196056617,
+        "id_str": "2196056617",
+        "indices": [
+          0,
+          11
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          52,
+          63
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          68,
+          76
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 898613441342001200,
+        "id_str": "898613441342001152",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "url": "https://t.co/IxKiamR2xk",
+        "display_url": "pic.twitter.com/IxKiamR2xk",
+        "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 898613441342001200,
+        "id_str": "898613441342001152",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DHiEKfGU0AAYh09.jpg",
+        "url": "https://t.co/IxKiamR2xk",
+        "display_url": "pic.twitter.com/IxKiamR2xk",
+        "expanded_url": "https://twitter.com/digitaldrummerj/status/898613448761724929/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 2196056617,
+  "in_reply_to_user_id_str": "2196056617",
+  "in_reply_to_screen_name": "midwest_js",
+  "user": {
+    "id": 16821400,
+    "id_str": "16821400",
+    "name": "Justin James",
+    "screen_name": "digitaldrummerj",
+    "location": "Chandler, AZ",
+    "description": "Microsoft MVP, Public Speaking Coach & Professional Speaker specializing in making the complex simple and easy to understand",
+    "url": "https://t.co/B7DlUAqK4J",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/B7DlUAqK4J",
+            "expanded_url": "http://digitaldrummerj.me",
+            "display_url": "digitaldrummerj.me",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 733,
+    "friends_count": 652,
+    "listed_count": 72,
+    "created_at": "Fri Oct 17 06:55:35 +0000 2008",
+    "favourites_count": 371,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2174,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/894951276374401024/TZ2NBnMS_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/894951276374401024/TZ2NBnMS_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/16821400/1502208046",
+    "profile_link_color": "2FC2EF",
+    "profile_sidebar_border_color": "181A1E",
+    "profile_sidebar_fill_color": "252429",
+    "profile_text_color": "666666",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 12,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

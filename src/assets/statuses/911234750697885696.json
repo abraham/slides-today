@@ -1,0 +1,210 @@
+{
+  "created_at": "Fri Sep 22 14:24:29 +0000 2017",
+  "id": 911234750697885700,
+  "id_str": "911234750697885696",
+  "full_text": "Love it! @pblatteier and @abraham speaking at #connectjs about #webcomponents. Go team! https://t.co/pfN4j86fg9",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    87
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "connectjs",
+        "indices": [
+          46,
+          56
+        ]
+      },
+      {
+        "text": "webcomponents",
+        "indices": [
+          63,
+          77
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          9,
+          20
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          25,
+          33
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 911234743064256500,
+        "id_str": "911234743064256512",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
+        "url": "https://t.co/pfN4j86fg9",
+        "display_url": "pic.twitter.com/pfN4j86fg9",
+        "expanded_url": "https://twitter.com/ladyleet/status/911234750697885696/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1534,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 899,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 509,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 911234743064256500,
+        "id_str": "911234743064256512",
+        "indices": [
+          88,
+          111
+        ],
+        "media_url": "http://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
+        "url": "https://t.co/pfN4j86fg9",
+        "display_url": "pic.twitter.com/pfN4j86fg9",
+        "expanded_url": "https://twitter.com/ladyleet/status/911234750697885696/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1534,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 899,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 509,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 17503069,
+    "id_str": "17503069",
+    "name": "Tracy Lee | ladyleet",
+    "screen_name": "ladyleet",
+    "location": "SF Bay & Raleigh",
+    "description": "Consult / DevRel @thisdotlabs, #RxJS Core Team, Community @nodejs Foundation, GoogleDevExpert, Keynote Speaker, @thisdotmedia, @GDGSV @moderndotweb @rxworkshop",
+    "url": "https://t.co/UVYEjTkcty",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/UVYEjTkcty",
+            "expanded_url": "http://thisdot.co/labs",
+            "display_url": "thisdot.co/labs",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 25732,
+    "friends_count": 6494,
+    "listed_count": 1245,
+    "created_at": "Thu Nov 20 03:10:21 +0000 2008",
+    "favourites_count": 93253,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 64169,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "005C4E",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/954011930942935040/ZG9WZLph_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/954011930942935040/ZG9WZLph_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/17503069/1532485708",
+    "profile_link_color": "040070",
+    "profile_sidebar_border_color": "001D8F",
+    "profile_sidebar_fill_color": "CAD0EB",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 7,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

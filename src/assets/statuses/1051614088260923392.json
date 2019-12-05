@@ -1,0 +1,137 @@
+{
+  "created_at": "Sun Oct 14 23:21:51 +0000 2018",
+  "id": 1051614088260923400,
+  "id_str": "1051614088260923392",
+  "full_text": "Curious about @flutterio? Come to an intro talk I'm giving with @abraham tomorrow @gdgmadison. https://t.co/Y0LV3gSAN4",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    118
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "flutterio",
+        "name": "Flutter",
+        "id": 420730316,
+        "id_str": "420730316",
+        "indices": [
+          14,
+          24
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          64,
+          72
+        ]
+      },
+      {
+        "screen_name": "gdgmadison",
+        "name": "GDG Madison",
+        "id": 60940193,
+        "id_str": "60940193",
+        "indices": [
+          82,
+          93
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/Y0LV3gSAN4",
+        "expanded_url": "https://www.meetup.com/gdgmadison/events/254581634/",
+        "display_url": "meetup.com/gdgmadison/eve…",
+        "indices": [
+          95,
+          118
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 202376085,
+    "id_str": "202376085",
+    "name": "Pearl Latteier",
+    "screen_name": "pblatteier",
+    "location": "Madison, WI",
+    "description": "Senior developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead.",
+    "url": "https://t.co/rDYQj6hdWQ",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/rDYQj6hdWQ",
+            "expanded_url": "https://pearlbea.com/",
+            "display_url": "pearlbea.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 806,
+    "friends_count": 543,
+    "listed_count": 33,
+    "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+    "favourites_count": 1920,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 713,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1535673161",
+    "profile_link_color": "B00020",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 19,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

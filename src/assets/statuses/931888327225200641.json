@@ -1,0 +1,203 @@
+{
+  "created_at": "Sat Nov 18 14:14:25 +0000 2017",
+  "id": 931888327225200600,
+  "id_str": "931888327225200641",
+  "full_text": "@pblatteier &amp; @abraham acting natural while delivering the keynote at #OhioDevFest17! https://t.co/BTuWYQnV21",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    89
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "OhioDevFest17",
+        "indices": [
+          74,
+          88
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          0,
+          11
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          18,
+          26
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 931888316299010000,
+        "id_str": "931888316299010048",
+        "indices": [
+          90,
+          113
+        ],
+        "media_url": "http://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
+        "url": "https://t.co/BTuWYQnV21",
+        "display_url": "pic.twitter.com/BTuWYQnV21",
+        "expanded_url": "https://twitter.com/powerje/status/931888327225200641/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 931888316299010000,
+        "id_str": "931888316299010048",
+        "indices": [
+          90,
+          113
+        ],
+        "media_url": "http://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
+        "url": "https://t.co/BTuWYQnV21",
+        "display_url": "pic.twitter.com/BTuWYQnV21",
+        "expanded_url": "https://twitter.com/powerje/status/931888327225200641/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 202376085,
+  "in_reply_to_user_id_str": "202376085",
+  "in_reply_to_screen_name": "pblatteier",
+  "user": {
+    "id": 41591399,
+    "id_str": "41591399",
+    "name": "James Power",
+    "screen_name": "powerje",
+    "location": "Columbus, OH",
+    "description": "Ozappa, @DuetHealth / @MedDataInc, Columbus GDG co-organizer, iOS developer, Android user. Former US Army medic, now too out of shape to carry an aid bag.",
+    "url": "https://t.co/ekQHBRFaGH",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ekQHBRFaGH",
+            "expanded_url": "http://lepoer.us",
+            "display_url": "lepoer.us",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 977,
+    "friends_count": 3796,
+    "listed_count": 39,
+    "created_at": "Thu May 21 14:03:17 +0000 2009",
+    "favourites_count": 191548,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 10278,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/224740617/2647_755083404765_12426274_47284119_6573604_n_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/224740617/2647_755083404765_12426274_47284119_6573604_n_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/41591399/1360419133",
+    "profile_link_color": "2FC2EF",
+    "profile_sidebar_border_color": "181A1E",
+    "profile_sidebar_fill_color": "252429",
+    "profile_text_color": "666666",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 9,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,203 @@
+{
+  "created_at": "Sat Oct 01 14:26:02 +0000 2016",
+  "id": 782225060568465400,
+  "id_str": "782225060568465408",
+  "full_text": "\"We want maintainable code, code that is one place, is clear and is easy to maintain.\" @pblatteier &amp; @abraham on Web Components #MadisonPHP https://t.co/hwoiCxmXLG",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    143
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "MadisonPHP",
+        "indices": [
+          132,
+          143
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          87,
+          98
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          105,
+          113
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 782224563866329100,
+        "id_str": "782224563866329088",
+        "indices": [
+          144,
+          167
+        ],
+        "media_url": "http://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
+        "url": "https://t.co/hwoiCxmXLG",
+        "display_url": "pic.twitter.com/hwoiCxmXLG",
+        "expanded_url": "https://twitter.com/andreaincode/status/782225060568465408/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1000,
+            "h": 556,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 378,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1000,
+            "h": 556,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 782224563866329100,
+        "id_str": "782224563866329088",
+        "indices": [
+          144,
+          167
+        ],
+        "media_url": "http://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
+        "url": "https://t.co/hwoiCxmXLG",
+        "display_url": "pic.twitter.com/hwoiCxmXLG",
+        "expanded_url": "https://twitter.com/andreaincode/status/782225060568465408/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 1000,
+            "h": 556,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 378,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1000,
+            "h": 556,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 6093212,
+    "id_str": "6093212",
+    "name": "Andrea Roenning",
+    "screen_name": "andreaincode",
+    "location": "Madison, WI",
+    "description": "Wisconsin web nerd. Formerly known as Andrea Wetzel.",
+    "url": "https://t.co/FdIAFhNY8q",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/FdIAFhNY8q",
+            "expanded_url": "http://www.andrearoenning.com",
+            "display_url": "andrearoenning.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 343,
+    "friends_count": 897,
+    "listed_count": 18,
+    "created_at": "Thu May 17 00:08:55 +0000 2007",
+    "favourites_count": 2791,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 1089,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "333333",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/792369887851053060/q3KYe2Nm_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/792369887851053060/q3KYe2Nm_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/6093212/1443731791",
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "DCF3FF",
+    "profile_sidebar_fill_color": "DCF3FF",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

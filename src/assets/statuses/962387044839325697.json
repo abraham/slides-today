@@ -1,0 +1,231 @@
+{
+  "created_at": "Sat Feb 10 18:05:26 +0000 2018",
+  "id": 962387044839325700,
+  "id_str": "962387044839325697",
+  "full_text": "Kicking off \"Wicked Fast ⚡ Mobile Web\" with @pblatteier and @abraham at #DevFestMN!! #DevFest18 #GDE #PWA #MobileWeb https://t.co/kfKjstZHBC",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    116
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestMN",
+        "indices": [
+          72,
+          82
+        ]
+      },
+      {
+        "text": "DevFest18",
+        "indices": [
+          85,
+          95
+        ]
+      },
+      {
+        "text": "GDE",
+        "indices": [
+          96,
+          100
+        ]
+      },
+      {
+        "text": "PWA",
+        "indices": [
+          101,
+          105
+        ]
+      },
+      {
+        "text": "MobileWeb",
+        "indices": [
+          106,
+          116
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          44,
+          55
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          60,
+          68
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 962387027348959200,
+        "id_str": "962387027348959232",
+        "indices": [
+          117,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
+        "url": "https://t.co/kfKjstZHBC",
+        "display_url": "pic.twitter.com/kfKjstZHBC",
+        "expanded_url": "https://twitter.com/kpaul86/status/962387044839325697/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 962387027348959200,
+        "id_str": "962387027348959232",
+        "indices": [
+          117,
+          140
+        ],
+        "media_url": "http://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
+        "url": "https://t.co/kfKjstZHBC",
+        "display_url": "pic.twitter.com/kfKjstZHBC",
+        "expanded_url": "https://twitter.com/kpaul86/status/962387044839325697/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 141054465,
+    "id_str": "141054465",
+    "name": "Kyle Paul",
+    "screen_name": "_KylePaul",
+    "location": "Mountain View, CA",
+    "description": "North America Regional Lead, Developer Ecosystems @Google.\n\nFan of #DevCommunities #Firebase #Angular #AoG #GDG #WTM\n\nThe views/opinions stated here are my own",
+    "url": "https://t.co/rrksCu58eC",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/rrksCu58eC",
+            "expanded_url": "https://developers.google.com/programs/",
+            "display_url": "developers.google.com/programs/",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 524,
+    "friends_count": 481,
+    "listed_count": 76,
+    "created_at": "Fri May 07 02:25:54 +0000 2010",
+    "favourites_count": 3718,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 2954,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "131516",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1019604973301055490/TuzRo1LD_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1019604973301055490/TuzRo1LD_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/141054465/1536516710",
+    "profile_link_color": "009999",
+    "profile_sidebar_border_color": "EEEEEE",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 7,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

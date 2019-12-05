@@ -1,0 +1,245 @@
+{
+  "created_at": "Thu Dec 05 06:45:00 +0000 2019",
+  "id": 1202478963869675500,
+  "id_str": "1202478963869675520",
+  "full_text": "Thx for the presentations @DeborahKurata and @abraham ! I especially enjoyed learning about streams and PWAs! Also, the cookies were really good too. 👏👏👏👏 https://t.co/cxxVKagNvA",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    154
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "DeborahKurata",
+        "name": "Deborah Kurata",
+        "id": 802671878,
+        "id_str": "802671878",
+        "indices": [
+          26,
+          40
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          45,
+          53
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1202478950204633000,
+        "id_str": "1202478950204633089",
+        "indices": [
+          155,
+          178
+        ],
+        "media_url": "http://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
+        "url": "https://t.co/cxxVKagNvA",
+        "display_url": "pic.twitter.com/cxxVKagNvA",
+        "expanded_url": "https://twitter.com/LydsRaw/status/1202478963869675520/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1202478950204633000,
+        "id_str": "1202478950204633089",
+        "indices": [
+          155,
+          178
+        ],
+        "media_url": "http://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
+        "url": "https://t.co/cxxVKagNvA",
+        "display_url": "pic.twitter.com/cxxVKagNvA",
+        "expanded_url": "https://twitter.com/LydsRaw/status/1202478963869675520/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1189686100236701700,
+    "id_str": "1189686100236701696",
+    "name": "Lyds.Raw",
+    "screen_name": "LydsRaw",
+    "location": "",
+    "description": "I like words",
+    "url": "https://t.co/7pMEU7Q2bC",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/7pMEU7Q2bC",
+            "expanded_url": "http://codingchapter.com",
+            "display_url": "codingchapter.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 8,
+    "friends_count": 45,
+    "listed_count": 0,
+    "created_at": "Wed Oct 30 23:31:39 +0000 2019",
+    "favourites_count": 118,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 118,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1190508644238016517/HofDK7Ti_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1190508644238016517/HofDK7Ti_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1189686100236701696/1575329934",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": true,
+    "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 1,
+  "favorite_count": 7,
+  "favorited": true,
+  "retweeted": true,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,142 @@
+{
+  "created_at": "Thu Jun 06 15:22:26 +0000 2019",
+  "id": 1136654589439152100,
+  "id_str": "1136654589439152130",
+  "full_text": "Had so much fun yesterday running the @FlutterDev workshop at @refactrtech with @pblatteier. Our slides are online at https://t.co/zSHunPYTN0 #refactrtech",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    154
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "refactrtech",
+        "indices": [
+          142,
+          154
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "FlutterDev",
+        "name": "Flutter",
+        "id": 420730316,
+        "id_str": "420730316",
+        "indices": [
+          38,
+          49
+        ]
+      },
+      {
+        "screen_name": "RefactrTech",
+        "name": "REFACTR.TECH",
+        "id": 824430116281450500,
+        "id_str": "824430116281450496",
+        "indices": [
+          62,
+          74
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          80,
+          91
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/zSHunPYTN0",
+        "expanded_url": "https://slides.today/decks/-LWX8wc1lU2-uNoK785K",
+        "display_url": "slides.today/decks/-LWX8wc1…",
+        "indices": [
+          118,
+          141
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/xkQ8kgmapt",
+            "expanded_url": "https://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              100,
+              123
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 9086,
+    "friends_count": 930,
+    "listed_count": 612,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 30698,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 50308,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 13,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

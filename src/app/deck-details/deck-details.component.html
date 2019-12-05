@@ -67,7 +67,7 @@
             <node-package class="item" [attr.name]="name"></node-package>
           </ng-template>
 
-          <ng-template ngFor let-status [ngForOf]="deck.tweets">
+          <ng-template ngFor let-status [ngForOf]="deck.tweets | async">
             <twitter-status class="item" [status]="status"></twitter-status>
           </ng-template>
 

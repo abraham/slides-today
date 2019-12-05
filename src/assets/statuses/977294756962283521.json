@@ -1,0 +1,205 @@
+{
+  "created_at": "Fri Mar 23 21:23:21 +0000 2018",
+  "id": 977294756962283500,
+  "id_str": "977294756962283521",
+  "full_text": "Learning how to make web apps wicked fast on mobile from @pblatteier &amp; @abraham at @Jazz_Con⚡tl;dr: less code === more fast! https://t.co/ATYxwonHh2",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    128
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          57,
+          68
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          75,
+          83
+        ]
+      },
+      {
+        "screen_name": "Jazz_Con",
+        "name": "JazzCon.Tech",
+        "id": 791361411289145300,
+        "id_str": "791361411289145344",
+        "indices": [
+          87,
+          96
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 977294734652772400,
+        "id_str": "977294734652772352",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+        "url": "https://t.co/ATYxwonHh2",
+        "display_url": "pic.twitter.com/ATYxwonHh2",
+        "expanded_url": "https://twitter.com/AnjanaVakil/status/977294756962283521/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 977294734652772400,
+        "id_str": "977294734652772352",
+        "indices": [
+          129,
+          152
+        ],
+        "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
+        "url": "https://t.co/ATYxwonHh2",
+        "display_url": "pic.twitter.com/ATYxwonHh2",
+        "expanded_url": "https://twitter.com/AnjanaVakil/status/977294756962283521/photo/1",
+        "type": "photo",
+        "sizes": {
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 3999382594,
+    "id_str": "3999382594",
+    "name": "Anjana @NodeConfAR 🇦🇷",
+    "screen_name": "AnjanaVakil",
+    "location": "San Francisco, CA",
+    "description": "Wanderer and wonderer.\nEngineering + Learning at @Mapbox.\n@Mozilla TechSpeaker.\nAlumna of @Outreachy, @RecurseCenter, @Uni_Saarland, & @UCBerkeley.",
+    "url": "https://t.co/1TAxxiYIX9",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/1TAxxiYIX9",
+            "expanded_url": "http://vakila.github.io",
+            "display_url": "vakila.github.io",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 13746,
+    "friends_count": 504,
+    "listed_count": 239,
+    "created_at": "Tue Oct 20 04:03:13 +0000 2015",
+    "favourites_count": 1829,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 1101,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3999382594/1457539458",
+    "profile_link_color": "19CF86",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 1,
+  "favorite_count": 25,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

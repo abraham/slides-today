@@ -1,0 +1,225 @@
+{
+  "created_at": "Fri Jan 18 19:30:47 +0000 2019",
+  "id": 1086345173624328200,
+  "id_str": "1086345173624328193",
+  "full_text": "Super excited to be giving an intro to @flutterio at @devfestmn with @pblatteier next month!\n\nhttps://t.co/srkGfgENu6 https://t.co/DieA3oGyrW",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    117
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "flutterio",
+        "name": "Flutter",
+        "id": 420730316,
+        "id_str": "420730316",
+        "indices": [
+          39,
+          49
+        ]
+      },
+      {
+        "screen_name": "devfestmn",
+        "name": "DevFestMN",
+        "id": 2290467152,
+        "id_str": "2290467152",
+        "indices": [
+          53,
+          63
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          69,
+          80
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/srkGfgENu6",
+        "expanded_url": "https://devfest.mn/",
+        "display_url": "devfest.mn",
+        "indices": [
+          94,
+          117
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1086345135233744900,
+        "id_str": "1086345135233744896",
+        "indices": [
+          118,
+          141
+        ],
+        "media_url": "http://pbs.twimg.com/media/DxN5JREUwAAvqy8.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DxN5JREUwAAvqy8.jpg",
+        "url": "https://t.co/DieA3oGyrW",
+        "display_url": "pic.twitter.com/DieA3oGyrW",
+        "expanded_url": "https://twitter.com/abraham/status/1086345173624328193/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 450,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1356,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 795,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1086345135233744900,
+        "id_str": "1086345135233744896",
+        "indices": [
+          118,
+          141
+        ],
+        "media_url": "http://pbs.twimg.com/media/DxN5JREUwAAvqy8.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DxN5JREUwAAvqy8.jpg",
+        "url": "https://t.co/DieA3oGyrW",
+        "display_url": "pic.twitter.com/DieA3oGyrW",
+        "expanded_url": "https://twitter.com/abraham/status/1086345173624328193/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 450,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1356,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 795,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
+    "url": "https://t.co/ck29y8mOBT",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ck29y8mOBT",
+            "expanded_url": "https://abrah.am/",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/xkQ8kgmapt",
+            "expanded_url": "https://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              109,
+              132
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 8998,
+    "friends_count": 764,
+    "listed_count": 604,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 25757,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 48758,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

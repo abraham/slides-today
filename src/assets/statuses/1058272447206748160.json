@@ -1,0 +1,220 @@
+{
+  "created_at": "Fri Nov 02 08:19:47 +0000 2018",
+  "id": 1058272447206748200,
+  "id_str": "1058272447206748160",
+  "full_text": "I’m so happy to attend the session of my #pwa soulmates @pblatteier @abraham expaining internals of #serviceworker at @mobileeraconf! https://t.co/raNfsj1CFG",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    133
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "pwa",
+        "indices": [
+          41,
+          45
+        ]
+      },
+      {
+        "text": "serviceworker",
+        "indices": [
+          100,
+          114
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          56,
+          67
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          68,
+          76
+        ]
+      },
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          118,
+          132
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 1058272431406608400,
+        "id_str": "1058272431406608384",
+        "indices": [
+          134,
+          157
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
+        "url": "https://t.co/raNfsj1CFG",
+        "display_url": "pic.twitter.com/raNfsj1CFG",
+        "expanded_url": "https://twitter.com/webmaxru/status/1058272447206748160/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1058272431406608400,
+        "id_str": "1058272431406608384",
+        "indices": [
+          134,
+          157
+        ],
+        "media_url": "http://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
+        "url": "https://t.co/raNfsj1CFG",
+        "display_url": "pic.twitter.com/raNfsj1CFG",
+        "expanded_url": "https://twitter.com/webmaxru/status/1058272447206748160/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 52327702,
+    "id_str": "52327702",
+    "name": "Maxim «PWAdvocate» Salnikov",
+    "screen_name": "webmaxru",
+    "location": "Oslo, Norway",
+    "description": "@Google Dev Expert, @Microsoft MVP. Organizer of @ngVikingsConf, @mobileeraconf, @MobileOslo, @AngularOslo. Invite me to speak about @angular, #PWA, #Identity",
+    "url": "https://t.co/GFMucQBBsf",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/GFMucQBBsf",
+            "expanded_url": "https://medium.com/@webmaxru",
+            "display_url": "medium.com/@webmaxru",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 4027,
+    "friends_count": 1420,
+    "listed_count": 128,
+    "created_at": "Tue Jun 30 06:44:47 +0000 2009",
+    "favourites_count": 6951,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 1211,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1044986536461324295/Is1ZEnZJ_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1044986536461324295/Is1ZEnZJ_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/52327702/1481659924",
+    "profile_link_color": "003E92",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 7,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import { Link } from './link';
 import { Resource } from './resource';
-import tweetsData from './tweets.data.json';
+import { Status } from 'twitter-d';
 
 export class Deck {
   archived: boolean;
@@ -16,8 +16,9 @@ export class Deck {
   speakerIds: string[];
   sponsorIds: string[];
   title: string;
-  tweets: object[];
+  tweetIds: string[];
 
+  private _cachedTweets? : Promise<Status[]>;
   private _tags: string[];
   private _date: {
     start: dayjs.Dayjs;
@@ -42,7 +43,15 @@ export class Deck {
     this.sponsorIds = data.sponsorIds;
     this.tags = data.tags;
     this.title = data.title;
-    this.tweets = data.tweetIds.map((id: string) => tweetsData[id]);
+    this.tweetIds = data.tweetIds;
+  }
+
+  public get tweets(): Promise<Status[]> {
+    if (this._cachedTweets) {
+      return this._cachedTweets;
+    }
+    this._cachedTweets = Promise.all(this.tweetIds.map(this.getStatus));
+    return this._cachedTweets;
   }
 
   public get date(): string {
@@ -68,5 +77,10 @@ export class Deck {
     return this.links.concat(this.resources)
       .filter(link => link.useAsTag)
       .map(link => link.title.toLowerCase());
+  }
+
+  private async getStatus(id: string): Promise<Status> {
+    const request = await fetch(`/assets/statuses/${id}.json`);
+    return await request.json();
   }
 }

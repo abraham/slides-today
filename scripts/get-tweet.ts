@@ -2,9 +2,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import Twit from 'twit';
 import twitterCredentials from '../.twitter.json';
-import allTweets from '../src/app/tweets.data.json';
 
-const dataFilePath = path.resolve('./src/app/tweets.data.json');
+const filePath = (id: string) => path.resolve(`./src/assets/statuses/${id}.json`);
 const id = process.argv[2];
 const client = new Twit({ ...twitterCredentials, strictSSL: true });
 const showParams = { id: id, tweet_mode: 'extended', include_entities: true };
@@ -14,9 +13,8 @@ if (id) {
 
   client.get('statuses/show', showParams, (error, tweet, _response) => {
     if (error) { console.log('ERROR', error); }
-    (allTweets as { [index: string]: any })[id] = tweet;
-    fs.writeFileSync(dataFilePath, JSON.stringify(allTweets, null, 2));
-    console.log('Updated tweets.data.json');
+    fs.writeFileSync(filePath(id), JSON.stringify(tweet, null, 2));
+    console.log(`Updated ${filePath(id)}`);
   });
 } else {
   console.log('ID required');

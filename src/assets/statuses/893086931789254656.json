@@ -1,0 +1,113 @@
+{
+  "created_at": "Thu Aug 03 12:31:31 +0000 2017",
+  "id": 893086931789254700,
+  "id_str": "893086931789254656",
+  "full_text": "Join us Tuesday as @abraham and @pblatteier discuss Web Components: Lego Bricks of the Web https://t.co/Dr9M9ZF7EG",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    114
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          19,
+          27
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          32,
+          43
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/Dr9M9ZF7EG",
+        "expanded_url": "https://www.meetup.com/Rockford-Web-Devs/events/238442439/",
+        "display_url": "meetup.com/Rockford-Web-D…",
+        "indices": [
+          91,
+          114
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4104273013,
+    "id_str": "4104273013",
+    "name": "Rockford Web Devs",
+    "screen_name": "rkfdweb",
+    "location": "",
+    "description": "",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 70,
+    "friends_count": 133,
+    "listed_count": 9,
+    "created_at": "Mon Nov 02 17:50:48 +0000 2015",
+    "favourites_count": 44,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 259,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "C0DEED",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/661239657921835008/OBtH4ziT_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/661239657921835008/OBtH4ziT_normal.png",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 6,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

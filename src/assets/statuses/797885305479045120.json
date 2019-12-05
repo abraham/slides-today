@@ -1,0 +1,228 @@
+{
+  "created_at": "Sun Nov 13 19:34:15 +0000 2016",
+  "id": 797885305479045100,
+  "id_str": "797885305479045120",
+  "full_text": "@polymer @gdgsv - as easy as using Lego :) what's not to like? https://t.co/wnFs0gabUS",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    62
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "polymer",
+        "name": "Polymer",
+        "id": 1425993918,
+        "id_str": "1425993918",
+        "indices": [
+          0,
+          8
+        ]
+      },
+      {
+        "screen_name": "gdgsv",
+        "name": "GDG Silicon Valley",
+        "id": 17302763,
+        "id_str": "17302763",
+        "indices": [
+          9,
+          15
+        ]
+      }
+    ],
+    "urls": [],
+    "media": [
+      {
+        "id": 797885292115963900,
+        "id_str": "797885292115963904",
+        "indices": [
+          63,
+          86
+        ],
+        "media_url": "http://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
+        "url": "https://t.co/wnFs0gabUS",
+        "display_url": "pic.twitter.com/wnFs0gabUS",
+        "expanded_url": "https://twitter.com/denladeside/status/797885305479045120/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 797885292115963900,
+        "id_str": "797885292115963904",
+        "indices": [
+          63,
+          86
+        ],
+        "media_url": "http://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
+        "url": "https://t.co/wnFs0gabUS",
+        "display_url": "pic.twitter.com/wnFs0gabUS",
+        "expanded_url": "https://twitter.com/denladeside/status/797885305479045120/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1536,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 1200,
+            "h": 900,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": 1425993918,
+  "in_reply_to_user_id_str": "1425993918",
+  "in_reply_to_screen_name": "polymer",
+  "user": {
+    "id": 28761366,
+    "id_str": "28761366",
+    "name": "Lars Knudsen  🇩🇰",
+    "screen_name": "denladeside",
+    "location": "Denmark",
+    "description": "Google Dev Expert, love working outside the box, combining music, graphics, games and mobile software development however I want to",
+    "url": "https://t.co/72ABuDR3Ge",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/72ABuDR3Ge",
+            "expanded_url": "http://blog.dothisathome.com",
+            "display_url": "blog.dothisathome.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 816,
+    "friends_count": 1081,
+    "listed_count": 16,
+    "created_at": "Sat Apr 04 07:57:34 +0000 2009",
+    "favourites_count": 6369,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 3855,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/906772055512805376/G6OOSRbn_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/906772055512805376/G6OOSRbn_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/28761366/1495037896",
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "b19a2cc5134b7e0a",
+    "url": "https://api.twitter.com/1.1/geo/id/b19a2cc5134b7e0a.json",
+    "place_type": "city",
+    "name": "Mountain View",
+    "full_name": "Mountain View, CA",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -122.117916,
+            37.3567709
+          ],
+          [
+            -122.044969,
+            37.3567709
+          ],
+          [
+            -122.044969,
+            37.436935
+          ],
+          [
+            -122.117916,
+            37.436935
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 5,
+  "favorite_count": 8,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

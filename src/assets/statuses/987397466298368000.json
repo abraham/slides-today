@@ -1,0 +1,218 @@
+{
+  "created_at": "Fri Apr 20 18:27:55 +0000 2018",
+  "id": 987397466298368000,
+  "id_str": "987397466298368000",
+  "full_text": "Had a blast this year. Hope to attend with @pblatteier again! https://t.co/LnMApx3ZEh",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    61
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          43,
+          54
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/LnMApx3ZEh",
+        "expanded_url": "https://twitter.com/railsconf/status/987074473806516225",
+        "display_url": "twitter.com/railsconf/stat…",
+        "indices": [
+          62,
+          85
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+    "url": "https://t.co/ck29y8mOBT",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ck29y8mOBT",
+            "expanded_url": "https://abrah.am/",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 8877,
+    "friends_count": 641,
+    "listed_count": 584,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 23050,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 47910,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": true,
+  "quoted_status_id": 987074473806516200,
+  "quoted_status_id_str": "987074473806516225",
+  "quoted_status_permalink": {
+    "url": "https://t.co/LnMApx3ZEh",
+    "expanded": "https://twitter.com/railsconf/status/987074473806516225",
+    "display": "twitter.com/railsconf/stat…"
+  },
+  "quoted_status": {
+    "created_at": "Thu Apr 19 21:04:28 +0000 2018",
+    "id": 987074473806516200,
+    "id_str": "987074473806516225",
+    "full_text": "Next year’s RailsConf will be in beautiful Minneapolis, from April 30-May 2, 2019!",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      82
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 5493662,
+      "id_str": "5493662",
+      "name": "RailsConf",
+      "screen_name": "railsconf",
+      "location": "Pittsburgh, PA",
+      "description": "Join us for RailsConf 2018, this year in Pittsburgh from April 17-19!",
+      "url": "https://t.co/VAMeLRYWbl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/VAMeLRYWbl",
+              "expanded_url": "http://railsconf.com",
+              "display_url": "railsconf.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 21886,
+      "friends_count": 2686,
+      "listed_count": 1002,
+      "created_at": "Wed Apr 25 10:27:29 +0000 2007",
+      "favourites_count": 62,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 2611,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "8F2128",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/5493662/1513099900",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "545553",
+      "profile_sidebar_fill_color": "AC7979",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 72,
+    "favorite_count": 218,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

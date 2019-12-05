@@ -1,0 +1,225 @@
+{
+  "created_at": "Mon Jan 28 21:19:01 +0000 2019",
+  "id": 1089996290514186200,
+  "id_str": "1089996290514186243",
+  "full_text": "In case you missed @SFHTML5 last week, @flttry and @abraham gave Flutter talks for web developers!\n\nCheck out the recordings here 👉 https://t.co/Qpbrdh6Wqk https://t.co/B8vEFnxlpO",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    155
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "sfhtml5",
+        "name": "San Francisco HTML5",
+        "id": 275405363,
+        "id_str": "275405363",
+        "indices": [
+          19,
+          27
+        ]
+      },
+      {
+        "screen_name": "flttry",
+        "name": "Fluttery",
+        "id": 967738500408684500,
+        "id_str": "967738500408684544",
+        "indices": [
+          39,
+          46
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          51,
+          59
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/Qpbrdh6Wqk",
+        "expanded_url": "http://bit.ly/2G7zyRC",
+        "display_url": "bit.ly/2G7zyRC",
+        "indices": [
+          132,
+          155
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1089996288874213400,
+        "id_str": "1089996288874213376",
+        "indices": [
+          156,
+          179
+        ],
+        "media_url": "http://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
+        "url": "https://t.co/B8vEFnxlpO",
+        "display_url": "pic.twitter.com/B8vEFnxlpO",
+        "expanded_url": "https://twitter.com/flutterio/status/1089996290514186243/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 454,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 683,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 683,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1089996288874213400,
+        "id_str": "1089996288874213376",
+        "indices": [
+          156,
+          179
+        ],
+        "media_url": "http://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
+        "url": "https://t.co/B8vEFnxlpO",
+        "display_url": "pic.twitter.com/B8vEFnxlpO",
+        "expanded_url": "https://twitter.com/flutterio/status/1089996290514186243/photo/1",
+        "type": "photo",
+        "sizes": {
+          "small": {
+            "w": 680,
+            "h": 454,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 683,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 683,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 420730316,
+    "id_str": "420730316",
+    "name": "Flutter",
+    "screen_name": "flutterio",
+    "location": "",
+    "description": "Google’s mobile app SDK for building beautiful native apps on iOS and Android in record time // For support visit https://t.co/Ms73ODjNfY",
+    "url": "https://t.co/NIp3P5os0L",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/NIp3P5os0L",
+            "expanded_url": "http://flutter.io",
+            "display_url": "flutter.io",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/Ms73ODjNfY",
+            "expanded_url": "http://stackoverflow.com/tags/flutter",
+            "display_url": "stackoverflow.com/tags/flutter",
+            "indices": [
+              114,
+              137
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 34497,
+    "friends_count": 28,
+    "listed_count": 384,
+    "created_at": "Fri Nov 25 01:07:12 +0000 2011",
+    "favourites_count": 538,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": true,
+    "statuses_count": 671,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/760249570085314560/yCrkrbl3_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/760249570085314560/yCrkrbl3_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/420730316/1545345014",
+    "profile_link_color": "29B6F6",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 6,
+  "favorite_count": 7,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

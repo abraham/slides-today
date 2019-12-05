@@ -1,0 +1,145 @@
+{
+  "created_at": "Tue Oct 23 07:08:28 +0000 2018",
+  "id": 1054630620435951600,
+  "id_str": "1054630620435951618",
+  "full_text": "WORKSHOP Get Flapping with Flutter with @abraham &amp; @pblatteier. #Flutter is tool from Google for creating native apps for iOS &amp; Android. You'll leave with a fully functional app that you can use as a starting point for your own creations Join us More info: https://t.co/sMJ1E9oo2N",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    288
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Flutter",
+        "indices": [
+          68,
+          76
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          40,
+          48
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          55,
+          66
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/sMJ1E9oo2N",
+        "expanded_url": "https://ti.to/mobile-era/flutter-workshop",
+        "display_url": "ti.to/mobile-era/flu…",
+        "indices": [
+          265,
+          288
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4179545055,
+    "id_str": "4179545055",
+    "name": "Mobile Era 🇳🇴 Nov 1-2",
+    "screen_name": "mobileeraconf",
+    "location": "Oslo, Norway",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. November 1-2 2018, Oslo, Norway. Speakers announced: https://t.co/Eh8vtYiGXW",
+    "url": "https://t.co/xKYD24G0Ys",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/xKYD24G0Ys",
+            "expanded_url": "http://mobileera.rocks",
+            "display_url": "mobileera.rocks",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/Eh8vtYiGXW",
+            "expanded_url": "http://mobileera.rocks/speakers/",
+            "display_url": "mobileera.rocks/speakers/",
+            "indices": [
+              113,
+              136
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 577,
+    "friends_count": 264,
+    "listed_count": 29,
+    "created_at": "Fri Nov 13 15:21:31 +0000 2015",
+    "favourites_count": 1229,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 1080,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/795032686767304704/VczLo6l2_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/4179545055/1530016851",
+    "profile_link_color": "2956A3",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 5,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

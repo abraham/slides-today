@@ -1,0 +1,264 @@
+{
+  "created_at": "Wed Mar 14 23:33:44 +0000 2018",
+  "id": 974066074256777200,
+  "id_str": "974066074256777216",
+  "full_text": "Interested in making your web #fast⚡? Don't be terrified, come to @Jazz_Con where @ericastanley, @raymondcamden, @macdonst, @pblatteier, and I will be talking about #PWAs, #ServiceWorkers, and #perfmatters! https://t.co/1fJgPD5ARj https://t.co/nlhzJlPUa8",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    230
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "fast",
+        "indices": [
+          30,
+          35
+        ]
+      },
+      {
+        "text": "PWAs",
+        "indices": [
+          165,
+          170
+        ]
+      },
+      {
+        "text": "ServiceWorkers",
+        "indices": [
+          172,
+          187
+        ]
+      },
+      {
+        "text": "perfmatters",
+        "indices": [
+          193,
+          205
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "Jazz_Con",
+        "name": "JazzCon.Tech",
+        "id": 791361411289145300,
+        "id_str": "791361411289145344",
+        "indices": [
+          66,
+          75
+        ]
+      },
+      {
+        "screen_name": "ericastanley",
+        "name": "Erica Stanley",
+        "id": 42508332,
+        "id_str": "42508332",
+        "indices": [
+          82,
+          95
+        ]
+      },
+      {
+        "screen_name": "raymondcamden",
+        "name": "Raymond Camden @ Hire Me!",
+        "id": 7021362,
+        "id_str": "7021362",
+        "indices": [
+          97,
+          111
+        ]
+      },
+      {
+        "screen_name": "macdonst",
+        "name": "Simon MacDonald",
+        "id": 847761,
+        "id_str": "847761",
+        "indices": [
+          113,
+          122
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          124,
+          135
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/1fJgPD5ARj",
+        "expanded_url": "http://jazzcon.tech/",
+        "display_url": "jazzcon.tech",
+        "indices": [
+          207,
+          230
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 974065982137253900,
+        "id_str": "974065982137253889",
+        "indices": [
+          231,
+          254
+        ],
+        "media_url": "http://pbs.twimg.com/media/DYST2ZUVQAEs4kt.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DYST2ZUVQAEs4kt.jpg",
+        "url": "https://t.co/nlhzJlPUa8",
+        "display_url": "pic.twitter.com/nlhzJlPUa8",
+        "expanded_url": "https://twitter.com/abraham/status/974066074256777216/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 800,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 453,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1365,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 974065982137253900,
+        "id_str": "974065982137253889",
+        "indices": [
+          231,
+          254
+        ],
+        "media_url": "http://pbs.twimg.com/media/DYST2ZUVQAEs4kt.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/DYST2ZUVQAEs4kt.jpg",
+        "url": "https://t.co/nlhzJlPUa8",
+        "display_url": "pic.twitter.com/nlhzJlPUa8",
+        "expanded_url": "https://twitter.com/abraham/status/974066074256777216/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1200,
+            "h": 800,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 453,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 2048,
+            "h": 1365,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+    "url": "https://t.co/ck29y8mOBT",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ck29y8mOBT",
+            "expanded_url": "https://abrah.am/",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 8877,
+    "friends_count": 641,
+    "listed_count": 584,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 23050,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 47910,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 18,
+  "favorite_count": 22,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

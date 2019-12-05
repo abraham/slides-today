@@ -1,0 +1,262 @@
+{
+  "created_at": "Fri Feb 02 18:39:52 +0000 2018",
+  "id": 959496608059621400,
+  "id_str": "959496608059621376",
+  "full_text": "We're officially two weeks away! Don't be the one that misses out on these rockstar speakers!! Grab your tickets before they're all gone! \nhttps://t.co/4xWy5ZTBIP\n#DevFestKC #DevFest18\n#Android #Kotlin #AndroidThings #Firebase #IoT #PWA #Diversity #Community #ARCore https://t.co/ipKSwUsDWu",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    266
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestKC",
+        "indices": [
+          163,
+          173
+        ]
+      },
+      {
+        "text": "DevFest18",
+        "indices": [
+          174,
+          184
+        ]
+      },
+      {
+        "text": "Android",
+        "indices": [
+          185,
+          193
+        ]
+      },
+      {
+        "text": "Kotlin",
+        "indices": [
+          194,
+          201
+        ]
+      },
+      {
+        "text": "AndroidThings",
+        "indices": [
+          202,
+          216
+        ]
+      },
+      {
+        "text": "Firebase",
+        "indices": [
+          217,
+          226
+        ]
+      },
+      {
+        "text": "IoT",
+        "indices": [
+          227,
+          231
+        ]
+      },
+      {
+        "text": "PWA",
+        "indices": [
+          232,
+          236
+        ]
+      },
+      {
+        "text": "Diversity",
+        "indices": [
+          237,
+          247
+        ]
+      },
+      {
+        "text": "Community",
+        "indices": [
+          248,
+          258
+        ]
+      },
+      {
+        "text": "ARCore",
+        "indices": [
+          259,
+          266
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/4xWy5ZTBIP",
+        "expanded_url": "https://devfestkc.com",
+        "display_url": "devfestkc.com",
+        "indices": [
+          139,
+          162
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 959494918203834400,
+        "id_str": "959494918203834376",
+        "indices": [
+          267,
+          290
+        ],
+        "media_url": "http://pbs.twimg.com/media/DVDPi2NVAAgnsoE.png",
+        "media_url_https": "https://pbs.twimg.com/media/DVDPi2NVAAgnsoE.png",
+        "url": "https://t.co/ipKSwUsDWu",
+        "display_url": "pic.twitter.com/ipKSwUsDWu",
+        "expanded_url": "https://twitter.com/devfestkc/status/959496608059621376/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 959494918203834400,
+        "id_str": "959494918203834376",
+        "indices": [
+          267,
+          290
+        ],
+        "media_url": "http://pbs.twimg.com/media/DVDPi2NVAAgnsoE.png",
+        "media_url_https": "https://pbs.twimg.com/media/DVDPi2NVAAgnsoE.png",
+        "url": "https://t.co/ipKSwUsDWu",
+        "display_url": "pic.twitter.com/ipKSwUsDWu",
+        "expanded_url": "https://twitter.com/devfestkc/status/959496608059621376/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4894485559,
+    "id_str": "4894485559",
+    "name": "DevFest KC",
+    "screen_name": "devfestkc",
+    "location": "Kansas City, MO",
+    "description": "#DevFestKC is a 100% community organized developer conference with exciting topics! #mobile #webdev #cloud #vr #machinelearning",
+    "url": "https://t.co/lPp52fH9HW",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/lPp52fH9HW",
+            "expanded_url": "https://devfestkc.com",
+            "display_url": "devfestkc.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 73,
+    "friends_count": 27,
+    "listed_count": 2,
+    "created_at": "Thu Feb 11 22:07:21 +0000 2016",
+    "favourites_count": 209,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 184,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/911391892855754752/rsChCGW4_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/911391892855754752/rsChCGW4_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/4894485559/1516034485",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 15,
+  "favorite_count": 21,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

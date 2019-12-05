@@ -1,0 +1,125 @@
+{
+  "created_at": "Wed May 09 19:01:34 +0000 2018",
+  "id": 994291303260176400,
+  "id_str": "994291303260176384",
+  "full_text": "Want to learn about all the fancy new things announced at @Google #io18? Come to our next meetup to find out.\n\nhttps://t.co/QzH4CGqpGL",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    134
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "io18",
+        "indices": [
+          66,
+          71
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "Google",
+        "name": "Google",
+        "id": 20536157,
+        "id_str": "20536157",
+        "indices": [
+          58,
+          65
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/QzH4CGqpGL",
+        "expanded_url": "https://www.meetup.com/gdgmadison/events/248749497/",
+        "display_url": "meetup.com/gdgmadison/eve…",
+        "indices": [
+          111,
+          134
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 60940193,
+    "id_str": "60940193",
+    "name": "GDG Madison",
+    "screen_name": "gdgmadison",
+    "location": "Madison, WI",
+    "description": "Google Developer Group Madison",
+    "url": "https://t.co/jmpo3XZoV1",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/jmpo3XZoV1",
+            "expanded_url": "https://gdgmadison.com",
+            "display_url": "gdgmadison.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 116,
+    "friends_count": 49,
+    "listed_count": 12,
+    "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+    "favourites_count": 113,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 443,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 4,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,270 @@
+{
+  "created_at": "Thu Jan 18 01:02:37 +0000 2018",
+  "id": 953794723105378300,
+  "id_str": "953794723105378312",
+  "full_text": "We're only a month away! Schedule and Speakers are up! Make sure to grab your tickets before they're all gone! \nhttps://t.co/4xWy5ZTBIP \n#DevFestKC #DevFest18\n\n@theJamesCha @defragger @abraham @pblatteier @joel_karr @Technovangelist @pfue https://t.co/Sa8ugskGH1",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    238
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "DevFestKC",
+        "indices": [
+          137,
+          147
+        ]
+      },
+      {
+        "text": "DevFest18",
+        "indices": [
+          148,
+          158
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "theJamesCha",
+        "name": "James Cha",
+        "id": 199550479,
+        "id_str": "199550479",
+        "indices": [
+          160,
+          172
+        ]
+      },
+      {
+        "screen_name": "defragger",
+        "name": "Dan Baran",
+        "id": 19918370,
+        "id_str": "19918370",
+        "indices": [
+          173,
+          183
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          184,
+          192
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          193,
+          204
+        ]
+      },
+      {
+        "screen_name": "joel_karr",
+        "name": "Joel Karr",
+        "id": 101655370,
+        "id_str": "101655370",
+        "indices": [
+          205,
+          215
+        ]
+      },
+      {
+        "screen_name": "Technovangelist",
+        "name": "Matt Williams",
+        "id": 2449901,
+        "id_str": "2449901",
+        "indices": [
+          216,
+          232
+        ]
+      },
+      {
+        "screen_name": "pfue",
+        "name": "Patrick Fuentes",
+        "id": 44073328,
+        "id_str": "44073328",
+        "indices": [
+          233,
+          238
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/4xWy5ZTBIP",
+        "expanded_url": "https://devfestkc.com",
+        "display_url": "devfestkc.com",
+        "indices": [
+          112,
+          135
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 953792287410069500,
+        "id_str": "953792287410069504",
+        "indices": [
+          239,
+          262
+        ],
+        "media_url": "http://pbs.twimg.com/media/DTyNCDCVoAADsm4.png",
+        "media_url_https": "https://pbs.twimg.com/media/DTyNCDCVoAADsm4.png",
+        "url": "https://t.co/Sa8ugskGH1",
+        "display_url": "pic.twitter.com/Sa8ugskGH1",
+        "expanded_url": "https://twitter.com/devfestkc/status/953794723105378312/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 953792287410069500,
+        "id_str": "953792287410069504",
+        "indices": [
+          239,
+          262
+        ],
+        "media_url": "http://pbs.twimg.com/media/DTyNCDCVoAADsm4.png",
+        "media_url_https": "https://pbs.twimg.com/media/DTyNCDCVoAADsm4.png",
+        "url": "https://t.co/Sa8ugskGH1",
+        "display_url": "pic.twitter.com/Sa8ugskGH1",
+        "expanded_url": "https://twitter.com/devfestkc/status/953794723105378312/photo/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 768,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 510,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 4894485559,
+    "id_str": "4894485559",
+    "name": "DevFest KC",
+    "screen_name": "devfestkc",
+    "location": "Kansas City, MO",
+    "description": "#DevFestKC is a 100% community organized developer conference with exciting topics! #mobile #webdev #cloud #vr #machinelearning",
+    "url": "https://t.co/lPp52fH9HW",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/lPp52fH9HW",
+            "expanded_url": "https://devfestkc.com",
+            "display_url": "devfestkc.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 73,
+    "friends_count": 27,
+    "listed_count": 2,
+    "created_at": "Thu Feb 11 22:07:21 +0000 2016",
+    "favourites_count": 209,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 184,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/911391892855754752/rsChCGW4_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/911391892855754752/rsChCGW4_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/4894485559/1516034485",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 14,
+  "favorite_count": 27,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,127 @@
+{
+  "created_at": "Tue Jan 08 23:37:51 +0000 2019",
+  "id": 1082783473910382600,
+  "id_str": "1082783473910382592",
+  "full_text": "Our next event: It's a Wonderful Web! with @pblatteier and @abraham https://t.co/vnXv5KEETl",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    91
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          43,
+          54
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          59,
+          67
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/vnXv5KEETl",
+        "expanded_url": "https://www.meetup.com/gdgmadison/events/257115992/",
+        "display_url": "meetup.com/gdgmadison/eve…",
+        "indices": [
+          68,
+          91
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 60940193,
+    "id_str": "60940193",
+    "name": "GDG Madison",
+    "screen_name": "gdgmadison",
+    "location": "Madison, WI",
+    "description": "Google Developer Group Madison",
+    "url": "https://t.co/jmpo3XZoV1",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/jmpo3XZoV1",
+            "expanded_url": "https://gdgmadison.com",
+            "display_url": "gdgmadison.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 116,
+    "friends_count": 47,
+    "listed_count": 12,
+    "created_at": "Tue Jul 28 15:57:37 +0000 2009",
+    "favourites_count": 118,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 448,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/875809306473488384/I6QATdee_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/60940193/1426795386",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 6,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

@@ -1,0 +1,123 @@
+{
+  "created_at": "Thu Oct 05 11:33:24 +0000 2017",
+  "id": 915902741574189000,
+  "id_str": "915902741574189056",
+  "full_text": "\"You can give your (speech) AI agent a unmatched response\" - \"... a speech 404\" @abraham voice UIs at @mobileeraconf #MobileEra",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    127
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "MobileEra",
+        "indices": [
+          117,
+          127
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          80,
+          88
+        ]
+      },
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          102,
+          116
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 13368602,
+    "id_str": "13368602",
+    "name": "Johannes Brodwall",
+    "screen_name": "jhannes",
+    "location": "Oslo, Norway",
+    "description": "Programmer and provocateur. I want to help teams find their way together to more habitable code.",
+    "url": "http://t.co/JG5gZTRGP6",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "http://t.co/JG5gZTRGP6",
+            "expanded_url": "http://johannesbrodwall.com",
+            "display_url": "johannesbrodwall.com",
+            "indices": [
+              0,
+              22
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3521,
+    "friends_count": 397,
+    "listed_count": 141,
+    "created_at": "Mon Feb 11 23:45:53 +0000 2008",
+    "favourites_count": 1087,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 5031,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "9AE4E8",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/461372964252823553/ZbLzWtYH_normal.jpeg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/13368602/1398834947",
+    "profile_link_color": "1E1E26",
+    "profile_sidebar_border_color": "87BC44",
+    "profile_sidebar_fill_color": "E0FF92",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 3,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

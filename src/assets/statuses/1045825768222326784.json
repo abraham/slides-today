@@ -1,0 +1,326 @@
+{
+  "created_at": "Sat Sep 29 00:01:08 +0000 2018",
+  "id": 1045825768222326800,
+  "id_str": "1045825768222326784",
+  "full_text": "#Oslo #Norway @mobileeraconf : Get Flapping with Flutter with @abraham and @pblatteier\n😎 https://t.co/39aSEV9FwD",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    88
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Oslo",
+        "indices": [
+          0,
+          5
+        ]
+      },
+      {
+        "text": "Norway",
+        "indices": [
+          6,
+          13
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "mobileeraconf",
+        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "id": 4179545055,
+        "id_str": "4179545055",
+        "indices": [
+          14,
+          28
+        ]
+      },
+      {
+        "screen_name": "abraham",
+        "name": "Abraham Williams",
+        "id": 9436992,
+        "id_str": "9436992",
+        "indices": [
+          62,
+          70
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          75,
+          86
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/39aSEV9FwD",
+        "expanded_url": "https://twitter.com/pblatteier/status/1045785299543101440",
+        "display_url": "twitter.com/pblatteier/sta…",
+        "indices": [
+          89,
+          112
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 567162844,
+    "id_str": "567162844",
+    "name": "Nilay Yener",
+    "screen_name": "nlycskn",
+    "location": "",
+    "description": "💙 @flutterio\n@dart_lang #DevRel",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 3775,
+    "friends_count": 1027,
+    "listed_count": 142,
+    "created_at": "Mon Apr 30 11:42:46 +0000 2012",
+    "favourites_count": 10871,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 8243,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "A879A3",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1045523343539986433/Uv3nfQae_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1045523343539986433/Uv3nfQae_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1538348085",
+    "profile_link_color": "91D2FA",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "F2AD9D",
+    "profile_text_color": "9F4E79",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": {
+    "id": "352cf4e7314da0b4",
+    "url": "https://api.twitter.com/1.1/geo/id/352cf4e7314da0b4.json",
+    "place_type": "city",
+    "name": "Grapevine",
+    "full_name": "Grapevine, TX",
+    "country_code": "US",
+    "country": "United States",
+    "contained_within": [],
+    "bounding_box": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -97.129669,
+            32.8785707
+          ],
+          [
+            -97.029639,
+            32.8785707
+          ],
+          [
+            -97.029639,
+            32.985097
+          ],
+          [
+            -97.129669,
+            32.985097
+          ]
+        ]
+      ]
+    },
+    "attributes": {}
+  },
+  "contributors": null,
+  "is_quote_status": true,
+  "quoted_status_id": 1045785299543101400,
+  "quoted_status_id_str": "1045785299543101440",
+  "quoted_status_permalink": {
+    "url": "https://t.co/39aSEV9FwD",
+    "expanded": "https://twitter.com/pblatteier/status/1045785299543101440",
+    "display": "twitter.com/pblatteier/sta…"
+  },
+  "quoted_status": {
+    "created_at": "Fri Sep 28 21:20:19 +0000 2018",
+    "id": 1045785299543101400,
+    "id_str": "1045785299543101440",
+    "full_text": "Hey @nlycskn, @abraham and I are doing a @flutterio workshop at @mobileeraconf in November. You and Dash should join us!  https://t.co/AJRnLZZQHB",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      145
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "nlycskn",
+          "name": "Nilay Yener",
+          "id": 567162844,
+          "id_str": "567162844",
+          "indices": [
+            4,
+            12
+          ]
+        },
+        {
+          "screen_name": "abraham",
+          "name": "Abraham Williams",
+          "id": 9436992,
+          "id_str": "9436992",
+          "indices": [
+            14,
+            22
+          ]
+        },
+        {
+          "screen_name": "flutterio",
+          "name": "Flutter",
+          "id": 420730316,
+          "id_str": "420730316",
+          "indices": [
+            41,
+            51
+          ]
+        },
+        {
+          "screen_name": "mobileeraconf",
+          "name": "Mobile Era 🇳🇴 Nov 1-2",
+          "id": 4179545055,
+          "id_str": "4179545055",
+          "indices": [
+            64,
+            78
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/AJRnLZZQHB",
+          "expanded_url": "https://ti.to/mobile-era/flutter-workshop",
+          "display_url": "ti.to/mobile-era/flu…",
+          "indices": [
+            122,
+            145
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 202376085,
+      "id_str": "202376085",
+      "name": "Pearl Latteier",
+      "screen_name": "pblatteier",
+      "location": "Madison, WI",
+      "description": "Senior developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead.",
+      "url": "https://t.co/rDYQj6hdWQ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/rDYQj6hdWQ",
+              "expanded_url": "https://pearlbea.com/",
+              "display_url": "pearlbea.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 806,
+      "friends_count": 543,
+      "listed_count": 33,
+      "created_at": "Wed Oct 13 22:31:19 +0000 2010",
+      "favourites_count": 1920,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 713,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1022894033520091137/qSL26lwk_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/202376085/1535673161",
+      "profile_link_color": "B00020",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 19,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "retweet_count": 3,
+  "favorite_count": 11,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}

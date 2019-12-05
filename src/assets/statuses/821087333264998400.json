@@ -1,0 +1,149 @@
+{
+  "created_at": "Mon Jan 16 20:10:49 +0000 2017",
+  "id": 821087333264998400,
+  "id_str": "821087333264998400",
+  "full_text": "Looking forward to speaking at @GDGKansasCity with @pblatteier on #WebComponents, #PWAs and #ActionsOnGoogle. https://t.co/4flJ4rMIWg",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    133
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "WebComponents",
+        "indices": [
+          66,
+          80
+        ]
+      },
+      {
+        "text": "PWAs",
+        "indices": [
+          82,
+          87
+        ]
+      },
+      {
+        "text": "ActionsOnGoogle",
+        "indices": [
+          92,
+          108
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "GDGKansasCity",
+        "name": "GDG Kansas City",
+        "id": 858239083,
+        "id_str": "858239083",
+        "indices": [
+          31,
+          45
+        ]
+      },
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          51,
+          62
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/4flJ4rMIWg",
+        "expanded_url": "https://devfestkc.com/",
+        "display_url": "devfestkc.com",
+        "indices": [
+          110,
+          133
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 9436992,
+    "id_str": "9436992",
+    "name": "Abraham Williams",
+    "screen_name": "abraham",
+    "location": "Madison, WI",
+    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
+    "url": "https://t.co/ck29y8mOBT",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/ck29y8mOBT",
+            "expanded_url": "https://abrah.am/",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 8877,
+    "friends_count": 641,
+    "listed_count": 584,
+    "created_at": "Sun Oct 14 12:50:47 +0000 2007",
+    "favourites_count": 23050,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 47910,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "FFFFFF",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
+    "profile_link_color": "2196F3",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "FFFFFF",
+    "profile_text_color": "454545",
+    "profile_use_background_image": false,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 3,
+  "favorite_count": 9,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}
