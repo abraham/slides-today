@@ -6,11 +6,11 @@ import { DeckListComponent } from './deck-list/deck-list.component';
 const routes: Routes = [
   {
     path: 'decks/:id',
-    component: DeckDetailsComponent,
+    loadChildren: () => import('./deck/deck.module').then(m => m.DeckModule)
   },
   {
     path: '**',
-    component: DeckListComponent,
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
 ];
 
