@@ -12,7 +12,6 @@ import { DeckResourcesComponent } from './deck-resources/deck-resources.componen
 import { DeckSummaryComponent } from './deck-summary/deck-summary.component';
 import { EmbedComponent } from './embed/embed.component';
 import { HeaderComponent } from './header/header.component';
-import { InviteComponent } from './invite/invite.component';
 import { MapComponent } from './map/map.component';
 import { ShareComponent } from './share/share.component';
 import { SpeakerComponent } from './speaker/speaker.component';
@@ -33,7 +32,6 @@ import { DataService } from './data.service';
     DeckSummaryComponent,
     EmbedComponent,
     HeaderComponent,
-    InviteComponent,
     MapComponent,
     ShareComponent,
     SpeakerComponent,
