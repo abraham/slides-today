@@ -6,7 +6,9 @@
     "nodePackages": [
       "@angular/cli",
       "@angular/pwa",
-      "@angular/fire"
+      "@angular/fire",
+      "ngx-quicklink",
+      "serve"
     ],
     "githubRepos": [],
     "speakerIds": [
@@ -33,12 +35,84 @@
         "url": "https://www.meetup.com/modernweb/events/266448593/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1biTSsWVZQBU6b6ngvjfjVGgox5z9iDBxQFBc-1pyZbo",
+        "useAsTag": false,
+        "service": "google-slides"
       }
     ],
     "resources": [
       {
+        "title": "Progressive Web App with Angular Guide",
+        "url": "https://pwa.ng/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
         "title": "Angular",
         "url": "https://angular.io/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Add a web app manifest",
+        "url": "https://web.dev/add-manifest/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Create a Progressive Web App with the Angular CLI",
+        "url": "https://web.dev/creating-pwa-with-angular-cli/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Angular service worker introduction",
+        "url": "https://angular.io/guide/service-worker-intro",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Service Workers: an Introduction",
+        "url": "https://developers.google.com/web/fundamentals/primers/service-workers",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Lighthouse",
+        "url": "https://developers.google.com/web/tools/lighthouse",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Progressive Web Apps",
+        "url": "https://developers.google.com/web/progressive-web-apps",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Route-level code splitting in Angular",
+        "url": "https://web.dev/route-level-code-splitting-in-angular/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Version 8 of Angular — Smaller bundles, CLI APIs, and alignment with the ecosystem",
+        "url": "https://blog.angular.io/version-8-of-angular-smaller-bundles-cli-apis-and-alignment-with-the-ecosystem-af0261112a27",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Route-level code splitting in Angular",
+        "url": "https://web.dev/route-level-code-splitting-in-angular/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Can You Afford It?: Real-world Web Performance Budgets",
+        "url": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
         "useAsTag": false,
         "service": "external"
       }
@@ -48,7 +122,10 @@
       "-KxPCvJa7J1Ggg1xZpCp"
     ],
     "tweetIds": [
-      "1197542082698760197"
+      "1197542082698760197",
+      "1202317780667645952",
+      "1202431764284620800",
+      "1202478963869675520"
     ]
   },
   {
