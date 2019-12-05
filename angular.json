@@ -26,6 +26,7 @@
               "src/assets",
               "src/favicon.png",
               "src/manifest.json",
+              "src/robots.txt",
               {
                 "glob": "workbox-sw.prod.v1.3.0.js",
                 "input": "node_modules/workbox-sw/build/importScripts",
