@@ -54,16 +54,16 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 Nov 1-2",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. November 1-2 2018, Oslo, Norway. Speakers announced: https://t.co/Eh8vtYiGXW",
-    "url": "https://t.co/xKYD24G0Ys",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
+    "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/xKYD24G0Ys",
+            "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
             "indices": [
@@ -76,29 +76,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/Eh8vtYiGXW",
-            "expanded_url": "http://mobileera.rocks/speakers/",
-            "display_url": "mobileera.rocks/speakers/",
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
             "indices": [
-              113,
-              136
+              129,
+              152
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 580,
-    "friends_count": 264,
-    "listed_count": 29,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1228,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1078,
-    "lang": "en",
+    "statuses_count": 1519,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -117,9 +117,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -168,7 +170,7 @@
         },
         {
           "screen_name": "mobileeraconf",
-          "name": "Mobile Era 🇳🇴 Nov 1-2",
+          "name": "Mobile Era Conference 🇳🇴",
           "id": 4179545055,
           "id_str": "4179545055",
           "indices": [
@@ -213,6 +215,20 @@
               "h": 778,
               "resize": "fit"
             }
+          },
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            }
           }
         }
       ]
@@ -253,6 +269,20 @@
               "h": 778,
               "resize": "fit"
             }
+          },
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            }
           }
         }
       ]
@@ -269,14 +299,14 @@
       "name": "Abraham Williams",
       "screen_name": "abraham",
       "location": "Madison, WI",
-      "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
-      "url": "https://t.co/ck29y8mOBT",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "url": "https://t.co/Usfq8Nm4kN",
       "entities": {
         "url": {
           "urls": [
             {
-              "url": "https://t.co/ck29y8mOBT",
-              "expanded_url": "https://abrah.am/",
+              "url": "https://t.co/Usfq8Nm4kN",
+              "expanded_url": "https://abrah.am",
               "display_url": "abrah.am",
               "indices": [
                 0,
@@ -286,21 +316,31 @@
           ]
         },
         "description": {
-          "urls": []
+          "urls": [
+            {
+              "url": "https://t.co/5SyJuBOivM",
+              "expanded_url": "http://slides.today",
+              "display_url": "slides.today",
+              "indices": [
+                99,
+                122
+              ]
+            }
+          ]
         }
       },
       "protected": false,
-      "followers_count": 8877,
-      "friends_count": 641,
-      "listed_count": 584,
+      "followers_count": 9330,
+      "friends_count": 1106,
+      "listed_count": 606,
       "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-      "favourites_count": 23050,
+      "favourites_count": 35343,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 47910,
-      "lang": "en",
+      "statuses_count": 51516,
+      "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
       "is_translation_enabled": false,
@@ -319,9 +359,11 @@
       "has_extended_profile": true,
       "default_profile": false,
       "default_profile_image": false,
-      "following": null,
-      "follow_request_sent": null,
-      "notifications": null,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
       "translator_type": "regular"
     },
     "geo": null,

@@ -33,10 +33,10 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. VENUE: Felix Conference Centre at Bryggetorget 3, 0125 Oslo",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
     "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
@@ -53,20 +53,30 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
+            "indices": [
+              129,
+              152
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 772,
-    "friends_count": 305,
-    "listed_count": 42,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1613,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1430,
+    "statuses_count": 1519,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -270,7 +280,7 @@
       "name": "Abraham Williams",
       "screen_name": "abraham",
       "location": "Madison, WI",
-      "description": "• Sr dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+      "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
       "url": "https://t.co/Usfq8Nm4kN",
       "entities": {
         "url": {
@@ -301,16 +311,16 @@
         }
       },
       "protected": false,
-      "followers_count": 9270,
-      "friends_count": 1073,
-      "listed_count": 610,
+      "followers_count": 9330,
+      "friends_count": 1106,
+      "listed_count": 606,
       "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-      "favourites_count": 34374,
+      "favourites_count": 35343,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 51244,
+      "statuses_count": 51516,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,

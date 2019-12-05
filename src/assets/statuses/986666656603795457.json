@@ -84,6 +84,20 @@
             "h": 996,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
         }
       }
     ]
@@ -124,6 +138,20 @@
             "h": 996,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
         }
       }
     ]
@@ -140,15 +168,15 @@
     "name": "Erica Stanley",
     "screen_name": "ericastanley",
     "location": "Atlanta, GA",
-    "description": "Engineering Manager @SalesLoft | Founder of @WWCAtl | Advisory Council for #AbidotATL | Tech & Social Entrepreneur | Speaker | Co-organizer @RefactrTech",
-    "url": "https://t.co/N1B5mrNywW",
+    "description": "Engineering Manager @MozillaReality | Formerly @SalesLoft | Founder @WWCAtl | Tech Advisor @ATLTechVillage | Organizer @RefactrTech | #BlackTechTwitter| she/her",
+    "url": "https://t.co/IFzhw6UFtL",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/N1B5mrNywW",
-            "expanded_url": "https://ericastanley.io",
-            "display_url": "ericastanley.io",
+            "url": "https://t.co/IFzhw6UFtL",
+            "expanded_url": "https://REFACTR.TECH",
+            "display_url": "REFACTR.TECH",
             "indices": [
               0,
               23
@@ -161,17 +189,17 @@
       }
     },
     "protected": false,
-    "followers_count": 2447,
-    "friends_count": 1216,
-    "listed_count": 164,
+    "followers_count": 3713,
+    "friends_count": 1560,
+    "listed_count": 199,
     "created_at": "Mon May 25 23:02:41 +0000 2009",
-    "favourites_count": 27544,
+    "favourites_count": 86913,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1789,
-    "lang": "en",
+    "statuses_count": 3059,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -190,9 +218,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

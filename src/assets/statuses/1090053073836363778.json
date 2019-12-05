@@ -32,9 +32,9 @@
       },
       {
         "screen_name": "flutterio",
-        "name": "Flutter",
-        "id": 420730316,
-        "id_str": "420730316",
+        "name": "Check out @FlutterDev for the latest from Flutter",
+        "id": 1105926449016463400,
+        "id_str": "1105926449016463361",
         "indices": [
           79,
           89
@@ -65,38 +65,25 @@
     "name": "Pearl Latteier",
     "screen_name": "pblatteier",
     "location": "Madison, WI",
-    "description": "Senior developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead.",
-    "url": "https://t.co/rDYQj6hdWQ",
+    "description": "Developer at @PropellerHealth, organizer of @devfestwi and @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead, @mozTechSpeakers",
+    "url": null,
     "entities": {
-      "url": {
-        "urls": [
-          {
-            "url": "https://t.co/rDYQj6hdWQ",
-            "expanded_url": "https://pearlbea.com/",
-            "display_url": "pearlbea.com",
-            "indices": [
-              0,
-              23
-            ]
-          }
-        ]
-      },
       "description": {
         "urls": []
       }
     },
     "protected": false,
-    "followers_count": 907,
-    "friends_count": 608,
-    "listed_count": 34,
+    "followers_count": 1025,
+    "friends_count": 721,
+    "listed_count": 41,
     "created_at": "Wed Oct 13 22:31:19 +0000 2010",
-    "favourites_count": 2298,
+    "favourites_count": 3100,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 810,
-    "lang": "en",
+    "statuses_count": 1003,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -115,9 +102,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": true,
     "translator_type": "none"
   },
   "geo": null,

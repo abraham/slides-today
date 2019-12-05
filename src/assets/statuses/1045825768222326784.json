@@ -29,7 +29,7 @@
     "user_mentions": [
       {
         "screen_name": "mobileeraconf",
-        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
         "id": 4179545055,
         "id_str": "4179545055",
         "indices": [
@@ -79,10 +79,10 @@
   "user": {
     "id": 567162844,
     "id_str": "567162844",
-    "name": "Nilay Yener",
+    "name": "Nilay 💙",
     "screen_name": "nlycskn",
     "location": "",
-    "description": "💙 @flutterio\n@dart_lang #DevRel",
+    "description": "people first! 💙 \n@flutterdev @dart_lang #DevRel\n#MotherOfDashes\nnot a fighter",
     "url": null,
     "entities": {
       "description": {
@@ -90,17 +90,17 @@
       }
     },
     "protected": false,
-    "followers_count": 3775,
-    "friends_count": 1027,
-    "listed_count": 142,
+    "followers_count": 7808,
+    "friends_count": 1062,
+    "listed_count": 194,
     "created_at": "Mon Apr 30 11:42:46 +0000 2012",
-    "favourites_count": 10871,
+    "favourites_count": 21804,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 8243,
-    "lang": "en",
+    "statuses_count": 12437,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -108,9 +108,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/1045523343539986433/Uv3nfQae_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1045523343539986433/Uv3nfQae_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1538348085",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1132357550379134976/tRQLk7Je_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1132357550379134976/tRQLk7Je_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1558809044",
     "profile_link_color": "91D2FA",
     "profile_sidebar_border_color": "FFFFFF",
     "profile_sidebar_fill_color": "F2AD9D",
@@ -119,9 +119,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,
@@ -185,7 +187,7 @@
       "user_mentions": [
         {
           "screen_name": "nlycskn",
-          "name": "Nilay Yener",
+          "name": "Nilay 💙",
           "id": 567162844,
           "id_str": "567162844",
           "indices": [
@@ -205,9 +207,9 @@
         },
         {
           "screen_name": "flutterio",
-          "name": "Flutter",
-          "id": 420730316,
-          "id_str": "420730316",
+          "name": "Check out @FlutterDev for the latest from Flutter",
+          "id": 1105926449016463400,
+          "id_str": "1105926449016463361",
           "indices": [
             41,
             51
@@ -215,7 +217,7 @@
         },
         {
           "screen_name": "mobileeraconf",
-          "name": "Mobile Era 🇳🇴 Nov 1-2",
+          "name": "Mobile Era Conference 🇳🇴",
           "id": 4179545055,
           "id_str": "4179545055",
           "indices": [
@@ -236,7 +238,7 @@
         }
       ]
     },
-    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -248,38 +250,25 @@
       "name": "Pearl Latteier",
       "screen_name": "pblatteier",
       "location": "Madison, WI",
-      "description": "Senior developer at @bendyworks, co-organizer of @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead.",
-      "url": "https://t.co/rDYQj6hdWQ",
+      "description": "Developer at @PropellerHealth, organizer of @devfestwi and @gdgmadison, @GoogleDevExpert in web technologies, @WomenTechmakers lead, @mozTechSpeakers",
+      "url": null,
       "entities": {
-        "url": {
-          "urls": [
-            {
-              "url": "https://t.co/rDYQj6hdWQ",
-              "expanded_url": "https://pearlbea.com/",
-              "display_url": "pearlbea.com",
-              "indices": [
-                0,
-                23
-              ]
-            }
-          ]
-        },
         "description": {
           "urls": []
         }
       },
       "protected": false,
-      "followers_count": 806,
-      "friends_count": 543,
-      "listed_count": 33,
+      "followers_count": 1025,
+      "friends_count": 721,
+      "listed_count": 41,
       "created_at": "Wed Oct 13 22:31:19 +0000 2010",
-      "favourites_count": 1920,
+      "favourites_count": 3100,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 713,
-      "lang": "en",
+      "statuses_count": 1003,
+      "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
       "is_translation_enabled": false,
@@ -298,9 +287,11 @@
       "has_extended_profile": false,
       "default_profile": false,
       "default_profile_image": false,
-      "following": null,
-      "follow_request_sent": null,
-      "notifications": null,
+      "can_media_tag": true,
+      "followed_by": true,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": true,
       "translator_type": "none"
     },
     "geo": null,
@@ -317,7 +308,7 @@
     "lang": "en"
   },
   "retweet_count": 3,
-  "favorite_count": 11,
+  "favorite_count": 12,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

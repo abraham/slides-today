@@ -34,7 +34,7 @@
       },
       {
         "screen_name": "firt",
-        "name": "Maximiliano Firtman @ 🇳🇴 Oslo",
+        "name": "Maximiliano Firtman",
         "id": 17509972,
         "id_str": "17509972",
         "indices": [
@@ -109,6 +109,72 @@
             "h": 720,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 236,
+                "y": 93,
+                "h": 85,
+                "w": 85
+              },
+              {
+                "x": 366,
+                "y": 90,
+                "h": 93,
+                "w": 93
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          }
         }
       }
     ]
@@ -149,6 +215,72 @@
             "h": 720,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 236,
+                "y": 93,
+                "h": 85,
+                "w": 85
+              },
+              {
+                "x": 366,
+                "y": 90,
+                "h": 93,
+                "w": 93
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 376,
+                "y": 148,
+                "h": 135,
+                "w": 135
+              },
+              {
+                "x": 582,
+                "y": 144,
+                "h": 149,
+                "w": 149
+              }
+            ]
+          }
         }
       }
     ]
@@ -162,10 +294,10 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 Nov 1-2",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. November 1-2 2018, Oslo, Norway. \nSchedule: https://t.co/Se2aSeTvdW",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
     "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
@@ -184,29 +316,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/Se2aSeTvdW",
-            "expanded_url": "https://mobileera.rocks/schedule/",
-            "display_url": "mobileera.rocks/schedule/",
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
             "indices": [
-              104,
-              127
+              129,
+              152
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 600,
-    "friends_count": 264,
-    "listed_count": 30,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1286,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1129,
-    "lang": "en",
+    "statuses_count": 1519,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -225,9 +357,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

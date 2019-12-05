@@ -56,6 +56,48 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 89,
+                "y": 753,
+                "h": 40,
+                "w": 40
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 51,
+                "y": 426,
+                "h": 23,
+                "w": 23
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 153,
+                "y": 1285,
+                "h": 69,
+                "w": 69
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 156,
+                "y": 1306,
+                "h": 71,
+                "w": 71
+              }
+            ]
+          }
         }
       }
     ]
@@ -96,6 +138,48 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 89,
+                "y": 753,
+                "h": 40,
+                "w": 40
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 51,
+                "y": 426,
+                "h": 23,
+                "w": 23
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 153,
+                "y": 1285,
+                "h": 69,
+                "w": 69
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 156,
+                "y": 1306,
+                "h": 71,
+                "w": 71
+              }
+            ]
+          }
         }
       }
     ]
@@ -111,16 +195,16 @@
     "id_str": "100720027",
     "name": "exAspArk",
     "screen_name": "exAspArk",
-    "location": "",
-    "description": "",
-    "url": "https://t.co/gpe1UZKS8K",
+    "location": "Toronto, Canada",
+    "description": "Lead Software Developer at Hyre. We are hiring! 🙂",
+    "url": "https://t.co/FlcJpFAr0r",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/gpe1UZKS8K",
-            "expanded_url": "https://exaspark.me",
-            "display_url": "exaspark.me",
+            "url": "https://t.co/FlcJpFAr0r",
+            "expanded_url": "https://www.linkedin.com/in/evgenyli",
+            "display_url": "linkedin.com/in/evgenyli",
             "indices": [
               0,
               23
@@ -135,15 +219,15 @@
     "protected": false,
     "followers_count": 318,
     "friends_count": 180,
-    "listed_count": 23,
+    "listed_count": 26,
     "created_at": "Thu Dec 31 08:20:03 +0000 2009",
-    "favourites_count": 1606,
+    "favourites_count": 1597,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 7719,
-    "lang": "en",
+    "statuses_count": 7701,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -161,9 +245,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

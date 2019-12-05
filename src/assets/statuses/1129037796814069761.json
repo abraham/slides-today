@@ -159,7 +159,8 @@
             "h": 418,
             "resize": "fit"
           }
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -212,7 +213,8 @@
               "url": "https://video.twimg.com/tweet_video/D6sl40RW0AA8HtW.mp4"
             }
           ]
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -228,14 +230,14 @@
     "name": "REFACTR.TECH",
     "screen_name": "RefactrTech",
     "location": "Atlanta, GA",
-    "description": "Showcasing voices of marginalized people & allies on #tech topics, #diversity, #inclusion, and #intersectionality in tech. 6/5 - 6/7/19. Get your tix! #refactr",
-    "url": "https://t.co/gN0DB8wlDz",
+    "description": "2nd annual conference showcasing marginalized people & allies in #tech. 4/22 - 4/24/2020. Tickets on sale now! #diversity #inclusion",
+    "url": "https://t.co/c6cmSDONtH",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/gN0DB8wlDz",
-            "expanded_url": "http://refactr.tech/",
+            "url": "https://t.co/c6cmSDONtH",
+            "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
             "indices": [
               0,
@@ -249,16 +251,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1699,
-    "friends_count": 220,
-    "listed_count": 62,
+    "followers_count": 2220,
+    "friends_count": 230,
+    "listed_count": 76,
     "created_at": "Thu Jan 26 01:33:51 +0000 2017",
-    "favourites_count": 2164,
+    "favourites_count": 2961,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2073,
+    "statuses_count": 2555,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -269,7 +271,7 @@
     "profile_background_tile": false,
     "profile_image_url": "http://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
     "profile_image_url_https": "https://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1551323780",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1575263925",
     "profile_link_color": "CF057C",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -278,9 +280,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -291,7 +295,7 @@
   "retweet_count": 5,
   "favorite_count": 3,
   "favorited": false,
-  "retweeted": false,
+  "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

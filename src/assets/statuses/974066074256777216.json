@@ -63,7 +63,7 @@
       },
       {
         "screen_name": "raymondcamden",
-        "name": "Raymond Camden @ Hire Me!",
+        "name": "Raymond Camden 🥑",
         "id": 7021362,
         "id_str": "7021362",
         "indices": [
@@ -138,6 +138,48 @@
             "h": 1365,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 21,
+                "y": 153,
+                "h": 45,
+                "w": 45
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 72,
+                "y": 524,
+                "h": 156,
+                "w": 156
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 11,
+                "y": 86,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 36,
+                "y": 262,
+                "h": 78,
+                "w": 78
+              }
+            ]
+          }
         }
       }
     ]
@@ -178,6 +220,48 @@
             "h": 1365,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 21,
+                "y": 153,
+                "h": 45,
+                "w": 45
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 72,
+                "y": 524,
+                "h": 156,
+                "w": 156
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 11,
+                "y": 86,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 36,
+                "y": 262,
+                "h": 78,
+                "w": 78
+              }
+            ]
+          }
         }
       }
     ]
@@ -194,14 +278,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -211,21 +295,31 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 8877,
-    "friends_count": 641,
-    "listed_count": 584,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 23050,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 47910,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -244,9 +338,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,

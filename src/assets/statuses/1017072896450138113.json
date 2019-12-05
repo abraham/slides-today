@@ -14,9 +14,9 @@
     "user_mentions": [
       {
         "screen_name": "typescriptlang",
-        "name": "🎃 TypesCrypt - tales from the untyped underworld",
-        "id": 809233214,
-        "id_str": "809233214",
+        "name": "Dev Languages",
+        "id": 1155904704028827600,
+        "id_str": "1155904704028827648",
         "indices": [
           18,
           33
@@ -89,6 +89,72 @@
             "h": 825,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1543,
+                "y": 755,
+                "h": 73,
+                "w": 73
+              },
+              {
+                "x": 1751,
+                "y": 689,
+                "h": 159,
+                "w": 159
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 512,
+                "y": 250,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 581,
+                "y": 228,
+                "h": 53,
+                "w": 53
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 2279,
+                "y": 1116,
+                "h": 109,
+                "w": 109
+              },
+              {
+                "x": 2586,
+                "y": 1018,
+                "h": 236,
+                "w": 236
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 904,
+                "y": 442,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 1026,
+                "y": 403,
+                "h": 93,
+                "w": 93
+              }
+            ]
+          }
         }
       }
     ]
@@ -129,6 +195,72 @@
             "h": 825,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1543,
+                "y": 755,
+                "h": 73,
+                "w": 73
+              },
+              {
+                "x": 1751,
+                "y": 689,
+                "h": 159,
+                "w": 159
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 512,
+                "y": 250,
+                "h": 24,
+                "w": 24
+              },
+              {
+                "x": 581,
+                "y": 228,
+                "h": 53,
+                "w": 53
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 2279,
+                "y": 1116,
+                "h": 109,
+                "w": 109
+              },
+              {
+                "x": 2586,
+                "y": 1018,
+                "h": 236,
+                "w": 236
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 904,
+                "y": 442,
+                "h": 43,
+                "w": 43
+              },
+              {
+                "x": 1026,
+                "y": 403,
+                "h": 93,
+                "w": 93
+              }
+            ]
+          }
         }
       }
     ]
@@ -145,14 +277,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -162,21 +294,31 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 8877,
-    "friends_count": 641,
-    "listed_count": 584,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 23050,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 47910,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -195,9 +337,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,

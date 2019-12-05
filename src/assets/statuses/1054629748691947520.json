@@ -14,7 +14,7 @@
     "user_mentions": [
       {
         "screen_name": "mobileeraconf",
-        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
         "indices": [
@@ -68,24 +68,37 @@
     "screen_name": "mikegeyser",
     "location": "Jozi",
     "description": "pro·gram·mer/ˈprōˌgramər/ Noun: A person who writes computer programs. I am both more and less than this. @googledevexpert in Web Tech. My opinions are my own.",
-    "url": null,
+    "url": "https://t.co/trJBZ5t6VI",
     "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/trJBZ5t6VI",
+            "expanded_url": "https://mikerambl.es",
+            "display_url": "mikerambl.es",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
       "description": {
         "urls": []
       }
     },
     "protected": false,
-    "followers_count": 1237,
-    "friends_count": 640,
-    "listed_count": 59,
+    "followers_count": 1911,
+    "friends_count": 831,
+    "listed_count": 71,
     "created_at": "Wed Apr 08 05:37:43 +0000 2009",
-    "favourites_count": 8025,
+    "favourites_count": 14129,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 14461,
-    "lang": "en",
+    "statuses_count": 17307,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -93,8 +106,8 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
     "profile_background_tile": true,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/979965772884791298/3J0CWsJ9_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/979965772884791298/3J0CWsJ9_normal.jpg",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1070571238110703621/PQ9wPYXz_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1070571238110703621/PQ9wPYXz_normal.jpg",
     "profile_banner_url": "https://pbs.twimg.com/profile_banners/29650035/1495949480",
     "profile_link_color": "B30000",
     "profile_sidebar_border_color": "5B5E61",
@@ -104,9 +117,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -114,8 +129,8 @@
   "place": null,
   "contributors": null,
   "is_quote_status": false,
-  "retweet_count": 3,
-  "favorite_count": 8,
+  "retweet_count": 5,
+  "favorite_count": 10,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

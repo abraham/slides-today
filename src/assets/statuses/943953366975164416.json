@@ -56,7 +56,7 @@
       },
       {
         "screen_name": "BretMcG",
-        "name": "Bret McGowen",
+        "name": "Bret McGowen 🦝",
         "id": 213455686,
         "id_str": "213455686",
         "indices": [
@@ -86,7 +86,7 @@
       },
       {
         "screen_name": "DoesitPew",
-        "name": "Stacy Devino 👟",
+        "name": "Stacy Devino -🤰",
         "id": 280166153,
         "id_str": "280166153",
         "indices": [
@@ -129,15 +129,15 @@
     "name": "Deana Greenfield",
     "screen_name": "DLGreenfield",
     "location": "Chicago, IL",
-    "description": "Education aficionado. #EdTech designer. Advocate @WomenTechmakers @uchicagolab @GrinnellCollege @NorthwesternU @iSchoolUI @designationio  Empathy, develop it.",
-    "url": "https://t.co/KeGRYpTP6K",
+    "description": "Education aficionado & #EdTech designer. Fmr #digitalliteracy professor. Improving UX for learning. \"Empathy, develop it.\"",
+    "url": "https://t.co/xWZ23GhrZY",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/KeGRYpTP6K",
-            "expanded_url": "http://www.dlgdesigns.io/",
-            "display_url": "dlgdesigns.io",
+            "url": "https://t.co/xWZ23GhrZY",
+            "expanded_url": "https://www.linkedin.com/in/deanagreenfield/",
+            "display_url": "linkedin.com/in/deanagreenf…",
             "indices": [
               0,
               23
@@ -150,17 +150,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1426,
-    "friends_count": 5002,
-    "listed_count": 326,
+    "followers_count": 1498,
+    "friends_count": 4993,
+    "listed_count": 317,
     "created_at": "Tue Aug 03 16:21:58 +0000 2010",
-    "favourites_count": 4914,
+    "favourites_count": 5440,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 3847,
-    "lang": "en",
+    "statuses_count": 4068,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": true,
@@ -179,9 +179,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -190,7 +192,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 3,
-  "favorite_count": 6,
+  "favorite_count": 5,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

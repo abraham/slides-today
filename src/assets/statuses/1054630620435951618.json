@@ -62,16 +62,16 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 Nov 1-2",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. November 1-2 2018, Oslo, Norway. Speakers announced: https://t.co/Eh8vtYiGXW",
-    "url": "https://t.co/xKYD24G0Ys",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
+    "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/xKYD24G0Ys",
+            "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
             "indices": [
@@ -84,29 +84,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/Eh8vtYiGXW",
-            "expanded_url": "http://mobileera.rocks/speakers/",
-            "display_url": "mobileera.rocks/speakers/",
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
             "indices": [
-              113,
-              136
+              129,
+              152
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 577,
-    "friends_count": 264,
-    "listed_count": 29,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1229,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1080,
-    "lang": "en",
+    "statuses_count": 1519,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -125,9 +125,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

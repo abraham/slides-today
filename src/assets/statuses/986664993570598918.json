@@ -77,6 +77,20 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
         }
       }
     ]
@@ -117,6 +131,20 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
         }
       }
     ]
@@ -154,17 +182,17 @@
       }
     },
     "protected": false,
-    "followers_count": 120,
-    "friends_count": 307,
+    "followers_count": 119,
+    "friends_count": 334,
     "listed_count": 9,
     "created_at": "Sat Mar 13 01:09:53 +0000 2010",
-    "favourites_count": 298,
+    "favourites_count": 349,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 260,
-    "lang": "en",
+    "statuses_count": 269,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -172,9 +200,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/862466010569244672/09tz1iWJ_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/862466010569244672/09tz1iWJ_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/122526469/1523945676",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1133779911313960961/SGisnnRI_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1133779911313960961/SGisnnRI_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/122526469/1559149461",
     "profile_link_color": "091047",
     "profile_sidebar_border_color": "86A4A6",
     "profile_sidebar_fill_color": "A0C5C7",
@@ -183,9 +211,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

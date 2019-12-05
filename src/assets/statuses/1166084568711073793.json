@@ -62,7 +62,7 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
     "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
@@ -85,24 +85,24 @@
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
             "indices": [
-              100,
-              123
+              99,
+              122
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 9177,
-    "friends_count": 990,
-    "listed_count": 615,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 32164,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 50655,
+    "statuses_count": 51516,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -122,6 +122,8 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,
@@ -133,7 +135,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 0,
-  "favorite_count": 3,
+  "favorite_count": 5,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

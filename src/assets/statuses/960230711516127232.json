@@ -78,17 +78,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1546,
-    "friends_count": 155,
-    "listed_count": 85,
+    "followers_count": 1565,
+    "friends_count": 160,
+    "listed_count": 82,
     "created_at": "Thu Apr 16 15:55:09 +0000 2009",
-    "favourites_count": 581,
+    "favourites_count": 675,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1603,
-    "lang": "en",
+    "statuses_count": 1711,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -107,9 +107,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -201,6 +203,20 @@
               "h": 340,
               "resize": "fit"
             }
+          },
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            }
           }
         }
       ]
@@ -241,6 +257,20 @@
               "h": 340,
               "resize": "fit"
             }
+          },
+          "features": {
+            "large": {
+              "faces": []
+            },
+            "orig": {
+              "faces": []
+            },
+            "medium": {
+              "faces": []
+            },
+            "small": {
+              "faces": []
+            }
           }
         }
       ]
@@ -254,18 +284,18 @@
     "user": {
       "id": 48334750,
       "id_str": "48334750",
-      "name": "GDG Twin Cities",
+      "name": "GDG Twin Cities - DevFestMN Focus: ML+AI Sep 27th",
       "screen_name": "gdgtc",
       "location": "Twin Cities, MN",
-      "description": "The Google Developers Group, Twin Cities is for all developers of Google technologies!  #DevFestMN Feb 2, 2019!",
-      "url": "https://t.co/nNSS6eHItA",
+      "description": "The Google Developers Group, Twin Cities is for all developers of Google technologies! Proud host of local tech meetups and #DevFestMN https://t.co/vavlapwIKe",
+      "url": "https://t.co/zhxcASyKSB",
       "entities": {
         "url": {
           "urls": [
             {
-              "url": "https://t.co/nNSS6eHItA",
-              "expanded_url": "http://gdgtc.com",
-              "display_url": "gdgtc.com",
+              "url": "https://t.co/zhxcASyKSB",
+              "expanded_url": "https://www.eventbrite.com/e/devfestmn-focus-ml-ai-tickets-67015417919",
+              "display_url": "eventbrite.com/e/devfestmn-fo…",
               "indices": [
                 0,
                 23
@@ -274,21 +304,31 @@
           ]
         },
         "description": {
-          "urls": []
+          "urls": [
+            {
+              "url": "https://t.co/vavlapwIKe",
+              "expanded_url": "https://www.gdgtc.com",
+              "display_url": "gdgtc.com",
+              "indices": [
+                135,
+                158
+              ]
+            }
+          ]
         }
       },
       "protected": false,
-      "followers_count": 660,
-      "friends_count": 196,
-      "listed_count": 42,
+      "followers_count": 732,
+      "friends_count": 286,
+      "listed_count": 43,
       "created_at": "Thu Jun 18 12:34:50 +0000 2009",
-      "favourites_count": 449,
+      "favourites_count": 620,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 728,
-      "lang": "en",
+      "statuses_count": 842,
+      "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
       "is_translation_enabled": false,
@@ -307,9 +347,11 @@
       "has_extended_profile": false,
       "default_profile": false,
       "default_profile_image": false,
-      "following": null,
-      "follow_request_sent": null,
-      "notifications": null,
+      "can_media_tag": true,
+      "followed_by": true,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
       "translator_type": "none"
     },
     "geo": null,
@@ -317,7 +359,7 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 6,
+    "retweet_count": 7,
     "favorite_count": 8,
     "favorited": false,
     "retweeted": false,

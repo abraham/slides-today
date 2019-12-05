@@ -77,6 +77,72 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1886,
+                "y": 1354,
+                "h": 273,
+                "w": 273
+              },
+              {
+                "x": 1095,
+                "y": 903,
+                "h": 311,
+                "w": 311
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 701,
+                "y": 503,
+                "h": 101,
+                "w": 101
+              },
+              {
+                "x": 407,
+                "y": 336,
+                "h": 115,
+                "w": 115
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 397,
+                "y": 285,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 230,
+                "y": 190,
+                "h": 65,
+                "w": 65
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1197,
+                "y": 859,
+                "h": 173,
+                "w": 173
+              },
+              {
+                "x": 695,
+                "y": 573,
+                "h": 197,
+                "w": 197
+              }
+            ]
+          }
         }
       }
     ]
@@ -117,11 +183,77 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": [
+              {
+                "x": 1886,
+                "y": 1354,
+                "h": 273,
+                "w": 273
+              },
+              {
+                "x": 1095,
+                "y": 903,
+                "h": 311,
+                "w": 311
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 701,
+                "y": 503,
+                "h": 101,
+                "w": 101
+              },
+              {
+                "x": 407,
+                "y": 336,
+                "h": 115,
+                "w": 115
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 397,
+                "y": 285,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 230,
+                "y": 190,
+                "h": 65,
+                "w": 65
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1197,
+                "y": 859,
+                "h": 173,
+                "w": 173
+              },
+              {
+                "x": 695,
+                "y": 573,
+                "h": 197,
+                "w": 197
+              }
+            ]
+          }
         }
       }
     ]
   },
-  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
   "in_reply_to_status_id": null,
   "in_reply_to_status_id_str": null,
   "in_reply_to_user_id": null,
@@ -133,14 +265,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -150,21 +282,31 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 8877,
-    "friends_count": 641,
-    "listed_count": 584,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 23050,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 47910,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -183,9 +325,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,

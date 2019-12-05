@@ -84,6 +84,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 533,
+                "y": 288,
+                "h": 39,
+                "w": 39
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 910,
+                "y": 492,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 910,
+                "y": 492,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 302,
+                "y": 163,
+                "h": 22,
+                "w": 22
+              }
+            ]
+          }
         }
       }
     ]
@@ -124,6 +166,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 533,
+                "y": 288,
+                "h": 39,
+                "w": 39
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 910,
+                "y": 492,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 910,
+                "y": 492,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 302,
+                "y": 163,
+                "h": 22,
+                "w": 22
+              }
+            ]
+          }
         }
       }
     ]
@@ -140,15 +224,15 @@
     "name": "Katie Stroud",
     "screen_name": "KatieStroudPro",
     "location": "Greater Seattle Area",
-    "description": "One incremental step at a time, I help you change the world with training programs and solutions that change people's minds. And I'll do it on a bike!",
-    "url": "https://t.co/UYxdgwkh2D",
+    "description": "With 15+ years experience in ad tech, I’m a Sr. Product Manager who is helping to build technology for better online experiences. And I love to ride my bike(s).",
+    "url": "https://t.co/vXTBkHaJCk",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/UYxdgwkh2D",
-            "expanded_url": "http://IncrementalSuccess.com",
-            "display_url": "IncrementalSuccess.com",
+            "url": "https://t.co/vXTBkHaJCk",
+            "expanded_url": "http://KatieStroud.com",
+            "display_url": "KatieStroud.com",
             "indices": [
               0,
               23
@@ -161,17 +245,17 @@
       }
     },
     "protected": false,
-    "followers_count": 3091,
-    "friends_count": 3126,
+    "followers_count": 3125,
+    "friends_count": 3189,
     "listed_count": 140,
     "created_at": "Fri Jun 19 04:08:40 +0000 2009",
-    "favourites_count": 3098,
+    "favourites_count": 3558,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 6701,
-    "lang": "en",
+    "statuses_count": 7095,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -190,9 +274,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

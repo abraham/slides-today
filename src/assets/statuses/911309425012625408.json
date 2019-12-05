@@ -68,17 +68,17 @@
     "screen_name": "jeffbski",
     "location": "St. Louis, MO USA",
     "description": "Full Stack Instructor, Coach, Consultant, JavaScript (JS), Node.js, React.js, Functional Programming, Ex-MasterCard, ApplePay, Husband, Father, Catholic, Skier",
-    "url": "http://t.co/teE1yG6dxj",
+    "url": "https://t.co/teE1yFOCFL",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "http://t.co/teE1yG6dxj",
+            "url": "https://t.co/teE1yFOCFL",
             "expanded_url": "http://codewinds.com/",
             "display_url": "codewinds.com",
             "indices": [
               0,
-              22
+              23
             ]
           }
         ]
@@ -88,17 +88,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1487,
-    "friends_count": 1706,
-    "listed_count": 145,
+    "followers_count": 1602,
+    "friends_count": 1720,
+    "listed_count": 146,
     "created_at": "Tue May 05 00:27:27 +0000 2009",
-    "favourites_count": 2404,
+    "favourites_count": 2822,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 3285,
-    "lang": "en",
+    "statuses_count": 3366,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -117,9 +117,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

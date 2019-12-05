@@ -47,14 +47,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "Developer and caffeine consumer at @Bendyworks, #WebTechnologies @GoogleDevExpert, international speaker, @GDGMadison organizer, writer of code",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -64,21 +64,31 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
+            "display_url": "slides.today",
+            "indices": [
+              99,
+              122
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 8877,
-    "friends_count": 641,
-    "listed_count": 584,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 23050,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 47910,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -97,9 +107,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,
@@ -141,14 +153,14 @@
       "id_str": "5493662",
       "name": "RailsConf",
       "screen_name": "railsconf",
-      "location": "Pittsburgh, PA",
-      "description": "Join us for RailsConf 2018, this year in Pittsburgh from April 17-19!",
-      "url": "https://t.co/VAMeLRYWbl",
+      "location": "Minneapolis, MN",
+      "description": "RailsConf 2019 in Minneapolis from April 30-May 2 was incredible... can’t wait to see you next year in Portland, May 5-7, 2020!",
+      "url": "https://t.co/VAMeLSgxzV",
       "entities": {
         "url": {
           "urls": [
             {
-              "url": "https://t.co/VAMeLRYWbl",
+              "url": "https://t.co/VAMeLSgxzV",
               "expanded_url": "http://railsconf.com",
               "display_url": "railsconf.com",
               "indices": [
@@ -163,17 +175,17 @@
         }
       },
       "protected": false,
-      "followers_count": 21886,
-      "friends_count": 2686,
-      "listed_count": 1002,
+      "followers_count": 23138,
+      "friends_count": 2652,
+      "listed_count": 1006,
       "created_at": "Wed Apr 25 10:27:29 +0000 2007",
-      "favourites_count": 62,
+      "favourites_count": 64,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 2611,
-      "lang": "en",
+      "statuses_count": 2814,
+      "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
       "is_translation_enabled": false,
@@ -181,10 +193,10 @@
       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
       "profile_background_tile": false,
-      "profile_image_url": "http://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
-      "profile_image_url_https": "https://pbs.twimg.com/profile_images/940635324685852672/C8grS7S5_normal.jpg",
-      "profile_banner_url": "https://pbs.twimg.com/profile_banners/5493662/1513099900",
-      "profile_link_color": "E81C4F",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1083779649149104128/mk37SUkB_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1083779649149104128/mk37SUkB_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/5493662/1547228155",
+      "profile_link_color": "1B95E0",
       "profile_sidebar_border_color": "545553",
       "profile_sidebar_fill_color": "AC7979",
       "profile_text_color": "000000",
@@ -192,9 +204,11 @@
       "has_extended_profile": false,
       "default_profile": false,
       "default_profile_image": false,
-      "following": null,
-      "follow_request_sent": null,
-      "notifications": null,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
       "translator_type": "none"
     },
     "geo": null,
@@ -202,7 +216,7 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 72,
+    "retweet_count": 71,
     "favorite_count": 218,
     "favorited": false,
     "retweeted": false,

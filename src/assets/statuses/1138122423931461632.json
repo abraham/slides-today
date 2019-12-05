@@ -79,7 +79,8 @@
             "h": 270,
             "resize": "fit"
           }
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -132,7 +133,8 @@
               "url": "https://video.twimg.com/tweet_video/D8tsTgxWkAEB5d4.mp4"
             }
           ]
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -148,34 +150,47 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "• Sr. developer @Bendyworks • #WebTech/@Angular @GoogleDevExpert • @GoogleChrome CAB • Conf speaker https://t.co/xkQ8kgmapt • @GDGMadison/@DevFestWI organizer",
-    "url": null,
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
+            "display_url": "abrah.am",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
       "description": {
         "urls": [
           {
-            "url": "https://t.co/xkQ8kgmapt",
-            "expanded_url": "https://slides.today",
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
             "display_url": "slides.today",
             "indices": [
-              100,
-              123
+              99,
+              122
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 9201,
-    "friends_count": 896,
-    "listed_count": 605,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 29217,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 49949,
+    "statuses_count": 51516,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -195,9 +210,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,
@@ -205,8 +222,8 @@
   "place": null,
   "contributors": null,
   "is_quote_status": false,
-  "retweet_count": 1,
-  "favorite_count": 1,
+  "retweet_count": 2,
+  "favorite_count": 2,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

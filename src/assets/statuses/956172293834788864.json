@@ -117,7 +117,8 @@
             "h": 172,
             "resize": "fit"
           }
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -170,7 +171,8 @@
               "url": "https://video.twimg.com/tweet_video/DUUBn1hUQAAIa0i.mp4"
             }
           ]
-        }
+        },
+        "features": {}
       }
     ]
   },
@@ -186,7 +188,7 @@
     "name": "😆Tara Z. Manicsic🐺",
     "screen_name": "Tzmanics",
     "location": "Cincinnati, OH",
-    "description": "developer, electronics & clay & textile tinkerer, all-around good time...er",
+    "description": "craft().code().contemplate().communicate()",
     "url": "https://t.co/ejwv1LyV9l",
     "entities": {
       "url": {
@@ -207,17 +209,17 @@
       }
     },
     "protected": false,
-    "followers_count": 2321,
-    "friends_count": 683,
-    "listed_count": 110,
+    "followers_count": 3752,
+    "friends_count": 800,
+    "listed_count": 141,
     "created_at": "Sat Apr 20 00:12:20 +0000 2013",
-    "favourites_count": 5763,
+    "favourites_count": 7542,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2667,
-    "lang": "en",
+    "statuses_count": 3565,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -225,9 +227,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/885681028676763648/ZLEZUV_u_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/885681028676763648/ZLEZUV_u_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1499998143",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1565297654",
     "profile_link_color": "ABB8C2",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -236,9 +238,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

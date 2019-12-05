@@ -97,10 +97,10 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. VENUE: Felix Conference Centre at Bryggetorget 3, 0125 Oslo",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
     "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
@@ -117,20 +117,30 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
+            "indices": [
+              129,
+              152
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 771,
-    "friends_count": 305,
-    "listed_count": 42,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1613,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1430,
+    "statuses_count": 1519,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,

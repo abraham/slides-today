@@ -84,6 +84,72 @@
             "h": 1200,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 39,
+                "y": 264,
+                "h": 75,
+                "w": 75
+              },
+              {
+                "x": 276,
+                "y": 235,
+                "h": 122,
+                "w": 122
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 798,
+                "h": 226,
+                "w": 226
+              },
+              {
+                "x": 834,
+                "y": 708,
+                "h": 370,
+                "w": 370
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 798,
+                "h": 226,
+                "w": 226
+              },
+              {
+                "x": 834,
+                "y": 708,
+                "h": 370,
+                "w": 370
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 70,
+                "y": 467,
+                "h": 132,
+                "w": 132
+              },
+              {
+                "x": 488,
+                "y": 414,
+                "h": 216,
+                "w": 216
+              }
+            ]
+          }
         }
       }
     ]
@@ -124,6 +190,72 @@
             "h": 1200,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 39,
+                "y": 264,
+                "h": 75,
+                "w": 75
+              },
+              {
+                "x": 276,
+                "y": 235,
+                "h": 122,
+                "w": 122
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 798,
+                "h": 226,
+                "w": 226
+              },
+              {
+                "x": 834,
+                "y": 708,
+                "h": 370,
+                "w": 370
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 798,
+                "h": 226,
+                "w": 226
+              },
+              {
+                "x": 834,
+                "y": 708,
+                "h": 370,
+                "w": 370
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 70,
+                "y": 467,
+                "h": 132,
+                "w": 132
+              },
+              {
+                "x": 488,
+                "y": 414,
+                "h": 216,
+                "w": 216
+              }
+            ]
+          }
         }
       }
     ]
@@ -161,16 +293,16 @@
       }
     },
     "protected": false,
-    "followers_count": 3343,
-    "friends_count": 103,
-    "listed_count": 143,
+    "followers_count": 3528,
+    "friends_count": 107,
+    "listed_count": 147,
     "created_at": "Mon Aug 30 17:13:35 +0000 2010",
-    "favourites_count": 259,
+    "favourites_count": 293,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 3092,
+    "statuses_count": 3401,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -179,9 +311,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/913591850576969730/lQx8iaMm_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/913591850576969730/lQx8iaMm_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/184857087/1507905613",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1188682400521424896/dQ2jhwJO_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1188682400521424896/dQ2jhwJO_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/184857087/1572239117",
     "profile_link_color": "493B2F",
     "profile_sidebar_border_color": "FFFFFF",
     "profile_sidebar_fill_color": "DDEEF6",
@@ -190,9 +322,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -203,7 +337,7 @@
   "retweet_count": 6,
   "favorite_count": 5,
   "favorited": false,
-  "retweeted": false,
+  "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

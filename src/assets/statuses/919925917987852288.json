@@ -74,6 +74,48 @@
             "h": 500,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 95,
+                "y": 50,
+                "h": 46,
+                "w": 46
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          }
         }
       }
     ]
@@ -114,6 +156,48 @@
             "h": 500,
             "resize": "fit"
           }
+        },
+        "features": {
+          "small": {
+            "faces": [
+              {
+                "x": 95,
+                "y": 50,
+                "h": 46,
+                "w": 46
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 140,
+                "y": 74,
+                "h": 68,
+                "w": 68
+              }
+            ]
+          }
         }
       }
     ]
@@ -151,17 +235,17 @@
       }
     },
     "protected": false,
-    "followers_count": 227,
-    "friends_count": 53,
-    "listed_count": 14,
+    "followers_count": 269,
+    "friends_count": 54,
+    "listed_count": 18,
     "created_at": "Fri Jun 24 14:13:48 +0000 2016",
-    "favourites_count": 122,
+    "favourites_count": 138,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 331,
-    "lang": "en",
+    "statuses_count": 377,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -169,9 +253,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/1027565796904644608/kVPM7FHr_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1027565796904644608/kVPM7FHr_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/746345585863622660/1536198068",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1177634957893816325/GvUXEhda_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1177634957893816325/GvUXEhda_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/746345585863622660/1569605146",
     "profile_link_color": "00BCD4",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -180,9 +264,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

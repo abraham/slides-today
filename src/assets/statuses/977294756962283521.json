@@ -79,6 +79,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1611,
+                "y": 749,
+                "h": 75,
+                "w": 75
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1624,
+                "y": 755,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 944,
+                "y": 438,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 535,
+                "y": 248,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          }
         }
       }
     ]
@@ -119,6 +161,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1611,
+                "y": 749,
+                "h": 75,
+                "w": 75
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1624,
+                "y": 755,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 944,
+                "y": 438,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 535,
+                "y": 248,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          }
         }
       }
     ]
@@ -132,10 +216,10 @@
   "user": {
     "id": 3999382594,
     "id_str": "3999382594",
-    "name": "Anjana @NodeConfAR 🇦🇷",
+    "name": "Anjana Vakil",
     "screen_name": "AnjanaVakil",
     "location": "San Francisco, CA",
-    "description": "Wanderer and wonderer.\nEngineering + Learning at @Mapbox.\n@Mozilla TechSpeaker.\nAlumna of @Outreachy, @RecurseCenter, @Uni_Saarland, & @UCBerkeley.",
+    "description": "Engineering + Learning + Maps at @Mapbox. @Mozilla TechSpeaker. Alumna @UCBerkeley, @Saar_Uni, @Outreachy, @RecurseCenter. https://t.co/OCjE7dGBIy",
     "url": "https://t.co/1TAxxiYIX9",
     "entities": {
       "url": {
@@ -152,21 +236,31 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/OCjE7dGBIy",
+            "expanded_url": "http://pronoun.is/she",
+            "display_url": "pronoun.is/she",
+            "indices": [
+              123,
+              146
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 13746,
-    "friends_count": 504,
-    "listed_count": 239,
+    "followers_count": 20333,
+    "friends_count": 749,
+    "listed_count": 345,
     "created_at": "Tue Oct 20 04:03:13 +0000 2015",
-    "favourites_count": 1829,
+    "favourites_count": 4026,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1101,
-    "lang": "en",
+    "statuses_count": 1815,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -174,10 +268,10 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/657238456280731648/YvIabjlq_normal.png",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1105218390203850752/aw5lKWkg_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1105218390203850752/aw5lKWkg_normal.png",
     "profile_banner_url": "https://pbs.twimg.com/profile_banners/3999382594/1457539458",
-    "profile_link_color": "19CF86",
+    "profile_link_color": "1B95E0",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
     "profile_text_color": "000000",
@@ -185,9 +279,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -196,7 +292,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 1,
-  "favorite_count": 25,
+  "favorite_count": 24,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

@@ -77,6 +77,36 @@
             "h": 355,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "202376085",
+                "screen_name": "pblatteier",
+                "name": "Pearl Latteier"
+              }
+            ]
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -117,6 +147,36 @@
             "h": 355,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              },
+              {
+                "type": "user",
+                "user_id": "202376085",
+                "screen_name": "pblatteier",
+                "name": "Pearl Latteier"
+              }
+            ]
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -141,17 +201,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1175,
-    "friends_count": 177,
-    "listed_count": 56,
+    "followers_count": 1486,
+    "friends_count": 188,
+    "listed_count": 63,
     "created_at": "Thu Jan 15 23:42:36 +0000 2009",
-    "favourites_count": 976,
+    "favourites_count": 1287,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 843,
-    "lang": "en",
+    "statuses_count": 946,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -159,8 +219,8 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/71363288/dismayed_martin_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/71363288/dismayed_martin_normal.jpg",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1112021968121970693/ncJY1ze8_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1112021968121970693/ncJY1ze8_normal.jpg",
     "profile_link_color": "1DA1F2",
     "profile_sidebar_border_color": "C0DEED",
     "profile_sidebar_fill_color": "DDEEF6",
@@ -169,9 +229,11 @@
     "has_extended_profile": true,
     "default_profile": true,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

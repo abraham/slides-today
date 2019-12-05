@@ -65,18 +65,18 @@
     "name": "Shashi Lo",
     "screen_name": "shashi_lo",
     "location": "Minneapolis, MN",
-    "description": "Senior Frontend Web Developer @ virtuwell",
-    "url": "http://t.co/oosRB1nDpO",
+    "description": "Senior Frontend Web Developer @ Magento, an Adobe company",
+    "url": "https://t.co/OeOQw98kjZ",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "http://t.co/oosRB1nDpO",
+            "url": "https://t.co/OeOQw98kjZ",
             "expanded_url": "http://about.me/shashi_lo",
             "display_url": "about.me/shashi_lo",
             "indices": [
               0,
-              22
+              23
             ]
           }
         ]
@@ -86,17 +86,17 @@
       }
     },
     "protected": false,
-    "followers_count": 227,
-    "friends_count": 537,
+    "followers_count": 225,
+    "friends_count": 547,
     "listed_count": 17,
     "created_at": "Mon May 24 12:32:45 +0000 2010",
-    "favourites_count": 91,
+    "favourites_count": 105,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 330,
-    "lang": "en",
+    "statuses_count": 344,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -114,9 +114,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

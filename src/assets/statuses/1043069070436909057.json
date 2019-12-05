@@ -87,6 +87,72 @@
             "h": 200,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 970,
+                "y": 130,
+                "h": 62,
+                "w": 62
+              },
+              {
+                "x": 164,
+                "y": 122,
+                "h": 79,
+                "w": 79
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1455,
+                "y": 195,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 247,
+                "y": 184,
+                "h": 119,
+                "w": 119
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1455,
+                "y": 195,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 247,
+                "y": 184,
+                "h": 119,
+                "w": 119
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 549,
+                "y": 73,
+                "h": 35,
+                "w": 35
+              },
+              {
+                "x": 93,
+                "y": 69,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          }
         }
       }
     ]
@@ -127,6 +193,72 @@
             "h": 200,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 970,
+                "y": 130,
+                "h": 62,
+                "w": 62
+              },
+              {
+                "x": 164,
+                "y": 122,
+                "h": 79,
+                "w": 79
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1455,
+                "y": 195,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 247,
+                "y": 184,
+                "h": 119,
+                "w": 119
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1455,
+                "y": 195,
+                "h": 94,
+                "w": 94
+              },
+              {
+                "x": 247,
+                "y": 184,
+                "h": 119,
+                "w": 119
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 549,
+                "y": 73,
+                "h": 35,
+                "w": 35
+              },
+              {
+                "x": 93,
+                "y": 69,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          }
         }
       }
     ]
@@ -140,16 +272,16 @@
   "user": {
     "id": 4179545055,
     "id_str": "4179545055",
-    "name": "Mobile Era 🇳🇴 Nov 1-2",
+    "name": "Mobile Era Conference 🇳🇴",
     "screen_name": "mobileeraconf",
     "location": "Oslo, Norway",
-    "description": "Northern Europe's Premier Conference for Mobile Developers. November 1-2 2018, Oslo, Norway. Speakers announced: https://t.co/Eh8vtYiGXW",
-    "url": "https://t.co/xKYD24G0Ys",
+    "description": "Northern Europe's Premier Conference for Mobile Developers. Oslo, Norway. Tweet at us with hashtag: #MobileEra & Join our slack! https://t.co/EXhLdo6FBP",
+    "url": "https://t.co/xKYD24oq6U",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/xKYD24G0Ys",
+            "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
             "indices": [
@@ -162,29 +294,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/Eh8vtYiGXW",
-            "expanded_url": "http://mobileera.rocks/speakers/",
-            "display_url": "mobileera.rocks/speakers/",
+            "url": "https://t.co/EXhLdo6FBP",
+            "expanded_url": "http://bit.ly/mobileera-slack",
+            "display_url": "bit.ly/mobileera-slack",
             "indices": [
-              113,
-              136
+              129,
+              152
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 580,
-    "friends_count": 264,
-    "listed_count": 29,
+    "followers_count": 848,
+    "friends_count": 320,
+    "listed_count": 45,
     "created_at": "Fri Nov 13 15:21:31 +0000 2015",
-    "favourites_count": 1228,
+    "favourites_count": 1777,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1078,
-    "lang": "en",
+    "statuses_count": 1519,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -203,9 +335,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

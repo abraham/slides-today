@@ -14,7 +14,7 @@
     "user_mentions": [
       {
         "screen_name": "polymer",
-        "name": "Polymer",
+        "name": "Polymer Project",
         "id": 1425993918,
         "id_str": "1425993918",
         "indices": [
@@ -69,6 +69,20 @@
             "h": 900,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -109,6 +123,20 @@
             "h": 900,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -122,10 +150,10 @@
   "user": {
     "id": 28761366,
     "id_str": "28761366",
-    "name": "Lars Knudsen  🇩🇰",
+    "name": "Lars Knudsen in 🇩🇰",
     "screen_name": "denladeside",
     "location": "Denmark",
-    "description": "Google Dev Expert, love working outside the box, combining music, graphics, games and mobile software development however I want to",
+    "description": "Google Dev Expert @maersk, love working outside the box, combining music, graphics, games and mobile software development however I want to",
     "url": "https://t.co/72ABuDR3Ge",
     "entities": {
       "url": {
@@ -146,17 +174,17 @@
       }
     },
     "protected": false,
-    "followers_count": 816,
-    "friends_count": 1081,
-    "listed_count": 16,
+    "followers_count": 1256,
+    "friends_count": 1566,
+    "listed_count": 28,
     "created_at": "Sat Apr 04 07:57:34 +0000 2009",
-    "favourites_count": 6369,
+    "favourites_count": 10174,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 3855,
-    "lang": "en",
+    "statuses_count": 5452,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -175,9 +203,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

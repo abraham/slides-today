@@ -29,7 +29,7 @@
     "user_mentions": [
       {
         "screen_name": "confooca",
-        "name": "ConFoo Conference",
+        "name": "ConFoo Developer Conference",
         "id": 59477405,
         "id_str": "59477405",
         "indices": [
@@ -71,16 +71,16 @@
     "id_str": "72260306",
     "name": "Zeeshan Rasool",
     "screen_name": "zeeshanrasool7",
-    "location": "Vancouver / Islamabad",
-    "description": "Design + Tech + Biz. Product Architect @Skyrkt. Founder @Quupe_Inc @MRKSmedia.",
-    "url": "https://t.co/aT9HqS7pRn",
+    "location": "Vancouver | Islamabad",
+    "description": "Product Architect // Building the next generation of products // @quupe_inc @skyrkt @mrksmedia",
+    "url": "https://t.co/2P3m9xMNkh",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/aT9HqS7pRn",
-            "expanded_url": "http://www.zeeshanrasool.com",
-            "display_url": "zeeshanrasool.com",
+            "url": "https://t.co/2P3m9xMNkh",
+            "expanded_url": "http://quupe.com",
+            "display_url": "quupe.com",
             "indices": [
               0,
               23
@@ -93,17 +93,17 @@
       }
     },
     "protected": false,
-    "followers_count": 335,
-    "friends_count": 400,
-    "listed_count": 31,
+    "followers_count": 327,
+    "friends_count": 368,
+    "listed_count": 28,
     "created_at": "Mon Sep 07 11:15:53 +0000 2009",
-    "favourites_count": 133,
+    "favourites_count": 147,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1429,
-    "lang": "en",
+    "statuses_count": 1449,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -122,9 +122,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

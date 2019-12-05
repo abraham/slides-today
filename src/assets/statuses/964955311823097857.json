@@ -87,6 +87,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1562,
+                "y": 620,
+                "h": 90,
+                "w": 90
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1562,
+                "y": 620,
+                "h": 90,
+                "w": 90
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 915,
+                "y": 363,
+                "h": 52,
+                "w": 52
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 518,
+                "y": 205,
+                "h": 29,
+                "w": 29
+              }
+            ]
+          }
         }
       }
     ]
@@ -127,6 +169,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1562,
+                "y": 620,
+                "h": 90,
+                "w": 90
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1562,
+                "y": 620,
+                "h": 90,
+                "w": 90
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 915,
+                "y": 363,
+                "h": 52,
+                "w": 52
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 518,
+                "y": 205,
+                "h": 29,
+                "w": 29
+              }
+            ]
+          }
         }
       }
     ]
@@ -140,10 +224,10 @@
   "user": {
     "id": 24482524,
     "id_str": "24482524",
-    "name": "Jessica Dene Earley-Cha 🍓",
+    "name": "Jessica Dene Earley-Cha",
     "screen_name": "chatasweetie",
-    "location": "San Francisco, CA",
-    "description": "Developer Advocate @ActionsOnGoogle | #AoGDevs | @WomenTechmakers lead | @gdisf teacher | Full Stack Developer | ❤️ 🍓 & 🐩 | #latinx | she/her",
+    "location": "Mountain View, CA",
+    "description": "Developer Avocado 🥑 @ActionsOnGoogle | #AoGDevs | former @WomenTechmakers lead & @gdisf teacher | Leadership @WomenInVoice | ❤️ 🍓 & 🐩 | #latinx | she/her",
     "url": "https://t.co/Pmm5qSv05Z",
     "entities": {
       "url": {
@@ -164,17 +248,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1175,
-    "friends_count": 795,
-    "listed_count": 54,
+    "followers_count": 1924,
+    "friends_count": 932,
+    "listed_count": 74,
     "created_at": "Sun Mar 15 03:50:53 +0000 2009",
-    "favourites_count": 2369,
+    "favourites_count": 5407,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1577,
-    "lang": "en",
+    "statuses_count": 2494,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -184,7 +268,7 @@
     "profile_background_tile": false,
     "profile_image_url": "http://pbs.twimg.com/profile_images/928318803380903936/nPNEE2gC_normal.jpg",
     "profile_image_url_https": "https://pbs.twimg.com/profile_images/928318803380903936/nPNEE2gC_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/24482524/1464578766",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/24482524/1557449353",
     "profile_link_color": "670067",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -193,9 +277,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

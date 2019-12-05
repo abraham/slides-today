@@ -52,7 +52,7 @@
       },
       {
         "screen_name": "gdgtc",
-        "name": "GDG Twin Cities",
+        "name": "GDG Twin Cities - DevFestMN Focus: ML+AI Sep 27th",
         "id": 48334750,
         "id_str": "48334750",
         "indices": [
@@ -97,6 +97,72 @@
             "h": 680,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 361,
+                "y": 633,
+                "h": 149,
+                "w": 149
+              },
+              {
+                "x": 355,
+                "y": 821,
+                "h": 143,
+                "w": 143
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 712,
+                "y": 1248,
+                "h": 295,
+                "w": 295
+              },
+              {
+                "x": 700,
+                "y": 1618,
+                "h": 283,
+                "w": 283
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 211,
+                "y": 371,
+                "h": 87,
+                "w": 87
+              },
+              {
+                "x": 208,
+                "y": 481,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 210,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 118,
+                "y": 272,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
         }
       }
     ]
@@ -137,6 +203,72 @@
             "h": 680,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 361,
+                "y": 633,
+                "h": 149,
+                "w": 149
+              },
+              {
+                "x": 355,
+                "y": 821,
+                "h": 143,
+                "w": 143
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 712,
+                "y": 1248,
+                "h": 295,
+                "w": 295
+              },
+              {
+                "x": 700,
+                "y": 1618,
+                "h": 283,
+                "w": 283
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 211,
+                "y": 371,
+                "h": 87,
+                "w": 87
+              },
+              {
+                "x": 208,
+                "y": 481,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 120,
+                "y": 210,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 118,
+                "y": 272,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
         }
       }
     ]
@@ -150,10 +282,10 @@
   "user": {
     "id": 999354697789202400,
     "id_str": "999354697789202433",
-    "name": "Mai Yer Lee",
+    "name": "MYL",
     "screen_name": "_maiyerlee",
     "location": "Minneapolis, MN",
-    "description": "Math enthusiast, lover of all things ketchup,  software engineer, podcast fanatic 👩‍💻",
+    "description": "Software Engineer 👩‍💻, Organizer @mplsjrdevs",
     "url": null,
     "entities": {
       "description": {
@@ -161,37 +293,39 @@
       }
     },
     "protected": false,
-    "followers_count": 7,
-    "friends_count": 58,
-    "listed_count": 0,
+    "followers_count": 51,
+    "friends_count": 265,
+    "listed_count": 1,
     "created_at": "Wed May 23 18:21:41 +0000 2018",
-    "favourites_count": 3,
+    "favourites_count": 275,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 10,
-    "lang": "en",
+    "statuses_count": 87,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
-    "profile_background_color": "F5F8FA",
-    "profile_background_image_url": null,
-    "profile_background_image_url_https": null,
+    "profile_background_color": "000000",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/1028467237030481921/caCrbiQ7_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1028467237030481921/caCrbiQ7_normal.jpg",
-    "profile_link_color": "1DA1F2",
-    "profile_sidebar_border_color": "C0DEED",
-    "profile_sidebar_fill_color": "DDEEF6",
-    "profile_text_color": "333333",
-    "profile_use_background_image": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1165666113608474626/UpXsH0te_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1165666113608474626/UpXsH0te_normal.jpg",
+    "profile_link_color": "00CCCC",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "000000",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
     "has_extended_profile": false,
-    "default_profile": true,
+    "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -233,7 +367,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 2,
-  "favorite_count": 16,
+  "favorite_count": 17,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

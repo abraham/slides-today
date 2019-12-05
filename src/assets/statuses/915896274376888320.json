@@ -22,7 +22,7 @@
     "user_mentions": [
       {
         "screen_name": "mobileeraconf",
-        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
         "id": 4179545055,
         "id_str": "4179545055",
         "indices": [
@@ -87,6 +87,120 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 341,
+                "y": 686,
+                "h": 48,
+                "w": 48
+              },
+              {
+                "x": 207,
+                "y": 116,
+                "h": 75,
+                "w": 75
+              },
+              {
+                "x": 206,
+                "y": 264,
+                "h": 71,
+                "w": 71
+              },
+              {
+                "x": 892,
+                "y": 138,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 582,
+                "y": 1172,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 354,
+                "y": 198,
+                "h": 128,
+                "w": 128
+              },
+              {
+                "x": 352,
+                "y": 452,
+                "h": 122,
+                "w": 122
+              },
+              {
+                "x": 1524,
+                "y": 236,
+                "h": 144,
+                "w": 144
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 582,
+                "y": 1172,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 354,
+                "y": 198,
+                "h": 128,
+                "w": 128
+              },
+              {
+                "x": 352,
+                "y": 452,
+                "h": 122,
+                "w": 122
+              },
+              {
+                "x": 1524,
+                "y": 236,
+                "h": 144,
+                "w": 144
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 193,
+                "y": 389,
+                "h": 27,
+                "w": 27
+              },
+              {
+                "x": 117,
+                "y": 65,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 116,
+                "y": 150,
+                "h": 40,
+                "w": 40
+              },
+              {
+                "x": 506,
+                "y": 78,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
         }
       }
     ]
@@ -127,6 +241,120 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 341,
+                "y": 686,
+                "h": 48,
+                "w": 48
+              },
+              {
+                "x": 207,
+                "y": 116,
+                "h": 75,
+                "w": 75
+              },
+              {
+                "x": 206,
+                "y": 264,
+                "h": 71,
+                "w": 71
+              },
+              {
+                "x": 892,
+                "y": 138,
+                "h": 84,
+                "w": 84
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 582,
+                "y": 1172,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 354,
+                "y": 198,
+                "h": 128,
+                "w": 128
+              },
+              {
+                "x": 352,
+                "y": 452,
+                "h": 122,
+                "w": 122
+              },
+              {
+                "x": 1524,
+                "y": 236,
+                "h": 144,
+                "w": 144
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 582,
+                "y": 1172,
+                "h": 82,
+                "w": 82
+              },
+              {
+                "x": 354,
+                "y": 198,
+                "h": 128,
+                "w": 128
+              },
+              {
+                "x": 352,
+                "y": 452,
+                "h": 122,
+                "w": 122
+              },
+              {
+                "x": 1524,
+                "y": 236,
+                "h": 144,
+                "w": 144
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 193,
+                "y": 389,
+                "h": 27,
+                "w": 27
+              },
+              {
+                "x": 117,
+                "y": 65,
+                "h": 42,
+                "w": 42
+              },
+              {
+                "x": 116,
+                "y": 150,
+                "h": 40,
+                "w": 40
+              },
+              {
+                "x": 506,
+                "y": 78,
+                "h": 47,
+                "w": 47
+              }
+            ]
+          }
         }
       }
     ]
@@ -151,7 +379,7 @@
       }
     },
     "protected": false,
-    "followers_count": 18,
+    "followers_count": 17,
     "friends_count": 21,
     "listed_count": 0,
     "created_at": "Fri Jan 04 13:21:25 +0000 2013",
@@ -161,7 +389,7 @@
     "geo_enabled": false,
     "verified": false,
     "statuses_count": 18,
-    "lang": "en",
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -179,9 +407,11 @@
     "has_extended_profile": true,
     "default_profile": true,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

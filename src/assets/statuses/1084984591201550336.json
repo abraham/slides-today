@@ -69,6 +69,30 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          }
         }
       }
     ]
@@ -109,6 +133,30 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          }
         }
       }
     ]
@@ -125,7 +173,7 @@
     "name": "Josh Thomas",
     "screen_name": "jthoms1",
     "location": "Madison, WI",
-    "description": "Dev at @Ionicframework working on @stenciljs. In Madison, previously Provo, St. Louis, and So Illinois. JS, FP and APIs. Organizer of @madjavascript.",
+    "description": "Product Manager at @Ionicframework working on @stenciljs. Organizer of @madjavascript.",
     "url": null,
     "entities": {
       "description": {
@@ -133,17 +181,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1324,
-    "friends_count": 738,
-    "listed_count": 89,
+    "followers_count": 1867,
+    "friends_count": 856,
+    "listed_count": 98,
     "created_at": "Sun Aug 24 03:09:47 +0000 2008",
-    "favourites_count": 14527,
+    "favourites_count": 21837,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 5928,
-    "lang": "en",
+    "statuses_count": 7305,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -162,9 +210,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": {
@@ -218,7 +268,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 3,
-  "favorite_count": 9,
+  "favorite_count": 10,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

@@ -24,9 +24,9 @@
       },
       {
         "screen_name": "flutterio",
-        "name": "Flutter",
-        "id": 420730316,
-        "id_str": "420730316",
+        "name": "Check out @FlutterDev for the latest from Flutter",
+        "id": 1105926449016463400,
+        "id_str": "1105926449016463361",
         "indices": [
           30,
           40
@@ -69,6 +69,48 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 459,
+                "y": 183,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 260,
+                "y": 104,
+                "h": 41,
+                "w": 41
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          }
         }
       }
     ]
@@ -109,6 +151,48 @@
             "h": 1536,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 459,
+                "y": 183,
+                "h": 72,
+                "w": 72
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 260,
+                "y": 104,
+                "h": 41,
+                "w": 41
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 784,
+                "y": 314,
+                "h": 124,
+                "w": 124
+              }
+            ]
+          }
         }
       }
     ]
@@ -125,14 +209,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -144,29 +228,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/xkQ8kgmapt",
-            "expanded_url": "https://slides.today",
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
             "display_url": "slides.today",
             "indices": [
-              109,
-              132
+              99,
+              122
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 9066,
-    "friends_count": 767,
+    "followers_count": 9330,
+    "friends_count": 1106,
     "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 25904,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 48830,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -185,9 +269,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,

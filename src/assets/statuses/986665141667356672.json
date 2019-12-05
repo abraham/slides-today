@@ -77,6 +77,20 @@
             "h": 1024,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          }
         }
       }
     ]
@@ -117,6 +131,20 @@
             "h": 1024,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          }
         }
       }
     ]
@@ -130,7 +158,7 @@
   "user": {
     "id": 284086094,
     "id_str": "284086094",
-    "name": "Nicole Lopez",
+    "name": "Nilo",
     "screen_name": "Bint_alBeatz",
     "location": "",
     "description": "",
@@ -141,17 +169,17 @@
       }
     },
     "protected": false,
-    "followers_count": 408,
-    "friends_count": 1151,
-    "listed_count": 16,
+    "followers_count": 406,
+    "friends_count": 1259,
+    "listed_count": 15,
     "created_at": "Mon Apr 18 16:02:24 +0000 2011",
-    "favourites_count": 3205,
+    "favourites_count": 4031,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 1961,
-    "lang": "en",
+    "statuses_count": 2204,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -170,9 +198,11 @@
     "has_extended_profile": false,
     "default_profile": true,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

@@ -77,6 +77,20 @@
             "h": 150,
             "resize": "crop"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          }
         }
       }
     ]
@@ -117,6 +131,20 @@
             "h": 150,
             "resize": "crop"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          }
         }
       }
     ]
@@ -133,14 +161,14 @@
     "name": "Abraham Williams",
     "screen_name": "abraham",
     "location": "Madison, WI",
-    "description": "• Sr. developer @Bendyworks\n• #WebTech/@Angular @GoogleDevExpert\n• @GoogleChrome CAB\n• International speaker https://t.co/xkQ8kgmapt\n• @GDGMadison organizer",
-    "url": "https://t.co/ck29y8mOBT",
+    "description": "• Sr Dev @Bendyworks • #WebTech/@Angular/@FlutterDev @GoogleDevExpert • @GoogleChrome CAB • Conf 🔊 https://t.co/5SyJuBOivM • @GDGMadison/@DevFestWI organizer • He/him",
+    "url": "https://t.co/Usfq8Nm4kN",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/ck29y8mOBT",
-            "expanded_url": "https://abrah.am/",
+            "url": "https://t.co/Usfq8Nm4kN",
+            "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
             "indices": [
               0,
@@ -152,29 +180,29 @@
       "description": {
         "urls": [
           {
-            "url": "https://t.co/xkQ8kgmapt",
-            "expanded_url": "https://slides.today",
+            "url": "https://t.co/5SyJuBOivM",
+            "expanded_url": "http://slides.today",
             "display_url": "slides.today",
             "indices": [
-              109,
-              132
+              99,
+              122
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 9002,
-    "friends_count": 763,
-    "listed_count": 604,
+    "followers_count": 9330,
+    "friends_count": 1106,
+    "listed_count": 606,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 25641,
+    "favourites_count": 35343,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 48718,
-    "lang": "en",
+    "statuses_count": 51516,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -193,9 +221,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "regular"
   },
   "geo": null,
@@ -203,8 +233,8 @@
   "place": null,
   "contributors": null,
   "is_quote_status": false,
-  "retweet_count": 0,
-  "favorite_count": 0,
+  "retweet_count": 2,
+  "favorite_count": 6,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

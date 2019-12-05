@@ -79,6 +79,168 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 703,
+                "y": 514,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 514,
+                "y": 521,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 735,
+                "y": 501,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 921,
+                "y": 512,
+                "h": 50,
+                "w": 50
+              },
+              {
+                "x": 671,
+                "y": 236,
+                "h": 112,
+                "w": 112
+              },
+              {
+                "x": 683,
+                "y": 4,
+                "h": 110,
+                "w": 110
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1200,
+                "y": 878,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 878,
+                "y": 890,
+                "h": 84,
+                "w": 84
+              },
+              {
+                "x": 1256,
+                "y": 856,
+                "h": 104,
+                "w": 104
+              },
+              {
+                "x": 1572,
+                "y": 874,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 1146,
+                "y": 404,
+                "h": 192,
+                "w": 192
+              },
+              {
+                "x": 1166,
+                "y": 8,
+                "h": 188,
+                "w": 188
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 398,
+                "y": 291,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 291,
+                "y": 295,
+                "h": 27,
+                "w": 27
+              },
+              {
+                "x": 417,
+                "y": 284,
+                "h": 34,
+                "w": 34
+              },
+              {
+                "x": 521,
+                "y": 290,
+                "h": 28,
+                "w": 28
+              },
+              {
+                "x": 380,
+                "y": 134,
+                "h": 63,
+                "w": 63
+              },
+              {
+                "x": 387,
+                "y": 2,
+                "h": 62,
+                "w": 62
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1200,
+                "y": 878,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 878,
+                "y": 890,
+                "h": 84,
+                "w": 84
+              },
+              {
+                "x": 1256,
+                "y": 856,
+                "h": 104,
+                "w": 104
+              },
+              {
+                "x": 1572,
+                "y": 874,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 1146,
+                "y": 404,
+                "h": 192,
+                "w": 192
+              },
+              {
+                "x": 1166,
+                "y": 8,
+                "h": 188,
+                "w": 188
+              }
+            ]
+          }
         }
       }
     ]
@@ -119,6 +281,168 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "medium": {
+            "faces": [
+              {
+                "x": 703,
+                "y": 514,
+                "h": 41,
+                "w": 41
+              },
+              {
+                "x": 514,
+                "y": 521,
+                "h": 49,
+                "w": 49
+              },
+              {
+                "x": 735,
+                "y": 501,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 921,
+                "y": 512,
+                "h": 50,
+                "w": 50
+              },
+              {
+                "x": 671,
+                "y": 236,
+                "h": 112,
+                "w": 112
+              },
+              {
+                "x": 683,
+                "y": 4,
+                "h": 110,
+                "w": 110
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1200,
+                "y": 878,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 878,
+                "y": 890,
+                "h": 84,
+                "w": 84
+              },
+              {
+                "x": 1256,
+                "y": 856,
+                "h": 104,
+                "w": 104
+              },
+              {
+                "x": 1572,
+                "y": 874,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 1146,
+                "y": 404,
+                "h": 192,
+                "w": 192
+              },
+              {
+                "x": 1166,
+                "y": 8,
+                "h": 188,
+                "w": 188
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 398,
+                "y": 291,
+                "h": 23,
+                "w": 23
+              },
+              {
+                "x": 291,
+                "y": 295,
+                "h": 27,
+                "w": 27
+              },
+              {
+                "x": 417,
+                "y": 284,
+                "h": 34,
+                "w": 34
+              },
+              {
+                "x": 521,
+                "y": 290,
+                "h": 28,
+                "w": 28
+              },
+              {
+                "x": 380,
+                "y": 134,
+                "h": 63,
+                "w": 63
+              },
+              {
+                "x": 387,
+                "y": 2,
+                "h": 62,
+                "w": 62
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1200,
+                "y": 878,
+                "h": 70,
+                "w": 70
+              },
+              {
+                "x": 878,
+                "y": 890,
+                "h": 84,
+                "w": 84
+              },
+              {
+                "x": 1256,
+                "y": 856,
+                "h": 104,
+                "w": 104
+              },
+              {
+                "x": 1572,
+                "y": 874,
+                "h": 86,
+                "w": 86
+              },
+              {
+                "x": 1146,
+                "y": 404,
+                "h": 192,
+                "w": 192
+              },
+              {
+                "x": 1166,
+                "y": 8,
+                "h": 188,
+                "w": 188
+              }
+            ]
+          }
         }
       }
     ]
@@ -132,10 +456,10 @@
   "user": {
     "id": 15965108,
     "id_str": "15965108",
-    "name": "JoshuaTS 👟",
+    "name": "Josh Thomas",
     "screen_name": "jthoms1",
     "location": "Madison, WI",
-    "description": "Dev at @Ionicframework working on @stenciljs. In Madison, previously Provo, St. Louis, and So Illinois. JS, FP and APIs. Organizer of @madjavascript.",
+    "description": "Product Manager at @Ionicframework working on @stenciljs. Organizer of @madjavascript.",
     "url": null,
     "entities": {
       "description": {
@@ -143,17 +467,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1173,
-    "friends_count": 713,
-    "listed_count": 83,
+    "followers_count": 1867,
+    "friends_count": 856,
+    "listed_count": 98,
     "created_at": "Sun Aug 24 03:09:47 +0000 2008",
-    "favourites_count": 13242,
+    "favourites_count": 21837,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 5592,
-    "lang": "en",
+    "statuses_count": 7305,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -161,8 +485,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/897859316513783808/exBCIyz0_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897859316513783808/exBCIyz0_normal.jpg",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1059563199886848001/tiMPEjsr_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1059563199886848001/tiMPEjsr_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/15965108/1541454731",
     "profile_link_color": "465B9B",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -171,9 +496,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

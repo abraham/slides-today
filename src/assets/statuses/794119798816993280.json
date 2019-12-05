@@ -34,7 +34,7 @@
       },
       {
         "screen_name": "mobileeraconf",
-        "name": "Mobile Era 🇳🇴 Nov 1-2",
+        "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
         "id": 4179545055,
         "id_str": "4179545055",
         "indices": [
@@ -79,6 +79,20 @@
             "h": 405,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -119,6 +133,20 @@
             "h": 405,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -135,18 +163,18 @@
     "name": "Johannes Brodwall",
     "screen_name": "jhannes",
     "location": "Oslo, Norway",
-    "description": "Programmer and provocateur. I want to help teams find their way together to more habitable code.",
-    "url": "http://t.co/JG5gZTRGP6",
+    "description": "Programmer and provocateur. I want to help teams find their way together to more habitable code. Father of two boys. He/him.",
+    "url": "https://t.co/BfGASyqA5T",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "http://t.co/JG5gZTRGP6",
+            "url": "https://t.co/BfGASyqA5T",
             "expanded_url": "http://johannesbrodwall.com",
             "display_url": "johannesbrodwall.com",
             "indices": [
               0,
-              22
+              23
             ]
           }
         ]
@@ -156,17 +184,17 @@
       }
     },
     "protected": false,
-    "followers_count": 3521,
-    "friends_count": 397,
+    "followers_count": 3706,
+    "friends_count": 452,
     "listed_count": 141,
     "created_at": "Mon Feb 11 23:45:53 +0000 2008",
-    "favourites_count": 1087,
+    "favourites_count": 2144,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 5031,
-    "lang": "en",
+    "statuses_count": 5850,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -185,9 +213,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

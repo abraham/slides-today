@@ -69,6 +69,20 @@
             "h": 550,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -109,6 +123,20 @@
             "h": 550,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -146,16 +174,16 @@
       }
     },
     "protected": false,
-    "followers_count": 146,
+    "followers_count": 166,
     "friends_count": 50,
-    "listed_count": 15,
+    "listed_count": 16,
     "created_at": "Tue Jul 28 15:57:37 +0000 2009",
-    "favourites_count": 156,
+    "favourites_count": 240,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 496,
+    "statuses_count": 585,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -175,9 +203,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -188,7 +218,7 @@
   "retweet_count": 4,
   "favorite_count": 8,
   "favorited": false,
-  "retweeted": false,
+  "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

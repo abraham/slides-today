@@ -77,7 +77,7 @@
     "name": "😆Tara Z. Manicsic🐺",
     "screen_name": "Tzmanics",
     "location": "Cincinnati, OH",
-    "description": "developer, electronics & clay & textile tinkerer, all-around good time...er",
+    "description": "craft().code().contemplate().communicate()",
     "url": "https://t.co/ejwv1LyV9l",
     "entities": {
       "url": {
@@ -98,17 +98,17 @@
       }
     },
     "protected": false,
-    "followers_count": 2321,
-    "friends_count": 683,
-    "listed_count": 110,
+    "followers_count": 3752,
+    "friends_count": 800,
+    "listed_count": 141,
     "created_at": "Sat Apr 20 00:12:20 +0000 2013",
-    "favourites_count": 5763,
+    "favourites_count": 7542,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2667,
-    "lang": "en",
+    "statuses_count": 3565,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -116,9 +116,9 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/885681028676763648/ZLEZUV_u_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/885681028676763648/ZLEZUV_u_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1499998143",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1159568519220092928/xGQ7HTuj_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365687402/1565297654",
     "profile_link_color": "ABB8C2",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -127,9 +127,11 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -227,6 +229,72 @@
               "h": 508,
               "resize": "fit"
             }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 837,
+                  "y": 437,
+                  "h": 99,
+                  "w": 99
+                },
+                {
+                  "x": 601,
+                  "y": 466,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 474,
+                  "y": 247,
+                  "h": 56,
+                  "w": 56
+                },
+                {
+                  "x": 340,
+                  "y": 264,
+                  "h": 62,
+                  "w": 62
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            }
           }
         }
       ]
@@ -267,6 +335,72 @@
               "h": 508,
               "resize": "fit"
             }
+          },
+          "features": {
+            "medium": {
+              "faces": [
+                {
+                  "x": 837,
+                  "y": 437,
+                  "h": 99,
+                  "w": 99
+                },
+                {
+                  "x": 601,
+                  "y": 466,
+                  "h": 110,
+                  "w": 110
+                }
+              ]
+            },
+            "large": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            },
+            "small": {
+              "faces": [
+                {
+                  "x": 474,
+                  "y": 247,
+                  "h": 56,
+                  "w": 56
+                },
+                {
+                  "x": 340,
+                  "y": 264,
+                  "h": 62,
+                  "w": 62
+                }
+              ]
+            },
+            "orig": {
+              "faces": [
+                {
+                  "x": 1430,
+                  "y": 746,
+                  "h": 170,
+                  "w": 170
+                },
+                {
+                  "x": 1026,
+                  "y": 796,
+                  "h": 188,
+                  "w": 188
+                }
+              ]
+            }
           }
         }
       ]
@@ -280,28 +414,41 @@
     "user": {
       "id": 860957169524629500,
       "id_str": "860957169524629508",
-      "name": "ConnectEvents.io",
+      "name": "connectevents.io",
       "screen_name": "connecteventsio",
-      "location": "",
-      "description": "",
-      "url": null,
+      "location": "Atlanta USA",
+      "description": "Technology Conference Creation, Execution and Production",
+      "url": "https://t.co/TVN68h3mNL",
       "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/TVN68h3mNL",
+              "expanded_url": "http://connectevents.io",
+              "display_url": "connectevents.io",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
         "description": {
           "urls": []
         }
       },
       "protected": false,
-      "followers_count": 77,
-      "friends_count": 5,
-      "listed_count": 1,
+      "followers_count": 143,
+      "friends_count": 20,
+      "listed_count": 2,
       "created_at": "Sat May 06 20:39:19 +0000 2017",
-      "favourites_count": 2,
+      "favourites_count": 9,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 324,
-      "lang": "en",
+      "statuses_count": 673,
+      "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
       "is_translation_enabled": false,
@@ -309,8 +456,9 @@
       "profile_background_image_url": null,
       "profile_background_image_url_https": null,
       "profile_background_tile": false,
-      "profile_image_url": "http://pbs.twimg.com/profile_images/860974371917012992/gor6ErYd_normal.jpg",
-      "profile_image_url_https": "https://pbs.twimg.com/profile_images/860974371917012992/gor6ErYd_normal.jpg",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1188092672780591104/jRrE5l5g_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1188092672780591104/jRrE5l5g_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/860957169524629508/1572099424",
       "profile_link_color": "1DA1F2",
       "profile_sidebar_border_color": "C0DEED",
       "profile_sidebar_fill_color": "DDEEF6",
@@ -319,9 +467,11 @@
       "has_extended_profile": false,
       "default_profile": true,
       "default_profile_image": false,
-      "following": null,
-      "follow_request_sent": null,
-      "notifications": null,
+      "can_media_tag": true,
+      "followed_by": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
       "translator_type": "none"
     },
     "geo": null,

@@ -89,6 +89,20 @@
             "h": 550,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -129,6 +143,20 @@
             "h": 550,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -166,16 +194,16 @@
       }
     },
     "protected": false,
-    "followers_count": 162,
+    "followers_count": 166,
     "friends_count": 50,
-    "listed_count": 15,
+    "listed_count": 16,
     "created_at": "Tue Jul 28 15:57:37 +0000 2009",
-    "favourites_count": 238,
+    "favourites_count": 240,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 582,
+    "statuses_count": 585,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -195,6 +223,8 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
+    "can_media_tag": true,
+    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -206,7 +236,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 5,
-  "favorite_count": 13,
+  "favorite_count": 14,
   "favorited": true,
   "retweeted": true,
   "possibly_sensitive": false,

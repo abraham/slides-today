@@ -69,6 +69,58 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1304,
+                "y": 396,
+                "h": 132,
+                "w": 132
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1304,
+                "y": 396,
+                "h": 132,
+                "w": 132
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 764,
+                "y": 232,
+                "h": 77,
+                "w": 77
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 432,
+                "y": 131,
+                "h": 43,
+                "w": 43
+              }
+            ]
+          }
         }
       }
     ]
@@ -109,6 +161,58 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "all": {
+            "tags": [
+              {
+                "type": "user",
+                "user_id": "9436992",
+                "screen_name": "abraham",
+                "name": "Abraham Williams"
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1304,
+                "y": 396,
+                "h": 132,
+                "w": 132
+              }
+            ]
+          },
+          "large": {
+            "faces": [
+              {
+                "x": 1304,
+                "y": 396,
+                "h": 132,
+                "w": 132
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 764,
+                "y": 232,
+                "h": 77,
+                "w": 77
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 432,
+                "y": 131,
+                "h": 43,
+                "w": 43
+              }
+            ]
+          }
         }
       }
     ]
@@ -124,16 +228,16 @@
     "id_str": "114582988",
     "name": "Matt Netkow",
     "screen_name": "dotNetkow",
-    "location": "Madison WI | Chicago IL",
-    "description": "Sr Product Evangelist @IonicFramework. @Pluralsight Author, Entrepreneur @Fitwatchr & @BeerSwift. @SlalomSeattle alum. Love heavy metal 🤘, hiking🥾,🍺, horror 😈",
-    "url": "https://t.co/j4iXoXHSwJ",
+    "location": "Madison WI || Chicago",
+    "description": "Product Marketing 🚀 & Head of DevRel 🥑 @IonicFramework. @Pluralsight Author. @SlalomSeattle alum. Love heavy metal 🤘, hiking 🥾, 🍺, & horror 😈. He/him",
+    "url": "https://t.co/aERJT766pM",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/j4iXoXHSwJ",
-            "expanded_url": "https://bit.ly/PGBFundamentals",
-            "display_url": "bit.ly/PGBFundamentals",
+            "url": "https://t.co/aERJT766pM",
+            "expanded_url": "https://www.netkow.com",
+            "display_url": "netkow.com",
             "indices": [
               0,
               23
@@ -146,17 +250,17 @@
       }
     },
     "protected": false,
-    "followers_count": 879,
-    "friends_count": 1304,
-    "listed_count": 66,
+    "followers_count": 1175,
+    "friends_count": 1492,
+    "listed_count": 67,
     "created_at": "Mon Feb 15 22:33:20 +0000 2010",
-    "favourites_count": 1474,
+    "favourites_count": 2483,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 5489,
-    "lang": "en",
+    "statuses_count": 6596,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -164,10 +268,10 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/741738487586529282/uRtQ2hdf_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/741738487586529282/uRtQ2hdf_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/114582988/1525190296",
-    "profile_link_color": "1B95E0",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1135377249178398720/l1xqBYfn_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1135377249178398720/l1xqBYfn_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/114582988/1569343560",
+    "profile_link_color": "548FFF",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
     "profile_text_color": "000000",
@@ -175,9 +279,11 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": true,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,

@@ -79,6 +79,20 @@
             "h": 900,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -119,6 +133,20 @@
             "h": 900,
             "resize": "fit"
           }
+        },
+        "features": {
+          "orig": {
+            "faces": []
+          },
+          "large": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          }
         }
       }
     ]
@@ -156,17 +184,17 @@
       }
     },
     "protected": false,
-    "followers_count": 381,
-    "friends_count": 30,
-    "listed_count": 35,
+    "followers_count": 428,
+    "friends_count": 32,
+    "listed_count": 36,
     "created_at": "Sun Oct 21 01:58:58 +0000 2012",
-    "favourites_count": 16,
+    "favourites_count": 17,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 501,
-    "lang": "en",
+    "statuses_count": 541,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -176,7 +204,7 @@
     "profile_background_tile": false,
     "profile_image_url": "http://pbs.twimg.com/profile_images/709153499053862912/Ki_Ni67W_normal.jpg",
     "profile_image_url_https": "https://pbs.twimg.com/profile_images/709153499053862912/Ki_Ni67W_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/894420716/1457910367",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/894420716/1572878554",
     "profile_link_color": "1DA1F2",
     "profile_sidebar_border_color": "C0DEED",
     "profile_sidebar_fill_color": "DDEEF6",
@@ -185,9 +213,11 @@
     "has_extended_profile": false,
     "default_profile": true,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -196,7 +226,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 5,
-  "favorite_count": 9,
+  "favorite_count": 8,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,

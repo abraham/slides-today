@@ -77,6 +77,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 953,
+                "y": 454,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 540,
+                "y": 257,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          }
         }
       }
     ]
@@ -117,6 +159,48 @@
             "h": 510,
             "resize": "fit"
           }
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 953,
+                "y": 454,
+                "h": 44,
+                "w": 44
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 540,
+                "y": 257,
+                "h": 25,
+                "w": 25
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 1628,
+                "y": 776,
+                "h": 76,
+                "w": 76
+              }
+            ]
+          }
         }
       }
     ]
@@ -130,10 +214,10 @@
   "user": {
     "id": 19208994,
     "id_str": "19208994",
-    "name": "Ⓜ️🅰️❎",
+    "name": "Max Katz",
     "screen_name": "maxkatz",
     "location": "San Francisco Bay Area",
-    "description": "Program Director, Developer Advocacy, 🥑👉👁🐝Ⓜ️",
+    "description": "Program Director, Developer Advocacy, @ibmdeveloper/@ibm || Previously @Evite, Sigma Storage, @Exadel, @Apperyio",
     "url": "https://t.co/y1SWjPrIqE",
     "entities": {
       "url": {
@@ -154,17 +238,17 @@
       }
     },
     "protected": false,
-    "followers_count": 1920,
-    "friends_count": 1034,
-    "listed_count": 202,
+    "followers_count": 2022,
+    "friends_count": 1095,
+    "listed_count": 200,
     "created_at": "Mon Jan 19 23:40:34 +0000 2009",
-    "favourites_count": 96,
+    "favourites_count": 112,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 23343,
-    "lang": "en",
+    "statuses_count": 25263,
+    "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
     "is_translation_enabled": false,
@@ -183,9 +267,11 @@
     "has_extended_profile": true,
     "default_profile": true,
     "default_profile_image": false,
-    "following": null,
-    "follow_request_sent": null,
-    "notifications": null,
+    "can_media_tag": true,
+    "followed_by": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
     "translator_type": "none"
   },
   "geo": null,
@@ -194,7 +280,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 1,
-  "favorite_count": 9,
+  "favorite_count": 8,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,
