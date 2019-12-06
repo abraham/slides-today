@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { MDCSnackbar } from '@material/snackbar/index';
+import { MDCSnackbar } from '@material/snackbar';
 
 declare global {
   interface Window {

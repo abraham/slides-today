@@ -1,7 +1,7 @@
 import { Location } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCTopAppBar } from '@material/top-app-bar/index';
+import { MDCTopAppBar } from '@material/top-app-bar';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
 import { DataService } from '../data.service';
