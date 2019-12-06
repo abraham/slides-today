@@ -45,11 +45,14 @@ export class ShareComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.menu = new MDCMenu(this.menuEl.nativeElement);
     this.initRipples();
+    this.showFab();
     this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
   }
 
   private initRipples(): void {
     MDCRipple.attachTo(this.fabEl.nativeElement);
+    [...this.menuEl.nativeElement.querySelectorAll('.mdc-list-item')]
+      .map((listItemEl: Element) => new MDCRipple(listItemEl));
   }
 
   private shareText(): string {
@@ -84,7 +87,6 @@ export class ShareComponent implements AfterViewInit {
   }
 
   public share(service: string) {
-    this.showFab();
     window.open(this.services[service]());
   }
 }

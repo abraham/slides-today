@@ -1,16 +1,16 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { CardActionComponent } from '../card-action/card-action.component';
+import { RippleDirective } from '../ripple.directive';
 
 @NgModule({
   declarations: [
-    CardActionComponent,
+    RippleDirective,
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    CardActionComponent,
+    RippleDirective,
   ]
 })
 export class CardModule { }
