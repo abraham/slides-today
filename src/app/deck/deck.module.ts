@@ -12,6 +12,11 @@ import { SpeakerComponent } from '../speaker/speaker.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { TagModule } from '../tag/tag.module';
 
+import(/* webpackChunkName: 'components' */ 'github-repository');
+import(/* webpackChunkName: 'components' */ 'node-package');
+import(/* webpackChunkName: 'components' */ 'twitter-status');
+import(/* webpackChunkName: 'components' */ '@justinribeiro/lite-youtube');
+
 const routes: Routes = [
   {
     path: '',
