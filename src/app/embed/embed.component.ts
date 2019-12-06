@@ -14,11 +14,16 @@ export class EmbedComponent implements OnInit {
   @Input() colors!: { color: string, backgroundColor: string };
 
   url?: SafeResourceUrl;
+  youtubeId?: string;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    this.setUrl();
+    if (this.link.service === 'youtube') {
+      this.youtubeId = this.parseYoutubeId();
+    } else {
+      this.setUrl();
+    }
   }
 
   height(): number {
@@ -32,7 +37,6 @@ export class EmbedComponent implements OnInit {
 
   get urlService(): { [index: string]: () => string } {
     return {
-      'youtube': this.buildYoutubeUrl.bind(this),
       'google-slides': this.buildGoogleSlidesUrl.bind(this),
       'vimeo': this.buildVimeoUrl.bind(this),
     };
@@ -40,7 +44,6 @@ export class EmbedComponent implements OnInit {
 
   get ratioService(): { [index: string]: number } {
     return {
-      'youtube': 315 / 560,
       'google-slides': 569 / 960,
       'vimeo': 340 / 640,
     };
@@ -52,10 +55,6 @@ export class EmbedComponent implements OnInit {
 
   buildVimeoUrl(): string {
     return  `https://player.vimeo.com/video/${this.parseVimeoId()}?title=0&byline=0&portrait=0&color=${this.backgroundColor()}`;
-  }
-
-  buildYoutubeUrl(): string {
-    return  `https://www.youtube.com/embed/${this.parseYoutubeId()}`;
   }
 
   buildGoogleSlidesUrl(): string {

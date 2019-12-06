@@ -32,6 +32,7 @@
     "@angular/router": "8.2.14",
     "@firebase/app": "0.4.26",
     "@firebase/firestore": "1.8.1",
+    "@justinribeiro/lite-youtube": "0.6.2",
     "@webcomponents/webcomponentsjs": "2.4.0",
     "autotrack": "2.4.1",
     "core-js": "3.4.7",

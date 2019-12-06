@@ -1,4 +1,6 @@
-<iframe [attr.src]="url"
+<lite-youtube *ngIf="youtubeId" [attr.videoid]="youtubeId"></lite-youtube>
+<iframe *ngIf="!youtubeId"
+        [attr.src]="url"
         frameborder="0"
         [width]="width"
         [height]="height()"
