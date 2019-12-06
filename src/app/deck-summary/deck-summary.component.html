@@ -7,7 +7,11 @@
     <app-tags [currentTags]="deck.tags"></app-tags>
   </section>
   <section class="card__secondary mdc-typography--body2">{{deck.description}}</section>
-  <section #actions class="mdc-card__actions mdc-card__actions--full-bleed">
-    <app-card-action [text]="'Details'" [url]="url" [blank]="false"></app-card-action>
+  <section #actions class="mdc-card__actions">
+    <a appRipple
+       [routerLink]="url"
+       class="mdc-button mdc-card__action mdc-card__action--button">
+      <span class="mdc-button__ripple"></span> Details
+    </a>
   </section>
 </div>

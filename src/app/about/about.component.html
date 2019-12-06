@@ -8,10 +8,12 @@
   </section>
   <section class="mdc-card__media" [style.backgroundImage]="'url('+ imageUrl +')'"></section>
   <section class="mdc-card__actions">
-    <app-card-action *ngFor="let link of links"
-                     [text]="link.title"
-                     [url]="link.url"
-                     [blank]="true">
-    </app-card-action>
+    <a *ngFor="let link of links"
+        appRipple
+        [href]="link.url"
+        target="_blank"
+        class="mdc-button mdc-card__action mdc-card__action--button">
+        <span class="mdc-button__ripple"></span> {{link.title}}
+    </a>
   </section>
 </div>
