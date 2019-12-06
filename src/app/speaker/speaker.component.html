@@ -12,11 +12,12 @@
     {{speaker.bio}}
   </section>
   <section class="mdc-card__actions">
-    <ng-template ngFor let-link [ngForOf]="speaker.links">
-      <app-card-action [text]="link.title"
-                       [url]="link.url"
-                       [blank]="true">
-      </app-card-action>
-    </ng-template>
+    <a *ngFor="let link of speaker.links"
+      appRipple
+      [href]="link.url"
+      target="_blank"
+      class="mdc-button mdc-card__action mdc-card__action--button">
+      <span class="mdc-button__ripple"></span> {{link.title}}
+    </a>
   </section>
 </div>
