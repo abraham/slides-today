@@ -34,7 +34,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   @Input() deck: Deck;
   @Output() onColorsChange = new EventEmitter<Theme>();
-  @ViewChild('detailsEl', { static: false }) detailsEl;
+  @ViewChild('detailsEl') detailsEl;
 
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title

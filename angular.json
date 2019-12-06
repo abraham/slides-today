@@ -12,6 +12,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/slides-today",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -40,6 +41,12 @@
           },
           "configurations": {
             "production": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -151,6 +158,7 @@
   "cli": {
     "warnings": {
       "typescriptMismatch": false
-    }
+    },
+    "analytics": "cee0e5aa-ccad-4ac5-9eb8-a1580c575194"
   }
 }
