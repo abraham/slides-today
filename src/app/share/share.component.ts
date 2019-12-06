@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
-import { MDCMenu } from '@material/menu/index';
-import { MDCRipple } from '@material/ripple/index';
+import { MDCMenu } from '@material/menu';
+import { MDCRipple } from '@material/ripple';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
 import { DataService } from '../data.service';
