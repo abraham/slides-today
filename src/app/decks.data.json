@@ -228,6 +228,12 @@
         "service": "google-slides"
       },
       {
+        "title": "Video",
+        "url": "https://www.youtube.com/watch?v=vNgyK4Wuayg",
+        "useAsTag": true,
+        "service": "youtube"
+      },
+      {
         "title": "Demo",
         "url": "https://era-of-dogs.web.app",
         "useAsTag": true,
@@ -1925,9 +1931,9 @@
       },
       {
         "title": "Video",
-        "url": "https://vimeo.com/298940533",
+        "url": "https://www.youtube.com/watch?v=Ki34ngu3-h4",
         "useAsTag": true,
-        "service": "vimeo"
+        "service": "youtube"
       }
     ],
     "resources": [
@@ -4015,9 +4021,9 @@
       },
       {
         "title": "Video",
-        "url": "https://vimeo.com/243435933",
+        "url": "https://www.youtube.com/watch?v=B1E5QcA_izQ",
         "useAsTag": true,
-        "service": "vimeo"
+        "service": "youtube"
       }
     ],
     "resources": [],
@@ -5226,9 +5232,9 @@
       },
       {
         "title": "Video",
-        "url": "https://vimeo.com/190713344",
+        "url": "https://www.youtube.com/watch?v=Nc4EAur6v4E",
         "useAsTag": true,
-        "service": "vimeo"
+        "service": "youtube"
       }
     ],
     "resources": [],
