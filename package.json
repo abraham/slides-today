@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "ng build",
-    "build:prod": "ng build --prod",
+    "build": "npm run clean && ng build",
+    "build:prod": "npm run clean && ng build --prod",
+    "clean": "rm -rf dist",
     "deploy": "ng deploy",
     "e2e": "ng e2e",
     "lint": "ng lint",
