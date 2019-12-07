@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
-import { MDCRipple } from '@material/ripple';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
 import { DataService } from '../data.service';
@@ -44,15 +43,8 @@ export class ShareComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.menu = new MDCMenu(this.menuEl.nativeElement);
-    this.initRipples();
     this.showFab();
     this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
-  }
-
-  private initRipples(): void {
-    MDCRipple.attachTo(this.fabEl.nativeElement);
-    [...this.menuEl.nativeElement.querySelectorAll('.mdc-list-item')]
-      .map((listItemEl: Element) => new MDCRipple(listItemEl));
   }
 
   private shareText(): string {

@@ -3,6 +3,8 @@ $mdc-theme-primary: #E65100;
 $mdc-theme-secondary: #E91E63;
 $mdc-theme-background: #FAFAFA;
 
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 @import '~@material/theme/mdc-theme';
 @import '~@material/typography/mdc-typography';
 

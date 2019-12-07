@@ -21,13 +21,14 @@
   "dependencies": {
     "@abraham/reflection": "0.7.0",
     "@angular/animations": "9.0.0-rc.5",
-    "@angular/cdk": "8.2.3",
+    "@angular/cdk": "9.0.0-rc.5",
     "@angular/common": "9.0.0-rc.5",
     "@angular/compiler": "9.0.0-rc.5",
     "@angular/core": "9.0.0-rc.5",
     "@angular/fire": "5.3.0-rc.1",
     "@angular/forms": "9.0.0-rc.5",
     "@angular/http": "7.2.15",
+    "@angular/material": "~9.0.0-rc.5",
     "@angular/platform-browser": "9.0.0-rc.5",
     "@angular/platform-browser-dynamic": "9.0.0-rc.5",
     "@angular/router": "9.0.0-rc.5",
@@ -39,6 +40,7 @@
     "autotrack": "2.4.1",
     "core-js": "3.4.7",
     "dayjs": "1.8.17",
+    "firebase": "7.5.2",
     "firebase-admin": "8.8.0",
     "github-repository": "0.3.0",
     "material-components-web": "4.0.0",
@@ -47,8 +49,7 @@
     "rxjs": "6.5.3",
     "tslib": "1.10.0",
     "twitter-status": "0.4.1",
-    "zone.js": "0.10.2",
-    "firebase": "7.5.2"
+    "zone.js": "0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.900.0-rc.5",
