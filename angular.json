@@ -28,11 +28,8 @@
               "src/favicon.png",
               "src/manifest.json",
               "src/robots.txt",
-              {
-                "glob": "workbox-sw.prod.v1.3.0.js",
-                "input": "node_modules/workbox-sw/build/importScripts",
-                "output": "/"
-              }
+              "src/sw.js",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.scss"
@@ -61,7 +58,9 @@
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
@@ -97,11 +96,7 @@
               "src/assets",
               "src/favicon.png",
               "src/manifest.json",
-              {
-                "glob": "workbox-sw.prod.v1.3.0.js",
-                "input": "node_modules/workbox-sw/build/importScripts",
-                "output": "/"
-              }
+              "src/manifest.webmanifest"
             ]
           }
         },

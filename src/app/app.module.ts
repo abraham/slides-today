@@ -9,6 +9,8 @@ import { DataService } from './data.service';
 import { HeaderComponent } from './header/header.component';
 import { TagModule } from './tag/tag.module';
 import { UpdateComponent } from './update/update.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { UpdateComponent } from './update/update.component';
     CardModule,
     LazyLoadImageModule,
     TagModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
