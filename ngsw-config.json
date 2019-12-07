@@ -1,0 +1,78 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "fonts",
+      "urls": [
+        "https://fontsgstatic.com/**",
+        "https://fonts.googleapis.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 25,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    },
+    {
+      "name": "maps",
+      "urls": [
+        "https://maps.googleapis.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 25,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    },
+    {
+      "name": "api-data",
+      "urls": [
+        "https://unpkg.com/**",
+        "https://api.github.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    },
+    {
+      "name": "twitter-images",
+      "urls": [
+        "https://pbs.twimg.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 25,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    }
+  ]
+}

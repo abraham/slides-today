@@ -4,14 +4,13 @@
   "license": "MIT",
   "scripts": {
     "build": "ng build",
-    "build:prod": "ng build --prod && npm run build:sw",
-    "build:sw": "node generate-sw.js",
+    "build:prod": "ng build --prod",
     "deploy": "npm run build:prod && firebase deploy",
     "e2e": "ng e2e",
     "lint": "ng lint",
     "ng": "ng",
     "start": "ng serve",
-    "start:prod": "npm run build:prod && lite-server --baseDir dist/slides-today",
+    "start:prod": "npm run build:prod && serve --single dist/slides-today",
     "test": "npm run build && npm run build:prod",
     "get-tweet": "ts-node --project scripts/tsconfig.json scripts/get-tweet.ts",
     "id": "ts-node --project scripts/tsconfig.json scripts/id.ts",
@@ -30,6 +29,7 @@
     "@angular/platform-browser": "9.0.0-rc.5",
     "@angular/platform-browser-dynamic": "9.0.0-rc.5",
     "@angular/router": "9.0.0-rc.5",
+    "@angular/service-worker": "9.0.0-rc.5",
     "@firebase/app": "0.4.26",
     "@firebase/firestore": "1.8.1",
     "@justinribeiro/lite-youtube": "0.6.2",
@@ -68,16 +68,14 @@
     "karma-coverage-istanbul-reporter": "2.1.1",
     "karma-jasmine": "2.0.1",
     "karma-jasmine-html-reporter": "1.4.2",
-    "lite-server": "2.5.4",
     "node-sass": "4.13.0",
     "protractor": "6.0.0",
+    "serve": "^11.2.0",
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
     "twit": "2.2.11",
     "twitter-d": "0.4.0",
-    "typescript": "3.6.4",
-    "workbox-build": "4.3.1",
-    "workbox-sw": "4.3.1"
+    "typescript": "3.6.4"
   },
   "engines": {
     "node": "12"

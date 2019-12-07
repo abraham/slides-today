@@ -7,22 +7,22 @@
   <title>Slides.today | Presentations from Abraham Williams and Pearl Latteier</title>
   <meta name="description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier">
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier" />
-  <meta name="twitter:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier" />
-  <meta name="twitter:image" content="/assets/img/today-192x192.png" />
-  <meta name="twitter:image:alt" content="today" />
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"/>
+  <meta name="twitter:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"/>
+  <meta name="twitter:image" content="/assets/img/today-192x192.png"/>
+  <meta name="twitter:image:alt" content="today"/>
 
-  <meta name="og:type" content="website" />
-  <meta name="og:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier" />
-  <meta name="og:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier" />
-  <meta name="og:image" content="/assets/img/today-192x192.png" />
-  <meta name="og:image:alt" content="today" />
+  <meta name="og:type" content="website"/>
+  <meta name="og:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"/>
+  <meta name="og:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"/>
+  <meta name="og:image" content="/assets/img/today-192x192.png"/>
+  <meta name="og:image:alt" content="today"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#FF9800"/>
   <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="/manifest.webmanifest">
 
   <style>
     html {
@@ -64,13 +64,6 @@
         script.async = 'async';
         document.body.appendChild(script);
       });
-
-      if(navigator.serviceWorker && location.host !== 'localhost:4200') {
-        navigator.serviceWorker.register('/sw.js')
-        .catch(function(err) {
-          console.error('Unable to register service worker.', err);
-        });
-      }
     });
 
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

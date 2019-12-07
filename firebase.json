@@ -34,12 +34,12 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=604800"
+            "value": "max-age=86400"
           }
         ]
       },
       {
-        "source": "*.@(js|css)",
+        "source": "**/*.@(js|css)",
         "headers": [
           {
             "key": "Cache-Control",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "source": "/sw.js",
+        "source": "/@(ngsw-worker.js|ngsw.json|sw.js)",
         "headers": [
           {
             "key": "Cache-Control",
