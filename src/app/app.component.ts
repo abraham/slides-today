@@ -17,7 +17,7 @@ export class AppComponent {
   }
 
   defaultTitle = 'Slides.today';
-  showBack = true;
+  showBack = false;
   title = this.defaultTitle;
 
   onActivate(event: RoutedComponents): void {
