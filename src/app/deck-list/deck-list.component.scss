@@ -1,6 +1,4 @@
-// Not implemented yet
-// $mdc-layout-grid-max-width: 1600px;
-
+@import '~@material/icon-button/mdc-icon-button';
 @import '~@material/layout-grid/mdc-layout-grid';
 
 app-header {
@@ -22,4 +20,8 @@ main {
 
 app-about {
   width: 100% !important;
+}
+
+.mdc-button {
+  float: right;
 }
