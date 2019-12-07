@@ -17,10 +17,6 @@ export class AboutComponent {
       url: 'https://twitter.com/pblatteier',
       title: '@pblatteier',
     },
-    {
-      url: 'https://bendyworks.com',
-      title: 'Bendyworks',
-    },
   ];
 
   constructor() { }
