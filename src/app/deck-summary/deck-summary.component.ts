@@ -16,11 +16,13 @@ export class DeckSummaryComponent implements OnInit {
   @Input() currentTags: string[] = [];
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
+  tags = '';
   of = of;
   url?: string;
 
   ngOnInit() {
     this.setUrl();
+    this.tags = this.deck.tags.map(tag => `#${tag}`).join(', ');
   }
 
   setUrl(): void {

@@ -1,17 +1,8 @@
 <div #cardEl class="mdc-card mdc-card--outlined">
   <section class="mdc-card__primary-action card__primary" (click)="goToDeck()">
-    <h1 class="card__title mdc-typography--headline6">{{deck.title}}</h1>
-    <h2 class="card__subtitle mdc-typography--subtitle2">{{deck.eventTitle}} · {{deck.date}}</h2>
+    <h1 class="card__title mdc-typography--headline4">{{deck.title}}</h1>
   </section>
-  <section class="card__secondary">
-    <app-tags [currentTags]="deck.tags"></app-tags>
-  </section>
-  <section class="card__secondary mdc-typography--body2">{{deck.description}}</section>
-  <section #actions class="mdc-card__actions">
-    <a appRipple
-       [routerLink]="url"
-       class="mdc-button mdc-card__action mdc-card__action--button">
-      <span class="mdc-button__ripple"></span> Details
-    </a>
-  </section>
+  <section class="card__secondary mdc-typography--body2">{{deck.eventTitle}} · {{deck.date}}</section>
+  <section class="card__secondary mdc-typography--body1">{{deck.description}}</section>
+  <section class="card__secondary mdc-typography--body2">{{tags}}</section>
 </div>
