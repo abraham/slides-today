@@ -1,5 +1,9 @@
-<app-header [title]="title" [showBack]="showBack"></app-header>
+<div id="wrapper" [ngStyle]="theme$ | async">
+  <app-header [title]="title" [showBack]="showBack"></app-header>
 
-<router-outlet (activate)='onActivate($event)'></router-outlet>
+  <div id="container">
+    <router-outlet (activate)='onActivate($event)'></router-outlet>
 
-<app-update></app-update>
+    <app-update></app-update>
+  </div>
+</div>

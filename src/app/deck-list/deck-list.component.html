@@ -10,14 +10,15 @@
     </div>
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
-        <app-about *ngIf="(selectedTagIds$ | async).length === 0" class="mdc-layout-grid__cell"></app-about>
+        <app-about *ngIf="(selectedTagIds$ | async).length === 0"
+                   class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-about>
 
         <app-deck-summary *ngFor="let deck of decks$ | async"
-                  [deck]="deck"
-                  class="mdc-layout-grid__cell"></app-deck-summary>
+                          [deck]="deck"
+                          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
         <div *ngIf="!(decks$ | async).length"
-            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
-            Nothing found for {{selectedTagIds$ | async}}
+             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
+          Nothing found for {{selectedTagIds$ | async}}
         </div>
       </div>
     </div>
