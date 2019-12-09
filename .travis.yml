@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "12"
+before_install:
+  - npm i -D typescript # Remove when @justinribeiro/lite-youtube switches back to NPM
 jobs:
   include:
     - name: Lint
