@@ -11,13 +11,11 @@ import { CardModule } from './card/card.module';
 import { DataService } from './data.service';
 import { HeaderComponent } from './header/header.component';
 import { TagModule } from './tag/tag.module';
-import { UpdateComponent } from './update/update.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    UpdateComponent,
   ],
   imports: [
     AppRoutingModule,

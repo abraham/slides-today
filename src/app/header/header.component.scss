@@ -1,4 +1,5 @@
 @import '~@material/top-app-bar/mdc-top-app-bar';
+@import '~@material/icon-button/mdc-icon-button';
 
 .mdc-top-app-bar {
   transition: background-color 400ms !important;
@@ -8,13 +9,24 @@
   transition: height 400ms !important;
 }
 
-.header-adjust {
-  transition: padding-top 400ms;
-}
-
 @media (min-width: 960px) {
   #title {
     max-width: 940px;
     margin: 0 auto;
   }
+}
+
+#update {
+  animation-name: spin;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
