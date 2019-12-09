@@ -21,8 +21,8 @@ export class Deck {
   title: string;
   tweetIds: string[];
 
-  private _cachedTweets? : Promise<Status[]>;
-  private _tags: string[];
+  private _cachedTweets?: Promise<Status[]>;
+  private _tags: string[] = [];
   private _date: {
     start: dayjs.Dayjs;
     end: dayjs.Dayjs;
@@ -67,7 +67,7 @@ export class Deck {
 
   public set tags(baseTags: string[]) {
     this._tags = baseTags.concat(this.linkTags)
-      .reduce((uniqueTags, tag) => {
+      .reduce((uniqueTags: string[], tag: string) => {
       return uniqueTags.includes(tag) ? uniqueTags : uniqueTags.concat(tag);
     }, []);
   }
