@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { RoutedComponents } from './app-routing.module';
 import { Theme } from './color';
 import { DataService } from './data.service';
@@ -14,12 +14,18 @@ export class AppComponent {
               private router: Router) {
     this.dataService.theme$.subscribe(this.setThemeColor.bind(this));
     this.dataService.path$.subscribe(this.updatePath.bind(this));
+    this.router.events.subscribe(event => {
+      if (event instanceof RouteConfigLoadEnd) {
+        this.firstLoad = false;
+      }
+    });
   }
 
   defaultTitle = 'Slides.today';
   showBack = false;
   title = this.defaultTitle;
   theme$ = this.dataService.theme$;
+  firstLoad = true;
 
   onActivate(event: RoutedComponents): void {
     if ('title' in event) {

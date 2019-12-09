@@ -1,3 +1,5 @@
+@import '~@material/layout-grid/mdc-layout-grid';
+
 #wrapper {
   transition: background-color 400ms !important;
 }
@@ -7,4 +9,8 @@
     max-width: 960px;
     margin: 0 auto;
   }
+}
+
+.mdc-card {
+  padding: 16px 16px 4px 16px;
 }
