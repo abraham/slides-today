@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { RoutedComponents } from './app-routing.module';
 import { Theme } from './color';
@@ -11,7 +12,8 @@ import { DataService } from './data.service';
 })
 export class AppComponent {
   constructor(private dataService: DataService,
-              private router: Router) {
+              private router: Router,
+              private meta: Meta) {
     this.dataService.theme$.subscribe(this.setThemeColor.bind(this));
     this.dataService.path$.subscribe(this.updatePath.bind(this));
     this.router.events.subscribe(event => {
@@ -41,11 +43,7 @@ export class AppComponent {
   }
 
   private setThemeColor(theme: Theme) {
-    this.themeEl.setAttribute('content', theme.backgroundColor);
-  }
-
-  private get themeEl() {
-    return document.querySelector('meta[name="theme-color"]');
+    this.meta.updateTag({ name: 'theme-color', content: theme.backgroundColor });
   }
 
   private updatePath(tagIds: string[]) {

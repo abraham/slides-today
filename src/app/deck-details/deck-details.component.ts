@@ -1,9 +1,9 @@
 import { Location } from '@angular/common';
-import { AfterContentChecked, Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { AfterContentChecked, Component, ElementRef, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { rgb, Theme } from '../color';
+import { DEFAULT_THEME, rgb, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
@@ -34,7 +34,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   @Input() deck: Deck;
   @Output() onColorsChange = new EventEmitter<Theme>();
-  @ViewChild('detailsEl') detailsEl;
+  @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title
@@ -43,13 +43,10 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   of = of;
   primaryTag$: Observable<Tag>;
   defaultImage = '/assets/img/default.png';
-  mapUrl: string;
-  embeds: Link[];
+  mapUrl?: string;
+  embeds: Link[] = [];
   embedWidth: number;
-  colors: {
-    color: string,
-    backgroundColor: string,
-  };
+  colors: Theme = DEFAULT_THEME;
 
   ngOnInit() {
     window.scrollTo(0, 0);
@@ -76,7 +73,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     this.setEmbeds(deck);
   }
 
-  private columnWidth(): number {
+  private get columnWidth(): number {
     if (!this.detailsEl) { return; }
     const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
     if (width >= 640) {
@@ -95,8 +92,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setEmbedWidth(): void {
-    if (this.embedWidth !== this.columnWidth()) {
-      this.embedWidth = this.columnWidth();
+    if (this.embedWidth !== this.columnWidth) {
+      this.embedWidth = this.columnWidth;
     }
   }
 
