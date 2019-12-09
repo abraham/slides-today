@@ -19,10 +19,16 @@ export class HeaderComponent implements AfterViewInit {
               update: UpdateService) {
     this.theme$ = this.dataService.theme$;
     update.$available.subscribe(() => this.updateAvailable = true);
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      this.deferredInstallPrompt = e;
+    });
   }
 
   theme$: Observable<Theme>;
   updateAvailable = false;
+  deferredInstallPrompt?: Event;
 
   @Input() title!: string;
   @Input() showBack = false;
@@ -32,6 +38,14 @@ export class HeaderComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.initToolbar();
+  }
+
+  openInstallPrompt() {
+    if (this.deferredInstallPrompt) {
+      // TODO: Remove any
+      (this.deferredInstallPrompt as any).prompt();
+      this.deferredInstallPrompt = undefined;
+    }
   }
 
   goHome (): void {
