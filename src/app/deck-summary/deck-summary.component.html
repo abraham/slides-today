@@ -1,8 +1,8 @@
-<div #cardEl class="mdc-card mdc-card--outlined">
-  <section class="mdc-card__primary-action card__primary" (click)="goToDeck()">
-    <h1 class="card__title mdc-typography--headline4">{{deck.title}}</h1>
-  </section>
-  <section class="card__secondary mdc-typography--body2">{{deck.eventTitle}} · {{deck.date}}</section>
-  <section class="card__secondary mdc-typography--body1">{{deck.description}}</section>
-  <section class="card__secondary mdc-typography--body2">{{tags}}</section>
+<div #cardEl class="mdc-card" [ngStyle]="style" (click)="goToDeck()">
+  <div class="mdc-card__primary-action">
+    <section class="card__primary">
+      <h2 class="card__title mdc-typography--headline3">{{deck.title}}</h2>
+    </section>
+    <section class="card__secondary mdc-typography--body1">{{deck.eventTitle}} · {{deck.date}}  · {{tags}}</section>
+  </div>
 </div>

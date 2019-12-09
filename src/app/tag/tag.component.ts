@@ -43,8 +43,8 @@ export class TagComponent implements OnInit {
 
   private setCurrentStyles(): void {
     this.currentStyles = {
-      border: `solid ${rgb(this.tag.primaryColor)} 1px`,
-      backgroundColor: rgb({ ...this.tag.primaryColor, a: 0.05 })
+      color: rgb(this.tag.complementaryColor),
+      backgroundColor: rgb(this.tag.primaryColor),
     };
   }
 

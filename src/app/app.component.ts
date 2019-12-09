@@ -19,6 +19,7 @@ export class AppComponent {
   defaultTitle = 'Slides.today';
   showBack = false;
   title = this.defaultTitle;
+  theme$ = this.dataService.theme$;
 
   onActivate(event: RoutedComponents): void {
     if ('title' in event) {

@@ -1,13 +1,11 @@
 <main class='mdc-layout-grid'>
   <div *ngIf="deck$ | async as deck; else loading" class="mdc-layout-grid__inner">
 
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-2-desktop"></div>
-
-    <div class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-8-desktop">
+    <div class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
 
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
-          <div #detailsEl class="item details mdc-card mdc-card--outlined">
+          <div #detailsEl class="item details mdc-card">
             <section class="card__primary">
               <h1 class="card__title mdc-typography--headline6">{{deck.title}}</h1>
               <h2 class="card__subtitle mdc-typography--subtitle2">{{deck.eventTitle}} · {{deck.date}}</h2>
@@ -42,7 +40,7 @@
           </ng-template>
 
           <div class="item" *ngIf="deck">
-            <div class="mdc-card mdc-card--outlined">
+            <div class="mdc-card">
               <section class="card__primary">
                 <h2 class="card__title mdc-typography--headline6">{{deck.location}}</h2>
               </section>
@@ -76,9 +74,6 @@
         </div>
       </div>
     </div>
-
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-2-desktop"></div>
-
   </div>
 
   <ng-template #loading>

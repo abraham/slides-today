@@ -28,9 +28,9 @@
   {
     "id": "polymer",
     "primaryColor": {
-      "r": 245,
-      "b": 0,
-      "g": 87
+      "r": 30,
+      "b": 229,
+      "g": 136
     },
     "complementaryColor": {
       "r": 255,
@@ -42,21 +42,21 @@
     "id": "twitterapi",
     "primaryColor": {
       "r": 29,
-      "b": 161,
-      "g": 242
+      "b": 242,
+      "g": 161
     },
     "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
+      "r": 255,
+      "b": 255,
+      "g": 255
     }
   },
   {
     "id": "php",
     "primaryColor": {
-      "r": 136,
-      "b": 146,
-      "g": 190
+      "r": 71,
+      "b": 138,
+      "g": 74
     },
     "complementaryColor": {
       "r": 255,
@@ -94,8 +94,8 @@
     "id": "firebase",
     "primaryColor": {
       "r": 255,
-      "b": 152,
-      "g": 0
+      "b": 40,
+      "g": 202
     },
     "complementaryColor": {
       "r": 0,
@@ -120,21 +120,21 @@
     "id": "actionsongoogle",
     "primaryColor": {
       "r": 66,
-      "b": 133,
-      "g": 244
+      "b": 245,
+      "g": 133
     },
     "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
+      "r": 255,
+      "b": 255,
+      "g": 255
     }
   },
   {
     "id": "angular",
     "primaryColor": {
-      "r": 221,
-      "b": 0,
-      "g": 49
+      "r": 195,
+      "b": 46,
+      "g": 0
     },
     "complementaryColor": {
       "r": 255,
@@ -159,8 +159,8 @@
     "id": "video",
     "primaryColor": {
       "r": 156,
-      "b": 39,
-      "g": 176
+      "g": 39,
+      "b": 176
     },
     "complementaryColor": {
       "r": 255,
@@ -184,9 +184,9 @@
   {
     "id": "threejs",
     "primaryColor": {
-      "r": 236,
-      "b": 239,
-      "g": 241
+      "r": 255,
+      "b": 255,
+      "g": 255
     },
     "complementaryColor": {
       "r": 0,
@@ -250,8 +250,8 @@
     "id": "javascript",
     "primaryColor": {
       "r": 247,
-      "b": 224,
-      "g": 24
+      "b": 30,
+      "g": 223
     },
     "complementaryColor": {
       "r": 0,
@@ -262,9 +262,9 @@
   {
     "id": "nutmeg",
     "primaryColor": {
-      "r": 77,
-      "b": 89,
-      "g": 123
+      "r": 69,
+      "b": 119,
+      "g": 77
     },
     "complementaryColor": {
       "r": 255,
@@ -302,26 +302,26 @@
     "id": "typescript",
     "primaryColor": {
       "r": 0,
-      "b": 122,
-      "g": 204
+      "b": 204,
+      "g": 122
     },
     "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
+      "r": 255,
+      "b": 255,
+      "g": 255
     }
   },
   {
     "id": "flutter",
     "primaryColor": {
-      "r": 0,
-      "b": 145,
-      "g": 234
+      "r": 2,
+      "b": 155,
+      "g": 86
     },
     "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
+      "r": 255,
+      "b": 255,
+      "g": 255
     }
   }
 ]

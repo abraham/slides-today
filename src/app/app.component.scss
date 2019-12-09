@@ -1,0 +1,10 @@
+#wrapper {
+  transition: background-color 400ms !important;
+}
+
+@media (min-width: 960px) {
+  #container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}

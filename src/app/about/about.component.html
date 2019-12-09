@@ -1,21 +1,8 @@
-<div class="mdc-card mdc-card--outlined">
-  <section class="card__primary card__primary">
-    <h2 class="card__title mdc-typography--headline4">Welcome to Slides.today</h2>
-  </section>
-  <section class="card__secondary mdc-typography--body2">
-    Abraham Williams & Pearl Latteier
+<div class="mdc-card">
+  <section class="card__primary">
+    <h2 class="card__title mdc-typography--headline3">Welcome to Slides.today</h2>
   </section>
   <section class="card__secondary mdc-typography--body1">
-    We're developers in Madison, WI, and we enjoy speaking at technical conferences. Find our presentation slides here.
-  </section>
-  <section class="mdc-card__media" [style.backgroundImage]="'url('+ imageUrl +')'"></section>
-  <section class="mdc-card__actions">
-    <a *ngFor="let link of links"
-        appRipple
-        [href]="link.url"
-        target="_blank"
-        class="mdc-button mdc-card__action mdc-card__action--button">
-        <span class="mdc-button__ripple"></span> {{link.title}}
-    </a>
+      Abraham Williams & Pearl Latteier · We're developers in Madison, WI, and we enjoy speaking at technical conferences. Find our presentation slides here.
   </section>
 </div>

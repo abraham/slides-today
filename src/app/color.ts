@@ -1,6 +1,6 @@
 export const DEFAULT_THEME = {
   color: '#000',
-  backgroundColor: 'rgb(255, 152, 0)',
+  backgroundColor: '#fff',
 };
 
 export interface Color {
@@ -16,9 +16,5 @@ export  interface Theme {
 }
 
 export function rgb(color: Color) {
-  if (color.a === undefined) {
-    return `rgb(${color.r}, ${color.g}, ${color.b})`;
-  } else {
-    return `rgba(${color.r}, ${color.g}, ${color.b}, ${color.a})`;
-  }
+  return `rgb(${color.r}, ${color.g}, ${color.b})`;
 }

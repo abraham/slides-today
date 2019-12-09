@@ -1,7 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
-import { Observable } from 'rxjs';
-import { Theme } from '../color';
+import { Theme, DEFAULT_THEME } from '../color';
 import { DataService } from '../data.service';
 
 interface ShareOptions {
@@ -25,10 +24,15 @@ declare global {
 })
 export class ShareComponent implements AfterViewInit {
   constructor(private dataService: DataService) {
-    this.theme$ = this.dataService.theme$;
+    this.dataService.theme$.subscribe(theme => {
+      this.theme = {
+        color: theme.backgroundColor,
+        backgroundColor: theme.color,
+      }
+    });
   }
 
-  theme$: Observable<Theme>;
+  theme = DEFAULT_THEME;
 
   private menu!: MDCMenu;
 

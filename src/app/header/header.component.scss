@@ -11,3 +11,10 @@
 .header-adjust {
   transition: padding-top 400ms;
 }
+
+@media (min-width: 960px) {
+  #title {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+}

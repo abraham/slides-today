@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { MDCChip, MDCChipSet } from '@material/chips';
+import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
 import { Tag } from '../tag';
