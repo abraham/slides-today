@@ -1,8 +1,8 @@
 {
   "short_name": "Slides.today",
   "name": "Slides.today",
-  "theme_color": "#FF9800",
-  "background_color": "#FF9800",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
