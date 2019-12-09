@@ -1,7 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { Router } from '@angular/router';
 import { fromEvent } from 'rxjs';
-import { rgb } from '../color';
+import { DEFAULT_THEME, rgb, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Tag } from '../tag';
 
@@ -23,11 +22,9 @@ interface ChipSelectionEvent extends CustomEvent {
   styleUrls: ['./tag.component.scss']
 })
 export class TagComponent implements OnInit {
-  constructor(private dataService: DataService,
-              private router: Router) {
-  }
+  constructor(private dataService: DataService) {}
 
-  currentStyles = {};
+  currentStyles: Theme = DEFAULT_THEME;
   selected = false;
 
   @Input() tag!: Tag;
