@@ -4,6 +4,7 @@ import { Link } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
 import tagData from './tags.data.json';
+import { formatTagList } from './text';
 
 export class Deck {
   archived: boolean;
@@ -73,6 +74,10 @@ export class Deck {
 
   public get tags(): string[] {
     return this._tags;
+  }
+
+  get tagsSentence(): string {
+    return formatTagList(this.tags);
   }
 
   public get theme() {

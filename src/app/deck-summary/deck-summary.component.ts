@@ -1,7 +1,5 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import 'intl-list-format';
-import "intl-list-format/locale-data/en";
 import { of } from 'rxjs';
 import { rgb, Theme } from '../color';
 import { Deck } from '../deck';
@@ -29,7 +27,6 @@ export class DeckSummaryComponent implements OnInit {
 
   ngOnInit() {
     this.setUrl();
-    this.tags = this.formatter.format(this.deck.tags.map(tag => `#${tag}`));
     this.style = {
       color: rgb(this.deck.theme.complementaryColor),
       backgroundColor: rgb(this.deck.theme.primaryColor),
@@ -42,10 +39,5 @@ export class DeckSummaryComponent implements OnInit {
 
   goToDeck(): void {
     this.router.navigate([this.url]);
-  }
-
-  private get formatter() {
-    // TODO: Fix any
-    return new (Intl as any).ListFormat('en', { style: 'long', type: 'conjunction' });
   }
 }

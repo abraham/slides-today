@@ -2,7 +2,7 @@
   <div class="mdc-layout-grid__inner">
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <app-tags *ngIf="!mobile"></app-tags>
-      <button *ngIf="mobile" class="mdc-button" (click)="openTagsSheet()" appRipple>
+      <button *ngIf="mobile" class="mdc-button mdc-button--outlined" (click)="openTagsSheet()" appRipple>
         <div class="mdc-button__ripple"></div>
         <svg class="mdc-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
         <span class="mdc-button__label">Tags</span>
@@ -18,7 +18,8 @@
                           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
         <div *ngIf="!(decks$ | async).length"
              class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
-          Nothing found for {{selectedTagIds$ | async}}
+          Nothing found that includes all the following tags:
+          <app-tags [currentTags]="selectedTagIds$ | async"></app-tags>
         </div>
       </div>
     </div>
