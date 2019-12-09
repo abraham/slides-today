@@ -2,12 +2,15 @@ import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular
 import { MDCMenu } from '@material/menu';
 import { Theme, DEFAULT_THEME } from '../color';
 import { DataService } from '../data.service';
+import * as clipboard from "clipboard-polyfill"
 
 interface ShareOptions {
   title: string;
   text: string;
   url: string;
 }
+
+type Service = 'twitter' | 'facebook' | 'clipboard';
 
 type NavigatorShare = (options: ShareOptions) => Promise<{}>;
 
@@ -41,8 +44,8 @@ export class ShareComponent implements AfterViewInit {
   @Input() text = '';
 
   private services: { [key: string]: () => string } = {
-    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText()} ${this.shareUrl()}`,
-    facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl()}`,
+    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
+    facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
   };
 
   ngAfterViewInit() {
@@ -51,11 +54,11 @@ export class ShareComponent implements AfterViewInit {
     this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
   }
 
-  private shareText(): string {
+  private get shareText(): string {
     return encodeURIComponent(this.text);
   }
 
-  private shareUrl(): string {
+  private get shareUrl(): string {
     return encodeURIComponent(window.location.href);
   }
 
@@ -82,7 +85,12 @@ export class ShareComponent implements AfterViewInit {
     };
   }
 
-  public share(service: string) {
-    window.open(this.services[service]());
+  public share(service: Service) {
+    if (service === 'clipboard') {
+      clipboard.writeText(window.location.href)
+               .catch(() => alert('Error copying URL'));
+    } else {
+      window.open(this.services[service]());
+    }
   }
 }
