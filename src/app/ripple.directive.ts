@@ -7,6 +7,6 @@ import { MDCRipple } from '@material/ripple';
 export class RippleDirective {
   constructor(private el: ElementRef) {
     const ripple = MDCRipple.attachTo(this.el.nativeElement);
-    // ripple.unbounded = true;
+    ripple.unbounded = true;
   }
 }

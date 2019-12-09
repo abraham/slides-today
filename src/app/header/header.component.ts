@@ -5,6 +5,7 @@ import { MDCTopAppBar } from '@material/top-app-bar';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
 import { DataService } from '../data.service';
+import { UpdateService } from '../update.service';
 
 @Component({
   selector: 'app-header',
@@ -14,11 +15,14 @@ import { DataService } from '../data.service';
 export class HeaderComponent implements AfterViewInit {
   constructor(private dataService: DataService,
               private location: Location,
-              private router: Router) {
+              private router: Router,
+              update: UpdateService) {
     this.theme$ = this.dataService.theme$;
+    update.$available.subscribe(() => this.updateAvailable = true);
   }
 
   theme$: Observable<Theme>;
+  updateAvailable = false;
 
   @Input() title!: string;
   @Input() showBack = false;
