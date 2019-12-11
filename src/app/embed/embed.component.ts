@@ -1,5 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { DEFAULT_THEME, Theme } from '../color';
 import { Link } from '../link';
 
 @Component({
@@ -7,18 +8,25 @@ import { Link } from '../link';
   templateUrl: './embed.component.html',
   styleUrls: ['./embed.component.scss']
 })
-export class EmbedComponent implements OnInit {
-  @Input() title!: string;
+export class EmbedComponent implements OnInit, OnChanges {
+  @Input() title: string = '';
   @Input() link!: Link;
-  @Input() width!: number;
-  @Input() colors!: { color: string, backgroundColor: string };
+  @Input() width: number = 200;
+  @Input() colors: Theme = DEFAULT_THEME;
 
+  height: number = 120;
   url?: SafeResourceUrl;
   youtubeId?: string;
+  placeholder = true;
+  dimensionStyles = {
+    width: `${this.width}px`,
+    height: `${this.height}px`,
+  }
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    this.setHeight();
     if (this.link.service === 'youtube') {
       this.youtubeId = this.parseYoutubeId();
     } else {
@@ -26,46 +34,57 @@ export class EmbedComponent implements OnInit {
     }
   }
 
-  height(): number {
-    return Math.round((this.width + 29) * this.ratioService[this.link.service]);
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes.width) {
+      this.width = changes.width.currentValue;
+      this.setHeight();
+      this.dimensionStyles = {
+        width: `${this.width}px`,
+        height: `${this.height}px`,
+      };
+    }
   }
 
-  setUrl(): void {
+  setHeight(): void {
+    this.height = Math.round((this.width + 29) * this.ratioService[this.link.service]);
+  }
+
+  private setUrl(): void {
     const unsafeUrl = this.urlService[this.link.service]();
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(unsafeUrl);
   }
 
-  get urlService(): { [index: string]: () => string } {
+  private get urlService(): { [index: string]: () => string } {
     return {
       'google-slides': this.buildGoogleSlidesUrl.bind(this),
       'vimeo': this.buildVimeoUrl.bind(this),
     };
   }
 
-  get ratioService(): { [index: string]: number } {
+  private get ratioService(): { [index: string]: number } {
     return {
       'google-slides': 569 / 960,
       'vimeo': 340 / 640,
     };
   }
 
-  backgroundColor() {
+  private backgroundColor() {
     return this.colors.backgroundColor.split('#')[1];
   }
 
-  buildVimeoUrl(): string {
+  private buildVimeoUrl(): string {
     return  `https://player.vimeo.com/video/${this.parseVimeoId()}?title=0&byline=0&portrait=0&color=${this.backgroundColor()}`;
   }
 
-  buildGoogleSlidesUrl(): string {
+  private buildGoogleSlidesUrl(): string {
     return `${this.link.url}/embed?start=false&loop=false&delayms=30000`;
   }
 
-  parseVimeoId(): string {
+  private parseVimeoId(): string {
     return this.link.url.split('.com/')[1];
   }
 
-  parseYoutubeId(): string {
+  private parseYoutubeId(): string {
     return this.link.url.split('?v=')[1];
   }
 }
