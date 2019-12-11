@@ -10,7 +10,7 @@ export interface Color {
   a?: number;
 }
 
-export  interface Theme {
+export interface Theme {
   color: string;
   backgroundColor: string;
 }
