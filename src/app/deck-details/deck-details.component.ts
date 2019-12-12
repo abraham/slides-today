@@ -1,5 +1,5 @@
 import { Location } from '@angular/common';
-import { AfterContentChecked, Component, ElementRef, EventEmitter, Input, OnInit, Output, ViewChild } from '@angular/core';
+import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, EventEmitter, OnInit, Output, ViewChild, ViewContainerRef } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
@@ -18,7 +18,9 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   constructor(private dataService: DataService,
               private route: ActivatedRoute,
               private location: Location,
-              private router: Router) {
+              private router: Router,
+              private viewContainer: ViewContainerRef,
+              private resolver: ComponentFactoryResolver) {
     this.deck$ = this.route.paramMap.pipe(
       map(params => params.get('id')),
       switchMap(id => this.dataService.deck$(id)),
@@ -27,12 +29,16 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       switchMap(deck => this.dataService.tag$(deck.tags[0])),
     );
 
-    this.primaryTag$.subscribe(this.setColors.bind(this));
-    this.deck$.subscribe(this.init.bind(this));
+    this.primaryTag$.subscribe((tag) => this.setColors(tag));
+    this.deck$.subscribe((deck) => {
+      this.deck = deck;
+      this.init();
+    });
     this.theme$ = this.dataService.theme$;
   }
 
-  @Input() deck: Deck;
+  private deck: Deck;
+  private theme: Theme = DEFAULT_THEME;
   @Output() onColorsChange = new EventEmitter<Theme>();
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
@@ -50,6 +56,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   ngOnInit() {
     window.scrollTo(0, 0);
+    this.loadShareComponent();
   }
 
   ngAfterContentChecked() {
@@ -68,9 +75,17 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     window.open(url);
   }
 
-  private init(deck: Deck) {
+  private init() {
     this.setEmbedWidth();
-    this.setEmbeds(deck);
+    this.setEmbeds(this.deck);
+  }
+
+  private async loadShareComponent() {
+    setTimeout(async () => {
+      const { ShareComponent } = await import(/* webpackChunkName: 'share' */ '../share/share.component');
+      const share = this.viewContainer.createComponent(this.resolver.resolveComponentFactory(ShareComponent));
+      share.instance.text = this.deck.title;
+    }, 1000);
   }
 
   private get columnWidth(): number {

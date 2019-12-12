@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
-import { Theme, DEFAULT_THEME } from '../color';
+import * as clipboard from "clipboard-polyfill";
+import { Theme } from '../color';
 import { DataService } from '../data.service';
-import * as clipboard from "clipboard-polyfill"
 
 interface ShareOptions {
   title: string;
@@ -35,11 +35,10 @@ export class ShareComponent implements AfterViewInit {
     });
   }
 
-  theme = DEFAULT_THEME;
-
+  private theme?: Theme;
   private menu!: MDCMenu;
 
-  @ViewChild('fabEl', { static: true }) fabEl!: ElementRef;
+  @ViewChild('fabEl', { static: true }) fabEl?: ElementRef;
   @ViewChild('menuEl', { static: true }) menuEl!: ElementRef;
   @Input() text = '';
 
@@ -48,10 +47,21 @@ export class ShareComponent implements AfterViewInit {
     facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
   };
 
+  ngOnInit() {
+    this.setTheme();
+  }
+
   ngAfterViewInit() {
     this.menu = new MDCMenu(this.menuEl.nativeElement);
     this.showFab();
     this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
+  }
+
+
+  private setTheme() {
+    if (!this.fabEl || !this.theme) { return; }
+    this.fabEl.nativeElement.style.color = this.theme.color;
+    this.fabEl.nativeElement.style.backgroundColor = this.theme.backgroundColor;
   }
 
   private get shareText(): string {
