@@ -39,7 +39,7 @@
     "@webcomponents/webcomponentsjs": "2.4.0",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "2.8.6",
-    "core-js": "3.4.8",
+    "core-js": "3.5.0",
     "dayjs": "1.8.17",
     "firebase": "7.5.2",
     "firebase-admin": "8.8.0",
