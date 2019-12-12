@@ -6,11 +6,11 @@ import { DeckListComponent } from './deck-list/deck-list.component';
 const routes: Routes = [
   {
     path: 'decks/:id',
-    loadChildren: () => import('./deck/deck.module').then(m => m.DeckModule)
+    loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule)
   },
   {
     path: '**',
-    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
+    loadChildren: () => import(/* webpackChunkName: 'home' */ './home/home.module').then(m => m.HomeModule)
   },
 ];
 
