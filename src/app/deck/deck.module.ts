@@ -7,7 +7,6 @@ import { DeckDetailsComponent } from '../deck-details/deck-details.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
 import { EmbedComponent } from '../embed/embed.component';
 import { MapComponent } from '../map/map.component';
-import { ShareComponent } from '../share/share.component';
 import { SpeakerComponent } from '../speaker/speaker.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { TagModule } from '../tag/tag.module';
@@ -30,7 +29,6 @@ const routes: Routes = [
     DeckResourcesComponent,
     EmbedComponent,
     MapComponent,
-    ShareComponent,
     SpeakerComponent,
     SponsorComponent,
   ],
