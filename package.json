@@ -41,7 +41,7 @@
     "clipboard-polyfill": "2.8.6",
     "core-js": "3.5.0",
     "dayjs": "1.8.17",
-    "firebase": "7.5.2",
+    "firebase": "7.6.0",
     "firebase-admin": "8.8.0",
     "github-repository": "0.3.0",
     "intl-list-format": "1.0.3",
