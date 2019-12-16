@@ -9,19 +9,19 @@ import { Link } from '../link';
   styleUrls: ['./embed.component.scss']
 })
 export class EmbedComponent implements OnInit, OnChanges {
-  @Input() title: string = '';
+  @Input() title = '';
   @Input() link!: Link;
-  @Input() width: number = 200;
+  @Input() width = 200;
   @Input() colors: Theme = DEFAULT_THEME;
 
-  height: number = 120;
+  height = 120;
   url?: SafeResourceUrl;
   youtubeId?: string;
   placeholder = true;
   dimensionStyles = {
     width: `${this.width}px`,
     height: `${this.height}px`,
-  }
+  };
 
   constructor(private sanitizer: DomSanitizer) { }
 
@@ -56,15 +56,15 @@ export class EmbedComponent implements OnInit, OnChanges {
 
   private get urlService(): { [index: string]: () => string } {
     return {
-      'google-slides': this.buildGoogleSlidesUrl.bind(this),
-      'vimeo': this.buildVimeoUrl.bind(this),
+      slides: this.buildGoogleSlidesUrl.bind(this),
+      vimeo: this.buildVimeoUrl.bind(this),
     };
   }
 
   private get ratioService(): { [index: string]: number } {
     return {
-      'google-slides': 569 / 960,
-      'vimeo': 340 / 640,
+      slides: 569 / 960,
+      vimeo: 340 / 640,
     };
   }
 

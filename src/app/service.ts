@@ -1,1 +1,1 @@
-export type Service = 'external' | 'youtube' | 'google-slides' | 'joindin' | 'vimeo' | 'meetup';
+export type Service = 'external' | 'youtube' | 'slides' | 'joindin' | 'vimeo' | 'meetup';

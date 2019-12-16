@@ -21,15 +21,15 @@ export class Deck {
   title: string;
   tweetIds: string[];
 
-  private _cachedTweets?: Promise<Status[]>;
-  private _tags: string[] = [];
-  private _date: {
+  private cachedTweets?: Promise<Status[]>;
+  private cachedTags: string[] = [];
+  private cachedDate: {
     start: dayjs.Dayjs;
     end: dayjs.Dayjs;
   };
 
   constructor(data: any) {
-    this._date = {
+    this.cachedDate = {
       start: dayjs(data.date.start).add(1, 'day'),
       end: dayjs(data.date.end).add(1, 'day')
     };
@@ -50,30 +50,30 @@ export class Deck {
   }
 
   public get tweets(): Promise<Status[]> {
-    if (this._cachedTweets) {
-      return this._cachedTweets;
+    if (this.cachedTweets) {
+      return this.cachedTweets;
     }
-    this._cachedTweets = Promise.all(this.tweetIds.map(this.getStatus));
-    return this._cachedTweets;
+    this.cachedTweets = Promise.all(this.tweetIds.map(this.getStatus));
+    return this.cachedTweets;
   }
 
   public get date(): string {
-    if (this._date.start.isSame(this._date.end)) {
-      return this._date.start.format('MMM D, YYYY');
+    if (this.cachedDate.start.isSame(this.cachedDate.end)) {
+      return this.cachedDate.start.format('MMM D, YYYY');
     } else {
-      return `${this._date.start.format('MMM D')}-${this._date.end.format('D, YYYY')}`;
+      return `${this.cachedDate.start.format('MMM D')}-${this.cachedDate.end.format('D, YYYY')}`;
     }
   }
 
   public set tags(baseTags: string[]) {
-    this._tags = baseTags.concat(this.linkTags)
+    this.cachedTags = baseTags.concat(this.linkTags)
       .reduce((uniqueTags: string[], tag: string) => {
       return uniqueTags.includes(tag) ? uniqueTags : uniqueTags.concat(tag);
     }, []);
   }
 
   public get tags(): string[] {
-    return this._tags;
+    return this.cachedTags;
   }
 
   get tagsSentence(): string {
@@ -88,7 +88,7 @@ export class Deck {
   }
 
   private get primaryTag(): Tag {
-    return tagData.find(tag => tag.id === this.tags[0])!;
+    return tagData.find(tag => tag.id === this.tags[0]) as Tag;
   }
 
   private get linkTags(): string[] {

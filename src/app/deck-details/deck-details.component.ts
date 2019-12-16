@@ -1,5 +1,5 @@
 import { Location } from '@angular/common';
-import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, EventEmitter, OnInit, Output, ViewChild, ViewContainerRef } from '@angular/core';
+import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
@@ -38,8 +38,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private deck: Deck;
-  private theme: Theme = DEFAULT_THEME;
-  @Output() onColorsChange = new EventEmitter<Theme>();
+
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
@@ -113,7 +112,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setEmbeds(deck: Deck): void {
-    const embedServices = ['youtube', 'google-slides', 'vimeo'];
+    const embedServices = ['youtube', 'slides', 'vimeo'];
     this.embeds = deck.links.filter(link => embedServices.includes(link.service));
   }
 }

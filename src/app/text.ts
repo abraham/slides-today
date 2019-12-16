@@ -1,5 +1,5 @@
 import 'intl-list-format';
-import "intl-list-format/locale-data/en";
+import 'intl-list-format/locale-data/en';
 
 export function formatTagList(tags: string[]): string {
   // TODO: Fix any
