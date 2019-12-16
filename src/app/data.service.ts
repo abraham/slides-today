@@ -31,13 +31,13 @@ export class DataService {
   private tagSelection$ = new Subject<TagSelectionEvent>();
 
   public get path$(): Observable<string[]> {
-    return combineLatest(
+    return combineLatest([
       this.tagSelection$,
       this.selectedTagIds$,
-    ).pipe(
+    ]).pipe(
       share(),
-      filter(([selection, _selectedTagIds]) => selection.updatePath),
-      map(([_selection, selectedTagIds]) => selectedTagIds),
+      filter(([selection, _]) => selection.updatePath),
+      map(([_, selectedTagIds]) => selectedTagIds),
       distinctUntilChanged(equalArray),
     );
   }

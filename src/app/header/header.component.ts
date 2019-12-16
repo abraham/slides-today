@@ -48,7 +48,7 @@ export class HeaderComponent implements AfterViewInit {
     }
   }
 
-  goHome (): void {
+  goHome(): void {
     this.router.navigate(['/']);
     window.scrollTo(0, 0);
   }

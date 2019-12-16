@@ -1,6 +1,5 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { of } from 'rxjs';
 import { rgb, Theme } from '../color';
 import { Deck } from '../deck';
 
@@ -11,14 +10,13 @@ import { Deck } from '../deck';
 })
 
 export class DeckSummaryComponent implements OnInit {
-  constructor (private router: Router) {}
+  constructor(private router: Router) {}
 
   @Input() deck!: Deck;
   @Input() currentTags: string[] = [];
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
   tags = '';
-  of = of;
   url?: string;
   style: Theme = {
     color: '#000',
