@@ -95,7 +95,7 @@ export class ShareComponent implements AfterViewInit, OnInit {
     };
   }
 
-  public share(service: Service) {
+  share(service: Service) {
     if (service === 'clipboard') {
       clipboard.writeText(window.location.href)
                .catch(() => alert('Error copying URL'));

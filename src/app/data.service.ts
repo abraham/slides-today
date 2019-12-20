@@ -22,15 +22,15 @@ export class DataService {
     this.tags$.next(tagData);
   }
 
-  public decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
-  public selectedTagIds$ = new BehaviorSubject<string[]>([]);
-  public speakers$ = of(speakers);
-  public tags$ = new BehaviorSubject<Tag[]>([]);
-  public theme$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
+  decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
+  selectedTagIds$ = new BehaviorSubject<string[]>([]);
+  speakers$ = of(speakers);
+  tags$ = new BehaviorSubject<Tag[]>([]);
+  theme$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
 
   private tagSelection$ = new Subject<TagSelectionEvent>();
 
-  public get path$(): Observable<string[]> {
+  get path$(): Observable<string[]> {
     return combineLatest([
       this.tagSelection$,
       this.selectedTagIds$,
@@ -42,19 +42,19 @@ export class DataService {
     );
   }
 
-  public resetTheme() {
+  resetTheme() {
     this.theme$.next(DEFAULT_THEME);
   }
 
-  public tagSelection(event: TagSelectionEvent) {
+  tagSelection(event: TagSelectionEvent) {
     this.tagSelection$.next(event);
   }
 
-  public deck$(id: string): Observable<Deck> {
+  deck$(id: string): Observable<Deck> {
     return of(DECKS.find(deck => deck.id === id));
   }
 
-  public filterDecks$(selectedTagIds$: Observable<string[]>): Observable<Deck[]> {
+  filterDecks$(selectedTagIds$: Observable<string[]>): Observable<Deck[]> {
     return combineLatest(
       this.decks$,
       selectedTagIds$,
@@ -62,7 +62,7 @@ export class DataService {
     );
   }
 
-  public filterTags$(ids: string[]): Observable<Tag[]> {
+  filterTags$(ids: string[]): Observable<Tag[]> {
     if (ids === undefined || ids.length === 0) {
       return this.tags$;
     }
@@ -71,15 +71,15 @@ export class DataService {
     );
   }
 
-  public tag$(id: string): Observable<Tag> {
+  tag$(id: string): Observable<Tag> {
     return of(tagData.find(tag => tag.id === id));
   }
 
-  public speaker$(id: string): Observable<Speaker> {
+  speaker$(id: string): Observable<Speaker> {
     return of(speakers.find(speaker => speaker.id === id) as Speaker);
   }
 
-  public filterSponsors$(ids: string[]): Observable<Sponsor[]> {
+  filterSponsors$(ids: string[]): Observable<Sponsor[]> {
     return of(sponsors.filter(sponsor => ids.includes(sponsor.id)));
   }
 

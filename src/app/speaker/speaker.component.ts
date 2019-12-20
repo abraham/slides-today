@@ -14,9 +14,9 @@ export class SpeakerComponent implements OnInit {
 
   @Input() speakerId$!: Observable<string>;
 
-  public speaker$?: Observable<Speaker>;
+  speaker$?: Observable<Speaker>;
 
-  public ngOnInit() {
+  ngOnInit() {
     this.speaker$ = this.speakerId$
         .pipe(
           switchMap((id: string) => this.dataService.speaker$(id))

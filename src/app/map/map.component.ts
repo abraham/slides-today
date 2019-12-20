@@ -12,9 +12,9 @@ export class MapComponent implements OnInit {
 
   @Input() location$!: Observable<string>;
 
-  public mapUrl?: string;
-  public defaultImage = '/assets/img/default.png';
-  public offset = 200;
+  mapUrl?: string;
+  defaultImage = '/assets/img/default.png';
+  offset = 200;
 
   private defaultLocation = 'Madison, WI';
   private location?: string;
