@@ -14,7 +14,7 @@ export class SponsorComponent implements OnInit {
 
   @Input() sponsorIds$!: Observable<string[]>;
 
-  public sponsors$?: Observable<Sponsor[]>;
+  sponsors$?: Observable<Sponsor[]>;
 
   ngOnInit() {
     this.sponsors$ = this.sponsorIds$

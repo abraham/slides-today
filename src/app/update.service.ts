@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UpdateService {
-  public $available: Observable<UpdateAvailableEvent>;
+  $available: Observable<UpdateAvailableEvent>;
 
   constructor(updates: SwUpdate) {
     this.$available = updates.available;
