@@ -40,7 +40,7 @@
     "core-js": "3.6.0",
     "dayjs": "1.8.18",
     "firebase": "7.6.1",
-    "firebase-admin": "8.8.0",
+    "firebase-admin": "8.9.0",
     "github-repository": "0.3.0",
     "intl-list-format": "1.0.3",
     "material-components-web": "4.0.0",
