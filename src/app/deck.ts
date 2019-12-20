@@ -19,6 +19,7 @@ export class Deck {
   sponsorIds: string[];
   title: string;
   tweetIds: string[];
+  tagsSentence = '';
 
   private cachedTweets?: Promise<Status[]>;
   private cachedTags: string[] = [];
@@ -46,6 +47,7 @@ export class Deck {
     this.tags = data.tags;
     this.title = data.title;
     this.tweetIds = data.tweetIds;
+    this.formatTagsSentence();
   }
 
   get tweets(): Promise<Status[]> {
@@ -75,8 +77,8 @@ export class Deck {
     return this.cachedTags;
   }
 
-  get tagsSentence(): string {
-    return formatTagList(this.tags);
+  private async formatTagsSentence(): Promise<void> {
+    this.tagsSentence = await formatTagList(this.tags);
   }
 
   get theme() {
