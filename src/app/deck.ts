@@ -1,4 +1,3 @@
-import dayjs from 'dayjs';
 import { Status } from 'twitter-d';
 import { Link } from './link';
 import { Resource } from './resource';
@@ -24,14 +23,14 @@ export class Deck {
   private cachedTweets?: Promise<Status[]>;
   private cachedTags: string[] = [];
   private cachedDate: {
-    start: dayjs.Dayjs;
-    end: dayjs.Dayjs;
+    start: Date;
+    end: Date;
   };
 
   constructor(data: any) {
     this.cachedDate = {
-      start: dayjs(data.date.start).add(1, 'day'),
-      end: dayjs(data.date.end).add(1, 'day')
+      start: new Date(Date.parse(data.date.start)),
+      end: new Date(Date.parse(data.date.end)),
     };
     this.archived = data.archived;
     this.description = data.description;
@@ -49,7 +48,7 @@ export class Deck {
     this.tweetIds = data.tweetIds;
   }
 
-  public get tweets(): Promise<Status[]> {
+  get tweets(): Promise<Status[]> {
     if (this.cachedTweets) {
       return this.cachedTweets;
     }
@@ -57,22 +56,22 @@ export class Deck {
     return this.cachedTweets;
   }
 
-  public get date(): string {
-    if (this.cachedDate.start.isSame(this.cachedDate.end)) {
-      return this.cachedDate.start.format('MMM D, YYYY');
+  get date(): string {
+    if (this.cachedDate.start.getDate() === this.cachedDate.end.getDate()) {
+      return `${this.startMonth} ${this.cachedDate.start.getDate()}, ${this.cachedDate.start.getFullYear()}`;
     } else {
-      return `${this.cachedDate.start.format('MMM D')}-${this.cachedDate.end.format('D, YYYY')}`;
+      return `${this.startMonth} ${this.cachedDate.start.getDate()}-${this.cachedDate.end.getDate()}, ${this.cachedDate.end.getFullYear()}`;
     }
   }
 
-  public set tags(baseTags: string[]) {
+  set tags(baseTags: string[]) {
     this.cachedTags = baseTags.concat(this.linkTags)
       .reduce((uniqueTags: string[], tag: string) => {
       return uniqueTags.includes(tag) ? uniqueTags : uniqueTags.concat(tag);
     }, []);
   }
 
-  public get tags(): string[] {
+  get tags(): string[] {
     return this.cachedTags;
   }
 
@@ -80,11 +79,15 @@ export class Deck {
     return formatTagList(this.tags);
   }
 
-  public get theme() {
+  get theme() {
     return {
       primaryColor: this.primaryTag.primaryColor,
       complementaryColor: this.primaryTag.complementaryColor,
     };
+  }
+
+  private get startMonth(): string {
+    return this.cachedDate.start.toLocaleString('en-us', { month: 'short' });
   }
 
   private get primaryTag(): Tag {
