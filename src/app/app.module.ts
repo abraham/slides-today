@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirePerformanceModule } from '@angular/fire/performance';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -18,14 +20,16 @@ import { TagModule } from './tag/tag.module';
     HeaderComponent,
   ],
   imports: [
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirePerformanceModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
     CardModule,
     LazyLoadImageModule,
     NgxSkeletonLoaderModule,
-    TagModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    TagModule,
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

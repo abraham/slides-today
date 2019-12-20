@@ -63,3 +63,4 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 
 import 'zone.js/dist/webapis-shadydom.js';
+import 'first-input-delay';
