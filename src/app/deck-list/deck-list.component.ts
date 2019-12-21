@@ -38,7 +38,6 @@ export class DeckListComponent implements OnInit {
 
     this.route.paramMap.pipe(
       map(params => params.get('tags')),
-      tap(() => this.triggerScroll()),
     ).subscribe(tags => {
       if (tags) {
         tags.split(',').map(tag => {
@@ -50,9 +49,5 @@ export class DeckListComponent implements OnInit {
 
   openTagsSheet() {
     this.bottomSheet.open(TagsSheetComponent);
-  }
-
-  private triggerScroll(): void {
-    window.dispatchEvent(new Event('scroll'));
   }
 }
