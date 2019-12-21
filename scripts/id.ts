@@ -1,5 +1,5 @@
 import * as firebase from 'firebase-admin';
-import serviceAccount from '../slides-today-firebase-adminsdk.json';
+import serviceAccount from '../.firebase-adminsdk.json';
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount as firebase.ServiceAccount),

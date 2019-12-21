@@ -7,5 +7,7 @@ jobs:
       script: npm run lint
     - name: Build
       script: npm run build
+    - name: Build Scrips
+      script: npm run build:scripts
     - name: Build Prod
       script: npm run build:prod

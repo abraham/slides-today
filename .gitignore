@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/scripts/dist
 
 # dependencies
 /node_modules
@@ -41,4 +42,4 @@ Thumbs.db
 .firebase
 .firebaserc
 .twitter.json
-*firebase-adminsdk*
+.firebase-adminsdk.json
