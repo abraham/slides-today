@@ -32,7 +32,7 @@ const routes: Routes = [
     SpeakerComponent,
     SponsorComponent,
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ], // TODO: remove
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   imports: [
     CardModule,
     CommonModule,
