@@ -90,7 +90,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   private get columnWidth(): number {
     if (!this.detailsEl) { return; }
     const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
-    if (width >= 640) {
+    if (width >= 840) {
       return width / 2;
     } else {
       return width;
