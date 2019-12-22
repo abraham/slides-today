@@ -12,6 +12,16 @@ import tagData from './tags.data.json';
 
 const DECKS: Deck[] = deckData.map((deck: Deck) => new Deck(deck));
 
+function sortTags(a: Tag, b: Tag) {
+  if (a.id < b.id) {
+    return -1;
+  }
+  if (a.primaryColor > b.id) {
+    return 1;
+  }
+  return 0;
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -20,7 +30,7 @@ export class DataService {
     this.tagSelection$.pipe(
       scan<TagSelectionEvent, string[]>(this.updateSelectedTagIds.bind(this), []),
     ).subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
-    this.tags$.next(tagData);
+    this.tags$.next(tagData.sort(sortTags));
   }
 
   decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
