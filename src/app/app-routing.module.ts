@@ -10,6 +10,10 @@ const routes: Routes = [
     path: '',
   },
   {
+    loadChildren: () => import(/* webpackChunkName: 'home' */ './home/home.module').then(m => m.HomeModule),
+    path: 'tags',
+  },
+  {
     loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule),
     path: 'decks/:id',
   },

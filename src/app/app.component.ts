@@ -40,11 +40,11 @@ export class AppComponent {
     }
   }
 
-  private updatePath(tagIds: string[]) {
-    if (tagIds.length === 0) {
+  private updatePath(tags: string[]) {
+    if (tags.length === 0) {
       this.router.navigate(['/']);
     } else {
-      this.router.navigate(['/tags', { tags: tagIds }]);
+      this.router.navigate(['/tags', { tags }]);
     }
   }
 }
