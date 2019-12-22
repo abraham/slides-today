@@ -52,7 +52,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   colors: Theme = DEFAULT_THEME;
 
   ngOnInit() {
-    window.scrollTo(0, 0);
     this.loadShareComponent();
   }
 
