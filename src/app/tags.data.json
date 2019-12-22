@@ -1,327 +1,127 @@
 [
   {
     "id": "webcomponents",
-    "primaryColor": {
-      "r": 33,
-      "b": 150,
-      "g": 243
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#21f396",
+    "complementaryColor": "#000"
   },
   {
     "id": "progressivewebapps",
-    "primaryColor": {
-      "r": 139,
-      "b": 195,
-      "g": 74
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#8b4ac3",
+    "complementaryColor": "#fff"
   },
   {
     "id": "polymer",
-    "primaryColor": {
-      "r": 30,
-      "b": 229,
-      "g": 136
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#1e88e5",
+    "complementaryColor": "#fff"
   },
   {
     "id": "twitterapi",
-    "primaryColor": {
-      "r": 29,
-      "b": 242,
-      "g": 161
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#1da1f2",
+    "complementaryColor": "#000"
   },
   {
     "id": "php",
-    "primaryColor": {
-      "r": 71,
-      "b": 138,
-      "g": 74
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#474a8a",
+    "complementaryColor": "#fff"
   },
   {
     "id": "rails",
-    "primaryColor": {
-      "r": 204,
-      "b": 0,
-      "g": 0
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#cc0000",
+    "complementaryColor": "#fff"
   },
   {
     "id": "ruby",
-    "primaryColor": {
-      "r": 204,
-      "b": 52,
-      "g": 45
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#cc2d34",
+    "complementaryColor": "#fff"
   },
   {
     "id": "firebase",
-    "primaryColor": {
-      "r": 255,
-      "b": 40,
-      "g": 202
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#ffca28",
+    "complementaryColor": "#000"
   },
   {
     "id": "cli",
-    "primaryColor": {
-      "r": 33,
-      "b": 33,
-      "g": 33
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#000",
+    "complementaryColor": "#fff"
   },
   {
     "id": "actionsongoogle",
-    "primaryColor": {
-      "r": 66,
-      "b": 245,
-      "g": 133
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#4285f5",
+    "complementaryColor": "#000"
   },
   {
     "id": "angular",
-    "primaryColor": {
-      "r": 195,
-      "b": 46,
-      "g": 0
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#c3002e",
+    "complementaryColor": "#fff"
   },
   {
     "id": "googleio",
-    "primaryColor": {
-      "r": 63,
-      "b": 231,
-      "g": 184
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#3fb8e7",
+    "complementaryColor": "#000"
   },
   {
     "id": "video",
-    "primaryColor": {
-      "r": 156,
-      "g": 39,
-      "b": 176
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#9c27b0",
+    "complementaryColor": "#fff"
   },
   {
     "id": "⚡",
-    "primaryColor": {
-      "r": 33,
-      "b": 33,
-      "g": 33
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#000",
+    "complementaryColor": "#fff"
   },
   {
     "id": "threejs",
-    "primaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#fff",
+    "complementaryColor": "#000"
   },
   {
     "id": "reviews",
-    "primaryColor": {
-      "r": 76,
-      "b": 80,
-      "g": 175
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#4caf50",
+    "complementaryColor": "#000"
   },
   {
     "id": "materialdesign",
-    "primaryColor": {
-      "r": 144,
-      "b": 144,
-      "g": 144
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#909090",
+    "complementaryColor": "#000"
   },
   {
     "id": "demo",
-    "primaryColor": {
-      "r": 33,
-      "b": 33,
-      "g": 33
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#000",
+    "complementaryColor": "#fff"
   },
   {
     "id": "culture",
-    "primaryColor": {
-      "r": 255,
-      "b": 235,
-      "g": 59
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#ff3beb",
+    "complementaryColor": "#000"
   },
   {
     "id": "javascript",
-    "primaryColor": {
-      "r": 247,
-      "b": 30,
-      "g": 223
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#f7df1e",
+    "complementaryColor": "#000"
   },
   {
     "id": "nutmeg",
-    "primaryColor": {
-      "r": 69,
-      "b": 119,
-      "g": 77
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#454d77",
+    "complementaryColor": "#fff"
   },
   {
     "id": "perfmatters",
-    "primaryColor": {
-      "r": 248,
-      "b": 172,
-      "g": 4
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#f804ac",
+    "complementaryColor": "#000"
   },
   {
     "id": "workshop",
-    "primaryColor": {
-      "r": 0,
-      "b": 212,
-      "g": 188
-    },
-    "complementaryColor": {
-      "r": 0,
-      "b": 0,
-      "g": 0
-    }
+    "primaryColor": "#00bcd4",
+    "complementaryColor": "#000"
   },
   {
     "id": "typescript",
-    "primaryColor": {
-      "r": 0,
-      "b": 204,
-      "g": 122
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#007acc",
+    "complementaryColor": "#fff"
   },
   {
     "id": "flutter",
-    "primaryColor": {
-      "r": 2,
-      "b": 155,
-      "g": 86
-    },
-    "complementaryColor": {
-      "r": 255,
-      "b": 255,
-      "g": 255
-    }
+    "primaryColor": "#02569b",
+    "complementaryColor": "#fff"
   }
 ]

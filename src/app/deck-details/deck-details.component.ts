@@ -3,7 +3,7 @@ import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, O
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DEFAULT_THEME, rgb, Theme } from '../color';
+import { DEFAULT_THEME, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
@@ -98,8 +98,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private setColors(tag: Tag): void {
     const theme = {
-      backgroundColor: rgb(tag.primaryColor),
-      color: rgb(tag.complementaryColor),
+      backgroundColor: tag.primaryColor,
+      color: tag.complementaryColor,
     };
     this.themeService.update(theme);
   }
