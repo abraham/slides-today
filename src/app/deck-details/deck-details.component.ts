@@ -49,7 +49,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   primaryTag$: Observable<Tag>;
   embeds: Link[] = [];
   embedWidth: number;
-  colors: Theme = DEFAULT_THEME;
+  colors = DEFAULT_THEME;
 
   ngOnInit() {
     this.loadShareComponent();

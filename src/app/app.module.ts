@@ -9,7 +9,6 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardModule } from './card/card.module';
-import { DataService } from './data.service';
 import { HeaderComponent } from './header/header.component';
 import { TagModule } from './tag/tag.module';
 
@@ -30,6 +29,5 @@ import { TagModule } from './tag/tag.module';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     TagModule,
   ],
-  providers: [DataService],
 })
 export class AppModule { }
