@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { DataService } from '../data.service';
+import { SponsorService } from '../sponsor.service';
 
 @Component({
   selector: 'app-sponsor',
@@ -7,7 +7,7 @@ import { DataService } from '../data.service';
   templateUrl: './sponsor.component.html',
 })
 export class SponsorComponent {
-  constructor(public dataService: DataService) { }
+  constructor(public sponsorService: SponsorService) { }
 
   @Input() sponsorIds?: string[];
 }
