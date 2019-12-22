@@ -1,25 +1,13 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
-import { DataService } from '../data.service';
-import { Speaker } from '../speaker';
+import { Component, Input } from '@angular/core';
+import { SpeakerService } from '../speaker.service';
 
 @Component({
   selector: 'app-speaker',
   styleUrls: ['./speaker.component.scss'],
   templateUrl: './speaker.component.html',
 })
-export class SpeakerComponent implements OnInit {
-  constructor(private dataService: DataService) {}
+export class SpeakerComponent {
+  constructor(public speakerService: SpeakerService) {}
 
-  @Input() speakerId$!: Observable<string>;
-
-  speaker$?: Observable<Speaker>;
-
-  ngOnInit() {
-    this.speaker$ = this.speakerId$
-        .pipe(
-          switchMap((id: string) => this.dataService.speaker$(id))
-        );
-  }
+  @Input() speakerId?: string;
 }
