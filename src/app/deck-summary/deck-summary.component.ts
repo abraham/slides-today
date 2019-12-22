@@ -1,7 +1,7 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { rgb, DEFAULT_THEME } from '../color';
 import { Deck } from '../deck';
+import { DEFAULT_THEME } from '../theme';
 
 @Component({
   selector: 'app-deck-summary',
@@ -23,8 +23,8 @@ export class DeckSummaryComponent implements OnInit {
   ngOnInit() {
     this.setUrl();
     this.style = {
-      backgroundColor: rgb(this.deck.theme.primaryColor),
-      color: rgb(this.deck.theme.complementaryColor),
+      backgroundColor: this.deck.theme.primaryColor,
+      color: this.deck.theme.complementaryColor,
     };
   }
 

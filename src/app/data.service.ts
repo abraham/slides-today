@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
 import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
-import { DEFAULT_THEME, Theme } from './color';
 import { Deck } from './deck';
 import deckData from './decks.data.json';
 import { Speaker } from './speaker';
@@ -13,6 +12,16 @@ import tagData from './tags.data.json';
 
 const DECKS: Deck[] = deckData.map((deck: Deck) => new Deck(deck));
 
+function sortTags(a: Tag, b: Tag) {
+  if (a.id < b.id) {
+    return -1;
+  }
+  if (a.primaryColor > b.id) {
+    return 1;
+  }
+  return 0;
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -21,14 +30,13 @@ export class DataService {
     this.tagSelection$.pipe(
       scan<TagSelectionEvent, string[]>(this.updateSelectedTagIds.bind(this), []),
     ).subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
-    this.tags$.next(tagData);
+    this.tags$.next(tagData.sort(sortTags));
   }
 
   decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
   selectedTagIds$ = new BehaviorSubject<string[]>([]);
   speakers$ = of(speakers);
   tags$ = new BehaviorSubject<Tag[]>([]);
-  theme$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
 
   private tagSelection$ = new Subject<TagSelectionEvent>();
 
@@ -42,10 +50,6 @@ export class DataService {
       map(([_, selectedTagIds]) => selectedTagIds),
       distinctUntilChanged(equalArray),
     );
-  }
-
-  resetTheme() {
-    this.theme$.next(DEFAULT_THEME);
   }
 
   tagSelection(event: TagSelectionEvent) {

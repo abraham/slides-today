@@ -1,8 +1,8 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { fromEvent } from 'rxjs';
-import { DEFAULT_THEME, rgb } from '../color';
 import { DataService } from '../data.service';
 import { Tag } from '../tag';
+import { DEFAULT_THEME } from '../theme';
 
 interface ChipSelectionEvent extends CustomEvent {
   detail: {
@@ -40,8 +40,8 @@ export class TagComponent implements OnInit {
 
   private setCurrentStyles(): void {
     this.currentStyles = {
-      backgroundColor: rgb(this.tag.primaryColor),
-      color: rgb(this.tag.complementaryColor),
+      backgroundColor: this.tag.primaryColor,
+      color: this.tag.complementaryColor,
     };
   }
 

@@ -3,11 +3,12 @@ import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, O
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DEFAULT_THEME, rgb, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
 import { Tag } from '../tag';
+import { DEFAULT_THEME, Theme } from '../theme';
+import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-deck-details',
@@ -16,6 +17,7 @@ import { Tag } from '../tag';
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   constructor(private dataService: DataService,
+              private themeService: ThemeService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router,
@@ -34,7 +36,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       this.deck = deck;
       this.init();
     });
-    this.theme$ = this.dataService.theme$;
+    this.theme$ = this.themeService.current$;
   }
 
   private deck: Deck;
@@ -96,10 +98,10 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private setColors(tag: Tag): void {
     const theme = {
-      backgroundColor: rgb(tag.primaryColor),
-      color: rgb(tag.complementaryColor),
+      backgroundColor: tag.primaryColor,
+      color: tag.complementaryColor,
     };
-    this.dataService.theme$.next(theme);
+    this.themeService.update(theme);
   }
 
   private setEmbedWidth(): void {

@@ -1,9 +1,7 @@
-import { Color } from './color';
-
 export interface Tag {
   id: string;
-  primaryColor: Color;
-  complementaryColor: Color;
+  primaryColor: string;
+  complementaryColor: string;
 }
 
 export interface TagSelectionEvent {

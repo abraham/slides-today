@@ -3,20 +3,11 @@ export const DEFAULT_THEME = {
   color: '#000',
 };
 
-export interface Color {
-  a?: number;
-  b: number;
-  g: number;
-  r: number;
-}
+export const DEFAULT_INVERTED_THEME = invert(DEFAULT_THEME);
 
 export interface Theme {
   backgroundColor: string;
   color: string;
-}
-
-export function rgb(color: Color) {
-  return `rgb(${color.r}, ${color.g}, ${color.b})`;
 }
 
 export function invert(theme: Theme): Theme {
