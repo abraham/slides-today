@@ -3,7 +3,7 @@ import { SwUpdate, UpdateAvailableEvent } from '@angular/service-worker';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class UpdateService {
   $available: Observable<UpdateAvailableEvent>;

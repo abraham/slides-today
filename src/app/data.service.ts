@@ -13,7 +13,9 @@ import tagData from './tags.data.json';
 
 const DECKS: Deck[] = deckData.map((deck: Deck) => new Deck(deck));
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class DataService {
   constructor() {
     this.tagSelection$.pipe(
