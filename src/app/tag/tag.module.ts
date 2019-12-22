@@ -8,12 +8,12 @@ import { TagComponent } from './tag.component';
     TagComponent,
     TagsComponent,
   ],
-  imports: [
-    CommonModule
-  ],
   exports: [
     TagComponent,
     TagsComponent,
-  ]
+  ],
+  imports: [
+    CommonModule
+  ],
 })
 export class TagModule { }

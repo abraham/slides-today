@@ -9,8 +9,8 @@ import { UpdateService } from '../update.service';
 
 @Component({
   selector: 'app-header',
+  styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements AfterViewInit {
   constructor(private dataService: DataService,

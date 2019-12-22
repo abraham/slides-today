@@ -4,8 +4,8 @@ import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-map',
+  styleUrls: ['./map.component.css'],
   templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
   constructor() { }

@@ -1,12 +1,12 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { rgb, Theme } from '../color';
+import { rgb, DEFAULT_THEME } from '../color';
 import { Deck } from '../deck';
 
 @Component({
   selector: 'app-deck-summary',
-  templateUrl: './deck-summary.component.html',
   styleUrls: ['./deck-summary.component.scss'],
+  templateUrl: './deck-summary.component.html',
 })
 
 export class DeckSummaryComponent implements OnInit {
@@ -18,16 +18,13 @@ export class DeckSummaryComponent implements OnInit {
 
   tags = '';
   url?: string;
-  style: Theme = {
-    color: '#000',
-    backgroundColor: '#fff',
-  };
+  style = DEFAULT_THEME;
 
   ngOnInit() {
     this.setUrl();
     this.style = {
-      color: rgb(this.deck.theme.complementaryColor),
       backgroundColor: rgb(this.deck.theme.primaryColor),
+      color: rgb(this.deck.theme.complementaryColor),
     };
   }
 

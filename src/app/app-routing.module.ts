@@ -6,30 +6,30 @@ import { DeckListComponent } from './deck-list/deck-list.component';
 
 const routes: Routes = [
   {
+    loadChildren: () => import(/* webpackChunkName: 'home' */ './home/home.module').then(m => m.HomeModule),
     path: '',
-    loadChildren: () => import(/* webpackChunkName: 'home' */ './home/home.module').then(m => m.HomeModule)
   },
   {
+    loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule),
     path: 'decks/:id',
-    loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule)
   },
   {
     path: 'decks',
     pathMatch: 'full',
-    redirectTo: ''
+    redirectTo: '',
   },
   {
+    loadChildren: () => import(/* webpackChunkName: 'not-found' */ './not-found/not-found.module').then(m => m.NotFoundModule),
     path: '**',
-    loadChildren: () => import(/* webpackChunkName: 'not-found' */ './not-found/not-found.module').then(m => m.NotFoundModule)
   },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { enableTracing: !environment.production }),
-  ],
   exports: [
     RouterModule,
+  ],
+  imports: [
+    RouterModule.forRoot(routes, { enableTracing: !environment.production }),
   ],
 })
 export class AppRoutingModule { }

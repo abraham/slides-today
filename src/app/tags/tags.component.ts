@@ -6,8 +6,8 @@ import { Tag } from '../tag';
 
 @Component({
   selector: 'app-tags',
-  templateUrl: './tags.component.html',
   styleUrls: ['./tags.component.scss'],
+  templateUrl: './tags.component.html',
 })
 export class TagsComponent implements OnInit, AfterViewInit {
   constructor(private dataService: DataService) {

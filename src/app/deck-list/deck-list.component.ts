@@ -10,8 +10,8 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 
 @Component({
   selector: 'app-deck-list',
-  templateUrl: './deck-list.component.html',
   styleUrls: ['./deck-list.component.scss'],
+  templateUrl: './deck-list.component.html',
 })
 export class DeckListComponent implements OnInit {
   constructor(private dataService: DataService,
@@ -41,7 +41,11 @@ export class DeckListComponent implements OnInit {
     ).subscribe(tags => {
       if (tags) {
         tags.split(',').map(tag => {
-          this.dataService.tagSelection({ id: tag, selected: true, updatePath: false });
+          this.dataService.tagSelection({
+            id: tag,
+            selected: true,
+            updatePath: false,
+          });
         });
       }
     });

@@ -6,8 +6,8 @@ import { Sponsor } from '../sponsor';
 
 @Component({
   selector: 'app-sponsor',
-  templateUrl: './sponsor.component.html',
   styleUrls: ['./sponsor.component.scss'],
+  templateUrl: './sponsor.component.html',
 })
 export class SponsorComponent implements OnInit {
   constructor(private dataService: DataService) { }

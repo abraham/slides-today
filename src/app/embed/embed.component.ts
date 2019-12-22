@@ -5,8 +5,8 @@ import { Link } from '../link';
 
 @Component({
   selector: 'app-embed',
+  styleUrls: ['./embed.component.scss'],
   templateUrl: './embed.component.html',
-  styleUrls: ['./embed.component.scss']
 })
 export class EmbedComponent implements OnInit, OnChanges {
   @Input() title = '';
@@ -19,8 +19,8 @@ export class EmbedComponent implements OnInit, OnChanges {
   youtubeId?: string;
   placeholder = true;
   dimensionStyles = {
-    width: `${this.width}px`,
     height: `${this.height}px`,
+    width: `${this.width}px`,
   };
 
   constructor(private sanitizer: DomSanitizer) { }
@@ -39,8 +39,8 @@ export class EmbedComponent implements OnInit, OnChanges {
       this.width = changes.width.currentValue;
       this.setHeight();
       this.dimensionStyles = {
-        width: `${this.width}px`,
         height: `${this.height}px`,
+        width: `${this.width}px`,
       };
     }
   }

@@ -6,8 +6,8 @@ import { Speaker } from '../speaker';
 
 @Component({
   selector: 'app-speaker',
-  templateUrl: './speaker.component.html',
   styleUrls: ['./speaker.component.scss'],
+  templateUrl: './speaker.component.html',
 })
 export class SpeakerComponent implements OnInit {
   constructor(private dataService: DataService) {}

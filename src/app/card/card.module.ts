@@ -6,11 +6,11 @@ import { RippleDirective } from '../ripple.directive';
   declarations: [
     RippleDirective,
   ],
+  exports: [
+    RippleDirective,
+  ],
   imports: [
     CommonModule
   ],
-  exports: [
-    RippleDirective,
-  ]
 })
 export class CardModule { }
