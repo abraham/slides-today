@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
 
 @Component({
   selector: 'app-tags-sheet',
+  styleUrls: ['./tags-sheet.component.css'],
   templateUrl: './tags-sheet.component.html',
-  styleUrls: ['./tags-sheet.component.css']
 })
 export class TagsSheetComponent {
-  constructor(private bottomSheetRef: MatBottomSheetRef<TagsSheetComponent>) {}
 }

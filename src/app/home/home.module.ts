@@ -11,8 +11,8 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 
 const routes: Routes = [
   {
+    component: DeckListComponent,
     path: '',
-    component: DeckListComponent
   },
 ];
 
@@ -23,6 +23,9 @@ const routes: Routes = [
     DeckSummaryComponent,
     TagsSheetComponent,
   ],
+  entryComponents: [
+    TagsSheetComponent,
+  ],
   imports: [
     CardModule,
     CommonModule,
@@ -30,8 +33,5 @@ const routes: Routes = [
     TagModule,
     RouterModule.forChild(routes),
   ],
-  entryComponents: [
-    TagsSheetComponent,
-  ]
 })
 export class HomeModule { }

@@ -22,8 +22,8 @@ declare global {
 
 @Component({
   selector: 'app-share',
+  styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
-  styleUrls: ['./share.component.scss']
 })
 export class ShareComponent implements AfterViewInit, OnInit {
   constructor(private dataService: DataService) {
@@ -38,8 +38,8 @@ export class ShareComponent implements AfterViewInit, OnInit {
   @Input() text = '';
 
   private services: { [key: string]: () => string } = {
-    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
     facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
+    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
 
   ngOnInit() {
@@ -84,8 +84,8 @@ export class ShareComponent implements AfterViewInit, OnInit {
 
   private get shareOptions(): ShareOptions {
     return {
-      title: 'Slides.Today',
       text: this.text,
+      title: 'Slides.Today',
       url: window.location.href,
     };
   }

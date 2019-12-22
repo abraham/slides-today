@@ -24,14 +24,14 @@ export class Deck {
   private cachedTweets?: Promise<Status[]>;
   private cachedTags: string[] = [];
   private cachedDate: {
-    start: Date;
     end: Date;
+    start: Date;
   };
 
   constructor(data: any) {
     this.cachedDate = {
-      start: new Date(Date.parse(data.date.start)),
       end: new Date(Date.parse(data.date.end)),
+      start: new Date(Date.parse(data.date.start)),
     };
     this.archived = data.archived;
     this.description = data.description;
@@ -83,8 +83,8 @@ export class Deck {
 
   get theme() {
     return {
-      primaryColor: this.primaryTag.primaryColor,
       complementaryColor: this.primaryTag.complementaryColor,
+      primaryColor: this.primaryTag.primaryColor,
     };
   }
 

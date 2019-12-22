@@ -18,8 +18,8 @@ import(/* webpackChunkName: 'components' */ '@justinribeiro/lite-youtube');
 
 const routes: Routes = [
   {
-    path: '',
     component: DeckDetailsComponent,
+    path: '',
   },
 ];
 
@@ -32,7 +32,6 @@ const routes: Routes = [
     SpeakerComponent,
     SponsorComponent,
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   imports: [
     CardModule,
     CommonModule,
@@ -40,5 +39,6 @@ const routes: Routes = [
     TagModule,
     RouterModule.forChild(routes),
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
 })
 export class DeckModule { }

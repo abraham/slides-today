@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { TagModule } from './tag/tag.module';
 
 @NgModule({
+  bootstrap: [AppComponent],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -30,6 +31,5 @@ import { TagModule } from './tag/tag.module';
     TagModule,
   ],
   providers: [DataService],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -11,8 +11,8 @@ import { Tag } from '../tag';
 
 @Component({
   selector: 'app-deck-details',
-  templateUrl: './deck-details.component.html',
   styleUrls: ['./deck-details.component.scss'],
+  templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   constructor(private dataService: DataService,

@@ -18,8 +18,8 @@ interface ChipSelectionEvent extends CustomEvent {
 
 @Component({
   selector: 'app-tag',
+  styleUrls: ['./tag.component.scss'],
   templateUrl: './tag.component.html',
-  styleUrls: ['./tag.component.scss']
 })
 export class TagComponent implements OnInit {
   constructor(private dataService: DataService) {}
@@ -40,8 +40,8 @@ export class TagComponent implements OnInit {
 
   private setCurrentStyles(): void {
     this.currentStyles = {
-      color: rgb(this.tag.complementaryColor),
       backgroundColor: rgb(this.tag.primaryColor),
+      color: rgb(this.tag.complementaryColor),
     };
   }
 
