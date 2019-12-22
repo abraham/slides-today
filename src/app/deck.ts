@@ -93,7 +93,7 @@ export class Deck {
   }
 
   private get primaryTag(): Tag {
-    return tagData.find(tag => tag.id === this.tags[0]) as Tag;
+    return tagData.find((tag: Tag) => tag.id === this.tags[0]);
   }
 
   private get linkTags(): string[] {

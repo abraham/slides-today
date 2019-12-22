@@ -11,7 +11,7 @@ import sponsors from './sponsors.data.json';
 import { Tag, TagSelectionEvent } from './tag';
 import tagData from './tags.data.json';
 
-const DECKS: Deck[] = deckData.map(deck => new Deck(deck));
+const DECKS: Deck[] = deckData.map((deck: Deck) => new Deck(deck));
 
 @Injectable()
 export class DataService {
@@ -72,15 +72,15 @@ export class DataService {
   }
 
   tag$(id: string): Observable<Tag> {
-    return of(tagData.find(tag => tag.id === id));
+    return of(tagData.find((tag: Tag) => tag.id === id));
   }
 
   speaker$(id: string): Observable<Speaker> {
-    return of(speakers.find(speaker => speaker.id === id) as Speaker);
+    return of(speakers.find((speaker: Speaker) => speaker.id === id));
   }
 
   filterSponsors$(ids: string[]): Observable<Sponsor[]> {
-    return of(sponsors.filter(sponsor => ids.includes(sponsor.id)));
+    return of(sponsors.filter((sponsor: Sponsor) => ids.includes(sponsor.id)));
   }
 
   private updateSelectedTagIds(selectedTagIds: string[], event: TagSelectionEvent): string[] {
