@@ -14,6 +14,11 @@ const routes: Routes = [
     loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule)
   },
   {
+    path: 'decks',
+    pathMatch: 'full',
+    redirectTo: ''
+  },
+  {
     path: '**',
     loadChildren: () => import(/* webpackChunkName: 'not-found' */ './not-found/not-found.module').then(m => m.NotFoundModule)
   },
