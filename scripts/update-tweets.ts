@@ -10,7 +10,7 @@ const tweetIds = decks.flatMap(({ tweetIds }) => tweetIds);
 
 const work = tweetIds.map(async (id: string) => {
   console.log(`Getting tweet ${id}`);
-  const showParams = { id: id, tweet_mode: 'extended', include_entities: true };
+  const showParams = { id, tweet_mode: 'extended', include_entities: true };
   try {
     const { data } = await client.get('statuses/show', showParams);
     fs.writeFileSync(filePath(id), JSON.stringify(data, null, 2));

@@ -5,6 +5,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "module": "commonjs",
-    "strict": true
+    "strict": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ]
   }
 }
