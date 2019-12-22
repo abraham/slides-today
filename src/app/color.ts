@@ -18,3 +18,10 @@ export interface Theme {
 export function rgb(color: Color) {
   return `rgb(${color.r}, ${color.g}, ${color.b})`;
 }
+
+export function invert(theme: Theme): Theme {
+  return {
+    color: theme.backgroundColor,
+    backgroundColor: theme.color,
+  };
+}
