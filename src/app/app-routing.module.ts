@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { environment } from '../environments/environment';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 import { DeckListComponent } from './deck-list/deck-list.component';
@@ -24,12 +24,17 @@ const routes: Routes = [
   },
 ];
 
+const config: ExtraOptions = {
+  enableTracing: !environment.production,
+  scrollPositionRestoration: 'enabled',
+};
+
 @NgModule({
   exports: [
     RouterModule,
   ],
   imports: [
-    RouterModule.forRoot(routes, { enableTracing: !environment.production }),
+    RouterModule.forRoot(routes, config),
   ],
 })
 export class AppRoutingModule { }
