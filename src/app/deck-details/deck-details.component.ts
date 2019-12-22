@@ -1,7 +1,7 @@
 import { Location } from '@angular/common';
 import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
@@ -47,7 +47,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   title = ''; // Clear site title
   deck$: Observable<Deck>;
   theme$: Observable<Theme>;
-  of = of;
   primaryTag$: Observable<Tag>;
   embeds: Link[] = [];
   embedWidth: number;

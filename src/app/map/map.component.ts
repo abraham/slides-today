@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 
 @Component({
@@ -10,14 +9,12 @@ import { environment } from '../../environments/environment';
 export class MapComponent implements OnInit {
   constructor() { }
 
-  @Input() location$!: Observable<string>;
+  @Input() location = '';
 
   mapUrl?: string;
   defaultImage = '/assets/img/default.png';
   offset = 200;
 
-  private defaultLocation = 'Madison, WI';
-  private location?: string;
   private key = environment.googleMaps.key;
   private size = '640x320';
   private zoom = '9';
@@ -47,10 +44,7 @@ export class MapComponent implements OnInit {
   ];
 
   ngOnInit() {
-    this.location$.subscribe(location => {
-      this.location = location;
-      this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
-    });
+    this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
   }
 
   private styleParams(): string {
@@ -62,6 +56,6 @@ export class MapComponent implements OnInit {
   }
 
   private center(): string {
-    return encodeURIComponent(this.location || this.defaultLocation);
+    return encodeURIComponent(this.location);
   }
 }
