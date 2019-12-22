@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { DEFAULT_THEME, Theme } from '../color';
+import { DEFAULT_THEME } from '../color';
 import { Link } from '../link';
 
 @Component({
@@ -12,7 +12,7 @@ export class EmbedComponent implements OnInit, OnChanges {
   @Input() title = '';
   @Input() link!: Link;
   @Input() width = 200;
-  @Input() colors: Theme = DEFAULT_THEME;
+  @Input() colors = DEFAULT_THEME;
 
   height = 120;
   url?: SafeResourceUrl;
