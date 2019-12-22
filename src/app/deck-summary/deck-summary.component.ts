@@ -1,7 +1,7 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { DEFAULT_THEME } from '../color';
 import { Deck } from '../deck';
+import { DEFAULT_THEME } from '../theme';
 
 @Component({
   selector: 'app-deck-summary',

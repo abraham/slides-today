@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { BehaviorSubject } from 'rxjs';
-import { DEFAULT_INVERTED_THEME, DEFAULT_THEME, invert, Theme } from './color';
+import { DEFAULT_INVERTED_THEME, DEFAULT_THEME, invert, Theme } from './theme';
 
 @Injectable({
   providedIn: 'root',

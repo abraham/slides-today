@@ -1,8 +1,8 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { fromEvent } from 'rxjs';
-import { DEFAULT_THEME } from '../color';
 import { DataService } from '../data.service';
 import { Tag } from '../tag';
+import { DEFAULT_THEME } from '../theme';
 
 interface ChipSelectionEvent extends CustomEvent {
   detail: {

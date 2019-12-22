@@ -3,11 +3,11 @@ import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, O
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DEFAULT_THEME, Theme } from '../color';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
 import { Tag } from '../tag';
+import { DEFAULT_THEME, Theme } from '../theme';
 import { ThemeService } from '../theme.service';
 
 @Component({
