@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Observable, of, from } from 'rxjs';
+import { from, Observable } from 'rxjs';
+import { find } from 'rxjs/operators';
 import { Speaker } from './speaker';
 import speakers from './speakers.data.json';
-import { find } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',

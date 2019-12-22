@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { DataService } from '../data.service';
 import { Deck } from '../deck';
+import { DeckService } from '../deck.service';
 import { Link } from '../link';
 import { Tag } from '../tag';
 import { DEFAULT_THEME, Theme } from '../theme';
@@ -18,6 +19,7 @@ import { ThemeService } from '../theme.service';
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   constructor(private dataService: DataService,
               private themeService: ThemeService,
+              private deckService: DeckService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router,
@@ -25,7 +27,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
               private resolver: ComponentFactoryResolver) {
     this.deck$ = this.route.paramMap.pipe(
       map(params => params.get('id')),
-      switchMap(id => this.dataService.deck$(id)),
+      switchMap(id => this.deckService.get(id)),
     );
     this.primaryTag$ = this.deck$.pipe(
       switchMap(deck => this.dataService.tag$(deck.tags[0])),
