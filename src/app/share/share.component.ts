@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
-import { Theme } from '../color';
+import { Theme, DEFAULT_THEME, invert } from '../color';
 import { DataService } from '../data.service';
 
 interface ShareOptions {
@@ -27,15 +27,10 @@ declare global {
 })
 export class ShareComponent implements AfterViewInit, OnInit {
   constructor(private dataService: DataService) {
-    this.dataService.theme$.subscribe(theme => {
-      this.theme = {
-        color: theme.backgroundColor,
-        backgroundColor: theme.color,
-      };
-    });
+    this.dataService.theme$.subscribe(theme => this.theme = invert(theme));
   }
 
-  private theme?: Theme;
+  private theme = invert(DEFAULT_THEME);
   private menu!: MDCMenu;
 
   @ViewChild('fabEl', { static: true }) fabEl?: ElementRef;

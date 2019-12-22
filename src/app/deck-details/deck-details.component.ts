@@ -47,8 +47,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   theme$: Observable<Theme>;
   of = of;
   primaryTag$: Observable<Tag>;
-  defaultImage = '/assets/img/default.png';
-  mapUrl?: string;
   embeds: Link[] = [];
   embedWidth: number;
   colors: Theme = DEFAULT_THEME;

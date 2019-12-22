@@ -4,7 +4,7 @@
     <div class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
 
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
           <div #detailsEl class="item details mdc-card">
             <section class="card__primary">
               <h1 class="card__title mdc-typography--headline4">{{deck.title}}</h1>
@@ -58,7 +58,7 @@
           </div>
 
         </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
 
           <ng-template ngFor let-github [ngForOf]="deck.githubRepos">
             <github-repository class="item" [attr.owner-repo]="github"></github-repository>

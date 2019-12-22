@@ -2,6 +2,13 @@
 @import '~@material/elevation/mdc-elevation';
 @import '~@material/layout-grid/mdc-layout-grid';
 
+@media (max-width: 479px) {
+  main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .deck-content {
   padding: 8px;
 }
