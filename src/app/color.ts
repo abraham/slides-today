@@ -3,6 +3,8 @@ export const DEFAULT_THEME = {
   color: '#000',
 };
 
+export const DEFAULT_INVERTED_THEME = invert(DEFAULT_THEME);
+
 export interface Color {
   a?: number;
   b: number;

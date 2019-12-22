@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
 import { Observable } from 'rxjs';
 import { Theme } from '../color';
-import { DataService } from '../data.service';
+import { ThemeService } from '../theme.service';
 import { UpdateService } from '../update.service';
 
 @Component({
@@ -13,11 +13,11 @@ import { UpdateService } from '../update.service';
   templateUrl: './header.component.html',
 })
 export class HeaderComponent implements AfterViewInit {
-  constructor(private dataService: DataService,
+  constructor(private themeService: ThemeService,
               private location: Location,
               private router: Router,
               update: UpdateService) {
-    this.theme$ = this.dataService.theme$;
+    this.theme$ = this.themeService.current$;
     update.$available.subscribe(() => this.updateAvailable = true);
 
     window.addEventListener('beforeinstallprompt', (e) => {

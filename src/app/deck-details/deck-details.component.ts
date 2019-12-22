@@ -8,6 +8,7 @@ import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { Link } from '../link';
 import { Tag } from '../tag';
+import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-deck-details',
@@ -16,6 +17,7 @@ import { Tag } from '../tag';
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   constructor(private dataService: DataService,
+              private themeService: ThemeService,
               private route: ActivatedRoute,
               private location: Location,
               private router: Router,
@@ -34,7 +36,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       this.deck = deck;
       this.init();
     });
-    this.theme$ = this.dataService.theme$;
+    this.theme$ = this.themeService.current$;
   }
 
   private deck: Deck;
@@ -99,7 +101,7 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       backgroundColor: rgb(tag.primaryColor),
       color: rgb(tag.complementaryColor),
     };
-    this.dataService.theme$.next(theme);
+    this.themeService.update(theme);
   }
 
   private setEmbedWidth(): void {
