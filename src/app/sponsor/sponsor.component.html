@@ -4,7 +4,7 @@
   </section>
   <section class="card__secondary">
       <div class="mdc-list mdc-list--two-line xmdc-list--dense mdc-list--avatar-list">
-        <a *ngFor="let sponsor of sponsors$ | async" class="mdc-list-item" [href]="sponsor.url" target="_blank" rel="noopener">
+        <a *ngFor="let sponsor of (sponsorService.select(sponsorIds) | async)" class="mdc-list-item" [href]="sponsor.url" target="_blank" rel="noopener">
           <img [src]="sponsor.image" class="mdc-list-item__graphic" [attr.alt]="sponsor.name + ' logo'" />
           <span class="mdc-list-item__text">
             {{sponsor.name}}

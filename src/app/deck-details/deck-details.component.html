@@ -45,12 +45,12 @@
               <section class="card__primary">
                 <h2 class="card__title mdc-typography--headline6">{{deck.location}}</h2>
               </section>
-              <app-map [location$]="of(deck.location)"></app-map>
+              <app-map [location]="deck.location"></app-map>
             </div>
           </div>
 
           <div class="item" *ngIf="deck">
-            <app-sponsor [sponsorIds$]="of(deck.sponsorIds)"></app-sponsor>
+            <app-sponsor [sponsorIds]="deck.sponsorIds"></app-sponsor>
           </div>
 
           <div class="item" *ngIf="deck.resources.length > 0">
