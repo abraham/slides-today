@@ -42,13 +42,19 @@
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "6kb"
+                },
+                {
+                  "type": "bundle",
+                  "name": "main",
+                  "maximumWarning": "500kb",
+                  "maximumError": "710kb"
                 }
               ],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
-              "namedChunks": false,
+              "namedChunks": true,
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
