@@ -7,7 +7,9 @@ jobs:
       script: npm run lint
     - name: Build
       script: npm run build
-    - name: Build Scrips
+    - name: Build Scripts
       script: npm run build:scripts
     - name: Build Prod
-      script: npm run build:prod
+      script:
+        - npm run build:prod
+        - npm run bundlesize
