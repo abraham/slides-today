@@ -1,4 +1,4 @@
-<div *ngIf="speaker$ | async as speaker" class="mdc-card">
+<div *ngIf="speakerService.get(speakerId) | async as speaker" class="mdc-card">
   <section class="card__primary">
     <div *ngIf="speaker.imageUrl"
          class="card__avatar"

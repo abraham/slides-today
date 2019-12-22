@@ -3,8 +3,6 @@ import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
 import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
 import { Deck } from './deck';
 import deckData from './decks.data.json';
-import { Speaker } from './speaker';
-import speakers from './speakers.data.json';
 import { Sponsor } from './sponsor';
 import sponsors from './sponsors.data.json';
 import { Tag, TagSelectionEvent } from './tag';
@@ -35,7 +33,6 @@ export class DataService {
 
   decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
   selectedTagIds$ = new BehaviorSubject<string[]>([]);
-  speakers$ = of(speakers);
   tags$ = new BehaviorSubject<Tag[]>([]);
 
   private tagSelection$ = new Subject<TagSelectionEvent>();
@@ -79,10 +76,6 @@ export class DataService {
 
   tag$(id: string): Observable<Tag> {
     return of(tagData.find((tag: Tag) => tag.id === id));
-  }
-
-  speaker$(id: string): Observable<Speaker> {
-    return of(speakers.find((speaker: Speaker) => speaker.id === id));
   }
 
   filterSponsors$(ids: string[]): Observable<Sponsor[]> {
