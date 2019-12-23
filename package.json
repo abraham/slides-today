@@ -98,8 +98,12 @@
   },
   "bundlesize": [
     {
-      "path": "dist/slides-today/*-es2015.*.js",
-      "maxSize": "170 kB"
+      "path": "dist/slides-today/*main-es2015.*.js",
+      "maxSize": "135 kB"
+    },
+    {
+      "path": "dist/slides-today/!(*main)-es2015.*.js",
+      "maxSize": "40 kB"
     }
   ]
 }
