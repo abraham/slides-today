@@ -13,19 +13,11 @@ export class DeckSummaryComponent implements OnInit {
   constructor(private router: Router) {}
 
   @Input() deck!: Deck;
-  @Input() currentTags: string[] = [];
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
-  tags = '';
   url?: string;
-  style = DEFAULT_THEME;
 
   ngOnInit() {
-    this.setUrl();
-    this.style = this.deck.theme;
-  }
-
-  setUrl(): void {
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
   }
 

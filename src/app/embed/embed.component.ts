@@ -12,7 +12,7 @@ export class EmbedComponent implements OnInit, OnChanges {
   @Input() title = '';
   @Input() link!: Link;
   @Input() width = 200;
-  @Input() colors = DEFAULT_THEME;
+  @Input() theme = DEFAULT_THEME;
 
   height = 120;
   url?: SafeResourceUrl;
@@ -28,7 +28,7 @@ export class EmbedComponent implements OnInit, OnChanges {
   ngOnInit() {
     this.setHeight();
     if (this.link.service === 'youtube') {
-      this.youtubeId = this.parseYoutubeId();
+      this.youtubeId = this.parsedYoutubeId;
     } else {
       this.setUrl();
     }
@@ -68,23 +68,23 @@ export class EmbedComponent implements OnInit, OnChanges {
     };
   }
 
-  private backgroundColor() {
-    return this.colors.backgroundColor.split('#')[1];
+  private get backgroundColor() {
+    return this.theme.backgroundColor.split('#')[1];
   }
 
   private buildVimeoUrl(): string {
-    return  `https://player.vimeo.com/video/${this.parseVimeoId()}?title=0&byline=0&portrait=0&color=${this.backgroundColor()}`;
+    return  `https://player.vimeo.com/video/${this.parsedVimeoId}?title=0&byline=0&portrait=0&color=${this.backgroundColor}`;
   }
 
   private buildGoogleSlidesUrl(): string {
     return `${this.link.url}/embed?start=false&loop=false&delayms=30000`;
   }
 
-  private parseVimeoId(): string {
+  private get parsedVimeoId(): string {
     return this.link.url.split('.com/')[1];
   }
 
-  private parseYoutubeId(): string {
+  private get parsedYoutubeId(): string {
     return this.link.url.split('?v=')[1];
   }
 }

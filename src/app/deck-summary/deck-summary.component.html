@@ -1,4 +1,4 @@
-<div #cardEl class="mdc-card" [ngStyle]="style" (click)="goToDeck()" (keyup)="goToDeck()">
+<div #cardEl class="mdc-card" [ngStyle]="deck.theme" (click)="goToDeck()" (keyup)="goToDeck()">
   <div class="mdc-card__primary-action">
     <section class="card__primary">
       <h2 class="card__title mdc-typography--headline3">{{deck.title}}</h2>
