@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
-import { Observable, of, combineLatest } from 'rxjs';
+import { combineLatest, Observable, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Deck } from './deck';
-import deckData from './decks.data.json';
-
-const DECKS: Deck[] = deckData.filter(deck => !deck.archived)
-                              .map((deck: Deck) => new Deck(deck));
 
 @Injectable({
   providedIn: 'root',
 })
 export class DeckService {
-  decks$ = of(DECKS);
+  decks$ = new ReplaySubject<Deck[]>();
+
+  constructor() {
+    this.fetchDecks();
+  }
 
   get(id: string): Observable<Deck> {
     return this.decks$.pipe(
@@ -33,5 +33,12 @@ export class DeckService {
         return deck.tags.includes(tag);
       });
     });
+  }
+
+  private async fetchDecks(): Promise<void> {
+    const { default: data }: { default: any[] } = await import('./decks.data.json');
+    const decks = data.filter(deck => !deck.archived)
+                 .map((deck: Deck) => new Deck(deck));
+    this.decks$.next(decks);
   }
 }

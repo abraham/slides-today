@@ -3,6 +3,7 @@ import { ExtraOptions, RouterModule, Routes, UrlMatchResult, UrlSegment } from '
 import { environment } from '../environments/environment';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 import { DeckListComponent } from './deck-list/deck-list.component';
+import { DeckResolverService } from './services/deck-resolver.service';
 
 function isHome(url: UrlSegment[]): UrlMatchResult {
   const noPaths = url.length === 0;
@@ -19,6 +20,7 @@ const routes: Routes = [
   {
     loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule),
     path: 'decks/:id',
+    resolve: { deck: DeckResolverService },
   },
   {
     path: 'decks',
