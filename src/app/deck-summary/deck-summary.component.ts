@@ -22,10 +22,7 @@ export class DeckSummaryComponent implements OnInit {
 
   ngOnInit() {
     this.setUrl();
-    this.style = {
-      backgroundColor: this.deck.theme.primaryColor,
-      color: this.deck.theme.complementaryColor,
-    };
+    this.style = this.deck.theme;
   }
 
   setUrl(): void {

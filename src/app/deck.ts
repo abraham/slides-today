@@ -4,6 +4,7 @@ import { Resource } from './resource';
 import { Tag } from './tag';
 import tagData from './tags.data.json';
 import { formatTagList } from './text';
+import { Theme } from './theme';
 
 export class Deck {
   archived: boolean;
@@ -81,10 +82,10 @@ export class Deck {
     this.tagsSentence = await formatTagList(this.tags);
   }
 
-  get theme() {
+  get theme(): Theme {
     return {
-      complementaryColor: this.primaryTag.complementaryColor,
-      primaryColor: this.primaryTag.primaryColor,
+      backgroundColor: this.primaryTag.primaryColor,
+      color: this.primaryTag.complementaryColor,
     };
   }
 

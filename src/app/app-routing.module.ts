@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
-import { ExtraOptions, RouterModule, Routes, UrlSegment } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes, UrlMatchResult, UrlSegment } from '@angular/router';
 import { environment } from '../environments/environment';
 import { DeckDetailsComponent } from './deck-details/deck-details.component';
 import { DeckListComponent } from './deck-list/deck-list.component';
 
-function isHome(url: UrlSegment[]) {
+function isHome(url: UrlSegment[]): UrlMatchResult {
   const noPaths = url.length === 0;
-  const tagsPath = url.length === 1 && url[0].path === 'tags';
-  return noPaths || tagsPath ? { consumed: url } : null;
+  const tagsPath = url[0]?.path === 'tags';
+  const consumed = noPaths || tagsPath ? url : [];
+  return { consumed };
 }
 
 const routes: Routes = [
