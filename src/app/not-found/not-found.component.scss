@@ -1,6 +1,8 @@
 @import '~@material/layout-grid/mdc-layout-grid';
 
 svg {
-  width: 100%;
+  max-width: 75vh;
   height: 100%;
+  display: block;
+  margin: auto;
 }
