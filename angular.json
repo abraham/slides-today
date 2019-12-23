@@ -72,7 +72,7 @@
                   "type": "bundle",
                   "name": "main",
                   "maximumWarning": "500kb",
-                  "maximumError": "710kb"
+                  "maximumError": "600kb"
                 }
               ],
               "serviceWorker": true,
