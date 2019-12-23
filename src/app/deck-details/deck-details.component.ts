@@ -3,11 +3,9 @@ import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, O
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DataService } from '../data.service';
 import { Deck } from '../deck';
 import { DeckService } from '../deck.service';
 import { Link } from '../link';
-import { Tag } from '../tag';
 import { DEFAULT_THEME, Theme } from '../theme';
 import { ThemeService } from '../theme.service';
 
@@ -17,8 +15,7 @@ import { ThemeService } from '../theme.service';
   templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
-  constructor(private dataService: DataService,
-              private themeService: ThemeService,
+  constructor(private themeService: ThemeService,
               private deckService: DeckService,
               private route: ActivatedRoute,
               private location: Location,
@@ -29,16 +26,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
       map(params => params.get('id')),
       switchMap(id => this.deckService.get(id)),
     );
-    this.primaryTag$ = this.deck$.pipe(
-      switchMap(deck => this.dataService.tag$(deck.tags[0])),
-    );
-
-    this.primaryTag$.subscribe((tag) => this.setColors(tag));
     this.deck$.subscribe((deck) => {
       this.deck = deck;
       this.init();
+      this.themeService.update(deck.theme);
     });
-    this.theme$ = this.themeService.current$;
   }
 
   private deck: Deck;
@@ -48,8 +40,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title
   deck$: Observable<Deck>;
-  theme$: Observable<Theme>;
-  primaryTag$: Observable<Tag>;
   embeds: Link[] = [];
   embedWidth: number;
   colors = DEFAULT_THEME;
@@ -88,21 +78,14 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private get columnWidth(): number {
-    if (!this.detailsEl) { return; }
-    const width = this.detailsEl.nativeElement.getBoundingClientRect().width;
+    if (!this.detailsEl) { return 0; }
+
+    const { width } = this.detailsEl.nativeElement.getBoundingClientRect();
     if (width >= 840) {
       return width / 2;
     } else {
       return width;
     }
-  }
-
-  private setColors(tag: Tag): void {
-    const theme = {
-      backgroundColor: tag.primaryColor,
-      color: tag.complementaryColor,
-    };
-    this.themeService.update(theme);
   }
 
   private setEmbedWidth(): void {
@@ -113,6 +96,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private setEmbeds(deck: Deck): void {
     const embedServices = ['youtube', 'slides', 'vimeo'];
-    this.embeds = deck.links.filter(link => embedServices.includes(link.service));
+    this.embeds = deck.links.filter(({ service }) => embedServices.includes(service));
   }
 }
