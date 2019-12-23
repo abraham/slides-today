@@ -1,13 +1,10 @@
 import { Location } from '@angular/common';
 import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
+import { ReplaySubject } from 'rxjs';
 import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
 import { Link } from '../link';
-import { DEFAULT_THEME, Theme } from '../theme';
-import { ThemeService } from '../theme.service';
+import { DEFAULT_THEME } from '../theme';
 
 @Component({
   selector: 'app-deck-details',
@@ -15,37 +12,25 @@ import { ThemeService } from '../theme.service';
   templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
-  constructor(private themeService: ThemeService,
-              private deckService: DeckService,
-              private route: ActivatedRoute,
+  constructor(private route: ActivatedRoute,
               private location: Location,
               private router: Router,
               private viewContainer: ViewContainerRef,
               private resolver: ComponentFactoryResolver) {
-    this.deck$ = this.route.paramMap.pipe(
-      map(params => params.get('id')),
-      switchMap(id => this.deckService.get(id)),
-    );
-    this.deck$.subscribe((deck) => {
-      this.deck = deck;
-      this.init();
-      this.themeService.update(deck.theme);
-    });
+    this.deck$.subscribe((deck) => this.init(deck));
   }
-
-  private deck: Deck;
 
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title
-  deck$: Observable<Deck>;
+  deck$ = new ReplaySubject<Deck>();
   embeds: Link[] = [];
   embedWidth: number;
   colors = DEFAULT_THEME;
 
   ngOnInit() {
-    this.loadShareComponent();
+    this.route.data.subscribe(({ deck }: { deck: Deck }) => this.deck$.next(deck));
   }
 
   ngAfterContentChecked() {
@@ -64,16 +49,17 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     window.open(url);
   }
 
-  private init() {
+  private init(deck: Deck) {
     this.setEmbedWidth();
-    this.setEmbeds(this.deck);
+    this.setEmbeds(deck);
+    this.loadShareComponent(deck);
   }
 
-  private async loadShareComponent() {
+  private async loadShareComponent(deck: Deck) {
     setTimeout(async () => {
       const { ShareComponent } = await import(/* webpackChunkName: 'share' */ '../share/share.component');
       const share = this.viewContainer.createComponent(this.resolver.resolveComponentFactory(ShareComponent));
-      share.instance.text = this.deck.title;
+      share.instance.text = deck.title;
     }, 1000);
   }
 
