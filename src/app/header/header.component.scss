@@ -2,11 +2,7 @@
 @import '~@material/icon-button/mdc-icon-button';
 
 .mdc-top-app-bar {
-  transition: background-color 400ms !important;
-}
-
-.mdc-top-app-bar__row {
-  transition: height 400ms !important;
+  transition: background-color 1000ms !important;
 }
 
 @media (min-width: 960px) {
