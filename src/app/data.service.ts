@@ -1,12 +1,8 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
 import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
-import { Deck } from './deck';
-import deckData from './decks.data.json';
 import { Tag, TagSelectionEvent } from './tag';
 import tagData from './tags.data.json';
-
-const DECKS: Deck[] = deckData.map((deck: Deck) => new Deck(deck));
 
 function sortTags(a: Tag, b: Tag) {
   if (a.id < b.id) {
@@ -29,7 +25,6 @@ export class DataService {
     this.tags$.next(tagData.sort(sortTags));
   }
 
-  decks$ = of(DECKS).pipe(map(decks => decks.filter(deck => !deck.archived)));
   selectedTagIds$ = new BehaviorSubject<string[]>([]);
   tags$ = new BehaviorSubject<Tag[]>([]);
 
@@ -51,18 +46,6 @@ export class DataService {
     this.tagSelection$.next(event);
   }
 
-  deck$(id: string): Observable<Deck> {
-    return of(DECKS.find(deck => deck.id === id));
-  }
-
-  filterDecks$(selectedTagIds$: Observable<string[]>): Observable<Deck[]> {
-    return combineLatest(
-      this.decks$,
-      selectedTagIds$,
-      this.filterDecks,
-    );
-  }
-
   filterTags$(ids: string[]): Observable<Tag[]> {
     if (ids === undefined || ids.length === 0) {
       return this.tags$;
@@ -82,14 +65,6 @@ export class DataService {
     } else {
       return selectedTagIds.filter(tagId => tagId !== event.id);
     }
-  }
-
-  private filterDecks(decks: Deck[], tags: string[]): Deck[] {
-    return decks.filter(deck => {
-      return tags.every(tag => {
-        return deck.tags.includes(tag);
-      });
-    });
   }
 }
 
