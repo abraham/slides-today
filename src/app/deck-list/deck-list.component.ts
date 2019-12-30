@@ -4,11 +4,11 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DataService } from '../data.service';
-import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
+import { DataService } from '../services/data.service';
+import { Deck } from '../models/deck';
+import { DeckService } from '../services/deck.service';
 import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
-import { ThemeService } from '../theme.service';
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'app-deck-list',

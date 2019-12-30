@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { combineLatest, Observable, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Deck } from './deck';
+import { Deck } from '../models/deck';
 
 @Injectable({
   providedIn: 'root',
@@ -36,7 +36,7 @@ export class DeckService {
   }
 
   private async fetchDecks(): Promise<void> {
-    const { default: data }: { default: any[] } = await import('./decks.data.json');
+    const { default: data }: { default: any[] } = await import('../decks.data.json');
     const decks = data.filter(deck => !deck.archived)
                  .map((deck: Deck) => new Deck(deck));
     this.decks$.next(decks);

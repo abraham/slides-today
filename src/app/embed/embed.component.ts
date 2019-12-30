@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { Link } from '../link';
-import { DEFAULT_THEME } from '../theme';
+import { Link } from '../models/link';
+import { DEFAULT_THEME } from '../models/theme';
 
 @Component({
   selector: 'app-embed',

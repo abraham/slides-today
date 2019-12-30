@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, Resolve, Router, RouterStateSnapshot } from '@angular/router';
 import { NEVER, Observable, of } from 'rxjs';
 import { mergeMap, take } from 'rxjs/operators';
-import { Deck } from '../deck';
-import { DeckService } from '../deck.service';
-import { ThemeService } from '../theme.service';
+import { Deck } from '../models/deck';
+import { DeckService } from '../services/deck.service';
+import { ThemeService } from '../services/theme.service';
 
 @Injectable({
   providedIn: 'root',

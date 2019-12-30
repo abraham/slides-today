@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SpeakerService } from '../speaker.service';
+import { SpeakerService } from '../services/speaker.service';
 
 @Component({
   selector: 'app-speaker',

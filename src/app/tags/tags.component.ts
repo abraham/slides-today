@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
-import { DataService } from '../data.service';
-import { Tag } from '../tag';
+import { DataService } from '../services/data.service';
+import { Tag } from '../models/tag';
 
 @Component({
   selector: 'app-tags',

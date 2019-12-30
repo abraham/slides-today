@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { RoutedComponents } from './app-routing.module';
-import { DataService } from './data.service';
-import { ThemeService } from './theme.service';
+import { DataService } from './services/data.service';
+import { ThemeService } from './services/theme.service';
 
 @Component({
   selector: 'app-root',

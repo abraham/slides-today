@@ -2,7 +2,7 @@ import { Status } from 'twitter-d';
 import { Link } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
-import tagData from './tags.data.json';
+import tagData from '../tags.data.json';
 import { formatTagList } from './text';
 import { Theme } from './theme';
 
