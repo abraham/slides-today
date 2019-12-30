@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
+import { SocialServices } from '../models/service';
 import { DEFAULT_INVERTED_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 
@@ -9,8 +10,6 @@ interface ShareOptions {
   text: string;
   url: string;
 }
-
-type Service = 'twitter' | 'facebook' | 'clipboard';
 
 type NavigatorShare = (options: ShareOptions) => Promise<{}>;
 
@@ -37,9 +36,11 @@ export class ShareComponent implements AfterViewInit, OnInit {
   @ViewChild('menuEl', { static: true }) menuEl!: ElementRef;
   @Input() text = '';
 
+  SocialServices = SocialServices;
+
   private services: { [key: string]: () => string } = {
-    facebook: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
-    twitter: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
+    [SocialServices.facebook]: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
+    [SocialServices.twitter]: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
 
   ngOnInit() {
@@ -90,8 +91,8 @@ export class ShareComponent implements AfterViewInit, OnInit {
     };
   }
 
-  share(service: Service) {
-    if (service === 'clipboard') {
+  share(service: SocialServices) {
+    if (service === SocialServices.clipboard) {
       clipboard.writeText(window.location.href)
                .catch(() => alert('Error copying URL'));
     } else {
