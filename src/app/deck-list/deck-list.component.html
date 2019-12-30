@@ -13,10 +13,10 @@
         <app-about *ngIf="(selectedTagIds$ | async).length === 0"
                    class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-about>
 
-        <app-deck-summary *ngFor="let deck of decks$ | async"
+        <app-deck-summary *ngFor="let deck of decks"
                           [deck]="deck"
                           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
-        <div *ngIf="!(decks$ | async).length"
+        <div *ngIf="!decks.length"
              class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
           Nothing found that includes all the following tags:
           <app-tags [currentTags]="selectedTagIds$ | async"></app-tags>

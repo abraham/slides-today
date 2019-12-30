@@ -4,11 +4,11 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
-import { DataService } from '../services/data.service';
 import { Deck } from '../models/deck';
+import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
-import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 import { ThemeService } from '../services/theme.service';
+import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 
 @Component({
   selector: 'app-deck-list',
@@ -24,14 +24,15 @@ export class DeckListComponent implements OnInit {
               breakpointObserver: BreakpointObserver) {
     this.themeService.reset();
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
-    this.decks$ = this.deckService.filter(this.selectedTagIds$);
+    this.deckService.filter(this.selectedTagIds$)
+                    .subscribe(decks => this.decks = decks);
     breakpointObserver
       .observe([Breakpoints.XSmall])
       .subscribe(({ matches }) => this.mobile = matches);
   }
 
   selectedTagIds$: Observable<string[]>;
-  decks$: Observable<Deck[]>;
+  decks: Deck[] = [];
   mobile = false;
 
   ngOnInit() {
