@@ -13,7 +13,7 @@ export class DeckService {
     this.fetchDecks();
   }
 
-  get(id: string): Observable<Deck> {
+  get(id: string): Observable<Deck|undefined> {
     return this.decks$.pipe(
       map((decks: Deck[]) => decks.find((deck: Deck) => deck.id === id))
     );
@@ -38,7 +38,7 @@ export class DeckService {
   private async fetchDecks(): Promise<void> {
     const { default: data }: { default: any[] } = await import('../decks.data.json');
     const decks = data.filter(deck => !deck.archived)
-                 .map((deck: Deck) => new Deck(deck));
+                      .map((deck: Deck) => new Deck(deck));
     this.decks$.next(decks);
   }
 }
