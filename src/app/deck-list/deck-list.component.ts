@@ -24,6 +24,7 @@ export class DeckListComponent implements OnInit {
               breakpointObserver: BreakpointObserver) {
     this.themeService.reset();
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
+    this.selectedTagIds$.subscribe(selectedTagIds => this.hasSelectedTagIds = selectedTagIds.length !== 0);
     this.deckService.filter(this.selectedTagIds$)
                     .subscribe(decks => this.decks = decks);
     breakpointObserver
@@ -34,6 +35,7 @@ export class DeckListComponent implements OnInit {
   selectedTagIds$: Observable<string[]>;
   decks: Deck[] = [];
   mobile = false;
+  hasSelectedTagIds = false;
 
   ngOnInit() {
     this.route.paramMap.pipe(

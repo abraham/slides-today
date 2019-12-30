@@ -9,5 +9,5 @@ import { SponsorService } from '../services/sponsor.service';
 export class SponsorComponent {
   constructor(public sponsorService: SponsorService) { }
 
-  @Input() sponsorIds?: string[];
+  @Input() sponsorIds!: string[];
 }

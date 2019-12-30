@@ -2,8 +2,8 @@ import { Location } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
-import { Observable } from 'rxjs';
-import { Theme } from '../models/theme';
+import { BehaviorSubject } from 'rxjs';
+import { DEFAULT_THEME, Theme } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 
@@ -21,7 +21,7 @@ export class HeaderComponent implements AfterViewInit {
               private location: Location,
               private router: Router,
               update: UpdateService) {
-    this.theme$ = this.themeService.current$;
+    this.themeService.current$.subscribe(theme => this.theme = theme);
     update.$available.subscribe(() => this.updateAvailable = true);
 
     window.addEventListener('beforeinstallprompt', e => {
@@ -30,11 +30,11 @@ export class HeaderComponent implements AfterViewInit {
     });
   }
 
-  theme$: Observable<Theme>;
+  theme = DEFAULT_THEME;
   updateAvailable = false;
   deferredInstallPrompt?: PromptEvent;
 
-  @Input() title!: string;
+  @Input() title = 'Slides.today';
   @Input() showBack = false;
   @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
