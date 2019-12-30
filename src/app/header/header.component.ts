@@ -4,8 +4,8 @@ import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
 import { Observable } from 'rxjs';
 import { Theme } from '../theme';
-import { ThemeService } from '../theme.service';
-import { UpdateService } from '../update.service';
+import { ThemeService } from '../services/theme.service';
+import { UpdateService } from '../services/update.service';
 
 @Component({
   selector: 'app-header',

@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
-import { DataService } from '../data.service';
+import { DataService } from '../services/data.service';
 import { Tag } from '../tag';
 
 @Component({

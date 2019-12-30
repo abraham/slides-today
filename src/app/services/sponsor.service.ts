@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Sponsor } from './sponsor';
-import sponsorData from './sponsors.data.json';
+import { Sponsor } from '../sponsor';
+import sponsorData from '../sponsors.data.json';
 
 @Injectable({
   providedIn: 'root',

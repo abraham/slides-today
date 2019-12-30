@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
 import { DEFAULT_INVERTED_THEME } from '../theme';
-import { ThemeService } from '../theme.service';
+import { ThemeService } from '../services/theme.service';
 
 interface ShareOptions {
   title: string;
