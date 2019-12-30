@@ -2,7 +2,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
+import { EMPTY, Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 import { DataService } from '../services/data.service';
@@ -38,7 +38,7 @@ export class DeckListComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap.pipe(
       map(params => params.get('id')),
-      switchMap(id => this.deckService.get(id)),
+      switchMap(id => id ? this.deckService.get(id) : EMPTY),
     );
 
     this.route.paramMap.pipe(
