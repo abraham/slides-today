@@ -1,5 +1,8 @@
-<button #fabEl appRipple
-        class="mdc-fab mdc-fab--extended app-fab--absolute mdc-fab--exited"
+<button appRipple
+        class="mdc-fab mdc-fab--extended app-fab--absolute"
+        [class.mdc-fab--exited]="exited"
+        [style.color]="theme.color"
+        [style.backgroundColor]="theme.backgroundColor"
         aria-label="Share"
         title="Share"
         (click)="startShare()">
