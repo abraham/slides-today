@@ -32,12 +32,16 @@ export class HeaderComponent implements AfterViewInit {
 
   @Input() title!: string;
   @Input() showBack = false;
-  @ViewChild('appBar', { static: true }) appBar!: ElementRef;
+  @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
-  private toolbar?: MDCTopAppBar;
+  private toolbar!: MDCTopAppBar;
 
   ngAfterViewInit(): void {
-    this.initToolbar();
+    if (!this.appBarEl) {
+      throw new Error('Missing ViewChild appBarEl');
+    }
+
+    this.toolbar = new MDCTopAppBar(this.appBarEl.nativeElement);
   }
 
   openInstallPrompt() {
@@ -50,10 +54,6 @@ export class HeaderComponent implements AfterViewInit {
 
   goHome(): void {
     this.router.navigate(['/']);
-  }
-
-  initToolbar(): void {
-    this.toolbar = new MDCTopAppBar(this.appBar.nativeElement);
   }
 
   goBack(e: MouseEvent): void {
