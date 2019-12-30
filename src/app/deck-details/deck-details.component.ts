@@ -1,11 +1,15 @@
 import { Location } from '@angular/common';
 import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Data, Router } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
 import { EmbeddedServices } from '../models/service';
 import { DEFAULT_THEME } from '../models/theme';
+
+interface DeckData extends Data {
+  deck: Deck;
+}
 
 @Component({
   selector: 'app-deck-details',
@@ -27,11 +31,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   title = ''; // Clear site title
   deck$ = new ReplaySubject<Deck>();
   embeds: Link[] = [];
-  embedWidth: number;
+  embedWidth = 200;
   colors = DEFAULT_THEME;
 
   ngOnInit() {
-    this.route.data.subscribe(({ deck }: { deck: Deck }) => this.deck$.next(deck));
+    this.route.data.subscribe(data => this.deck$.next((data as DeckData).deck));
   }
 
   ngAfterContentChecked() {
