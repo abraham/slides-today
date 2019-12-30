@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
+import { EmbeddedServices } from '../models/service';
 import { DEFAULT_THEME } from '../models/theme';
 
 @Component({
@@ -81,7 +82,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setEmbeds(deck: Deck): void {
-    const embedServices = ['youtube', 'slides', 'vimeo'];
-    this.embeds = deck.links.filter(({ service }) => embedServices.includes(service));
+    this.embeds = deck.links.filter(({ service }) => Object.keys(EmbeddedServices).includes(service));
   }
 }
