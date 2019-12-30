@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { combineLatest, Observable, ReplaySubject } from 'rxjs';
+import { combineLatest, EMPTY, Observable, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 
@@ -13,7 +13,10 @@ export class DeckService {
     this.fetchDecks();
   }
 
-  get(id: string): Observable<Deck|undefined> {
+  get(id: string|null): Observable<Deck|undefined> {
+    if (!id) {
+      return EMPTY;
+    }
     return this.decks$.pipe(
       map((decks: Deck[]) => decks.find((deck: Deck) => deck.id === id))
     );
