@@ -2,9 +2,9 @@ import { Location } from '@angular/common';
 import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
-import { Deck } from '../deck';
-import { Link } from '../link';
-import { DEFAULT_THEME } from '../theme';
+import { Deck } from '../models/deck';
+import { Link } from '../models/link';
+import { DEFAULT_THEME } from '../models/theme';
 
 @Component({
   selector: 'app-deck-details',

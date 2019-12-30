@@ -3,7 +3,7 @@ import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular
 import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
 import { Observable } from 'rxjs';
-import { Theme } from '../theme';
+import { Theme } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 

@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '
 import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
 import { DataService } from '../services/data.service';
-import { Tag } from '../tag';
+import { Tag } from '../models/tag';
 
 @Component({
   selector: 'app-tags',

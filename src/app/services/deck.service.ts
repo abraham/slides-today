@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { combineLatest, Observable, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Deck } from '../deck';
+import { Deck } from '../models/deck';
 
 @Injectable({
   providedIn: 'root',

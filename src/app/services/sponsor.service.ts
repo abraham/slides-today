@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Sponsor } from '../sponsor';
+import { Sponsor } from '../models/sponsor';
 import sponsorData from '../sponsors.data.json';
 
 @Injectable({

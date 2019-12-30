@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
 import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
-import { Tag, TagSelectionEvent } from '../tag';
+import { Tag, TagSelectionEvent } from '../models/tag';
 import tagData from '../tags.data.json';
 
 function sortTags(a: Tag, b: Tag) {
