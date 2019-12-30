@@ -7,6 +7,10 @@ import { Theme } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 
+interface PromptEvent extends Event {
+  prompt: () => void;
+}
+
 @Component({
   selector: 'app-header',
   styleUrls: ['./header.component.scss'],
@@ -20,15 +24,15 @@ export class HeaderComponent implements AfterViewInit {
     this.theme$ = this.themeService.current$;
     update.$available.subscribe(() => this.updateAvailable = true);
 
-    window.addEventListener('beforeinstallprompt', (e) => {
+    window.addEventListener('beforeinstallprompt', e => {
       e.preventDefault();
-      this.deferredInstallPrompt = e;
+      this.deferredInstallPrompt = e as PromptEvent;
     });
   }
 
   theme$: Observable<Theme>;
   updateAvailable = false;
-  deferredInstallPrompt?: Event;
+  deferredInstallPrompt?: PromptEvent;
 
   @Input() title!: string;
   @Input() showBack = false;
@@ -46,8 +50,7 @@ export class HeaderComponent implements AfterViewInit {
 
   openInstallPrompt() {
     if (this.deferredInstallPrompt) {
-      // TODO: Remove any
-      (this.deferredInstallPrompt as any).prompt();
+      this.deferredInstallPrompt.prompt();
       this.deferredInstallPrompt = undefined;
     }
   }
