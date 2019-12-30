@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { AfterContentInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
 import { SocialServices } from '../models/service';
@@ -24,40 +24,33 @@ declare global {
   styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
 })
-export class ShareComponent implements AfterViewInit, OnInit {
+export class ShareComponent implements AfterContentInit {
   constructor(private themeService: ThemeService) {
     this.themeService.inverted$.subscribe(theme => this.theme = theme);
   }
 
-  private theme = DEFAULT_INVERTED_THEME;
   private menu!: MDCMenu;
 
-  @ViewChild('fabEl', { static: true }) fabEl?: ElementRef;
-  @ViewChild('menuEl', { static: true }) menuEl!: ElementRef;
+  @ViewChild('menuEl', { static: true }) menuEl?: ElementRef;
   @Input() text = '';
 
+  theme = DEFAULT_INVERTED_THEME;
   SocialServices = SocialServices;
+  exited = true;
 
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
     [SocialServices.twitter]: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
 
-  ngOnInit() {
-    this.setTheme();
-  }
+  ngAfterContentInit() {
+    if (!this.menuEl) {
+      throw new Error('Missing ViewChild menuEl');
+    }
 
-  ngAfterViewInit() {
     this.menu = new MDCMenu(this.menuEl.nativeElement);
-    this.showFab();
-    this.menu.listen('MDCMenuSurface:closed', () => this.showFab());
-  }
-
-
-  private setTheme() {
-    if (!this.fabEl || !this.theme) { return; }
-    this.fabEl.nativeElement.style.color = this.theme.color;
-    this.fabEl.nativeElement.style.backgroundColor = this.theme.backgroundColor;
+    setTimeout(() => this.exited = false, 1000);
+    this.menu.listen('MDCMenuSurface:closed', () => this.exited = false);
   }
 
   private get shareText(): string {
@@ -74,13 +67,9 @@ export class ShareComponent implements AfterViewInit, OnInit {
         .then(() => console.log('Successful share'))
         .catch((error: Error) => console.log('Error sharing:', error));
     } else {
-      this.fabEl.nativeElement.classList.add('mdc-fab--exited');
+      this.exited = true;
       this.menu.open = true;
     }
-  }
-
-  private showFab() {
-    this.fabEl.nativeElement.classList.remove('mdc-fab--exited');
   }
 
   private get shareOptions(): ShareOptions {

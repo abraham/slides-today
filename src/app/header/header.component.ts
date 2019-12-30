@@ -7,6 +7,10 @@ import { Theme } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 
+interface PromptEvent extends Event {
+  prompt: () => void;
+}
+
 @Component({
   selector: 'app-header',
   styleUrls: ['./header.component.scss'],
@@ -20,40 +24,39 @@ export class HeaderComponent implements AfterViewInit {
     this.theme$ = this.themeService.current$;
     update.$available.subscribe(() => this.updateAvailable = true);
 
-    window.addEventListener('beforeinstallprompt', (e) => {
+    window.addEventListener('beforeinstallprompt', e => {
       e.preventDefault();
-      this.deferredInstallPrompt = e;
+      this.deferredInstallPrompt = e as PromptEvent;
     });
   }
 
   theme$: Observable<Theme>;
   updateAvailable = false;
-  deferredInstallPrompt?: Event;
+  deferredInstallPrompt?: PromptEvent;
 
   @Input() title!: string;
   @Input() showBack = false;
-  @ViewChild('appBar', { static: true }) appBar!: ElementRef;
+  @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
-  private toolbar?: MDCTopAppBar;
+  private toolbar!: MDCTopAppBar;
 
   ngAfterViewInit(): void {
-    this.initToolbar();
+    if (!this.appBarEl) {
+      throw new Error('Missing ViewChild appBarEl');
+    }
+
+    this.toolbar = new MDCTopAppBar(this.appBarEl.nativeElement);
   }
 
   openInstallPrompt() {
     if (this.deferredInstallPrompt) {
-      // TODO: Remove any
-      (this.deferredInstallPrompt as any).prompt();
+      this.deferredInstallPrompt.prompt();
       this.deferredInstallPrompt = undefined;
     }
   }
 
   goHome(): void {
     this.router.navigate(['/']);
-  }
-
-  initToolbar(): void {
-    this.toolbar = new MDCTopAppBar(this.appBar.nativeElement);
   }
 
   goBack(e: MouseEvent): void {
