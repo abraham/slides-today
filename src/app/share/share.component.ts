@@ -62,12 +62,13 @@ export class ShareComponent implements AfterContentInit {
   }
 
   startShare(): void {
+    this.exited = true;
     if (navigator.share) {
       navigator.share(this.shareOptions)
         .then(() => console.log('Successful share'))
-        .catch((error: Error) => console.log('Error sharing:', error));
+        .catch((error: Error) => console.log('Error sharing:', error))
+        .then(() => this.exited = false);
     } else {
-      this.exited = true;
       this.menu.open = true;
     }
   }
