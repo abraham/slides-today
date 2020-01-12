@@ -38,7 +38,7 @@
     "@angular/platform-browser-dynamic": "9.0.0-rc.8",
     "@angular/router": "9.0.0-rc.8",
     "@angular/service-worker": "9.0.0-rc.8",
-    "@firebase/app": "0.5.0",
+    "@firebase/app": "0.5.1",
     "@firebase/firestore": "1.9.2",
     "@justinribeiro/lite-youtube": "github:abraham/lite-youtube#typescript",
     "@webcomponents/webcomponentsjs": "2.4.1",
