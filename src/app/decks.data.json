@@ -35,6 +35,12 @@
         "url": "https://www.meetup.com/MadisonJS/events/wqxgqlybccbrb/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/163gy77UhyL6yar7XSA1U1ynruKdUQuwwgiGIjdnvHcg",
+        "useAsTag": false,
+        "service": "slides"
       }
     ],
     "resources": [
@@ -107,6 +113,12 @@
       {
         "title": "Can You Afford It?: Real-world Web Performance Budgets",
         "url": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Add to Home Screen",
+        "url": "https://developers.google.com/web/fundamentals/app-install-banners",
         "useAsTag": false,
         "service": "external"
       }
