@@ -121,6 +121,18 @@
         "url": "https://developers.google.com/web/fundamentals/app-install-banners",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Share like a native app with the Web Share API",
+        "url": "https://web.dev/web-share/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Receiving shared data with the Web Share Target API",
+        "url": "https://web.dev/web-share-target/",
+        "useAsTag": false,
+        "service": "external"
       }
     ],
     "sponsorIds": [
