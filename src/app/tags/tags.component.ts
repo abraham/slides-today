@@ -1,8 +1,8 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
-import { DataService } from '../services/data.service';
 import { Tag } from '../models/tag';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-tags',
@@ -16,8 +16,6 @@ export class TagsComponent implements OnInit, AfterViewInit {
 
   tags$: Observable<Tag[]>;
 
-  private chipSet!: MDCChipSet;
-
   @Input() currentTags: string[] = [];
   @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
 
@@ -27,7 +25,7 @@ export class TagsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     requestAnimationFrame(() => {
-      this.chipSet = MDCChipSet.attachTo(this.tagsEl.nativeElement);
+      MDCChipSet.attachTo(this.tagsEl.nativeElement);
     });
   }
 }

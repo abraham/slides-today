@@ -2,8 +2,7 @@ import { Location } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
-import { BehaviorSubject } from 'rxjs';
-import { DEFAULT_THEME, Theme } from '../models/theme';
+import { DEFAULT_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 
@@ -38,14 +37,12 @@ export class HeaderComponent implements AfterViewInit {
   @Input() showBack = false;
   @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
-  private toolbar!: MDCTopAppBar;
-
   ngAfterViewInit(): void {
     if (!this.appBarEl) {
       throw new Error('Missing ViewChild appBarEl');
     }
 
-    this.toolbar = new MDCTopAppBar(this.appBarEl.nativeElement);
+    MDCTopAppBar.attachTo(this.appBarEl.nativeElement);
   }
 
   openInstallPrompt() {

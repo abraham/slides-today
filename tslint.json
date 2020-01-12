@@ -93,7 +93,8 @@
     "template-click-events-have-key-events": true,
     "template-mouse-events-have-key-events": true,
     "template-no-autofocus": true,
-    "template-no-distracting-elements": true
+    "template-no-distracting-elements": true,
+    "no-unused-variable": true
   },
   "rulesDirectory": [
     "codelyzer"
