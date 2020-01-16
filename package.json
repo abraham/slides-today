@@ -92,7 +92,7 @@
     "tslint": "5.20.1",
     "twit": "2.2.11",
     "twitter-d": "0.4.0",
-    "typescript": "3.7.4",
+    "typescript": "3.7.5",
     "webpack-bundle-analyzer": "3.6.0"
   },
   "engines": {
