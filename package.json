@@ -39,7 +39,7 @@
     "@angular/router": "9.0.0-rc.9",
     "@angular/service-worker": "9.0.0-rc.9",
     "@firebase/app": "0.5.2",
-    "@firebase/firestore": "1.9.2",
+    "@firebase/firestore": "1.9.3",
     "@justinribeiro/lite-youtube": "github:abraham/lite-youtube#typescript",
     "@webcomponents/webcomponentsjs": "2.4.1",
     "autotrack": "2.4.1",
