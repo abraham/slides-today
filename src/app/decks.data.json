@@ -667,6 +667,12 @@
         "url": "https://docs.google.com/presentation/d/19cNKqRqTqcm54vWk1vYSRq0PzZB3rw3lvaWlwXw9kw4",
         "useAsTag": false,
         "service": "slides"
+      },
+      {
+        "title": "Video",
+        "url": "https://www.pluralsight.com/courses/that-conference-2019-session-54",
+        "useAsTag": true,
+        "service": "external"
       }
     ],
     "resources": [
