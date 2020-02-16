@@ -1,16 +1,16 @@
 @import '~@material/layout-grid/mdc-layout-grid';
 
-#wrapper {
+.wrapper {
   transition: background-color 1000ms !important;
 }
 
 @media (min-width: 960px) {
-  #container {
-    max-width: 960px;
+  .container {
     margin: 0 auto;
+    max-width: 960px;
   }
 }
 
 .mdc-card {
-  padding: 16px 16px 4px 16px;
+  padding: 16px 16px 4px;
 }
