@@ -1,7 +1,7 @@
-<div id="wrapper" [ngStyle]="theme$ | async">
+<div class="wrapper" [ngStyle]="theme$ | async">
   <app-header [title]="title" [showBack]="showBack"></app-header>
 
-  <div id="container">
+  <div class="container">
     <main *ngIf="firstLoad" class='main mdc-layout-grid'>
       <div class="mdc-layout-grid__inner">
         <div class='mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12'>
