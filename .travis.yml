@@ -13,6 +13,8 @@ jobs:
       script: npm run build
     - name: Build Scripts
       script: npm run build:scripts
+    - name: Feature Tests
+      script: npm test
     - name: Build Prod
       script:
         - npm run build:prod
