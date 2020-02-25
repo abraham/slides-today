@@ -3,6 +3,6 @@
     <section class="card__primary">
       <h2 class="card__title mdc-typography--headline3">{{deck.title}}</h2>
     </section>
-    <section class="card__secondary mdc-typography--body1">{{deck.eventTitle}} · {{deck.date}}  · {{deck.tagsSentence}}</section>
+    <section class="card__secondary mdc-typography--body1">{{deck.eventTitle}} · {{deck.date}} · {{deck.tags | tagList | async}}</section>
   </div>
 </div>
