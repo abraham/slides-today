@@ -19,7 +19,7 @@
         <div *ngIf="!decks.length"
              class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
           Nothing found that includes all the following tags:
-          {{selectedTagsText}}
+          {{selectedTagIds$ | async | tagList}}
         </div>
       </div>
     </div>

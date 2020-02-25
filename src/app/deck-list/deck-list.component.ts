@@ -26,7 +26,6 @@ export class DeckListComponent implements OnInit {
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
     this.selectedTagIds$.subscribe(selectedTagIds => {
       this.hasSelectedTagIds = selectedTagIds.length !== 0;
-      this.selectedTagsText = selectedTagIds.map(tag => `#${tag}`).join(', ');
     });
     this.deckService.filter(this.selectedTagIds$)
                     .subscribe(decks => this.decks = decks);
@@ -39,7 +38,6 @@ export class DeckListComponent implements OnInit {
   decks: Deck[] = [];
   mobile = false;
   hasSelectedTagIds = false;
-  selectedTagsText = '';
 
   ngOnInit() {
     this.route.paramMap.pipe(
