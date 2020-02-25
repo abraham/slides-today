@@ -16,18 +16,15 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'slides-today'`, () => {
+  it(`should have as title 'Slides.today'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('slides-today');
+    expect(app.title).toEqual('Slides.today');
   });
 
-  it('should render title', () => {
+  it(`should hide back button by default`, () => {
     const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain(
-      'slides-today app is running!',
-    );
+    const app = fixture.componentInstance;
+    expect(app.showBack).toBeFalsy();
   });
 });

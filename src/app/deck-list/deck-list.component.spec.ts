@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DeckListComponent } from './decks.component';
+import { DeckListComponent } from './deck-list.component';
 
 describe('DeckListComponent', () => {
   let component: DeckListComponent;
