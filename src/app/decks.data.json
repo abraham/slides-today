@@ -1,5 +1,72 @@
 [
   {
+    "id": "-M0ubHYZGLQw8zIZafIO",
+    "archived": false,
+    "nodePackages": [
+      "firebase-tools",
+      "firebase",
+      "firebaseui"
+    ],
+    "githubRepos": [],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Firebase Study Jam",
+    "date": {
+      "start": "2020-02-22T00:00:00.000Z",
+      "end": "2020-02-22T00:00:00.000Z"
+    },
+    "description": "Join us for our Firebase Study Jam! Together we'll work through Firebase for web codelabs prepared by Google instructors. You will be able to get hands-on experience with Firebase.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "firebase",
+      "javascript",
+      "workshop"
+    ],
+    "location": "Madison, Wi",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/268282809/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1FzjTvNiBdXOY-p8jrzq_DAmmbMss6OCWdbvju2u6PTA",
+        "useAsTag": false,
+        "service": "slides"
+      },
+      {
+        "title": "Demo",
+        "url": "https://stackblitz.com/edit/firebase-gtk-web-start",
+        "useAsTag": true,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Get to know Firebase for web",
+        "url": "https://google.dev/codelabs/firebase-get-to-know-web",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+      "-Kt8bVVFVc8xQNx9AP_E",
+      "-KxPCvJa7J1Ggg1xZpCp"
+    ],
+    "tweetIds": [
+    ]
+  },
+  {
     "id": "-Lxlgzybi9x9Cq1kT9PT",
     "archived": false,
     "nodePackages": [
