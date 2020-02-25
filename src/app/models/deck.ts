@@ -65,10 +65,7 @@ export class Deck {
   }
 
   set tags(baseTags: string[]) {
-    this.cachedTags = baseTags.concat(this.linkTags)
-      .reduce((uniqueTags: string[], tag: string) => {
-      return uniqueTags.includes(tag) ? uniqueTags : uniqueTags.concat(tag);
-    }, []);
+    this.cachedTags = [...new Set(baseTags.concat(this.linkTags))];
   }
 
   get tags(): string[] {
