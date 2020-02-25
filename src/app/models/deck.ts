@@ -1,9 +1,8 @@
 import { Status } from 'twitter-d';
+import tagData from '../tags.data.json';
 import { Link } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
-import tagData from '../tags.data.json';
-import { formatTagList } from './text';
 import { Theme } from './theme';
 
 export class Deck {
@@ -20,7 +19,6 @@ export class Deck {
   sponsorIds: string[];
   title: string;
   tweetIds: string[];
-  tagsSentence = '';
 
   private cachedTweets?: Promise<Status[]>;
   private cachedTags: string[] = [];
@@ -48,7 +46,6 @@ export class Deck {
     this.tags = data.tags;
     this.title = data.title;
     this.tweetIds = data.tweetIds;
-    this.formatTagsSentence();
   }
 
   get tweets(): Promise<Status[]> {
@@ -76,10 +73,6 @@ export class Deck {
 
   get tags(): string[] {
     return this.cachedTags;
-  }
-
-  private async formatTagsSentence(): Promise<void> {
-    this.tagsSentence = await formatTagList(this.tags);
   }
 
   get theme(): Theme {

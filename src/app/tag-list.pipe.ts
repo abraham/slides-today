@@ -1,10 +1,11 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { formatTagList } from './models/text';
 
 @Pipe({
-  name: 'tagList'
+  name: 'tagList',
 })
 export class TagListPipe implements PipeTransform {
-  transform(tags: string[]|null): string {
-    return (tags || []).map(tag => `#${tag}`).join(', ');
+  async transform(tags: string[]|null): Promise<string> {
+    return formatTagList(tags || []);
   }
 }
