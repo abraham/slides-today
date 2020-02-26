@@ -41,7 +41,7 @@
     "@angular/service-worker": "9.0.2",
     "@firebase/app": "0.5.4",
     "@justinribeiro/lite-youtube": "github:abraham/lite-youtube#typescript",
-    "@webcomponents/webcomponentsjs": "2.4.1",
+    "@webcomponents/webcomponentsjs": "2.4.2",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "2.8.6",
     "firebase": "7.9.1",
