@@ -1,0 +1,224 @@
+{
+  "created_at": "Mon Feb 24 13:20:30 +0000 2020",
+  "id": 1231931913264390100,
+  "id_str": "1231931913264390145",
+  "full_text": "Think the mobile web is slow? Want to help make it faster?! Check out @pblatteier's talk on WICKED FAST 🔥MOBILE WEB on May 15th.\n\nTickets are on sale now: https://t.co/b2UzPT6YU9\n\n#5LakesFront #mobile #gottagofast #PWA https://t.co/ErluKIJ0Ik",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    218
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "5LakesFront",
+        "indices": [
+          180,
+          192
+        ]
+      },
+      {
+        "text": "mobile",
+        "indices": [
+          193,
+          200
+        ]
+      },
+      {
+        "text": "gottagofast",
+        "indices": [
+          201,
+          213
+        ]
+      },
+      {
+        "text": "PWA",
+        "indices": [
+          214,
+          218
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "pblatteier",
+        "name": "Pearl Latteier",
+        "id": 202376085,
+        "id_str": "202376085",
+        "indices": [
+          70,
+          81
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/b2UzPT6YU9",
+        "expanded_url": "https://5lakesfront.com/",
+        "display_url": "5lakesfront.com",
+        "indices": [
+          155,
+          178
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": 1231929967786811400,
+        "id_str": "1231929967786811393",
+        "indices": [
+          219,
+          242
+        ],
+        "media_url": "http://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
+        "url": "https://t.co/ErluKIJ0Ik",
+        "display_url": "pic.twitter.com/ErluKIJ0Ik",
+        "expanded_url": "https://twitter.com/5LakesFront/status/1231931913264390145/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 512,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 512,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 340,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "id": 1231929967786811400,
+        "id_str": "1231929967786811393",
+        "indices": [
+          219,
+          242
+        ],
+        "media_url": "http://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
+        "url": "https://t.co/ErluKIJ0Ik",
+        "display_url": "pic.twitter.com/ErluKIJ0Ik",
+        "expanded_url": "https://twitter.com/5LakesFront/status/1231931913264390145/photo/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "medium": {
+            "w": 1024,
+            "h": 512,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 512,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 680,
+            "h": 340,
+            "resize": "fit"
+          }
+        }
+      }
+    ]
+  },
+  "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1219807719986737200,
+    "id_str": "1219807719986737153",
+    "name": "5 LAKES Front",
+    "screen_name": "5LakesFront",
+    "location": "Milwaukee, WI",
+    "description": "The premier front end development conference in the Great Lakes region coming to Milwaukee on May 15. CFP now open!",
+    "url": "https://t.co/1lwtVB79vm",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/1lwtVB79vm",
+            "expanded_url": "http://5lakesfront.com",
+            "display_url": "5lakesfront.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 76,
+    "friends_count": 78,
+    "listed_count": 3,
+    "created_at": "Wed Jan 22 02:23:42 +0000 2020",
+    "favourites_count": 108,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 49,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1221083968226852864/XeeXAD_F_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1221083968226852864/XeeXAD_F_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1219807719986737153/1579964200",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 8,
+  "favorite_count": 21,
+  "favorited": true,
+  "retweeted": true,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+}
