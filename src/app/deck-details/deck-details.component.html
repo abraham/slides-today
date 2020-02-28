@@ -49,7 +49,7 @@
             </div>
           </div>
 
-          <div class="item" *ngIf="deck">
+          <div class="item" *ngIf="deck && deck.sponsorIds.length">
             <app-sponsor [sponsorIds]="deck.sponsorIds"></app-sponsor>
           </div>
 
