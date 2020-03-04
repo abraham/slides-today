@@ -1,6 +1,6 @@
 # Slides.today
 
-Slides.today is a site dedecated to the presentations [@abraham](https://github.com/abraham) and [@pearlbea](https://github.com/pearlbea) give at conferences and meetups.
+Slides.today is a site dedicated to the presentations [@abraham](https://github.com/abraham) and [@pearlbea](https://github.com/pearlbea) give at conferences and meetups.
 
 ## Install
 
