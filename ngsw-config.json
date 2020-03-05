@@ -54,7 +54,6 @@
     {
       "name": "api-data",
       "urls": [
-        "https://unpkg.com/**",
         "https://api.github.com/**"
       ],
       "cacheConfig": {

@@ -29,7 +29,18 @@
               "src/manifest.json",
               "src/robots.txt",
               "src/sw.js",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              {
+                "glob": "**/*.js",
+                "input": "./node_modules/@webcomponents/webcomponentsjs",
+                "output": "/assets/node_modules/@webcomponents/webcomponentsjs/",
+                "ignore": ["src/**/*"]
+              },
+              {
+                "glob": "autotrack{.js,.js.map}",
+                "input": "./node_modules/autotrack",
+                "output": "/assets/node_modules/autotrack/"
+              }
             ],
             "styles": [
               "src/styles.scss"
