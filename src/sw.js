@@ -1,3 +1,4 @@
+// Exists to migrate old cached sites to the new service worker path.
 // A simple, no-op service worker that takes immediate control.
 
 self.addEventListener('install', () => {

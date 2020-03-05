@@ -94,7 +94,15 @@
     "template-mouse-events-have-key-events": true,
     "template-no-autofocus": true,
     "template-no-distracting-elements": true,
-    "no-unused-variable": true
+    "no-unused-variable": true,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    }
   },
   "rulesDirectory": [
     "codelyzer"
