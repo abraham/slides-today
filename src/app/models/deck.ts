@@ -29,8 +29,8 @@ export class Deck {
 
   constructor(data: any) {
     this.cachedDate = {
-      end: new Date(Date.parse(data.date.end)),
-      start: new Date(Date.parse(data.date.start)),
+      end: new Date(data.date.end),
+      start: new Date(data.date.start),
     };
     this.archived = data.archived;
     this.description = data.description;
@@ -57,10 +57,13 @@ export class Deck {
   }
 
   get date(): string {
-    if (this.cachedDate.start.getDate() === this.cachedDate.end.getDate()) {
-      return `${this.startMonth} ${this.cachedDate.start.getDate()}, ${this.cachedDate.start.getFullYear()}`;
+    // TODO: Support dates that span two years
+    if (this.cachedDate.start.getUTCDate() === this.cachedDate.end.getUTCDate()) {
+      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
+    } else if (this.cachedDate.start.getMonth() === this.cachedDate.end.getMonth()) {
+      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
     } else {
-      return `${this.startMonth} ${this.cachedDate.start.getDate()}-${this.cachedDate.end.getDate()}, ${this.cachedDate.end.getFullYear()}`;
+      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}-${this.endMonth} ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getFullYear()}`;
     }
   }
 
@@ -81,6 +84,10 @@ export class Deck {
 
   private get startMonth(): string {
     return this.cachedDate.start.toLocaleString('en-us', { month: 'short' });
+  }
+
+  private get endMonth(): string {
+    return this.cachedDate.end.toLocaleString('en-us', { month: 'short' });
   }
 
   private get primaryTag(): Tag {
