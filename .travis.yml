@@ -19,3 +19,5 @@ jobs:
         - npm run bundlesize
     - name: Security
       script: npm audit
+  allow_failures:
+    - script: npm audit
