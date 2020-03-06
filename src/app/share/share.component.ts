@@ -35,8 +35,9 @@ export class ShareComponent implements AfterContentInit {
   @Input() text = '';
 
   theme = DEFAULT_INVERTED_THEME;
-  SocialServices = SocialServices;
   exited = true;
+  twitterUrl = '';
+  facebookUrl = '';
 
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
@@ -51,6 +52,8 @@ export class ShareComponent implements AfterContentInit {
     this.menu = new MDCMenu(this.menuEl.nativeElement);
     setTimeout(() => this.exited = false, 1000);
     this.menu.listen('MDCMenuSurface:closed', () => this.exited = false);
+    this.twitterUrl = this.services[SocialServices.twitter]();
+    this.facebookUrl = this.services[SocialServices.facebook]();
   }
 
   private get shareText(): string {
@@ -81,12 +84,8 @@ export class ShareComponent implements AfterContentInit {
     };
   }
 
-  share(service: SocialServices) {
-    if (service === SocialServices.clipboard) {
-      clipboard.writeText(window.location.href)
-               .catch(() => alert('Error copying URL'));
-    } else {
-      window.open(this.services[service]());
-    }
+  copy() {
+    clipboard.writeText(window.location.href)
+             .catch(() => alert('Error copying URL'));
   }
 }
