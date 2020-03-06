@@ -17,3 +17,5 @@ jobs:
       script:
         - npm run build:prod
         - npm run bundlesize
+    - name: Security
+      script: npm audit
