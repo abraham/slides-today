@@ -1,5 +1,9 @@
 @import '../card/card.scss';
 
+a {
+  text-decoration: none;
+}
+
 .mdc-card__media {
   background-position: center;
   background-repeat: no-repeat;

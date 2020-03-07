@@ -14,13 +14,9 @@ export class DeckSummaryComponent implements OnInit {
   @Input() deck!: Deck;
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
-  url?: string;
+  url = '';
 
   ngOnInit() {
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
-  }
-
-  goToDeck(): void {
-    this.router.navigate([this.url]);
   }
 }
