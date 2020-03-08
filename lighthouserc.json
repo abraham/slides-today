@@ -1,0 +1,18 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 3,
+      "staticDistDir": "./dist/slides-today/"
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "unused-css-rules": "warn",
+        "dom-size": "warn"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
