@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "target": "slides-today",
     "public": "dist/slides-today",
     "ignore": [
       "firebase.json",
