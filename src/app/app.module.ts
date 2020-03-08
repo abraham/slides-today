@@ -6,11 +6,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule, SwRegistrationOptions } from '@angular/service-worker';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { environment } from '../environments/environment';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardModule } from './card/card.module';
 import { HeaderComponent } from './header/header.component';
-import { TagModule } from './tag/tag.module';
+import { AppRoutingModule } from './modules/app-routing.module';
+import { CardModule } from './modules/card.module';
+import { TagModule } from './modules/tag.module';
 
 // TODO: `twitter-status` keeps `registerWhenStable` from ever firing on details page which prevents SW from installing.
 const swOptions: SwRegistrationOptions = {

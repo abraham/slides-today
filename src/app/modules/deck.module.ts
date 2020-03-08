@@ -2,14 +2,14 @@ import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-import { CardModule } from '../card/card.module';
 import { DeckDetailsComponent } from '../deck-details/deck-details.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
 import { EmbedComponent } from '../embed/embed.component';
 import { MapComponent } from '../map/map.component';
 import { SpeakerComponent } from '../speaker/speaker.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
-import { TagModule } from '../tag/tag.module';
+import { CardModule } from './card.module';
+import { TagModule } from './tag.module';
 
 import(/* webpackChunkName: 'components' */ 'github-repository');
 import(/* webpackChunkName: 'components' */ 'node-package');

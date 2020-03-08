@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { ExtraOptions, RouterModule, Routes, UrlMatchResult, UrlSegment } from '@angular/router';
-import { environment } from '../environments/environment';
-import { DeckDetailsComponent } from './deck-details/deck-details.component';
-import { DeckListComponent } from './deck-list/deck-list.component';
-import { DeckResolverService } from './services/deck-resolver.service';
+import { environment } from '../../environments/environment';
+import { DeckDetailsComponent } from '../deck-details/deck-details.component';
+import { DeckListComponent } from '../deck-list/deck-list.component';
+import { DeckResolverService } from '../services/deck-resolver.service';
 
 function isHome(url: UrlSegment[]): UrlMatchResult {
   const noPaths = url.length === 0;
@@ -14,11 +14,11 @@ function isHome(url: UrlSegment[]): UrlMatchResult {
 
 const routes: Routes = [
   {
-    loadChildren: () => import(/* webpackChunkName: 'home' */ './home/home.module').then(m => m.HomeModule),
+    loadChildren: () => import(/* webpackChunkName: 'home' */ './home.module').then(m => m.HomeModule),
     matcher: isHome,
   },
   {
-    loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck/deck.module').then(m => m.DeckModule),
+    loadChildren: () => import(/* webpackChunkName: 'deck' */ './deck.module').then(m => m.DeckModule),
     path: 'decks/:id',
     resolve: { deck: DeckResolverService },
   },
@@ -28,7 +28,7 @@ const routes: Routes = [
     redirectTo: '',
   },
   {
-    loadChildren: () => import(/* webpackChunkName: 'not-found' */ './not-found/not-found.module').then(m => m.NotFoundModule),
+    loadChildren: () => import(/* webpackChunkName: 'not-found' */ './not-found.module').then(m => m.NotFoundModule),
     path: '**',
   },
 ];
