@@ -3,29 +3,30 @@
 @import '~@material/ripple/mdc-ripple';
 
 .mdc-card {
-  overflow: hidden;
   border-radius: 8px;
   color: #000;
+  overflow: hidden;
 }
 
 .card__primary {
   padding: 16px;
   text-transform: uppercase;
 
-  .card__title, .card__subtitle {
+  .card__title,
+  .card__subtitle {
     margin: 0;
   }
 }
 
 .card__secondary {
-  padding: 0 1rem 8px 1rem;
+  padding: 0 1rem 8px;
 }
 
 .mdc-card__media {
-  margin-top: 4px;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
+  margin-top: 4px;
   width: 100%;
 }
