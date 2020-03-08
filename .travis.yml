@@ -8,15 +8,19 @@ jobs:
     - name: Lint
       script: npm run lint
     - name: Build
-      script: npm run build
-    - name: Build Scripts
-      script: npm run build:scripts
-    - name: Feature Tests
-      script: npm test
+      script:
+        - npm run build:scripts
+        - npm run build
     - name: Build Prod
       script:
         - npm run build:prod
         - npm run bundlesize
+    - name: Feature Tests
+      script: npm test
+    - name: Lighthouse
+      script:
+        - npm run build:prod
+        - npm run lighthouse
     - name: Security
       script: npm audit
   allow_failures:
