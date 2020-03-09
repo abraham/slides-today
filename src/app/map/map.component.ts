@@ -3,7 +3,7 @@ import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-map',
-  styleUrls: ['./map.component.css'],
+  styleUrls: ['./map.component.scss'],
   templateUrl: './map.component.html',
 })
 export class MapComponent implements OnInit {
@@ -11,6 +11,7 @@ export class MapComponent implements OnInit {
 
   @Input() location = '';
 
+  url?: string;
   mapUrl?: string;
   defaultImage = '/assets/img/default.png';
   offset = 200;
@@ -45,6 +46,7 @@ export class MapComponent implements OnInit {
 
   ngOnInit() {
     this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
+    this.url = `https://www.google.com/maps/place/${this.location}/`;
   }
 
   private styleParams(): string {

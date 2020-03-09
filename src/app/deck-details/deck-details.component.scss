@@ -1,8 +1,7 @@
 @use '../../theme.scss';
 
-@import '../card.scss';
-@import '~@material/elevation/mdc-elevation';
-@import '~@material/layout-grid/mdc-layout-grid';
+@use '~@material/elevation/mdc-elevation';
+@use '~@material/layout-grid/mdc-layout-grid';
 
 @media (max-width: 479px) {
   main {

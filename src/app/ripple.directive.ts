@@ -1,12 +1,18 @@
-import { Directive, ElementRef } from '@angular/core';
+import { AfterViewInit, Directive, ElementRef, Input } from '@angular/core';
 import { MDCRipple } from '@material/ripple';
+
+type Style = 'unbounded' | 'bounded';
 
 @Directive({
   selector: '[appRipple]'
 })
-export class RippleDirective {
-  constructor(private el: ElementRef) {
+export class RippleDirective implements AfterViewInit {
+  @Input('appRipple') style?: Style;
+
+  constructor(private el: ElementRef) {}
+
+  ngAfterViewInit() {
     const ripple = MDCRipple.attachTo(this.el.nativeElement);
-    ripple.unbounded = true;
+    ripple.unbounded = this.style !== 'bounded';
   }
 }

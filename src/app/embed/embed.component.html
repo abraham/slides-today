@@ -7,7 +7,7 @@
         allowfullscreen="true"
         [attr.title]="title + ' ' + link.title"></iframe>
 <div *ngIf="!youtubeId && placeholder" class="mdc-card" [ngStyle]="dimensionStyles">
-  <div class="mdc-card__primary-action action" tabindex="0" (click)="placeholder = false" (keyup)="placeholder = false">
+  <div appRipple="bounded" data-id="test" class="mdc-card__primary-action action" tabindex="0" (click)="placeholder = false" (keyup)="placeholder = false">
     <button appRipple
             class="mdc-icon-button button"
             title="Enable embed"

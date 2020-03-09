@@ -1,5 +1,6 @@
-@import '~@material/icon-button/mdc-icon-button';
-@import '~@material/layout-grid/mdc-layout-grid';
+@use '~@material/button/mdc-button';
+@use '~@material/icon-button/mdc-icon-button';
+@use '~@material/layout-grid/mdc-layout-grid';
 
 app-header {
   margin-bottom: 16px;

@@ -1,5 +1,5 @@
-@import "~@material/chips/mdc-chips";
-@import "~@material/ripple/mdc-ripple";
+@use "~@material/chips/mdc-chips";
+@use "~@material/ripple/mdc-ripple";
 
 .mdc-chip {
   margin: 4px;

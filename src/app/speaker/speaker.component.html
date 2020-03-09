@@ -1,24 +1,7 @@
-<div *ngIf="speakerService.get(speakerId) | async as speaker" class="mdc-card">
-  <section class="card__primary">
-    <div *ngIf="speaker.imageUrl"
-         class="card__avatar"
-         [style.backgroundImage]="'url(' + speaker.imageUrl + ')'"></div>
-    <div>
-      <h2 class="card__title mdc-typography--headline6">{{speaker.name}}</h2>
-      <h3 class="card__subtitle mdc-typography--subtitle2">{{speaker.title}}</h3>
-    </div>
-  </section>
-  <section class="card__secondary">
-    {{speaker.bio}}
-  </section>
-  <section class="mdc-card__actions">
-    <a *ngFor="let link of speaker.links"
-      appRipple
-      [href]="link.url"
-      target="_blank"
-      rel="noopener"
-      class="mdc-button mdc-card__action mdc-card__action--button">
-      <span class="mdc-button__ripple"></span> {{link.title}}
-    </a>
-  </section>
-</div>
+<app-card *ngIf="speakerService.get(speakerId) | async as speaker"
+          [image]="speaker.imageUrl"
+          [actions]="speaker.links">
+  <div title>{{speaker.name}}</div>
+  <div subtitle>{{speaker.title}}</div>
+  <div body>{{speaker.bio}}</div>
+</app-card>

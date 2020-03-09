@@ -1,9 +1,6 @@
-<div class="mdc-card">
-  <section class="card__primary">
-    <h1 class="card__title mdc-typography--headline6">Resources</h1>
-  </section>
-  <section class="card__secondary">
-
+<app-card>
+  <div title>Resources</div>
+  <div body>
     <div class="mdc-list mdc-list--dense">
       <a *ngFor="let resource of resources" class="mdc-list-item" [href]="resource.url" target="_blank" rel="noopener">
         <span class="mdc-list-item__text">
@@ -14,6 +11,5 @@
         </span>
       </a>
     </div>
-
-  </section>
-</div>
+  </div>
+</app-card>
