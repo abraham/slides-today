@@ -6,27 +6,26 @@ node_js:
 jobs:
   include:
     - stage: Lint, Build, & Test
-      name: Lint
+      name: Feature Tests
+      script: npm test
+    - name: Lighthouse
+      before_script: npm run build:prod
+      script: npm run lighthouse
+    - name: Lint
       script: npm run lint
     - name: Build
       script:
         - npm run build:scripts
         - npm run build
     - name: Bundlesize
-      script:
-        - npm run build:prod
-        - npm run bundlesize
-    - name: Feature Tests
-      script: npm test
-    - name: Lighthouse
-      script:
-        - npm run build:prod
-        - npm run lighthouse
+      before_script: npm run build:prod
+      script: npm run bundlesize
     - name: Security
       script: npm audit
     - stage: Deploy
       name: Build Prod
-      script: if [ "$TRAVIS_BRANCH" == "master" ]; then npm run build:prod; else echo "Only build on master"; fi
+      install: if [ "$TRAVIS_BRANCH" == "master" ]; then npm ci; else echo "Only deploying on master"; fi
+      script: if [ "$TRAVIS_BRANCH" == "master" ]; then npm run build:prod; else echo "Only deploying on master"; fi
       deploy:
         provider: firebase
         project: slides-today
