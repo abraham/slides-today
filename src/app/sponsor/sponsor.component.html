@@ -1,16 +1,14 @@
-<div class="mdc-card">
-  <section class="card__primary">
-    <h1 class="card__title mdc-typography--headline6">Sponsors</h1>
-  </section>
-  <section class="card__secondary">
-      <div class="mdc-list mdc-list--two-line xmdc-list--dense mdc-list--avatar-list">
-        <a *ngFor="let sponsor of (sponsorService.select(sponsorIds) | async)" class="mdc-list-item" [href]="sponsor.url" target="_blank" rel="noopener">
-          <img [src]="sponsor.image" class="mdc-list-item__graphic" [attr.alt]="sponsor.name + ' logo'" />
-          <span class="mdc-list-item__text">
-            {{sponsor.name}}
-            <span class="mdc-list-item__secondary-text">{{sponsor.description}}</span>
-          </span>
-        </a>
-      </div>
-  </section>
-</div>
+<app-card>
+  <div title>Sponsors</div>
+  <div body>
+    <div class="mdc-list mdc-list--two-line mdc-list--avatar-list">
+      <a *ngFor="let sponsor of (sponsorService.select(sponsorIds) | async)" class="mdc-list-item" [href]="sponsor.url" target="_blank" rel="noopener">
+        <img [src]="sponsor.image" class="mdc-list-item__graphic" [attr.alt]="sponsor.name + ' logo'" />
+        <span class="mdc-list-item__text">
+          {{sponsor.name}}
+          <span class="mdc-list-item__secondary-text">{{sponsor.description}}</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</app-card>

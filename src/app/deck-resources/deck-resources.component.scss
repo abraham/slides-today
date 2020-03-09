@@ -1,5 +1,4 @@
-@import '../card.scss';
-@import '~@material/list/mdc-list';
+@use '~@material/list/mdc-list';
 
 .mdc-list-item__meta .icon {
   fill: rgba(0, 0, 0, 0.38);

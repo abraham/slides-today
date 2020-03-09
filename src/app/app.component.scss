@@ -1,4 +1,4 @@
-@import '~@material/layout-grid/mdc-layout-grid';
+@use '~@material/layout-grid/mdc-layout-grid';
 
 .wrapper {
   transition: background-color 1000ms !important;

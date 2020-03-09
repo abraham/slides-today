@@ -1,8 +1,4 @@
-<a #cardEl class="mdc-card" [ngStyle]="deck.theme" [routerLink]="url">
-  <div class="mdc-card__primary-action">
-    <section class="card__primary">
-      <h2 class="card__title mdc-typography--headline3">{{deck.title}}</h2>
-    </section>
-    <section class="card__secondary mdc-typography--body1">{{deck.eventTitle}} · {{deck.date}} · {{deck.tags | tagList | async}}</section>
-  </div>
-</a>
+<app-card [url]="url" [theme]="deck.theme">
+  <span hero>{{deck.title}}</span>
+  <span body>{{deck.eventTitle}} · {{deck.date}} · {{deck.tags | tagList | async}}</span>
+</app-card>

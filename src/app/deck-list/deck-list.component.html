@@ -15,6 +15,7 @@
 
         <app-deck-summary *ngFor="let deck of decks"
                           [deck]="deck"
+                          appRipple
                           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
         <div *ngIf="!decks.length"
              class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">

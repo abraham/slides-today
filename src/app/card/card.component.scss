@@ -1,0 +1,38 @@
+@use '../../theme.scss';
+@use '~@material/button/mdc-button';
+@use '~@material/card/mdc-card';
+@use '~@material/ripple/mdc-ripple';
+@use '~@material/typography/mdc-typography';
+
+div {
+  display: block;
+}
+
+.card {
+  border-radius: 8px;
+  color: #000;
+  overflow: hidden;
+}
+
+.no-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary {
+  padding: 16px;
+
+  .hero {
+    text-transform: uppercase;
+  }
+
+  .hero,
+  .title,
+  .subtitle {
+    margin: 0;
+  }
+}
+
+.secondary {
+  padding: 0 1rem 8px;
+}

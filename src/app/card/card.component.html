@@ -1,0 +1,53 @@
+<ng-template #content>
+  <div *ngIf="image" class="mdc-card__media mdc-card__media--square" [style.backgroundImage]="'url(' + image + ')'"></div>
+
+  <div class="primary">
+    <h2 class="hero mdc-typography mdc-typography--headline3">
+      <ng-content select="[hero]"></ng-content>
+    </h2>
+    <h3 class="title mdc-typography mdc-typography--headline6">
+      <ng-content select="[title]"></ng-content>
+    </h3>
+    <h4 class="subtitle mdc-typography mdc-typography--subtitle2">
+      <ng-content select="[subtitle]"></ng-content>
+    </h4>
+  </div>
+
+  <section class="secondary mdc-typography mdc-typography--body2">
+    <ng-content select="[body]"></ng-content>
+  </section>
+</ng-template>
+
+<div class="card mdc-card" [ngStyle]="theme">
+  <a *ngIf="url && external"
+    class="mdc-card__primary-action primary-action"
+    [href]="url"
+    target="_blank"
+    rel="noopener"
+    appRipple="bounded">
+    <ng-container *ngTemplateOutlet="content;"></ng-container>
+  </a>
+
+  <a *ngIf="url && !external"
+    class="mdc-card__primary-action primary-action"
+    [routerLink]="url"
+    appRipple="bounded">
+    <ng-container *ngTemplateOutlet="content;"></ng-container>
+  </a>
+
+  <div *ngIf="!url" class="no-action">
+    <ng-container *ngTemplateOutlet="content;"></ng-container>
+  </div>
+
+  <div *ngIf="actions.length" class="mdc-card__actions">
+    <a *ngFor="let action of actions"
+       appRipple
+       [href]="action.url"
+       target="_blank"
+       rel="noopener"
+       class="mdc-button mdc-card__action mdc-card__action--button">
+       <span class="mdc-button__ripple"></span>
+       <span class="mdc-button__label">{{action.title}}</span>
+    </a>
+  </div>
+</div>
