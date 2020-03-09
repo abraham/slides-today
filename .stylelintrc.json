@@ -8,9 +8,18 @@
     "stylelint-selector-bem-pattern"
   ],
   "rules": {
+    "no-empty-source": null,
     "selector-class-pattern": null,
     "plugin/selector-bem-pattern": {
       "preset": "bem"
-    }
+    },
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignore": [
+          "custom-elements"
+        ]
+      }
+    ]
   }
 }
