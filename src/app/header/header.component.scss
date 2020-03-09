@@ -8,15 +8,15 @@
 }
 
 @media (min-width: 960px) {
-  #title {
-    max-width: 940px;
+  .title {
     margin: 0 auto;
+    max-width: 940px;
   }
 }
 
 .spin {
-  animation-name: spin;
   animation-duration: 300ms;
+  animation-name: spin;
   animation-timing-function: linear;
 }
 
@@ -31,25 +31,30 @@
 }
 
 .wiggle {
-  animation-name: wiggle;
   animation-duration: 300ms;
+  animation-name: wiggle;
   animation-timing-function: linear;
 }
 
 @keyframes wiggle {
-  10%, 90% {
+  10%,
+  90% {
     transform: translate3d(-1px, 0, 0);
   }
 
-  20%, 80% {
+  20%,
+  80% {
     transform: translate3d(2px, 0, 0);
   }
 
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(-4px, 0, 0);
   }
 
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(4px, 0, 0);
   }
 }

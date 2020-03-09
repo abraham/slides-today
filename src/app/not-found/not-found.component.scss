@@ -1,8 +1,8 @@
 @use '~@material/layout-grid/mdc-layout-grid';
 
 svg {
-  max-width: 75vh;
-  height: 100%;
   display: block;
+  height: 100%;
   margin: auto;
+  max-width: 75vh;
 }

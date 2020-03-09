@@ -18,7 +18,7 @@
     "lint:features": "tslint --config tslint.json 'features/**/*.ts'",
     "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm --validate-https",
     "lint:ng": "ng lint",
-    "lint:stylelint": "stylelint src/**/*.scss",
+    "lint:stylelint": "stylelint \"src/**/*.scss\"",
     "lhci": "lhci  autorun",
     "lighthouse": "start-server-and-test serve http://localhost:4200 lhci",
     "ng": "ng",

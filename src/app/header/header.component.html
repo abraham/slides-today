@@ -1,7 +1,7 @@
 <header #appBar
         class="mdc-top-app-bar mdc-top-app-bar--fixed"
         [ngStyle]="theme">
-  <div id="title" class="mdc-top-app-bar__row">
+  <div class="title mdc-top-app-bar__row">
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
       <a *ngIf="showBack" appRipple
          (click)="goBack($event)"
