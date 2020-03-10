@@ -59,72 +59,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 708,
-                "y": 386,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 840,
-                "y": 348,
-                "h": 228,
-                "w": 228
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 235,
-                "y": 128,
-                "h": 63,
-                "w": 63
-              },
-              {
-                "x": 278,
-                "y": 115,
-                "h": 75,
-                "w": 75
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 708,
-                "y": 386,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 840,
-                "y": 348,
-                "h": 228,
-                "w": 228
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 414,
-                "y": 226,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 492,
-                "y": 203,
-                "h": 133,
-                "w": 133
-              }
-            ]
-          }
         }
       }
     ]
@@ -165,72 +99,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 708,
-                "y": 386,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 840,
-                "y": 348,
-                "h": 228,
-                "w": 228
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 235,
-                "y": 128,
-                "h": 63,
-                "w": 63
-              },
-              {
-                "x": 278,
-                "y": 115,
-                "h": 75,
-                "w": 75
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 708,
-                "y": 386,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 840,
-                "y": 348,
-                "h": 228,
-                "w": 228
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 414,
-                "y": 226,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 492,
-                "y": 203,
-                "h": 133,
-                "w": 133
-              }
-            ]
-          }
         }
       }
     ]
@@ -244,10 +112,10 @@
   "user": {
     "id": 15965108,
     "id_str": "15965108",
-    "name": "Josh Thomas",
+    "name": "Comrade Thomas",
     "screen_name": "jthoms1",
     "location": "Madison, WI",
-    "description": "Product Manager at @Ionicframework working on @stenciljs. Organizer of @madjavascript.",
+    "description": "Developer at @Ionicframework working on @stenciljs. Organizer of @madjavascript. Currently: building keyboards and buying shoes.",
     "url": null,
     "entities": {
       "description": {
@@ -255,16 +123,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1867,
-    "friends_count": 856,
-    "listed_count": 98,
+    "followers_count": 1916,
+    "friends_count": 883,
+    "listed_count": 100,
     "created_at": "Sun Aug 24 03:09:47 +0000 2008",
-    "favourites_count": 21837,
+    "favourites_count": 23513,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 7305,
+    "statuses_count": 7598,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -284,8 +152,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -332,7 +198,7 @@
   "retweet_count": 2,
   "favorite_count": 17,
   "favorited": false,
-  "retweeted": true,
+  "retweeted": false,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

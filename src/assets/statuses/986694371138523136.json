@@ -55,7 +55,7 @@
     "name": "Joe Merante",
     "screen_name": "joemerante",
     "location": "New York, NY",
-    "description": "Software developer and (not your) lawyer, CIPP/US, senior consultant @StrideDev. My opinions only, some get deleted. 🎸",
+    "description": "Software developer and occasional lawyer, CIPP/US, senior consultant @StrideDev. My opinions only, some get deleted. 🎸 https://t.co/2RUGeLxGJI",
     "url": "https://t.co/dbVfh6lY0O",
     "entities": {
       "url": {
@@ -72,20 +72,30 @@
         ]
       },
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/2RUGeLxGJI",
+            "expanded_url": "http://joemerante.com",
+            "display_url": "joemerante.com",
+            "indices": [
+              119,
+              142
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 419,
-    "friends_count": 780,
-    "listed_count": 38,
+    "followers_count": 416,
+    "friends_count": 802,
+    "listed_count": 37,
     "created_at": "Sat Aug 07 20:36:33 +0000 2010",
-    "favourites_count": 1039,
+    "favourites_count": 1065,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 4675,
+    "statuses_count": 4713,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -104,8 +114,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

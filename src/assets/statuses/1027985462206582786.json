@@ -45,24 +45,61 @@
     "name": "Ryan W. Jackson",
     "screen_name": "ryanwebjackson",
     "location": "Twin Cities, MN",
-    "description": "#webdev #dotnet #podcasts #music #productivity #work #life #pets",
+    "description": "💻 https://t.co/UyFatUBRGE\n🎙️ https://t.co/6RweeCaPgC\n🎧 https://t.co/yrhbP9uXsI…\n🎮 willx00x\n\nEmail management $25 off: https://t.co/hkLhvC2oVv",
     "url": null,
     "entities": {
       "description": {
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/UyFatUBRGE",
+            "expanded_url": "http://github.com/ryanwebjackson",
+            "display_url": "github.com/ryanwebjackson",
+            "indices": [
+              2,
+              25
+            ]
+          },
+          {
+            "url": "https://t.co/6RweeCaPgC",
+            "expanded_url": "http://player.fm/ryan11/fm",
+            "display_url": "player.fm/ryan11/fm",
+            "indices": [
+              29,
+              52
+            ]
+          },
+          {
+            "url": "https://t.co/yrhbP9uXsI",
+            "expanded_url": "http://open.spotify.com/user/rwj_spoti",
+            "display_url": "open.spotify.com/user/rwj_spoti",
+            "indices": [
+              55,
+              78
+            ]
+          },
+          {
+            "url": "https://t.co/hkLhvC2oVv",
+            "expanded_url": "http://sanebox.com/t/7jl3t",
+            "display_url": "sanebox.com/t/7jl3t",
+            "indices": [
+              118,
+              141
+            ]
+          }
+        ]
       }
     },
     "protected": false,
-    "followers_count": 1274,
-    "friends_count": 4999,
-    "listed_count": 93,
+    "followers_count": 1271,
+    "friends_count": 5002,
+    "listed_count": 91,
     "created_at": "Fri Feb 18 15:28:02 +0000 2011",
-    "favourites_count": 17167,
+    "favourites_count": 17811,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 5052,
+    "statuses_count": 5132,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -82,8 +119,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": false,
-    "followed_by": true,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

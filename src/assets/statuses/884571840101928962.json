@@ -79,168 +79,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "medium": {
-            "faces": [
-              {
-                "x": 703,
-                "y": 514,
-                "h": 41,
-                "w": 41
-              },
-              {
-                "x": 514,
-                "y": 521,
-                "h": 49,
-                "w": 49
-              },
-              {
-                "x": 735,
-                "y": 501,
-                "h": 60,
-                "w": 60
-              },
-              {
-                "x": 921,
-                "y": 512,
-                "h": 50,
-                "w": 50
-              },
-              {
-                "x": 671,
-                "y": 236,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 683,
-                "y": 4,
-                "h": 110,
-                "w": 110
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1200,
-                "y": 878,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 878,
-                "y": 890,
-                "h": 84,
-                "w": 84
-              },
-              {
-                "x": 1256,
-                "y": 856,
-                "h": 104,
-                "w": 104
-              },
-              {
-                "x": 1572,
-                "y": 874,
-                "h": 86,
-                "w": 86
-              },
-              {
-                "x": 1146,
-                "y": 404,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 1166,
-                "y": 8,
-                "h": 188,
-                "w": 188
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 398,
-                "y": 291,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 291,
-                "y": 295,
-                "h": 27,
-                "w": 27
-              },
-              {
-                "x": 417,
-                "y": 284,
-                "h": 34,
-                "w": 34
-              },
-              {
-                "x": 521,
-                "y": 290,
-                "h": 28,
-                "w": 28
-              },
-              {
-                "x": 380,
-                "y": 134,
-                "h": 63,
-                "w": 63
-              },
-              {
-                "x": 387,
-                "y": 2,
-                "h": 62,
-                "w": 62
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1200,
-                "y": 878,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 878,
-                "y": 890,
-                "h": 84,
-                "w": 84
-              },
-              {
-                "x": 1256,
-                "y": 856,
-                "h": 104,
-                "w": 104
-              },
-              {
-                "x": 1572,
-                "y": 874,
-                "h": 86,
-                "w": 86
-              },
-              {
-                "x": 1146,
-                "y": 404,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 1166,
-                "y": 8,
-                "h": 188,
-                "w": 188
-              }
-            ]
-          }
         }
       }
     ]
@@ -281,168 +119,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "medium": {
-            "faces": [
-              {
-                "x": 703,
-                "y": 514,
-                "h": 41,
-                "w": 41
-              },
-              {
-                "x": 514,
-                "y": 521,
-                "h": 49,
-                "w": 49
-              },
-              {
-                "x": 735,
-                "y": 501,
-                "h": 60,
-                "w": 60
-              },
-              {
-                "x": 921,
-                "y": 512,
-                "h": 50,
-                "w": 50
-              },
-              {
-                "x": 671,
-                "y": 236,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 683,
-                "y": 4,
-                "h": 110,
-                "w": 110
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1200,
-                "y": 878,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 878,
-                "y": 890,
-                "h": 84,
-                "w": 84
-              },
-              {
-                "x": 1256,
-                "y": 856,
-                "h": 104,
-                "w": 104
-              },
-              {
-                "x": 1572,
-                "y": 874,
-                "h": 86,
-                "w": 86
-              },
-              {
-                "x": 1146,
-                "y": 404,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 1166,
-                "y": 8,
-                "h": 188,
-                "w": 188
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 398,
-                "y": 291,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 291,
-                "y": 295,
-                "h": 27,
-                "w": 27
-              },
-              {
-                "x": 417,
-                "y": 284,
-                "h": 34,
-                "w": 34
-              },
-              {
-                "x": 521,
-                "y": 290,
-                "h": 28,
-                "w": 28
-              },
-              {
-                "x": 380,
-                "y": 134,
-                "h": 63,
-                "w": 63
-              },
-              {
-                "x": 387,
-                "y": 2,
-                "h": 62,
-                "w": 62
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1200,
-                "y": 878,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 878,
-                "y": 890,
-                "h": 84,
-                "w": 84
-              },
-              {
-                "x": 1256,
-                "y": 856,
-                "h": 104,
-                "w": 104
-              },
-              {
-                "x": 1572,
-                "y": 874,
-                "h": 86,
-                "w": 86
-              },
-              {
-                "x": 1146,
-                "y": 404,
-                "h": 192,
-                "w": 192
-              },
-              {
-                "x": 1166,
-                "y": 8,
-                "h": 188,
-                "w": 188
-              }
-            ]
-          }
         }
       }
     ]
@@ -456,10 +132,10 @@
   "user": {
     "id": 15965108,
     "id_str": "15965108",
-    "name": "Josh Thomas",
+    "name": "Comrade Thomas",
     "screen_name": "jthoms1",
     "location": "Madison, WI",
-    "description": "Product Manager at @Ionicframework working on @stenciljs. Organizer of @madjavascript.",
+    "description": "Developer at @Ionicframework working on @stenciljs. Organizer of @madjavascript. Currently: building keyboards and buying shoes.",
     "url": null,
     "entities": {
       "description": {
@@ -467,16 +143,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1867,
-    "friends_count": 856,
-    "listed_count": 98,
+    "followers_count": 1916,
+    "friends_count": 883,
+    "listed_count": 100,
     "created_at": "Sun Aug 24 03:09:47 +0000 2008",
-    "favourites_count": 21837,
+    "favourites_count": 23513,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 7305,
+    "statuses_count": 7598,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -496,8 +172,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

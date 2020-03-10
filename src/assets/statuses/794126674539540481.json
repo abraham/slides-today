@@ -84,36 +84,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "202376085",
-                "screen_name": "pblatteier",
-                "name": "Pearl Latteier"
-              }
-            ]
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          }
         }
       }
     ]
@@ -154,36 +124,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "202376085",
-                "screen_name": "pblatteier",
-                "name": "Pearl Latteier"
-              }
-            ]
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          }
         }
       }
     ]
@@ -208,16 +148,16 @@
       }
     },
     "protected": false,
-    "followers_count": 373,
-    "friends_count": 1717,
-    "listed_count": 16,
+    "followers_count": 371,
+    "friends_count": 1764,
+    "listed_count": 17,
     "created_at": "Wed Aug 26 18:27:00 +0000 2009",
-    "favourites_count": 42132,
+    "favourites_count": 43258,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2221,
+    "statuses_count": 2252,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -236,8 +176,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

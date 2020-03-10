@@ -77,72 +77,6 @@
             "h": 1536,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 1886,
-                "y": 1354,
-                "h": 273,
-                "w": 273
-              },
-              {
-                "x": 1095,
-                "y": 903,
-                "h": 311,
-                "w": 311
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 701,
-                "y": 503,
-                "h": 101,
-                "w": 101
-              },
-              {
-                "x": 407,
-                "y": 336,
-                "h": 115,
-                "w": 115
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 397,
-                "y": 285,
-                "h": 57,
-                "w": 57
-              },
-              {
-                "x": 230,
-                "y": 190,
-                "h": 65,
-                "w": 65
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1197,
-                "y": 859,
-                "h": 173,
-                "w": 173
-              },
-              {
-                "x": 695,
-                "y": 573,
-                "h": 197,
-                "w": 197
-              }
-            ]
-          }
         }
       }
     ]
@@ -182,72 +116,6 @@
             "w": 2048,
             "h": 1536,
             "resize": "fit"
-          }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 1886,
-                "y": 1354,
-                "h": 273,
-                "w": 273
-              },
-              {
-                "x": 1095,
-                "y": 903,
-                "h": 311,
-                "w": 311
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 701,
-                "y": 503,
-                "h": 101,
-                "w": 101
-              },
-              {
-                "x": 407,
-                "y": 336,
-                "h": 115,
-                "w": 115
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 397,
-                "y": 285,
-                "h": 57,
-                "w": 57
-              },
-              {
-                "x": 230,
-                "y": 190,
-                "h": 65,
-                "w": 65
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1197,
-                "y": 859,
-                "h": 173,
-                "w": 173
-              },
-              {
-                "x": 695,
-                "y": 573,
-                "h": 197,
-                "w": 197
-              }
-            ]
           }
         }
       }
@@ -296,16 +164,16 @@
       }
     },
     "protected": false,
-    "followers_count": 9330,
-    "friends_count": 1106,
-    "listed_count": 606,
+    "followers_count": 9454,
+    "friends_count": 1157,
+    "listed_count": 600,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 35343,
+    "favourites_count": 38540,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 51516,
+    "statuses_count": 52203,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -325,8 +193,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

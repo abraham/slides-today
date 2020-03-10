@@ -69,30 +69,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              }
-            ]
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          }
         }
       }
     ]
@@ -133,30 +109,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              }
-            ]
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          }
         }
       }
     ]
@@ -172,16 +124,16 @@
     "id_str": "1189686100236701696",
     "name": "Lyds.Raw",
     "screen_name": "LydsRaw",
-    "location": "",
-    "description": "I like words",
-    "url": "https://t.co/7pMEU7Q2bC",
+    "location": "San Jose, CA",
+    "description": "Currently learning how to RUBY. Feel free to follow my blog for posts on cool techystuffs I'm learnin' Xo!",
+    "url": "https://t.co/5LC8L3LfGO",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/7pMEU7Q2bC",
-            "expanded_url": "http://codingchapter.com",
-            "display_url": "codingchapter.com",
+            "url": "https://t.co/5LC8L3LfGO",
+            "expanded_url": "https://codingchapter.weebly.com",
+            "display_url": "codingchapter.weebly.com",
             "indices": [
               0,
               23
@@ -195,15 +147,15 @@
     },
     "protected": false,
     "followers_count": 8,
-    "friends_count": 42,
+    "friends_count": 68,
     "listed_count": 0,
     "created_at": "Wed Oct 30 23:31:39 +0000 2019",
-    "favourites_count": 126,
+    "favourites_count": 218,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 120,
+    "statuses_count": 189,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -212,9 +164,9 @@
     "profile_background_image_url": null,
     "profile_background_image_url_https": null,
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/1190508644238016517/HofDK7Ti_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1190508644238016517/HofDK7Ti_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1189686100236701696/1575329934",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1236028840662560768/Xd65XUjb_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1236028840662560768/Xd65XUjb_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1189686100236701696/1583177327",
     "profile_link_color": "1DA1F2",
     "profile_sidebar_border_color": "C0DEED",
     "profile_sidebar_fill_color": "DDEEF6",
@@ -223,8 +175,6 @@
     "has_extended_profile": true,
     "default_profile": true,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,
@@ -236,8 +186,8 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 1,
-  "favorite_count": 10,
-  "favorited": true,
+  "favorite_count": 11,
+  "favorited": false,
   "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,

@@ -77,48 +77,6 @@
             "h": 324,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 739,
-                "y": 405,
-                "h": 350,
-                "w": 350
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 202,
-                "y": 111,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 345,
-                "y": 189,
-                "h": 163,
-                "w": 163
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 114,
-                "y": 62,
-                "h": 54,
-                "w": 54
-              }
-            ]
-          }
         }
       }
     ]
@@ -159,48 +117,6 @@
             "h": 324,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 739,
-                "y": 405,
-                "h": 350,
-                "w": 350
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 202,
-                "y": 111,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 345,
-                "y": 189,
-                "h": 163,
-                "w": 163
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 114,
-                "y": 62,
-                "h": 54,
-                "w": 54
-              }
-            ]
-          }
         }
       }
     ]
@@ -238,16 +154,16 @@
       }
     },
     "protected": false,
-    "followers_count": 326,
-    "friends_count": 112,
-    "listed_count": 9,
+    "followers_count": 363,
+    "friends_count": 113,
+    "listed_count": 7,
     "created_at": "Thu Jul 20 03:21:57 +0000 2017",
-    "favourites_count": 512,
+    "favourites_count": 584,
     "utc_offset": null,
     "time_zone": null,
-    "geo_enabled": false,
+    "geo_enabled": true,
     "verified": false,
-    "statuses_count": 760,
+    "statuses_count": 845,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -267,8 +183,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

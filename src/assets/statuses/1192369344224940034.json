@@ -34,7 +34,7 @@
       },
       {
         "screen_name": "mobileeraconf",
-        "name": "Mobile Era 🇳🇴 7th-8th NOVEMBER 2019",
+        "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
         "indices": [
@@ -79,58 +79,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 594,
-                "y": 665,
-                "h": 55,
-                "w": 55
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1014,
-                "y": 1136,
-                "h": 94,
-                "w": 94
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1014,
-                "y": 1136,
-                "h": 94,
-                "w": 94
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 336,
-                "y": 377,
-                "h": 31,
-                "w": 31
-              }
-            ]
-          }
         }
       }
     ]
@@ -171,58 +119,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 594,
-                "y": 665,
-                "h": 55,
-                "w": 55
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1014,
-                "y": 1136,
-                "h": 94,
-                "w": 94
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1014,
-                "y": 1136,
-                "h": 94,
-                "w": 94
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 336,
-                "y": 377,
-                "h": 31,
-                "w": 31
-              }
-            ]
-          }
         }
       }
     ]
@@ -260,7 +156,7 @@
       }
     },
     "protected": false,
-    "followers_count": 62,
+    "followers_count": 60,
     "friends_count": 87,
     "listed_count": 3,
     "created_at": "Tue Jun 19 05:57:52 +0000 2012",
@@ -269,7 +165,7 @@
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 285,
+    "statuses_count": 290,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -288,8 +184,6 @@
     "has_extended_profile": false,
     "default_profile": true,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -302,7 +196,7 @@
   "is_quote_status": false,
   "retweet_count": 2,
   "favorite_count": 6,
-  "favorited": true,
+  "favorited": false,
   "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,

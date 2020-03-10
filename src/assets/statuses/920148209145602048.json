@@ -68,16 +68,16 @@
       }
     },
     "protected": true,
-    "followers_count": 453,
-    "friends_count": 1245,
-    "listed_count": 25,
+    "followers_count": 449,
+    "friends_count": 1243,
+    "listed_count": 26,
     "created_at": "Thu Aug 30 06:22:40 +0000 2007",
-    "favourites_count": 68961,
+    "favourites_count": 68292,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 32250,
+    "statuses_count": 32111,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -97,8 +97,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": false,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -192,48 +190,6 @@
               "h": 500,
               "resize": "fit"
             }
-          },
-          "features": {
-            "small": {
-              "faces": [
-                {
-                  "x": 95,
-                  "y": 50,
-                  "h": 46,
-                  "w": 46
-                }
-              ]
-            },
-            "orig": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            },
-            "large": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            },
-            "medium": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            }
           }
         }
       ]
@@ -274,48 +230,6 @@
               "h": 500,
               "resize": "fit"
             }
-          },
-          "features": {
-            "small": {
-              "faces": [
-                {
-                  "x": 95,
-                  "y": 50,
-                  "h": 46,
-                  "w": 46
-                }
-              ]
-            },
-            "orig": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            },
-            "large": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            },
-            "medium": {
-              "faces": [
-                {
-                  "x": 140,
-                  "y": 74,
-                  "h": 68,
-                  "w": 68
-                }
-              ]
-            }
           }
         }
       ]
@@ -353,9 +267,9 @@
         }
       },
       "protected": false,
-      "followers_count": 269,
+      "followers_count": 275,
       "friends_count": 54,
-      "listed_count": 18,
+      "listed_count": 19,
       "created_at": "Fri Jun 24 14:13:48 +0000 2016",
       "favourites_count": 138,
       "utc_offset": null,
@@ -382,8 +296,6 @@
       "has_extended_profile": false,
       "default_profile": false,
       "default_profile_image": false,
-      "can_media_tag": true,
-      "followed_by": false,
       "following": false,
       "follow_request_sent": false,
       "notifications": false,

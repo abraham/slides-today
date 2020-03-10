@@ -79,48 +79,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 1611,
-                "y": 749,
-                "h": 75,
-                "w": 75
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1624,
-                "y": 755,
-                "h": 76,
-                "w": 76
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 944,
-                "y": 438,
-                "h": 44,
-                "w": 44
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 535,
-                "y": 248,
-                "h": 25,
-                "w": 25
-              }
-            ]
-          }
         }
       }
     ]
@@ -161,48 +119,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 1611,
-                "y": 749,
-                "h": 75,
-                "w": 75
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1624,
-                "y": 755,
-                "h": 76,
-                "w": 76
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 944,
-                "y": 438,
-                "h": 44,
-                "w": 44
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 535,
-                "y": 248,
-                "h": 25,
-                "w": 25
-              }
-            ]
-          }
         }
       }
     ]
@@ -219,7 +135,7 @@
     "name": "Anjana Vakil",
     "screen_name": "AnjanaVakil",
     "location": "San Francisco, CA",
-    "description": "Engineering + Learning + Maps at @Mapbox. @Mozilla TechSpeaker. Alumna @UCBerkeley, @Saar_Uni, @Outreachy, @RecurseCenter. https://t.co/OCjE7dGBIy",
+    "description": "Engineering & teaching & learning 💡 @Mozilla TechSpeaker 🎤 Alumna @UCBerkeley @Saar_Uni @Outreachy @RecurseCenter ✨ https://t.co/OCjE7dGBIy",
     "url": "https://t.co/1TAxxiYIX9",
     "entities": {
       "url": {
@@ -242,24 +158,24 @@
             "expanded_url": "http://pronoun.is/she",
             "display_url": "pronoun.is/she",
             "indices": [
-              123,
-              146
+              116,
+              139
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 20333,
-    "friends_count": 749,
-    "listed_count": 345,
+    "followers_count": 21975,
+    "friends_count": 763,
+    "listed_count": 374,
     "created_at": "Tue Oct 20 04:03:13 +0000 2015",
-    "favourites_count": 4026,
+    "favourites_count": 4248,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1815,
+    "statuses_count": 1860,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -279,8 +195,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

@@ -48,48 +48,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 1102,
-                "y": 860,
-                "h": 108,
-                "w": 108
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1102,
-                "y": 860,
-                "h": 108,
-                "w": 108
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 365,
-                "y": 285,
-                "h": 35,
-                "w": 35
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 645,
-                "y": 503,
-                "h": 63,
-                "w": 63
-              }
-            ]
-          }
         }
       }
     ]
@@ -130,48 +88,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 1102,
-                "y": 860,
-                "h": 108,
-                "w": 108
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1102,
-                "y": 860,
-                "h": 108,
-                "w": 108
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 365,
-                "y": 285,
-                "h": 35,
-                "w": 35
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 645,
-                "y": 503,
-                "h": 63,
-                "w": 63
-              }
-            ]
-          }
         }
       }
     ]
@@ -185,10 +101,10 @@
   "user": {
     "id": 15965108,
     "id_str": "15965108",
-    "name": "Josh Thomas",
+    "name": "Comrade Thomas",
     "screen_name": "jthoms1",
     "location": "Madison, WI",
-    "description": "Product Manager at @Ionicframework working on @stenciljs. Organizer of @madjavascript.",
+    "description": "Developer at @Ionicframework working on @stenciljs. Organizer of @madjavascript. Currently: building keyboards and buying shoes.",
     "url": null,
     "entities": {
       "description": {
@@ -196,16 +112,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1867,
-    "friends_count": 856,
-    "listed_count": 98,
+    "followers_count": 1916,
+    "friends_count": 883,
+    "listed_count": 100,
     "created_at": "Sun Aug 24 03:09:47 +0000 2008",
-    "favourites_count": 21837,
+    "favourites_count": 23513,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 7305,
+    "statuses_count": 7598,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -225,8 +141,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

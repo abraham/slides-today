@@ -69,20 +69,6 @@
             "h": 1200,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          }
         }
       }
     ]
@@ -123,20 +109,6 @@
             "h": 1200,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          }
         }
       }
     ]
@@ -153,7 +125,7 @@
     "name": "Jad Joubran",
     "screen_name": "JoubranJad",
     "location": "Amsterdam, The Netherlands",
-    "description": "Google Developer Expert, Microsoft MVP, PWA & Web Consultant.\nTry my interactive JavaScript course: https://t.co/ED18ZdlkZM",
+    "description": "Google Developer Expert, Microsoft MVP, PWA & Web Consultant.\nTry my interactive courses: https://t.co/ED18ZdlkZM & https://t.co/aqgLSNOd1R",
     "url": "https://t.co/YgoN8fPi4u",
     "entities": {
       "url": {
@@ -176,24 +148,33 @@
             "expanded_url": "http://learnjavascript.online",
             "display_url": "learnjavascript.online",
             "indices": [
-              100,
-              123
+              90,
+              113
+            ]
+          },
+          {
+            "url": "https://t.co/aqgLSNOd1R",
+            "expanded_url": "http://react-tutorial.app",
+            "display_url": "react-tutorial.app",
+            "indices": [
+              116,
+              139
             ]
           }
         ]
       }
     },
     "protected": false,
-    "followers_count": 4409,
-    "friends_count": 2167,
-    "listed_count": 166,
+    "followers_count": 4492,
+    "friends_count": 2175,
+    "listed_count": 165,
     "created_at": "Tue Aug 23 01:05:27 +0000 2011",
-    "favourites_count": 29754,
+    "favourites_count": 29795,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 27579,
+    "statuses_count": 27539,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -213,8 +194,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -259,7 +238,7 @@
   "contributors": null,
   "is_quote_status": false,
   "retweet_count": 3,
-  "favorite_count": 9,
+  "favorite_count": 8,
   "favorited": false,
   "retweeted": false,
   "possibly_sensitive": false,
