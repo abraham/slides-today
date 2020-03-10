@@ -70,16 +70,16 @@
       }
     },
     "protected": false,
-    "followers_count": 6242,
-    "friends_count": 2193,
-    "listed_count": 162,
+    "followers_count": 6508,
+    "friends_count": 2491,
+    "listed_count": 172,
     "created_at": "Tue Jun 30 06:44:47 +0000 2009",
-    "favourites_count": 10240,
+    "favourites_count": 10890,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1768,
+    "statuses_count": 1855,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -99,8 +99,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -197,20 +195,6 @@
               "h": 778,
               "resize": "fit"
             }
-          },
-          "features": {
-            "large": {
-              "faces": []
-            },
-            "small": {
-              "faces": []
-            },
-            "medium": {
-              "faces": []
-            },
-            "orig": {
-              "faces": []
-            }
           }
         }
       ]
@@ -250,20 +234,6 @@
               "w": 1200,
               "h": 778,
               "resize": "fit"
-            }
-          },
-          "features": {
-            "large": {
-              "faces": []
-            },
-            "small": {
-              "faces": []
-            },
-            "medium": {
-              "faces": []
-            },
-            "orig": {
-              "faces": []
             }
           }
         }
@@ -312,16 +282,16 @@
         }
       },
       "protected": false,
-      "followers_count": 9330,
-      "friends_count": 1106,
-      "listed_count": 606,
+      "followers_count": 9454,
+      "friends_count": 1157,
+      "listed_count": 600,
       "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-      "favourites_count": 35343,
+      "favourites_count": 38540,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 51516,
+      "statuses_count": 52203,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -341,8 +311,6 @@
       "has_extended_profile": true,
       "default_profile": false,
       "default_profile_image": false,
-      "can_media_tag": true,
-      "followed_by": false,
       "following": false,
       "follow_request_sent": false,
       "notifications": false,

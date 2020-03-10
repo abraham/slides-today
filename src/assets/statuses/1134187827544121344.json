@@ -84,72 +84,6 @@
             "h": 1200,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 39,
-                "y": 264,
-                "h": 75,
-                "w": 75
-              },
-              {
-                "x": 276,
-                "y": 235,
-                "h": 122,
-                "w": 122
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 120,
-                "y": 798,
-                "h": 226,
-                "w": 226
-              },
-              {
-                "x": 834,
-                "y": 708,
-                "h": 370,
-                "w": 370
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 120,
-                "y": 798,
-                "h": 226,
-                "w": 226
-              },
-              {
-                "x": 834,
-                "y": 708,
-                "h": 370,
-                "w": 370
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 70,
-                "y": 467,
-                "h": 132,
-                "w": 132
-              },
-              {
-                "x": 488,
-                "y": 414,
-                "h": 216,
-                "w": 216
-              }
-            ]
-          }
         }
       }
     ]
@@ -190,72 +124,6 @@
             "h": 1200,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 39,
-                "y": 264,
-                "h": 75,
-                "w": 75
-              },
-              {
-                "x": 276,
-                "y": 235,
-                "h": 122,
-                "w": 122
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 120,
-                "y": 798,
-                "h": 226,
-                "w": 226
-              },
-              {
-                "x": 834,
-                "y": 708,
-                "h": 370,
-                "w": 370
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 120,
-                "y": 798,
-                "h": 226,
-                "w": 226
-              },
-              {
-                "x": 834,
-                "y": 708,
-                "h": 370,
-                "w": 370
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 70,
-                "y": 467,
-                "h": 132,
-                "w": 132
-              },
-              {
-                "x": 488,
-                "y": 414,
-                "h": 216,
-                "w": 216
-              }
-            ]
-          }
         }
       }
     ]
@@ -293,16 +161,16 @@
       }
     },
     "protected": false,
-    "followers_count": 3528,
+    "followers_count": 3592,
     "friends_count": 107,
-    "listed_count": 147,
+    "listed_count": 154,
     "created_at": "Mon Aug 30 17:13:35 +0000 2010",
-    "favourites_count": 293,
+    "favourites_count": 296,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 3401,
+    "statuses_count": 3438,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -322,8 +190,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,
@@ -337,7 +203,7 @@
   "retweet_count": 6,
   "favorite_count": 5,
   "favorited": false,
-  "retweeted": true,
+  "retweeted": false,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

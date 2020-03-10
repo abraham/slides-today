@@ -87,192 +87,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 581,
-                "y": 298,
-                "h": 24,
-                "w": 24
-              },
-              {
-                "x": 202,
-                "y": 326,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 430,
-                "y": 333,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 63,
-                "y": 340,
-                "h": 24,
-                "w": 24
-              },
-              {
-                "x": 310,
-                "y": 284,
-                "h": 31,
-                "w": 31
-              },
-              {
-                "x": 324,
-                "y": 247,
-                "h": 30,
-                "w": 30
-              },
-              {
-                "x": 82,
-                "y": 366,
-                "h": 31,
-                "w": 31
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1750,
-                "y": 898,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 610,
-                "y": 982,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 1296,
-                "y": 1004,
-                "h": 72,
-                "w": 72
-              },
-              {
-                "x": 192,
-                "y": 1024,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 936,
-                "y": 858,
-                "h": 94,
-                "w": 94
-              },
-              {
-                "x": 978,
-                "y": 744,
-                "h": 92,
-                "w": 92
-              },
-              {
-                "x": 248,
-                "y": 1104,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1750,
-                "y": 898,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 610,
-                "y": 982,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 1296,
-                "y": 1004,
-                "h": 72,
-                "w": 72
-              },
-              {
-                "x": 192,
-                "y": 1024,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 936,
-                "y": 858,
-                "h": 94,
-                "w": 94
-              },
-              {
-                "x": 978,
-                "y": 744,
-                "h": 92,
-                "w": 92
-              },
-              {
-                "x": 248,
-                "y": 1104,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 1025,
-                "y": 526,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 357,
-                "y": 575,
-                "h": 41,
-                "w": 41
-              },
-              {
-                "x": 759,
-                "y": 588,
-                "h": 42,
-                "w": 42
-              },
-              {
-                "x": 112,
-                "y": 600,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 548,
-                "y": 502,
-                "h": 55,
-                "w": 55
-              },
-              {
-                "x": 573,
-                "y": 435,
-                "h": 53,
-                "w": 53
-              },
-              {
-                "x": 145,
-                "y": 646,
-                "h": 56,
-                "w": 56
-              }
-            ]
-          }
         }
       }
     ]
@@ -313,192 +127,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 581,
-                "y": 298,
-                "h": 24,
-                "w": 24
-              },
-              {
-                "x": 202,
-                "y": 326,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 430,
-                "y": 333,
-                "h": 23,
-                "w": 23
-              },
-              {
-                "x": 63,
-                "y": 340,
-                "h": 24,
-                "w": 24
-              },
-              {
-                "x": 310,
-                "y": 284,
-                "h": 31,
-                "w": 31
-              },
-              {
-                "x": 324,
-                "y": 247,
-                "h": 30,
-                "w": 30
-              },
-              {
-                "x": 82,
-                "y": 366,
-                "h": 31,
-                "w": 31
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1750,
-                "y": 898,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 610,
-                "y": 982,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 1296,
-                "y": 1004,
-                "h": 72,
-                "w": 72
-              },
-              {
-                "x": 192,
-                "y": 1024,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 936,
-                "y": 858,
-                "h": 94,
-                "w": 94
-              },
-              {
-                "x": 978,
-                "y": 744,
-                "h": 92,
-                "w": 92
-              },
-              {
-                "x": 248,
-                "y": 1104,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1750,
-                "y": 898,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 610,
-                "y": 982,
-                "h": 70,
-                "w": 70
-              },
-              {
-                "x": 1296,
-                "y": 1004,
-                "h": 72,
-                "w": 72
-              },
-              {
-                "x": 192,
-                "y": 1024,
-                "h": 74,
-                "w": 74
-              },
-              {
-                "x": 936,
-                "y": 858,
-                "h": 94,
-                "w": 94
-              },
-              {
-                "x": 978,
-                "y": 744,
-                "h": 92,
-                "w": 92
-              },
-              {
-                "x": 248,
-                "y": 1104,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 1025,
-                "y": 526,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 357,
-                "y": 575,
-                "h": 41,
-                "w": 41
-              },
-              {
-                "x": 759,
-                "y": 588,
-                "h": 42,
-                "w": 42
-              },
-              {
-                "x": 112,
-                "y": 600,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 548,
-                "y": 502,
-                "h": 55,
-                "w": 55
-              },
-              {
-                "x": 573,
-                "y": 435,
-                "h": 53,
-                "w": 53
-              },
-              {
-                "x": 145,
-                "y": 646,
-                "h": 56,
-                "w": 56
-              }
-            ]
-          }
         }
       }
     ]
@@ -516,12 +144,12 @@
     "screen_name": "digitaldrummerj",
     "location": "Chandler, AZ",
     "description": "Founder of Let Your Nerd Be Heard, Microsoft MVP, Angular lover, Speaking Coach & Speaker specializing in making the complex simple and easy to understand",
-    "url": "https://t.co/5T6nJ65O7l",
+    "url": "https://t.co/5T6nJ5OcIL",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/5T6nJ65O7l",
+            "url": "https://t.co/5T6nJ5OcIL",
             "expanded_url": "https://digitaldrummerj.me",
             "display_url": "digitaldrummerj.me",
             "indices": [
@@ -536,16 +164,16 @@
       }
     },
     "protected": false,
-    "followers_count": 921,
-    "friends_count": 703,
+    "followers_count": 929,
+    "friends_count": 724,
     "listed_count": 75,
     "created_at": "Fri Oct 17 06:55:35 +0000 2008",
-    "favourites_count": 911,
+    "favourites_count": 997,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2888,
+    "statuses_count": 2966,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -564,8 +192,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

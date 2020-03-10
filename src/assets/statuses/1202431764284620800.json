@@ -79,20 +79,6 @@
             "h": 680,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          }
         }
       }
     ]
@@ -133,20 +119,6 @@
             "h": 680,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          }
         }
       }
     ]
@@ -160,10 +132,10 @@
   "user": {
     "id": 350353681,
     "id_str": "350353681",
-    "name": "Henri Helvetica ✨👨🏾‍🚀✨ in SV, CA.",
+    "name": "Henri Helvetica ✨👩🏾‍🚀✨ 🚀",
     "screen_name": "HenriHelvetica",
-    "location": "DOM/Console",
-    "description": "dev, devilry, design, denim & #devsWhoRun. @ToWebPerf/@JAMstackTORONTO curator. creator of @RapperTurnedDev. änrē/ônr. bon vivant. ✨ Do Good. Be Better ™ ✨",
+    "location": "yyz",
+    "description": "dev, devilry, design, denim & #devsWhoRun. @ToWebPerf/@JAMstackTORONTO curator. creator of @RapperTurnedDev. änrē/ônr. bon vivant. ✨ Community as a Metric ™ ✨",
     "url": null,
     "entities": {
       "description": {
@@ -171,16 +143,16 @@
       }
     },
     "protected": false,
-    "followers_count": 4713,
-    "friends_count": 861,
-    "listed_count": 386,
+    "followers_count": 4922,
+    "friends_count": 881,
+    "listed_count": 389,
     "created_at": "Sun Aug 07 16:48:19 +0000 2011",
-    "favourites_count": 261,
+    "favourites_count": 264,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 34109,
+    "statuses_count": 36247,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -200,8 +172,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -214,7 +184,7 @@
   "is_quote_status": false,
   "retweet_count": 1,
   "favorite_count": 2,
-  "favorited": true,
+  "favorited": false,
   "retweeted": true,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,

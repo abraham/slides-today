@@ -84,20 +84,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          }
         }
       }
     ]
@@ -137,20 +123,6 @@
             "w": 1200,
             "h": 900,
             "resize": "fit"
-          }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
           }
         }
       }
@@ -199,16 +171,16 @@
       }
     },
     "protected": false,
-    "followers_count": 9330,
-    "friends_count": 1106,
-    "listed_count": 606,
+    "followers_count": 9454,
+    "friends_count": 1157,
+    "listed_count": 600,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 35343,
+    "favourites_count": 38540,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 51516,
+    "statuses_count": 52203,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -228,8 +200,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

@@ -79,96 +79,6 @@
             "h": 519,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 96,
-                "y": 180,
-                "h": 106,
-                "w": 106
-              },
-              {
-                "x": 284,
-                "y": 64,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 437,
-                "y": 64,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
-          }
         }
       }
     ]
@@ -208,96 +118,6 @@
             "w": 930,
             "h": 519,
             "resize": "fit"
-          }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 96,
-                "y": 180,
-                "h": 106,
-                "w": 106
-              },
-              {
-                "x": 284,
-                "y": 64,
-                "h": 112,
-                "w": 112
-              },
-              {
-                "x": 437,
-                "y": 64,
-                "h": 96,
-                "w": 96
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 132,
-                "y": 247,
-                "h": 146,
-                "w": 146
-              },
-              {
-                "x": 389,
-                "y": 88,
-                "h": 154,
-                "w": 154
-              },
-              {
-                "x": 599,
-                "y": 88,
-                "h": 132,
-                "w": 132
-              }
-            ]
           }
         }
       }
@@ -346,16 +166,16 @@
       }
     },
     "protected": false,
-    "followers_count": 9330,
-    "friends_count": 1106,
-    "listed_count": 606,
+    "followers_count": 9454,
+    "friends_count": 1157,
+    "listed_count": 600,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 35343,
+    "favourites_count": 38540,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 51516,
+    "statuses_count": 52203,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -375,8 +195,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

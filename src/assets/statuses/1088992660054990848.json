@@ -98,20 +98,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          }
         }
       }
     ]
@@ -152,20 +138,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          }
         }
       },
       {
@@ -202,48 +174,6 @@
             "h": 900,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": [
-              {
-                "x": 520,
-                "y": 868,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 520,
-                "y": 868,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 172,
-                "y": 288,
-                "h": 29,
-                "w": 29
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 304,
-                "y": 508,
-                "h": 52,
-                "w": 52
-              }
-            ]
-          }
         }
       }
     ]
@@ -257,10 +187,10 @@
   "user": {
     "id": 567162844,
     "id_str": "567162844",
-    "name": "Nilay 💙",
+    "name": "Nilay Yener",
     "screen_name": "nlycskn",
     "location": "",
-    "description": "people first! 💙 \n@flutterdev @dart_lang #DevRel\n#MotherOfDashes\nnot a fighter",
+    "description": "people first! 💙 \n@flutterdev @dart_lang #DevRel ✨\nnot a fighter✌️\nGoldendoodle mom🐩😍",
     "url": null,
     "entities": {
       "description": {
@@ -268,16 +198,16 @@
       }
     },
     "protected": false,
-    "followers_count": 7808,
-    "friends_count": 1062,
-    "listed_count": 194,
+    "followers_count": 8941,
+    "friends_count": 1100,
+    "listed_count": 210,
     "created_at": "Mon Apr 30 11:42:46 +0000 2012",
-    "favourites_count": 21804,
+    "favourites_count": 24018,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 12437,
+    "statuses_count": 13147,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -288,7 +218,7 @@
     "profile_background_tile": false,
     "profile_image_url": "http://pbs.twimg.com/profile_images/1132357550379134976/tRQLk7Je_normal.jpg",
     "profile_image_url_https": "https://pbs.twimg.com/profile_images/1132357550379134976/tRQLk7Je_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1558809044",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/567162844/1576180514",
     "profile_link_color": "91D2FA",
     "profile_sidebar_border_color": "FFFFFF",
     "profile_sidebar_fill_color": "F2AD9D",
@@ -297,8 +227,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

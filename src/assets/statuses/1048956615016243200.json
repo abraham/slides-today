@@ -84,72 +84,6 @@
             "h": 469,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 31,
-                "y": 303,
-                "h": 31,
-                "w": 31
-              },
-              {
-                "x": 94,
-                "y": 50,
-                "h": 46,
-                "w": 46
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          }
         }
       }
     ]
@@ -190,72 +124,6 @@
             "h": 469,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 31,
-                "y": 303,
-                "h": 31,
-                "w": 31
-              },
-              {
-                "x": 94,
-                "y": 50,
-                "h": 46,
-                "w": 46
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 43,
-                "y": 419,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 131,
-                "y": 70,
-                "h": 64,
-                "w": 64
-              }
-            ]
-          }
         }
       }
     ]
@@ -293,9 +161,9 @@
       }
     },
     "protected": false,
-    "followers_count": 269,
+    "followers_count": 275,
     "friends_count": 54,
-    "listed_count": 18,
+    "listed_count": 19,
     "created_at": "Fri Jun 24 14:13:48 +0000 2016",
     "favourites_count": 138,
     "utc_offset": null,
@@ -322,8 +190,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

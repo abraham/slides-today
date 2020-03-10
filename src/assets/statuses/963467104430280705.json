@@ -133,72 +133,6 @@
             "h": 450,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 489,
-                "y": 119,
-                "h": 108,
-                "w": 108
-              },
-              {
-                "x": 39,
-                "y": 166,
-                "h": 106,
-                "w": 106
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          }
         }
       }
     ]
@@ -239,72 +173,6 @@
             "h": 450,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 489,
-                "y": 119,
-                "h": 108,
-                "w": 108
-              },
-              {
-                "x": 39,
-                "y": 166,
-                "h": 106,
-                "w": 106
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 583,
-                "y": 142,
-                "h": 129,
-                "w": 129
-              },
-              {
-                "x": 47,
-                "y": 198,
-                "h": 127,
-                "w": 127
-              }
-            ]
-          }
         }
       }
     ]
@@ -321,7 +189,7 @@
     "name": "REFACTR.TECH",
     "screen_name": "RefactrTech",
     "location": "Atlanta, GA",
-    "description": "2nd annual conference showcasing marginalized people & allies in #tech. 4/22 - 4/24/2020. Tickets on sale now! #diversity #inclusion",
+    "description": "2nd annual conference showcasing marginalized people & allies in #tech. 8/12 - 8/14/2020. Tickets on sale now! #diversity #inclusion",
     "url": "https://t.co/c6cmSDONtH",
     "entities": {
       "url": {
@@ -342,16 +210,16 @@
       }
     },
     "protected": false,
-    "followers_count": 2220,
-    "friends_count": 230,
-    "listed_count": 76,
+    "followers_count": 2367,
+    "friends_count": 251,
+    "listed_count": 80,
     "created_at": "Thu Jan 26 01:33:51 +0000 2017",
-    "favourites_count": 2961,
+    "favourites_count": 3199,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2555,
+    "statuses_count": 2814,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -362,7 +230,7 @@
     "profile_background_tile": false,
     "profile_image_url": "http://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
     "profile_image_url_https": "https://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
-    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1575263925",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1583670870",
     "profile_link_color": "CF057C",
     "profile_sidebar_border_color": "000000",
     "profile_sidebar_fill_color": "000000",
@@ -371,8 +239,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

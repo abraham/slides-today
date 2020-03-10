@@ -78,16 +78,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1565,
-    "friends_count": 160,
-    "listed_count": 82,
+    "followers_count": 1558,
+    "friends_count": 158,
+    "listed_count": 83,
     "created_at": "Thu Apr 16 15:55:09 +0000 2009",
-    "favourites_count": 675,
+    "favourites_count": 681,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1711,
+    "statuses_count": 1715,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -107,8 +107,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -203,20 +201,6 @@
               "h": 340,
               "resize": "fit"
             }
-          },
-          "features": {
-            "large": {
-              "faces": []
-            },
-            "orig": {
-              "faces": []
-            },
-            "medium": {
-              "faces": []
-            },
-            "small": {
-              "faces": []
-            }
           }
         }
       ]
@@ -257,20 +241,6 @@
               "h": 340,
               "resize": "fit"
             }
-          },
-          "features": {
-            "large": {
-              "faces": []
-            },
-            "orig": {
-              "faces": []
-            },
-            "medium": {
-              "faces": []
-            },
-            "small": {
-              "faces": []
-            }
           }
         }
       ]
@@ -284,7 +254,7 @@
     "user": {
       "id": 48334750,
       "id_str": "48334750",
-      "name": "GDG Twin Cities - DevFestMN Focus: ML+AI Sep 27th",
+      "name": "GDG Twin Cities",
       "screen_name": "gdgtc",
       "location": "Twin Cities, MN",
       "description": "The Google Developers Group, Twin Cities is for all developers of Google technologies! Proud host of local tech meetups and #DevFestMN https://t.co/vavlapwIKe",
@@ -318,16 +288,16 @@
         }
       },
       "protected": false,
-      "followers_count": 732,
-      "friends_count": 286,
+      "followers_count": 743,
+      "friends_count": 287,
       "listed_count": 43,
       "created_at": "Thu Jun 18 12:34:50 +0000 2009",
-      "favourites_count": 620,
+      "favourites_count": 630,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 842,
+      "statuses_count": 843,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -347,8 +317,6 @@
       "has_extended_profile": false,
       "default_profile": false,
       "default_profile_image": false,
-      "can_media_tag": true,
-      "followed_by": true,
       "following": false,
       "follow_request_sent": false,
       "notifications": false,

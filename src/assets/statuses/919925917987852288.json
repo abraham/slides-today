@@ -74,48 +74,6 @@
             "h": 500,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 95,
-                "y": 50,
-                "h": 46,
-                "w": 46
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          }
         }
       }
     ]
@@ -156,48 +114,6 @@
             "h": 500,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 95,
-                "y": 50,
-                "h": 46,
-                "w": 46
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 140,
-                "y": 74,
-                "h": 68,
-                "w": 68
-              }
-            ]
-          }
         }
       }
     ]
@@ -235,9 +151,9 @@
       }
     },
     "protected": false,
-    "followers_count": 269,
+    "followers_count": 275,
     "friends_count": 54,
-    "listed_count": 18,
+    "listed_count": 19,
     "created_at": "Fri Jun 24 14:13:48 +0000 2016",
     "favourites_count": 138,
     "utc_offset": null,
@@ -264,8 +180,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

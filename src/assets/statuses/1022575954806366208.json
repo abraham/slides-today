@@ -14,7 +14,7 @@
     "user_mentions": [
       {
         "screen_name": "gdgtc",
-        "name": "GDG Twin Cities - DevFestMN Focus: ML+AI Sep 27th",
+        "name": "GDG Twin Cities",
         "id": 48334750,
         "id_str": "48334750",
         "indices": [
@@ -89,48 +89,6 @@
             "h": 1365,
             "resize": "fit"
           }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 188,
-                "y": 52,
-                "h": 245,
-                "w": 245
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1136,
-                "y": 316,
-                "h": 1480,
-                "w": 1480
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 332,
-                "y": 92,
-                "h": 433,
-                "w": 433
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 568,
-                "y": 158,
-                "h": 740,
-                "w": 740
-              }
-            ]
-          }
         }
       }
     ]
@@ -170,48 +128,6 @@
             "w": 2048,
             "h": 1365,
             "resize": "fit"
-          }
-        },
-        "features": {
-          "small": {
-            "faces": [
-              {
-                "x": 188,
-                "y": 52,
-                "h": 245,
-                "w": 245
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1136,
-                "y": 316,
-                "h": 1480,
-                "w": 1480
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 332,
-                "y": 92,
-                "h": 433,
-                "w": 433
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 568,
-                "y": 158,
-                "h": 740,
-                "w": 740
-              }
-            ]
           }
         }
       }
@@ -260,16 +176,16 @@
       }
     },
     "protected": false,
-    "followers_count": 9330,
-    "friends_count": 1106,
-    "listed_count": 606,
+    "followers_count": 9454,
+    "friends_count": 1157,
+    "listed_count": 600,
     "created_at": "Sun Oct 14 12:50:47 +0000 2007",
-    "favourites_count": 35343,
+    "favourites_count": 38540,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 51516,
+    "statuses_count": 52203,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -289,8 +205,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

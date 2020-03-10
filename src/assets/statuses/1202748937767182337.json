@@ -67,100 +67,6 @@
             "h": 1536,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "802671878",
-                "screen_name": "DeborahKurata",
-                "name": "Deborah Kurata"
-              },
-              {
-                "type": "user",
-                "user_id": "178817640",
-                "screen_name": "mgechev",
-                "name": "Minko Gechev"
-              },
-              {
-                "type": "user",
-                "user_id": "8124762",
-                "screen_name": "Jakeherringbone",
-                "name": "Alex 🦅 Eagle"
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 384,
-                "y": 215,
-                "h": 26,
-                "w": 26
-              },
-              {
-                "x": 636,
-                "y": 98,
-                "h": 39,
-                "w": 39
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 2279,
-                "y": 1279,
-                "h": 157,
-                "w": 157
-              },
-              {
-                "x": 3776,
-                "y": 582,
-                "h": 232,
-                "w": 232
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 678,
-                "y": 380,
-                "h": 46,
-                "w": 46
-              },
-              {
-                "x": 1123,
-                "y": 173,
-                "h": 69,
-                "w": 69
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1157,
-                "y": 649,
-                "h": 79,
-                "w": 79
-              },
-              {
-                "x": 1917,
-                "y": 295,
-                "h": 117,
-                "w": 117
-              }
-            ]
-          }
         }
       }
     ]
@@ -201,100 +107,6 @@
             "h": 1536,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "802671878",
-                "screen_name": "DeborahKurata",
-                "name": "Deborah Kurata"
-              },
-              {
-                "type": "user",
-                "user_id": "178817640",
-                "screen_name": "mgechev",
-                "name": "Minko Gechev"
-              },
-              {
-                "type": "user",
-                "user_id": "8124762",
-                "screen_name": "Jakeherringbone",
-                "name": "Alex 🦅 Eagle"
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 384,
-                "y": 215,
-                "h": 26,
-                "w": 26
-              },
-              {
-                "x": 636,
-                "y": 98,
-                "h": 39,
-                "w": 39
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 2279,
-                "y": 1279,
-                "h": 157,
-                "w": 157
-              },
-              {
-                "x": 3776,
-                "y": 582,
-                "h": 232,
-                "w": 232
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 678,
-                "y": 380,
-                "h": 46,
-                "w": 46
-              },
-              {
-                "x": 1123,
-                "y": 173,
-                "h": 69,
-                "w": 69
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 1157,
-                "y": 649,
-                "h": 79,
-                "w": 79
-              },
-              {
-                "x": 1917,
-                "y": 295,
-                "h": 117,
-                "w": 117
-              }
-            ]
-          }
         }
       },
       {
@@ -331,172 +143,6 @@
             "h": 1536,
             "resize": "fit"
           }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "802671878",
-                "screen_name": "DeborahKurata",
-                "name": "Deborah Kurata"
-              },
-              {
-                "type": "user",
-                "user_id": "178817640",
-                "screen_name": "mgechev",
-                "name": "Minko Gechev"
-              },
-              {
-                "type": "user",
-                "user_id": "8124762",
-                "screen_name": "Jakeherringbone",
-                "name": "Alex 🦅 Eagle"
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 70,
-                "y": 207,
-                "h": 39,
-                "w": 39
-              },
-              {
-                "x": 609,
-                "y": 240,
-                "h": 44,
-                "w": 44
-              },
-              {
-                "x": 660,
-                "y": 324,
-                "h": 63,
-                "w": 63
-              },
-              {
-                "x": 851,
-                "y": 284,
-                "h": 77,
-                "w": 77
-              },
-              {
-                "x": 453,
-                "y": 329,
-                "h": 69,
-                "w": 69
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 39,
-                "y": 117,
-                "h": 22,
-                "w": 22
-              },
-              {
-                "x": 345,
-                "y": 136,
-                "h": 25,
-                "w": 25
-              },
-              {
-                "x": 374,
-                "y": 183,
-                "h": 35,
-                "w": 35
-              },
-              {
-                "x": 482,
-                "y": 161,
-                "h": 43,
-                "w": 43
-              },
-              {
-                "x": 256,
-                "y": 186,
-                "h": 39,
-                "w": 39
-              }
-            ]
-          },
-          "large": {
-            "faces": [
-              {
-                "x": 119,
-                "y": 353,
-                "h": 67,
-                "w": 67
-              },
-              {
-                "x": 1039,
-                "y": 409,
-                "h": 75,
-                "w": 75
-              },
-              {
-                "x": 1127,
-                "y": 553,
-                "h": 107,
-                "w": 107
-              },
-              {
-                "x": 1453,
-                "y": 485,
-                "h": 131,
-                "w": 131
-              },
-              {
-                "x": 773,
-                "y": 561,
-                "h": 117,
-                "w": 117
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 236,
-                "y": 696,
-                "h": 133,
-                "w": 133
-              },
-              {
-                "x": 2047,
-                "y": 807,
-                "h": 149,
-                "w": 149
-              },
-              {
-                "x": 2220,
-                "y": 1090,
-                "h": 212,
-                "w": 212
-              },
-              {
-                "x": 2862,
-                "y": 956,
-                "h": 259,
-                "w": 259
-              },
-              {
-                "x": 1523,
-                "y": 1106,
-                "h": 232,
-                "w": 232
-              }
-            ]
-          }
         }
       },
       {
@@ -532,48 +178,6 @@
             "w": 680,
             "h": 510,
             "resize": "fit"
-          }
-        },
-        "features": {
-          "all": {
-            "tags": [
-              {
-                "type": "user",
-                "user_id": "9436992",
-                "screen_name": "abraham",
-                "name": "Abraham Williams"
-              },
-              {
-                "type": "user",
-                "user_id": "802671878",
-                "screen_name": "DeborahKurata",
-                "name": "Deborah Kurata"
-              },
-              {
-                "type": "user",
-                "user_id": "178817640",
-                "screen_name": "mgechev",
-                "name": "Minko Gechev"
-              },
-              {
-                "type": "user",
-                "user_id": "8124762",
-                "screen_name": "Jakeherringbone",
-                "name": "Alex 🦅 Eagle"
-              }
-            ]
-          },
-          "large": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
           }
         }
       }
@@ -612,16 +216,16 @@
       }
     },
     "protected": false,
-    "followers_count": 5958,
-    "friends_count": 689,
-    "listed_count": 215,
+    "followers_count": 6415,
+    "friends_count": 682,
+    "listed_count": 224,
     "created_at": "Mon Dec 14 15:36:11 +0000 2015",
-    "favourites_count": 59473,
+    "favourites_count": 72228,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 7286,
+    "statuses_count": 8429,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -641,8 +245,6 @@
     "has_extended_profile": false,
     "default_profile": true,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,
@@ -655,8 +257,8 @@
   "is_quote_status": false,
   "retweet_count": 2,
   "favorite_count": 3,
-  "favorited": true,
-  "retweeted": true,
+  "favorited": false,
+  "retweeted": false,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

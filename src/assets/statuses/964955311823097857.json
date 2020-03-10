@@ -87,48 +87,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 1562,
-                "y": 620,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1562,
-                "y": 620,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 915,
-                "y": 363,
-                "h": 52,
-                "w": 52
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 518,
-                "y": 205,
-                "h": 29,
-                "w": 29
-              }
-            ]
-          }
         }
       }
     ]
@@ -169,48 +127,6 @@
             "h": 510,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": [
-              {
-                "x": 1562,
-                "y": 620,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "orig": {
-            "faces": [
-              {
-                "x": 1562,
-                "y": 620,
-                "h": 90,
-                "w": 90
-              }
-            ]
-          },
-          "medium": {
-            "faces": [
-              {
-                "x": 915,
-                "y": 363,
-                "h": 52,
-                "w": 52
-              }
-            ]
-          },
-          "small": {
-            "faces": [
-              {
-                "x": 518,
-                "y": 205,
-                "h": 29,
-                "w": 29
-              }
-            ]
-          }
         }
       }
     ]
@@ -228,14 +144,14 @@
     "screen_name": "chatasweetie",
     "location": "Mountain View, CA",
     "description": "Developer Avocado 🥑 @ActionsOnGoogle | #AoGDevs | former @WomenTechmakers lead & @gdisf teacher | Leadership @WomenInVoice | ❤️ 🍓 & 🐩 | #latinx | she/her",
-    "url": "https://t.co/Pmm5qSv05Z",
+    "url": "https://t.co/Wo8mSJ1gkv",
     "entities": {
       "url": {
         "urls": [
           {
-            "url": "https://t.co/Pmm5qSv05Z",
-            "expanded_url": "https://www.linkedin.com/in/jessicaearley",
-            "display_url": "linkedin.com/in/jessicaearl…",
+            "url": "https://t.co/Wo8mSJ1gkv",
+            "expanded_url": "https://www.jessicadeneearley-cha.com/",
+            "display_url": "jessicadeneearley-cha.com",
             "indices": [
               0,
               23
@@ -248,16 +164,16 @@
       }
     },
     "protected": false,
-    "followers_count": 1924,
-    "friends_count": 932,
-    "listed_count": 74,
+    "followers_count": 2035,
+    "friends_count": 948,
+    "listed_count": 76,
     "created_at": "Sun Mar 15 03:50:53 +0000 2009",
-    "favourites_count": 5407,
+    "favourites_count": 5807,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 2494,
+    "statuses_count": 2656,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -277,8 +193,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,

@@ -72,7 +72,7 @@
     "name": "Zeeshan Rasool",
     "screen_name": "zeeshanrasool7",
     "location": "Vancouver | Islamabad",
-    "description": "Product Architect // Building the next generation of products // @quupe_inc @skyrkt @mrksmedia",
+    "description": "Product Architect // Building the next generation of products // Living on chocolate // @quupe_inc @skyrkt @mrksmedia",
     "url": "https://t.co/2P3m9xMNkh",
     "entities": {
       "url": {
@@ -93,8 +93,8 @@
       }
     },
     "protected": false,
-    "followers_count": 327,
-    "friends_count": 368,
+    "followers_count": 326,
+    "friends_count": 369,
     "listed_count": 28,
     "created_at": "Mon Sep 07 11:15:53 +0000 2009",
     "favourites_count": 147,
@@ -102,7 +102,7 @@
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 1449,
+    "statuses_count": 1450,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -122,8 +122,6 @@
     "has_extended_profile": true,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,

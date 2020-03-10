@@ -69,20 +69,6 @@
             "h": 550,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          }
         }
       }
     ]
@@ -123,20 +109,6 @@
             "h": 550,
             "resize": "fit"
           }
-        },
-        "features": {
-          "large": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          }
         }
       }
     ]
@@ -174,16 +146,16 @@
       }
     },
     "protected": false,
-    "followers_count": 166,
+    "followers_count": 169,
     "friends_count": 50,
     "listed_count": 16,
     "created_at": "Tue Jul 28 15:57:37 +0000 2009",
-    "favourites_count": 240,
+    "favourites_count": 245,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": true,
     "verified": false,
-    "statuses_count": 585,
+    "statuses_count": 590,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -203,8 +175,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
@@ -218,7 +188,7 @@
   "retweet_count": 4,
   "favorite_count": 8,
   "favorited": false,
-  "retweeted": true,
+  "retweeted": false,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

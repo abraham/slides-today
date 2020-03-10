@@ -78,7 +78,7 @@
       }
     },
     "protected": false,
-    "followers_count": 94,
+    "followers_count": 95,
     "friends_count": 52,
     "listed_count": 3,
     "created_at": "Fri Oct 07 03:40:39 +0000 2016",
@@ -106,8 +106,6 @@
     "has_extended_profile": false,
     "default_profile": false,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": false,
     "following": false,
     "follow_request_sent": false,
     "notifications": false,
@@ -121,7 +119,7 @@
   "retweet_count": 2,
   "favorite_count": 4,
   "favorited": false,
-  "retweeted": true,
+  "retweeted": false,
   "possibly_sensitive": false,
   "possibly_sensitive_appealable": false,
   "lang": "en"

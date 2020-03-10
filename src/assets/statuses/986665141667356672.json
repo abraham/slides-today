@@ -77,20 +77,6 @@
             "h": 1024,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          }
         }
       }
     ]
@@ -131,20 +117,6 @@
             "h": 1024,
             "resize": "fit"
           }
-        },
-        "features": {
-          "orig": {
-            "faces": []
-          },
-          "medium": {
-            "faces": []
-          },
-          "small": {
-            "faces": []
-          },
-          "large": {
-            "faces": []
-          }
         }
       }
     ]
@@ -158,10 +130,10 @@
   "user": {
     "id": 284086094,
     "id_str": "284086094",
-    "name": "Nilo",
-    "screen_name": "Bint_alBeatz",
+    "name": "Nilo 🩸🦷🗽",
+    "screen_name": "that_bint_ni_lo",
     "location": "",
-    "description": "",
+    "description": "code, cats, cybersecurity, abortion access, human rights, end immigrant detention",
     "url": null,
     "entities": {
       "description": {
@@ -169,16 +141,16 @@
       }
     },
     "protected": false,
-    "followers_count": 406,
-    "friends_count": 1259,
-    "listed_count": 15,
+    "followers_count": 413,
+    "friends_count": 1296,
+    "listed_count": 17,
     "created_at": "Mon Apr 18 16:02:24 +0000 2011",
-    "favourites_count": 4031,
+    "favourites_count": 4963,
     "utc_offset": null,
     "time_zone": null,
     "geo_enabled": false,
     "verified": false,
-    "statuses_count": 2204,
+    "statuses_count": 2546,
     "lang": null,
     "contributors_enabled": false,
     "is_translator": false,
@@ -198,8 +170,6 @@
     "has_extended_profile": false,
     "default_profile": true,
     "default_profile_image": false,
-    "can_media_tag": true,
-    "followed_by": true,
     "following": true,
     "follow_request_sent": false,
     "notifications": false,
