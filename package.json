@@ -50,7 +50,6 @@
     "@webcomponents/webcomponentsjs": "2.4.2",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "2.8.6",
-    "concurrently": "5.1.0",
     "firebase": "7.10.0",
     "first-input-delay": "0.1.3",
     "github-repository": "0.3.0",
