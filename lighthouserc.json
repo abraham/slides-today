@@ -5,14 +5,16 @@
       "staticDistDir": "./dist/slides-today/",
       "isSinglePageApplication": true,
       "url": [
-        "http://localhost:4200/"
+        "http://localhost:4200/",
+        "http://localhost:4200/decks/-Lk38kV8Icsivp6-E9Qj"
       ]
     },
     "assert": {
       "preset": "lighthouse:recommended",
       "assertions": {
         "unused-css-rules": "warn",
-        "dom-size": "warn"
+        "dom-size": "warn",
+        "errors-in-console": "warn"
       }
     },
     "upload": {
