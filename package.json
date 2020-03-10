@@ -72,7 +72,7 @@
     "@lhci/cli": "0.3.9",
     "@types/chai": "4.2.10",
     "@types/cucumber": "6.0.1",
-    "@types/jasmine": "3.5.8",
+    "@types/jasmine": "3.5.9",
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "1.0.0",
     "@types/node": "12.12.21",
