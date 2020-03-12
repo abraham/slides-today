@@ -19,7 +19,7 @@
     "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm --validate-https",
     "lint:ng": "ng lint",
     "lint:stylelint": "stylelint \"src/**/*.scss\"",
-    "lighthouse": "firebase emulators:exec \"lhci  autorun\"",
+    "lighthouse": "firebase emulators:exec \"lhci autorun\"",
     "ng": "ng",
     "serve": "firebase serve",
     "start": "ng serve --port 5000",
