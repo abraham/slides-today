@@ -8,7 +8,7 @@ Checkout the source with `git checkout git@github.com:abraham/slides-today.git` 
 
 ## Development server
 
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -20,9 +20,17 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
 ## Tests
 
-_Note: Tests have a limited implementation currently._
+Run `npm test` to execute the the test suite. Currently tests mainly comprise of feature tests written in cucumber-js and puppeteer.
 
-Run `npm test` to execute the the test suite.
+If you are writing tests it might be helpful to  `npm run start:prod` in one terminal and `npm run test:features` in another terminal to avoid rebuilding Angular everytime.
+
+To have the browser windows open use so you can see what's rendering (this will also increase timeouts):
+
+    NODE_ENV=debug npm run test:features
+
+To run a specific file and example use:
+
+    npm run test:features features/deck.feature:33
 
 ## Deploy
 

@@ -5,8 +5,8 @@
       "staticDistDir": "./dist/slides-today/",
       "isSinglePageApplication": true,
       "url": [
-        "http://localhost:4200/",
-        "http://localhost:4200/decks/-Lk38kV8Icsivp6-E9Qj"
+        "http://localhost:5000/",
+        "http://localhost:5000/decks/-Lk38kV8Icsivp6-E9Qj"
       ]
     },
     "assert": {
