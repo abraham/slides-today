@@ -4,34 +4,38 @@ language: node_js
 node_js:
   - "12"
 before_script: npx firebase use slides-today
+cache:
+  npm: true
+  directories:
+    - dist
 jobs:
   include:
-    - stage: Lint, Build, & Test
-      name: Feature Tests
-      script: npm test
-    - name: Lighthouse
-      script: npm run lighthouse
+    - stage: Build
+      name: Production
+      script: npm run build:prod
+    - name: Development
+      cache:
+        npm: true
+      script:
+        - npm run build
+        - npm run build:scripts
     - name: Lint
       script: npm run lint
-    - name: Build
-      script:
-        - npm run build:scripts
-        - npm run build
-    - name: Bundlesize
-      before_script: npm run build:prod
-      script: npm run bundlesize
     - name: Security
       script: npm audit
+    - stage: Test
+      name: Features
+      script: npm run test:features
+    - name: Lighthouse
+      script: npm run lighthouse
+    - name: Bundlesize
+      script: npm run bundlesize
     - stage: Deploy
-      name: Build Prod
-      install: if [ "$TRAVIS_BRANCH" == "master" ]; then npm ci; else echo "Only deploying on master"; fi
-      before_script: if [ "$TRAVIS_BRANCH" == "master" ]; then npx firebase use slides-today; else echo "Only deploying on master"; fi
-      script: if [ "$TRAVIS_BRANCH" == "master" ]; then npm run build:prod; else echo "Only deploying on master"; fi
+      name: Firebase
+      if: branch = master
+      script: true
       deploy:
         provider: firebase
-        project: slides-today
-        token:
-          secure: "IidL8H22Lw3RRQMLzPKzbtlm7KmfMitzQELHZs/c/rRPUjG8pehUroStxxuHq8nG9g15TbRkw0Bt6eUfWcoVXO5oRWVhd8+b2BezLNzyjgbDQWq15ZUbcb/t+KWlJ4G4RlUo1GeEmStSEaWi1x7tbw5YZF+RX6VJD+u9hjLXHiVPI4xE9W+lnIFWI1ehHb+RxHRI+c2/AUSs/JtOhDCYZU2q0uQEQvP1AmsVFKTZZNNlEXMZDmDvSDh58QiC7ndpVpMes5v6yLBOq0Hvx1factbwcv4d4k0mIpLrS6UcBiFoDM/W0YHRBL6aU22wmlDswtrFY1HHG3sY2Mh4O6oB3juxsKK9ZR73lPVTICyYRt1MiWNkX/0I6+9jKXH8krsBMNH2CdlJg+lixtzdo9gMGmqjDIwcTc5UoEwuWupzHna1NE398s4vu1QyDMHGK+OkUcsvWNZawTmqf3dQUcQcTquf8H/FA017D/FwWs9Bxsm5y8vmPV/ro40wBpxVEtRliT8mjan85RGTjRNe3GpbGaRbyZ2I3SO4q/3djtrO5/epOZB5Fo0Wg1xuhqmvS8P9SL5xTrTbaavp8ylX8S3z21QQq8KnXyzmXml+XbZDl9RsxJWOm30RNvwljsol57pLMU77Rf3nf6ukfSXibrJoRSGOkVCXGbf7sKgO8vtW2yg="
         edge: true
   allow_failures:
     - script: npm audit
