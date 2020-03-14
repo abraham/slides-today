@@ -22,9 +22,9 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 
 Run `npm test` to execute the the test suite. Currently tests mainly comprise of feature tests written in cucumber-js and puppeteer.
 
-If you are writing tests it might be helpful to  `npm run start:prod` in one terminal and `npm run test:features` in another terminal to avoid rebuilding Angular everytime.
+Build a production version of the app with `npm run build:prod` then run `npm run test:features`.
 
-To have the browser windows open use so you can see what's rendering (this will also increase timeouts):
+To have the browser windows open so you can see what's rendering (this will also increase timeouts), use:
 
     NODE_ENV=debug npm run test:features
 
@@ -34,7 +34,9 @@ To run a specific file and example use:
 
 ## Deploy
 
-Run `npm run deploy` to build and deploy to Firebase. Firebase Hosting, Firestore, and Functions should be setup and enabled.
+Deploys happen automatically after merging to the `master` branch.
+
+To do it manually run `npm run deploy` to build and deploy to Firebase. Firebase Hosting, Firestore, and Functions should be setup and enabled.
 
 ## Generate Deck ID
 

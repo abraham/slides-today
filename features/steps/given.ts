@@ -6,6 +6,7 @@ Given('the network is {networkStatus}', async function(status: string) {
 });
 
 Given('I have granted permission(s)', async function({ rawTable }) {
+  // Available permissions: https://pptr.dev/#?product=Puppeteer&show=api-browsercontextoverridepermissionsorigin-permissions
   const context = this.page.browserContext();
   await context.overridePermissions(origin, rawTable.flat());
 });
