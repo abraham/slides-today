@@ -190,7 +190,7 @@
   },
   {
     "id": "-M21-9vkfkVRSx9kyUz7",
-    "archived": false,
+    "archived": true,
     "nodePackages": [
       "workbox-cli",
       "webpack-cli"
