@@ -3,7 +3,7 @@ import { getDocument, queries } from 'pptr-testing-library';
 import puppeteer, { Browser, Page } from 'puppeteer';
 import { DEBUG } from './environment';
 
-const { getByText, queryAllByText } = queries;
+const { getByText, queryAllByText, queryAllByTitle } = queries;
 
 export class BrowserWorld {
   private browser?: Browser;
@@ -30,6 +30,10 @@ export class BrowserWorld {
 
   async queryAllByText(text: string, opts?: SelectorMatcherOptions) {
     return queryAllByText(await this.$document, text, opts);
+  }
+
+  async queryAllByTitle(text: string, opts?: SelectorMatcherOptions) {
+    return queryAllByTitle(await this.$document, text, opts);
   }
 
   async init() {

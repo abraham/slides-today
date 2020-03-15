@@ -51,3 +51,9 @@ Then('{string} should be in the clipboard', async function(text: string) {
   expect(clipboardText).to.eq(text);
   await context.clearPermissionOverrides();
 });
+
+Then('I should see title {string}', async function(text: string) {
+  await wait(async () => {
+    expect(await this.queryAllByTitle(text)).to.have.lengthOf(1);
+  });
+});
