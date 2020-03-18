@@ -4,13 +4,13 @@
   <div class="container">
     <main *ngIf="firstLoad" class='main mdc-layout-grid'>
       <div class="mdc-layout-grid__inner">
-        <div class='mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12'>
-          <ngx-skeleton-loader count="10" appearance="circle"></ngx-skeleton-loader>
+        <div class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+          <ngx-skeleton-loader [count]="10" appearance="circle"></ngx-skeleton-loader>
         </div>
 
         <div *ngFor="let i of [0, 1, 2, 3, 4]"
-             class='mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12'>
-          <ngx-skeleton-loader count="3" appearance="line"></ngx-skeleton-loader>
+             class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+          <ngx-skeleton-loader [count]="3" appearance="line"></ngx-skeleton-loader>
         </div>
       </div>
     </main>

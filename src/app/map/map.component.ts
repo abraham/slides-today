@@ -11,8 +11,8 @@ export class MapComponent implements OnInit {
 
   @Input() location = '';
 
-  url?: string;
-  mapUrl?: string;
+  url = '';
+  mapUrl = '';
   defaultImage = '/assets/img/default.png';
   offset = 200;
 

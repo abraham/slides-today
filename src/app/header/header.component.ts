@@ -56,7 +56,7 @@ export class HeaderComponent implements AfterViewInit {
     this.router.navigate(['/']);
   }
 
-  goBack(e: MouseEvent): void {
+  goBack(e: MouseEvent | KeyboardEvent): void {
     e.preventDefault();
     if (window.history.length > 1) {
       this.location.back();
