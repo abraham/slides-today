@@ -3,6 +3,10 @@
 // TODO: Update to `use`.
 @import '~@material/icon-button/mdc-icon-button.import';
 
+:host {
+  display: block;
+}
+
 .action {
   align-items: center;
   display: flex;

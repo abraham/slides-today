@@ -2,6 +2,10 @@
 @use '~@material/elevation/mdc-elevation';
 @use '~@material/layout-grid/mdc-layout-grid';
 
+:host {
+  display: block;
+}
+
 @media (max-width: 479px) {
   main {
     padding-left: 0 !important;

@@ -1,1 +1,5 @@
 @use '~@material/list/mdc-list';
+
+:host {
+  display: block;
+}

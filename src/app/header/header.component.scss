@@ -3,6 +3,10 @@
 @use '~@material/icon-button/mdc-icon-button';
 @use '~@material/ripple/mdc-ripple';
 
+:host {
+  display: block;
+}
+
 .mdc-top-app-bar {
   transition: background-color 1000ms !important;
 }

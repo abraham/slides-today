@@ -1,5 +1,9 @@
 @use '~@material/layout-grid/mdc-layout-grid';
 
+:host {
+  display: block;
+}
+
 .wrapper {
   transition: background-color 1000ms !important;
 }

@@ -1,6 +1,10 @@
 @use '~@material/chips/mdc-chips';
 @use '~@material/ripple/mdc-ripple';
 
+:host {
+  display: block;
+}
+
 .mdc-chip {
   margin: 4px;
 }

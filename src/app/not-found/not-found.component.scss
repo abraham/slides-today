@@ -1,5 +1,9 @@
 @use '~@material/layout-grid/mdc-layout-grid';
 
+:host {
+  display: block;
+}
+
 svg {
   display: block;
   height: 100%;
