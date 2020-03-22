@@ -5,6 +5,10 @@
 @use '~@material/menu/mdc-menu';
 @use '~@material/ripple/mdc-ripple';
 
+:host {
+  display: block;
+}
+
 .app-fab--absolute {
   bottom: 1rem;
   position: fixed;

@@ -4,6 +4,10 @@
 @use '~@material/ripple/mdc-ripple';
 @use '~@material/typography/mdc-typography';
 
+:host {
+  display: block;
+}
+
 div {
   display: block;
 }

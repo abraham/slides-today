@@ -1,5 +1,9 @@
 @use '~@material/list/mdc-list';
 
+:host {
+  display: block;
+}
+
 .mdc-list-item__meta .icon {
   fill: rgba(0, 0, 0, 0.38);
 }

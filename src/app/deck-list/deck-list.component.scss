@@ -2,6 +2,10 @@
 @use '~@material/icon-button/mdc-icon-button';
 @use '~@material/layout-grid/mdc-layout-grid';
 
+:host {
+  display: block;
+}
+
 app-header {
   margin-bottom: 16px;
 }
