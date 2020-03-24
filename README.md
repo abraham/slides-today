@@ -16,21 +16,21 @@ Run `npx ng generate component component-name` to generate a new component. You 
 
 ## Build
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/slides-today/` directory. Use the `npm run build:prod` for a production build.
+Run `npm run build` to build the production project. The build artifacts will be stored in the `dist/slides-today/` directory.
 
 ## Tests
 
-Run `npm test` to execute the the test suite. Currently tests mainly comprise of feature tests written in cucumber-js and puppeteer.
+Tests mainly comprise of feature tests written in cucumber-js and puppeteer.
 
-Build a production version of the app with `npm run build:prod` then run `npm run test:features`.
+Build and serve a production version of the app with `npm run serve` then run `npm test`.
 
 To have the browser windows open so you can see what's rendering (this will also increase timeouts), use:
 
-    NODE_ENV=debug npm run test:features
+    NODE_ENV=debug npm test
 
 To run a specific file and example use:
 
-    npm run test:features features/deck.feature:33
+    npm test features/deck.feature:33
 
 ## Deploy
 

@@ -11,11 +11,11 @@ jobs:
   include:
     - stage: Build
       name: Production
-      script: npm run build:prod
+      script: npm run build
     - name: Development
       cache: false
       script:
-        - npm run build
+        - npm run build:development
         - npm run build:scripts
     - name: Lint
       cache: false
