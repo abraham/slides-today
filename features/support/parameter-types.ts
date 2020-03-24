@@ -8,6 +8,11 @@ export const parameterTypes = [
     transformer: (status: string) => status,
   },
   {
+    name: 'javaScriptStatus',
+    regexp: /"(enabled|disabled)"/,
+    transformer: (status: string) => status,
+  },
+  {
     name: 'device',
     regexp: new RegExp(`"(${puppeteer.devices.map(device => device.name).join('|')})"`),
     transformer: (name: string) => puppeteer.devices[name],

@@ -5,6 +5,10 @@ Given('the network is {networkStatus}', async function(status: string) {
   return this.page.setOfflineMode(status === 'offline');
 });
 
+Given('JavaScript is {javaScriptStatus}', async function(status: string) {
+  return this.page.setJavaScriptEnabled(status === 'enabled');
+});
+
 Given('I have granted permission(s)', async function({ rawTable }) {
   // Available permissions: https://pptr.dev/#?product=Puppeteer&show=api-browsercontextoverridepermissionsorigin-permissions
   const context = this.page.browserContext();
