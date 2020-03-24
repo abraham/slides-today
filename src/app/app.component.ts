@@ -19,6 +19,8 @@ export class AppComponent {
         this.firstLoad = false;
       }
     });
+
+    this.removeNoScripts();
   }
 
   defaultTitle = 'Slides.today';
@@ -46,5 +48,11 @@ export class AppComponent {
     } else {
       this.router.navigate(['/tags', { tags }]);
     }
+  }
+
+  private removeNoScripts() {
+    document.querySelectorAll('noscript').forEach(element => {
+      element.remove();
+    });
   }
 }
