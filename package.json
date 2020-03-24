@@ -94,7 +94,7 @@
     "karma-cli": "2.0.0",
     "karma-coverage-istanbul-reporter": "2.1.1",
     "karma-jasmine": "3.1.1",
-    "karma-jasmine-html-reporter": "1.5.2",
+    "karma-jasmine-html-reporter": "1.5.3",
     "lockfile-lint": "4.2.1",
     "pptr-testing-library": "0.5.0",
     "protractor": "6.0.0",
