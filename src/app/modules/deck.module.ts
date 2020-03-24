@@ -14,7 +14,7 @@ import { TagModule } from './tag.module';
 import(/* webpackChunkName: 'components' */ 'github-repository');
 import(/* webpackChunkName: 'components' */ 'node-package');
 import(/* webpackChunkName: 'components' */ 'twitter-status');
-import(/* webpackChunkName: 'components' */ '@abraham/lite-youtube');
+import(/* webpackChunkName: 'components' */ '@justinribeiro/lite-youtube');
 
 const routes: Routes = [
   {
