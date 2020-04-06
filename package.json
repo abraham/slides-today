@@ -43,7 +43,7 @@
     "@angular/platform-browser-dynamic": "9.1.0",
     "@angular/router": "9.1.0",
     "@angular/service-worker": "9.1.0",
-    "@firebase/app": "0.6.0",
+    "@firebase/app": "0.6.1",
     "@justinribeiro/lite-youtube": "0.7.1",
     "@webcomponents/webcomponentsjs": "2.4.3",
     "autotrack": "2.4.1",
