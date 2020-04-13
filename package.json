@@ -54,7 +54,7 @@
     "intl-list-format": "1.0.3",
     "material-components-web": "5.1.0",
     "ng-lazyload-image": "7.1.0",
-    "ngx-skeleton-loader": "1.2.6",
+    "ngx-skeleton-loader": "1.2.7",
     "node-package": "1.4.0",
     "rxjs": "6.5.5",
     "tslib": "1.11.1",
