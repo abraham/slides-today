@@ -75,7 +75,7 @@
     "@types/material-components-web": "1.0.0",
     "@types/node": "12.12.31",
     "@types/puppeteer": "2.0.1",
-    "@types/twit": "2.2.23",
+    "@types/twit": "2.2.24",
     "bundlesize": "0.18.0",
     "chai": "4.2.0",
     "codelyzer": "5.2.2",
