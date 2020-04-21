@@ -4,18 +4,12 @@
   "id_str": "994291303260176384",
   "full_text": "Want to learn about all the fancy new things announced at @Google #io18? Come to our next meetup to find out.\n\nhttps://t.co/QzH4CGqpGL",
   "truncated": false,
-  "display_text_range": [
-    0,
-    134
-  ],
+  "display_text_range": [0, 134],
   "entities": {
     "hashtags": [
       {
         "text": "io18",
-        "indices": [
-          66,
-          71
-        ]
+        "indices": [66, 71]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Google",
         "id": 20536157,
         "id_str": "20536157",
-        "indices": [
-          58,
-          65
-        ]
+        "indices": [58, 65]
       }
     ],
     "urls": [
@@ -36,10 +27,7 @@
         "url": "https://t.co/QzH4CGqpGL",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/248749497/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          111,
-          134
-        ]
+        "indices": [111, 134]
       }
     ]
   },
@@ -64,10 +52,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

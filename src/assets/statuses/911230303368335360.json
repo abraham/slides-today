@@ -4,25 +4,16 @@
   "id_str": "911230303368335360",
   "full_text": "Now @pblatteier and @abraham are rocking the stage with their #WebComponent talk at @connect_js #ConnectTech",
   "truncated": false,
-  "display_text_range": [
-    0,
-    108
-  ],
+  "display_text_range": [0, 108],
   "entities": {
     "hashtags": [
       {
         "text": "WebComponent",
-        "indices": [
-          62,
-          75
-        ]
+        "indices": [62, 75]
       },
       {
         "text": "ConnectTech",
-        "indices": [
-          96,
-          108
-        ]
+        "indices": [96, 108]
       }
     ],
     "symbols": [],
@@ -32,30 +23,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          4,
-          15
-        ]
+        "indices": [4, 15]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          20,
-          28
-        ]
+        "indices": [20, 28]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          84,
-          95
-        ]
+        "indices": [84, 95]
       }
     ],
     "urls": []
@@ -81,10 +63,7 @@
             "url": "https://t.co/XJH18lqTY2",
             "expanded_url": "http://webmus.es",
             "display_url": "webmus.es",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -94,10 +73,7 @@
             "url": "https://t.co/lRExsYVHpy",
             "expanded_url": "https://github.com/LunarLogic/starability",
             "display_url": "github.com/LunarLogic/sta…",
-            "indices": [
-              111,
-              134
-            ]
+            "indices": [111, 134]
           }
         ]
       }

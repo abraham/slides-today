@@ -4,18 +4,12 @@
   "id_str": "1132298457904025600",
   "full_text": "Getting ready for the @FlutterDev #flutterStudyJam at @bendyworks https://t.co/sDdvqAevQ2",
   "truncated": false,
-  "display_text_range": [
-    0,
-    65
-  ],
+  "display_text_range": [0, 65],
   "entities": {
     "hashtags": [
       {
         "text": "flutterStudyJam",
-        "indices": [
-          34,
-          50
-        ]
+        "indices": [34, 50]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          22,
-          33
-        ]
+        "indices": [22, 33]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          54,
-          65
-        ]
+        "indices": [54, 65]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 1132298447888031700,
         "id_str": "1132298447888031744",
-        "indices": [
-          66,
-          89
-        ],
+        "indices": [66, 89],
         "media_url": "http://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
         "url": "https://t.co/sDdvqAevQ2",
@@ -86,10 +71,7 @@
       {
         "id": 1132298447888031700,
         "id_str": "1132298447888031744",
-        "indices": [
-          66,
-          89
-        ],
+        "indices": [66, 89],
         "media_url": "http://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D7a7cG4XoAApn1x.jpg",
         "url": "https://t.co/sDdvqAevQ2",
@@ -142,10 +124,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

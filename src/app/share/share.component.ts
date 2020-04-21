@@ -1,4 +1,10 @@
-import { AfterContentInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
+import {
+  AfterContentInit,
+  Component,
+  ElementRef,
+  Input,
+  ViewChild,
+} from '@angular/core';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
 import { SocialServices } from '../models/service';
@@ -26,7 +32,7 @@ declare global {
 })
 export class ShareComponent implements AfterContentInit {
   constructor(private themeService: ThemeService) {
-    this.themeService.inverted$.subscribe(theme => this.theme = theme);
+    this.themeService.inverted$.subscribe(theme => (this.theme = theme));
   }
 
   private menu!: MDCMenu;
@@ -40,8 +46,12 @@ export class ShareComponent implements AfterContentInit {
   facebookUrl = '';
 
   private services: { [key: string]: () => string } = {
-    [SocialServices.facebook]: () => `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
-    [SocialServices.twitter]: () => `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
+    [SocialServices.facebook]: () => {
+      return `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`;
+    },
+    [SocialServices.twitter]: () => {
+      return `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`;
+    },
   };
 
   ngAfterContentInit() {
@@ -50,8 +60,8 @@ export class ShareComponent implements AfterContentInit {
     }
 
     this.menu = new MDCMenu(this.menuEl.nativeElement);
-    setTimeout(() => this.exited = false, 1000);
-    this.menu.listen('MDCMenuSurface:closed', () => this.exited = false);
+    setTimeout(() => (this.exited = false), 1000);
+    this.menu.listen('MDCMenuSurface:closed', () => (this.exited = false));
     this.twitterUrl = this.services[SocialServices.twitter]();
     this.facebookUrl = this.services[SocialServices.facebook]();
   }
@@ -67,10 +77,11 @@ export class ShareComponent implements AfterContentInit {
   startShare(): void {
     this.exited = true;
     if (navigator.share) {
-      navigator.share(this.shareOptions)
+      navigator
+        .share(this.shareOptions)
         .then(() => console.log('Successful share'))
         .catch((error: Error) => console.log('Error sharing:', error))
-        .then(() => this.exited = false);
+        .then(() => (this.exited = false));
     } else {
       this.menu.open = true;
     }
@@ -85,7 +96,8 @@ export class ShareComponent implements AfterContentInit {
   }
 
   copy() {
-    clipboard.writeText(window.location.href)
-             .catch(() => alert('Error copying URL'));
+    clipboard
+      .writeText(window.location.href)
+      .catch(() => alert('Error copying URL'));
   }
 }

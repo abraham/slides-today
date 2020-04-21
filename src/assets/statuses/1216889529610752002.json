@@ -4,10 +4,7 @@
   "id_str": "1216889529610752002",
   "full_text": "And here they are! At our wonderful public library. 😁 https://t.co/9nhBau20xm",
   "truncated": false,
-  "display_text_range": [
-    0,
-    53
-  ],
+  "display_text_range": [0, 53],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
       {
         "id": 1216889497771806700,
         "id_str": "1216889497771806721",
-        "indices": [
-          54,
-          77
-        ],
+        "indices": [54, 77],
         "media_url": "http://pbs.twimg.com/media/EONCjQWXkAE5cHW.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EONCjQWXkAE5cHW.jpg",
         "url": "https://t.co/9nhBau20xm",
@@ -57,10 +51,7 @@
       {
         "id": 1216889497771806700,
         "id_str": "1216889497771806721",
-        "indices": [
-          54,
-          77
-        ],
+        "indices": [54, 77],
         "media_url": "http://pbs.twimg.com/media/EONCjQWXkAE5cHW.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EONCjQWXkAE5cHW.jpg",
         "url": "https://t.co/9nhBau20xm",
@@ -161,22 +152,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -89.38769305588421,
-            43.07383906911841
-          ],
-          [
-            -89.38769305588421,
-            43.07383906911841
-          ],
-          [
-            -89.38769305588421,
-            43.07383906911841
-          ],
-          [
-            -89.38769305588421,
-            43.07383906911841
-          ]
+          [-89.38769305588421, 43.07383906911841],
+          [-89.38769305588421, 43.07383906911841],
+          [-89.38769305588421, 43.07383906911841],
+          [-89.38769305588421, 43.07383906911841]
         ]
       ]
     },

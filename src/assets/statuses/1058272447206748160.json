@@ -4,25 +4,16 @@
   "id_str": "1058272447206748160",
   "full_text": "I’m so happy to attend the session of my #pwa soulmates @pblatteier @abraham expaining internals of #serviceworker at @mobileeraconf! https://t.co/raNfsj1CFG",
   "truncated": false,
-  "display_text_range": [
-    0,
-    133
-  ],
+  "display_text_range": [0, 133],
   "entities": {
     "hashtags": [
       {
         "text": "pwa",
-        "indices": [
-          41,
-          45
-        ]
+        "indices": [41, 45]
       },
       {
         "text": "serviceworker",
-        "indices": [
-          100,
-          114
-        ]
+        "indices": [100, 114]
       }
     ],
     "symbols": [],
@@ -32,30 +23,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          56,
-          67
-        ]
+        "indices": [56, 67]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          68,
-          76
-        ]
+        "indices": [68, 76]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          118,
-          132
-        ]
+        "indices": [118, 132]
       }
     ],
     "urls": [],
@@ -63,10 +45,7 @@
       {
         "id": 1058272431406608400,
         "id_str": "1058272431406608384",
-        "indices": [
-          134,
-          157
-        ],
+        "indices": [134, 157],
         "media_url": "http://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
         "url": "https://t.co/raNfsj1CFG",
@@ -103,10 +82,7 @@
       {
         "id": 1058272431406608400,
         "id_str": "1058272431406608384",
-        "indices": [
-          134,
-          157
-        ],
+        "indices": [134, 157],
         "media_url": "http://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq-9K12UcAAyxWc.jpg",
         "url": "https://t.co/raNfsj1CFG",

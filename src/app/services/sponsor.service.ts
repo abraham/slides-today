@@ -10,8 +10,9 @@ import sponsorData from '../sponsors.data.json';
 export class SponsorService {
   select(ids: string[]): Observable<Sponsor[]> {
     return of(sponsorData).pipe(
-      map((sponsors: Sponsor[]) => sponsors.filter(sponsor => ids.includes(sponsor.id)))
+      map((sponsors: Sponsor[]) =>
+        sponsors.filter(sponsor => ids.includes(sponsor.id)),
+      ),
     );
   }
-
 }

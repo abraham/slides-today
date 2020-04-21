@@ -5,17 +5,8 @@ import { CardComponent } from '../card/card.component';
 import { RippleDirective } from '../ripple.directive';
 
 @NgModule({
-  declarations: [
-    CardComponent,
-    RippleDirective,
-  ],
-  exports: [
-    CardComponent,
-    RippleDirective,
-  ],
-  imports: [
-    CommonModule,
-    RouterModule.forChild([]),
-  ],
+  declarations: [CardComponent, RippleDirective],
+  exports: [CardComponent, RippleDirective],
+  imports: [CommonModule, RouterModule.forChild([])],
 })
-export class CardModule { }
+export class CardModule {}

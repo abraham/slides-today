@@ -4,10 +4,7 @@
   "id_str": "1256246901189607425",
   "full_text": "You could say that I'm...AMPed for the next @gdgmadison event! https://t.co/3Obm8g3WBA",
   "truncated": false,
-  "display_text_range": [
-    0,
-    62
-  ],
+  "display_text_range": [0, 62],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "GDG Madison",
         "id": 60940193,
         "id_str": "60940193",
-        "indices": [
-          44,
-          55
-        ]
+        "indices": [44, 55]
       }
     ],
     "urls": [
@@ -28,10 +22,7 @@
         "url": "https://t.co/3Obm8g3WBA",
         "expanded_url": "https://twitter.com/gdgmadison/status/1253760498300063747",
         "display_url": "twitter.com/gdgmadison/sta…",
-        "indices": [
-          63,
-          86
-        ]
+        "indices": [63, 86]
       }
     ]
   },
@@ -56,10 +47,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -69,10 +57,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }
@@ -130,10 +115,7 @@
     "id_str": "1253760498300063747",
     "full_text": "Online @AMPhtml Study Jam Saturday, May 16\n\nhttps://t.co/rjulGpyfAf https://t.co/fMons2seEj",
     "truncated": false,
-    "display_text_range": [
-      0,
-      67
-    ],
+    "display_text_range": [0, 67],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -143,10 +125,7 @@
           "name": "AMP Project",
           "id": 3450662892,
           "id_str": "3450662892",
-          "indices": [
-            7,
-            15
-          ]
+          "indices": [7, 15]
         }
       ],
       "urls": [
@@ -154,20 +133,14 @@
           "url": "https://t.co/rjulGpyfAf",
           "expanded_url": "https://www.meetup.com/gdgmadison/events/270177165/",
           "display_url": "meetup.com/gdgmadison/eve…",
-          "indices": [
-            44,
-            67
-          ]
+          "indices": [44, 67]
         }
       ],
       "media": [
         {
           "id": 1253760340300570600,
           "id_str": "1253760340300570626",
-          "indices": [
-            68,
-            91
-          ],
+          "indices": [68, 91],
           "media_url": "http://pbs.twimg.com/media/EWZAYwUWoAI3HWM.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EWZAYwUWoAI3HWM.jpg",
           "url": "https://t.co/fMons2seEj",
@@ -204,10 +177,7 @@
         {
           "id": 1253760340300570600,
           "id_str": "1253760340300570626",
-          "indices": [
-            68,
-            91
-          ],
+          "indices": [68, 91],
           "media_url": "http://pbs.twimg.com/media/EWZAYwUWoAI3HWM.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EWZAYwUWoAI3HWM.jpg",
           "url": "https://t.co/fMons2seEj",
@@ -260,10 +230,7 @@
               "url": "https://t.co/jmpo3XZoV1",
               "expanded_url": "https://gdgmadison.com",
               "display_url": "gdgmadison.com",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },

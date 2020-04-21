@@ -8,25 +8,24 @@ self.addEventListener('install', () => {
   self.skipWaiting();
 });
 
-
-self.addEventListener('activate', (event) => {
+self.addEventListener('activate', event => {
   // Optional: Get a list of all the current open windows/tabs under
   // our service worker's control, and force them to reload.
   // This can "unbreak" any open windows/tabs as soon as the new
   // service worker activates, rather than users having to manually reload.
-  self.clients.matchAll({type: 'window'}).then(windowClients => {
+  self.clients.matchAll({ type: 'window' }).then(windowClients => {
     windowClients.forEach(windowClient => {
       windowClient.navigate(windowClient.url);
     });
   });
 
   event.waitUntil(
-    caches.keys().then(function(cacheNames) {
+    caches.keys().then(function (cacheNames) {
       return Promise.all(
-        cacheNames.map(function(cacheName) {
+        cacheNames.map(function (cacheName) {
           return caches.delete(cacheName);
-        })
+        }),
       );
-    })
+    }),
   );
 });

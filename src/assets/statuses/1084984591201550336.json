@@ -4,10 +4,7 @@
   "id_str": "1084984591201550336",
   "full_text": "Learning about RxJS from @abraham at @MadJavaScript. https://t.co/iZow8HfDHl",
   "truncated": false,
-  "display_text_range": [
-    0,
-    52
-  ],
+  "display_text_range": [0, 52],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          25,
-          33
-        ]
+        "indices": [25, 33]
       },
       {
         "screen_name": "MadJavaScript",
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          37,
-          51
-        ]
+        "indices": [37, 51]
       }
     ],
     "urls": [],
@@ -38,10 +29,7 @@
       {
         "id": 1084984578316685300,
         "id_str": "1084984578316685312",
-        "indices": [
-          53,
-          76
-        ],
+        "indices": [53, 76],
         "media_url": "http://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
         "url": "https://t.co/iZow8HfDHl",
@@ -78,10 +66,7 @@
       {
         "id": 1084984578316685300,
         "id_str": "1084984578316685312",
-        "indices": [
-          53,
-          76
-        ],
+        "indices": [53, 76],
         "media_url": "http://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dw6jublX0AAGnDo.jpg",
         "url": "https://t.co/iZow8HfDHl",
@@ -169,17 +154,11 @@
   },
   "geo": {
     "type": "Point",
-    "coordinates": [
-      43.073644,
-      -89.3872852
-    ]
+    "coordinates": [43.073644, -89.3872852]
   },
   "coordinates": {
     "type": "Point",
-    "coordinates": [
-      -89.3872852,
-      43.073644
-    ]
+    "coordinates": [-89.3872852, 43.073644]
   },
   "place": {
     "id": "07d9cd8314c80003",
@@ -194,22 +173,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -89.38429049712803,
-            43.072554200101024
-          ],
-          [
-            -89.38429049712803,
-            43.072554200101024
-          ],
-          [
-            -89.38429049712803,
-            43.072554200101024
-          ],
-          [
-            -89.38429049712803,
-            43.072554200101024
-          ]
+          [-89.38429049712803, 43.072554200101024],
+          [-89.38429049712803, 43.072554200101024],
+          [-89.38429049712803, 43.072554200101024],
+          [-89.38429049712803, 43.072554200101024]
         ]
       ]
     },

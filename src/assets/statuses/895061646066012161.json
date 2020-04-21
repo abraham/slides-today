@@ -4,10 +4,7 @@
   "id_str": "895061646066012161",
   "full_text": "Welcome to @abraham and @pblatteier from @bendyworks talking about Web Components. https://t.co/a8jcFqCW9d",
   "truncated": false,
-  "display_text_range": [
-    0,
-    82
-  ],
+  "display_text_range": [0, 82],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          11,
-          19
-        ]
+        "indices": [11, 19]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          24,
-          35
-        ]
+        "indices": [24, 35]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          41,
-          52
-        ]
+        "indices": [41, 52]
       }
     ],
     "urls": [],
@@ -48,10 +36,7 @@
       {
         "id": 895061497570746400,
         "id_str": "895061497570746368",
-        "indices": [
-          83,
-          106
-        ],
+        "indices": [83, 106],
         "media_url": "http://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
         "url": "https://t.co/a8jcFqCW9d",
@@ -88,10 +73,7 @@
       {
         "id": 895061497570746400,
         "id_str": "895061497570746368",
-        "indices": [
-          83,
-          106
-        ],
+        "indices": [83, 106],
         "media_url": "http://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DGvlsJbVYAAtz9Q.jpg",
         "url": "https://t.co/a8jcFqCW9d",

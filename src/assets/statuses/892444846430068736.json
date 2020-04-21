@@ -4,18 +4,12 @@
   "id_str": "892444846430068736",
   "full_text": "Excited to talk about @Web_Components with  @bendyworks @abraham at #kcdc2017!",
   "truncated": false,
-  "display_text_range": [
-    0,
-    78
-  ],
+  "display_text_range": [0, 78],
   "entities": {
     "hashtags": [
       {
         "text": "kcdc2017",
-        "indices": [
-          68,
-          77
-        ]
+        "indices": [68, 77]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Web Components",
         "id": 2477133162,
         "id_str": "2477133162",
-        "indices": [
-          22,
-          37
-        ]
+        "indices": [22, 37]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          44,
-          55
-        ]
+        "indices": [44, 55]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          56,
-          64
-        ]
+        "indices": [56, 64]
       }
     ],
     "urls": []

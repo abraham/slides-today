@@ -2,8 +2,10 @@ import * as firebase from 'firebase-admin';
 import serviceAccount from '../.firebase-adminsdk.json';
 
 firebase.initializeApp({
-  credential: firebase.credential.cert(serviceAccount as firebase.ServiceAccount),
-  databaseURL: 'https://slides-today.firebaseio.com'
+  credential: firebase.credential.cert(
+    serviceAccount as firebase.ServiceAccount,
+  ),
+  databaseURL: 'https://slides-today.firebaseio.com',
 });
 
 const store = firebase.firestore();

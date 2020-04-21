@@ -4,10 +4,7 @@
   "id_str": "894571533674446849",
   "full_text": "Reminder, tomorrow evening @Rasmussen we're going to be learning about Web Components with @abraham and @pblatteier! See y'all there!",
   "truncated": false,
-  "display_text_range": [
-    0,
-    133
-  ],
+  "display_text_range": [0, 133],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Rasmussen College",
         "id": 6672142,
         "id_str": "6672142",
-        "indices": [
-          27,
-          37
-        ]
+        "indices": [27, 37]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          91,
-          99
-        ]
+        "indices": [91, 99]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          104,
-          115
-        ]
+        "indices": [104, 115]
       }
     ],
     "urls": []

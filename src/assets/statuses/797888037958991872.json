@@ -4,18 +4,12 @@
   "id_str": "797888037958991872",
   "full_text": "At #DevFest16 in Silicon Valley @abraham &amp; @pblatteier talks about web components. Standing room only (or sit on tables). https://t.co/C7cmtd34Ej",
   "truncated": false,
-  "display_text_range": [
-    0,
-    125
-  ],
+  "display_text_range": [0, 125],
   "entities": {
     "hashtags": [
       {
         "text": "DevFest16",
-        "indices": [
-          3,
-          13
-        ]
+        "indices": [3, 13]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          32,
-          40
-        ]
+        "indices": [32, 40]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          47,
-          58
-        ]
+        "indices": [47, 58]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 797888022301638700,
         "id_str": "797888022301638656",
-        "indices": [
-          126,
-          149
-        ],
+        "indices": [126, 149],
         "media_url": "http://pbs.twimg.com/media/CxKq7cvUAAA-chJ.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CxKq7cvUAAA-chJ.jpg",
         "url": "https://t.co/C7cmtd34Ej",
@@ -86,10 +71,7 @@
       {
         "id": 797888022301638700,
         "id_str": "797888022301638656",
-        "indices": [
-          126,
-          149
-        ],
+        "indices": [126, 149],
         "media_url": "http://pbs.twimg.com/media/CxKq7cvUAAA-chJ.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CxKq7cvUAAA-chJ.jpg",
         "url": "https://t.co/C7cmtd34Ej",
@@ -189,22 +171,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -122.117916,
-            37.3567709
-          ],
-          [
-            -122.044969,
-            37.3567709
-          ],
-          [
-            -122.044969,
-            37.436935
-          ],
-          [
-            -122.117916,
-            37.436935
-          ]
+          [-122.117916, 37.3567709],
+          [-122.044969, 37.3567709],
+          [-122.044969, 37.436935],
+          [-122.117916, 37.436935]
         ]
       ]
     },

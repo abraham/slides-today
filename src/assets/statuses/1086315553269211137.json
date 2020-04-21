@@ -4,74 +4,44 @@
   "id_str": "1086315553269211137",
   "full_text": "Learn @Flutterio with @pblatteier and @abraham at their full-day https://t.co/JpA0ULp5YY workshop! Early bird tickets are only $175 and workshops are only $100!  https://t.co/38ATNwcryz #refactr #diversity #inclusion #tech #atlanta #conference #flutterio #mobile #sdk https://t.co/bj5OyXTNle",
   "truncated": false,
-  "display_text_range": [
-    0,
-    267
-  ],
+  "display_text_range": [0, 267],
   "entities": {
     "hashtags": [
       {
         "text": "refactr",
-        "indices": [
-          186,
-          194
-        ]
+        "indices": [186, 194]
       },
       {
         "text": "diversity",
-        "indices": [
-          195,
-          205
-        ]
+        "indices": [195, 205]
       },
       {
         "text": "inclusion",
-        "indices": [
-          206,
-          216
-        ]
+        "indices": [206, 216]
       },
       {
         "text": "tech",
-        "indices": [
-          217,
-          222
-        ]
+        "indices": [217, 222]
       },
       {
         "text": "atlanta",
-        "indices": [
-          223,
-          231
-        ]
+        "indices": [223, 231]
       },
       {
         "text": "conference",
-        "indices": [
-          232,
-          243
-        ]
+        "indices": [232, 243]
       },
       {
         "text": "flutterio",
-        "indices": [
-          244,
-          254
-        ]
+        "indices": [244, 254]
       },
       {
         "text": "mobile",
-        "indices": [
-          255,
-          262
-        ]
+        "indices": [255, 262]
       },
       {
         "text": "sdk",
-        "indices": [
-          263,
-          267
-        ]
+        "indices": [263, 267]
       }
     ],
     "symbols": [],
@@ -81,30 +51,21 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          6,
-          16
-        ]
+        "indices": [6, 16]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          22,
-          33
-        ]
+        "indices": [22, 33]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          38,
-          46
-        ]
+        "indices": [38, 46]
       }
     ],
     "urls": [
@@ -112,29 +73,20 @@
         "url": "https://t.co/JpA0ULp5YY",
         "expanded_url": "http://REFACTR.TECH",
         "display_url": "REFACTR.TECH",
-        "indices": [
-          65,
-          88
-        ]
+        "indices": [65, 88]
       },
       {
         "url": "https://t.co/38ATNwcryz",
         "expanded_url": "http://buff.ly/2QZ7bHM",
         "display_url": "buff.ly/2QZ7bHM",
-        "indices": [
-          162,
-          185
-        ]
+        "indices": [162, 185]
       }
     ],
     "media": [
       {
         "id": 1086315551570518000,
         "id_str": "1086315551570518016",
-        "indices": [
-          268,
-          291
-        ],
+        "indices": [268, 291],
         "media_url": "http://pbs.twimg.com/media/DxNePRVX4AAZKes.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxNePRVX4AAZKes.jpg",
         "url": "https://t.co/bj5OyXTNle",
@@ -171,10 +123,7 @@
       {
         "id": 1086315551570518000,
         "id_str": "1086315551570518016",
-        "indices": [
-          268,
-          291
-        ],
+        "indices": [268, 291],
         "media_url": "http://pbs.twimg.com/media/DxNePRVX4AAZKes.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxNePRVX4AAZKes.jpg",
         "url": "https://t.co/bj5OyXTNle",
@@ -227,10 +176,7 @@
             "url": "https://t.co/ANpTbKvHNu",
             "expanded_url": "http://refactr.tech",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

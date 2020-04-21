@@ -4,18 +4,12 @@
   "id_str": "896143571203440642",
   "full_text": "Writing talks with @abraham can get violent. @kc_dc @connect_js @midwest_js @oneforallevents @mobileeraconf #ConferenceLife https://t.co/f7NPEobdUT",
   "truncated": false,
-  "display_text_range": [
-    0,
-    123
-  ],
+  "display_text_range": [0, 123],
   "entities": {
     "hashtags": [
       {
         "text": "ConferenceLife",
-        "indices": [
-          108,
-          123
-        ]
+        "indices": [108, 123]
       }
     ],
     "symbols": [],
@@ -25,60 +19,42 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          19,
-          27
-        ]
+        "indices": [19, 27]
       },
       {
         "screen_name": "kc_dc",
         "name": "Kansas City Dev Con",
         "id": 87091420,
         "id_str": "87091420",
-        "indices": [
-          45,
-          51
-        ]
+        "indices": [45, 51]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          52,
-          63
-        ]
+        "indices": [52, 63]
       },
       {
         "screen_name": "midwest_js",
         "name": "Midwest JS",
         "id": 2196056617,
         "id_str": "2196056617",
-        "indices": [
-          64,
-          75
-        ]
+        "indices": [64, 75]
       },
       {
         "screen_name": "oneforallevents",
         "name": "One for All Events",
         "id": 725722782810656800,
         "id_str": "725722782810656768",
-        "indices": [
-          76,
-          92
-        ]
+        "indices": [76, 92]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          93,
-          107
-        ]
+        "indices": [93, 107]
       }
     ],
     "urls": [],
@@ -86,10 +62,7 @@
       {
         "id": 896142993656225800,
         "id_str": "896142993656225792",
-        "indices": [
-          124,
-          147
-        ],
+        "indices": [124, 147],
         "media_url": "http://pbs.twimg.com/media/DG-9TgTVoAAen00.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DG-9TgTVoAAen00.jpg",
         "url": "https://t.co/f7NPEobdUT",
@@ -126,10 +99,7 @@
       {
         "id": 896142993656225800,
         "id_str": "896142993656225792",
-        "indices": [
-          124,
-          147
-        ],
+        "indices": [124, 147],
         "media_url": "http://pbs.twimg.com/media/DG-9TgTVoAAen00.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DG-9TgTVoAAen00.jpg",
         "url": "https://t.co/f7NPEobdUT",

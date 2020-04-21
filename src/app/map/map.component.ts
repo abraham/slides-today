@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   templateUrl: './map.component.html',
 })
 export class MapComponent implements OnInit {
-  constructor() { }
+  constructor() {}
 
   @Input() location = '';
 
@@ -41,7 +41,7 @@ export class MapComponent implements OnInit {
     'feature:road.local%7Cvisibility:off',
     'feature:transit.station%7Celement:labels.icon%7Cvisibility:off',
     'feature:water%7Celement:geometry.fill%7Ccolor:0x5ddad6',
-    'feature:water%7Celement:labels.text%7Cvisibility:off'
+    'feature:water%7Celement:labels.text%7Cvisibility:off',
   ];
 
   ngOnInit() {
@@ -54,7 +54,9 @@ export class MapComponent implements OnInit {
   }
 
   private apiParams(): string {
-    return `${this.styleParams()}&maptype=${this.maptype}&zoom=${this.zoom}&size=${this.size}&center=${this.center()}&key=${this.key}`;
+    return `${this.styleParams()}&maptype=${this.maptype}&zoom=${
+      this.zoom
+    }&size=${this.size}&center=${this.center()}&key=${this.key}`;
   }
 
   private center(): string {

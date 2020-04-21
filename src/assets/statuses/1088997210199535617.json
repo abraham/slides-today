@@ -4,18 +4,12 @@
   "id_str": "1088997210199535617",
   "full_text": "Wohoo! @abraham is launching https://t.co/bfGLujaZPN next week - a categorized #flutterio article directory, follow him for the updates! https://t.co/NnwU1zlZtK",
   "truncated": false,
-  "display_text_range": [
-    0,
-    136
-  ],
+  "display_text_range": [0, 136],
   "entities": {
     "hashtags": [
       {
         "text": "flutterio",
-        "indices": [
-          79,
-          89
-        ]
+        "indices": [79, 89]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          7,
-          15
-        ]
+        "indices": [7, 15]
       }
     ],
     "urls": [
@@ -36,20 +27,14 @@
         "url": "https://t.co/bfGLujaZPN",
         "expanded_url": "http://flutter.directory",
         "display_url": "flutter.directory",
-        "indices": [
-          29,
-          52
-        ]
+        "indices": [29, 52]
       }
     ],
     "media": [
       {
         "id": 1088997206126776300,
         "id_str": "1088997206126776320",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
         "url": "https://t.co/NnwU1zlZtK",
@@ -86,10 +71,7 @@
       {
         "id": 1088997206126776300,
         "id_str": "1088997206126776320",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzlMHCUUAAj5u4.jpg",
         "url": "https://t.co/NnwU1zlZtK",

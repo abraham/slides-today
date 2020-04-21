@@ -4,18 +4,12 @@
   "id_str": "996397019462848512",
   "full_text": "Overwhelming (in a good way) #MadJS meetup last night with @jthoms1 presenting on Redux and @abraham presenting on an onslaught of stuff presented at Google IO.",
   "truncated": false,
-  "display_text_range": [
-    0,
-    160
-  ],
+  "display_text_range": [0, 160],
   "entities": {
     "hashtags": [
       {
         "text": "MadJS",
-        "indices": [
-          29,
-          35
-        ]
+        "indices": [29, 35]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Comrade Thomas",
         "id": 15965108,
         "id_str": "15965108",
-        "indices": [
-          59,
-          67
-        ]
+        "indices": [59, 67]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          92,
-          100
-        ]
+        "indices": [92, 100]
       }
     ],
     "urls": []
@@ -64,10 +52,7 @@
             "url": "https://t.co/ApPjSZL7YO",
             "expanded_url": "https://github.com/squareleaf",
             "display_url": "github.com/squareleaf",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

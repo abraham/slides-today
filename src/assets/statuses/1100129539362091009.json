@@ -4,81 +4,48 @@
   "id_str": "1100129539362091009",
   "full_text": ".@pblatteier &amp; @abraham are coming to https://t.co/xWZTx8mWWu! 🤩  \"Get Flapping with #Flutter\" and learn to create #native apps for #iOS &amp; #Android from a single codebase in this full-day workshop. https://t.co/QCUE80QUWA #refactr #diversity #inclusion #tech #atlanta #conference https://t.co/oXLMrHKBqt",
   "truncated": false,
-  "display_text_range": [
-    0,
-    287
-  ],
+  "display_text_range": [0, 287],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          89,
-          97
-        ]
+        "indices": [89, 97]
       },
       {
         "text": "native",
-        "indices": [
-          119,
-          126
-        ]
+        "indices": [119, 126]
       },
       {
         "text": "iOS",
-        "indices": [
-          136,
-          140
-        ]
+        "indices": [136, 140]
       },
       {
         "text": "Android",
-        "indices": [
-          147,
-          155
-        ]
+        "indices": [147, 155]
       },
       {
         "text": "refactr",
-        "indices": [
-          230,
-          238
-        ]
+        "indices": [230, 238]
       },
       {
         "text": "diversity",
-        "indices": [
-          239,
-          249
-        ]
+        "indices": [239, 249]
       },
       {
         "text": "inclusion",
-        "indices": [
-          250,
-          260
-        ]
+        "indices": [250, 260]
       },
       {
         "text": "tech",
-        "indices": [
-          261,
-          266
-        ]
+        "indices": [261, 266]
       },
       {
         "text": "atlanta",
-        "indices": [
-          267,
-          275
-        ]
+        "indices": [267, 275]
       },
       {
         "text": "conference",
-        "indices": [
-          276,
-          287
-        ]
+        "indices": [276, 287]
       }
     ],
     "symbols": [],
@@ -88,20 +55,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          1,
-          12
-        ]
+        "indices": [1, 12]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          19,
-          27
-        ]
+        "indices": [19, 27]
       }
     ],
     "urls": [
@@ -109,29 +70,20 @@
         "url": "https://t.co/xWZTx8mWWu",
         "expanded_url": "http://REFACTR.TECH",
         "display_url": "REFACTR.TECH",
-        "indices": [
-          42,
-          65
-        ]
+        "indices": [42, 65]
       },
       {
         "url": "https://t.co/QCUE80QUWA",
         "expanded_url": "https://buff.ly/2Ns2llG",
         "display_url": "buff.ly/2Ns2llG",
-        "indices": [
-          206,
-          229
-        ]
+        "indices": [206, 229]
       }
     ],
     "media": [
       {
         "id": 1100129527802593300,
         "id_str": "1100129527802593282",
-        "indices": [
-          288,
-          311
-        ],
+        "indices": [288, 311],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D0Rx-g-XgAI6E1L.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D0Rx-g-XgAI6E1L.jpg",
         "url": "https://t.co/oXLMrHKBqt",
@@ -168,10 +120,7 @@
       {
         "id": 1100129527802593300,
         "id_str": "1100129527802593282",
-        "indices": [
-          288,
-          311
-        ],
+        "indices": [288, 311],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D0Rx-g-XgAI6E1L.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D0Rx-g-XgAI6E1L.jpg",
         "url": "https://t.co/oXLMrHKBqt",
@@ -201,10 +150,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            80,
-            41
-          ],
+          "aspect_ratio": [80, 41],
           "variants": [
             {
               "bitrate": 0,
@@ -237,10 +183,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

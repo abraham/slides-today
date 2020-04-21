@@ -4,10 +4,7 @@
   "id_str": "910405673829068800",
   "full_text": ".@abraham &amp; @pblatteier will be at @mobileeraconf, will you? In the meantime check their talk from last year: https://t.co/kF24Sl4hRI",
   "truncated": false,
-  "display_text_range": [
-    0,
-    137
-  ],
+  "display_text_range": [0, 137],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          1,
-          9
-        ]
+        "indices": [1, 9]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          16,
-          27
-        ]
+        "indices": [16, 27]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          39,
-          53
-        ]
+        "indices": [39, 53]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/kF24Sl4hRI",
         "expanded_url": "https://vimeo.com/190713344",
         "display_url": "vimeo.com/190713344",
-        "indices": [
-          114,
-          137
-        ]
+        "indices": [114, 137]
       }
     ]
   },
@@ -76,10 +61,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -89,10 +71,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

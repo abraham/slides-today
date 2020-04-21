@@ -4,10 +4,7 @@
   "id_str": "899952541374365696",
   "full_text": ". @pblatteier &amp; @abraham are coming to @mobileeraconf - are you? Don't miss their talk: Get Talking with Actions on Google",
   "truncated": false,
-  "display_text_range": [
-    0,
-    126
-  ],
+  "display_text_range": [0, 126],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          2,
-          13
-        ]
+        "indices": [2, 13]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          20,
-          28
-        ]
+        "indices": [20, 28]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          43,
-          57
-        ]
+        "indices": [43, 57]
       }
     ],
     "urls": []
@@ -66,10 +54,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -79,10 +64,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

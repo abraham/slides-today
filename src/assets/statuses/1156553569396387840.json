@@ -4,18 +4,12 @@
   "id_str": "1156553569396387840",
   "full_text": "Join me at @codecinella Thursday! I'll be discussing mobile web performance with @abraham #perfmatters https://t.co/LQPYBkOcfw",
   "truncated": false,
-  "display_text_range": [
-    0,
-    102
-  ],
+  "display_text_range": [0, 102],
   "entities": {
     "hashtags": [
       {
         "text": "perfmatters",
-        "indices": [
-          90,
-          102
-        ]
+        "indices": [90, 102]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Codecinella Madison",
         "id": 784236971073777700,
         "id_str": "784236971073777664",
-        "indices": [
-          11,
-          23
-        ]
+        "indices": [11, 23]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          81,
-          89
-        ]
+        "indices": [81, 89]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/LQPYBkOcfw",
         "expanded_url": "https://twitter.com/MSNTechEvents/status/1156550851856601088",
         "display_url": "twitter.com/MSNTechEvents/…",
-        "indices": [
-          103,
-          126
-        ]
+        "indices": [103, 126]
       }
     ]
   },
@@ -125,10 +110,7 @@
     "id_str": "1156550851856601088",
     "full_text": "Coming to the Codecinella Madison meetup tomorrow? You can still join us: https://t.co/SihfPTXmIS",
     "truncated": false,
-    "display_text_range": [
-      0,
-      97
-    ],
+    "display_text_range": [0, 97],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -138,10 +120,7 @@
           "url": "https://t.co/SihfPTXmIS",
           "expanded_url": "http://j.mp/2RxHY8C",
           "display_url": "j.mp/2RxHY8C",
-          "indices": [
-            74,
-            97
-          ]
+          "indices": [74, 97]
         }
       ]
     },
@@ -166,10 +145,7 @@
               "url": "https://t.co/W1zy76vYiI",
               "expanded_url": "https://techeventsnetwork.com/cities/madison",
               "display_url": "techeventsnetwork.com/cities/madison",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },

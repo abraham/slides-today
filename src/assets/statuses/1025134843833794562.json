@@ -4,25 +4,16 @@
   "id_str": "1025134843833794562",
   "full_text": "Looking forward to #MidwestJS next week! I will be there with @bendyworks colleague @abraham presenting on @typescriptlang and #pwa’s and listening to tons of great talks. https://t.co/AiATbZo4RQ",
   "truncated": false,
-  "display_text_range": [
-    0,
-    195
-  ],
+  "display_text_range": [0, 195],
   "entities": {
     "hashtags": [
       {
         "text": "MidwestJS",
-        "indices": [
-          19,
-          29
-        ]
+        "indices": [19, 29]
       },
       {
         "text": "pwa",
-        "indices": [
-          127,
-          131
-        ]
+        "indices": [127, 131]
       }
     ],
     "symbols": [],
@@ -32,30 +23,21 @@
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          62,
-          73
-        ]
+        "indices": [62, 73]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          84,
-          92
-        ]
+        "indices": [84, 92]
       },
       {
         "screen_name": "typescriptlang",
         "name": "Dev Languages",
         "id": 1155904704028827600,
         "id_str": "1155904704028827648",
-        "indices": [
-          107,
-          122
-        ]
+        "indices": [107, 122]
       }
     ],
     "urls": [
@@ -63,10 +45,7 @@
         "url": "https://t.co/AiATbZo4RQ",
         "expanded_url": "http://midwestjs.com/#/main",
         "display_url": "midwestjs.com/#/main",
-        "indices": [
-          172,
-          195
-        ]
+        "indices": [172, 195]
       }
     ]
   },

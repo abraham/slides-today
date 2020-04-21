@@ -4,74 +4,44 @@
   "id_str": "1083774559768248320",
   "full_text": "\"Get Flapping with @Flutterio\" with @pblatteier and @abraham at https://t.co/JpA0ULp5YY! Big news coming about ticket sales soon, but you have to join our newsletter! https://t.co/tExoKFxjom #refactr #diversity #inclusion #tech #atlanta #conference #flutterio #mobile #sdk https://t.co/dZkjCBkyFF",
   "truncated": false,
-  "display_text_range": [
-    0,
-    272
-  ],
+  "display_text_range": [0, 272],
   "entities": {
     "hashtags": [
       {
         "text": "refactr",
-        "indices": [
-          191,
-          199
-        ]
+        "indices": [191, 199]
       },
       {
         "text": "diversity",
-        "indices": [
-          200,
-          210
-        ]
+        "indices": [200, 210]
       },
       {
         "text": "inclusion",
-        "indices": [
-          211,
-          221
-        ]
+        "indices": [211, 221]
       },
       {
         "text": "tech",
-        "indices": [
-          222,
-          227
-        ]
+        "indices": [222, 227]
       },
       {
         "text": "atlanta",
-        "indices": [
-          228,
-          236
-        ]
+        "indices": [228, 236]
       },
       {
         "text": "conference",
-        "indices": [
-          237,
-          248
-        ]
+        "indices": [237, 248]
       },
       {
         "text": "flutterio",
-        "indices": [
-          249,
-          259
-        ]
+        "indices": [249, 259]
       },
       {
         "text": "mobile",
-        "indices": [
-          260,
-          267
-        ]
+        "indices": [260, 267]
       },
       {
         "text": "sdk",
-        "indices": [
-          268,
-          272
-        ]
+        "indices": [268, 272]
       }
     ],
     "symbols": [],
@@ -81,30 +51,21 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          19,
-          29
-        ]
+        "indices": [19, 29]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          36,
-          47
-        ]
+        "indices": [36, 47]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          52,
-          60
-        ]
+        "indices": [52, 60]
       }
     ],
     "urls": [
@@ -112,29 +73,20 @@
         "url": "https://t.co/JpA0ULp5YY",
         "expanded_url": "http://REFACTR.TECH",
         "display_url": "REFACTR.TECH",
-        "indices": [
-          64,
-          87
-        ]
+        "indices": [64, 87]
       },
       {
         "url": "https://t.co/tExoKFxjom",
         "expanded_url": "https://buff.ly/2SAkBva",
         "display_url": "buff.ly/2SAkBva",
-        "indices": [
-          167,
-          190
-        ]
+        "indices": [167, 190]
       }
     ],
     "media": [
       {
         "id": 1083774555867484200,
         "id_str": "1083774555867484160",
-        "indices": [
-          273,
-          296
-        ],
+        "indices": [273, 296],
         "media_url": "http://pbs.twimg.com/media/DwpXN2sWkAAg3-M.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DwpXN2sWkAAg3-M.jpg",
         "url": "https://t.co/dZkjCBkyFF",
@@ -171,10 +123,7 @@
       {
         "id": 1083774555867484200,
         "id_str": "1083774555867484160",
-        "indices": [
-          273,
-          296
-        ],
+        "indices": [273, 296],
         "media_url": "http://pbs.twimg.com/media/DwpXN2sWkAAg3-M.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DwpXN2sWkAAg3-M.jpg",
         "url": "https://t.co/dZkjCBkyFF",
@@ -227,10 +176,7 @@
             "url": "https://t.co/ANpTbKvHNu",
             "expanded_url": "http://refactr.tech",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -4,18 +4,12 @@
   "id_str": "956172293834788864",
   "full_text": "😃 Very excited to be speaking at #DevfestMN w @pblatteier @abraham  @devfestmn @SRobTweets @CeruleanOtter &amp; many more awesome speakers😍! If you find yourself in Minnesota 2/10 come join us! Here's 20% off 😘 https://t.co/DVtMHKQVcN https://t.co/C9zOFxo4c8",
   "truncated": false,
-  "display_text_range": [
-    0,
-    234
-  ],
+  "display_text_range": [0, 234],
   "entities": {
     "hashtags": [
       {
         "text": "DevfestMN",
-        "indices": [
-          33,
-          43
-        ]
+        "indices": [33, 43]
       }
     ],
     "symbols": [],
@@ -25,50 +19,35 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          46,
-          57
-        ]
+        "indices": [46, 57]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          58,
-          66
-        ]
+        "indices": [58, 66]
       },
       {
         "screen_name": "devfestmn",
         "name": "DevFestMN",
         "id": 2290467152,
         "id_str": "2290467152",
-        "indices": [
-          68,
-          78
-        ]
+        "indices": [68, 78]
       },
       {
         "screen_name": "SRobTweets",
         "name": "Sara Robinson",
         "id": 332018940,
         "id_str": "332018940",
-        "indices": [
-          79,
-          90
-        ]
+        "indices": [79, 90]
       },
       {
         "screen_name": "CeruleanOtter",
         "name": "Lyla Fujiwara",
         "id": 263277632,
         "id_str": "263277632",
-        "indices": [
-          91,
-          105
-        ]
+        "indices": [91, 105]
       }
     ],
     "urls": [
@@ -76,20 +55,14 @@
         "url": "https://t.co/DVtMHKQVcN",
         "expanded_url": "https://devfestmn.eventbrite.com/?discount=FriendOfTaraZ.Manicsic",
         "display_url": "devfestmn.eventbrite.com/?discount=Frie…",
-        "indices": [
-          211,
-          234
-        ]
+        "indices": [211, 234]
       }
     ],
     "media": [
       {
         "id": 956172279779442700,
         "id_str": "956172279779442688",
-        "indices": [
-          235,
-          258
-        ],
+        "indices": [235, 258],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
         "url": "https://t.co/C9zOFxo4c8",
@@ -126,10 +99,7 @@
       {
         "id": 956172279779442700,
         "id_str": "956172279779442688",
-        "indices": [
-          235,
-          258
-        ],
+        "indices": [235, 258],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DUUBn1hUQAAIa0i.jpg",
         "url": "https://t.co/C9zOFxo4c8",
@@ -159,10 +129,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            65,
-            43
-          ],
+          "aspect_ratio": [65, 43],
           "variants": [
             {
               "bitrate": 0,
@@ -195,10 +162,7 @@
             "url": "https://t.co/ejwv1LyV9l",
             "expanded_url": "http://tzmanics.com",
             "display_url": "tzmanics.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -256,22 +220,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -84.710722,
-            39.052962
-          ],
-          [
-            -84.3689026,
-            39.052962
-          ],
-          [
-            -84.3689026,
-            39.2211137
-          ],
-          [
-            -84.710722,
-            39.2211137
-          ]
+          [-84.710722, 39.052962],
+          [-84.3689026, 39.052962],
+          [-84.3689026, 39.2211137],
+          [-84.710722, 39.2211137]
         ]
       ]
     },

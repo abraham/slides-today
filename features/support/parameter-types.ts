@@ -1,6 +1,8 @@
 import puppeteer from 'puppeteer';
 import { origin } from './environment';
 
+const deviceList = puppeteer.devices.map(device => device.name).join('|');
+
 export const parameterTypes = [
   {
     name: 'networkStatus',
@@ -14,7 +16,7 @@ export const parameterTypes = [
   },
   {
     name: 'device',
-    regexp: new RegExp(`"(${puppeteer.devices.map(device => device.name).join('|')})"`),
+    regexp: new RegExp(`"(${deviceList})"`),
     transformer: (name: string) => puppeteer.devices[name],
   },
   {

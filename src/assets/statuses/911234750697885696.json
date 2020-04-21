@@ -4,25 +4,16 @@
   "id_str": "911234750697885696",
   "full_text": "Love it! @pblatteier and @abraham speaking at #connectjs about #webcomponents. Go team! https://t.co/pfN4j86fg9",
   "truncated": false,
-  "display_text_range": [
-    0,
-    87
-  ],
+  "display_text_range": [0, 87],
   "entities": {
     "hashtags": [
       {
         "text": "connectjs",
-        "indices": [
-          46,
-          56
-        ]
+        "indices": [46, 56]
       },
       {
         "text": "webcomponents",
-        "indices": [
-          63,
-          77
-        ]
+        "indices": [63, 77]
       }
     ],
     "symbols": [],
@@ -32,20 +23,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          9,
-          20
-        ]
+        "indices": [9, 20]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          25,
-          33
-        ]
+        "indices": [25, 33]
       }
     ],
     "urls": [],
@@ -53,10 +38,7 @@
       {
         "id": 911234743064256500,
         "id_str": "911234743064256512",
-        "indices": [
-          88,
-          111
-        ],
+        "indices": [88, 111],
         "media_url": "http://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
         "url": "https://t.co/pfN4j86fg9",
@@ -93,10 +75,7 @@
       {
         "id": 911234743064256500,
         "id_str": "911234743064256512",
-        "indices": [
-          88,
-          111
-        ],
+        "indices": [88, 111],
         "media_url": "http://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKVbK79W4AABl9E.jpg",
         "url": "https://t.co/pfN4j86fg9",
@@ -149,10 +128,7 @@
             "url": "https://t.co/UVYEjTBNS8",
             "expanded_url": "http://thisdot.co/labs",
             "display_url": "thisdot.co/labs",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

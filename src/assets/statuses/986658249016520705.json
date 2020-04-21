@@ -4,74 +4,44 @@
   "id_str": "986658249016520705",
   "full_text": ".@pblatteier is going to explain how web components are the lego bricks of the web. 💻 Get your ticket! https://t.co/FFzBIsJXX3 #werisetech #atlanta #tech #conference #webcomponents #frameworks #ui #widgets #javascript https://t.co/eIcE45uMDy",
   "truncated": false,
-  "display_text_range": [
-    0,
-    217
-  ],
+  "display_text_range": [0, 217],
   "entities": {
     "hashtags": [
       {
         "text": "werisetech",
-        "indices": [
-          127,
-          138
-        ]
+        "indices": [127, 138]
       },
       {
         "text": "atlanta",
-        "indices": [
-          139,
-          147
-        ]
+        "indices": [139, 147]
       },
       {
         "text": "tech",
-        "indices": [
-          148,
-          153
-        ]
+        "indices": [148, 153]
       },
       {
         "text": "conference",
-        "indices": [
-          154,
-          165
-        ]
+        "indices": [154, 165]
       },
       {
         "text": "webcomponents",
-        "indices": [
-          166,
-          180
-        ]
+        "indices": [166, 180]
       },
       {
         "text": "frameworks",
-        "indices": [
-          181,
-          192
-        ]
+        "indices": [181, 192]
       },
       {
         "text": "ui",
-        "indices": [
-          193,
-          196
-        ]
+        "indices": [193, 196]
       },
       {
         "text": "widgets",
-        "indices": [
-          197,
-          205
-        ]
+        "indices": [197, 205]
       },
       {
         "text": "javascript",
-        "indices": [
-          206,
-          217
-        ]
+        "indices": [206, 217]
       }
     ],
     "symbols": [],
@@ -81,10 +51,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          1,
-          12
-        ]
+        "indices": [1, 12]
       }
     ],
     "urls": [
@@ -92,20 +59,14 @@
         "url": "https://t.co/FFzBIsJXX3",
         "expanded_url": "http://buff.ly/2EUWQaM",
         "display_url": "buff.ly/2EUWQaM",
-        "indices": [
-          103,
-          126
-        ]
+        "indices": [103, 126]
       }
     ],
     "media": [
       {
         "id": 986658247116578800,
         "id_str": "986658247116578816",
-        "indices": [
-          218,
-          241
-        ],
+        "indices": [218, 241],
         "media_url": "http://pbs.twimg.com/media/DbFQcr4X4AACX7n.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFQcr4X4AACX7n.jpg",
         "url": "https://t.co/eIcE45uMDy",
@@ -142,10 +103,7 @@
       {
         "id": 986658247116578800,
         "id_str": "986658247116578816",
-        "indices": [
-          218,
-          241
-        ],
+        "indices": [218, 241],
         "media_url": "http://pbs.twimg.com/media/DbFQcr4X4AACX7n.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFQcr4X4AACX7n.jpg",
         "url": "https://t.co/eIcE45uMDy",
@@ -198,10 +156,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

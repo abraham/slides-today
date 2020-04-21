@@ -4,10 +4,7 @@
   "id_str": "804389956118544385",
   "full_text": "Mobile Era 2016 - @abraham &amp; @pblatteier “Leverage the power of native with Progressive Web Apps”\nhttps://t.co/kF24SllTgi",
   "truncated": false,
-  "display_text_range": [
-    0,
-    125
-  ],
+  "display_text_range": [0, 125],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          18,
-          26
-        ]
+        "indices": [18, 26]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          33,
-          44
-        ]
+        "indices": [33, 44]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/kF24SllTgi",
         "expanded_url": "https://vimeo.com/190713344",
         "display_url": "vimeo.com/190713344",
-        "indices": [
-          102,
-          125
-        ]
+        "indices": [102, 125]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -79,10 +64,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

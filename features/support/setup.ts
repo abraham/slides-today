@@ -1,4 +1,10 @@
-import { After, Before, defineParameterType, setDefaultTimeout, setWorldConstructor } from 'cucumber';
+import {
+  After,
+  Before,
+  defineParameterType,
+  setDefaultTimeout,
+  setWorldConstructor,
+} from 'cucumber';
 import { BrowserWorld } from './browser-world';
 import { DEBUG } from './environment';
 import { parameterTypes } from './parameter-types';
@@ -17,10 +23,10 @@ parameterTypes.forEach(defineParameterType);
 
 setWorldConstructor(BrowserWorld);
 
-Before(async function(_scenario) {
+Before(async function (_scenario) {
   await this.init();
 });
 
-After(async function(_scenario) {
+After(async function (_scenario) {
   await this.cleanup();
 });

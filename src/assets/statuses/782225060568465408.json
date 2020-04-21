@@ -4,18 +4,12 @@
   "id_str": "782225060568465408",
   "full_text": "\"We want maintainable code, code that is one place, is clear and is easy to maintain.\" @pblatteier &amp; @abraham on Web Components #MadisonPHP https://t.co/hwoiCxmXLG",
   "truncated": false,
-  "display_text_range": [
-    0,
-    143
-  ],
+  "display_text_range": [0, 143],
   "entities": {
     "hashtags": [
       {
         "text": "MadisonPHP",
-        "indices": [
-          132,
-          143
-        ]
+        "indices": [132, 143]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          87,
-          98
-        ]
+        "indices": [87, 98]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          105,
-          113
-        ]
+        "indices": [105, 113]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 782224563866329100,
         "id_str": "782224563866329088",
-        "indices": [
-          144,
-          167
-        ],
+        "indices": [144, 167],
         "media_url": "http://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
         "url": "https://t.co/hwoiCxmXLG",
@@ -86,10 +71,7 @@
       {
         "id": 782224563866329100,
         "id_str": "782224563866329088",
-        "indices": [
-          144,
-          167
-        ],
+        "indices": [144, 167],
         "media_url": "http://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CtsFGK_WYAAWSgg.jpg",
         "url": "https://t.co/hwoiCxmXLG",
@@ -142,10 +124,7 @@
             "url": "https://t.co/FdIAFhNY8q",
             "expanded_url": "http://www.andrearoenning.com",
             "display_url": "andrearoenning.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

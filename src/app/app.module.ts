@@ -3,7 +3,10 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirePerformanceModule } from '@angular/fire/performance';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ServiceWorkerModule, SwRegistrationOptions } from '@angular/service-worker';
+import {
+  ServiceWorkerModule,
+  SwRegistrationOptions,
+} from '@angular/service-worker';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
@@ -20,10 +23,7 @@ const swOptions: SwRegistrationOptions = {
 
 @NgModule({
   bootstrap: [AppComponent],
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-  ],
+  declarations: [AppComponent, HeaderComponent],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirePerformanceModule,
@@ -36,4 +36,4 @@ const swOptions: SwRegistrationOptions = {
     TagModule,
   ],
 })
-export class AppModule { }
+export class AppModule {}

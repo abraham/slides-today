@@ -1,0 +1,8 @@
+package.json
+.stylelintrc.json
+angular.json
+tsconfig.json
+ngsw-config.json
+firebase.json
+dist
+.lighthouseci

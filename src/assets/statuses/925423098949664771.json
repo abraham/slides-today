@@ -4,18 +4,12 @@
   "id_str": "925423098949664771",
   "full_text": "CLIs: the best way to get started! @pblatteier &amp; @abraham #devopsdays https://t.co/XyKnbpO8d0",
   "truncated": false,
-  "display_text_range": [
-    0,
-    73
-  ],
+  "display_text_range": [0, 73],
   "entities": {
     "hashtags": [
       {
         "text": "devopsdays",
-        "indices": [
-          62,
-          73
-        ]
+        "indices": [62, 73]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          35,
-          46
-        ]
+        "indices": [35, 46]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          53,
-          61
-        ]
+        "indices": [53, 61]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 925423092171722800,
         "id_str": "925423092171722752",
-        "indices": [
-          74,
-          97
-        ],
+        "indices": [74, 97],
         "media_url": "http://pbs.twimg.com/media/DNfDZjPW0AACQZK.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DNfDZjPW0AACQZK.jpg",
         "url": "https://t.co/XyKnbpO8d0",
@@ -86,10 +71,7 @@
       {
         "id": 925423092171722800,
         "id_str": "925423092171722752",
-        "indices": [
-          74,
-          97
-        ],
+        "indices": [74, 97],
         "media_url": "http://pbs.twimg.com/media/DNfDZjPW0AACQZK.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DNfDZjPW0AACQZK.jpg",
         "url": "https://t.co/XyKnbpO8d0",
@@ -142,10 +124,7 @@
             "url": "https://t.co/8i1do8XfN0",
             "expanded_url": "https://bridgetkromhout.com",
             "display_url": "bridgetkromhout.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -203,22 +182,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -91.156894,
-            42.491921
-          ],
-          [
-            -88.776225,
-            42.491921
-          ],
-          [
-            -88.776225,
-            44.249529
-          ],
-          [
-            -91.156894,
-            44.249529
-          ]
+          [-91.156894, 42.491921],
+          [-88.776225, 42.491921],
+          [-88.776225, 44.249529],
+          [-91.156894, 44.249529]
         ]
       ]
     },

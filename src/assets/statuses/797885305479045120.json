@@ -4,10 +4,7 @@
   "id_str": "797885305479045120",
   "full_text": "@polymer @gdgsv - as easy as using Lego :) what's not to like? https://t.co/wnFs0gabUS",
   "truncated": false,
-  "display_text_range": [
-    0,
-    62
-  ],
+  "display_text_range": [0, 62],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Polymer Project",
         "id": 1425993918,
         "id_str": "1425993918",
-        "indices": [
-          0,
-          8
-        ]
+        "indices": [0, 8]
       },
       {
         "screen_name": "gdgsv",
         "name": "GDG Silicon Valley",
         "id": 17302763,
         "id_str": "17302763",
-        "indices": [
-          9,
-          15
-        ]
+        "indices": [9, 15]
       }
     ],
     "urls": [],
@@ -38,10 +29,7 @@
       {
         "id": 797885292115963900,
         "id_str": "797885292115963904",
-        "indices": [
-          63,
-          86
-        ],
+        "indices": [63, 86],
         "media_url": "http://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
         "url": "https://t.co/wnFs0gabUS",
@@ -78,10 +66,7 @@
       {
         "id": 797885292115963900,
         "id_str": "797885292115963904",
-        "indices": [
-          63,
-          86
-        ],
+        "indices": [63, 86],
         "media_url": "http://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
         "media_url_https": "https://pbs.twimg.com/media/CxKociAUsAAeDol.jpg",
         "url": "https://t.co/wnFs0gabUS",
@@ -134,10 +119,7 @@
             "url": "https://t.co/72ABuDR3Ge",
             "expanded_url": "http://blog.dothisathome.com",
             "display_url": "blog.dothisathome.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -195,22 +177,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -122.117916,
-            37.3567709
-          ],
-          [
-            -122.044969,
-            37.3567709
-          ],
-          [
-            -122.044969,
-            37.436935
-          ],
-          [
-            -122.117916,
-            37.436935
-          ]
+          [-122.117916, 37.3567709],
+          [-122.044969, 37.3567709],
+          [-122.044969, 37.436935],
+          [-122.117916, 37.436935]
         ]
       ]
     },

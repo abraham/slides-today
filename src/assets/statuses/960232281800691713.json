@@ -4,10 +4,7 @@
   "id_str": "960232281800691713",
   "full_text": "Excited to be speaking with @abraham at @MadJavaScript on 2/12. Come learn about building web components with Nutmeg!  https://t.co/6xTxXZvskt",
   "truncated": false,
-  "display_text_range": [
-    0,
-    142
-  ],
+  "display_text_range": [0, 142],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          28,
-          36
-        ]
+        "indices": [28, 36]
       },
       {
         "screen_name": "MadJavaScript",
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          40,
-          54
-        ]
+        "indices": [40, 54]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/6xTxXZvskt",
         "expanded_url": "https://www.meetup.com/MadisonJS/events/238952245/",
         "display_url": "meetup.com/MadisonJS/even…",
-        "indices": [
-          119,
-          142
-        ]
+        "indices": [119, 142]
       }
     ]
   },

@@ -4,10 +4,7 @@
   "id_str": "987397466298368000",
   "full_text": "Had a blast this year. Hope to attend with @pblatteier again! https://t.co/LnMApx3ZEh",
   "truncated": false,
-  "display_text_range": [
-    0,
-    61
-  ],
+  "display_text_range": [0, 61],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          43,
-          54
-        ]
+        "indices": [43, 54]
       }
     ],
     "urls": [
@@ -28,10 +22,7 @@
         "url": "https://t.co/LnMApx3ZEh",
         "expanded_url": "https://twitter.com/railsconf/status/987074473806516225",
         "display_url": "twitter.com/railsconf/stat…",
-        "indices": [
-          62,
-          85
-        ]
+        "indices": [62, 85]
       }
     ]
   },
@@ -56,10 +47,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -69,10 +57,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }
@@ -130,10 +115,7 @@
     "id_str": "987074473806516225",
     "full_text": "Next year’s RailsConf will be in beautiful Minneapolis, from April 30-May 2, 2019!",
     "truncated": false,
-    "display_text_range": [
-      0,
-      82
-    ],
+    "display_text_range": [0, 82],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -161,10 +143,7 @@
               "url": "https://t.co/gdFTqKd6bR",
               "expanded_url": "https://railsconf.com",
               "display_url": "railsconf.com",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },

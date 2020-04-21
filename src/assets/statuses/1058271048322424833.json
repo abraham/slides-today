@@ -4,10 +4,7 @@
   "id_str": "1058271048322424833",
   "full_text": "How do service workers even? By @pblatteier and @abraham https://t.co/eUH6m8I56F",
   "truncated": false,
-  "display_text_range": [
-    0,
-    56
-  ],
+  "display_text_range": [0, 56],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          32,
-          43
-        ]
+        "indices": [32, 43]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          48,
-          56
-        ]
+        "indices": [48, 56]
       }
     ],
     "urls": [],
@@ -38,10 +29,7 @@
       {
         "id": 1058271003367751700,
         "id_str": "1058271003367751680",
-        "indices": [
-          57,
-          80
-        ],
+        "indices": [57, 80],
         "media_url": "http://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
         "url": "https://t.co/eUH6m8I56F",
@@ -78,10 +66,7 @@
       {
         "id": 1058271003367751700,
         "id_str": "1058271003367751680",
-        "indices": [
-          57,
-          80
-        ],
+        "indices": [57, 80],
         "media_url": "http://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq-73t_UwAA4veV.jpg",
         "url": "https://t.co/eUH6m8I56F",
@@ -134,10 +119,7 @@
             "url": "https://t.co/YgoN8fPi4u",
             "expanded_url": "https://jadjoubran.io",
             "display_url": "jadjoubran.io",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -147,19 +129,13 @@
             "url": "https://t.co/ED18ZdlkZM",
             "expanded_url": "http://learnjavascript.online",
             "display_url": "learnjavascript.online",
-            "indices": [
-              90,
-              113
-            ]
+            "indices": [90, 113]
           },
           {
             "url": "https://t.co/aqgLSNOd1R",
             "expanded_url": "http://react-tutorial.app",
             "display_url": "react-tutorial.app",
-            "indices": [
-              116,
-              139
-            ]
+            "indices": [116, 139]
           }
         ]
       }
@@ -214,22 +190,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            10.4914682,
-            59.8097794
-          ],
-          [
-            10.9515836,
-            59.8097794
-          ],
-          [
-            10.9515836,
-            60.1350316
-          ],
-          [
-            10.4914682,
-            60.1350316
-          ]
+          [10.4914682, 59.8097794],
+          [10.9515836, 59.8097794],
+          [10.9515836, 60.1350316],
+          [10.4914682, 60.1350316]
         ]
       ]
     },

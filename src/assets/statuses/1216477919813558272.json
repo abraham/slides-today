@@ -4,10 +4,7 @@
   "id_str": "1216477919813558272",
   "full_text": "Come learn about this and other PWA features Monday at @MadJavaScript https://t.co/tWIdz5NbdU https://t.co/ORidhOY74X",
   "truncated": false,
-  "display_text_range": [
-    0,
-    93
-  ],
+  "display_text_range": [0, 93],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          55,
-          69
-        ]
+        "indices": [55, 69]
       }
     ],
     "urls": [
@@ -28,19 +22,13 @@
         "url": "https://t.co/tWIdz5NbdU",
         "expanded_url": "https://twitter.com/pblatteier/status/1216437264840036352",
         "display_url": "twitter.com/pblatteier/sta…",
-        "indices": [
-          70,
-          93
-        ]
+        "indices": [70, 93]
       },
       {
         "url": "https://t.co/ORidhOY74X",
         "expanded_url": "https://twitter.com/abraham/status/1216477622886117377",
         "display_url": "twitter.com/abraham/status…",
-        "indices": [
-          94,
-          117
-        ]
+        "indices": [94, 117]
       }
     ]
   },
@@ -65,10 +53,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -78,10 +63,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }
@@ -139,10 +121,7 @@
     "id_str": "1216477622886117377",
     "full_text": "Neat, the Web Share API is supported by desktop Safari.\n\nhttps://t.co/MV3lusLHA3 https://t.co/wIcpAynaDK",
     "truncated": false,
-    "display_text_range": [
-      0,
-      80
-    ],
+    "display_text_range": [0, 80],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -152,20 +131,14 @@
           "url": "https://t.co/MV3lusLHA3",
           "expanded_url": "https://web.dev/web-share/",
           "display_url": "web.dev/web-share/",
-          "indices": [
-            57,
-            80
-          ]
+          "indices": [57, 80]
         }
       ],
       "media": [
         {
           "id": 1216477601625190400,
           "id_str": "1216477601625190406",
-          "indices": [
-            81,
-            104
-          ],
+          "indices": [81, 104],
           "media_url": "http://pbs.twimg.com/media/EOHL7voWsAY1aHt.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EOHL7voWsAY1aHt.jpg",
           "url": "https://t.co/wIcpAynaDK",
@@ -202,10 +175,7 @@
         {
           "id": 1216477601625190400,
           "id_str": "1216477601625190406",
-          "indices": [
-            81,
-            104
-          ],
+          "indices": [81, 104],
           "media_url": "http://pbs.twimg.com/media/EOHL7voWsAY1aHt.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EOHL7voWsAY1aHt.jpg",
           "url": "https://t.co/wIcpAynaDK",
@@ -238,10 +208,7 @@
         {
           "id": 1216477601688146000,
           "id_str": "1216477601688145921",
-          "indices": [
-            81,
-            104
-          ],
+          "indices": [81, 104],
           "media_url": "http://pbs.twimg.com/media/EOHL7v3XUAEtAXw.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EOHL7v3XUAEtAXw.jpg",
           "url": "https://t.co/wIcpAynaDK",
@@ -274,10 +241,7 @@
         {
           "id": 1216477601629425700,
           "id_str": "1216477601629425668",
-          "indices": [
-            81,
-            104
-          ],
+          "indices": [81, 104],
           "media_url": "http://pbs.twimg.com/media/EOHL7vpXUAQUijw.jpg",
           "media_url_https": "https://pbs.twimg.com/media/EOHL7vpXUAQUijw.jpg",
           "url": "https://t.co/wIcpAynaDK",
@@ -330,10 +294,7 @@
               "url": "https://t.co/Usfq8Nm4kN",
               "expanded_url": "https://abrah.am",
               "display_url": "abrah.am",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },
@@ -343,10 +304,7 @@
               "url": "https://t.co/5SyJuBOivM",
               "expanded_url": "http://slides.today",
               "display_url": "slides.today",
-              "indices": [
-                99,
-                122
-              ]
+              "indices": [99, 122]
             }
           ]
         }

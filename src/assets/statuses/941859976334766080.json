@@ -4,10 +4,7 @@
   "id_str": "941859976334766080",
   "full_text": "New Connect.Tech17 video: \"Material Design that Delights\" by @pblatteier and @abraham of @bendyworks https://t.co/MrnvnXcZ5O @connect_js https://t.co/U3esrxaoHX",
   "truncated": false,
-  "display_text_range": [
-    0,
-    136
-  ],
+  "display_text_range": [0, 136],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,40 +14,28 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          61,
-          72
-        ]
+        "indices": [61, 72]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          77,
-          85
-        ]
+        "indices": [77, 85]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          89,
-          100
-        ]
+        "indices": [89, 100]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          125,
-          136
-        ]
+        "indices": [125, 136]
       }
     ],
     "urls": [
@@ -58,20 +43,14 @@
         "url": "https://t.co/MrnvnXcZ5O",
         "expanded_url": "https://www.recallact.com/ZZ7",
         "display_url": "recallact.com/ZZ7",
-        "indices": [
-          101,
-          124
-        ]
+        "indices": [101, 124]
       }
     ],
     "media": [
       {
         "id": 941859684163579900,
         "id_str": "941859684163579904",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DRIoZH7U8AAkmjz.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DRIoZH7U8AAkmjz.jpg",
         "url": "https://t.co/U3esrxaoHX",
@@ -108,10 +87,7 @@
       {
         "id": 941859684163579900,
         "id_str": "941859684163579904",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DRIoZH7U8AAkmjz.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DRIoZH7U8AAkmjz.jpg",
         "url": "https://t.co/U3esrxaoHX",
@@ -164,10 +140,7 @@
             "url": "http://t.co/QkVDL7UiVY",
             "expanded_url": "http://www.recallact.com",
             "display_url": "recallact.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },

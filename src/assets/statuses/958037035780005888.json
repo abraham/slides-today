@@ -4,18 +4,12 @@
   "id_str": "958037035780005888",
   "full_text": "Only two weeks left until our biggest #DevFestMN ever!  Check out these great speakers  https://t.co/OPzBbmJZY4 and start planning your schedule https://t.co/Th4bOXtVAV. https://t.co/NDRSCXQ04m",
   "truncated": false,
-  "display_text_range": [
-    0,
-    169
-  ],
+  "display_text_range": [0, 169],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestMN",
-        "indices": [
-          38,
-          48
-        ]
+        "indices": [38, 48]
       }
     ],
     "symbols": [],
@@ -25,29 +19,20 @@
         "url": "https://t.co/OPzBbmJZY4",
         "expanded_url": "https://devfest.mn/speakers",
         "display_url": "devfest.mn/speakers",
-        "indices": [
-          88,
-          111
-        ]
+        "indices": [88, 111]
       },
       {
         "url": "https://t.co/Th4bOXtVAV",
         "expanded_url": "https://devfest.mn/schedule",
         "display_url": "devfest.mn/schedule",
-        "indices": [
-          145,
-          168
-        ]
+        "indices": [145, 168]
       }
     ],
     "media": [
       {
         "id": 958019388346581000,
         "id_str": "958019388346580992",
-        "indices": [
-          170,
-          193
-        ],
+        "indices": [170, 193],
         "media_url": "http://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
         "url": "https://t.co/NDRSCXQ04m",
@@ -84,10 +69,7 @@
       {
         "id": 958019388346581000,
         "id_str": "958019388346580992",
-        "indices": [
-          170,
-          193
-        ],
+        "indices": [170, 193],
         "media_url": "http://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
         "url": "https://t.co/NDRSCXQ04m",
@@ -140,10 +122,7 @@
             "url": "https://t.co/zhxcASyKSB",
             "expanded_url": "https://www.eventbrite.com/e/devfestmn-focus-ml-ai-tickets-67015417919",
             "display_url": "eventbrite.com/e/devfestmn-fo…",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -153,10 +132,7 @@
             "url": "https://t.co/vavlapwIKe",
             "expanded_url": "https://www.gdgtc.com",
             "display_url": "gdgtc.com",
-            "indices": [
-              135,
-              158
-            ]
+            "indices": [135, 158]
           }
         ]
       }

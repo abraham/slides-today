@@ -4,10 +4,7 @@
   "id_str": "1131576413075714058",
   "full_text": "Interested in learning how to build an @FlutterDev app? @gdgmadison is running a workshop on Saturday at @bendyworks. Get on the waitlist now! https://t.co/qoSfM7oSd6",
   "truncated": false,
-  "display_text_range": [
-    0,
-    166
-  ],
+  "display_text_range": [0, 166],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          39,
-          50
-        ]
+        "indices": [39, 50]
       },
       {
         "screen_name": "gdgmadison",
         "name": "GDG Madison",
         "id": 60940193,
         "id_str": "60940193",
-        "indices": [
-          56,
-          67
-        ]
+        "indices": [56, 67]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          105,
-          116
-        ]
+        "indices": [105, 116]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/qoSfM7oSd6",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/261440417/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          143,
-          166
-        ]
+        "indices": [143, 166]
       }
     ]
   },
@@ -76,10 +61,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -89,10 +71,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

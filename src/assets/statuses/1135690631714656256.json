@@ -4,10 +4,7 @@
   "id_str": "1135690631714656256",
   "full_text": "We are getting a nice overview of this year's Google IO from the @abraham. https://t.co/1uc4pXc3yw",
   "truncated": false,
-  "display_text_range": [
-    0,
-    74
-  ],
+  "display_text_range": [0, 74],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          65,
-          73
-        ]
+        "indices": [65, 73]
       }
     ],
     "urls": [],
@@ -28,10 +22,7 @@
       {
         "id": 1135690494476980200,
         "id_str": "1135690494476980224",
-        "indices": [
-          75,
-          98
-        ],
+        "indices": [75, 98],
         "media_url": "http://pbs.twimg.com/media/D8LIfNIWkAAk9tk.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D8LIfNIWkAAk9tk.jpg",
         "url": "https://t.co/1uc4pXc3yw",
@@ -68,10 +59,7 @@
       {
         "id": 1135690494476980200,
         "id_str": "1135690494476980224",
-        "indices": [
-          75,
-          98
-        ],
+        "indices": [75, 98],
         "media_url": "http://pbs.twimg.com/media/D8LIfNIWkAAk9tk.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D8LIfNIWkAAk9tk.jpg",
         "url": "https://t.co/1uc4pXc3yw",
@@ -172,22 +160,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -92.889433,
-            42.491921
-          ],
-          [
-            -86.24955,
-            42.491921
-          ],
-          [
-            -86.24955,
-            47.309715
-          ],
-          [
-            -92.889433,
-            47.309715
-          ]
+          [-92.889433, 42.491921],
+          [-86.24955, 42.491921],
+          [-86.24955, 47.309715],
+          [-92.889433, 47.309715]
         ]
       ]
     },

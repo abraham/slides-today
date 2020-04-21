@@ -4,10 +4,7 @@
   "id_str": "936247200065183745",
   "full_text": "Couldn't make it to @mobileeraconf? You can watch my and @abraham's talk about @ActionsOnGoogle here: https://t.co/7apISoJnbB",
   "truncated": false,
-  "display_text_range": [
-    0,
-    125
-  ],
+  "display_text_range": [0, 125],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          20,
-          34
-        ]
+        "indices": [20, 34]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          57,
-          65
-        ]
+        "indices": [57, 65]
       },
       {
         "screen_name": "ActionsOnGoogle",
         "name": "Actions on Google",
         "id": 857372550241726500,
         "id_str": "857372550241726464",
-        "indices": [
-          79,
-          95
-        ]
+        "indices": [79, 95]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/7apISoJnbB",
         "expanded_url": "https://vimeo.com/243435933",
         "display_url": "vimeo.com/243435933",
-        "indices": [
-          102,
-          125
-        ]
+        "indices": [102, 125]
       }
     ]
   },

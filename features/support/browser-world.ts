@@ -40,7 +40,9 @@ export class BrowserWorld {
     this.browser = await puppeteer.launch(this.config);
     this.page = (await this.browser.pages())[0];
     if (DEBUG) {
-      this.page.on('console', consoleObj => console.log(`[BROWSER]: ${consoleObj.text()}`));
+      this.page.on('console', consoleObj => {
+        console.log(`[BROWSER]: ${consoleObj.text()}`);
+      });
     }
   }
 

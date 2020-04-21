@@ -4,10 +4,7 @@
   "id_str": "963472868653793280",
   "full_text": "Check out the \"PRPL on Rails\" workshop at @railsconf with @pblatteier and @abraham!\n\nhttps://t.co/Z6EBI6sBD0",
   "truncated": false,
-  "display_text_range": [
-    0,
-    108
-  ],
+  "display_text_range": [0, 108],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "RailsConf",
         "id": 5493662,
         "id_str": "5493662",
-        "indices": [
-          42,
-          52
-        ]
+        "indices": [42, 52]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          58,
-          69
-        ]
+        "indices": [58, 69]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          74,
-          82
-        ]
+        "indices": [74, 82]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/Z6EBI6sBD0",
         "expanded_url": "https://bendyworks.com/blog/prpl-on-rails-workshop-at-railsconf?utm_source=twitter&utm_medium=social&utm_campaign=blogged-prpl-on-rails-workshop-at-railsconf",
         "display_url": "bendyworks.com/blog/prpl-on-r…",
-        "indices": [
-          85,
-          108
-        ]
+        "indices": [85, 108]
       }
     ]
   },
@@ -76,10 +61,7 @@
             "url": "https://t.co/nSohQ3T0sE",
             "expanded_url": "https://bendyworks.com",
             "display_url": "bendyworks.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

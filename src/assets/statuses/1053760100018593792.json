@@ -4,10 +4,7 @@
   "id_str": "1053760100018593792",
   "full_text": "How to fix a broken service worker cache\n\nSample: https://t.co/kDI9rqyqqp\nCode: https://t.co/t0YF1koJmr\n\nInterested in learning more about service workers? Come check out @pblatteier and my talk at @mobileeraconf!\n\nhttps://t.co/YU9Vx5knr6 https://t.co/d6aARjDLfq",
   "truncated": false,
-  "display_text_range": [
-    0,
-    238
-  ],
+  "display_text_range": [0, 238],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          171,
-          182
-        ]
+        "indices": [171, 182]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          198,
-          212
-        ]
+        "indices": [198, 212]
       }
     ],
     "urls": [
@@ -38,38 +29,26 @@
         "url": "https://t.co/kDI9rqyqqp",
         "expanded_url": "https://peaceful-tote.glitch.me/",
         "display_url": "peaceful-tote.glitch.me",
-        "indices": [
-          50,
-          73
-        ]
+        "indices": [50, 73]
       },
       {
         "url": "https://t.co/t0YF1koJmr",
         "expanded_url": "https://glitch.com/edit/#!/peaceful-tote",
         "display_url": "glitch.com/edit/#!/peacef…",
-        "indices": [
-          80,
-          103
-        ]
+        "indices": [80, 103]
       },
       {
         "url": "https://t.co/YU9Vx5knr6",
         "expanded_url": "https://mobileera.rocks/schedule/2018-11-02?sessionId=100",
         "display_url": "mobileera.rocks/schedule/2018-…",
-        "indices": [
-          215,
-          238
-        ]
+        "indices": [215, 238]
       }
     ],
     "media": [
       {
         "id": 1053760095199416300,
         "id_str": "1053760095199416320",
-        "indices": [
-          239,
-          262
-        ],
+        "indices": [239, 262],
         "media_url": "http://pbs.twimg.com/media/Dp-1OTjX0AAbx7P.png",
         "media_url_https": "https://pbs.twimg.com/media/Dp-1OTjX0AAbx7P.png",
         "url": "https://t.co/d6aARjDLfq",
@@ -106,10 +85,7 @@
       {
         "id": 1053760095199416300,
         "id_str": "1053760095199416320",
-        "indices": [
-          239,
-          262
-        ],
+        "indices": [239, 262],
         "media_url": "http://pbs.twimg.com/media/Dp-1OTjX0AAbx7P.png",
         "media_url_https": "https://pbs.twimg.com/media/Dp-1OTjX0AAbx7P.png",
         "url": "https://t.co/d6aARjDLfq",
@@ -162,10 +138,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -175,10 +148,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

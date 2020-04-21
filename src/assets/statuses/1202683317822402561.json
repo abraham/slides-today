@@ -4,25 +4,16 @@
   "id_str": "1202683317822402561",
   "full_text": "For amazing speakers at last night’s @moderndotweb + @angular + @gdgsv Bay Area holiday party at Google HQ!\n\nThx @abraham @Jakeherringbone @DeborahKurata @mgechev for speaking! \n\nAnd thank you @evahowe for hosting! #angular #modernweb https://t.co/t9JN0TqjQd",
   "truncated": false,
-  "display_text_range": [
-    0,
-    234
-  ],
+  "display_text_range": [0, 234],
   "entities": {
     "hashtags": [
       {
         "text": "angular",
-        "indices": [
-          215,
-          223
-        ]
+        "indices": [215, 223]
       },
       {
         "text": "modernweb",
-        "indices": [
-          224,
-          234
-        ]
+        "indices": [224, 234]
       }
     ],
     "symbols": [],
@@ -32,80 +23,56 @@
         "name": "Modern Web",
         "id": 4482528994,
         "id_str": "4482528994",
-        "indices": [
-          37,
-          50
-        ]
+        "indices": [37, 50]
       },
       {
         "screen_name": "angular",
         "name": "Angular",
         "id": 202230373,
         "id_str": "202230373",
-        "indices": [
-          53,
-          61
-        ]
+        "indices": [53, 61]
       },
       {
         "screen_name": "gdgsv",
         "name": "GDG Silicon Valley",
         "id": 17302763,
         "id_str": "17302763",
-        "indices": [
-          64,
-          70
-        ]
+        "indices": [64, 70]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          113,
-          121
-        ]
+        "indices": [113, 121]
       },
       {
         "screen_name": "Jakeherringbone",
         "name": "Alex 🦅 Eagle",
         "id": 8124762,
         "id_str": "8124762",
-        "indices": [
-          122,
-          138
-        ]
+        "indices": [122, 138]
       },
       {
         "screen_name": "DeborahKurata",
         "name": "Deborah Kurata",
         "id": 802671878,
         "id_str": "802671878",
-        "indices": [
-          139,
-          153
-        ]
+        "indices": [139, 153]
       },
       {
         "screen_name": "mgechev",
         "name": "Minko Gechev",
         "id": 178817640,
         "id_str": "178817640",
-        "indices": [
-          154,
-          162
-        ]
+        "indices": [154, 162]
       },
       {
         "screen_name": "evahowe",
         "name": "evahowe",
         "id": 14605476,
         "id_str": "14605476",
-        "indices": [
-          193,
-          201
-        ]
+        "indices": [193, 201]
       }
     ],
     "urls": [],
@@ -113,10 +80,7 @@
       {
         "id": 1202683312948547600,
         "id_str": "1202683312948547584",
-        "indices": [
-          235,
-          258
-        ],
+        "indices": [235, 258],
         "media_url": "http://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
         "url": "https://t.co/t9JN0TqjQd",
@@ -153,10 +117,7 @@
       {
         "id": 1202683312948547600,
         "id_str": "1202683312948547584",
-        "indices": [
-          235,
-          258
-        ],
+        "indices": [235, 258],
         "media_url": "http://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELDKGd2WkAA-NEi.jpg",
         "url": "https://t.co/t9JN0TqjQd",
@@ -209,10 +170,7 @@
             "url": "https://t.co/UVYEjTBNS8",
             "expanded_url": "http://thisdot.co/labs",
             "display_url": "thisdot.co/labs",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -4,10 +4,7 @@
   "id_str": "954469903855177728",
   "full_text": "Monthly Meetup: Build, Test, and Deploy a Web Component with Nutmeg https://t.co/zCGKSvm7dN presented by @abraham &amp; @pblatteier",
   "truncated": false,
-  "display_text_range": [
-    0,
-    131
-  ],
+  "display_text_range": [0, 131],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          105,
-          113
-        ]
+        "indices": [105, 113]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          120,
-          131
-        ]
+        "indices": [120, 131]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/zCGKSvm7dN",
         "expanded_url": "http://meetu.ps/e/CGpVt/49nGH/g",
         "display_url": "meetu.ps/e/CGpVt/49nGH/g",
-        "indices": [
-          68,
-          91
-        ]
+        "indices": [68, 91]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "http://t.co/PkCREavoit",
             "expanded_url": "http://madjavascript.com",
             "display_url": "madjavascript.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },
@@ -79,10 +64,7 @@
             "url": "http://t.co/zPnzxNWtM8",
             "expanded_url": "http://www.meetup.com/MadisonJS/",
             "display_url": "meetup.com/MadisonJS/",
-            "indices": [
-              38,
-              60
-            ]
+            "indices": [38, 60]
           }
         ]
       }

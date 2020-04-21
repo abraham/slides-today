@@ -4,25 +4,16 @@
   "id_str": "978720626100854784",
   "full_text": "Zipping to Milwaukee soon to speak at @mkejs with @abraham about Wicked Fast⚡Mobile Web: https://t.co/BvcVXZZzhH\n@RokkinCat #PWA #perfmatters",
   "truncated": false,
-  "display_text_range": [
-    0,
-    141
-  ],
+  "display_text_range": [0, 141],
   "entities": {
     "hashtags": [
       {
         "text": "PWA",
-        "indices": [
-          124,
-          128
-        ]
+        "indices": [124, 128]
       },
       {
         "text": "perfmatters",
-        "indices": [
-          129,
-          141
-        ]
+        "indices": [129, 141]
       }
     ],
     "symbols": [],
@@ -32,30 +23,21 @@
         "name": "Milwaukee JavaScript",
         "id": 894420716,
         "id_str": "894420716",
-        "indices": [
-          38,
-          44
-        ]
+        "indices": [38, 44]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          50,
-          58
-        ]
+        "indices": [50, 58]
       },
       {
         "screen_name": "RokkinCat",
         "name": "RokkinCat",
         "id": 378776812,
         "id_str": "378776812",
-        "indices": [
-          113,
-          123
-        ]
+        "indices": [113, 123]
       }
     ],
     "urls": [
@@ -63,10 +45,7 @@
         "url": "https://t.co/BvcVXZZzhH",
         "expanded_url": "https://www.meetup.com/milwaukeejs/events/247249876/",
         "display_url": "meetup.com/milwaukeejs/ev…",
-        "indices": [
-          89,
-          112
-        ]
+        "indices": [89, 112]
       }
     ]
   },

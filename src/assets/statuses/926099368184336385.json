@@ -4,18 +4,12 @@
   "id_str": "926099368184336385",
   "full_text": "‼️Are you coming out to @ohiodevfest?? You lucky people get the amazing duo of @pblatteier &amp; @abraham 😍😍 on ur keynote stage #OhioDevFest17 https://t.co/bt5MkIe58D",
   "truncated": false,
-  "display_text_range": [
-    0,
-    143
-  ],
+  "display_text_range": [0, 143],
   "entities": {
     "hashtags": [
       {
         "text": "OhioDevFest17",
-        "indices": [
-          129,
-          143
-        ]
+        "indices": [129, 143]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Ohio DevFest",
         "id": 746345585863622700,
         "id_str": "746345585863622660",
-        "indices": [
-          24,
-          36
-        ]
+        "indices": [24, 36]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          79,
-          90
-        ]
+        "indices": [79, 90]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          97,
-          105
-        ]
+        "indices": [97, 105]
       }
     ],
     "urls": [],
@@ -56,10 +41,7 @@
       {
         "id": 926099355819319300,
         "id_str": "926099355819319297",
-        "indices": [
-          144,
-          167
-        ],
+        "indices": [144, 167],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DNoqdRpUIAEYTFo.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DNoqdRpUIAEYTFo.jpg",
         "url": "https://t.co/bt5MkIe58D",
@@ -96,10 +78,7 @@
       {
         "id": 926099355819319300,
         "id_str": "926099355819319297",
-        "indices": [
-          144,
-          167
-        ],
+        "indices": [144, 167],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DNoqdRpUIAEYTFo.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DNoqdRpUIAEYTFo.jpg",
         "url": "https://t.co/bt5MkIe58D",
@@ -129,10 +108,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            152,
-            111
-          ],
+          "aspect_ratio": [152, 111],
           "variants": [
             {
               "bitrate": 0,
@@ -165,10 +141,7 @@
             "url": "https://t.co/ejwv1LyV9l",
             "expanded_url": "http://tzmanics.com",
             "display_url": "tzmanics.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

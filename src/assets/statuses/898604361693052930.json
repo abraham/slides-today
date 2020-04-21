@@ -4,18 +4,12 @@
   "id_str": "898604361693052930",
   "full_text": "If you are at #MidwestJS find Pearl @pblatteier and get her business card. Brilliant.",
   "truncated": false,
-  "display_text_range": [
-    0,
-    85
-  ],
+  "display_text_range": [0, 85],
   "entities": {
     "hashtags": [
       {
         "text": "MidwestJS",
-        "indices": [
-          14,
-          24
-        ]
+        "indices": [14, 24]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          36,
-          47
-        ]
+        "indices": [36, 47]
       }
     ],
     "urls": []
@@ -54,10 +45,7 @@
             "url": "https://t.co/n3m3FSVbGz",
             "expanded_url": "http://www.cyberward.net",
             "display_url": "cyberward.net",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

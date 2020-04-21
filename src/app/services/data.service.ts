@@ -19,9 +19,14 @@ function sortTags(a: Tag, b: Tag) {
 })
 export class DataService {
   constructor() {
-    this.tagSelection$.pipe(
-      scan<TagSelectionEvent, string[]>(this.updateSelectedTagIds.bind(this), []),
-    ).subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
+    this.tagSelection$
+      .pipe(
+        scan<TagSelectionEvent, string[]>(
+          this.updateSelectedTagIds.bind(this),
+          [],
+        ),
+      )
+      .subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
     this.tags$.next(tagData.sort(sortTags));
   }
 
@@ -31,10 +36,7 @@ export class DataService {
   private tagSelection$ = new Subject<TagSelectionEvent>();
 
   get path$(): Observable<string[]> {
-    return combineLatest([
-      this.tagSelection$,
-      this.selectedTagIds$,
-    ]).pipe(
+    return combineLatest([this.tagSelection$, this.selectedTagIds$]).pipe(
       share(),
       filter(([selection, _]) => selection.updatePath),
       map(([_, selectedTagIds]) => selectedTagIds),
@@ -59,7 +61,10 @@ export class DataService {
     return of(tagData.find((tag: Tag) => tag.id === id));
   }
 
-  private updateSelectedTagIds(selectedTagIds: string[], event: TagSelectionEvent): string[] {
+  private updateSelectedTagIds(
+    selectedTagIds: string[],
+    event: TagSelectionEvent,
+  ): string[] {
     if (event.selected) {
       return unique([...selectedTagIds, event.id]);
     } else {
@@ -73,8 +78,10 @@ function unique(values: string[]): string[] {
 }
 
 function equalArray(array1: string[], array2: string[]) {
-  return array1.length === array2.length &&
+  return (
+    array1.length === array2.length &&
     array1.sort().every((value, index) => {
       return value === array2.sort()[index];
-    });
+    })
+  );
 }

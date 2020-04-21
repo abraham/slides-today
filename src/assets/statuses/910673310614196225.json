@@ -4,46 +4,28 @@
   "id_str": "910673310614196225",
   "full_text": "Starting off the #connectjs speaker dinner w @tzmanics @pblatteier @abraham! Love my #javascript #gdg #gde friends! #angular @connect_js https://t.co/vOstY0jjDS",
   "truncated": false,
-  "display_text_range": [
-    0,
-    136
-  ],
+  "display_text_range": [0, 136],
   "entities": {
     "hashtags": [
       {
         "text": "connectjs",
-        "indices": [
-          17,
-          27
-        ]
+        "indices": [17, 27]
       },
       {
         "text": "javascript",
-        "indices": [
-          85,
-          96
-        ]
+        "indices": [85, 96]
       },
       {
         "text": "gdg",
-        "indices": [
-          97,
-          101
-        ]
+        "indices": [97, 101]
       },
       {
         "text": "gde",
-        "indices": [
-          102,
-          106
-        ]
+        "indices": [102, 106]
       },
       {
         "text": "angular",
-        "indices": [
-          116,
-          124
-        ]
+        "indices": [116, 124]
       }
     ],
     "symbols": [],
@@ -53,40 +35,28 @@
         "name": "😆Tara Z. Manicsic🐺",
         "id": 1365687402,
         "id_str": "1365687402",
-        "indices": [
-          45,
-          54
-        ]
+        "indices": [45, 54]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          55,
-          66
-        ]
+        "indices": [55, 66]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          67,
-          75
-        ]
+        "indices": [67, 75]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          125,
-          136
-        ]
+        "indices": [125, 136]
       }
     ],
     "urls": [],
@@ -94,10 +64,7 @@
       {
         "id": 910673301709705200,
         "id_str": "910673301709705219",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
         "url": "https://t.co/vOstY0jjDS",
@@ -134,10 +101,7 @@
       {
         "id": 910673301709705200,
         "id_str": "910673301709705219",
-        "indices": [
-          137,
-          160
-        ],
+        "indices": [137, 160],
         "media_url": "http://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKNciv7W0AMGdq6.jpg",
         "url": "https://t.co/vOstY0jjDS",
@@ -190,10 +154,7 @@
             "url": "https://t.co/UVYEjTBNS8",
             "expanded_url": "http://thisdot.co/labs",
             "display_url": "thisdot.co/labs",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

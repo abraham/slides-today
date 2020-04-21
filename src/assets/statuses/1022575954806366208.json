@@ -4,10 +4,7 @@
   "id_str": "1022575954806366208",
   "full_text": "Super excited to be presenting at @gdgtc with @pblatteier talking all about @Firebase Functions August 7th.\n\nhttps://t.co/goW50a6gls https://t.co/1TvcTpeFir",
   "truncated": false,
-  "display_text_range": [
-    0,
-    132
-  ],
+  "display_text_range": [0, 132],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "GDG Twin Cities",
         "id": 48334750,
         "id_str": "48334750",
-        "indices": [
-          34,
-          40
-        ]
+        "indices": [34, 40]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          46,
-          57
-        ]
+        "indices": [46, 57]
       },
       {
         "screen_name": "Firebase",
         "name": "Firebase",
         "id": 447644824,
         "id_str": "447644824",
-        "indices": [
-          76,
-          85
-        ]
+        "indices": [76, 85]
       }
     ],
     "urls": [
@@ -48,20 +36,14 @@
         "url": "https://t.co/goW50a6gls",
         "expanded_url": "https://www.meetup.com/gdg-tc/events/253141841/",
         "display_url": "meetup.com/gdg-tc/events/…",
-        "indices": [
-          109,
-          132
-        ]
+        "indices": [109, 132]
       }
     ],
     "media": [
       {
         "id": 1022575844991098900,
         "id_str": "1022575844991098881",
-        "indices": [
-          133,
-          156
-        ],
+        "indices": [133, 156],
         "media_url": "http://pbs.twimg.com/media/DjDrUCyW4AEhDc8.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DjDrUCyW4AEhDc8.jpg",
         "url": "https://t.co/1TvcTpeFir",
@@ -98,10 +80,7 @@
       {
         "id": 1022575844991098900,
         "id_str": "1022575844991098881",
-        "indices": [
-          133,
-          156
-        ],
+        "indices": [133, 156],
         "media_url": "http://pbs.twimg.com/media/DjDrUCyW4AEhDc8.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DjDrUCyW4AEhDc8.jpg",
         "url": "https://t.co/1TvcTpeFir",
@@ -154,10 +133,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -167,10 +143,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

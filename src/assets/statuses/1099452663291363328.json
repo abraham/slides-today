@@ -4,18 +4,12 @@
   "id_str": "1099452663291363328",
   "full_text": "Interested in speaking at a tech conference? Come to @gdgmadison next Saturday for a conference proposal workshop! #globaldiversitycfpday https://t.co/e8qG8eFn4o",
   "truncated": false,
-  "display_text_range": [
-    0,
-    161
-  ],
+  "display_text_range": [0, 161],
   "entities": {
     "hashtags": [
       {
         "text": "globaldiversitycfpday",
-        "indices": [
-          115,
-          137
-        ]
+        "indices": [115, 137]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "GDG Madison",
         "id": 60940193,
         "id_str": "60940193",
-        "indices": [
-          53,
-          64
-        ]
+        "indices": [53, 64]
       }
     ],
     "urls": [
@@ -36,10 +27,7 @@
         "url": "https://t.co/e8qG8eFn4o",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/259107470/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          138,
-          161
-        ]
+        "indices": [138, 161]
       }
     ]
   },

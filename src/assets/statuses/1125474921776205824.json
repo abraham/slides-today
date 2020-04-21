@@ -4,60 +4,36 @@
   "id_str": "1125474921776205824",
   "full_text": "WORKSHOP HIGHLIGHT: \"Get Flapping with Flutter\" with @pblatteier &amp; @abraham. #Flutter is a new tool from #Google that allows you to quickly create native apps for iOS and Android from a single codebase.https://t.co/G9LfZJYDWg #refactr #diversity #inclusion  #tech #conference https://t.co/KrmeNzXF9Z",
   "truncated": false,
-  "display_text_range": [
-    0,
-    279
-  ],
+  "display_text_range": [0, 279],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          81,
-          89
-        ]
+        "indices": [81, 89]
       },
       {
         "text": "Google",
-        "indices": [
-          109,
-          116
-        ]
+        "indices": [109, 116]
       },
       {
         "text": "refactr",
-        "indices": [
-          230,
-          238
-        ]
+        "indices": [230, 238]
       },
       {
         "text": "diversity",
-        "indices": [
-          239,
-          249
-        ]
+        "indices": [239, 249]
       },
       {
         "text": "inclusion",
-        "indices": [
-          250,
-          260
-        ]
+        "indices": [250, 260]
       },
       {
         "text": "tech",
-        "indices": [
-          262,
-          267
-        ]
+        "indices": [262, 267]
       },
       {
         "text": "conference",
-        "indices": [
-          268,
-          279
-        ]
+        "indices": [268, 279]
       }
     ],
     "symbols": [],
@@ -67,20 +43,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          53,
-          64
-        ]
+        "indices": [53, 64]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          71,
-          79
-        ]
+        "indices": [71, 79]
       }
     ],
     "urls": [
@@ -88,20 +58,14 @@
         "url": "https://t.co/G9LfZJYDWg",
         "expanded_url": "https://buff.ly/2vEeSKT",
         "display_url": "buff.ly/2vEeSKT",
-        "indices": [
-          206,
-          229
-        ]
+        "indices": [206, 229]
       }
     ],
     "media": [
       {
         "id": 1125474910812270600,
         "id_str": "1125474910812270594",
-        "indices": [
-          280,
-          303
-        ],
+        "indices": [280, 303],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
         "url": "https://t.co/KrmeNzXF9Z",
@@ -138,10 +102,7 @@
       {
         "id": 1125474910812270600,
         "id_str": "1125474910812270594",
-        "indices": [
-          280,
-          303
-        ],
+        "indices": [280, 303],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D559d-aUcAI8_kB.jpg",
         "url": "https://t.co/KrmeNzXF9Z",
@@ -171,10 +132,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            240,
-            143
-          ],
+          "aspect_ratio": [240, 143],
           "variants": [
             {
               "bitrate": 0,
@@ -207,10 +165,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -1,22 +1,32 @@
-<main class='mdc-layout-grid'>
-  <div *ngIf="deck$ | async as deck; else loading" class="mdc-layout-grid__inner">
-
-    <div class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+<main class="mdc-layout-grid">
+  <div
+    *ngIf="deck$ | async as deck; else loading"
+    class="mdc-layout-grid__inner"
+  >
+    <div
+      class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
+    >
       <div class="mdc-layout-grid__inner">
-
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
+        <div
+          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
+        >
           <div #detailsEl>
             <app-card #detailsEl [actions]="deck.links" class="item">
-              <div hero>{{deck.title}}</div>
-              <div title>{{deck.eventTitle}} · {{deck.date}}</div>
-              <div body>{{deck.description}}</div>
+              <div hero>{{ deck.title }}</div>
+              <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
+              <div body>{{ deck.description }}</div>
               <div body><app-tags [currentTags]="deck.tags"></app-tags></div>
             </app-card>
           </div>
 
           <ng-template ngFor let-embed [ngForOf]="embeds">
             <div class="item">
-              <app-embed [width]="embedWidth" [link]="embed" [title]="deck.title" [theme]="deck.theme"></app-embed>
+              <app-embed
+                [width]="embedWidth"
+                [link]="embed"
+                [title]="deck.title"
+                [theme]="deck.theme"
+              ></app-embed>
             </div>
           </ng-template>
 
@@ -35,14 +45,19 @@
           </div>
 
           <div class="item" *ngIf="deck.resources.length > 0">
-            <app-deck-resources [resources]="deck.resources"></app-deck-resources>
+            <app-deck-resources
+              [resources]="deck.resources"
+            ></app-deck-resources>
           </div>
-
         </div>
-        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop">
-
+        <div
+          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
+        >
           <ng-template ngFor let-github [ngForOf]="deck.githubRepos">
-            <github-repository class="item" [attr.owner-repo]="github"></github-repository>
+            <github-repository
+              class="item"
+              [attr.owner-repo]="github"
+            ></github-repository>
           </ng-template>
 
           <ng-template ngFor let-name [ngForOf]="deck.nodePackages">
@@ -52,7 +67,6 @@
           <ng-template ngFor let-status [ngForOf]="deck.tweets | async">
             <twitter-status class="item" [status]="status"></twitter-status>
           </ng-template>
-
         </div>
       </div>
     </div>

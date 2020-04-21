@@ -4,10 +4,7 @@
   "id_str": "898614470720626688",
   "full_text": "Full house for progressive web app (service worker) talk with @pblatteier @abraham  @midwest_js https://t.co/HRNKnAc8H8",
   "truncated": false,
-  "display_text_range": [
-    0,
-    95
-  ],
+  "display_text_range": [0, 95],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          62,
-          73
-        ]
+        "indices": [62, 73]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          74,
-          82
-        ]
+        "indices": [74, 82]
       },
       {
         "screen_name": "midwest_js",
         "name": "Midwest JS",
         "id": 2196056617,
         "id_str": "2196056617",
-        "indices": [
-          84,
-          95
-        ]
+        "indices": [84, 95]
       }
     ],
     "urls": [],
@@ -48,10 +36,7 @@
       {
         "id": 898614450692833300,
         "id_str": "898614450692833280",
-        "indices": [
-          96,
-          119
-        ],
+        "indices": [96, 119],
         "media_url": "http://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
         "url": "https://t.co/HRNKnAc8H8",
@@ -88,10 +73,7 @@
       {
         "id": 898614450692833300,
         "id_str": "898614450692833280",
-        "indices": [
-          96,
-          119
-        ],
+        "indices": [96, 119],
         "media_url": "http://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DHiFFPOUQAAivvL.jpg",
         "url": "https://t.co/HRNKnAc8H8",
@@ -144,10 +126,7 @@
             "url": "https://t.co/teE1yFOCFL",
             "expanded_url": "http://codewinds.com/",
             "display_url": "codewinds.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

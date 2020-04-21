@@ -1,7 +1,9 @@
-<app-card *ngIf="speakerService.get(speakerId) | async as speaker"
-          [image]="speaker.imageUrl"
-          [actions]="speaker.links">
-  <div title>{{speaker.name}}</div>
-  <div subtitle>{{speaker.title}}</div>
-  <div body>{{speaker.bio}}</div>
+<app-card
+  *ngIf="speakerService.get(speakerId) | async as speaker"
+  [image]="speaker.imageUrl"
+  [actions]="speaker.links"
+>
+  <div title>{{ speaker.name }}</div>
+  <div subtitle>{{ speaker.title }}</div>
+  <div body>{{ speaker.bio }}</div>
 </app-card>

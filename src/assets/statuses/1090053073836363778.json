@@ -4,18 +4,12 @@
   "id_str": "1090053073836363778",
   "full_text": "Looking forward to #DevFestMN on Saturday! Will be presenting with @abraham on @flutterio and web APIs. Use discount code FriendOfPearl for 20% off your ticket. https://t.co/rDZnk6tuWr",
   "truncated": false,
-  "display_text_range": [
-    0,
-    184
-  ],
+  "display_text_range": [0, 184],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestMN",
-        "indices": [
-          19,
-          29
-        ]
+        "indices": [19, 29]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          67,
-          75
-        ]
+        "indices": [67, 75]
       },
       {
         "screen_name": "flutterio",
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          79,
-          89
-        ]
+        "indices": [79, 89]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/rDZnk6tuWr",
         "expanded_url": "https://devfest.mn/",
         "display_url": "devfest.mn",
-        "indices": [
-          161,
-          184
-        ]
+        "indices": [161, 184]
       }
     ]
   },

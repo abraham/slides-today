@@ -4,18 +4,12 @@
   "id_str": "915896603822755840",
   "full_text": "Excited to learn about #googleactions from @pblatteier and @abraham at @mobileeraconf - voice control is the future!",
   "truncated": false,
-  "display_text_range": [
-    0,
-    116
-  ],
+  "display_text_range": [0, 116],
   "entities": {
     "hashtags": [
       {
         "text": "googleactions",
-        "indices": [
-          23,
-          37
-        ]
+        "indices": [23, 37]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          43,
-          54
-        ]
+        "indices": [43, 54]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          59,
-          67
-        ]
+        "indices": [59, 67]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          71,
-          85
-        ]
+        "indices": [71, 85]
       }
     ],
     "urls": []
@@ -74,10 +59,7 @@
             "url": "https://t.co/IMVKC1EkOF",
             "expanded_url": "https://github.com/it-vegard",
             "display_url": "github.com/it-vegard",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

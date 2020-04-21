@@ -4,18 +4,12 @@
   "id_str": "986689221288177673",
   "full_text": "Learning PRPL and using Service Workers to precache and load some of the resources offline at #RailsConf 🎉 https://t.co/M7n4XtXqtc",
   "truncated": false,
-  "display_text_range": [
-    0,
-    106
-  ],
+  "display_text_range": [0, 106],
   "entities": {
     "hashtags": [
       {
         "text": "RailsConf",
-        "indices": [
-          94,
-          104
-        ]
+        "indices": [94, 104]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
       {
         "id": 986689206633271300,
         "id_str": "986689206633271296",
-        "indices": [
-          107,
-          130
-        ],
+        "indices": [107, 130],
         "media_url": "http://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
         "url": "https://t.co/M7n4XtXqtc",
@@ -65,10 +56,7 @@
       {
         "id": 986689206633271300,
         "id_str": "986689206633271296",
-        "indices": [
-          107,
-          130
-        ],
+        "indices": [107, 130],
         "media_url": "http://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFsmxEWkAA7cZA.jpg",
         "url": "https://t.co/M7n4XtXqtc",
@@ -121,10 +109,7 @@
             "url": "https://t.co/FlcJpFAr0r",
             "expanded_url": "https://www.linkedin.com/in/evgenyli",
             "display_url": "linkedin.com/in/evgenyli",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

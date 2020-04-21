@@ -4,10 +4,7 @@
   "id_str": "1006928289578078208",
   "full_text": "Can't wait for @WeRiseConf next week! I'll be there talking about web components. https://t.co/GIdeW5jbf6",
   "truncated": false,
-  "display_text_range": [
-    0,
-    105
-  ],
+  "display_text_range": [0, 105],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "url": "https://t.co/GIdeW5jbf6",
         "expanded_url": "https://bendyworks.com/blog/we-rise-tech-conference?utm_source=twitter&utm_medium=social&utm_campaign=blogged-we-rise-tech-conference",
         "display_url": "bendyworks.com/blog/we-rise-t…",
-        "indices": [
-          82,
-          105
-        ]
+        "indices": [82, 105]
       }
     ]
   },

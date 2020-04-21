@@ -4,10 +4,7 @@
   "id_str": "1045785299543101440",
   "full_text": "Hey @nlycskn, @abraham and I are doing a @flutterio workshop at @mobileeraconf in November. You and Dash should join us!  https://t.co/AJRnLZZQHB",
   "truncated": false,
-  "display_text_range": [
-    0,
-    145
-  ],
+  "display_text_range": [0, 145],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,40 +14,28 @@
         "name": "Nilay Yener",
         "id": 567162844,
         "id_str": "567162844",
-        "indices": [
-          4,
-          12
-        ]
+        "indices": [4, 12]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          14,
-          22
-        ]
+        "indices": [14, 22]
       },
       {
         "screen_name": "flutterio",
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          41,
-          51
-        ]
+        "indices": [41, 51]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          64,
-          78
-        ]
+        "indices": [64, 78]
       }
     ],
     "urls": [
@@ -58,10 +43,7 @@
         "url": "https://t.co/AJRnLZZQHB",
         "expanded_url": "https://ti.to/mobile-era/flutter-workshop",
         "display_url": "ti.to/mobile-era/flu…",
-        "indices": [
-          122,
-          145
-        ]
+        "indices": [122, 145]
       }
     ]
   },

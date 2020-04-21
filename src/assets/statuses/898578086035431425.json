@@ -4,10 +4,7 @@
   "id_str": "898578086035431425",
   "full_text": "@abraham great to share a table with you at MidwestJS speaker dinner. I enjoyed tasting a new beverage based on your input. :-)",
   "truncated": false,
-  "display_text_range": [
-    0,
-    127
-  ],
+  "display_text_range": [0, 127],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          0,
-          8
-        ]
+        "indices": [0, 8]
       }
     ],
     "urls": []
@@ -46,10 +40,7 @@
             "url": "https://t.co/teE1yFOCFL",
             "expanded_url": "http://codewinds.com/",
             "display_url": "codewinds.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

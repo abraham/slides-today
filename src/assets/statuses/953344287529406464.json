@@ -4,18 +4,12 @@
   "id_str": "953344287529406464",
   "full_text": "Watch @abraham and @pblatteier teach us how to cook up some sweet Web Components using Nutmeg! Check out how to Build, Test, and Deploy a Web Component from #WindyCityDevFest! https://t.co/76iPW9uCSU",
   "truncated": false,
-  "display_text_range": [
-    0,
-    199
-  ],
+  "display_text_range": [0, 199],
   "entities": {
     "hashtags": [
       {
         "text": "WindyCityDevFest",
-        "indices": [
-          157,
-          174
-        ]
+        "indices": [157, 174]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          6,
-          14
-        ]
+        "indices": [6, 14]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          19,
-          30
-        ]
+        "indices": [19, 30]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/76iPW9uCSU",
         "expanded_url": "https://youtu.be/sDkr_gegFTk",
         "display_url": "youtu.be/sDkr_gegFTk",
-        "indices": [
-          176,
-          199
-        ]
+        "indices": [176, 199]
       }
     ]
   },
@@ -74,10 +59,7 @@
             "url": "https://t.co/PRSFZxBjPF",
             "expanded_url": "https://www.meetup.com/Google-Developers-Group-GDG-Chicago/",
             "display_url": "meetup.com/Google-Develop…",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

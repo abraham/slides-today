@@ -4,10 +4,7 @@
   "id_str": "911289694134112257",
   "full_text": "https://t.co/udZEPch6ja",
   "truncated": false,
-  "display_text_range": [
-    0,
-    0
-  ],
+  "display_text_range": [0, 0],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
       {
         "id": 911289660223111200,
         "id_str": "911289660223111168",
-        "indices": [
-          0,
-          23
-        ],
+        "indices": [0, 23],
         "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
         "url": "https://t.co/udZEPch6ja",
@@ -57,10 +51,7 @@
       {
         "id": 911289660223111200,
         "id_str": "911289660223111168",
-        "indices": [
-          0,
-          23
-        ],
+        "indices": [0, 23],
         "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
         "url": "https://t.co/udZEPch6ja",
@@ -113,10 +104,7 @@
             "url": "https://t.co/TVN68h3mNL",
             "expanded_url": "http://connectevents.io",
             "display_url": "connectevents.io",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

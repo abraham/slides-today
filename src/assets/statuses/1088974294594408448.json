@@ -4,18 +4,12 @@
   "id_str": "1088974294594408448",
   "full_text": ".@abraham is here!! He is going to talk about his #flutter journey as a web dev at @sfhtml5 https://t.co/ArrQbsOCRf",
   "truncated": false,
-  "display_text_range": [
-    0,
-    91
-  ],
+  "display_text_range": [0, 91],
   "entities": {
     "hashtags": [
       {
         "text": "flutter",
-        "indices": [
-          50,
-          58
-        ]
+        "indices": [50, 58]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          1,
-          9
-        ]
+        "indices": [1, 9]
       },
       {
         "screen_name": "sfhtml5",
         "name": "San Francisco HTML5",
         "id": 275405363,
         "id_str": "275405363",
-        "indices": [
-          83,
-          91
-        ]
+        "indices": [83, 91]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 1088974289896788000,
         "id_str": "1088974289896787968",
-        "indices": [
-          92,
-          115
-        ],
+        "indices": [92, 115],
         "media_url": "http://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
         "url": "https://t.co/ArrQbsOCRf",
@@ -86,10 +71,7 @@
       {
         "id": 1088974289896788000,
         "id_str": "1088974289896787968",
-        "indices": [
-          92,
-          115
-        ],
+        "indices": [92, 115],
         "media_url": "http://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzQWNbU0AAUhyX.jpg",
         "url": "https://t.co/ArrQbsOCRf",

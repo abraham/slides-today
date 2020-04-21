@@ -13,21 +13,17 @@ export class DeckService {
     this.fetchDecks();
   }
 
-  get(id: string|null): Observable<Deck|undefined> {
+  get(id: string | null): Observable<Deck | undefined> {
     if (!id) {
       return EMPTY;
     }
     return this.decks$.pipe(
-      map((decks: Deck[]) => decks.find((deck: Deck) => deck.id === id))
+      map((decks: Deck[]) => decks.find((deck: Deck) => deck.id === id)),
     );
   }
 
   filter(selectedTagIds$: Observable<string[]>): Observable<Deck[]> {
-    return combineLatest(
-      this.decks$,
-      selectedTagIds$,
-      this.filterDecks,
-    );
+    return combineLatest(this.decks$, selectedTagIds$, this.filterDecks);
   }
 
   private filterDecks(decks: Deck[], tags: string[]): Deck[] {
@@ -39,9 +35,12 @@ export class DeckService {
   }
 
   private async fetchDecks(): Promise<void> {
-    const { default: data }: { default: any[] } = await import('../decks.data.json');
-    const decks = data.filter(deck => !deck.archived)
-                      .map((deck: Deck) => new Deck(deck));
+    const { default: data }: { default: any[] } = await import(
+      '../decks.data.json'
+    );
+    const decks = data
+      .filter(deck => !deck.archived)
+      .map((deck: Deck) => new Deck(deck));
     this.decks$.next(decks);
   }
 }

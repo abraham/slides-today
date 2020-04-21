@@ -4,10 +4,7 @@
   "id_str": "1057534107096363008",
   "full_text": "Good Halloween morning everyone 🎃! It's gonna be an awesome workshop day with @pblatteier @abraham &amp; @firt! \nIf by any chance you didn't book a spot at the conference yet, look here: https://t.co/41CJyO1WIk\n@webmaxru @jhannes keep their eyes on that 👀 https://t.co/qb1D45oF18",
   "truncated": false,
-  "display_text_range": [
-    0,
-    255
-  ],
+  "display_text_range": [0, 255],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,50 +14,35 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          78,
-          89
-        ]
+        "indices": [78, 89]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          90,
-          98
-        ]
+        "indices": [90, 98]
       },
       {
         "screen_name": "firt",
         "name": "Maximiliano Firtman",
         "id": 17509972,
         "id_str": "17509972",
-        "indices": [
-          105,
-          110
-        ]
+        "indices": [105, 110]
       },
       {
         "screen_name": "webmaxru",
         "name": "Maxim «PWAdvocate» Salnikov",
         "id": 52327702,
         "id_str": "52327702",
-        "indices": [
-          211,
-          220
-        ]
+        "indices": [211, 220]
       },
       {
         "screen_name": "jhannes",
         "name": "Johannes Brodwall",
         "id": 13368602,
         "id_str": "13368602",
-        "indices": [
-          221,
-          229
-        ]
+        "indices": [221, 229]
       }
     ],
     "urls": [
@@ -68,20 +50,14 @@
         "url": "https://t.co/41CJyO1WIk",
         "expanded_url": "https://ti.to/mobile-era/2018/",
         "display_url": "ti.to/mobile-era/201…",
-        "indices": [
-          187,
-          210
-        ]
+        "indices": [187, 210]
       }
     ],
     "media": [
       {
         "id": 1057534097659228200,
         "id_str": "1057534097659228160",
-        "indices": [
-          256,
-          279
-        ],
+        "indices": [256, 279],
         "media_url": "http://pbs.twimg.com/media/Dq0dqKTXcAAPA7A.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq0dqKTXcAAPA7A.jpg",
         "url": "https://t.co/qb1D45oF18",
@@ -118,10 +94,7 @@
       {
         "id": 1057534097659228200,
         "id_str": "1057534097659228160",
-        "indices": [
-          256,
-          279
-        ],
+        "indices": [256, 279],
         "media_url": "http://pbs.twimg.com/media/Dq0dqKTXcAAPA7A.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq0dqKTXcAAPA7A.jpg",
         "url": "https://t.co/qb1D45oF18",
@@ -174,10 +147,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -187,10 +157,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

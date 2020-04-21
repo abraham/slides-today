@@ -4,18 +4,12 @@
   "id_str": "1192378114598416384",
   "full_text": "Flutter is for more than mobile development. Nice talk by @abraham #MobileEra https://t.co/5oDdR4R5fe",
   "truncated": false,
-  "display_text_range": [
-    0,
-    77
-  ],
+  "display_text_range": [0, 77],
   "entities": {
     "hashtags": [
       {
         "text": "MobileEra",
-        "indices": [
-          67,
-          77
-        ]
+        "indices": [67, 77]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          58,
-          66
-        ]
+        "indices": [58, 66]
       }
     ],
     "urls": [],
@@ -36,10 +27,7 @@
       {
         "id": 1192378102162350000,
         "id_str": "1192378102162350080",
-        "indices": [
-          78,
-          101
-        ],
+        "indices": [78, 101],
         "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
         "url": "https://t.co/5oDdR4R5fe",
@@ -76,10 +64,7 @@
       {
         "id": 1192378102162350000,
         "id_str": "1192378102162350080",
-        "indices": [
-          78,
-          101
-        ],
+        "indices": [78, 101],
         "media_url": "http://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EIwtkQFXYAAtc74.jpg",
         "url": "https://t.co/5oDdR4R5fe",

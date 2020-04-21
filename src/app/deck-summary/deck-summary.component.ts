@@ -7,7 +7,6 @@ import { Deck } from '../models/deck';
   styleUrls: ['./deck-summary.component.scss'],
   templateUrl: './deck-summary.component.html',
 })
-
 export class DeckSummaryComponent implements OnInit {
   constructor(private router: Router) {}
 

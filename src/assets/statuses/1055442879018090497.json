@@ -4,18 +4,12 @@
   "id_str": "1055442879018090497",
   "full_text": "OMG! We give away a free ticket to \"Get Flapping with @flutterio\" full-day workshop by @abraham &amp; @pblatteier (Oslo, Oct 31st). To take part in the raffle just reply to this tweet - what does excite you most in #Flutter. Winner announced on Saturday, Oct 27th 10:00. https://t.co/LeAJRRTBMG",
   "truncated": false,
-  "display_text_range": [
-    0,
-    270
-  ],
+  "display_text_range": [0, 270],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          215,
-          223
-        ]
+        "indices": [215, 223]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          54,
-          64
-        ]
+        "indices": [54, 64]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          87,
-          95
-        ]
+        "indices": [87, 95]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          102,
-          113
-        ]
+        "indices": [102, 113]
       }
     ],
     "urls": [],
@@ -56,10 +41,7 @@
       {
         "id": 1055442837163176000,
         "id_str": "1055442837163175939",
-        "indices": [
-          271,
-          294
-        ],
+        "indices": [271, 294],
         "media_url": "http://pbs.twimg.com/media/DqWvqx3XcAM_peD.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DqWvqx3XcAM_peD.jpg",
         "url": "https://t.co/LeAJRRTBMG",
@@ -96,10 +78,7 @@
       {
         "id": 1055442837163176000,
         "id_str": "1055442837163175939",
-        "indices": [
-          271,
-          294
-        ],
+        "indices": [271, 294],
         "media_url": "http://pbs.twimg.com/media/DqWvqx3XcAM_peD.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DqWvqx3XcAM_peD.jpg",
         "url": "https://t.co/LeAJRRTBMG",
@@ -152,10 +131,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -165,10 +141,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

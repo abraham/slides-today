@@ -4,25 +4,16 @@
   "id_str": "1134187827544121344",
   "full_text": "Abraham Williams and #THATConference Present: Wicked Fast Mobile Web https://t.co/umTE0m5EJj @abraham #SpeakerSpotlight https://t.co/lNEu4FYx2E",
   "truncated": false,
-  "display_text_range": [
-    0,
-    119
-  ],
+  "display_text_range": [0, 119],
   "entities": {
     "hashtags": [
       {
         "text": "THATConference",
-        "indices": [
-          21,
-          36
-        ]
+        "indices": [21, 36]
       },
       {
         "text": "SpeakerSpotlight",
-        "indices": [
-          102,
-          119
-        ]
+        "indices": [102, 119]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          93,
-          101
-        ]
+        "indices": [93, 101]
       }
     ],
     "urls": [
@@ -43,20 +31,14 @@
         "url": "https://t.co/umTE0m5EJj",
         "expanded_url": "https://buff.ly/2Ek3GYp",
         "display_url": "buff.ly/2Ek3GYp",
-        "indices": [
-          69,
-          92
-        ]
+        "indices": [69, 92]
       }
     ],
     "media": [
       {
         "id": 1134187825199571000,
         "id_str": "1134187825199570944",
-        "indices": [
-          120,
-          143
-        ],
+        "indices": [120, 143],
         "media_url": "http://pbs.twimg.com/media/D71x0V2X4AABb7n.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D71x0V2X4AABb7n.jpg",
         "url": "https://t.co/lNEu4FYx2E",
@@ -93,10 +75,7 @@
       {
         "id": 1134187825199571000,
         "id_str": "1134187825199570944",
-        "indices": [
-          120,
-          143
-        ],
+        "indices": [120, 143],
         "media_url": "http://pbs.twimg.com/media/D71x0V2X4AABb7n.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D71x0V2X4AABb7n.jpg",
         "url": "https://t.co/lNEu4FYx2E",
@@ -149,10 +128,7 @@
             "url": "https://t.co/hlZOMbUB5D",
             "expanded_url": "https://www.thatconference.com/",
             "display_url": "thatconference.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

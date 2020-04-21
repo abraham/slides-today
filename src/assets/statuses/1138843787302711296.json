@@ -4,10 +4,7 @@
   "id_str": "1138843787302711296",
   "full_text": "And @gdgmadison is running a CFP writing workshop on June 22nd if you want some guidance on submitting to conferences.\n\nhttps://t.co/nOLrfc7Jnn https://t.co/7eZ5BGWldd",
   "truncated": false,
-  "display_text_range": [
-    0,
-    143
-  ],
+  "display_text_range": [0, 143],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "GDG Madison",
         "id": 60940193,
         "id_str": "60940193",
-        "indices": [
-          4,
-          15
-        ]
+        "indices": [4, 15]
       }
     ],
     "urls": [
@@ -28,19 +22,13 @@
         "url": "https://t.co/nOLrfc7Jnn",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/261959209/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          120,
-          143
-        ]
+        "indices": [120, 143]
       },
       {
         "url": "https://t.co/7eZ5BGWldd",
         "expanded_url": "https://twitter.com/abraham/status/1138830389823397888",
         "display_url": "twitter.com/abraham/status…",
-        "indices": [
-          144,
-          167
-        ]
+        "indices": [144, 167]
       }
     ]
   },
@@ -65,10 +53,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -78,10 +63,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }
@@ -139,10 +121,7 @@
     "id_str": "1138830389823397888",
     "full_text": "FYI if you are thinking about submitting to @devfestwi there is currently a lot less competition for 10 minute slots. 10 minutes is perfect for new presenters or covering a single idea.\n\nhttps://t.co/v8Ti2ehurD https://t.co/gtVzPYGKlm",
     "truncated": false,
-    "display_text_range": [
-      0,
-      210
-    ],
+    "display_text_range": [0, 210],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -152,10 +131,7 @@
           "name": "DevFest WI",
           "id": 1115261401273180200,
           "id_str": "1115261401273180160",
-          "indices": [
-            44,
-            54
-          ]
+          "indices": [44, 54]
         }
       ],
       "urls": [
@@ -163,20 +139,14 @@
           "url": "https://t.co/v8Ti2ehurD",
           "expanded_url": "https://devfestwi.com/blog/posts/call-for-proposals/",
           "display_url": "devfestwi.com/blog/posts/cal…",
-          "indices": [
-            187,
-            210
-          ]
+          "indices": [187, 210]
         }
       ],
       "media": [
         {
           "id": 1138830383926186000,
           "id_str": "1138830383926185985",
-          "indices": [
-            211,
-            234
-          ],
+          "indices": [211, 234],
           "media_url": "http://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
           "media_url_https": "https://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
           "url": "https://t.co/gtVzPYGKlm",
@@ -213,10 +183,7 @@
         {
           "id": 1138830383926186000,
           "id_str": "1138830383926185985",
-          "indices": [
-            211,
-            234
-          ],
+          "indices": [211, 234],
           "media_url": "http://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
           "media_url_https": "https://pbs.twimg.com/media/D83wM01XkAExBlJ.jpg",
           "url": "https://t.co/gtVzPYGKlm",
@@ -269,10 +236,7 @@
               "url": "https://t.co/Usfq8Nm4kN",
               "expanded_url": "https://abrah.am",
               "display_url": "abrah.am",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },
@@ -282,10 +246,7 @@
               "url": "https://t.co/5SyJuBOivM",
               "expanded_url": "http://slides.today",
               "display_url": "slides.today",
-              "indices": [
-                99,
-                122
-              ]
+              "indices": [99, 122]
             }
           ]
         }

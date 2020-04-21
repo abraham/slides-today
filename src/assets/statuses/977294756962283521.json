@@ -4,10 +4,7 @@
   "id_str": "977294756962283521",
   "full_text": "Learning how to make web apps wicked fast on mobile from @pblatteier &amp; @abraham at @Jazz_Con⚡tl;dr: less code === more fast! https://t.co/ATYxwonHh2",
   "truncated": false,
-  "display_text_range": [
-    0,
-    128
-  ],
+  "display_text_range": [0, 128],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          57,
-          68
-        ]
+        "indices": [57, 68]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          75,
-          83
-        ]
+        "indices": [75, 83]
       },
       {
         "screen_name": "Jazz_Con",
         "name": "JazzCon.Tech",
         "id": 791361411289145300,
         "id_str": "791361411289145344",
-        "indices": [
-          87,
-          96
-        ]
+        "indices": [87, 96]
       }
     ],
     "urls": [],
@@ -48,10 +36,7 @@
       {
         "id": 977294734652772400,
         "id_str": "977294734652772352",
-        "indices": [
-          129,
-          152
-        ],
+        "indices": [129, 152],
         "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
         "url": "https://t.co/ATYxwonHh2",
@@ -88,10 +73,7 @@
       {
         "id": 977294734652772400,
         "id_str": "977294734652772352",
-        "indices": [
-          129,
-          152
-        ],
+        "indices": [129, 152],
         "media_url": "http://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZAMYhvWkAATtv-.jpg",
         "url": "https://t.co/ATYxwonHh2",
@@ -144,10 +126,7 @@
             "url": "https://t.co/1TAxxiYIX9",
             "expanded_url": "http://vakila.github.io",
             "display_url": "vakila.github.io",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -157,10 +136,7 @@
             "url": "https://t.co/OCjE7dGBIy",
             "expanded_url": "http://pronoun.is/she",
             "display_url": "pronoun.is/she",
-            "indices": [
-              116,
-              139
-            ]
+            "indices": [116, 139]
           }
         ]
       }

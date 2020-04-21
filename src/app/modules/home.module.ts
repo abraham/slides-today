@@ -25,9 +25,7 @@ const routes: Routes = [
     TagListPipe,
     TagsSheetComponent,
   ],
-  entryComponents: [
-    TagsSheetComponent,
-  ],
+  entryComponents: [TagsSheetComponent],
   imports: [
     CardModule,
     CommonModule,
@@ -36,4 +34,4 @@ const routes: Routes = [
     RouterModule.forChild(routes),
   ],
 })
-export class HomeModule { }
+export class HomeModule {}

@@ -4,10 +4,7 @@
   "id_str": "823909988137635841",
   "full_text": "The dynamic duo of @pblatteier and @abraham will dive into \"Web Components: Lego bricks of the web\" @Jazz_Con  - early bird ends this week!",
   "truncated": false,
-  "display_text_range": [
-    0,
-    139
-  ],
+  "display_text_range": [0, 139],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          19,
-          30
-        ]
+        "indices": [19, 30]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          35,
-          43
-        ]
+        "indices": [35, 43]
       },
       {
         "screen_name": "Jazz_Con",
         "name": "JazzCon.Tech",
         "id": 791361411289145300,
         "id_str": "791361411289145344",
-        "indices": [
-          100,
-          109
-        ]
+        "indices": [100, 109]
       }
     ],
     "urls": []
@@ -66,10 +54,7 @@
             "url": "https://t.co/oW79gI4n3R",
             "expanded_url": "http://jazzcon.tech",
             "display_url": "jazzcon.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

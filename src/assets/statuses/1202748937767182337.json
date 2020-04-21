@@ -4,18 +4,12 @@
   "id_str": "1202748937767182337",
   "full_text": "Had the BEST time at our #ModernWeb Bay area Holiday Party last night!🎄\n\nBig thank you to everyone who showed up, especially our amazing speakers and our host, @evahowe!✨\n\nWhat was your favorite part?! https://t.co/XlCgbEL6I8",
   "truncated": false,
-  "display_text_range": [
-    0,
-    201
-  ],
+  "display_text_range": [0, 201],
   "entities": {
     "hashtags": [
       {
         "text": "ModernWeb",
-        "indices": [
-          25,
-          35
-        ]
+        "indices": [25, 35]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "evahowe",
         "id": 14605476,
         "id_str": "14605476",
-        "indices": [
-          160,
-          168
-        ]
+        "indices": [160, 168]
       }
     ],
     "urls": [],
@@ -36,10 +27,7 @@
       {
         "id": 1202748881731240000,
         "id_str": "1202748881731239937",
-        "indices": [
-          202,
-          225
-        ],
+        "indices": [202, 225],
         "media_url": "http://pbs.twimg.com/media/ELEFvEmWwAEZHrb.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELEFvEmWwAEZHrb.jpg",
         "url": "https://t.co/XlCgbEL6I8",
@@ -76,10 +64,7 @@
       {
         "id": 1202748881731240000,
         "id_str": "1202748881731239937",
-        "indices": [
-          202,
-          225
-        ],
+        "indices": [202, 225],
         "media_url": "http://pbs.twimg.com/media/ELEFvEmWwAEZHrb.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELEFvEmWwAEZHrb.jpg",
         "url": "https://t.co/XlCgbEL6I8",
@@ -112,10 +97,7 @@
       {
         "id": 1202748881722904600,
         "id_str": "1202748881722904576",
-        "indices": [
-          202,
-          225
-        ],
+        "indices": [202, 225],
         "media_url": "http://pbs.twimg.com/media/ELEFvEkXkAA0jPH.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELEFvEkXkAA0jPH.jpg",
         "url": "https://t.co/XlCgbEL6I8",
@@ -148,10 +130,7 @@
       {
         "id": 1202748881718644700,
         "id_str": "1202748881718644737",
-        "indices": [
-          202,
-          225
-        ],
+        "indices": [202, 225],
         "media_url": "http://pbs.twimg.com/media/ELEFvEjWkAEdzf7.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELEFvEjWkAEdzf7.jpg",
         "url": "https://t.co/XlCgbEL6I8",
@@ -204,10 +183,7 @@
             "url": "https://t.co/RHmAu7lPmf",
             "expanded_url": "http://moderndotweb.com",
             "display_url": "moderndotweb.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -1,7 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { BehaviorSubject } from 'rxjs';
-import { DEFAULT_INVERTED_THEME, DEFAULT_THEME, invert, Theme } from '../models/theme';
+import {
+  DEFAULT_INVERTED_THEME,
+  DEFAULT_THEME,
+  invert,
+  Theme,
+} from '../models/theme';
 
 @Injectable({
   providedIn: 'root',
@@ -13,7 +18,10 @@ export class ThemeService {
   constructor(private meta: Meta) {
     this.current$.subscribe(theme => {
       this.inverted$.next(invert(theme));
-      this.meta.updateTag({ name: 'theme-color', content: theme.backgroundColor });
+      this.meta.updateTag({
+        content: theme.backgroundColor,
+        name: 'theme-color',
+      });
     });
   }
 
