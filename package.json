@@ -99,7 +99,7 @@
     "pptr-testing-library": "0.5.0",
     "protractor": "6.0.0",
     "puppeteer": "2.1.1",
-    "sass": "1.26.3",
+    "sass": "1.26.5",
     "start-server-and-test": "1.11.0",
     "stylelint": "13.3.3",
     "stylelint-config-sass-guidelines": "7.0.0",
