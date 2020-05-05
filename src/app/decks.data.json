@@ -189,6 +189,54 @@
     ]
   },
   {
+    "id": "-M6axITzAwtFTZbqzXbU",
+    "archived": false,
+    "nodePackages": [
+    ],
+    "githubRepos": [
+      "ampproject/amphtml"
+    ],
+    "speakerIds": [
+      "-KsZTL-5U4v1UYxq4Zbp",
+      "-KsZTNlw7dpLoH5mrsT4"
+    ],
+    "title": "Online AMP Study Jam",
+    "date": {
+      "start": "2020-05-16T00:00:00.000Z",
+      "end": "2020-05-16T00:00:00.000Z"
+    },
+    "description": "What is a Study Jam?\n\nStudy Jams are community-run study groups for developers. This is a great opportunity to bring members of our community together to learn something. These trainings will give you a specific skill you can use for personal development or career advancement.\n\nWhy an AMP Study Jam?\n\nAMP is an open-source HTML framework created by Google that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else.\n\nWho should attend?\n\nAMP Study Jam is suited best for:\n1) those just getting started with modern web development\n2) those with programming experience in other JavaScript frameworks\n\nWhat do you need?\n\nA computer with audio and internet.\n\nHow do you join?\n\nWe'll add a link before the event starts.",
+    "eventTitle": "GDG Madison",
+    "tags": [
+      "javascript",
+      "perfmatters",
+      "workshop"
+    ],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://www.meetup.com/gdgmadison/events/270177165/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "resources": [
+      {
+        "title": "AMP",
+        "url": "https://amp.dev/",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [
+    ],
+    "tweetIds": [
+      "1253760498300063747",
+      "1256246901189607425"
+    ]
+  },
+  {
     "id": "-M21-9vkfkVRSx9kyUz7",
     "archived": true,
     "nodePackages": [
