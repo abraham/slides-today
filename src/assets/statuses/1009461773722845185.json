@@ -4,10 +4,7 @@
   "id_str": "1009461773722845185",
   "full_text": "Veterans 😎! See you in November @abraham &amp; @pblatteier https://t.co/Rxqsd0jYpJ",
   "truncated": false,
-  "display_text_range": [
-    0,
-    58
-  ],
+  "display_text_range": [0, 58],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          32,
-          40
-        ]
+        "indices": [32, 40]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          47,
-          58
-        ]
+        "indices": [47, 58]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/Rxqsd0jYpJ",
         "expanded_url": "https://twitter.com/abraham/status/1009144217585815553",
         "display_url": "twitter.com/abraham/status…",
-        "indices": [
-          59,
-          82
-        ]
+        "indices": [59, 82]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -79,10 +64,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }
@@ -140,18 +122,12 @@
     "id_str": "1009144217585815553",
     "full_text": "Very excited that @pblatteier and I will be presenting \"How Do Service Workers Even?\" for our third year at @mobileeraconf! #mobileera https://t.co/DO1ytFQxju",
     "truncated": false,
-    "display_text_range": [
-      0,
-      134
-    ],
+    "display_text_range": [0, 134],
     "entities": {
       "hashtags": [
         {
           "text": "mobileera",
-          "indices": [
-            124,
-            134
-          ]
+          "indices": [124, 134]
         }
       ],
       "symbols": [],
@@ -161,20 +137,14 @@
           "name": "Pearl Latteier",
           "id": 202376085,
           "id_str": "202376085",
-          "indices": [
-            18,
-            29
-          ]
+          "indices": [18, 29]
         },
         {
           "screen_name": "mobileeraconf",
           "name": "Mobile Era Conference 🇳🇴",
           "id": 4179545055,
           "id_str": "4179545055",
-          "indices": [
-            108,
-            122
-          ]
+          "indices": [108, 122]
         }
       ],
       "urls": [],
@@ -182,10 +152,7 @@
         {
           "id": 1009144155904331800,
           "id_str": "1009144155904331776",
-          "indices": [
-            135,
-            158
-          ],
+          "indices": [135, 158],
           "media_url": "http://pbs.twimg.com/media/DgEzQ1vW0AA0Umw.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DgEzQ1vW0AA0Umw.jpg",
           "url": "https://t.co/DO1ytFQxju",
@@ -222,10 +189,7 @@
         {
           "id": 1009144155904331800,
           "id_str": "1009144155904331776",
-          "indices": [
-            135,
-            158
-          ],
+          "indices": [135, 158],
           "media_url": "http://pbs.twimg.com/media/DgEzQ1vW0AA0Umw.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DgEzQ1vW0AA0Umw.jpg",
           "url": "https://t.co/DO1ytFQxju",
@@ -278,10 +242,7 @@
               "url": "https://t.co/Usfq8Nm4kN",
               "expanded_url": "https://abrah.am",
               "display_url": "abrah.am",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },
@@ -291,10 +252,7 @@
               "url": "https://t.co/5SyJuBOivM",
               "expanded_url": "http://slides.today",
               "display_url": "slides.today",
-              "indices": [
-                99,
-                122
-              ]
+              "indices": [99, 122]
             }
           ]
         }

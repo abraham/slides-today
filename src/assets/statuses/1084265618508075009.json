@@ -4,25 +4,16 @@
   "id_str": "1084265618508075009",
   "full_text": "Monday's Meetup: Intro to RxJS https://t.co/AT51bQSiJR #Meetup #Madison via @Meetup",
   "truncated": false,
-  "display_text_range": [
-    0,
-    83
-  ],
+  "display_text_range": [0, 83],
   "entities": {
     "hashtags": [
       {
         "text": "Meetup",
-        "indices": [
-          55,
-          62
-        ]
+        "indices": [55, 62]
       },
       {
         "text": "Madison",
-        "indices": [
-          63,
-          71
-        ]
+        "indices": [63, 71]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "name": "Meetup",
         "id": 14591071,
         "id_str": "14591071",
-        "indices": [
-          76,
-          83
-        ]
+        "indices": [76, 83]
       }
     ],
     "urls": [
@@ -43,10 +31,7 @@
         "url": "https://t.co/AT51bQSiJR",
         "expanded_url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzcbsb/",
         "display_url": "meetup.com/MadisonJS/even…",
-        "indices": [
-          31,
-          54
-        ]
+        "indices": [31, 54]
       }
     ]
   },
@@ -71,10 +56,7 @@
             "url": "http://t.co/PkCREavoit",
             "expanded_url": "http://madjavascript.com",
             "display_url": "madjavascript.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },
@@ -84,10 +66,7 @@
             "url": "http://t.co/zPnzxNWtM8",
             "expanded_url": "http://www.meetup.com/MadisonJS/",
             "display_url": "meetup.com/MadisonJS/",
-            "indices": [
-              38,
-              60
-            ]
+            "indices": [38, 60]
           }
         ]
       }

@@ -4,10 +4,7 @@
   "id_str": "1051614088260923392",
   "full_text": "Curious about @flutterio? Come to an intro talk I'm giving with @abraham tomorrow @gdgmadison. https://t.co/Y0LV3gSAN4",
   "truncated": false,
-  "display_text_range": [
-    0,
-    118
-  ],
+  "display_text_range": [0, 118],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          14,
-          24
-        ]
+        "indices": [14, 24]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          64,
-          72
-        ]
+        "indices": [64, 72]
       },
       {
         "screen_name": "gdgmadison",
         "name": "GDG Madison",
         "id": 60940193,
         "id_str": "60940193",
-        "indices": [
-          82,
-          93
-        ]
+        "indices": [82, 93]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/Y0LV3gSAN4",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/254581634/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          95,
-          118
-        ]
+        "indices": [95, 118]
       }
     ]
   },

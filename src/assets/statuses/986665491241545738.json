@@ -4,25 +4,16 @@
   "id_str": "986665491241545738",
   "full_text": "Did you know that the avg site load time on mobile is 19 seconds? TIL that fun fact and about to learn how the PRPL pattern can help! Push, Render, Pre-cache, Lazy-load #perfmatters #railsconf",
   "truncated": false,
-  "display_text_range": [
-    0,
-    192
-  ],
+  "display_text_range": [0, 192],
   "entities": {
     "hashtags": [
       {
         "text": "perfmatters",
-        "indices": [
-          169,
-          181
-        ]
+        "indices": [169, 181]
       },
       {
         "text": "railsconf",
-        "indices": [
-          182,
-          192
-        ]
+        "indices": [182, 192]
       }
     ],
     "symbols": [],

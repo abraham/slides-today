@@ -4,18 +4,12 @@
   "id_str": "1027985462206582786",
   "full_text": "About watch a talk about Wicked Fast Mobile Web. These @bendyworks folks are entertaining! #midwestjs",
   "truncated": false,
-  "display_text_range": [
-    0,
-    101
-  ],
+  "display_text_range": [0, 101],
   "entities": {
     "hashtags": [
       {
         "text": "midwestjs",
-        "indices": [
-          91,
-          101
-        ]
+        "indices": [91, 101]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          55,
-          66
-        ]
+        "indices": [55, 66]
       }
     ],
     "urls": []
@@ -54,37 +45,25 @@
             "url": "https://t.co/UyFatUBRGE",
             "expanded_url": "http://github.com/ryanwebjackson",
             "display_url": "github.com/ryanwebjackson",
-            "indices": [
-              2,
-              25
-            ]
+            "indices": [2, 25]
           },
           {
             "url": "https://t.co/6RweeCaPgC",
             "expanded_url": "http://player.fm/ryan11/fm",
             "display_url": "player.fm/ryan11/fm",
-            "indices": [
-              29,
-              52
-            ]
+            "indices": [29, 52]
           },
           {
             "url": "https://t.co/yrhbP9uXsI",
             "expanded_url": "http://open.spotify.com/user/rwj_spoti",
             "display_url": "open.spotify.com/user/rwj_spoti",
-            "indices": [
-              55,
-              78
-            ]
+            "indices": [55, 78]
           },
           {
             "url": "https://t.co/hkLhvC2oVv",
             "expanded_url": "http://sanebox.com/t/7jl3t",
             "display_url": "sanebox.com/t/7jl3t",
-            "indices": [
-              118,
-              141
-            ]
+            "indices": [118, 141]
           }
         ]
       }

@@ -4,10 +4,7 @@
   "id_str": "1190274434357252097",
   "full_text": "Got named routing working on the @FlutterDev for Web demo https://t.co/CWBqPIAspx (Currently only hash based routing is supported)",
   "truncated": false,
-  "display_text_range": [
-    0,
-    130
-  ],
+  "display_text_range": [0, 130],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          33,
-          44
-        ]
+        "indices": [33, 44]
       }
     ],
     "urls": [
@@ -28,10 +22,7 @@
         "url": "https://t.co/CWBqPIAspx",
         "expanded_url": "https://era-of-dogs.web.app/#/dogs/3",
         "display_url": "era-of-dogs.web.app/#/dogs/3",
-        "indices": [
-          58,
-          81
-        ]
+        "indices": [58, 81]
       }
     ]
   },
@@ -56,10 +47,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -69,10 +57,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

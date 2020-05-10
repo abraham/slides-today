@@ -4,18 +4,12 @@
   "id_str": "951268923915362304",
   "full_text": "Excited to be speaking about Wicked Fast #PWA's next month at the fabulous @devfestkc with my @bendyworks colleague @abraham. Hope to see you there!\nhttps://t.co/qMWGVEeiT0",
   "truncated": false,
-  "display_text_range": [
-    0,
-    172
-  ],
+  "display_text_range": [0, 172],
   "entities": {
     "hashtags": [
       {
         "text": "PWA",
-        "indices": [
-          41,
-          45
-        ]
+        "indices": [41, 45]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "DevFest KC",
         "id": 4894485559,
         "id_str": "4894485559",
-        "indices": [
-          75,
-          85
-        ]
+        "indices": [75, 85]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          94,
-          105
-        ]
+        "indices": [94, 105]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          116,
-          124
-        ]
+        "indices": [116, 124]
       }
     ],
     "urls": [
@@ -56,10 +41,7 @@
         "url": "https://t.co/qMWGVEeiT0",
         "expanded_url": "https://devfestkc.com/sessions/-L23rxCZOTDSTvL-ebnL",
         "display_url": "devfestkc.com/sessions/-L23r…",
-        "indices": [
-          149,
-          172
-        ]
+        "indices": [149, 172]
       }
     ]
   },

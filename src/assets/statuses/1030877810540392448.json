@@ -4,18 +4,12 @@
   "id_str": "1030877810540392448",
   "full_text": "I'm ready to go #SERVERLESS with @Firebase! Thanks to @abraham and @pblatteier for the fun and informative talk at @gdgtc! https://t.co/ljdegO6fns",
   "truncated": false,
-  "display_text_range": [
-    0,
-    122
-  ],
+  "display_text_range": [0, 122],
   "entities": {
     "hashtags": [
       {
         "text": "SERVERLESS",
-        "indices": [
-          16,
-          27
-        ]
+        "indices": [16, 27]
       }
     ],
     "symbols": [],
@@ -25,40 +19,28 @@
         "name": "Firebase",
         "id": 447644824,
         "id_str": "447644824",
-        "indices": [
-          33,
-          42
-        ]
+        "indices": [33, 42]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          54,
-          62
-        ]
+        "indices": [54, 62]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          67,
-          78
-        ]
+        "indices": [67, 78]
       },
       {
         "screen_name": "gdgtc",
         "name": "GDG Twin Cities",
         "id": 48334750,
         "id_str": "48334750",
-        "indices": [
-          115,
-          121
-        ]
+        "indices": [115, 121]
       }
     ],
     "urls": [],
@@ -66,10 +48,7 @@
       {
         "id": 1030873839473844200,
         "id_str": "1030873839473844224",
-        "indices": [
-          123,
-          146
-        ],
+        "indices": [123, 146],
         "media_url": "http://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
         "url": "https://t.co/ljdegO6fns",
@@ -106,10 +85,7 @@
       {
         "id": 1030873839473844200,
         "id_str": "1030873839473844224",
-        "indices": [
-          123,
-          146
-        ],
+        "indices": [123, 146],
         "media_url": "http://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dk5mS5IU4AAc6t9.jpg",
         "url": "https://t.co/ljdegO6fns",
@@ -209,22 +185,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -93.329515,
-            44.889964
-          ],
-          [
-            -93.194578,
-            44.889964
-          ],
-          [
-            -93.194578,
-            45.051257
-          ],
-          [
-            -93.329515,
-            45.051257
-          ]
+          [-93.329515, 44.889964],
+          [-93.194578, 44.889964],
+          [-93.194578, 45.051257],
+          [-93.329515, 45.051257]
         ]
       ]
     },

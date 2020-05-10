@@ -8,7 +8,6 @@ import { DEFAULT_THEME } from '../models/theme';
   templateUrl: './card.component.html',
 })
 export class CardComponent implements OnInit {
-
   @Input() actions: Link[] = [];
   @Input() image = '';
   @Input() theme = DEFAULT_THEME;
@@ -16,10 +15,10 @@ export class CardComponent implements OnInit {
 
   external = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    this.external = this.url.startsWith('http://') || this.url.startsWith('https://');
+    this.external =
+      this.url.startsWith('http://') || this.url.startsWith('https://');
   }
-
 }

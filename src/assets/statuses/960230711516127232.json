@@ -4,10 +4,7 @@
   "id_str": "960230711516127232",
   "full_text": "If you're in the area, go check out @pblatteier and @abraham talking about wicked fast ⚡ mobile web! https://t.co/LNHF5uRYvl",
   "truncated": false,
-  "display_text_range": [
-    0,
-    100
-  ],
+  "display_text_range": [0, 100],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          36,
-          47
-        ]
+        "indices": [36, 47]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          52,
-          60
-        ]
+        "indices": [52, 60]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/LNHF5uRYvl",
         "expanded_url": "https://twitter.com/gdgtc/status/958037035780005888",
         "display_url": "twitter.com/gdgtc/status/9…",
-        "indices": [
-          101,
-          124
-        ]
+        "indices": [101, 124]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "https://t.co/nSohQ3T0sE",
             "expanded_url": "https://bendyworks.com",
             "display_url": "bendyworks.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -130,18 +115,12 @@
     "id_str": "958037035780005888",
     "full_text": "Only two weeks left until our biggest #DevFestMN ever!  Check out these great speakers  https://t.co/OPzBbmJZY4 and start planning your schedule https://t.co/Th4bOXtVAV. https://t.co/NDRSCXQ04m",
     "truncated": false,
-    "display_text_range": [
-      0,
-      169
-    ],
+    "display_text_range": [0, 169],
     "entities": {
       "hashtags": [
         {
           "text": "DevFestMN",
-          "indices": [
-            38,
-            48
-          ]
+          "indices": [38, 48]
         }
       ],
       "symbols": [],
@@ -151,29 +130,20 @@
           "url": "https://t.co/OPzBbmJZY4",
           "expanded_url": "https://devfest.mn/speakers",
           "display_url": "devfest.mn/speakers",
-          "indices": [
-            88,
-            111
-          ]
+          "indices": [88, 111]
         },
         {
           "url": "https://t.co/Th4bOXtVAV",
           "expanded_url": "https://devfest.mn/schedule",
           "display_url": "devfest.mn/schedule",
-          "indices": [
-            145,
-            168
-          ]
+          "indices": [145, 168]
         }
       ],
       "media": [
         {
           "id": 958019388346581000,
           "id_str": "958019388346580992",
-          "indices": [
-            170,
-            193
-          ],
+          "indices": [170, 193],
           "media_url": "http://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
           "url": "https://t.co/NDRSCXQ04m",
@@ -210,10 +180,7 @@
         {
           "id": 958019388346581000,
           "id_str": "958019388346580992",
-          "indices": [
-            170,
-            193
-          ],
+          "indices": [170, 193],
           "media_url": "http://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DUuRjtJVwAAx1Nb.jpg",
           "url": "https://t.co/NDRSCXQ04m",
@@ -266,10 +233,7 @@
               "url": "https://t.co/zhxcASyKSB",
               "expanded_url": "https://www.eventbrite.com/e/devfestmn-focus-ml-ai-tickets-67015417919",
               "display_url": "eventbrite.com/e/devfestmn-fo…",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },
@@ -279,10 +243,7 @@
               "url": "https://t.co/vavlapwIKe",
               "expanded_url": "https://www.gdgtc.com",
               "display_url": "gdgtc.com",
-              "indices": [
-                135,
-                158
-              ]
+              "indices": [135, 158]
             }
           ]
         }

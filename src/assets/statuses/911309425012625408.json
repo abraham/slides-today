@@ -4,10 +4,7 @@
   "id_str": "911309425012625408",
   "full_text": "@szynszyliszys I saw @pblatteier @abraham for the first time at Midwestjs and loved their delivery. Very fun. Wish I was there. @connect_js",
   "truncated": false,
-  "display_text_range": [
-    15,
-    139
-  ],
+  "display_text_range": [15, 139],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,40 +14,28 @@
         "name": "Anna Migas",
         "id": 106479510,
         "id_str": "106479510",
-        "indices": [
-          0,
-          14
-        ]
+        "indices": [0, 14]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          21,
-          32
-        ]
+        "indices": [21, 32]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          33,
-          41
-        ]
+        "indices": [33, 41]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          128,
-          139
-        ]
+        "indices": [128, 139]
       }
     ],
     "urls": []
@@ -76,10 +61,7 @@
             "url": "https://t.co/teE1yFOCFL",
             "expanded_url": "http://codewinds.com/",
             "display_url": "codewinds.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -4,10 +4,7 @@
   "id_str": "988535041067274242",
   "full_text": "We had awesome times at @RailsConf!\n\nhttps://t.co/ba7lQhJlU1 https://t.co/rQGVErcKmy",
   "truncated": false,
-  "display_text_range": [
-    0,
-    60
-  ],
+  "display_text_range": [0, 60],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "RailsConf",
         "id": 5493662,
         "id_str": "5493662",
-        "indices": [
-          24,
-          34
-        ]
+        "indices": [24, 34]
       }
     ],
     "urls": [
@@ -28,20 +22,14 @@
         "url": "https://t.co/ba7lQhJlU1",
         "expanded_url": "https://bendyworks.com/blog/awesome-times-at-railsconf?utm_source=twitter&utm_medium=social&utm_campaign=blogged-awesome-times-at-railsconf",
         "display_url": "bendyworks.com/blog/awesome-t…",
-        "indices": [
-          37,
-          60
-        ]
+        "indices": [37, 60]
       }
     ],
     "media": [
       {
         "id": 988535003956072400,
         "id_str": "988535003956072448",
-        "indices": [
-          61,
-          84
-        ],
+        "indices": [61, 84],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
         "url": "https://t.co/rQGVErcKmy",
@@ -78,10 +66,7 @@
       {
         "id": 988535003956072400,
         "id_str": "988535003956072448",
-        "indices": [
-          61,
-          84
-        ],
+        "indices": [61, 84],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Dbf7WT7XUAAZ8gX.jpg",
         "url": "https://t.co/rQGVErcKmy",
@@ -111,10 +96,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            3,
-            2
-          ],
+          "aspect_ratio": [3, 2],
           "variants": [
             {
               "bitrate": 0,
@@ -147,10 +129,7 @@
             "url": "https://t.co/nSohQ3T0sE",
             "expanded_url": "https://bendyworks.com",
             "display_url": "bendyworks.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

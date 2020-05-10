@@ -1,82 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="/favicon.png">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
-  <title>Slides.today | Presentations from Abraham Williams and Pearl Latteier</title>
-  <meta name="description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier">
+    <title>
+      Slides.today | Presentations from Abraham Williams and Pearl Latteier
+    </title>
+    <meta
+      name="description"
+      content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"
+    />
 
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"/>
-  <meta name="twitter:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"/>
-  <meta name="twitter:image" content="/assets/img/today-192x192.png"/>
-  <meta name="twitter:image:alt" content="today"/>
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"
+    />
+    <meta
+      name="twitter:description"
+      content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"
+    />
+    <meta name="twitter:image" content="/assets/img/today-192x192.png" />
+    <meta name="twitter:image:alt" content="today" />
 
-  <meta name="og:type" content="website"/>
-  <meta name="og:title" content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"/>
-  <meta name="og:description" content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"/>
-  <meta name="og:image" content="/assets/img/today-192x192.png"/>
-  <meta name="og:image:alt" content="today"/>
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:title"
+      content="Slides.today | Presentations from Abraham Williams and Pearl Latteier"
+    />
+    <meta
+      name="og:description"
+      content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier"
+    />
+    <meta name="og:image" content="/assets/img/today-192x192.png" />
+    <meta name="og:image:alt" content="today" />
 
-  <meta name="theme-color" content="#fff"/>
-  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
-  <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#fff" />
+    <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
 
-  <style>
-    html {
-      overflow-y: scroll;
-    }
+    <style>
+      html {
+        overflow-y: scroll;
+      }
 
-    body {
-      margin: 0;
-    }
+      body {
+        margin: 0;
+      }
 
-    app-root {
-      width: 100%;
-    }
-  </style>
-</head>
-<body class="mdc-typography">
-  <app-root></app-root>
+      app-root {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body class="mdc-typography">
+    <app-root></app-root>
 
-  <noscript>
-    JavaScript is required to view Slides.today.
-  </noscript>
-  <script>
-    window.addEventListener('load', () => {
-      [
-        'https://fonts.googleapis.com/css?family=Roboto&display=swap'
-      ].map(url => {
-        var link = document.createElement('link');
-        link.href = url;
-        link.rel = 'stylesheet';
-        document.body.appendChild(link);
+    <noscript>
+      JavaScript is required to view Slides.today.
+    </noscript>
+    <script>
+      window.addEventListener('load', () => {
+        ['https://fonts.googleapis.com/css?family=Roboto&display=swap'].map(
+          url => {
+            var link = document.createElement('link');
+            link.href = url;
+            link.rel = 'stylesheet';
+            document.body.appendChild(link);
+          },
+        );
+
+        [
+          'https://www.google-analytics.com/analytics.js',
+          '/assets/autotrack/autotrack.js',
+        ].map(url => {
+          var script = document.createElement('script');
+          script.src = url;
+          script.async = 'async';
+          document.body.appendChild(script);
+        });
       });
 
-      [
-        'https://www.google-analytics.com/analytics.js',
-        '/assets/autotrack/autotrack.js'
-      ].map(url => {
-        var script = document.createElement('script');
-        script.src = url;
-        script.async = 'async';
-        document.body.appendChild(script);
-      });
-    });
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga('create', 'UA-105094437-1', 'auto');
 
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-105094437-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'pageVisibilityTracker');
+      ga('require', 'urlChangeTracker');
 
-    ga('require', 'eventTracker');
-    ga('require', 'outboundLinkTracker');
-    ga('require', 'pageVisibilityTracker');
-    ga('require', 'urlChangeTracker');
-
-    ga('send', 'pageview');
-  </script>
-  <script src="/assets/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-</body>
+      ga('send', 'pageview');
+    </script>
+    <script src="/assets/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  </body>
 </html>

@@ -4,18 +4,12 @@
   "id_str": "1088607444689801216",
   "full_text": "#SanFrancisco \nWe will have 2 cool Flutter speakers on stage at the Google SF office tomorrow at @sfhtml5 ! \nIf you are a web developer, come and listen to @abraham and his Flutter journey as a Web GDE!\nAnd ask your questions to Flutter engineer @flttry! \nhttps://t.co/Rf2OqIsejo",
   "truncated": false,
-  "display_text_range": [
-    0,
-    279
-  ],
+  "display_text_range": [0, 279],
   "entities": {
     "hashtags": [
       {
         "text": "SanFrancisco",
-        "indices": [
-          0,
-          13
-        ]
+        "indices": [0, 13]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "San Francisco HTML5",
         "id": 275405363,
         "id_str": "275405363",
-        "indices": [
-          97,
-          105
-        ]
+        "indices": [97, 105]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          156,
-          164
-        ]
+        "indices": [156, 164]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/Rf2OqIsejo",
         "expanded_url": "https://www.meetup.com/sfhtml5/events/256523273/",
         "display_url": "meetup.com/sfhtml5/events…",
-        "indices": [
-          256,
-          279
-        ]
+        "indices": [256, 279]
       }
     ]
   },

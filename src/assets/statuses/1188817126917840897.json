@@ -4,10 +4,7 @@
   "id_str": "1188817126917840897",
   "full_text": "Playing around with making a @FlutterDev for Web example app for @mobileeraconf. It works pretty well if a bit rough around the edges.\n\nhttps://t.co/oN5Rp1vQsP https://t.co/VNnEFQbBeF",
   "truncated": false,
-  "display_text_range": [
-    0,
-    159
-  ],
+  "display_text_range": [0, 159],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Flutter",
         "id": 420730316,
         "id_str": "420730316",
-        "indices": [
-          29,
-          40
-        ]
+        "indices": [29, 40]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          65,
-          79
-        ]
+        "indices": [65, 79]
       }
     ],
     "urls": [
@@ -38,20 +29,14 @@
         "url": "https://t.co/oN5Rp1vQsP",
         "expanded_url": "https://era-of-dogs.web.app/",
         "display_url": "era-of-dogs.web.app",
-        "indices": [
-          136,
-          159
-        ]
+        "indices": [136, 159]
       }
     ],
     "media": [
       {
         "id": 1188817120630624300,
         "id_str": "1188817120630624257",
-        "indices": [
-          160,
-          183
-        ],
+        "indices": [160, 183],
         "media_url": "http://pbs.twimg.com/media/EH-G32IXUAEKYhm.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EH-G32IXUAEKYhm.jpg",
         "url": "https://t.co/VNnEFQbBeF",
@@ -88,10 +73,7 @@
       {
         "id": 1188817120630624300,
         "id_str": "1188817120630624257",
-        "indices": [
-          160,
-          183
-        ],
+        "indices": [160, 183],
         "media_url": "http://pbs.twimg.com/media/EH-G32IXUAEKYhm.jpg",
         "media_url_https": "https://pbs.twimg.com/media/EH-G32IXUAEKYhm.jpg",
         "url": "https://t.co/VNnEFQbBeF",
@@ -144,10 +126,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -157,10 +136,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

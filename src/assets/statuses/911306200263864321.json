@@ -4,10 +4,7 @@
   "id_str": "911306200263864321",
   "full_text": "Everyone thinks @abraham @pearl @joshj and I are really nice people. Glad @connect_js could capture our true colors 😡😜 https://t.co/TePEnuQF56",
   "truncated": false,
-  "display_text_range": [
-    0,
-    118
-  ],
+  "display_text_range": [0, 118],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,40 +14,28 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          16,
-          24
-        ]
+        "indices": [16, 24]
       },
       {
         "screen_name": "Pearl",
         "name": "Pearl Margaret Ganzon",
         "id": 1606711,
         "id_str": "1606711",
-        "indices": [
-          25,
-          31
-        ]
+        "indices": [25, 31]
       },
       {
         "screen_name": "joshj",
         "name": "Josh Jensen",
         "id": 1102881,
         "id_str": "1102881",
-        "indices": [
-          32,
-          38
-        ]
+        "indices": [32, 38]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          74,
-          85
-        ]
+        "indices": [74, 85]
       }
     ],
     "urls": [
@@ -58,10 +43,7 @@
         "url": "https://t.co/TePEnuQF56",
         "expanded_url": "https://twitter.com/connecteventsio/status/911289694134112257",
         "display_url": "twitter.com/connecteventsi…",
-        "indices": [
-          119,
-          142
-        ]
+        "indices": [119, 142]
       }
     ]
   },
@@ -86,10 +68,7 @@
             "url": "https://t.co/ejwv1LyV9l",
             "expanded_url": "http://tzmanics.com",
             "display_url": "tzmanics.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -147,22 +126,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -84.576827,
-            33.6475029
-          ],
-          [
-            -84.289385,
-            33.6475029
-          ],
-          [
-            -84.289385,
-            33.8868859
-          ],
-          [
-            -84.576827,
-            33.8868859
-          ]
+          [-84.576827, 33.6475029],
+          [-84.289385, 33.6475029],
+          [-84.289385, 33.8868859],
+          [-84.576827, 33.8868859]
         ]
       ]
     },
@@ -183,10 +150,7 @@
     "id_str": "911289694134112257",
     "full_text": "https://t.co/udZEPch6ja",
     "truncated": false,
-    "display_text_range": [
-      0,
-      0
-    ],
+    "display_text_range": [0, 0],
     "entities": {
       "hashtags": [],
       "symbols": [],
@@ -196,10 +160,7 @@
         {
           "id": 911289660223111200,
           "id_str": "911289660223111168",
-          "indices": [
-            0,
-            23
-          ],
+          "indices": [0, 23],
           "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
           "url": "https://t.co/udZEPch6ja",
@@ -236,10 +197,7 @@
         {
           "id": 911289660223111200,
           "id_str": "911289660223111168",
-          "indices": [
-            0,
-            23
-          ],
+          "indices": [0, 23],
           "media_url": "http://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
           "media_url_https": "https://pbs.twimg.com/media/DKWNHiUVwAAgT5L.jpg",
           "url": "https://t.co/udZEPch6ja",
@@ -292,10 +250,7 @@
               "url": "https://t.co/TVN68h3mNL",
               "expanded_url": "http://connectevents.io",
               "display_url": "connectevents.io",
-              "indices": [
-                0,
-                23
-              ]
+              "indices": [0, 23]
             }
           ]
         },

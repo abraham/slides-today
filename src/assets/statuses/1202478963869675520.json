@@ -4,10 +4,7 @@
   "id_str": "1202478963869675520",
   "full_text": "Thx for the presentations @DeborahKurata and @abraham ! I especially enjoyed learning about streams and PWAs! Also, the cookies were really good too. 👏👏👏👏 https://t.co/cxxVKagNvA",
   "truncated": false,
-  "display_text_range": [
-    0,
-    154
-  ],
+  "display_text_range": [0, 154],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Deborah Kurata",
         "id": 802671878,
         "id_str": "802671878",
-        "indices": [
-          26,
-          40
-        ]
+        "indices": [26, 40]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          45,
-          53
-        ]
+        "indices": [45, 53]
       }
     ],
     "urls": [],
@@ -38,10 +29,7 @@
       {
         "id": 1202478950204633000,
         "id_str": "1202478950204633089",
-        "indices": [
-          155,
-          178
-        ],
+        "indices": [155, 178],
         "media_url": "http://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
         "url": "https://t.co/cxxVKagNvA",
@@ -78,10 +66,7 @@
       {
         "id": 1202478950204633000,
         "id_str": "1202478950204633089",
-        "indices": [
-          155,
-          178
-        ],
+        "indices": [155, 178],
         "media_url": "http://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ELAQO_TU8AEM2-b.jpg",
         "url": "https://t.co/cxxVKagNvA",
@@ -134,10 +119,7 @@
             "url": "https://t.co/5LC8L3LfGO",
             "expanded_url": "https://codingchapter.weebly.com",
             "display_url": "codingchapter.weebly.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

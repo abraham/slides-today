@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./tags-sheet.component.scss'],
   templateUrl: './tags-sheet.component.html',
 })
-export class TagsSheetComponent {
-}
+export class TagsSheetComponent {}

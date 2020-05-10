@@ -4,32 +4,20 @@
   "id_str": "943953366975164416",
   "full_text": "Get your ticket for WindyCity DevFest 1/12/2018. Awesome speaker lineup @Google https://t.co/udg05ox6Oc #android #udacity #gogo @abraham @bretmcg @marktimemedia @pfue @DoesitPew @yello",
   "truncated": false,
-  "display_text_range": [
-    0,
-    184
-  ],
+  "display_text_range": [0, 184],
   "entities": {
     "hashtags": [
       {
         "text": "android",
-        "indices": [
-          104,
-          112
-        ]
+        "indices": [104, 112]
       },
       {
         "text": "udacity",
-        "indices": [
-          113,
-          121
-        ]
+        "indices": [113, 121]
       },
       {
         "text": "gogo",
-        "indices": [
-          122,
-          127
-        ]
+        "indices": [122, 127]
       }
     ],
     "symbols": [],
@@ -39,70 +27,49 @@
         "name": "Google",
         "id": 20536157,
         "id_str": "20536157",
-        "indices": [
-          72,
-          79
-        ]
+        "indices": [72, 79]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          128,
-          136
-        ]
+        "indices": [128, 136]
       },
       {
         "screen_name": "BretMcG",
         "name": "Bret McGowen 🦝",
         "id": 213455686,
         "id_str": "213455686",
-        "indices": [
-          137,
-          145
-        ]
+        "indices": [137, 145]
       },
       {
         "screen_name": "marktimemedia",
         "name": "Michelle Schulp 💯🦄",
         "id": 140183551,
         "id_str": "140183551",
-        "indices": [
-          146,
-          160
-        ]
+        "indices": [146, 160]
       },
       {
         "screen_name": "pfue",
         "name": "Patrick Fuentes",
         "id": 44073328,
         "id_str": "44073328",
-        "indices": [
-          161,
-          166
-        ]
+        "indices": [161, 166]
       },
       {
         "screen_name": "DoesitPew",
         "name": "Stacy Devino -🤱",
         "id": 280166153,
         "id_str": "280166153",
-        "indices": [
-          167,
-          177
-        ]
+        "indices": [167, 177]
       },
       {
         "screen_name": "Yello",
         "name": "Yello",
         "id": 45692269,
         "id_str": "45692269",
-        "indices": [
-          178,
-          184
-        ]
+        "indices": [178, 184]
       }
     ],
     "urls": [
@@ -110,10 +77,7 @@
         "url": "https://t.co/udg05ox6Oc",
         "expanded_url": "https://windycity.devfest.io/speakers",
         "display_url": "windycity.devfest.io/speakers",
-        "indices": [
-          80,
-          103
-        ]
+        "indices": [80, 103]
       }
     ]
   },
@@ -138,10 +102,7 @@
             "url": "https://t.co/xWZ23GhrZY",
             "expanded_url": "https://www.linkedin.com/in/deanagreenfield/",
             "display_url": "linkedin.com/in/deanagreenf…",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

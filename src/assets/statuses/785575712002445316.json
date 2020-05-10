@@ -4,10 +4,7 @@
   "id_str": "785575712002445316",
   "full_text": ".@abraham @pblatteier Really enjoyed your talk at Madison PHP! Wondering when/if https://t.co/TzvsOITRyD might be live?",
   "truncated": false,
-  "display_text_range": [
-    0,
-    119
-  ],
+  "display_text_range": [0, 119],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          1,
-          9
-        ]
+        "indices": [1, 9]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          10,
-          21
-        ]
+        "indices": [10, 21]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/TzvsOITRyD",
         "expanded_url": "http://sprinkle.space",
         "display_url": "sprinkle.space",
-        "indices": [
-          81,
-          104
-        ]
+        "indices": [81, 104]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "http://t.co/2Ssgn5tmFu",
             "expanded_url": "http://buzelac.com",
             "display_url": "buzelac.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },

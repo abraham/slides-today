@@ -4,10 +4,7 @@
   "id_str": "977294561658712064",
   "full_text": "“Wicked fast PWAs” with @pblatteier and @abraham https://t.co/z6I0nbqWSy",
   "truncated": false,
-  "display_text_range": [
-    0,
-    48
-  ],
+  "display_text_range": [0, 48],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          24,
-          35
-        ]
+        "indices": [24, 35]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          40,
-          48
-        ]
+        "indices": [40, 48]
       }
     ],
     "urls": [],
@@ -38,10 +29,7 @@
       {
         "id": 977294553752457200,
         "id_str": "977294553752457216",
-        "indices": [
-          49,
-          72
-        ],
+        "indices": [49, 72],
         "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
         "url": "https://t.co/z6I0nbqWSy",
@@ -78,10 +66,7 @@
       {
         "id": 977294553752457200,
         "id_str": "977294553752457216",
-        "indices": [
-          49,
-          72
-        ],
+        "indices": [49, 72],
         "media_url": "http://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZAMN_1W0AA8fPm.jpg",
         "url": "https://t.co/z6I0nbqWSy",
@@ -134,10 +119,7 @@
             "url": "https://t.co/pRkO4RE4H6",
             "expanded_url": "http://mhartington.io/",
             "display_url": "mhartington.io",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

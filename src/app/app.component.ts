@@ -10,9 +10,11 @@ import { ThemeService } from './services/theme.service';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  constructor(private dataService: DataService,
-              private themeService: ThemeService,
-              private router: Router) {
+  constructor(
+    private dataService: DataService,
+    private themeService: ThemeService,
+    private router: Router,
+  ) {
     this.dataService.path$.subscribe(this.updatePath.bind(this));
     this.router.events.subscribe(event => {
       if (event instanceof RouteConfigLoadEnd) {

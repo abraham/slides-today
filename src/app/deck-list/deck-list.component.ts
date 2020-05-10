@@ -16,22 +16,25 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
   templateUrl: './deck-list.component.html',
 })
 export class DeckListComponent implements OnInit {
-  constructor(private dataService: DataService,
-              private themeService: ThemeService,
-              private deckService: DeckService,
-              private route: ActivatedRoute,
-              private bottomSheet: MatBottomSheet,
-              breakpointObserver: BreakpointObserver) {
+  constructor(
+    private dataService: DataService,
+    private themeService: ThemeService,
+    private deckService: DeckService,
+    private route: ActivatedRoute,
+    private bottomSheet: MatBottomSheet,
+    breakpointObserver: BreakpointObserver,
+  ) {
     this.themeService.reset();
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
     this.selectedTagIds$.subscribe(selectedTagIds => {
       this.hasSelectedTagIds = selectedTagIds.length !== 0;
     });
-    this.deckService.filter(this.selectedTagIds$)
-                    .subscribe(decks => this.decks = decks);
+    this.deckService
+      .filter(this.selectedTagIds$)
+      .subscribe(decks => (this.decks = decks));
     breakpointObserver
       .observe([Breakpoints.XSmall])
-      .subscribe(({ matches }) => this.mobile = matches);
+      .subscribe(({ matches }) => (this.mobile = matches));
   }
 
   selectedTagIds$: Observable<string[]>;
@@ -42,25 +45,27 @@ export class DeckListComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap.pipe(
       map(params => params.get('id')),
-      switchMap(id => id ? this.deckService.get(id) : EMPTY),
+      switchMap(id => (id ? this.deckService.get(id) : EMPTY)),
     );
 
-    this.route.paramMap.pipe(
-      map(params => params.get('tags')),
-    ).subscribe(tags => {
-      if (tags) {
-        tags.split(',').map(tag => {
-          this.dataService.tagSelection({
-            id: tag,
-            selected: true,
-            updatePath: false,
-          });
-        });
-      }
-    });
+    this.route.paramMap
+      .pipe(map(params => params.get('tags')))
+      .subscribe(tags => {
+        if (tags) {
+          tags.split(',').map(tag => this.selectTag(tag));
+        }
+      });
   }
 
   openTagsSheet() {
     this.bottomSheet.open(TagsSheetComponent);
+  }
+
+  private selectTag(tag: string) {
+    this.dataService.tagSelection({
+      id: tag,
+      selected: true,
+      updatePath: false,
+    });
   }
 }

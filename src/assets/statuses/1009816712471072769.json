@@ -4,39 +4,24 @@
   "id_str": "1009816712471072769",
   "full_text": ".@pblatteier helps us understand the benefits of #webcomponents at for our #frontend track at #WeRiseTech #WWCodeAT https://t.co/9MssMyFIhU",
   "truncated": false,
-  "display_text_range": [
-    0,
-    139
-  ],
+  "display_text_range": [0, 139],
   "entities": {
     "hashtags": [
       {
         "text": "webcomponents",
-        "indices": [
-          49,
-          63
-        ]
+        "indices": [49, 63]
       },
       {
         "text": "frontend",
-        "indices": [
-          75,
-          84
-        ]
+        "indices": [75, 84]
       },
       {
         "text": "WeRiseTech",
-        "indices": [
-          94,
-          105
-        ]
+        "indices": [94, 105]
       },
       {
         "text": "WWCodeAT",
-        "indices": [
-          106,
-          115
-        ]
+        "indices": [106, 115]
       }
     ],
     "symbols": [],
@@ -46,10 +31,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          1,
-          12
-        ]
+        "indices": [1, 12]
       }
     ],
     "urls": [
@@ -57,10 +39,7 @@
         "url": "https://t.co/9MssMyFIhU",
         "expanded_url": "https://www.pscp.tv/w/bfu4MzFZTEVKblpZVkFMRU58MVlxR29nTVBxT2xHdiWRw_VPxgs0H-sy8UIWLLsweR9pzYGdpL9wqabbY3sl",
         "display_url": "pscp.tv/w/bfu4MzFZTEVK…",
-        "indices": [
-          116,
-          139
-        ]
+        "indices": [116, 139]
       }
     ]
   },
@@ -85,10 +64,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

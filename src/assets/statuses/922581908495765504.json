@@ -4,18 +4,12 @@
   "id_str": "922581908495765504",
   "full_text": "Let your users use Actions on Google using Node.js &amp; Dialogflow's bot platform with @abraham \nat #devfest2017 https://t.co/2lO6S7XM5T https://t.co/465nn8lt60",
   "truncated": false,
-  "display_text_range": [
-    0,
-    137
-  ],
+  "display_text_range": [0, 137],
   "entities": {
     "hashtags": [
       {
         "text": "devfest2017",
-        "indices": [
-          101,
-          113
-        ]
+        "indices": [101, 113]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          88,
-          96
-        ]
+        "indices": [88, 96]
       }
     ],
     "urls": [
@@ -36,20 +27,14 @@
         "url": "https://t.co/2lO6S7XM5T",
         "expanded_url": "https://buff.ly/2l4QHTb",
         "display_url": "buff.ly/2l4QHTb",
-        "indices": [
-          114,
-          137
-        ]
+        "indices": [114, 137]
       }
     ],
     "media": [
       {
         "id": 922581904041431000,
         "id_str": "922581904041431041",
-        "indices": [
-          138,
-          161
-        ],
+        "indices": [138, 161],
         "media_url": "http://pbs.twimg.com/media/DM2rWoqX0AEO6_D.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DM2rWoqX0AEO6_D.jpg",
         "url": "https://t.co/465nn8lt60",
@@ -86,10 +71,7 @@
       {
         "id": 922581904041431000,
         "id_str": "922581904041431041",
-        "indices": [
-          138,
-          161
-        ],
+        "indices": [138, 161],
         "media_url": "http://pbs.twimg.com/media/DM2rWoqX0AEO6_D.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DM2rWoqX0AEO6_D.jpg",
         "url": "https://t.co/465nn8lt60",
@@ -142,10 +124,7 @@
             "url": "https://t.co/Fe8MFhOWh9",
             "expanded_url": "https://www.meetup.com/GDGSanFrancisco/",
             "display_url": "meetup.com/GDGSanFrancisc…",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

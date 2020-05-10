@@ -4,18 +4,12 @@
   "id_str": "986722481078788096",
   "full_text": "It’s almost laughable how straightforward offline capabilities are with the right Service Worker code. Thanks for the awesome PRPL workshop at #RailsConf, @pblatteier and @abraham!!",
   "truncated": false,
-  "display_text_range": [
-    0,
-    181
-  ],
+  "display_text_range": [0, 181],
   "entities": {
     "hashtags": [
       {
         "text": "RailsConf",
-        "indices": [
-          143,
-          153
-        ]
+        "indices": [143, 153]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          155,
-          166
-        ]
+        "indices": [155, 166]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          171,
-          179
-        ]
+        "indices": [171, 179]
       }
     ],
     "urls": []
@@ -64,10 +52,7 @@
             "url": "https://t.co/bhwr3OAq72",
             "expanded_url": "http://bendyworks.com",
             "display_url": "bendyworks.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -125,22 +110,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -80.095586,
-            40.3615796
-          ],
-          [
-            -79.8657933,
-            40.3615796
-          ],
-          [
-            -79.8657933,
-            40.501198
-          ],
-          [
-            -80.095586,
-            40.501198
-          ]
+          [-80.095586, 40.3615796],
+          [-79.8657933, 40.3615796],
+          [-79.8657933, 40.501198],
+          [-80.095586, 40.501198]
         ]
       ]
     },

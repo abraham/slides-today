@@ -4,39 +4,24 @@
   "id_str": "1231931913264390145",
   "full_text": "Think the mobile web is slow? Want to help make it faster?! Check out @pblatteier's talk on WICKED FAST 🔥MOBILE WEB on May 15th.\n\nTickets are on sale now: https://t.co/b2UzPT6YU9\n\n#5LakesFront #mobile #gottagofast #PWA https://t.co/ErluKIJ0Ik",
   "truncated": false,
-  "display_text_range": [
-    0,
-    218
-  ],
+  "display_text_range": [0, 218],
   "entities": {
     "hashtags": [
       {
         "text": "5LakesFront",
-        "indices": [
-          180,
-          192
-        ]
+        "indices": [180, 192]
       },
       {
         "text": "mobile",
-        "indices": [
-          193,
-          200
-        ]
+        "indices": [193, 200]
       },
       {
         "text": "gottagofast",
-        "indices": [
-          201,
-          213
-        ]
+        "indices": [201, 213]
       },
       {
         "text": "PWA",
-        "indices": [
-          214,
-          218
-        ]
+        "indices": [214, 218]
       }
     ],
     "symbols": [],
@@ -46,10 +31,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          70,
-          81
-        ]
+        "indices": [70, 81]
       }
     ],
     "urls": [
@@ -57,20 +39,14 @@
         "url": "https://t.co/b2UzPT6YU9",
         "expanded_url": "https://5lakesfront.com/",
         "display_url": "5lakesfront.com",
-        "indices": [
-          155,
-          178
-        ]
+        "indices": [155, 178]
       }
     ],
     "media": [
       {
         "id": 1231929967786811400,
         "id_str": "1231929967786811393",
-        "indices": [
-          219,
-          242
-        ],
+        "indices": [219, 242],
         "media_url": "http://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
         "url": "https://t.co/ErluKIJ0Ik",
@@ -107,10 +83,7 @@
       {
         "id": 1231929967786811400,
         "id_str": "1231929967786811393",
-        "indices": [
-          219,
-          242
-        ],
+        "indices": [219, 242],
         "media_url": "http://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
         "media_url_https": "https://pbs.twimg.com/media/ERixx1YXYAEua2D.jpg",
         "url": "https://t.co/ErluKIJ0Ik",
@@ -163,10 +136,7 @@
             "url": "https://t.co/1lwtVB79vm",
             "expanded_url": "http://5lakesfront.com",
             "display_url": "5lakesfront.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

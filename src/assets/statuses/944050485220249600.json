@@ -4,10 +4,7 @@
   "id_str": "944050485220249600",
   "full_text": "New Connect.Tech17 video: \"Web Components - Lego Bricks of the Web\" by @pblatteier and @abraham of @bendyworks \nhttps://t.co/saXU1qWy8T \n@connect_js https://t.co/4VbM2jMvuX",
   "truncated": false,
-  "display_text_range": [
-    0,
-    148
-  ],
+  "display_text_range": [0, 148],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,40 +14,28 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          71,
-          82
-        ]
+        "indices": [71, 82]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          87,
-          95
-        ]
+        "indices": [87, 95]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          99,
-          110
-        ]
+        "indices": [99, 110]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          137,
-          148
-        ]
+        "indices": [137, 148]
       }
     ],
     "urls": [
@@ -58,20 +43,14 @@
         "url": "https://t.co/saXU1qWy8T",
         "expanded_url": "https://www.recallact.com/ZZ6",
         "display_url": "recallact.com/ZZ6",
-        "indices": [
-          112,
-          135
-        ]
+        "indices": [112, 135]
       }
     ],
     "media": [
       {
         "id": 944050243489820700,
         "id_str": "944050243489820674",
-        "indices": [
-          149,
-          172
-        ],
+        "indices": [149, 172],
         "media_url": "http://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
         "url": "https://t.co/4VbM2jMvuX",
@@ -108,10 +87,7 @@
       {
         "id": 944050243489820700,
         "id_str": "944050243489820674",
-        "indices": [
-          149,
-          172
-        ],
+        "indices": [149, 172],
         "media_url": "http://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DRnwsdVU8AISnG-.jpg",
         "url": "https://t.co/4VbM2jMvuX",
@@ -164,10 +140,7 @@
             "url": "http://t.co/QkVDL7UiVY",
             "expanded_url": "http://www.recallact.com",
             "display_url": "recallact.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },

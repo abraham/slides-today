@@ -4,18 +4,12 @@
   "id_str": "859112402306174976",
   "full_text": "\"My favorite Meetup so far!\" #gdgfeedback https://t.co/bDcN8tYEfl",
   "truncated": false,
-  "display_text_range": [
-    0,
-    41
-  ],
+  "display_text_range": [0, 41],
   "entities": {
     "hashtags": [
       {
         "text": "gdgfeedback",
-        "indices": [
-          29,
-          41
-        ]
+        "indices": [29, 41]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
       {
         "id": 859111722174607400,
         "id_str": "859111722174607361",
-        "indices": [
-          42,
-          65
-        ],
+        "indices": [42, 65],
         "media_url": "http://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
         "media_url_https": "https://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
         "url": "https://t.co/bDcN8tYEfl",
@@ -65,10 +56,7 @@
       {
         "id": 859111722174607400,
         "id_str": "859111722174607361",
-        "indices": [
-          42,
-          65
-        ],
+        "indices": [42, 65],
         "media_url": "http://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
         "media_url_https": "https://pbs.twimg.com/media/C-wtjz6XcAEBnKU.jpg",
         "url": "https://t.co/bDcN8tYEfl",
@@ -121,10 +109,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

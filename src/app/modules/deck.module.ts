@@ -39,6 +39,6 @@ const routes: Routes = [
     TagModule,
     RouterModule.forChild(routes),
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class DeckModule { }
+export class DeckModule {}

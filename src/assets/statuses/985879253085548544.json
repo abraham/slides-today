@@ -4,10 +4,7 @@
   "id_str": "985879253085548544",
   "full_text": "Got an awesome introduction to PRPL ( https://t.co/et2UW8BGge ) from some folks at @bendyworks.",
   "truncated": false,
-  "display_text_range": [
-    0,
-    95
-  ],
+  "display_text_range": [0, 95],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          83,
-          94
-        ]
+        "indices": [83, 94]
       }
     ],
     "urls": [
@@ -28,10 +22,7 @@
         "url": "https://t.co/et2UW8BGge",
         "expanded_url": "http://ow.ly/4BKy30juWW0",
         "display_url": "ow.ly/4BKy30juWW0",
-        "indices": [
-          38,
-          61
-        ]
+        "indices": [38, 61]
       }
     ]
   },
@@ -56,10 +47,7 @@
             "url": "https://t.co/KerunOXAFe",
             "expanded_url": "http://cototal.com",
             "display_url": "cototal.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

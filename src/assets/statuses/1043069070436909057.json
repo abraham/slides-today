@@ -4,18 +4,12 @@
   "id_str": "1043069070436909057",
   "full_text": "Workshop: Get Flapping with Flutter with @abraham &amp; @pblatteier. \n#Flutter is tool from Google for creating native apps for iOS &amp; Android. You'll leave with a fully functional app that you can use as a starting point for your own creations. \nMore info: https://t.co/sMJ1E9oo2N https://t.co/XEXSFcI9HJ",
   "truncated": false,
-  "display_text_range": [
-    0,
-    284
-  ],
+  "display_text_range": [0, 284],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          70,
-          78
-        ]
+        "indices": [70, 78]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          41,
-          49
-        ]
+        "indices": [41, 49]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          56,
-          67
-        ]
+        "indices": [56, 67]
       }
     ],
     "urls": [
@@ -46,20 +34,14 @@
         "url": "https://t.co/sMJ1E9oo2N",
         "expanded_url": "https://ti.to/mobile-era/flutter-workshop",
         "display_url": "ti.to/mobile-era/flu…",
-        "indices": [
-          261,
-          284
-        ]
+        "indices": [261, 284]
       }
     ],
     "media": [
       {
         "id": 1043058051996155900,
         "id_str": "1043058051996155906",
-        "indices": [
-          285,
-          308
-        ],
+        "indices": [285, 308],
         "media_url": "http://pbs.twimg.com/media/DnmvxZ1XgAIDOBr.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DnmvxZ1XgAIDOBr.jpg",
         "url": "https://t.co/XEXSFcI9HJ",
@@ -96,10 +78,7 @@
       {
         "id": 1043058051996155900,
         "id_str": "1043058051996155906",
-        "indices": [
-          285,
-          308
-        ],
+        "indices": [285, 308],
         "media_url": "http://pbs.twimg.com/media/DnmvxZ1XgAIDOBr.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DnmvxZ1XgAIDOBr.jpg",
         "url": "https://t.co/XEXSFcI9HJ",
@@ -152,10 +131,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -165,10 +141,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

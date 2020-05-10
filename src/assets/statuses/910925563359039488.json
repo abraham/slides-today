@@ -4,25 +4,16 @@
   "id_str": "910925563359039488",
   "full_text": "@abraham @pblatteier on Google's Material design #connectjs #connecttech https://t.co/3M7QGVWJhJ",
   "truncated": false,
-  "display_text_range": [
-    0,
-    72
-  ],
+  "display_text_range": [0, 72],
   "entities": {
     "hashtags": [
       {
         "text": "connectjs",
-        "indices": [
-          49,
-          59
-        ]
+        "indices": [49, 59]
       },
       {
         "text": "connecttech",
-        "indices": [
-          60,
-          72
-        ]
+        "indices": [60, 72]
       }
     ],
     "symbols": [],
@@ -32,20 +23,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          0,
-          8
-        ]
+        "indices": [0, 8]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          9,
-          20
-        ]
+        "indices": [9, 20]
       }
     ],
     "urls": [],
@@ -53,10 +38,7 @@
       {
         "id": 910925557189234700,
         "id_str": "910925557189234688",
-        "indices": [
-          73,
-          96
-        ],
+        "indices": [73, 96],
         "media_url": "http://pbs.twimg.com/media/DKRB980W0AAEEBO.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKRB980W0AAEEBO.jpg",
         "url": "https://t.co/3M7QGVWJhJ",
@@ -93,10 +75,7 @@
       {
         "id": 910925557189234700,
         "id_str": "910925557189234688",
-        "indices": [
-          73,
-          96
-        ],
+        "indices": [73, 96],
         "media_url": "http://pbs.twimg.com/media/DKRB980W0AAEEBO.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DKRB980W0AAEEBO.jpg",
         "url": "https://t.co/3M7QGVWJhJ",
@@ -149,10 +128,7 @@
             "url": "https://t.co/vXTBkHaJCk",
             "expanded_url": "http://KatieStroud.com",
             "display_url": "KatieStroud.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -210,22 +186,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -85.605166,
-            30.355644
-          ],
-          [
-            -80.742567,
-            30.355644
-          ],
-          [
-            -80.742567,
-            35.000771
-          ],
-          [
-            -85.605166,
-            35.000771
-          ]
+          [-85.605166, 30.355644],
+          [-80.742567, 30.355644],
+          [-80.742567, 35.000771],
+          [-85.605166, 35.000771]
         ]
       ]
     },

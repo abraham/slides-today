@@ -4,18 +4,12 @@
   "id_str": "966298434104852480",
   "full_text": "Super excited to be offering the PRPL on Rails workshop with @abraham at @railsconf https://t.co/ZhcAn6zXfS #perfmatters",
   "truncated": false,
-  "display_text_range": [
-    0,
-    120
-  ],
+  "display_text_range": [0, 120],
   "entities": {
     "hashtags": [
       {
         "text": "perfmatters",
-        "indices": [
-          108,
-          120
-        ]
+        "indices": [108, 120]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          61,
-          69
-        ]
+        "indices": [61, 69]
       },
       {
         "screen_name": "railsconf",
         "name": "RailsConf",
         "id": 5493662,
         "id_str": "5493662",
-        "indices": [
-          73,
-          83
-        ]
+        "indices": [73, 83]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/ZhcAn6zXfS",
         "expanded_url": "http://railsconf.com/program/workshops#session-586",
         "display_url": "railsconf.com/program/worksh…",
-        "indices": [
-          84,
-          107
-        ]
+        "indices": [84, 107]
       }
     ]
   },

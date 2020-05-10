@@ -4,18 +4,12 @@
   "id_str": "1094450673087889408",
   "full_text": "KCMO BBQ is so good #DevFestKC https://t.co/oPWVRspf2v",
   "truncated": false,
-  "display_text_range": [
-    0,
-    30
-  ],
+  "display_text_range": [0, 30],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestKC",
-        "indices": [
-          20,
-          30
-        ]
+        "indices": [20, 30]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
       {
         "id": 1094450612404551700,
         "id_str": "1094450612404551682",
-        "indices": [
-          31,
-          54
-        ],
+        "indices": [31, 54],
         "media_url": "http://pbs.twimg.com/media/DzBFCIiVAAIQAoa.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DzBFCIiVAAIQAoa.jpg",
         "url": "https://t.co/oPWVRspf2v",
@@ -65,10 +56,7 @@
       {
         "id": 1094450612404551700,
         "id_str": "1094450612404551682",
-        "indices": [
-          31,
-          54
-        ],
+        "indices": [31, 54],
         "media_url": "http://pbs.twimg.com/media/DzBFCIiVAAIQAoa.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DzBFCIiVAAIQAoa.jpg",
         "url": "https://t.co/oPWVRspf2v",
@@ -121,10 +109,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -134,10 +119,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

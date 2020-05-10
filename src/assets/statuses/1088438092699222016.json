@@ -4,10 +4,7 @@
   "id_str": "1088438092699222016",
   "full_text": "What are you doing Friday night? Come learn about @flutterio at @sfhtml5.\n\nhttps://t.co/gTkbL7VmS6",
   "truncated": false,
-  "display_text_range": [
-    0,
-    98
-  ],
+  "display_text_range": [0, 98],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          50,
-          60
-        ]
+        "indices": [50, 60]
       },
       {
         "screen_name": "sfhtml5",
         "name": "San Francisco HTML5",
         "id": 275405363,
         "id_str": "275405363",
-        "indices": [
-          64,
-          72
-        ]
+        "indices": [64, 72]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/gTkbL7VmS6",
         "expanded_url": "https://www.meetup.com/sfhtml5/events/256523273/",
         "display_url": "meetup.com/sfhtml5/events…",
-        "indices": [
-          75,
-          98
-        ]
+        "indices": [75, 98]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -79,10 +64,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

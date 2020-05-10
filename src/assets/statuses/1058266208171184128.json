@@ -4,10 +4,7 @@
   "id_str": "1058266208171184128",
   "full_text": "First talks of the day! Soon on stage: Thomas Pettersen, Thomas Pronstad, @pblatteier @Abraham @agrevlis https://t.co/kN7p8u8NLk",
   "truncated": false,
-  "display_text_range": [
-    0,
-    104
-  ],
+  "display_text_range": [0, 104],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          74,
-          85
-        ]
+        "indices": [74, 85]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          86,
-          94
-        ]
+        "indices": [86, 94]
       },
       {
         "screen_name": "agrevlis",
         "name": "Håkan Silfvernagel",
         "id": 378196077,
         "id_str": "378196077",
-        "indices": [
-          95,
-          104
-        ]
+        "indices": [95, 104]
       }
     ],
     "urls": [],
@@ -48,10 +36,7 @@
       {
         "id": 1058118577910411300,
         "id_str": "1058118577910411267",
-        "indices": [
-          105,
-          128
-        ],
+        "indices": [105, 128],
         "media_url": "http://pbs.twimg.com/media/Dq8xPY6XcAMI212.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq8xPY6XcAMI212.jpg",
         "url": "https://t.co/kN7p8u8NLk",
@@ -88,10 +73,7 @@
       {
         "id": 1058118577910411300,
         "id_str": "1058118577910411267",
-        "indices": [
-          105,
-          128
-        ],
+        "indices": [105, 128],
         "media_url": "http://pbs.twimg.com/media/Dq8xPY6XcAMI212.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq8xPY6XcAMI212.jpg",
         "url": "https://t.co/kN7p8u8NLk",
@@ -144,10 +126,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -157,10 +136,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

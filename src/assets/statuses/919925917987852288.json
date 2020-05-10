@@ -4,25 +4,16 @@
   "id_str": "919925917987852288",
   "full_text": "Want to learn how to write your own interactions with the #GoogleAssistant? Come to GDE @abraham's keynote talk and codelab @ #OhioDevFest17 https://t.co/7vWeaDmIBK",
   "truncated": false,
-  "display_text_range": [
-    0,
-    140
-  ],
+  "display_text_range": [0, 140],
   "entities": {
     "hashtags": [
       {
         "text": "GoogleAssistant",
-        "indices": [
-          58,
-          74
-        ]
+        "indices": [58, 74]
       },
       {
         "text": "OhioDevFest17",
-        "indices": [
-          126,
-          140
-        ]
+        "indices": [126, 140]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          88,
-          96
-        ]
+        "indices": [88, 96]
       }
     ],
     "urls": [],
@@ -43,10 +31,7 @@
       {
         "id": 918266420428861400,
         "id_str": "918266420428861441",
-        "indices": [
-          141,
-          164
-        ],
+        "indices": [141, 164],
         "media_url": "http://pbs.twimg.com/media/DL5WcbbU8AEx2OU.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DL5WcbbU8AEx2OU.jpg",
         "url": "https://t.co/7vWeaDmIBK",
@@ -83,10 +68,7 @@
       {
         "id": 918266420428861400,
         "id_str": "918266420428861441",
-        "indices": [
-          141,
-          164
-        ],
+        "indices": [141, 164],
         "media_url": "http://pbs.twimg.com/media/DL5WcbbU8AEx2OU.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DL5WcbbU8AEx2OU.jpg",
         "url": "https://t.co/7vWeaDmIBK",
@@ -139,10 +121,7 @@
             "url": "https://t.co/fTTGjRnqe8",
             "expanded_url": "https://ohiodevfest.com/",
             "display_url": "ohiodevfest.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

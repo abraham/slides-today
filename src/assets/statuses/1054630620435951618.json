@@ -4,18 +4,12 @@
   "id_str": "1054630620435951618",
   "full_text": "WORKSHOP Get Flapping with Flutter with @abraham &amp; @pblatteier. #Flutter is tool from Google for creating native apps for iOS &amp; Android. You'll leave with a fully functional app that you can use as a starting point for your own creations Join us More info: https://t.co/sMJ1E9oo2N",
   "truncated": false,
-  "display_text_range": [
-    0,
-    288
-  ],
+  "display_text_range": [0, 288],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          68,
-          76
-        ]
+        "indices": [68, 76]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          40,
-          48
-        ]
+        "indices": [40, 48]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          55,
-          66
-        ]
+        "indices": [55, 66]
       }
     ],
     "urls": [
@@ -46,10 +34,7 @@
         "url": "https://t.co/sMJ1E9oo2N",
         "expanded_url": "https://ti.to/mobile-era/flutter-workshop",
         "display_url": "ti.to/mobile-era/flu…",
-        "indices": [
-          265,
-          288
-        ]
+        "indices": [265, 288]
       }
     ]
   },
@@ -74,10 +59,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -87,10 +69,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

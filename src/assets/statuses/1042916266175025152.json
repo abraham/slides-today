@@ -4,10 +4,7 @@
   "id_str": "1042916266175025152",
   "full_text": "Looking forward to attending the wonderful @mobileeraconf for the third time! Will be presenting with @abraham on \"How Do Service Workers Even?\"  https://t.co/W2nJfhf83Q",
   "truncated": false,
-  "display_text_range": [
-    0,
-    169
-  ],
+  "display_text_range": [0, 169],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          43,
-          57
-        ]
+        "indices": [43, 57]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          102,
-          110
-        ]
+        "indices": [102, 110]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/W2nJfhf83Q",
         "expanded_url": "https://mobileera.rocks/schedule/2018-11-02?sessionId=100",
         "display_url": "mobileera.rocks/schedule/2018-…",
-        "indices": [
-          146,
-          169
-        ]
+        "indices": [146, 169]
       }
     ]
   },

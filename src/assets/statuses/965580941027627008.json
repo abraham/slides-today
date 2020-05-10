@@ -4,18 +4,12 @@
   "id_str": "965580941027627008",
   "full_text": "We don't want @abraham @pblatteier to get into a fight at @Jazz_Con. Use their code:\nSEEMESPEAK\nto get $75 off reg -  do a great workshop (included in ticket price!), see some great sessions, and help keep the peace!\nMUSIC. FOOD. CODE.\nhttps://t.co/ak3iSbKBSN March 21-23 #NOLA https://t.co/AFZWWRT91S",
   "truncated": false,
-  "display_text_range": [
-    0,
-    277
-  ],
+  "display_text_range": [0, 277],
   "entities": {
     "hashtags": [
       {
         "text": "NOLA",
-        "indices": [
-          272,
-          277
-        ]
+        "indices": [272, 277]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          14,
-          22
-        ]
+        "indices": [14, 22]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          23,
-          34
-        ]
+        "indices": [23, 34]
       },
       {
         "screen_name": "Jazz_Con",
         "name": "JazzCon.Tech",
         "id": 791361411289145300,
         "id_str": "791361411289145344",
-        "indices": [
-          58,
-          67
-        ]
+        "indices": [58, 67]
       }
     ],
     "urls": [
@@ -56,20 +41,14 @@
         "url": "https://t.co/ak3iSbKBSN",
         "expanded_url": "http://JazzCon.Tech",
         "display_url": "JazzCon.Tech",
-        "indices": [
-          236,
-          259
-        ]
+        "indices": [236, 259]
       }
     ],
     "media": [
       {
         "id": 965580710353559600,
         "id_str": "965580710353559557",
-        "indices": [
-          278,
-          301
-        ],
+        "indices": [278, 301],
         "media_url": "http://pbs.twimg.com/media/DWZuikqX4AUTUUr.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DWZuikqX4AUTUUr.jpg",
         "url": "https://t.co/AFZWWRT91S",
@@ -106,10 +85,7 @@
       {
         "id": 965580710353559600,
         "id_str": "965580710353559557",
-        "indices": [
-          278,
-          301
-        ],
+        "indices": [278, 301],
         "media_url": "http://pbs.twimg.com/media/DWZuikqX4AUTUUr.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DWZuikqX4AUTUUr.jpg",
         "url": "https://t.co/AFZWWRT91S",
@@ -162,10 +138,7 @@
             "url": "https://t.co/oW79gI4n3R",
             "expanded_url": "http://jazzcon.tech",
             "display_url": "jazzcon.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

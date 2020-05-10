@@ -4,46 +4,28 @@
   "id_str": "962387044839325697",
   "full_text": "Kicking off \"Wicked Fast ⚡ Mobile Web\" with @pblatteier and @abraham at #DevFestMN!! #DevFest18 #GDE #PWA #MobileWeb https://t.co/kfKjstZHBC",
   "truncated": false,
-  "display_text_range": [
-    0,
-    116
-  ],
+  "display_text_range": [0, 116],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestMN",
-        "indices": [
-          72,
-          82
-        ]
+        "indices": [72, 82]
       },
       {
         "text": "DevFest18",
-        "indices": [
-          85,
-          95
-        ]
+        "indices": [85, 95]
       },
       {
         "text": "GDE",
-        "indices": [
-          96,
-          100
-        ]
+        "indices": [96, 100]
       },
       {
         "text": "PWA",
-        "indices": [
-          101,
-          105
-        ]
+        "indices": [101, 105]
       },
       {
         "text": "MobileWeb",
-        "indices": [
-          106,
-          116
-        ]
+        "indices": [106, 116]
       }
     ],
     "symbols": [],
@@ -53,20 +35,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          44,
-          55
-        ]
+        "indices": [44, 55]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          60,
-          68
-        ]
+        "indices": [60, 68]
       }
     ],
     "urls": [],
@@ -74,10 +50,7 @@
       {
         "id": 962387027348959200,
         "id_str": "962387027348959232",
-        "indices": [
-          117,
-          140
-        ],
+        "indices": [117, 140],
         "media_url": "http://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
         "url": "https://t.co/kfKjstZHBC",
@@ -114,10 +87,7 @@
       {
         "id": 962387027348959200,
         "id_str": "962387027348959232",
-        "indices": [
-          117,
-          140
-        ],
+        "indices": [117, 140],
         "media_url": "http://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DVsV5wWUMAAQZ8u.jpg",
         "url": "https://t.co/kfKjstZHBC",
@@ -170,10 +140,7 @@
             "url": "https://t.co/rrksCu58eC",
             "expanded_url": "https://developers.google.com/programs/",
             "display_url": "developers.google.com/programs/",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

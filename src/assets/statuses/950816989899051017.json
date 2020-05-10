@@ -4,25 +4,16 @@
   "id_str": "950816989899051017",
   "full_text": "Excited to be speaking with @pblatteier at @ChicagoGDG's WindyCity #DevFest on Friday about building, testing, and publishing #WebComponents with Nutmeg! https://t.co/gQeowD6spo",
   "truncated": false,
-  "display_text_range": [
-    0,
-    177
-  ],
+  "display_text_range": [0, 177],
   "entities": {
     "hashtags": [
       {
         "text": "DevFest",
-        "indices": [
-          67,
-          75
-        ]
+        "indices": [67, 75]
       },
       {
         "text": "WebComponents",
-        "indices": [
-          126,
-          140
-        ]
+        "indices": [126, 140]
       }
     ],
     "symbols": [],
@@ -32,20 +23,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          28,
-          39
-        ]
+        "indices": [28, 39]
       },
       {
         "screen_name": "ChicagoGDG",
         "name": "GDG Chicago",
         "id": 825054089532813300,
         "id_str": "825054089532813313",
-        "indices": [
-          43,
-          54
-        ]
+        "indices": [43, 54]
       }
     ],
     "urls": [
@@ -53,10 +38,7 @@
         "url": "https://t.co/gQeowD6spo",
         "expanded_url": "https://slides.today/decks/-L2RQBa9SprUe5OSYebU",
         "display_url": "slides.today/decks/-L2RQBa9…",
-        "indices": [
-          154,
-          177
-        ]
+        "indices": [154, 177]
       }
     ]
   },
@@ -81,10 +63,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -94,10 +73,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

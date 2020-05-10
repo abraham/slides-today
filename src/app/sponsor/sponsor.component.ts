@@ -7,7 +7,7 @@ import { SponsorService } from '../services/sponsor.service';
   templateUrl: './sponsor.component.html',
 })
 export class SponsorComponent {
-  constructor(public sponsorService: SponsorService) { }
+  constructor(public sponsorService: SponsorService) {}
 
   @Input() sponsorIds!: string[];
 }

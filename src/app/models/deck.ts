@@ -58,12 +58,22 @@ export class Deck {
 
   get date(): string {
     // TODO: Support dates that span two years
-    if (this.cachedDate.start.getUTCDate() === this.cachedDate.end.getUTCDate()) {
-      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
-    } else if (this.cachedDate.start.getMonth() === this.cachedDate.end.getMonth()) {
-      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
+    if (
+      this.cachedDate.start.getUTCDate() === this.cachedDate.end.getUTCDate()
+    ) {
+      return `${
+        this.startMonth
+      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
+    } else if (
+      this.cachedDate.start.getMonth() === this.cachedDate.end.getMonth()
+    ) {
+      return `${
+        this.startMonth
+      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
     } else {
-      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}-${this.endMonth} ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getFullYear()}`;
+      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}-${
+        this.endMonth
+      } ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getFullYear()}`;
     }
   }
 
@@ -95,7 +105,8 @@ export class Deck {
   }
 
   private get linkTags(): string[] {
-    return this.links.concat(this.resources)
+    return this.links
+      .concat(this.resources)
       .filter(link => link.useAsTag)
       .map(link => link.title.toLowerCase());
   }

@@ -1,5 +1,13 @@
 import { Location } from '@angular/common';
-import { AfterContentChecked, Component, ComponentFactoryResolver, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
+import {
+  AfterContentChecked,
+  Component,
+  ComponentFactoryResolver,
+  ElementRef,
+  OnInit,
+  ViewChild,
+  ViewContainerRef,
+} from '@angular/core';
 import { ActivatedRoute, Data, Router } from '@angular/router';
 import { ReplaySubject } from 'rxjs';
 import { Deck } from '../models/deck';
@@ -17,12 +25,14 @@ interface DeckData extends Data {
   templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
-  constructor(private route: ActivatedRoute,
-              private location: Location,
-              private router: Router,
-              private viewContainer: ViewContainerRef,
-              private resolver: ComponentFactoryResolver) {
-    this.deck$.subscribe((deck) => this.init(deck));
+  constructor(
+    private route: ActivatedRoute,
+    private location: Location,
+    private router: Router,
+    private viewContainer: ViewContainerRef,
+    private resolver: ComponentFactoryResolver,
+  ) {
+    this.deck$.subscribe(deck => this.init(deck));
   }
 
   @ViewChild('detailsEl') detailsEl!: ElementRef;
@@ -62,14 +72,20 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private async loadShareComponent(deck: Deck) {
     setTimeout(async () => {
-      const { ShareComponent } = await import(/* webpackChunkName: 'share' */ '../share/share.component');
-      const share = this.viewContainer.createComponent(this.resolver.resolveComponentFactory(ShareComponent));
+      const { ShareComponent } = await import(
+        /* webpackChunkName: 'share' */ '../share/share.component'
+      );
+      const share = this.viewContainer.createComponent(
+        this.resolver.resolveComponentFactory(ShareComponent),
+      );
       share.instance.text = deck.title;
     }, 1000);
   }
 
   private get columnWidth(): number {
-    if (!this.detailsEl) { return 0; }
+    if (!this.detailsEl) {
+      return 0;
+    }
 
     const { width } = this.detailsEl.nativeElement.getBoundingClientRect();
     if (width >= 840) {
@@ -86,6 +102,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setEmbeds(deck: Deck): void {
-    this.embeds = deck.links.filter(({ service }) => Object.keys(EmbeddedServices).includes(service));
+    this.embeds = deck.links.filter(({ service }) => {
+      return Object.keys(EmbeddedServices).includes(service);
+    });
   }
 }

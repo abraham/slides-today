@@ -4,25 +4,16 @@
   "id_str": "986666656603795457",
   "full_text": "Watching @pblatteier &amp; @abraham kill their PRPL on Rails Workshop at #RailsConf2018! (Song and dance included 💃🏾) #RailsConf https://t.co/72iRE9JpLM",
   "truncated": false,
-  "display_text_range": [
-    0,
-    128
-  ],
+  "display_text_range": [0, 128],
   "entities": {
     "hashtags": [
       {
         "text": "RailsConf2018",
-        "indices": [
-          73,
-          87
-        ]
+        "indices": [73, 87]
       },
       {
         "text": "RailsConf",
-        "indices": [
-          118,
-          128
-        ]
+        "indices": [118, 128]
       }
     ],
     "symbols": [],
@@ -32,20 +23,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          9,
-          20
-        ]
+        "indices": [9, 20]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          27,
-          35
-        ]
+        "indices": [27, 35]
       }
     ],
     "urls": [],
@@ -53,10 +38,7 @@
       {
         "id": 986666643580432400,
         "id_str": "986666643580432388",
-        "indices": [
-          129,
-          152
-        ],
+        "indices": [129, 152],
         "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
         "url": "https://t.co/72iRE9JpLM",
@@ -93,10 +75,7 @@
       {
         "id": 986666643580432400,
         "id_str": "986666643580432388",
-        "indices": [
-          129,
-          152
-        ],
+        "indices": [129, 152],
         "media_url": "http://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbFYFbJWsAQVjpu.jpg",
         "url": "https://t.co/72iRE9JpLM",
@@ -149,10 +128,7 @@
             "url": "https://t.co/IFzhw7cglj",
             "expanded_url": "https://REFACTR.TECH",
             "display_url": "REFACTR.TECH",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

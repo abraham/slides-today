@@ -4,10 +4,7 @@
   "id_str": "1092537441116975105",
   "full_text": "Thanks @abraham &amp; @pblatteier! Learned about Intl.RelativeTimeFormat on Saturday @devfestmn and implemented in a project today.",
   "truncated": false,
-  "display_text_range": [
-    0,
-    131
-  ],
+  "display_text_range": [0, 131],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          7,
-          15
-        ]
+        "indices": [7, 15]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          22,
-          33
-        ]
+        "indices": [22, 33]
       },
       {
         "screen_name": "devfestmn",
         "name": "DevFestMN",
         "id": 2290467152,
         "id_str": "2290467152",
-        "indices": [
-          85,
-          95
-        ]
+        "indices": [85, 95]
       }
     ],
     "urls": []
@@ -66,10 +54,7 @@
             "url": "https://t.co/90M5CUWUAt",
             "expanded_url": "http://www.brycehowitson.com",
             "display_url": "brycehowitson.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -4,10 +4,7 @@
   "id_str": "1133854040205537285",
   "full_text": "Have you been to the @MadJavaScript meetup? The next one is on Monday: https://t.co/lL326vlT1T",
   "truncated": false,
-  "display_text_range": [
-    0,
-    94
-  ],
+  "display_text_range": [0, 94],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,10 +14,7 @@
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          21,
-          35
-        ]
+        "indices": [21, 35]
       }
     ],
     "urls": [
@@ -28,10 +22,7 @@
         "url": "https://t.co/lL326vlT1T",
         "expanded_url": "http://j.mp/2Y65R9x",
         "display_url": "j.mp/2Y65R9x",
-        "indices": [
-          71,
-          94
-        ]
+        "indices": [71, 94]
       }
     ]
   },
@@ -56,10 +47,7 @@
             "url": "https://t.co/W1zy76vYiI",
             "expanded_url": "https://techeventsnetwork.com/cities/madison",
             "display_url": "techeventsnetwork.com/cities/madison",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

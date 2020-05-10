@@ -4,18 +4,12 @@
   "id_str": "931888327225200641",
   "full_text": "@pblatteier &amp; @abraham acting natural while delivering the keynote at #OhioDevFest17! https://t.co/BTuWYQnV21",
   "truncated": false,
-  "display_text_range": [
-    0,
-    89
-  ],
+  "display_text_range": [0, 89],
   "entities": {
     "hashtags": [
       {
         "text": "OhioDevFest17",
-        "indices": [
-          74,
-          88
-        ]
+        "indices": [74, 88]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          0,
-          11
-        ]
+        "indices": [0, 11]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          18,
-          26
-        ]
+        "indices": [18, 26]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 931888316299010000,
         "id_str": "931888316299010048",
-        "indices": [
-          90,
-          113
-        ],
+        "indices": [90, 113],
         "media_url": "http://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
         "url": "https://t.co/BTuWYQnV21",
@@ -86,10 +71,7 @@
       {
         "id": 931888316299010000,
         "id_str": "931888316299010048",
-        "indices": [
-          90,
-          113
-        ],
+        "indices": [90, 113],
         "media_url": "http://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DO67fH9W4AAmacQ.jpg",
         "url": "https://t.co/BTuWYQnV21",
@@ -142,10 +124,7 @@
             "url": "https://t.co/ekQHBRFaGH",
             "expanded_url": "http://lepoer.us",
             "display_url": "lepoer.us",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

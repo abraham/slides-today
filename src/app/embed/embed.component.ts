@@ -1,4 +1,10 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnChanges,
+  OnInit,
+  SimpleChanges,
+} from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
@@ -23,7 +29,7 @@ export class EmbedComponent implements OnInit, OnChanges {
     width: `${this.width}px`,
   };
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor(private sanitizer: DomSanitizer) {}
 
   ngOnInit() {
     this.setHeight();
@@ -46,7 +52,8 @@ export class EmbedComponent implements OnInit, OnChanges {
   }
 
   setHeight(): void {
-    this.height = Math.round((this.width + 29) * this.ratioService[this.link.service]);
+    const height = (this.width + 29) * this.ratioService[this.link.service];
+    this.height = Math.round(height);
   }
 
   private setUrl(): void {
@@ -73,11 +80,22 @@ export class EmbedComponent implements OnInit, OnChanges {
   }
 
   private buildVimeoUrl(): string {
-    return  `https://player.vimeo.com/video/${this.parsedVimeoId}?title=0&byline=0&portrait=0&color=${this.backgroundColor}`;
+    const params = new URLSearchParams({
+      byline: '0',
+      color: this.backgroundColor,
+      portrait: '0',
+      title: '0',
+    });
+    return `https://player.vimeo.com/video/${this.parsedVimeoId}?${params}`;
   }
 
   private buildGoogleSlidesUrl(): string {
-    return `${this.link.url}/embed?start=false&loop=false&delayms=30000`;
+    const params = new URLSearchParams({
+      delayms: '30000',
+      loop: 'false',
+      start: 'false',
+    });
+    return `${this.link.url}/embed?${params}`;
   }
 
   private get parsedVimeoId(): string {

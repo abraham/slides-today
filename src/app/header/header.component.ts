@@ -1,5 +1,11 @@
 import { Location } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  ViewChild,
+} from '@angular/core';
 import { Router } from '@angular/router';
 import { MDCTopAppBar } from '@material/top-app-bar';
 import { DEFAULT_THEME } from '../models/theme';
@@ -16,12 +22,14 @@ interface PromptEvent extends Event {
   templateUrl: './header.component.html',
 })
 export class HeaderComponent implements AfterViewInit {
-  constructor(private themeService: ThemeService,
-              private location: Location,
-              private router: Router,
-              update: UpdateService) {
-    this.themeService.current$.subscribe(theme => this.theme = theme);
-    update.$available.subscribe(() => this.updateAvailable = true);
+  constructor(
+    private themeService: ThemeService,
+    private location: Location,
+    private router: Router,
+    update: UpdateService,
+  ) {
+    this.themeService.current$.subscribe(theme => (this.theme = theme));
+    update.$available.subscribe(() => (this.updateAvailable = true));
 
     window.addEventListener('beforeinstallprompt', e => {
       e.preventDefault();

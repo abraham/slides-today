@@ -4,18 +4,12 @@
   "id_str": "1027578013125357569",
   "full_text": "Talking about #TypeScript w/ @abraham @pblatteier @ @midwest_js",
   "truncated": false,
-  "display_text_range": [
-    0,
-    63
-  ],
+  "display_text_range": [0, 63],
   "entities": {
     "hashtags": [
       {
         "text": "TypeScript",
-        "indices": [
-          14,
-          25
-        ]
+        "indices": [14, 25]
       }
     ],
     "symbols": [],
@@ -25,30 +19,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          29,
-          37
-        ]
+        "indices": [29, 37]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          38,
-          49
-        ]
+        "indices": [38, 49]
       },
       {
         "screen_name": "midwest_js",
         "name": "Midwest JS",
         "id": 2196056617,
         "id_str": "2196056617",
-        "indices": [
-          52,
-          63
-        ]
+        "indices": [52, 63]
       }
     ],
     "urls": []
@@ -74,10 +59,7 @@
             "url": "https://t.co/OeOQw98kjZ",
             "expanded_url": "http://about.me/shashi_lo",
             "display_url": "about.me/shashi_lo",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

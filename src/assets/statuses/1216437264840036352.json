@@ -4,10 +4,7 @@
   "id_str": "1216437264840036352",
   "full_text": "Create an @angular PWA with me and @abraham at @MadJavaScript on Monday. Bring your laptop! https://t.co/07E6IfA67H",
   "truncated": false,
-  "display_text_range": [
-    0,
-    115
-  ],
+  "display_text_range": [0, 115],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Angular",
         "id": 202230373,
         "id_str": "202230373",
-        "indices": [
-          10,
-          18
-        ]
+        "indices": [10, 18]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          35,
-          43
-        ]
+        "indices": [35, 43]
       },
       {
         "screen_name": "MadJavaScript",
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          47,
-          61
-        ]
+        "indices": [47, 61]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/07E6IfA67H",
         "expanded_url": "https://www.meetup.com/MadisonJS/events/wqxgqlybccbrb/",
         "display_url": "meetup.com/MadisonJS/even…",
-        "indices": [
-          92,
-          115
-        ]
+        "indices": [92, 115]
       }
     ]
   },

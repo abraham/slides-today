@@ -1,4 +1,6 @@
 <app-card [url]="url" [theme]="deck.theme">
-  <span hero>{{deck.title}}</span>
-  <span body>{{deck.eventTitle}} · {{deck.date}} · {{deck.tags | tagList | async}}</span>
+  <span hero>{{ deck.title }}</span>
+  <span body>
+    {{ deck.eventTitle }} · {{ deck.date }} · {{ deck.tags | tagList | async }}
+  </span>
 </app-card>

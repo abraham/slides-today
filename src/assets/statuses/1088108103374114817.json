@@ -4,18 +4,12 @@
   "id_str": "1088108103374114817",
   "full_text": "Don't miss out on the best #DevFestKC yet! Check out some of our amazing speakers and plan your schedule today!  @abraham @presactlyalicia @saltnburnem @kellyjandrews @_KylePaul @wrburgess @TheFakeRiRi on Saturday, February 9, 2019 @UMKansasCity https://t.co/torOlY5B5w",
   "truncated": false,
-  "display_text_range": [
-    0,
-    269
-  ],
+  "display_text_range": [0, 269],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestKC",
-        "indices": [
-          27,
-          37
-        ]
+        "indices": [27, 37]
       }
     ],
     "symbols": [],
@@ -25,70 +19,49 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          113,
-          121
-        ]
+        "indices": [113, 121]
       },
       {
         "screen_name": "presactlyalicia",
         "name": "Alicia Williams",
         "id": 3247555832,
         "id_str": "3247555832",
-        "indices": [
-          122,
-          138
-        ]
+        "indices": [122, 138]
       },
       {
         "screen_name": "saltnburnem",
         "name": "Chris DeMars",
         "id": 2316464875,
         "id_str": "2316464875",
-        "indices": [
-          139,
-          151
-        ]
+        "indices": [139, 151]
       },
       {
         "screen_name": "kellyjandrews",
         "name": "Kelly J Andrews",
         "id": 935272292,
         "id_str": "935272292",
-        "indices": [
-          152,
-          166
-        ]
+        "indices": [152, 166]
       },
       {
         "screen_name": "_KylePaul",
         "name": "Kyle Paul",
         "id": 141054465,
         "id_str": "141054465",
-        "indices": [
-          167,
-          177
-        ]
+        "indices": [167, 177]
       },
       {
         "screen_name": "wrburgess",
         "name": "Randy Burgess",
         "id": 9828762,
         "id_str": "9828762",
-        "indices": [
-          178,
-          188
-        ]
+        "indices": [178, 188]
       },
       {
         "screen_name": "TheFakeRiRi",
         "name": "RI Dixon",
         "id": 901245364279418900,
         "id_str": "901245364279418880",
-        "indices": [
-          189,
-          201
-        ]
+        "indices": [189, 201]
       }
     ],
     "urls": [
@@ -96,10 +69,7 @@
         "url": "https://t.co/torOlY5B5w",
         "expanded_url": "https://buff.ly/2Wau1iP",
         "display_url": "buff.ly/2Wau1iP",
-        "indices": [
-          246,
-          269
-        ]
+        "indices": [246, 269]
       }
     ]
   },
@@ -124,10 +94,7 @@
             "url": "https://t.co/lPp52fH9HW",
             "expanded_url": "https://devfestkc.com",
             "display_url": "devfestkc.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

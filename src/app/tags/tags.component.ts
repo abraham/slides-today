@@ -1,4 +1,11 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { MDCChipSet } from '@material/chips';
 import { Observable } from 'rxjs';
 import { Tag } from '../models/tag';

@@ -4,39 +4,24 @@
   "id_str": "964637461522583552",
   "full_text": "Looking forward to #DevFestKC tomorrow! Join @abraham and me for Wicked Fast⚡Mobile Web at 2pm. #DevFest18 #PWA #PRPL https://t.co/2josvDbdNh",
   "truncated": false,
-  "display_text_range": [
-    0,
-    141
-  ],
+  "display_text_range": [0, 141],
   "entities": {
     "hashtags": [
       {
         "text": "DevFestKC",
-        "indices": [
-          19,
-          29
-        ]
+        "indices": [19, 29]
       },
       {
         "text": "DevFest18",
-        "indices": [
-          96,
-          106
-        ]
+        "indices": [96, 106]
       },
       {
         "text": "PWA",
-        "indices": [
-          107,
-          111
-        ]
+        "indices": [107, 111]
       },
       {
         "text": "PRPL",
-        "indices": [
-          112,
-          117
-        ]
+        "indices": [112, 117]
       }
     ],
     "symbols": [],
@@ -46,10 +31,7 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          45,
-          53
-        ]
+        "indices": [45, 53]
       }
     ],
     "urls": [
@@ -57,10 +39,7 @@
         "url": "https://t.co/2josvDbdNh",
         "expanded_url": "https://slides.today/decks/-L364aLyZ3nMk0QYaBU8",
         "display_url": "slides.today/decks/-L364aLy…",
-        "indices": [
-          118,
-          141
-        ]
+        "indices": [118, 141]
       }
     ]
   },

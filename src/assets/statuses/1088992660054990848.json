@@ -4,39 +4,24 @@
   "id_str": "1088992660054990848",
   "full_text": "#flutterio on typewriters? hm🤔 yes if it does have a #RaspberryPi 😛 @abraham is speaking about @flutterio from a web dev’s perspective, showing #Dart vs #TypeScript examples https://t.co/ly8Vdggn7h",
   "truncated": false,
-  "display_text_range": [
-    0,
-    173
-  ],
+  "display_text_range": [0, 173],
   "entities": {
     "hashtags": [
       {
         "text": "flutterio",
-        "indices": [
-          0,
-          10
-        ]
+        "indices": [0, 10]
       },
       {
         "text": "RaspberryPi",
-        "indices": [
-          53,
-          65
-        ]
+        "indices": [53, 65]
       },
       {
         "text": "Dart",
-        "indices": [
-          144,
-          149
-        ]
+        "indices": [144, 149]
       },
       {
         "text": "TypeScript",
-        "indices": [
-          153,
-          164
-        ]
+        "indices": [153, 164]
       }
     ],
     "symbols": [],
@@ -46,20 +31,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          68,
-          76
-        ]
+        "indices": [68, 76]
       },
       {
         "screen_name": "flutterio",
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          95,
-          105
-        ]
+        "indices": [95, 105]
       }
     ],
     "urls": [],
@@ -67,10 +46,7 @@
       {
         "id": 1088992656934355000,
         "id_str": "1088992656934354945",
-        "indices": [
-          174,
-          197
-        ],
+        "indices": [174, 197],
         "media_url": "http://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
         "url": "https://t.co/ly8Vdggn7h",
@@ -107,10 +83,7 @@
       {
         "id": 1088992656934355000,
         "id_str": "1088992656934354945",
-        "indices": [
-          174,
-          197
-        ],
+        "indices": [174, 197],
         "media_url": "http://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzhDT-UwAEvs_T.jpg",
         "url": "https://t.co/ly8Vdggn7h",
@@ -143,10 +116,7 @@
       {
         "id": 1088992656884002800,
         "id_str": "1088992656884002816",
-        "indices": [
-          174,
-          197
-        ],
+        "indices": [174, 197],
         "media_url": "http://pbs.twimg.com/media/DxzhDTyUcAApBcM.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DxzhDTyUcAApBcM.jpg",
         "url": "https://t.co/ly8Vdggn7h",

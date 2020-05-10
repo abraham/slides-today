@@ -4,10 +4,7 @@
   "id_str": "1089242150057852929",
   "full_text": "@abraham @sfhtml5 @flutterio Thank YOU for the great talk and demo",
   "truncated": false,
-  "display_text_range": [
-    29,
-    66
-  ],
+  "display_text_range": [29, 66],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          0,
-          8
-        ]
+        "indices": [0, 8]
       },
       {
         "screen_name": "sfhtml5",
         "name": "San Francisco HTML5",
         "id": 275405363,
         "id_str": "275405363",
-        "indices": [
-          9,
-          17
-        ]
+        "indices": [9, 17]
       },
       {
         "screen_name": "flutterio",
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          18,
-          28
-        ]
+        "indices": [18, 28]
       }
     ],
     "urls": []

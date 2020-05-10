@@ -4,10 +4,7 @@
   "id_str": "1096463902685126656",
   "full_text": "⚡️ talks are tonight! Finally will be @abraham with an intro to @polymer's LitElement\n\nRSVP: https://t.co/p3XQFBZOPh https://t.co/8Hz8XNHZIS",
   "truncated": false,
-  "display_text_range": [
-    0,
-    116
-  ],
+  "display_text_range": [0, 116],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          38,
-          46
-        ]
+        "indices": [38, 46]
       },
       {
         "screen_name": "polymer",
         "name": "Polymer Project",
         "id": 1425993918,
         "id_str": "1425993918",
-        "indices": [
-          64,
-          72
-        ]
+        "indices": [64, 72]
       }
     ],
     "urls": [
@@ -38,20 +29,14 @@
         "url": "https://t.co/p3XQFBZOPh",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/258106113/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          93,
-          116
-        ]
+        "indices": [93, 116]
       }
     ],
     "media": [
       {
         "id": 1095749251953553400,
         "id_str": "1095749251953553409",
-        "indices": [
-          117,
-          140
-        ],
+        "indices": [117, 140],
         "media_url": "http://pbs.twimg.com/media/DzTiI52XcAEQZ1I.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DzTiI52XcAEQZ1I.jpg",
         "url": "https://t.co/8Hz8XNHZIS",
@@ -88,10 +73,7 @@
       {
         "id": 1095749251953553400,
         "id_str": "1095749251953553409",
-        "indices": [
-          117,
-          140
-        ],
+        "indices": [117, 140],
         "media_url": "http://pbs.twimg.com/media/DzTiI52XcAEQZ1I.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DzTiI52XcAEQZ1I.jpg",
         "url": "https://t.co/8Hz8XNHZIS",
@@ -144,10 +126,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

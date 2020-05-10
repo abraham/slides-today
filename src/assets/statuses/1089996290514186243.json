@@ -4,10 +4,7 @@
   "id_str": "1089996290514186243",
   "full_text": "In case you missed @SFHTML5 last week, @flttry and @abraham gave Flutter talks for web developers!\n\nCheck out the recordings here 👉 https://t.co/Qpbrdh6Wqk https://t.co/B8vEFnxlpO",
   "truncated": false,
-  "display_text_range": [
-    0,
-    155
-  ],
+  "display_text_range": [0, 155],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "San Francisco HTML5",
         "id": 275405363,
         "id_str": "275405363",
-        "indices": [
-          19,
-          27
-        ]
+        "indices": [19, 27]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          51,
-          59
-        ]
+        "indices": [51, 59]
       }
     ],
     "urls": [
@@ -38,20 +29,14 @@
         "url": "https://t.co/Qpbrdh6Wqk",
         "expanded_url": "http://bit.ly/2G7zyRC",
         "display_url": "bit.ly/2G7zyRC",
-        "indices": [
-          132,
-          155
-        ]
+        "indices": [132, 155]
       }
     ],
     "media": [
       {
         "id": 1089996288874213400,
         "id_str": "1089996288874213376",
-        "indices": [
-          156,
-          179
-        ],
+        "indices": [156, 179],
         "media_url": "http://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
         "url": "https://t.co/B8vEFnxlpO",
@@ -88,10 +73,7 @@
       {
         "id": 1089996288874213400,
         "id_str": "1089996288874213376",
-        "indices": [
-          156,
-          179
-        ],
+        "indices": [156, 179],
         "media_url": "http://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DyBx2YTXcAA03q1.jpg",
         "url": "https://t.co/B8vEFnxlpO",
@@ -144,10 +126,7 @@
             "url": "https://t.co/vAf0IEGV9l",
             "expanded_url": "https://flutter.dev",
             "display_url": "flutter.dev",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

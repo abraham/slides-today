@@ -4,18 +4,12 @@
   "id_str": "986591451969712128",
   "full_text": "At #railsconf? Come to \"PRPL on Rails\" at 1:50 in Room 317-318. We are the only offline session/workshop.\n\nhttps://t.co/sduRINLCyk @pblatteier https://t.co/8A1FRZaXHI",
   "truncated": false,
-  "display_text_range": [
-    0,
-    142
-  ],
+  "display_text_range": [0, 142],
   "entities": {
     "hashtags": [
       {
         "text": "railsconf",
-        "indices": [
-          3,
-          13
-        ]
+        "indices": [3, 13]
       }
     ],
     "symbols": [],
@@ -25,10 +19,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          131,
-          142
-        ]
+        "indices": [131, 142]
       }
     ],
     "urls": [
@@ -36,20 +27,14 @@
         "url": "https://t.co/sduRINLCyk",
         "expanded_url": "https://railsconf.com/program/workshops#session-586",
         "display_url": "railsconf.com/program/worksh…",
-        "indices": [
-          107,
-          130
-        ]
+        "indices": [107, 130]
       }
     ],
     "media": [
       {
         "id": 986591442675163100,
         "id_str": "986591442675163137",
-        "indices": [
-          143,
-          166
-        ],
+        "indices": [143, 166],
         "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
         "url": "https://t.co/8A1FRZaXHI",
@@ -86,10 +71,7 @@
       {
         "id": 986591442675163100,
         "id_str": "986591442675163137",
-        "indices": [
-          143,
-          166
-        ],
+        "indices": [143, 166],
         "media_url": "http://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DbETsJ8X4AEIoe8.jpg",
         "url": "https://t.co/8A1FRZaXHI",
@@ -142,10 +124,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -155,10 +134,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

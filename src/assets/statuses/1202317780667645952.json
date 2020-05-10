@@ -4,25 +4,16 @@
   "id_str": "1202317780667645952",
   "full_text": "Oh hi Mountain View. Looking forward to presenting in building #pwas with @angular at the #ModernWeb Meetup. https://t.co/1MXuiswkxa https://t.co/1gdX3txge1",
   "truncated": false,
-  "display_text_range": [
-    0,
-    132
-  ],
+  "display_text_range": [0, 132],
   "entities": {
     "hashtags": [
       {
         "text": "pwas",
-        "indices": [
-          63,
-          68
-        ]
+        "indices": [63, 68]
       },
       {
         "text": "ModernWeb",
-        "indices": [
-          90,
-          100
-        ]
+        "indices": [90, 100]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "name": "Angular",
         "id": 202230373,
         "id_str": "202230373",
-        "indices": [
-          74,
-          82
-        ]
+        "indices": [74, 82]
       }
     ],
     "urls": [
@@ -43,20 +31,14 @@
         "url": "https://t.co/1MXuiswkxa",
         "expanded_url": "https://www.meetup.com/modernweb/events/266448593/",
         "display_url": "meetup.com/modernweb/even…",
-        "indices": [
-          109,
-          132
-        ]
+        "indices": [109, 132]
       }
     ],
     "media": [
       {
         "id": 1202317774472630300,
         "id_str": "1202317774472630272",
-        "indices": [
-          133,
-          156
-        ],
+        "indices": [133, 156],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/EK99pU6UUAAo15M.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EK99pU6UUAAo15M.jpg",
         "url": "https://t.co/1gdX3txge1",
@@ -93,10 +75,7 @@
       {
         "id": 1202317774472630300,
         "id_str": "1202317774472630272",
-        "indices": [
-          133,
-          156
-        ],
+        "indices": [133, 156],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/EK99pU6UUAAo15M.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EK99pU6UUAAo15M.jpg",
         "url": "https://t.co/1gdX3txge1",
@@ -126,10 +105,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            249,
-            119
-          ],
+          "aspect_ratio": [249, 119],
           "variants": [
             {
               "bitrate": 0,
@@ -162,10 +138,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -175,10 +148,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

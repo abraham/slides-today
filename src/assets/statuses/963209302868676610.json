@@ -4,10 +4,7 @@
   "id_str": "963209302868676610",
   "full_text": "Learning about Nutmeg from @abraham and @pblatteier at @MadJavaScript.",
   "truncated": false,
-  "display_text_range": [
-    0,
-    70
-  ],
+  "display_text_range": [0, 70],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          27,
-          35
-        ]
+        "indices": [27, 35]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          40,
-          51
-        ]
+        "indices": [40, 51]
       },
       {
         "screen_name": "MadJavaScript",
         "name": "MadJS",
         "id": 458405320,
         "id_str": "458405320",
-        "indices": [
-          55,
-          69
-        ]
+        "indices": [55, 69]
       }
     ],
     "urls": []

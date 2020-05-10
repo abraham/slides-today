@@ -4,53 +4,32 @@
   "id_str": "1177173214168080385",
   "full_text": "Flutter lets your team have one codebase to rule them all! Join @pblatteier &amp; @abraham at #MobileEra to learn how #Flutter helps building for #mobile, #web and #desktop without sacrificing #UserExperience. Watch their talk from last year while you wait: https://t.co/hYOjsP77Gn",
   "truncated": false,
-  "display_text_range": [
-    0,
-    281
-  ],
+  "display_text_range": [0, 281],
   "entities": {
     "hashtags": [
       {
         "text": "MobileEra",
-        "indices": [
-          94,
-          104
-        ]
+        "indices": [94, 104]
       },
       {
         "text": "Flutter",
-        "indices": [
-          118,
-          126
-        ]
+        "indices": [118, 126]
       },
       {
         "text": "mobile",
-        "indices": [
-          146,
-          153
-        ]
+        "indices": [146, 153]
       },
       {
         "text": "web",
-        "indices": [
-          155,
-          159
-        ]
+        "indices": [155, 159]
       },
       {
         "text": "desktop",
-        "indices": [
-          164,
-          172
-        ]
+        "indices": [164, 172]
       },
       {
         "text": "UserExperience",
-        "indices": [
-          193,
-          208
-        ]
+        "indices": [193, 208]
       }
     ],
     "symbols": [],
@@ -60,20 +39,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          64,
-          75
-        ]
+        "indices": [64, 75]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          82,
-          90
-        ]
+        "indices": [82, 90]
       }
     ],
     "urls": [
@@ -81,10 +54,7 @@
         "url": "https://t.co/hYOjsP77Gn",
         "expanded_url": "https://vimeo.com/298940533",
         "display_url": "vimeo.com/298940533",
-        "indices": [
-          258,
-          281
-        ]
+        "indices": [258, 281]
       }
     ]
   },
@@ -109,10 +79,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -122,10 +89,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

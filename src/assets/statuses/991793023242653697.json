@@ -4,25 +4,16 @@
   "id_str": "991793023242653697",
   "full_text": "Google I/O is coming up soon and on May 15th we'll tell you about everything new! #io18 #ioextended\n\nhttps://t.co/QzH4CGI15l",
   "truncated": false,
-  "display_text_range": [
-    0,
-    124
-  ],
+  "display_text_range": [0, 124],
   "entities": {
     "hashtags": [
       {
         "text": "io18",
-        "indices": [
-          82,
-          87
-        ]
+        "indices": [82, 87]
       },
       {
         "text": "ioextended",
-        "indices": [
-          88,
-          99
-        ]
+        "indices": [88, 99]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "url": "https://t.co/QzH4CGI15l",
         "expanded_url": "https://www.meetup.com/gdgmadison/events/248749497/",
         "display_url": "meetup.com/gdgmadison/eve…",
-        "indices": [
-          101,
-          124
-        ]
+        "indices": [101, 124]
       }
     ]
   },
@@ -60,10 +48,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

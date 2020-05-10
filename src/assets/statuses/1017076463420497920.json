@@ -4,25 +4,16 @@
   "id_str": "1017076463420497920",
   "full_text": "Code bloat got you down? Learn how to make quick, light PWAs with me and @abraham at our \"Wicked Fast ⚡ Mobile Web\" session @midwest_js #PWA #perfmatters https://t.co/mXVCf67VEX",
   "truncated": false,
-  "display_text_range": [
-    0,
-    153
-  ],
+  "display_text_range": [0, 153],
   "entities": {
     "hashtags": [
       {
         "text": "PWA",
-        "indices": [
-          136,
-          140
-        ]
+        "indices": [136, 140]
       },
       {
         "text": "perfmatters",
-        "indices": [
-          141,
-          153
-        ]
+        "indices": [141, 153]
       }
     ],
     "symbols": [],
@@ -32,20 +23,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          73,
-          81
-        ]
+        "indices": [73, 81]
       },
       {
         "screen_name": "midwest_js",
         "name": "Midwest JS",
         "id": 2196056617,
         "id_str": "2196056617",
-        "indices": [
-          124,
-          135
-        ]
+        "indices": [124, 135]
       }
     ],
     "urls": [],
@@ -53,10 +38,7 @@
       {
         "id": 1017075423262359600,
         "id_str": "1017075423262359552",
-        "indices": [
-          154,
-          177
-        ],
+        "indices": [154, 177],
         "media_url": "http://pbs.twimg.com/media/Dh1gtXFVQAAamvf.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dh1gtXFVQAAamvf.jpg",
         "url": "https://t.co/mXVCf67VEX",
@@ -93,10 +75,7 @@
       {
         "id": 1017075423262359600,
         "id_str": "1017075423262359552",
-        "indices": [
-          154,
-          177
-        ],
+        "indices": [154, 177],
         "media_url": "http://pbs.twimg.com/media/Dh1gtXFVQAAamvf.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dh1gtXFVQAAamvf.jpg",
         "url": "https://t.co/mXVCf67VEX",

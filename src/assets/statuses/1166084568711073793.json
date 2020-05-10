@@ -4,25 +4,16 @@
   "id_str": "1166084568711073793",
   "full_text": "Thanks everyone who came to see @pblatteier and me talk about #WebComponents: Building Blocks of the Web. You can find the slides at https://t.co/RI4PVI8MIv #forwardfest",
   "truncated": false,
-  "display_text_range": [
-    0,
-    169
-  ],
+  "display_text_range": [0, 169],
   "entities": {
     "hashtags": [
       {
         "text": "WebComponents",
-        "indices": [
-          62,
-          76
-        ]
+        "indices": [62, 76]
       },
       {
         "text": "forwardfest",
-        "indices": [
-          157,
-          169
-        ]
+        "indices": [157, 169]
       }
     ],
     "symbols": [],
@@ -32,10 +23,7 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          32,
-          43
-        ]
+        "indices": [32, 43]
       }
     ],
     "urls": [
@@ -43,10 +31,7 @@
         "url": "https://t.co/RI4PVI8MIv",
         "expanded_url": "https://slides.today/decks/-LmpPnfy1BFMiyObH9wf",
         "display_url": "slides.today/decks/-LmpPnfy…",
-        "indices": [
-          133,
-          156
-        ]
+        "indices": [133, 156]
       }
     ]
   },
@@ -71,10 +56,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -84,10 +66,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

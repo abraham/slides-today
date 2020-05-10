@@ -4,10 +4,7 @@
   "id_str": "1027604074357841920",
   "full_text": "Had a great time presenting with @pblatteier on @typescriptlang at @midwest_js! You can check out the slides at https://t.co/AKly3cQGQB",
   "truncated": false,
-  "display_text_range": [
-    0,
-    135
-  ],
+  "display_text_range": [0, 135],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,30 +14,21 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          33,
-          44
-        ]
+        "indices": [33, 44]
       },
       {
         "screen_name": "typescriptlang",
         "name": "Dev Languages",
         "id": 1155904704028827600,
         "id_str": "1155904704028827648",
-        "indices": [
-          48,
-          63
-        ]
+        "indices": [48, 63]
       },
       {
         "screen_name": "midwest_js",
         "name": "Midwest JS",
         "id": 2196056617,
         "id_str": "2196056617",
-        "indices": [
-          67,
-          78
-        ]
+        "indices": [67, 78]
       }
     ],
     "urls": [
@@ -48,10 +36,7 @@
         "url": "https://t.co/AKly3cQGQB",
         "expanded_url": "https://slides.today/decks/-LH8wTBkC8kd7wpjCMiF",
         "display_url": "slides.today/decks/-LH8wTBk…",
-        "indices": [
-          112,
-          135
-        ]
+        "indices": [112, 135]
       }
     ]
   },
@@ -76,10 +61,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -89,10 +71,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

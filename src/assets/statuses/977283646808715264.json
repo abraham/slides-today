@@ -4,18 +4,12 @@
   "id_str": "977283646808715264",
   "full_text": "Some painful truths being reiterated by @pblatteier &amp; @abraham. #JazzCon \n\n- no one wants to download your app\n- no one wants to wait for your site to load https://t.co/A6IYxSS8Vh",
   "truncated": false,
-  "display_text_range": [
-    0,
-    159
-  ],
+  "display_text_range": [0, 159],
   "entities": {
     "hashtags": [
       {
         "text": "JazzCon",
-        "indices": [
-          68,
-          76
-        ]
+        "indices": [68, 76]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          40,
-          51
-        ]
+        "indices": [40, 51]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          58,
-          66
-        ]
+        "indices": [58, 66]
       }
     ],
     "urls": [],
@@ -46,10 +34,7 @@
       {
         "id": 977283619050881000,
         "id_str": "977283619050881024",
-        "indices": [
-          160,
-          183
-        ],
+        "indices": [160, 183],
         "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
         "url": "https://t.co/A6IYxSS8Vh",
@@ -86,10 +71,7 @@
       {
         "id": 977283619050881000,
         "id_str": "977283619050881024",
-        "indices": [
-          160,
-          183
-        ],
+        "indices": [160, 183],
         "media_url": "http://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DZACRg5WAAA3fz2.jpg",
         "url": "https://t.co/A6IYxSS8Vh",
@@ -190,22 +172,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -90.137908,
-            29.889574
-          ],
-          [
-            -89.884108,
-            29.889574
-          ],
-          [
-            -89.884108,
-            30.075628
-          ],
-          [
-            -90.137908,
-            30.075628
-          ]
+          [-90.137908, 29.889574],
+          [-89.884108, 29.889574],
+          [-89.884108, 30.075628],
+          [-90.137908, 30.075628]
         ]
       ]
     },

@@ -4,10 +4,7 @@
   "id_str": "1046769630486953984",
   "full_text": "Very excited to be speaking at @ohiodevfest about building, testing, and deploying @Web_Components on October 13th. It's not too late to get tickets!\n\nhttps://t.co/9qVtEBy63u https://t.co/NFNhtPwV3Y",
   "truncated": false,
-  "display_text_range": [
-    0,
-    174
-  ],
+  "display_text_range": [0, 174],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Ohio DevFest",
         "id": 746345585863622700,
         "id_str": "746345585863622660",
-        "indices": [
-          31,
-          43
-        ]
+        "indices": [31, 43]
       },
       {
         "screen_name": "Web_Components",
         "name": "Web Components",
         "id": 2477133162,
         "id_str": "2477133162",
-        "indices": [
-          83,
-          98
-        ]
+        "indices": [83, 98]
       }
     ],
     "urls": [
@@ -38,20 +29,14 @@
         "url": "https://t.co/9qVtEBy63u",
         "expanded_url": "https://ohiodevfest.com/schedule/day1?sessionId=103",
         "display_url": "ohiodevfest.com/schedule/day1?…",
-        "indices": [
-          151,
-          174
-        ]
+        "indices": [151, 174]
       }
     ],
     "media": [
       {
         "id": 1046769626502197200,
         "id_str": "1046769626502197249",
-        "indices": [
-          175,
-          198
-        ],
+        "indices": [175, 198],
         "media_url": "http://pbs.twimg.com/media/DobfbeVU8AEiP9_.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DobfbeVU8AEiP9_.jpg",
         "url": "https://t.co/NFNhtPwV3Y",
@@ -88,10 +73,7 @@
       {
         "id": 1046769626502197200,
         "id_str": "1046769626502197249",
-        "indices": [
-          175,
-          198
-        ],
+        "indices": [175, 198],
         "media_url": "http://pbs.twimg.com/media/DobfbeVU8AEiP9_.jpg",
         "media_url_https": "https://pbs.twimg.com/media/DobfbeVU8AEiP9_.jpg",
         "url": "https://t.co/NFNhtPwV3Y",
@@ -144,10 +126,7 @@
             "url": "https://t.co/Usfq8Nm4kN",
             "expanded_url": "https://abrah.am",
             "display_url": "abrah.am",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -157,10 +136,7 @@
             "url": "https://t.co/5SyJuBOivM",
             "expanded_url": "http://slides.today",
             "display_url": "slides.today",
-            "indices": [
-              99,
-              122
-            ]
+            "indices": [99, 122]
           }
         ]
       }

@@ -4,18 +4,12 @@
   "id_str": "907358460161003521",
   "full_text": "@abraham @pblatteier can't wait to see you both at #connectjs! :D // @marcushellberg @jenlooper and basically everyone else &lt;3 @connect_js",
   "truncated": false,
-  "display_text_range": [
-    0,
-    141
-  ],
+  "display_text_range": [0, 141],
   "entities": {
     "hashtags": [
       {
         "text": "connectjs",
-        "indices": [
-          51,
-          61
-        ]
+        "indices": [51, 61]
       }
     ],
     "symbols": [],
@@ -25,50 +19,35 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          0,
-          8
-        ]
+        "indices": [0, 8]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          9,
-          20
-        ]
+        "indices": [9, 20]
       },
       {
         "screen_name": "marcushellberg",
         "name": "Marcus Hellberg",
         "id": 17237180,
         "id_str": "17237180",
-        "indices": [
-          69,
-          84
-        ]
+        "indices": [69, 84]
       },
       {
         "screen_name": "jenlooper",
         "name": "Jen Looper",
         "id": 35963991,
         "id_str": "35963991",
-        "indices": [
-          85,
-          95
-        ]
+        "indices": [85, 95]
       },
       {
         "screen_name": "connect_js",
         "name": "CONNECT.TECH",
         "id": 2649853080,
         "id_str": "2649853080",
-        "indices": [
-          130,
-          141
-        ]
+        "indices": [130, 141]
       }
     ],
     "urls": []
@@ -94,10 +73,7 @@
             "url": "https://t.co/UVYEjTBNS8",
             "expanded_url": "http://thisdot.co/labs",
             "display_url": "thisdot.co/labs",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -155,22 +131,10 @@
       "type": "Polygon",
       "coordinates": [
         [
-          [
-            -78.9448945,
-            35.6443837
-          ],
-          [
-            -78.7291467,
-            35.6443837
-          ],
-          [
-            -78.7291467,
-            35.867993
-          ],
-          [
-            -78.9448945,
-            35.867993
-          ]
+          [-78.9448945, 35.6443837],
+          [-78.7291467, 35.6443837],
+          [-78.7291467, 35.867993],
+          [-78.9448945, 35.867993]
         ]
       ]
     },

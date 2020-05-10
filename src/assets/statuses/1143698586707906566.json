@@ -4,10 +4,7 @@
   "id_str": "1143698586707906566",
   "full_text": "Join us for a talk on Web Performance on August 1st. @pblatteier and @abraham will show you how to make progressive web apps that download almost instantly and work offline while still providing the functionality of native apps. https://t.co/ERFaPzPxoE",
   "truncated": false,
-  "display_text_range": [
-    0,
-    252
-  ],
+  "display_text_range": [0, 252],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          53,
-          64
-        ]
+        "indices": [53, 64]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          69,
-          77
-        ]
+        "indices": [69, 77]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/ERFaPzPxoE",
         "expanded_url": "https://www.eventbrite.com/e/web-performance-tickets-64148926165",
         "display_url": "eventbrite.com/e/web-performa…",
-        "indices": [
-          229,
-          252
-        ]
+        "indices": [229, 252]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "https://t.co/7ld3gfQj7k",
             "expanded_url": "http://codecinella.org",
             "display_url": "codecinella.org",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

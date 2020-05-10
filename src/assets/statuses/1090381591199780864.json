@@ -4,81 +4,48 @@
   "id_str": "1090381591199780864",
   "full_text": "\"Get Flapping with #Flutter\" with @pblatteier &amp; @abraham! Learn to create #native apps for #iOS &amp; #Android from a single codebase in this wkshp. EARLY BIRD conference tix = $175, workshops = $100! https://t.co/4O7clqQKWv #refactr #diversity #inclusion #tech #atlanta #conference https://t.co/ZrNedpilog",
   "truncated": false,
-  "display_text_range": [
-    0,
-    286
-  ],
+  "display_text_range": [0, 286],
   "entities": {
     "hashtags": [
       {
         "text": "Flutter",
-        "indices": [
-          19,
-          27
-        ]
+        "indices": [19, 27]
       },
       {
         "text": "native",
-        "indices": [
-          78,
-          85
-        ]
+        "indices": [78, 85]
       },
       {
         "text": "iOS",
-        "indices": [
-          95,
-          99
-        ]
+        "indices": [95, 99]
       },
       {
         "text": "Android",
-        "indices": [
-          106,
-          114
-        ]
+        "indices": [106, 114]
       },
       {
         "text": "refactr",
-        "indices": [
-          229,
-          237
-        ]
+        "indices": [229, 237]
       },
       {
         "text": "diversity",
-        "indices": [
-          238,
-          248
-        ]
+        "indices": [238, 248]
       },
       {
         "text": "inclusion",
-        "indices": [
-          249,
-          259
-        ]
+        "indices": [249, 259]
       },
       {
         "text": "tech",
-        "indices": [
-          260,
-          265
-        ]
+        "indices": [260, 265]
       },
       {
         "text": "atlanta",
-        "indices": [
-          266,
-          274
-        ]
+        "indices": [266, 274]
       },
       {
         "text": "conference",
-        "indices": [
-          275,
-          286
-        ]
+        "indices": [275, 286]
       }
     ],
     "symbols": [],
@@ -88,20 +55,14 @@
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          34,
-          45
-        ]
+        "indices": [34, 45]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          52,
-          60
-        ]
+        "indices": [52, 60]
       }
     ],
     "urls": [
@@ -109,20 +70,14 @@
         "url": "https://t.co/4O7clqQKWv",
         "expanded_url": "https://buff.ly/2RpB2ZP",
         "display_url": "buff.ly/2RpB2ZP",
-        "indices": [
-          205,
-          228
-        ]
+        "indices": [205, 228]
       }
     ],
     "media": [
       {
         "id": 1090381585428422700,
         "id_str": "1090381585428422656",
-        "indices": [
-          287,
-          310
-        ],
+        "indices": [287, 310],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DyHQRl0WoAAnbL1.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DyHQRl0WoAAnbL1.jpg",
         "url": "https://t.co/ZrNedpilog",
@@ -159,10 +114,7 @@
       {
         "id": 1090381585428422700,
         "id_str": "1090381585428422656",
-        "indices": [
-          287,
-          310
-        ],
+        "indices": [287, 310],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/DyHQRl0WoAAnbL1.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DyHQRl0WoAAnbL1.jpg",
         "url": "https://t.co/ZrNedpilog",
@@ -192,10 +144,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            16,
-            9
-          ],
+          "aspect_ratio": [16, 9],
           "variants": [
             {
               "bitrate": 0,
@@ -228,10 +177,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

@@ -4,10 +4,7 @@
   "id_str": "977228750483066881",
   "full_text": "Curious how to build a web app that matches the speed and functionality of a mobile app? Pearl and Abraham from @bendyworks will be talking about progressive web apps next week Tuesday at @mkejs\n\nhttps://t.co/GLBpvvQIr5",
   "truncated": false,
-  "display_text_range": [
-    0,
-    219
-  ],
+  "display_text_range": [0, 219],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          112,
-          123
-        ]
+        "indices": [112, 123]
       },
       {
         "screen_name": "mkejs",
         "name": "Milwaukee JavaScript",
         "id": 894420716,
         "id_str": "894420716",
-        "indices": [
-          188,
-          194
-        ]
+        "indices": [188, 194]
       }
     ],
     "urls": [
@@ -38,10 +29,7 @@
         "url": "https://t.co/GLBpvvQIr5",
         "expanded_url": "https://www.meetup.com/milwaukeejs/events/247249876/",
         "display_url": "meetup.com/milwaukeejs/ev…",
-        "indices": [
-          196,
-          219
-        ]
+        "indices": [196, 219]
       }
     ]
   },
@@ -66,10 +54,7 @@
             "url": "http://t.co/RiwBHYfMcB",
             "expanded_url": "http://rokkincat.com",
             "display_url": "rokkincat.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },

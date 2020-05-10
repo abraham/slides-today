@@ -4,10 +4,7 @@
   "id_str": "884572018888388611",
   "full_text": "TY @abraham &amp; @pblatteier for a great presentation of PWAs at MadJS",
   "truncated": false,
-  "display_text_range": [
-    0,
-    71
-  ],
+  "display_text_range": [0, 71],
   "entities": {
     "hashtags": [],
     "symbols": [],
@@ -17,20 +14,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          3,
-          11
-        ]
+        "indices": [3, 11]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          18,
-          29
-        ]
+        "indices": [18, 29]
       }
     ],
     "urls": []
@@ -56,10 +47,7 @@
             "url": "http://t.co/N82mIuT4j5",
             "expanded_url": "http://webwisewardens.com",
             "display_url": "webwisewardens.com",
-            "indices": [
-              0,
-              22
-            ]
+            "indices": [0, 22]
           }
         ]
       },

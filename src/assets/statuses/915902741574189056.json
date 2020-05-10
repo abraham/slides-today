@@ -4,18 +4,12 @@
   "id_str": "915902741574189056",
   "full_text": "\"You can give your (speech) AI agent a unmatched response\" - \"... a speech 404\" @abraham voice UIs at @mobileeraconf #MobileEra",
   "truncated": false,
-  "display_text_range": [
-    0,
-    127
-  ],
+  "display_text_range": [0, 127],
   "entities": {
     "hashtags": [
       {
         "text": "MobileEra",
-        "indices": [
-          117,
-          127
-        ]
+        "indices": [117, 127]
       }
     ],
     "symbols": [],
@@ -25,20 +19,14 @@
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          80,
-          88
-        ]
+        "indices": [80, 88]
       },
       {
         "screen_name": "mobileeraconf",
         "name": "Mobile Era Conference 🇳🇴",
         "id": 4179545055,
         "id_str": "4179545055",
-        "indices": [
-          102,
-          116
-        ]
+        "indices": [102, 116]
       }
     ],
     "urls": []
@@ -64,10 +52,7 @@
             "url": "https://t.co/BfGASyqA5T",
             "expanded_url": "http://johannesbrodwall.com",
             "display_url": "johannesbrodwall.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

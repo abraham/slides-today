@@ -4,74 +4,44 @@
   "id_str": "1114231232798363650",
   "full_text": "Get flapping with @flutter_io! Learn how to quickly create native apps for #iOS &amp; #Android from a single codebase in @pblatteier &amp; @abraham's full-day workshop!  https://t.co/6QcT71kWvF #refactr #diversity #inclusion #tech #conference #atlanta #flutter https://t.co/siqn5dmq3l",
   "truncated": false,
-  "display_text_range": [
-    0,
-    260
-  ],
+  "display_text_range": [0, 260],
   "entities": {
     "hashtags": [
       {
         "text": "iOS",
-        "indices": [
-          75,
-          79
-        ]
+        "indices": [75, 79]
       },
       {
         "text": "Android",
-        "indices": [
-          86,
-          94
-        ]
+        "indices": [86, 94]
       },
       {
         "text": "refactr",
-        "indices": [
-          194,
-          202
-        ]
+        "indices": [194, 202]
       },
       {
         "text": "diversity",
-        "indices": [
-          203,
-          213
-        ]
+        "indices": [203, 213]
       },
       {
         "text": "inclusion",
-        "indices": [
-          214,
-          224
-        ]
+        "indices": [214, 224]
       },
       {
         "text": "tech",
-        "indices": [
-          225,
-          230
-        ]
+        "indices": [225, 230]
       },
       {
         "text": "conference",
-        "indices": [
-          231,
-          242
-        ]
+        "indices": [231, 242]
       },
       {
         "text": "atlanta",
-        "indices": [
-          243,
-          251
-        ]
+        "indices": [243, 251]
       },
       {
         "text": "flutter",
-        "indices": [
-          252,
-          260
-        ]
+        "indices": [252, 260]
       }
     ],
     "symbols": [],
@@ -81,30 +51,21 @@
         "name": "flutter",
         "id": 971051940158218200,
         "id_str": "971051940158218246",
-        "indices": [
-          18,
-          29
-        ]
+        "indices": [18, 29]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          121,
-          132
-        ]
+        "indices": [121, 132]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          139,
-          147
-        ]
+        "indices": [139, 147]
       }
     ],
     "urls": [
@@ -112,20 +73,14 @@
         "url": "https://t.co/6QcT71kWvF",
         "expanded_url": "http://refactr.tech/workshops.html#flutter",
         "display_url": "refactr.tech/workshops.html…",
-        "indices": [
-          170,
-          193
-        ]
+        "indices": [170, 193]
       }
     ],
     "media": [
       {
         "id": 1114231229786787800,
         "id_str": "1114231229786787841",
-        "indices": [
-          261,
-          284
-        ],
+        "indices": [261, 284],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D3aLZmkWkAEK744.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D3aLZmkWkAEK744.jpg",
         "url": "https://t.co/siqn5dmq3l",
@@ -162,10 +117,7 @@
       {
         "id": 1114231229786787800,
         "id_str": "1114231229786787841",
-        "indices": [
-          261,
-          284
-        ],
+        "indices": [261, 284],
         "media_url": "http://pbs.twimg.com/tweet_video_thumb/D3aLZmkWkAEK744.jpg",
         "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D3aLZmkWkAEK744.jpg",
         "url": "https://t.co/siqn5dmq3l",
@@ -195,10 +147,7 @@
           }
         },
         "video_info": {
-          "aspect_ratio": [
-            50,
-            69
-          ],
+          "aspect_ratio": [50, 69],
           "variants": [
             {
               "bitrate": 0,
@@ -231,10 +180,7 @@
             "url": "https://t.co/c6cmSDONtH",
             "expanded_url": "http://www.refactr.tech/",
             "display_url": "refactr.tech",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

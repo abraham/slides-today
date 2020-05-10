@@ -4,18 +4,12 @@
   "id_str": "1101951191494389761",
   "full_text": "Hosting an #IWD19 @gdcfpday workshop with @Madison_WIT. Thanks to @bendyworks @WomenTechmakers and @maydmtech for the support. https://t.co/dkdc05q1QQ",
   "truncated": false,
-  "display_text_range": [
-    0,
-    126
-  ],
+  "display_text_range": [0, 126],
   "entities": {
     "hashtags": [
       {
         "text": "IWD19",
-        "indices": [
-          11,
-          17
-        ]
+        "indices": [11, 17]
       }
     ],
     "symbols": [],
@@ -25,50 +19,35 @@
         "name": "Global Diversity CFP",
         "id": 903903705019371500,
         "id_str": "903903705019371520",
-        "indices": [
-          18,
-          27
-        ]
+        "indices": [18, 27]
       },
       {
         "screen_name": "Madison_WIT",
         "name": "Madison Women in Tech",
         "id": 2291587940,
         "id_str": "2291587940",
-        "indices": [
-          42,
-          54
-        ]
+        "indices": [42, 54]
       },
       {
         "screen_name": "bendyworks",
         "name": "Bendyworks",
         "id": 31920143,
         "id_str": "31920143",
-        "indices": [
-          66,
-          77
-        ]
+        "indices": [66, 77]
       },
       {
         "screen_name": "WomenTechmakers",
         "name": "Women Techmakers",
         "id": 2362618909,
         "id_str": "2362618909",
-        "indices": [
-          78,
-          94
-        ]
+        "indices": [78, 94]
       },
       {
         "screen_name": "maydmtech",
         "name": "Maydm",
         "id": 700407408582127600,
         "id_str": "700407408582127616",
-        "indices": [
-          99,
-          109
-        ]
+        "indices": [99, 109]
       }
     ],
     "urls": [],
@@ -76,10 +55,7 @@
       {
         "id": 1101951182963204100,
         "id_str": "1101951182963204096",
-        "indices": [
-          127,
-          150
-        ],
+        "indices": [127, 150],
         "media_url": "http://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
         "url": "https://t.co/dkdc05q1QQ",
@@ -116,10 +92,7 @@
       {
         "id": 1101951182963204100,
         "id_str": "1101951182963204096",
-        "indices": [
-          127,
-          150
-        ],
+        "indices": [127, 150],
         "media_url": "http://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
         "media_url_https": "https://pbs.twimg.com/media/D0rqwzRX4AADjY4.jpg",
         "url": "https://t.co/dkdc05q1QQ",
@@ -172,10 +145,7 @@
             "url": "https://t.co/jmpo3XZoV1",
             "expanded_url": "https://gdgmadison.com",
             "display_url": "gdgmadison.com",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },

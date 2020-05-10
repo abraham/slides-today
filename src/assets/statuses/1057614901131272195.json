@@ -4,18 +4,12 @@
   "id_str": "1057614901131272195",
   "full_text": "Meanwhile in @Teknologihuset 😊 Workshops: \n#PWA with @firt &amp; \n@flutterio with @pblatteier &amp; @abraham https://t.co/BrSYt2n9US",
   "truncated": false,
-  "display_text_range": [
-    0,
-    108
-  ],
+  "display_text_range": [0, 108],
   "entities": {
     "hashtags": [
       {
         "text": "PWA",
-        "indices": [
-          43,
-          47
-        ]
+        "indices": [43, 47]
       }
     ],
     "symbols": [],
@@ -25,50 +19,35 @@
         "name": "Teknologihuset",
         "id": 2829414570,
         "id_str": "2829414570",
-        "indices": [
-          13,
-          28
-        ]
+        "indices": [13, 28]
       },
       {
         "screen_name": "firt",
         "name": "Maximiliano Firtman",
         "id": 17509972,
         "id_str": "17509972",
-        "indices": [
-          53,
-          58
-        ]
+        "indices": [53, 58]
       },
       {
         "screen_name": "flutterio",
         "name": "Check out @FlutterDev for the latest from Flutter",
         "id": 1105926449016463400,
         "id_str": "1105926449016463361",
-        "indices": [
-          66,
-          76
-        ]
+        "indices": [66, 76]
       },
       {
         "screen_name": "pblatteier",
         "name": "Pearl Latteier",
         "id": 202376085,
         "id_str": "202376085",
-        "indices": [
-          82,
-          93
-        ]
+        "indices": [82, 93]
       },
       {
         "screen_name": "abraham",
         "name": "Abraham Williams",
         "id": 9436992,
         "id_str": "9436992",
-        "indices": [
-          100,
-          108
-        ]
+        "indices": [100, 108]
       }
     ],
     "urls": [],
@@ -76,10 +55,7 @@
       {
         "id": 1057614828716650500,
         "id_str": "1057614828716650496",
-        "indices": [
-          109,
-          132
-        ],
+        "indices": [109, 132],
         "media_url": "http://pbs.twimg.com/media/Dq1nFU7XcAA_nNp.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq1nFU7XcAA_nNp.jpg",
         "url": "https://t.co/BrSYt2n9US",
@@ -116,10 +92,7 @@
       {
         "id": 1057614828716650500,
         "id_str": "1057614828716650496",
-        "indices": [
-          109,
-          132
-        ],
+        "indices": [109, 132],
         "media_url": "http://pbs.twimg.com/media/Dq1nFU7XcAA_nNp.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq1nFU7XcAA_nNp.jpg",
         "url": "https://t.co/BrSYt2n9US",
@@ -152,10 +125,7 @@
       {
         "id": 1057614852087255000,
         "id_str": "1057614852087255040",
-        "indices": [
-          109,
-          132
-        ],
+        "indices": [109, 132],
         "media_url": "http://pbs.twimg.com/media/Dq1nGr_WkAAhWFM.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq1nGr_WkAAhWFM.jpg",
         "url": "https://t.co/BrSYt2n9US",
@@ -188,10 +158,7 @@
       {
         "id": 1057614872291237900,
         "id_str": "1057614872291237888",
-        "indices": [
-          109,
-          132
-        ],
+        "indices": [109, 132],
         "media_url": "http://pbs.twimg.com/media/Dq1nH3QW4AAOJM1.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq1nH3QW4AAOJM1.jpg",
         "url": "https://t.co/BrSYt2n9US",
@@ -224,10 +191,7 @@
       {
         "id": 1057614888963637200,
         "id_str": "1057614888963637249",
-        "indices": [
-          109,
-          132
-        ],
+        "indices": [109, 132],
         "media_url": "http://pbs.twimg.com/media/Dq1nI1XXgAES_iP.jpg",
         "media_url_https": "https://pbs.twimg.com/media/Dq1nI1XXgAES_iP.jpg",
         "url": "https://t.co/BrSYt2n9US",
@@ -280,10 +244,7 @@
             "url": "https://t.co/xKYD24oq6U",
             "expanded_url": "http://mobileera.rocks",
             "display_url": "mobileera.rocks",
-            "indices": [
-              0,
-              23
-            ]
+            "indices": [0, 23]
           }
         ]
       },
@@ -293,10 +254,7 @@
             "url": "https://t.co/EXhLdo6FBP",
             "expanded_url": "http://bit.ly/mobileera-slack",
             "display_url": "bit.ly/mobileera-slack",
-            "indices": [
-              129,
-              152
-            ]
+            "indices": [129, 152]
           }
         ]
       }

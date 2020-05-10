@@ -33,8 +33,10 @@ export class TagComponent implements OnInit {
 
   ngOnInit() {
     this.setCurrentStyles();
-    fromEvent<ChipSelectionEvent>(this.chip.nativeElement, 'MDCChip:selection')
-      .subscribe(this.emitTagSelection.bind(this));
+    fromEvent<ChipSelectionEvent>(
+      this.chip.nativeElement,
+      'MDCChip:selection',
+    ).subscribe(this.emitTagSelection.bind(this));
     this.dataService.selectedTagIds$.subscribe(this.setSelection.bind(this));
   }
 

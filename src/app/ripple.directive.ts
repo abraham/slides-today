@@ -4,7 +4,7 @@ import { MDCRipple } from '@material/ripple';
 type Style = 'unbounded' | 'bounded' | '';
 
 @Directive({
-  selector: '[appRipple]'
+  selector: '[appRipple]',
 })
 export class RippleDirective {
   private attached = false;
