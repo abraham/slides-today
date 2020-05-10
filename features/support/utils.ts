@@ -5,7 +5,7 @@ export const sleep = (seconds: number) => {
 };
 
 const validTag = (value: unknown) => {
-  const validTagNames = ['A', 'BUTTON'];
+  const validTagNames = ['A', 'BUTTON', 'CHECKBOX'];
   return (
     typeof value === 'string' && validTagNames.includes(value.toUpperCase())
   );

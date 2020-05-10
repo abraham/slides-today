@@ -1,12 +1,12 @@
 <div
   #chip
-  role="button"
+  role="row"
   [attr.class]="'mdc-chip' + (selected ? ' mdc-chip--selected' : '')"
   [ngStyle]="currentStyles"
   [attr.data-id]="tag.id"
 >
   <div class="mdc-chip__ripple"></div>
-  <div class="mdc-chip__checkmark">
+  <span class="mdc-chip__checkmark">
     <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
       <path
         class="mdc-chip__checkmark-path"
@@ -15,6 +15,15 @@
         d="M1.73,12.91 8.1,19.28 22.79,4.59"
       />
     </svg>
-  </div>
-  <div class="mdc-chip__text">#{{ tag.id }}</div>
+  </span>
+  <span role="gridcell">
+    <span
+      role="checkbox"
+      tabindex="0"
+      aria-checked="false"
+      class="mdc-chip__primary-action"
+    >
+      <span class="mdc-chip__text">#{{ tag.id }}</span>
+    </span>
+  </span>
 </div>
