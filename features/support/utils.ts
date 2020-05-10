@@ -1,5 +1,9 @@
 import { ElementHandle, Page } from 'puppeteer';
 
+// TODO: Update to Array.prototype.flat when moving to Node 12.
+export const flat = (items: string[][]) =>
+  items.reduce((acc, val) => acc.concat(val), []);
+
 export const sleep = (seconds: number) => {
   return new Promise(resolve => setTimeout(resolve, seconds * 1000));
 };
