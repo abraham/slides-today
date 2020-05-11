@@ -78,7 +78,7 @@
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "1.0.0",
     "@types/node": "12.12.31",
-    "@types/puppeteer": "2.0.1",
+    "@types/puppeteer": "2.1.0",
     "@types/twit": "2.2.24",
     "bundlesize": "0.18.0",
     "chai": "4.2.0",
