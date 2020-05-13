@@ -11,20 +11,6 @@ import { SocialServices } from '../models/service';
 import { DEFAULT_INVERTED_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 
-interface ShareOptions {
-  title: string;
-  text: string;
-  url: string;
-}
-
-type NavigatorShare = (options: ShareOptions) => Promise<{}>;
-
-declare global {
-  interface Navigator {
-    share?: NavigatorShare;
-  }
-}
-
 @Component({
   selector: 'app-share',
   styleUrls: ['./share.component.scss'],
@@ -87,7 +73,7 @@ export class ShareComponent implements AfterContentInit {
     }
   }
 
-  private get shareOptions(): ShareOptions {
+  private get shareOptions() {
     return {
       text: this.text,
       title: 'Slides.Today',
