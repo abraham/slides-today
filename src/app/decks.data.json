@@ -212,6 +212,64 @@
     "tweetIds": ["1253760498300063747", "1256246901189607425"]
   },
   {
+    "id": "-M7NgaNP69uY6FhN_ESB",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": ["actions/checkout", "actions/setup-node"],
+    "speakerIds": ["-KsZTL-5U4v1UYxq4Zbp"],
+    "title": "Lights, Camera, (GitHub) Actions",
+    "date": {
+      "start": "2020-05-15T00:00:00.000Z",
+      "end": "2020-05-15T00:00:00.000Z"
+    },
+    "description": "Automation is a central building block of technology. GitHub Actions take CICD to a whole new level with GitHub events at the heart of orchestration. Test on multiple OSes, deploy infrastructure, and react to events like issues being opened.",
+    "eventTitle": "BendyConf",
+    "tags": ["cli", "javascript"],
+    "location": "Madison, WI",
+    "links": [
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1vrHJFKrjn1i4C29FYA7QqnNygRB5l358UPgR1V0xW4g",
+        "useAsTag": false,
+        "service": "slides"
+      }
+    ],
+    "resources": [
+      {
+        "title": "GitHub Actions",
+        "url": "https://github.com/features/actions",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Save precious time with GitHub Actions",
+        "url": "https://www.youtube.com/watch?v=ZLQzMSItzcU",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Ship it with GitHub Actions and GitHub Packages",
+        "url": "https://www.youtube.com/watch?v=-2UgL63_yB4",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Accelerating cloud native deployments with GitHub Actions and AWS",
+        "url": "https://www.youtube.com/watch?v=rOaShvTmZFk",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using GitHub Actions and HashiCorp Terraform",
+        "url": "https://www.youtube.com/watch?v=7P9JDf4Lc0Y",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": ["-Kt8bVVFVc8xQNx9AP_E"],
+    "tweetIds": []
+  },
+  {
     "id": "-M21-9vkfkVRSx9kyUz7",
     "archived": true,
     "nodePackages": ["workbox-cli", "webpack-cli"],
