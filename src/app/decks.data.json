@@ -198,12 +198,24 @@
         "url": "https://www.meetup.com/gdgmadison/events/270177165/",
         "useAsTag": false,
         "service": "external"
+      },
+      {
+        "title": "Slides",
+        "url": "https://docs.google.com/presentation/d/1ce6eAH0m1XD2Ss193ehxZHu0C3I8WVIPvV4uJX411nw",
+        "useAsTag": false,
+        "service": "slides"
       }
     ],
     "resources": [
       {
         "title": "AMP",
         "url": "https://amp.dev/",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Accelerated Mobile Pages Beginner Course Step 1",
+        "url": "https://glitch.com/~nosy-leech",
         "useAsTag": false,
         "service": "external"
       }
