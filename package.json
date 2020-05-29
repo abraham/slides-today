@@ -57,7 +57,7 @@
     "github-repository": "0.4.0",
     "intl-list-format": "1.0.3",
     "material-components-web": "6.0.0",
-    "ng-lazyload-image": "7.1.0",
+    "ng-lazyload-image": "8.0.1",
     "ngx-skeleton-loader": "1.2.7",
     "node-package": "1.4.0",
     "rxjs": "6.5.5",
