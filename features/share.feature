@@ -4,6 +4,7 @@ Feature: Share decks
     # This should not be needed but headless mode randomly fails without `cliboard-write` explicitly granted.
     Given I have granted permissions
       | clipboard-write |
+      | clipboard-read |
     And I visit "/decks/-LP90xu1JfaAgTCyhC3D"
     When I click on "Share"
     And I click on "Tweet"
