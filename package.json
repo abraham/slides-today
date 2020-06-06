@@ -135,7 +135,7 @@
     },
     {
       "path": "dist/slides-today/!(*main|*components)-es2015.*.js",
-      "maxSize": "25 kB"
+      "maxSize": "30 kB"
     }
   ]
 }
