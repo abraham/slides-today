@@ -1,4 +1,4 @@
-import { SelectorMatcherOptions } from 'dom-testing-library';
+import { SelectorMatcherOptions } from '@testing-library/dom';
 import { getDocument, queries } from 'pptr-testing-library';
 import puppeteer, { Browser, Page } from 'puppeteer';
 import { DEBUG } from './environment';
