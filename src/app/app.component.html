@@ -18,8 +18,10 @@
           class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
         >
           <ngx-skeleton-loader
-            [count]="3"
-            appearance="line"
+            animation="progress"
+            [theme]="{
+              height: '100px'
+            }"
           ></ngx-skeleton-loader>
         </div>
       </div>
