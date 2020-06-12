@@ -15,10 +15,8 @@ import { AppRoutingModule } from './modules/app-routing.module';
 import { CardModule } from './modules/card.module';
 import { TagModule } from './modules/tag.module';
 
-// TODO: `twitter-status` keeps `registerWhenStable` from ever firing on details page which prevents SW from installing.
 const swOptions: SwRegistrationOptions = {
   enabled: environment.production,
-  registrationStrategy: 'registerImmediately',
 };
 
 @NgModule({
