@@ -34,7 +34,7 @@ To run a specific file and example use:
 
 ## Deploy
 
-Deploys happen automatically after merging to the `master` branch.
+Deploys happen automatically after merging to the `main` branch.
 
 To do it manually run `npm run deploy` to build and deploy to Firebase. Firebase Hosting, Firestore, and Functions should be setup and enabled.
 
