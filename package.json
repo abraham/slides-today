@@ -46,7 +46,7 @@
     "@angular/platform-browser-dynamic": "9.1.9",
     "@angular/router": "9.1.9",
     "@angular/service-worker": "9.1.9",
-    "@firebase/app": "0.6.5",
+    "@firebase/app": "0.6.6",
     "@justinribeiro/lite-youtube": "0.8.0",
     "@schuchard/prettier": "3.1.0",
     "@webcomponents/webcomponentsjs": "2.4.3",
