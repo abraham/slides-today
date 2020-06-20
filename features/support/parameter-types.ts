@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import { origin } from './environment';
 
-const deviceList = puppeteer.devices.map(device => device.name).join('|');
+const deviceList = Object.keys(puppeteer.devices).join('|');
 
 export const parameterTypes = [
   {
