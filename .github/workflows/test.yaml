@@ -11,12 +11,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v2
@@ -36,12 +30,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - run: npm ci
       - run: npx firebase use slides-today
       - run: npm run test:features
@@ -60,12 +48,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - run: npm ci
       - run: npx firebase use slides-today
       - uses: treosh/lighthouse-ci-action@v2
@@ -84,11 +66,5 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
       - run: npm ci
       - run: npm run bundlesize
