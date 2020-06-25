@@ -70,7 +70,7 @@
     "@angular-devkit/build-angular": "0.1000.0-rc.5",
     "@angular/cli": "10.0.0",
     "@angular/compiler-cli": "10.0.0-rc.6",
-    "@angular/language-service": "10.0.0-rc.6",
+    "@angular/language-service": "10.0.0",
     "@lhci/cli": "0.4.1",
     "@testing-library/dom": "^7.17.1",
     "@types/chai": "4.2.11",
