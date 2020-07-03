@@ -83,7 +83,7 @@
     "@types/twit": "2.2.24",
     "bundlesize": "0.18.0",
     "chai": "4.2.0",
-    "codelyzer": "5.2.2",
+    "codelyzer": "6.0.0",
     "concurrently": "5.2.0",
     "cucumber": "6.0.5",
     "firebase-admin": "8.13.0",
