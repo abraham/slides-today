@@ -46,7 +46,7 @@
     "@angular/platform-browser-dynamic": "10.0.0-rc.6",
     "@angular/router": "10.0.0-rc.6",
     "@angular/service-worker": "10.0.0-rc.6",
-    "@firebase/app": "0.6.7",
+    "@firebase/app": "0.6.8",
     "@justinribeiro/lite-youtube": "0.8.0",
     "@schuchard/prettier": "3.1.0",
     "@webcomponents/webcomponentsjs": "2.4.3",
