@@ -72,7 +72,7 @@
     "@angular/compiler-cli": "10.0.0-rc.6",
     "@angular/language-service": "10.0.3",
     "@lhci/cli": "0.4.2",
-    "@testing-library/dom": "^7.20.0",
+    "@testing-library/dom": "^7.20.1",
     "@types/chai": "4.2.11",
     "@types/cucumber": "6.0.1",
     "@types/jasmine": "3.5.11",
