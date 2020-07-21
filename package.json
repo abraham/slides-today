@@ -49,7 +49,7 @@
     "@firebase/app": "0.6.8",
     "@justinribeiro/lite-youtube": "0.9.0",
     "@schuchard/prettier": "3.1.0",
-    "@webcomponents/webcomponentsjs": "2.4.3",
+    "@webcomponents/webcomponentsjs": "2.4.4",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "2.8.6",
     "firebase": "7.16.1",
