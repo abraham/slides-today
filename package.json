@@ -60,7 +60,7 @@
     "ng-lazyload-image": "9.0.0",
     "ngx-skeleton-loader": "2.4.2",
     "node-package": "1.4.0",
-    "rxjs": "6.6.0",
+    "rxjs": "6.6.2",
     "tslib": "^2.0.0",
     "twitter-status": "0.5.0",
     "zone.js": "0.10.3"
