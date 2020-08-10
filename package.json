@@ -106,7 +106,7 @@
     "protractor": "~7.0.0",
     "puppeteer": "5.2.1",
     "sass": "1.26.10",
-    "start-server-and-test": "1.11.2",
+    "start-server-and-test": "1.11.3",
     "stylelint": "13.6.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-sass-guidelines": "7.0.0",
