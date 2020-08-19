@@ -1,9 +1,12 @@
 import { Status } from 'twitter-d';
+import Data from '../decks.data.json';
 import tagData from '../tags.data.json';
 import { Link } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
-import { Theme } from './theme';
+import { DEFAULT_THEME, Theme } from './theme';
+
+type RawDeck = typeof Data[number];
 
 export class Deck {
   archived: boolean;
@@ -27,7 +30,7 @@ export class Deck {
     start: Date;
   };
 
-  constructor(data: any) {
+  constructor(data: RawDeck) {
     this.cachedDate = {
       end: new Date(data.date.end),
       start: new Date(data.date.start),
@@ -37,8 +40,8 @@ export class Deck {
     this.eventTitle = data.eventTitle;
     this.githubRepos = data.githubRepos;
     this.id = data.id;
-    this.links = data.links;
-    this.resources = data.resources;
+    this.links = data.links as Link[];
+    this.resources = data.resources as Resource[];
     this.location = data.location;
     this.nodePackages = data.nodePackages;
     this.speakerIds = data.speakerIds;
@@ -86,10 +89,14 @@ export class Deck {
   }
 
   get theme(): Theme {
-    return {
-      backgroundColor: this.primaryTag.primaryColor,
-      color: this.primaryTag.complementaryColor,
-    };
+    if (this.primaryTag) {
+      return {
+        backgroundColor: this.primaryTag.primaryColor,
+        color: this.primaryTag.complementaryColor,
+      };
+    } else {
+      return DEFAULT_THEME;
+    }
   }
 
   private get startMonth(): string {
@@ -100,8 +107,9 @@ export class Deck {
     return this.cachedDate.end.toLocaleString('en-us', { month: 'short' });
   }
 
-  private get primaryTag(): Tag {
-    return tagData.find((tag: Tag) => tag.id === this.tags[0]);
+  private get primaryTag(): Tag | undefined {
+    const [firstTagId] = this.tags;
+    return tagData.find((tag: Tag) => tag.id === firstTagId);
   }
 
   private get linkTags(): string[] {

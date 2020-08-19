@@ -53,7 +53,7 @@ export class HeaderComponent implements AfterViewInit {
     MDCTopAppBar.attachTo(this.appBarEl.nativeElement);
   }
 
-  openInstallPrompt() {
+  openInstallPrompt(): void {
     if (this.deferredInstallPrompt) {
       this.deferredInstallPrompt.prompt();
       this.deferredInstallPrompt = undefined;

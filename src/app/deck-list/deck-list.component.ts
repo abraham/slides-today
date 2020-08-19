@@ -42,7 +42,7 @@ export class DeckListComponent implements OnInit {
   mobile = false;
   hasSelectedTagIds = false;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.route.paramMap.pipe(
       map(params => params.get('id')),
       switchMap(id => (id ? this.deckService.get(id) : EMPTY)),
@@ -57,11 +57,11 @@ export class DeckListComponent implements OnInit {
       });
   }
 
-  openTagsSheet() {
+  openTagsSheet(): void {
     this.bottomSheet.open(TagsSheetComponent);
   }
 
-  private selectTag(tag: string) {
+  private selectTag(tag: string): void {
     this.dataService.tagSelection({
       id: tag,
       selected: true,

@@ -44,7 +44,7 @@ export class MapComponent implements OnInit {
     'feature:water%7Celement:labels.text%7Cvisibility:off',
   ];
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
     this.url = `https://www.google.com/maps/place/${this.location}/`;
   }

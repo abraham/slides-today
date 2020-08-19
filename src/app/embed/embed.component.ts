@@ -31,7 +31,7 @@ export class EmbedComponent implements OnInit, OnChanges {
 
   constructor(private sanitizer: DomSanitizer) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.setHeight();
     if (this.link.service === 'youtube') {
       this.youtubeId = this.parsedYoutubeId;
@@ -40,7 +40,7 @@ export class EmbedComponent implements OnInit, OnChanges {
     }
   }
 
-  ngOnChanges(changes: SimpleChanges) {
+  ngOnChanges(changes: SimpleChanges): void {
     if (changes.width) {
       this.width = changes.width.currentValue;
       this.setHeight();
@@ -75,7 +75,7 @@ export class EmbedComponent implements OnInit, OnChanges {
     };
   }
 
-  private get backgroundColor() {
+  private get backgroundColor(): string {
     return this.theme.backgroundColor.split('#')[1];
   }
 

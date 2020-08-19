@@ -44,11 +44,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   embedWidth = 200;
   colors = DEFAULT_THEME;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.route.data.subscribe(data => this.deck$.next((data as DeckData).deck));
   }
 
-  ngAfterContentChecked() {
+  ngAfterContentChecked(): void {
     this.setEmbedWidth();
   }
 
@@ -64,13 +64,13 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
     window.open(url);
   }
 
-  private init(deck: Deck) {
+  private init(deck: Deck): void {
     this.setEmbedWidth();
     this.setEmbeds(deck);
     this.loadShareComponent(deck);
   }
 
-  private async loadShareComponent(deck: Deck) {
+  private async loadShareComponent(deck: Deck): Promise<void> {
     setTimeout(async () => {
       const { ShareComponent } = await import(
         /* webpackChunkName: 'share' */ '../share/share.component'
