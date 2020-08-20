@@ -31,7 +31,7 @@ export class TagComponent implements OnInit {
   @Input() currentTag!: string;
   @ViewChild('chip', { static: true }) chip!: ElementRef;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.setCurrentStyles();
     fromEvent<ChipSelectionEvent>(
       this.chip.nativeElement,
@@ -47,7 +47,7 @@ export class TagComponent implements OnInit {
     };
   }
 
-  private emitTagSelection(event: ChipSelectionEvent) {
+  private emitTagSelection(event: ChipSelectionEvent): void {
     this.dataService.tagSelection({
       id: event.target.dataset.id,
       selected: event.detail.selected,

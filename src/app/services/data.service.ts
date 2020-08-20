@@ -4,7 +4,7 @@ import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
 import { Tag, TagSelectionEvent } from '../models/tag';
 import tagData from '../tags.data.json';
 
-function sortTags(a: Tag, b: Tag) {
+function sortTags(a: Tag, b: Tag): -1 | 0 | 1 {
   if (a.id < b.id) {
     return -1;
   }
@@ -44,7 +44,7 @@ export class DataService {
     );
   }
 
-  tagSelection(event: TagSelectionEvent) {
+  tagSelection(event: TagSelectionEvent): void {
     this.tagSelection$.next(event);
   }
 
@@ -57,7 +57,7 @@ export class DataService {
     );
   }
 
-  tag$(id: string): Observable<Tag> {
+  tag$(id: string): Observable<Tag | undefined> {
     return of(tagData.find((tag: Tag) => tag.id === id));
   }
 
@@ -77,7 +77,7 @@ function unique(values: string[]): string[] {
   return [...new Set(values)];
 }
 
-function equalArray(array1: string[], array2: string[]) {
+function equalArray(array1: string[], array2: string[]): boolean {
   return (
     array1.length === array2.length &&
     array1.sort().every((value, index) => {

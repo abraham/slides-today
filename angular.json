@@ -6,6 +6,9 @@
     "slides-today": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        },
         "@schematics/angular:component": {
           "style": "scss",
           "displayBlock": true
@@ -25,8 +28,8 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/assets",
               "src/favicon.png",
+              "src/assets",
               "src/manifest.json",
               "src/robots.txt",
               "src/sw.js",
@@ -72,19 +75,19 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "1mb",
-                  "maximumError": "2mb"
+                  "maximumWarning": "150kb",
+                  "maximumError": "600kb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "45kb"
+                  "maximumWarning": "30kb",
+                  "maximumError": "40kb"
                 },
                 {
                   "type": "bundle",
                   "name": "main",
-                  "maximumWarning": "500kb",
-                  "maximumError": "600kb"
+                  "maximumWarning": "400kb",
+                  "maximumError": "500kb"
                 }
               ],
               "serviceWorker": true,
@@ -117,8 +120,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/assets",
               "src/favicon.png",
+              "src/assets",
               "src/manifest.json",
               "src/manifest.webmanifest"
             ],
@@ -158,13 +161,12 @@
           }
         }
       }
-    }
-  },
-  "cli": {
-    "warnings": {
-      "typescriptMismatch": false
+    }},
+    "cli": {
+      "warnings": {
+        "typescriptMismatch": false
+      },
+      "analytics": "cee0e5aa-ccad-4ac5-9eb8-a1580c575194"
     },
-    "analytics": "cee0e5aa-ccad-4ac5-9eb8-a1580c575194"
-  },
   "defaultProject": "slides-today"
 }

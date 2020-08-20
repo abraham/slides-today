@@ -25,11 +25,11 @@ export class ThemeService {
     });
   }
 
-  update(theme: Theme) {
+  update(theme: Theme): void {
     this.current$.next(theme);
   }
 
-  reset() {
+  reset(): void {
     this.current$.next(DEFAULT_THEME);
   }
 }

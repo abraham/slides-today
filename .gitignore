@@ -13,7 +13,6 @@
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
-/.lighthouseci
 
 # IDEs and editors
 /.idea
@@ -41,7 +40,6 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-firebase-debug.log
 
 # System Files
 .DS_Store
@@ -51,5 +49,7 @@ Thumbs.db
 /scripts/dist
 .firebase
 .firebaserc
-.twitter.json
 .firebase-adminsdk.json
+firebase-debug.log
+.twitter.json
+/.lighthouseci

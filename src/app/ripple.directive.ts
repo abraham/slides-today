@@ -11,13 +11,13 @@ export class RippleDirective {
 
   @Input('appRipple') style: Style = '';
 
-  @HostListener('mouseenter') onMouseEnter() {
+  @HostListener('mouseenter') onMouseEnter(): void {
     this.attach();
   }
 
   constructor(private el: ElementRef) {}
 
-  private attach() {
+  private attach(): void {
     if (!this.attached) {
       this.attached = true;
       const ripple = MDCRipple.attachTo(this.el.nativeElement);

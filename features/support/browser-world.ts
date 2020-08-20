@@ -1,15 +1,24 @@
 import { SelectorMatcherOptions } from '@testing-library/dom';
 import { getDocument, queries } from 'pptr-testing-library';
-import puppeteer, { Browser, Page } from 'puppeteer';
+import puppeteer, { Browser, ElementHandle, Page } from 'puppeteer';
 import { DEBUG } from './environment';
 
 const { getByText, queryAllByText, queryAllByTitle } = queries;
+
+interface WorldConfig {
+  defaultViewport: {
+    height: number;
+    width: number;
+  };
+  headless: boolean;
+  slowMo: number;
+}
 
 export class BrowserWorld {
   private browser?: Browser;
   private page?: Page;
 
-  get config() {
+  get config(): WorldConfig {
     return {
       defaultViewport: {
         height: 720,
@@ -20,23 +29,32 @@ export class BrowserWorld {
     };
   }
 
-  get $document() {
+  get $document(): Promise<ElementHandle<Element>> {
     return getDocument(this.page);
   }
 
-  async getByText(text: string, opts?: SelectorMatcherOptions) {
+  async getByText(
+    text: string,
+    opts?: SelectorMatcherOptions,
+  ): Promise<ElementHandle<Element>> {
     return getByText(await this.$document, text, opts);
   }
 
-  async queryAllByText(text: string, opts?: SelectorMatcherOptions) {
+  async queryAllByText(
+    text: string,
+    opts?: SelectorMatcherOptions,
+  ): Promise<ElementHandle<Element>[]> {
     return queryAllByText(await this.$document, text, opts);
   }
 
-  async queryAllByTitle(text: string, opts?: SelectorMatcherOptions) {
+  async queryAllByTitle(
+    text: string,
+    opts?: SelectorMatcherOptions,
+  ): Promise<ElementHandle<Element>[]> {
     return queryAllByTitle(await this.$document, text, opts);
   }
 
-  async init() {
+  async init(): Promise<void> {
     this.browser = await puppeteer.launch(this.config);
     this.page = (await this.browser.pages())[0];
     if (DEBUG) {
@@ -46,7 +64,7 @@ export class BrowserWorld {
     }
   }
 
-  async cleanup() {
+  async cleanup(): Promise<void> {
     if (this.browser) {
       await this.browser.close();
     }

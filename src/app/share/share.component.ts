@@ -40,7 +40,7 @@ export class ShareComponent implements AfterContentInit {
     },
   };
 
-  ngAfterContentInit() {
+  ngAfterContentInit(): void {
     if (!this.menuEl) {
       throw new Error('Missing ViewChild menuEl');
     }
@@ -73,7 +73,7 @@ export class ShareComponent implements AfterContentInit {
     }
   }
 
-  private get shareOptions() {
+  private get shareOptions(): ShareData {
     return {
       text: this.text,
       title: 'Slides.Today',
@@ -81,7 +81,7 @@ export class ShareComponent implements AfterContentInit {
     };
   }
 
-  copy() {
+  copy(): void {
     clipboard
       .writeText(window.location.href)
       .catch(() => alert('Error copying URL'));

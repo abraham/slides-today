@@ -26,11 +26,11 @@ export class TagsComponent implements OnInit, AfterViewInit {
   @Input() currentTags: string[] = [];
   @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.tags$ = this.dataService.filterTags$(this.currentTags);
   }
 
-  ngAfterViewInit() {
+  ngAfterViewInit(): void {
     requestAnimationFrame(() => {
       MDCChipSet.attachTo(this.tagsEl.nativeElement);
     });

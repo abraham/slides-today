@@ -15,7 +15,7 @@ export class DeckSummaryComponent implements OnInit {
 
   url = '';
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
   }
 }

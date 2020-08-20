@@ -44,7 +44,7 @@ export class AppComponent {
     }
   }
 
-  private updatePath(tags: string[]) {
+  private updatePath(tags: string[]): void {
     if (tags.length === 0) {
       this.router.navigate(['/']);
     } else {
@@ -52,7 +52,7 @@ export class AppComponent {
     }
   }
 
-  private removeNoScripts() {
+  private removeNoScripts(): void {
     document.querySelectorAll('noscript').forEach(element => {
       element.remove();
     });
