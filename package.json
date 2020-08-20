@@ -80,7 +80,7 @@
     "@types/material-components-web": "1.0.0",
     "@types/node": "10.17.28",
     "@types/puppeteer": "3.0.1",
-    "@types/twit": "2.2.26",
+    "@types/twit": "2.2.27",
     "bundlesize": "0.18.0",
     "chai": "4.2.0",
     "codelyzer": "6.0.0",
