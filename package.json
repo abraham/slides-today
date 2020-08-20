@@ -28,6 +28,7 @@
     "serve": "npm run build && npm run start:firebase",
     "start:firebase": "firebase emulators:start",
     "start": "ng serve --port 5000",
+    "test:components": "ng test -- --no-watch --no-progress",
     "test:features": "start-server-and-test start:firebase http://localhost:5000 test",
     "test": "TS_NODE_PROJECT=features/tsconfig.json cucumber-js",
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts"

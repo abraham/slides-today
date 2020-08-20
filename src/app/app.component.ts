@@ -25,7 +25,7 @@ export class AppComponent {
     this.removeNoScripts();
   }
 
-  defaultTitle = 'Slides.today';
+  private defaultTitle = 'Slides.today';
   showBack = false;
   title = this.defaultTitle;
   theme$ = this.themeService.current$;

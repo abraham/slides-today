@@ -1,6 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-
-import { ThemeService } from './services/theme.service';
+import { ThemeService } from './theme.service';
 
 describe('ThemeService', () => {
   let service: ThemeService;
