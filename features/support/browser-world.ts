@@ -1,24 +1,20 @@
 import { SelectorMatcherOptions } from '@testing-library/dom';
 import { getDocument, queries } from 'pptr-testing-library';
-import puppeteer, { Browser, ElementHandle, Page } from 'puppeteer';
+import puppeteer, {
+  Browser,
+  ElementHandle,
+  LaunchOptions,
+  Page,
+} from 'puppeteer';
 import { DEBUG } from './environment';
 
 const { getByText, queryAllByText, queryAllByTitle } = queries;
-
-interface WorldConfig {
-  defaultViewport: {
-    height: number;
-    width: number;
-  };
-  headless: boolean;
-  slowMo: number;
-}
 
 export class BrowserWorld {
   private browser?: Browser;
   private page?: Page;
 
-  get config(): WorldConfig {
+  get config(): LaunchOptions {
     return {
       defaultViewport: {
         height: 720,
