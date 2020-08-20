@@ -53,3 +53,5 @@ Thumbs.db
 firebase-debug.log
 .twitter.json
 /.lighthouseci
+firestore-debug.log
+ui-debug.log
