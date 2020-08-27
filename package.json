@@ -75,7 +75,7 @@
     "@testing-library/dom": "^7.22.6",
     "@types/chai": "4.2.12",
     "@types/cucumber": "6.0.1",
-    "@types/jasmine": "3.5.13",
+    "@types/jasmine": "3.5.14",
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "1.0.0",
     "@types/node": "10.17.28",
