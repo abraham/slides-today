@@ -11,6 +11,8 @@ app-header {
 }
 
 main {
+  --mdc-layout-grid-gutter-desktop: 1em;
+
   max-width: 1600px;
   padding-top: 8px;
 }

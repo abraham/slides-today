@@ -14,11 +14,23 @@
 }
 
 .deck-content {
+  columns: 2;
   padding: 8px;
+
+  :first-child {
+    margin: 0;
+  }
+}
+
+@media (max-width: 719px) {
+  .deck-content {
+    columns: 1;
+  }
 }
 
 .item {
-  margin: 0.5em 0;
+  break-inside: avoid-column;
+  margin: 1em 0;
 }
 
 node-package,
