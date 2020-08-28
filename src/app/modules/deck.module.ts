@@ -11,11 +11,6 @@ import { SponsorComponent } from '../sponsor/sponsor.component';
 import { CardModule } from './card.module';
 import { TagModule } from './tag.module';
 
-import(/* webpackChunkName: 'components' */ 'github-repository');
-import(/* webpackChunkName: 'components' */ 'node-package');
-import(/* webpackChunkName: 'components' */ 'twitter-status');
-import(/* webpackChunkName: 'components' */ '@justinribeiro/lite-youtube');
-
 const routes: Routes = [
   {
     component: DeckDetailsComponent,
@@ -41,4 +36,11 @@ const routes: Routes = [
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class DeckModule {}
+export class DeckModule {
+  constructor() {
+    import(/* webpackChunkName: 'components' */ 'github-repository');
+    import(/* webpackChunkName: 'components' */ 'node-package');
+    import(/* webpackChunkName: 'components' */ 'twitter-status');
+    import(/* webpackChunkName: 'components' */ '@justinribeiro/lite-youtube');
+  }
+}
