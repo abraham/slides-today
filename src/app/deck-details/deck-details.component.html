@@ -6,69 +6,58 @@
     <div
       class="deck-content mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
     >
-      <div class="mdc-layout-grid__inner">
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
-        >
-          <div #detailsEl>
-            <app-card #detailsEl [actions]="deck.links" class="item">
-              <div hero>{{ deck.title }}</div>
-              <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
-              <div body>{{ deck.description }}</div>
-              <div body><app-tags [currentTags]="deck.tags"></app-tags></div>
-            </app-card>
-          </div>
-
-          <ng-template ngFor let-embed [ngForOf]="embeds">
-            <div class="item">
-              <app-embed
-                [width]="embedWidth"
-                [link]="embed"
-                [title]="deck.title"
-                [theme]="deck.theme"
-              ></app-embed>
-            </div>
-          </ng-template>
-
-          <ng-template ngFor let-speakerId [ngForOf]="deck.speakerIds">
-            <div class="item">
-              <app-speaker [speakerId]="speakerId"></app-speaker>
-            </div>
-          </ng-template>
-
-          <div class="item" *ngIf="deck">
-            <app-map [location]="deck.location"></app-map>
-          </div>
-
-          <div class="item" *ngIf="deck && deck.sponsorIds.length">
-            <app-sponsor [sponsorIds]="deck.sponsorIds"></app-sponsor>
-          </div>
-
-          <div class="item" *ngIf="deck.resources.length > 0">
-            <app-deck-resources
-              [resources]="deck.resources"
-            ></app-deck-resources>
-          </div>
-        </div>
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
-        >
-          <ng-template ngFor let-github [ngForOf]="deck.githubRepos">
-            <github-repository
-              class="item"
-              [attr.owner-repo]="github"
-            ></github-repository>
-          </ng-template>
-
-          <ng-template ngFor let-name [ngForOf]="deck.nodePackages">
-            <node-package class="item" [attr.name]="name"></node-package>
-          </ng-template>
-
-          <ng-template ngFor let-status [ngForOf]="deck.tweets | async">
-            <twitter-status class="item" [status]="status"></twitter-status>
-          </ng-template>
-        </div>
+      <div #detailsEl class="item">
+        <app-card [actions]="deck.links">
+          <div hero>{{ deck.title }}</div>
+          <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
+          <div body>{{ deck.description }}</div>
+          <div body><app-tags [currentTags]="deck.tags"></app-tags></div>
+        </app-card>
       </div>
+
+      <ng-template ngFor let-embed [ngForOf]="embeds">
+        <div class="item">
+          <app-embed
+            [width]="embedWidth"
+            [link]="embed"
+            [title]="deck.title"
+            [theme]="deck.theme"
+          ></app-embed>
+        </div>
+      </ng-template>
+
+      <ng-template ngFor let-speakerId [ngForOf]="deck.speakerIds">
+        <div class="item">
+          <app-speaker [speakerId]="speakerId"></app-speaker>
+        </div>
+      </ng-template>
+
+      <div class="item" *ngIf="deck">
+        <app-map [location]="deck.location"></app-map>
+      </div>
+
+      <div class="item" *ngIf="deck && deck.sponsorIds.length">
+        <app-sponsor [sponsorIds]="deck.sponsorIds"></app-sponsor>
+      </div>
+
+      <div class="item" *ngIf="deck.resources.length > 0">
+        <app-deck-resources [resources]="deck.resources"></app-deck-resources>
+      </div>
+
+      <ng-template ngFor let-github [ngForOf]="deck.githubRepos">
+        <github-repository
+          class="item"
+          [attr.owner-repo]="github"
+        ></github-repository>
+      </ng-template>
+
+      <ng-template ngFor let-name [ngForOf]="deck.nodePackages">
+        <node-package class="item" [attr.name]="name"></node-package>
+      </ng-template>
+
+      <ng-template ngFor let-status [ngForOf]="deck.tweets | async">
+        <twitter-status class="item" [status]="status"></twitter-status>
+      </ng-template>
     </div>
   </div>
 
