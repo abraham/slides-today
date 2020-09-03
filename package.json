@@ -78,7 +78,7 @@
     "@types/jasmine": "3.5.14",
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "1.0.0",
-    "@types/node": "10.17.28",
+    "@types/node": "10.17.29",
     "@types/puppeteer": "3.0.1",
     "@types/twit": "2.2.27",
     "bundlesize": "0.18.0",
