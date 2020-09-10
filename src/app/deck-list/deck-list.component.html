@@ -30,11 +30,20 @@
           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
         ></app-about>
 
-        <app-deck-summary
-          *ngFor="let deck of decks"
-          [deck]="deck"
+        <virtual-scroller
+          #scroll
+          [items]="decks"
+          [parentScroll]="scroll.window"
+          [enableUnequalChildrenSizes]="true"
           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
-        ></app-deck-summary>
+        >
+          <app-deck-summary
+            *ngFor="let deck of scroll.viewPortItems"
+            [deck]="deck"
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"
+          ></app-deck-summary>
+        </virtual-scroller>
+
         <div
           *ngIf="!decks.length"
           class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty"

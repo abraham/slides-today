@@ -59,6 +59,7 @@
     "material-components-web": "6.0.0",
     "ng-lazyload-image": "9.0.1",
     "ngx-skeleton-loader": "2.4.4",
+    "ngx-virtual-scroller": "4.0.3",
     "node-package": "1.4.0",
     "rxjs": "6.6.3",
     "tslib": "^2.0.1",
