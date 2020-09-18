@@ -120,7 +120,7 @@
     "twit": "2.2.11",
     "twitter-d": "0.4.0",
     "typescript": "3.9.7",
-    "webpack-bundle-analyzer": "3.8.0"
+    "webpack-bundle-analyzer": "3.9.0"
   },
   "engines": {
     "node": "12"
