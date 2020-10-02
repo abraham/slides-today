@@ -1,38 +1,41 @@
 {
   "name": "slides-today",
   "version": "0.0.0",
+  "private": true,
   "license": "MIT",
+  "engines": {
+    "node": "12"
+  },
   "scripts": {
     "analyze": "npm run build:stats && webpack-bundle-analyzer dist/slides-today/stats-es2015.json",
+    "build": "ng build --prod",
     "build:development": "npm run build --prod='false'",
     "build:scripts": "cd scripts && tsc",
     "build:stats": "npm run build --stats-json",
-    "build": "ng build --prod",
     "bundlesize": "bundlesize",
     "clean": "rm -rf dist && rm -rf scripts/dist",
     "deploy": "ng deploy",
     "e2e": "ng e2e",
-    "fix:prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
     "fix": "concurrently npm:fix:*",
+    "fix:prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
     "get-tweet": "ts-node --project scripts/tsconfig.json scripts/get-tweet.ts",
     "id": "ts-node --project scripts/tsconfig.json scripts/id.ts",
     "lighthouse": "firebase emulators:exec \"lhci autorun\"",
+    "lint": "concurrently npm:lint:*",
     "lint:features": "tslint --config tslint.json 'features/**/*.ts'",
     "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm --validate-https",
     "lint:ng": "ng lint",
     "lint:prettier": "prettier --check \"**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
     "lint:stylelint": "stylelint \"src/**/*.scss\"",
-    "lint": "concurrently npm:lint:*",
-    "prebuild:scripts": "cp -n example.twitter.json .twitter.json || true; cp -n example.firebase-adminsdk.json .firebase-adminsdk.json || true",
     "prebuild": "npm run clean",
+    "prebuild:scripts": "cp -n example.twitter.json .twitter.json || true; cp -n example.firebase-adminsdk.json .firebase-adminsdk.json || true",
     "serve": "npm run build && npm run start:firebase",
-    "start:firebase": "firebase emulators:start",
     "start": "ng serve --port 5000",
-    "test:features": "start-server-and-test start:firebase http://localhost:5000 test",
+    "start:firebase": "firebase emulators:start",
     "test": "TS_NODE_PROJECT=features/tsconfig.json cucumber-js",
+    "test:features": "start-server-and-test start:firebase http://localhost:5000 test",
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "10.0.0-rc.6",
     "@angular/cdk": "10.2.3",
@@ -103,6 +106,7 @@
     "lockfile-lint": "4.3.7",
     "pptr-testing-library": "^0.6.4",
     "prettier": "2.1.2",
+    "prettier-plugin-package": "1.1.0",
     "protractor": "~7.0.0",
     "puppeteer": "5.2.1",
     "sass": "1.26.11",
@@ -121,9 +125,6 @@
     "twitter-d": "0.4.0",
     "typescript": "3.9.7",
     "webpack-bundle-analyzer": "3.9.0"
-  },
-  "engines": {
-    "node": "12"
   },
   "bundlesize": [
     {
