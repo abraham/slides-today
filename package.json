@@ -106,7 +106,7 @@
     "lockfile-lint": "4.3.7",
     "pptr-testing-library": "^0.6.4",
     "prettier": "2.1.2",
-    "prettier-plugin-package": "1.1.0",
+    "prettier-plugin-package": "1.2.0",
     "protractor": "~7.0.0",
     "puppeteer": "5.2.1",
     "sass": "1.27.0",
