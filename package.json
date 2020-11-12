@@ -74,7 +74,7 @@
     "@angular/cli": "11.0.0",
     "@angular/compiler-cli": "11.0.0",
     "@angular/language-service": "11.0.0",
-    "@lhci/cli": "0.6.0",
+    "@lhci/cli": "0.6.1",
     "@testing-library/dom": "^7.26.6",
     "@types/chai": "4.2.14",
     "@types/cucumber": "6.0.1",
