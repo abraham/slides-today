@@ -1,7 +1,7 @@
 [
   {
     "id": "-M18pjTHA5XYr1yA3saC",
-    "archived": false,
+    "archived": true,
     "nodePackages": ["workbox-cli", "webpack-cli"],
     "githubRepos": [],
     "speakerIds": ["-KsZTNlw7dpLoH5mrsT4"],
