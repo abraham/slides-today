@@ -4,7 +4,7 @@ import {
   defineParameterType,
   setDefaultTimeout,
   setWorldConstructor,
-} from 'cucumber';
+} from '@cucumber/cucumber';
 import { BrowserWorld } from './browser-world';
 import { DEBUG } from './environment';
 import { parameterTypes } from './parameter-types';

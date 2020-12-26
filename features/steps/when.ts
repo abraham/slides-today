@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { When } from 'cucumber';
+import { When } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
 import { isInteractiveElement, sleep } from '../support/utils';
 

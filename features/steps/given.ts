@@ -1,4 +1,4 @@
-import { Given } from 'cucumber';
+import { Given } from '@cucumber/cucumber';
 import { origin } from '../support/environment';
 
 Given(
