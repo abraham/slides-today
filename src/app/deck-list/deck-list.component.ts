@@ -16,6 +16,11 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
   templateUrl: './deck-list.component.html',
 })
 export class DeckListComponent implements OnInit {
+  selectedTagIds$: Observable<string[]>;
+  decks: Deck[] = [];
+  mobile = false;
+  hasSelectedTagIds = false;
+
   constructor(
     private dataService: DataService,
     private themeService: ThemeService,
@@ -36,11 +41,6 @@ export class DeckListComponent implements OnInit {
       .observe([Breakpoints.XSmall])
       .subscribe(({ matches }) => (this.mobile = matches));
   }
-
-  selectedTagIds$: Observable<string[]>;
-  decks: Deck[] = [];
-  mobile = false;
-  hasSelectedTagIds = false;
 
   ngOnInit(): void {
     this.route.paramMap.pipe(

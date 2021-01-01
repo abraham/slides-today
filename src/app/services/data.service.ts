@@ -4,7 +4,7 @@ import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
 import { Tag, TagSelectionEvent } from '../models/tag';
 import tagData from '../tags.data.json';
 
-function sortTags(a: Tag, b: Tag): -1 | 0 | 1 {
+const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
   if (a.id < b.id) {
     return -1;
   }
@@ -12,12 +12,23 @@ function sortTags(a: Tag, b: Tag): -1 | 0 | 1 {
     return 1;
   }
   return 0;
-}
+};
+
+const unique = (values: string[]): string[] => [...new Set(values)];
+
+const equalArray = (array1: string[], array2: string[]): boolean =>
+  array1.length === array2.length &&
+  array1.sort().every((value, index) => value === array2.sort()[index]);
 
 @Injectable({
   providedIn: 'root',
 })
 export class DataService {
+  selectedTagIds$ = new BehaviorSubject<string[]>([]);
+  tags$ = new BehaviorSubject<Tag[]>([]);
+
+  private tagSelection$ = new Subject<TagSelectionEvent>();
+
   constructor() {
     this.tagSelection$
       .pipe(
@@ -29,11 +40,6 @@ export class DataService {
       .subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
     this.tags$.next(tagData.sort(sortTags));
   }
-
-  selectedTagIds$ = new BehaviorSubject<string[]>([]);
-  tags$ = new BehaviorSubject<Tag[]>([]);
-
-  private tagSelection$ = new Subject<TagSelectionEvent>();
 
   get path$(): Observable<string[]> {
     return combineLatest([this.tagSelection$, this.selectedTagIds$]).pipe(
@@ -71,17 +77,4 @@ export class DataService {
       return selectedTagIds.filter(tagId => tagId !== event.id);
     }
   }
-}
-
-function unique(values: string[]): string[] {
-  return [...new Set(values)];
-}
-
-function equalArray(array1: string[], array2: string[]): boolean {
-  return (
-    array1.length === array2.length &&
-    array1.sort().every((value, index) => {
-      return value === array2.sort()[index];
-    })
-  );
 }

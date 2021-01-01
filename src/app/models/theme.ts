@@ -3,16 +3,14 @@ export const DEFAULT_THEME = {
   color: '#000',
 };
 
+export const invert = (theme: Theme): Theme => ({
+  backgroundColor: theme.color,
+  color: theme.backgroundColor,
+});
+
 export const DEFAULT_INVERTED_THEME = invert(DEFAULT_THEME);
 
 export interface Theme {
   backgroundColor: string;
   color: string;
-}
-
-export function invert(theme: Theme): Theme {
-  return {
-    backgroundColor: theme.color,
-    color: theme.backgroundColor,
-  };
 }

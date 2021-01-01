@@ -5,7 +5,7 @@ type ListFormatOptions = {
   type: string;
 };
 
-// tslint:disable-next-line:no-namespace
+// eslint-disable-next-line @typescript-eslint/no-namespace
 declare namespace Intl {
   class ListFormat {
     constructor(locale: string, options?: ListFormatOptions);
@@ -13,13 +13,17 @@ declare namespace Intl {
   }
 }
 
-type ListFormatPolyfill = new (lang: string, options: object) => {
+type ListFormatPolyfill = new (
+  lang: string,
+  options: Record<string, unknown>,
+) => {
   format: (items: string[]) => string;
 };
 
+// eslint-disable-next-line @typescript-eslint/naming-convention
 type IntlPolyfill = { ListFormat: ListFormatPolyfill };
 
-export async function formatTagList(tags: string[]): Promise<string> {
+export const formatTagList = async (tags: string[]): Promise<string> => {
   if (!('ListFormat' in Intl)) {
     await import(/* webpackChunkName: 'intl' */ 'intl-list-format' as string);
     await import(
@@ -32,4 +36,4 @@ export async function formatTagList(tags: string[]): Promise<string> {
   };
   const formatter = new Intl.ListFormat('en', options);
   return formatter.format(tags.map(tag => `#${tag}`));
-}
+};

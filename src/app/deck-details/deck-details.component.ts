@@ -25,6 +25,15 @@ interface DeckData extends Data {
   templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent implements OnInit, AfterContentChecked {
+  @ViewChild('detailsEl') detailsEl!: ElementRef;
+
+  showBack = true; // Show back button in app bar
+  title = ''; // Clear site title
+  deck$ = new ReplaySubject<Deck>();
+  embeds: Link[] = [];
+  embedWidth = 200;
+  colors = DEFAULT_THEME;
+
   constructor(
     private route: ActivatedRoute,
     private location: Location,
@@ -34,15 +43,6 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   ) {
     this.deck$.subscribe(deck => this.init(deck));
   }
-
-  @ViewChild('detailsEl') detailsEl!: ElementRef;
-
-  showBack = true; // Show back button in app bar
-  title = ''; // Clear site title
-  deck$ = new ReplaySubject<Deck>();
-  embeds: Link[] = [];
-  embedWidth = 200;
-  colors = DEFAULT_THEME;
 
   ngOnInit(): void {
     this.route.data.subscribe(data => this.deck$.next((data as DeckData).deck));
@@ -72,11 +72,11 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
 
   private async loadShareComponent(deck: Deck): Promise<void> {
     setTimeout(async () => {
-      const { ShareComponent } = await import(
+      const module = await import(
         /* webpackChunkName: 'share' */ '../share/share.component'
       );
       const share = this.viewContainer.createComponent(
-        this.resolver.resolveComponentFactory(ShareComponent),
+        this.resolver.resolveComponentFactory(module.ShareComponent),
       );
       share.instance.text = deck.title;
     }, 1000);
@@ -102,8 +102,8 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   }
 
   private setEmbeds(deck: Deck): void {
-    this.embeds = deck.links.filter(({ service }) => {
-      return Object.keys(EmbeddedServices).includes(service);
-    });
+    this.embeds = deck.links.filter(({ service }) =>
+      Object.keys(EmbeddedServices).includes(service),
+    );
   }
 }

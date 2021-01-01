@@ -17,28 +17,24 @@ import { ThemeService } from '../services/theme.service';
   templateUrl: './share.component.html',
 })
 export class ShareComponent implements AfterContentInit {
-  constructor(private themeService: ThemeService) {
-    this.themeService.inverted$.subscribe(theme => (this.theme = theme));
-  }
-
-  private menu!: MDCMenu;
-
   @ViewChild('menuEl', { static: true }) menuEl?: ElementRef;
   @Input() text = '';
-
   theme = DEFAULT_INVERTED_THEME;
   exited = true;
   twitterUrl = '';
   facebookUrl = '';
 
+  private menu!: MDCMenu;
   private services: { [key: string]: () => string } = {
-    [SocialServices.facebook]: () => {
-      return `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`;
-    },
-    [SocialServices.twitter]: () => {
-      return `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`;
-    },
+    [SocialServices.facebook]: () =>
+      `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
+    [SocialServices.twitter]: () =>
+      `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
+
+  constructor(private themeService: ThemeService) {
+    this.themeService.inverted$.subscribe(theme => (this.theme = theme));
+  }
 
   ngAfterContentInit(): void {
     if (!this.menuEl) {

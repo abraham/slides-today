@@ -17,14 +17,14 @@ import { DataService } from '../services/data.service';
   templateUrl: './tags.component.html',
 })
 export class TagsComponent implements OnInit, AfterViewInit {
-  constructor(private dataService: DataService) {
-    this.tags$ = this.dataService.tags$;
-  }
+  @Input() currentTags: string[] = [];
+  @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
 
   tags$: Observable<Tag[]>;
 
-  @Input() currentTags: string[] = [];
-  @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
+  constructor(private dataService: DataService) {
+    this.tags$ = this.dataService.tags$;
+  }
 
   ngOnInit(): void {
     this.tags$ = this.dataService.filterTags$(this.currentTags);

@@ -11,28 +11,26 @@ import { DeckDetailsComponent } from '../deck-details/deck-details.component';
 import { DeckListComponent } from '../deck-list/deck-list.component';
 import { DeckResolverService } from '../services/deck-resolver.service';
 
-function isHome(url: UrlSegment[]): UrlMatchResult {
+const isHome = (url: UrlSegment[]): UrlMatchResult => {
   const noPaths = url.length === 0;
   const tagsPath = url[0]?.path === 'tags';
   const consumed = noPaths || tagsPath ? url : [];
   return { consumed };
-}
+};
 
 const routes: Routes = [
   {
-    loadChildren: () => {
-      return import(/* webpackChunkName: 'home' */ './home.module').then(m => {
-        return m.HomeModule;
-      });
-    },
+    loadChildren: () =>
+      import(/* webpackChunkName: 'home' */ './home.module').then(
+        m => m.HomeModule,
+      ),
     matcher: isHome,
   },
   {
-    loadChildren: () => {
-      return import(/* webpackChunkName: 'deck' */ './deck.module').then(m => {
-        return m.DeckModule;
-      });
-    },
+    loadChildren: () =>
+      import(/* webpackChunkName: 'deck' */ './deck.module').then(
+        m => m.DeckModule,
+      ),
     path: 'decks/:id',
     resolve: { deck: DeckResolverService },
   },
@@ -42,13 +40,10 @@ const routes: Routes = [
     redirectTo: '',
   },
   {
-    loadChildren: () => {
-      return import(
-        /* webpackChunkName: 'not-found' */ './not-found.module'
-      ).then(m => {
-        return m.NotFoundModule;
-      });
-    },
+    loadChildren: () =>
+      import(/* webpackChunkName: 'not-found' */ './not-found.module').then(
+        m => m.NotFoundModule,
+      ),
     path: '**',
   },
 ];

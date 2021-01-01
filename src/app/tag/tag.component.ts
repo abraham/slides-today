@@ -22,14 +22,14 @@ interface ChipSelectionEvent extends CustomEvent {
   templateUrl: './tag.component.html',
 })
 export class TagComponent implements OnInit {
-  constructor(private dataService: DataService) {}
+  @Input() tag!: Tag;
+  @Input() currentTag!: string;
+  @ViewChild('chip', { static: true }) chip!: ElementRef;
 
   currentStyles = DEFAULT_THEME;
   selected = false;
 
-  @Input() tag!: Tag;
-  @Input() currentTag!: string;
-  @ViewChild('chip', { static: true }) chip!: ElementRef;
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
     this.setCurrentStyles();

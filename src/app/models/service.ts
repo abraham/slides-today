@@ -1,3 +1,6 @@
+// TODO: Remove https://github.com/angular-eslint/angular-eslint/issues/212
+/* eslint-disable no-shadow */
+
 export enum EmbeddedServices {
   youtube = 'youtube',
   slides = 'slides',

@@ -7,8 +7,6 @@ import { environment } from '../../environments/environment';
   templateUrl: './map.component.html',
 })
 export class MapComponent implements OnInit {
-  constructor() {}
-
   @Input() location = '';
 
   url = '';

@@ -10,6 +10,12 @@ import { ThemeService } from './services/theme.service';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
+  defaultTitle = 'Slides.today';
+  showBack = false;
+  title = this.defaultTitle;
+  theme$ = this.themeService.current$;
+  firstLoad = true;
+
   constructor(
     private dataService: DataService,
     private themeService: ThemeService,
@@ -24,12 +30,6 @@ export class AppComponent {
 
     this.removeNoScripts();
   }
-
-  defaultTitle = 'Slides.today';
-  showBack = false;
-  title = this.defaultTitle;
-  theme$ = this.themeService.current$;
-  firstLoad = true;
 
   onActivate(event: RoutedComponents): void {
     if ('title' in event) {
