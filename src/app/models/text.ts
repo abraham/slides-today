@@ -13,27 +13,16 @@ declare namespace Intl {
   }
 }
 
-type ListFormatPolyfill = new (
-  lang: string,
-  options: Record<string, unknown>,
-) => {
-  format: (items: string[]) => string;
-};
-
-// eslint-disable-next-line @typescript-eslint/naming-convention
-type IntlPolyfill = { ListFormat: ListFormatPolyfill };
-
 export const formatTagList = async (tags: string[]): Promise<string> => {
-  if (!('ListFormat' in Intl)) {
-    await import(/* webpackChunkName: 'intl' */ 'intl-list-format' as string);
-    await import(
-      /* webpackChunkName: 'intl' */ 'intl-list-format/locale-data/en' as string
-    );
+  const hashtags = tags.map(tag => `#${tag}`);
+  if ('ListFormat' in Intl) {
+    const options = {
+      style: 'long',
+      type: 'conjunction',
+    };
+    const formatter = new Intl.ListFormat('en', options);
+    return formatter.format(hashtags);
+  } else {
+    return hashtags.join(', ');
   }
-  const options = {
-    style: 'long',
-    type: 'conjunction',
-  };
-  const formatter = new Intl.ListFormat('en', options);
-  return formatter.format(tags.map(tag => `#${tag}`));
 };
