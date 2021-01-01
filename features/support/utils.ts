@@ -4,9 +4,8 @@ import { ElementHandle, Page } from 'puppeteer';
 export const flat = (items: string[][]) =>
   items.reduce((acc, val) => acc.concat(val), []);
 
-export const sleep = (seconds: number) => {
-  return new Promise(resolve => setTimeout(resolve, seconds * 1000));
-};
+export const sleep = (seconds: number) =>
+  new Promise(resolve => setTimeout(resolve, seconds * 1000));
 
 const validTag = (value: unknown) => {
   const validTagNames = ['A', 'BUTTON', 'CHECKBOX'];
@@ -19,9 +18,10 @@ const interactiveTag = async (
   page: Page,
   element: ElementHandle,
 ): Promise<boolean> => {
-  const tagNames = await page.evaluate((el: Element) => {
-    return [el.tagName, el.getAttribute('role')];
-  }, element);
+  const tagNames = await page.evaluate(
+    (el: Element) => [el.tagName, el.getAttribute('role')],
+    element,
+  );
   return tagNames.some(tagName => validTag(tagName));
 };
 

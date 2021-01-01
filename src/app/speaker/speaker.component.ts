@@ -7,7 +7,7 @@ import { SpeakerService } from '../services/speaker.service';
   templateUrl: './speaker.component.html',
 })
 export class SpeakerComponent {
-  constructor(public speakerService: SpeakerService) {}
-
   @Input() speakerId?: string;
+
+  constructor(public speakerService: SpeakerService) {}
 }

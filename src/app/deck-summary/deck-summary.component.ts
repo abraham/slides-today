@@ -8,12 +8,12 @@ import { Deck } from '../models/deck';
   templateUrl: './deck-summary.component.html',
 })
 export class DeckSummaryComponent implements OnInit {
-  constructor(private router: Router) {}
-
   @Input() deck!: Deck;
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
   url = '';
+
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();

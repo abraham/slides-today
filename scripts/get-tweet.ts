@@ -3,14 +3,15 @@ import * as path from 'path';
 import Twit from 'twit';
 import twitterCredentials from '../.twitter.json';
 
-const filePath = (name: string) => {
-  return path.resolve(`./src/assets/statuses/${name}.json`);
-};
+const filePath = (name: string) =>
+  path.resolve(`./src/assets/statuses/${name}.json`);
 const id = process.argv[2];
 const client = new Twit({ ...twitterCredentials, strictSSL: true });
 const showParams = {
   id,
+  // eslint-disable-next-line @typescript-eslint/naming-convention
   include_entities: true,
+  // eslint-disable-next-line @typescript-eslint/naming-convention
   tweet_mode: 'extended',
 };
 

@@ -38,7 +38,9 @@
                 "glob": "**/*.js",
                 "input": "./node_modules/@webcomponents/webcomponentsjs",
                 "output": "/assets/@webcomponents/webcomponentsjs/",
-                "ignore": ["src/**/*"]
+                "ignore": [
+                  "src/**/*"
+                ]
               },
               {
                 "glob": "autotrack{.js,.js.map}",
@@ -131,15 +133,14 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "e2e/**/*.ts",
+              "features/**/*.ts",
+              "scripts/**/*.ts",
+              "src/**/*.html",
+              "src/**/*.ts"
             ]
           }
         },
@@ -160,12 +161,13 @@
           }
         }
       }
-    }},
-    "cli": {
-      "warnings": {
-        "typescriptMismatch": false
-      },
-      "analytics": "cee0e5aa-ccad-4ac5-9eb8-a1580c575194"
+    }
+  },
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": false
     },
+    "analytics": "cee0e5aa-ccad-4ac5-9eb8-a1580c575194"
+  },
   "defaultProject": "slides-today"
 }

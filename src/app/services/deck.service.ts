@@ -30,11 +30,7 @@ export class DeckService {
   }
 
   private filterDecks(decks: Deck[], tags: string[]): Deck[] {
-    return decks.filter(deck => {
-      return tags.every(tag => {
-        return deck.tags.includes(tag);
-      });
-    });
+    return decks.filter(deck => tags.every(tag => deck.tags.includes(tag)));
   }
 
   private async fetchDecks(): Promise<void> {

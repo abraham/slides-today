@@ -22,6 +22,14 @@ interface PromptEvent extends Event {
   templateUrl: './header.component.html',
 })
 export class HeaderComponent implements AfterViewInit {
+  @Input() title = 'Slides.today';
+  @Input() showBack = false;
+  @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
+
+  theme = DEFAULT_THEME;
+  updateAvailable = false;
+  deferredInstallPrompt?: PromptEvent;
+
   constructor(
     private themeService: ThemeService,
     private location: Location,
@@ -36,14 +44,6 @@ export class HeaderComponent implements AfterViewInit {
       this.deferredInstallPrompt = e as PromptEvent;
     });
   }
-
-  theme = DEFAULT_THEME;
-  updateAvailable = false;
-  deferredInstallPrompt?: PromptEvent;
-
-  @Input() title = 'Slides.today';
-  @Input() showBack = false;
-  @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
   ngAfterViewInit(): void {
     if (!this.appBarEl) {

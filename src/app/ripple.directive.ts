@@ -7,15 +7,15 @@ type Style = 'unbounded' | 'bounded' | '';
   selector: '[appRipple]',
 })
 export class RippleDirective {
+  @Input('appRipple') style: Style = '';
+
   private attached = false;
 
-  @Input('appRipple') style: Style = '';
+  constructor(private el: ElementRef) {}
 
   @HostListener('mouseenter') onMouseEnter(): void {
     this.attach();
   }
-
-  constructor(private el: ElementRef) {}
 
   private attach(): void {
     if (!this.attached) {
