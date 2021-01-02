@@ -9,6 +9,7 @@ import { MapComponent } from '../map/map.component';
 import { SpeakerComponent } from '../speaker/speaker.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { CardModule } from './card.module';
+import { SnackBarModule } from './snack-bar.module';
 import { TagModule } from './tag.module';
 
 const routes: Routes = [
@@ -32,6 +33,7 @@ const routes: Routes = [
     CommonModule,
     LazyLoadImageModule,
     TagModule,
+    SnackBarModule,
     RouterModule.forChild(routes),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
