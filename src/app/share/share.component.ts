@@ -3,10 +3,14 @@ import {
   Component,
   ElementRef,
   Input,
+  OnDestroy,
+  OnInit,
   ViewChild,
 } from '@angular/core';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { SocialServices } from '../models/service';
 import { DEFAULT_INVERTED_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
@@ -16,7 +20,7 @@ import { ThemeService } from '../services/theme.service';
   styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
 })
-export class ShareComponent implements AfterContentInit {
+export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   @ViewChild('menuEl', { static: true }) menuEl?: ElementRef;
   @Input() text = '';
   theme = DEFAULT_INVERTED_THEME;
@@ -24,6 +28,7 @@ export class ShareComponent implements AfterContentInit {
   twitterUrl = '';
   facebookUrl = '';
 
+  private destroy$ = new Subject();
   private menu!: MDCMenu;
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () =>
@@ -32,8 +37,12 @@ export class ShareComponent implements AfterContentInit {
       `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
 
-  constructor(private themeService: ThemeService) {
-    this.themeService.inverted$.subscribe(theme => (this.theme = theme));
+  constructor(private themeService: ThemeService) {}
+
+  ngOnInit(): void {
+    this.themeService.inverted$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(theme => (this.theme = theme));
   }
 
   ngAfterContentInit(): void {
@@ -46,6 +55,11 @@ export class ShareComponent implements AfterContentInit {
     this.menu.listen('MDCMenuSurface:closed', () => (this.exited = false));
     this.twitterUrl = this.services[SocialServices.twitter]();
     this.facebookUrl = this.services[SocialServices.facebook]();
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
   private get shareText(): string {

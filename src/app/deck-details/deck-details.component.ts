@@ -4,12 +4,14 @@ import {
   Component,
   ComponentFactoryResolver,
   ElementRef,
+  OnDestroy,
   OnInit,
   ViewChild,
   ViewContainerRef,
 } from '@angular/core';
 import { ActivatedRoute, Data, Router } from '@angular/router';
-import { ReplaySubject } from 'rxjs';
+import { ReplaySubject, Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
 import { EmbeddedServices } from '../models/service';
@@ -24,7 +26,8 @@ interface DeckData extends Data {
   styleUrls: ['./deck-details.component.scss'],
   templateUrl: './deck-details.component.html',
 })
-export class DeckDetailsComponent implements OnInit, AfterContentChecked {
+export class DeckDetailsComponent
+  implements OnInit, AfterContentChecked, OnDestroy {
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
@@ -34,22 +37,32 @@ export class DeckDetailsComponent implements OnInit, AfterContentChecked {
   embedWidth = 200;
   colors = DEFAULT_THEME;
 
+  private destroy$ = new Subject();
+
   constructor(
     private route: ActivatedRoute,
     private location: Location,
     private router: Router,
     private viewContainer: ViewContainerRef,
     private resolver: ComponentFactoryResolver,
-  ) {
-    this.deck$.subscribe(deck => this.init(deck));
-  }
+  ) {}
 
   ngOnInit(): void {
-    this.route.data.subscribe(data => this.deck$.next((data as DeckData).deck));
+    this.deck$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(deck => this.init(deck));
+    this.route.data
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(data => this.deck$.next((data as DeckData).deck));
   }
 
   ngAfterContentChecked(): void {
     this.setEmbedWidth();
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
   goBack(): void {

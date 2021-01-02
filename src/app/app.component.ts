@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 import { RoutedComponents } from './modules/app-routing.module';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
@@ -9,26 +11,37 @@ import { ThemeService } from './services/theme.service';
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
 })
-export class AppComponent {
+export class AppComponent implements OnInit, OnDestroy {
   defaultTitle = 'Slides.today';
   showBack = false;
   title = this.defaultTitle;
   theme$ = this.themeService.current$;
   firstLoad = true;
 
+  private destroy$ = new Subject();
+
   constructor(
     private dataService: DataService,
     private themeService: ThemeService,
     private router: Router,
   ) {
-    this.dataService.path$.subscribe(this.updatePath.bind(this));
-    this.router.events.subscribe(event => {
+    this.removeNoScripts();
+  }
+
+  ngOnInit() {
+    this.dataService.path$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(this.updatePath.bind(this));
+    this.router.events.pipe(takeUntil(this.destroy$)).subscribe(event => {
       if (event instanceof RouteConfigLoadEnd) {
         this.firstLoad = false;
       }
     });
+  }
 
-    this.removeNoScripts();
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
   onActivate(event: RoutedComponents): void {
