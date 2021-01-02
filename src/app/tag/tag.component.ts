@@ -1,5 +1,13 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
-import { fromEvent } from 'rxjs';
+import {
+  Component,
+  ElementRef,
+  Input,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
+import { fromEvent, Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/internal/operators/takeUntil';
 import { Tag } from '../models/tag';
 import { DEFAULT_THEME } from '../models/theme';
 import { DataService } from '../services/data.service';
@@ -21,7 +29,7 @@ interface ChipSelectionEvent extends CustomEvent {
   styleUrls: ['./tag.component.scss'],
   templateUrl: './tag.component.html',
 })
-export class TagComponent implements OnInit {
+export class TagComponent implements OnInit, OnDestroy {
   @Input() tag!: Tag;
   @Input() currentTag!: string;
   @ViewChild('chip', { static: true }) chip!: ElementRef;
@@ -29,15 +37,23 @@ export class TagComponent implements OnInit {
   currentStyles = DEFAULT_THEME;
   selected = false;
 
+  private destroy$ = new Subject();
+
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
     this.setCurrentStyles();
-    fromEvent<ChipSelectionEvent>(
-      this.chip.nativeElement,
-      'MDCChip:selection',
-    ).subscribe(this.emitTagSelection.bind(this));
-    this.dataService.selectedTagIds$.subscribe(this.setSelection.bind(this));
+    fromEvent<ChipSelectionEvent>(this.chip.nativeElement, 'MDCChip:selection')
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(this.emitTagSelection.bind(this));
+    this.dataService.selectedTagIds$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(this.setSelection.bind(this));
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
   private setCurrentStyles(): void {

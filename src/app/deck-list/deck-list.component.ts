@@ -1,9 +1,9 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
-import { EMPTY, Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
+import { EMPTY, Observable, Subject } from 'rxjs';
+import { map, switchMap, takeUntil } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
@@ -15,11 +15,13 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
   styleUrls: ['./deck-list.component.scss'],
   templateUrl: './deck-list.component.html',
 })
-export class DeckListComponent implements OnInit {
+export class DeckListComponent implements OnInit, OnDestroy {
   selectedTagIds$: Observable<string[]>;
   decks: Deck[] = [];
   mobile = false;
   hasSelectedTagIds = false;
+
+  private destroy$ = new Subject();
 
   constructor(
     private dataService: DataService,
@@ -27,34 +29,45 @@ export class DeckListComponent implements OnInit {
     private deckService: DeckService,
     private route: ActivatedRoute,
     private bottomSheet: MatBottomSheet,
-    breakpointObserver: BreakpointObserver,
+    private breakpointObserver: BreakpointObserver,
   ) {
-    this.themeService.reset();
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
-    this.selectedTagIds$.subscribe(selectedTagIds => {
-      this.hasSelectedTagIds = selectedTagIds.length !== 0;
-    });
-    this.deckService
-      .filter(this.selectedTagIds$)
-      .subscribe(decks => (this.decks = decks));
-    breakpointObserver
-      .observe([Breakpoints.XSmall])
-      .subscribe(({ matches }) => (this.mobile = matches));
   }
 
   ngOnInit(): void {
+    this.themeService.reset();
+    this.selectedTagIds$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(selectedTagIds => {
+        this.hasSelectedTagIds = selectedTagIds.length !== 0;
+      });
+    this.deckService
+      .filter(this.selectedTagIds$)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(decks => (this.decks = decks));
+    this.breakpointObserver
+      .observe([Breakpoints.XSmall])
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(({ matches }) => (this.mobile = matches));
     this.route.paramMap.pipe(
       map(params => params.get('id')),
       switchMap(id => (id ? this.deckService.get(id) : EMPTY)),
     );
-
     this.route.paramMap
-      .pipe(map(params => params.get('tags')))
+      .pipe(
+        map(params => params.get('tags')),
+        takeUntil(this.destroy$),
+      )
       .subscribe(tags => {
         if (tags) {
           tags.split(',').map(tag => this.selectTag(tag));
         }
       });
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.unsubscribe();
   }
 
   openTagsSheet(): void {
