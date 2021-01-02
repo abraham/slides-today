@@ -7,6 +7,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { MDCMenu } from '@material/menu';
 import * as clipboard from 'clipboard-polyfill';
 import { Subject } from 'rxjs';
@@ -37,7 +38,10 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
       `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
 
-  constructor(private themeService: ThemeService) {}
+  constructor(
+    private themeService: ThemeService,
+    private snackBar: MatSnackBar,
+  ) {}
 
   ngOnInit(): void {
     this.themeService.inverted$
@@ -75,8 +79,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     if (navigator.share) {
       navigator
         .share(this.shareOptions)
-        .then(() => console.log('Successful share'))
-        .catch((error: Error) => console.log('Error sharing:', error))
+        .catch(() => this.snackBar.open('Error sharing'))
         .then(() => (this.exited = false));
     } else {
       this.menu.open = true;
@@ -94,6 +97,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   copy(): void {
     clipboard
       .writeText(window.location.href)
-      .catch(() => alert('Error copying URL'));
+      .then(() => this.snackBar.open('URL copied to clipboard'))
+      .catch(() => this.snackBar.open('Error copying URL'));
   }
 }

@@ -142,12 +142,16 @@
       "maxSize": "125 kB"
     },
     {
+      "path": "dist/slides-today/*home.*.js",
+      "maxSize": "40 kB"
+    },
+    {
       "path": "dist/slides-today/*components.*.js",
       "maxSize": "50 kB"
     },
     {
-      "path": "dist/slides-today/!(*main|*components).*.js",
-      "maxSize": "25 kB"
+      "path": "dist/slides-today/!(*main|*home|*components).*.js",
+      "maxSize": "30 kB"
     }
   ]
 }
