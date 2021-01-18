@@ -30,7 +30,7 @@
     "prebuild": "npm run clean",
     "prebuild:scripts": "cp -n example.twitter.json .twitter.json || true; cp -n example.firebase-adminsdk.json .firebase-adminsdk.json || true",
     "serve": "npm run build && npm run start:firebase",
-    "start": "ng serve --port 5000",
+    "start": "ng serve --port 5000 --hmr",
     "start:firebase": "firebase emulators:start",
     "test": "TS_NODE_PROJECT=features/tsconfig.json cucumber-js",
     "test:features": "start-server-and-test start:firebase http://localhost:5000 test",
