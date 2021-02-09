@@ -60,7 +60,7 @@
     "github-repository": "0.4.0",
     "material-components-web": "9.0.0",
     "ng-lazyload-image": "9.1.0",
-    "ngx-skeleton-loader": "2.6.2",
+    "ngx-skeleton-loader": "2.7.0",
     "node-package": "1.4.0",
     "rxjs": "6.6.3",
     "tslib": "^2.1.0",
