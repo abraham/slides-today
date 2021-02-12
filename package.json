@@ -77,7 +77,7 @@
     "@angular-eslint/template-parser": "1.2.0",
     "@angular/cli": "11.1.4",
     "@angular/compiler-cli": "11.1.2",
-    "@angular/language-service": "11.1.2",
+    "@angular/language-service": "11.2.0",
     "@lhci/cli": "0.7.0",
     "@testing-library/dom": "^7.29.4",
     "@types/chai": "4.2.14",
