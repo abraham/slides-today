@@ -91,7 +91,7 @@
     "@typescript-eslint/eslint-plugin": "4.15.2",
     "@typescript-eslint/parser": "4.15.2",
     "bundlesize": "0.18.1",
-    "chai": "4.3.0",
+    "chai": "4.3.3",
     "codelyzer": "6.0.1",
     "concurrently": "6.0.0",
     "cucumber": "6.0.5",
