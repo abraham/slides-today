@@ -1,6 +1,5 @@
 import { Given } from 'cucumber';
 import { origin } from '../support/environment';
-import { flat } from '../support/utils';
 
 Given(
   'the network is {networkStatus}',
@@ -21,7 +20,7 @@ Given(
   async function ({ rawTable }): Promise<void> {
     // Available permissions: https://pptr.dev/#?product=Puppeteer&show=api-browsercontextoverridepermissionsorigin-permissions
     const context = this.page.browserContext();
-    await context.overridePermissions(origin, flat(rawTable));
+    await context.overridePermissions(origin, rawTable.flat());
   },
 );
 
