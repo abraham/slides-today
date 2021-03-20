@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v2
@@ -29,7 +29,7 @@ jobs:
           path: dist
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - run: npm ci
       - run: npx firebase use slides-today
       - run: npm run test:features
@@ -47,7 +47,7 @@ jobs:
           path: dist
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - run: npm ci
       - run: npx firebase use slides-today
       - uses: treosh/lighthouse-ci-action@v2
@@ -65,6 +65,6 @@ jobs:
           path: dist
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - run: npm ci
       - run: npm run bundlesize
