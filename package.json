@@ -82,7 +82,7 @@
     "@testing-library/dom": "^7.30.0",
     "@types/chai": "4.2.15",
     "@types/cucumber": "6.0.1",
-    "@types/jasmine": "3.6.6",
+    "@types/jasmine": "3.6.7",
     "@types/jasminewd2": "2.0.8",
     "@types/material-components-web": "1.0.0",
     "@types/node": "10.17.55",
