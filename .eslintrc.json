@@ -1,11 +1,18 @@
 {
   "root": true,
-  "ignorePatterns": ["projects/**/*"],
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
   "overrides": [
     {
-      "files": ["*.ts"],
+      "files": [
+        "*.ts"
+      ],
       "parserOptions": {
-        "project": ["tsconfig.json", "e2e/tsconfig.json"],
+        "project": [
+          "tsconfig.json",
+          "e2e/tsconfig.json"
+        ],
         "createDefaultProgram": true
       },
       "extends": [
@@ -14,7 +21,9 @@
         "plugin:@angular-eslint/template/process-inline-templates",
         "prettier"
       ],
-      "plugins": ["eslint-plugin-react"],
+      "plugins": [
+        "eslint-plugin-react"
+      ],
       "rules": {
         "@angular-eslint/component-selector": [
           "error",
@@ -33,8 +42,14 @@
           }
         ],
         "@typescript-eslint/no-explicit-any": "error",
-        "arrow-parens": ["off", "always"],
-        "brace-style": ["off", "off"],
+        "arrow-parens": [
+          "off",
+          "always"
+        ],
+        "brace-style": [
+          "off",
+          "off"
+        ],
         "linebreak-style": "off",
         "new-parens": "off",
         "newline-per-chained-call": "off",
@@ -52,7 +67,10 @@
             "named": "never"
           }
         ],
-        "space-in-parens": ["off", "never"],
+        "space-in-parens": [
+          "off",
+          "never"
+        ],
         "max-len": [
           "error",
           {
@@ -64,8 +82,12 @@
       }
     },
     {
-      "files": ["*.html"],
-      "extends": ["plugin:@angular-eslint/template/recommended"],
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
       "rules": {}
     }
   ]
