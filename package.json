@@ -93,7 +93,7 @@
     "bundlesize": "0.18.1",
     "chai": "4.3.4",
     "codelyzer": "6.0.1",
-    "concurrently": "6.0.0",
+    "concurrently": "6.0.2",
     "cucumber": "6.0.5",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
