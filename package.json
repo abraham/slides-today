@@ -4,7 +4,8 @@
   "private": true,
   "license": "MIT",
   "engines": {
-    "node": "14"
+    "node": "14",
+    "npm": "7"
   },
   "scripts": {
     "analyze": "npm run build:stats && webpack-bundle-analyzer dist/slides-today/stats-es2015.json",
