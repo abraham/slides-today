@@ -50,7 +50,7 @@
     "@angular/platform-browser-dynamic": "11.2.12",
     "@angular/router": "11.2.12",
     "@angular/service-worker": "11.2.12",
-    "@firebase/app": "0.6.20",
+    "@firebase/app": "0.6.21",
     "@justinribeiro/lite-youtube": "0.9.1",
     "@schuchard/prettier": "4.0.0",
     "@webcomponents/webcomponentsjs": "2.5.0",
