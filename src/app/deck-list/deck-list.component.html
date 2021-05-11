@@ -37,7 +37,11 @@
         ></app-deck-summary>
         <div
           *ngIf="!decks.length"
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty"
+          class="
+            mdc-layout-grid__cell mdc-layout-grid__cell--span-12
+            mdc-typography--body2
+            decks-empty
+          "
         >
           Nothing found that includes all the following tags:
           {{ selectedTagIds$ | async | tagList | async }}

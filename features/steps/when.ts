@@ -18,12 +18,9 @@ When('I click on {string}', async function (text: string): Promise<void> {
   });
 });
 
-When(
-  'I sleep for {int}',
-  async (seconds: number): Promise<void> => {
-    await sleep(seconds);
-  },
-);
+When('I sleep for {int}', async (seconds: number): Promise<void> => {
+  await sleep(seconds);
+});
 
 When('I press {string}', async function (key: string): Promise<void> {
   // See https://pptr.dev/#?product=Puppeteer&show=api-keyboardpresskey-options for list of valid keys
