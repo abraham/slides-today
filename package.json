@@ -52,7 +52,7 @@
     "@angular/service-worker": "11.2.12",
     "@firebase/app": "0.6.21",
     "@justinribeiro/lite-youtube": "0.9.1",
-    "@schuchard/prettier": "4.0.0",
+    "@schuchard/prettier": "5.0.0",
     "@webcomponents/webcomponentsjs": "2.5.0",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "3.0.3",
