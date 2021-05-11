@@ -27,7 +27,8 @@ interface DeckData extends Data {
   templateUrl: './deck-details.component.html',
 })
 export class DeckDetailsComponent
-  implements OnInit, AfterContentChecked, OnDestroy {
+  implements OnInit, AfterContentChecked, OnDestroy
+{
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
