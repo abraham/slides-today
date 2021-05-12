@@ -1,5 +1,5 @@
-@use '~@material/chips/mdc-chips';
-@use '~@material/ripple/mdc-ripple';
+@use "~@material/chips/deprecated/mdc-chips";
+@use '~@material/ripple';
 
 :host {
   display: block;

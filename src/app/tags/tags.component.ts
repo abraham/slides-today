@@ -6,7 +6,7 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { MDCChipSet } from '@material/chips';
+import { MDCChipSet } from '@material/chips/deprecated';
 import { Observable } from 'rxjs';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
