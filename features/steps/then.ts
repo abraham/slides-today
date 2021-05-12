@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Then } from 'cucumber';
+import { Then } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
 import { Page } from 'puppeteer';
 import { origin } from '../support/environment';
