@@ -33,7 +33,7 @@ export const isInteractiveElement = async (
       i++;
       element = await element
         .getProperty('parentElement')
-        .then(e => e.asElement());
+        .then(e => e?.asElement() || null);
     }
   }
   return false;
