@@ -2,6 +2,8 @@
 
 Slides.today is a site dedicated to the presentations [@abraham](https://github.com/abraham) and [@pearlbea](https://github.com/pearlbea) give at conferences and meetups.
 
+Random text
+
 ## Install
 
 Checkout the source with `git checkout git@github.com:abraham/slides-today.git` and run `npm install` from with the `slides-today` directory.
