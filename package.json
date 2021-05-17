@@ -85,7 +85,7 @@
     "@types/jasmine": "3.7.4",
     "@types/jasminewd2": "2.0.9",
     "@types/material-components-web": "1.0.0",
-    "@types/node": "14.14.44",
+    "@types/node": "14.14.45",
     "@types/puppeteer": "5.4.3",
     "@types/twit": "2.2.28",
     "@typescript-eslint/eslint-plugin": "4.23.0",
