@@ -49,7 +49,7 @@
     "@angular/platform-browser": "12.0.0",
     "@angular/platform-browser-dynamic": "12.0.0",
     "@angular/router": "12.0.0",
-    "@angular/service-worker": "12.0.0",
+    "@angular/service-worker": "12.0.2",
     "@firebase/app": "0.6.22",
     "@justinribeiro/lite-youtube": "0.9.1",
     "@webcomponents/webcomponentsjs": "2.5.0",
