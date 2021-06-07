@@ -119,7 +119,7 @@
     "prettier": "2.3.0",
     "prettier-plugin-package": "1.3.0",
     "protractor": "~7.0.0",
-    "puppeteer": "9.1.1",
+    "puppeteer": "10.0.0",
     "sass": "1.34.1",
     "start-server-and-test": "1.12.5",
     "stylelint": "13.13.1",
