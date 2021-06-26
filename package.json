@@ -81,7 +81,7 @@
     "@cucumber/cucumber": "^7.2.1",
     "@lhci/cli": "0.8.0",
     "@testing-library/dom": "^7.31.2",
-    "@types/chai": "4.2.18",
+    "@types/chai": "4.2.19",
     "@types/jasmine": "3.7.7",
     "@types/jasminewd2": "2.0.9",
     "@types/material-components-web": "1.0.0",
