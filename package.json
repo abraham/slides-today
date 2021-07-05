@@ -87,7 +87,7 @@
     "@types/material-components-web": "1.0.0",
     "@types/node": "14.17.4",
     "@types/puppeteer": "5.4.3",
-    "@types/twit": "2.2.29",
+    "@types/twit": "2.2.30",
     "@typescript-eslint/eslint-plugin": "4.28.1",
     "@typescript-eslint/parser": "4.28.2",
     "bundlesize": "0.18.1",
