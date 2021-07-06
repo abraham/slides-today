@@ -9,10 +9,10 @@
   },
   "scripts": {
     "analyze": "npm run build:stats && webpack-bundle-analyzer dist/slides-today/stats-es2015.json",
-    "build": "ng build --prod",
-    "build:development": "npm run build --prod='false'",
+    "build": "ng build",
+    "build:development": "npm run build -- --configuration development",
     "build:scripts": "cd scripts && tsc",
-    "build:stats": "npm run build --stats-json",
+    "build:stats": "npm run build -- --stats-json",
     "bundlesize": "bundlesize --enable-github-checks",
     "clean": "rm -rf dist && rm -rf scripts/dist",
     "deploy": "ng deploy",
