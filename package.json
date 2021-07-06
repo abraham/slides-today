@@ -91,7 +91,6 @@
     "@typescript-eslint/parser": "4.28.2",
     "bundlesize": "0.18.1",
     "chai": "4.3.4",
-    "codelyzer": "6.0.2",
     "concurrently": "6.2.0",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
