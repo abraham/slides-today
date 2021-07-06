@@ -2,7 +2,6 @@ name: Test
 on: push
 env:
   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-  BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
 jobs:
   build:
     runs-on: ubuntu-latest
