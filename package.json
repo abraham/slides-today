@@ -38,11 +38,11 @@
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts"
   },
   "dependencies": {
-    "@angular/animations": "12.1.2",
+    "@angular/animations": "12.1.4",
     "@angular/cdk": "12.1.2",
     "@angular/common": "12.1.2",
     "@angular/compiler": "12.1.2",
-    "@angular/core": "12.1.2",
+    "@angular/core": "12.1.4",
     "@angular/fire": "6.1.5",
     "@angular/forms": "12.1.2",
     "@angular/material": "12.1.2",
