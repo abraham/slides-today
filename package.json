@@ -52,7 +52,7 @@
     "@angular/service-worker": "12.2.1",
     "@firebase/app": "0.6.29",
     "@justinribeiro/lite-youtube": "0.9.1",
-    "@webcomponents/webcomponentsjs": "2.5.0",
+    "@webcomponents/webcomponentsjs": "2.6.0",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "3.0.3",
     "firebase": "8.9.1",
