@@ -49,7 +49,7 @@ jobs:
           node-version: 14
       - run: npm ci
       - run: npx firebase use slides-today
-      - uses: treosh/lighthouse-ci-action@v2
+      - uses: treosh/lighthouse-ci-action@v8
         with:
           temporaryPublicStorage: true
 
