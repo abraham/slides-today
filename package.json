@@ -50,7 +50,7 @@
     "@angular/platform-browser-dynamic": "12.2.1",
     "@angular/router": "12.2.1",
     "@angular/service-worker": "12.2.1",
-    "@firebase/app": "0.6.28",
+    "@firebase/app": "0.6.29",
     "@justinribeiro/lite-youtube": "0.9.1",
     "@webcomponents/webcomponentsjs": "2.5.0",
     "autotrack": "2.4.1",
