@@ -38,18 +38,18 @@
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts"
   },
   "dependencies": {
-    "@angular/animations": "12.1.2",
-    "@angular/cdk": "12.1.2",
-    "@angular/common": "12.1.2",
-    "@angular/compiler": "12.1.2",
-    "@angular/core": "12.1.2",
+    "@angular/animations": "12.2.1",
+    "@angular/cdk": "12.2.1",
+    "@angular/common": "12.2.1",
+    "@angular/compiler": "12.2.1",
+    "@angular/core": "12.2.1",
     "@angular/fire": "6.1.5",
-    "@angular/forms": "12.1.2",
-    "@angular/material": "12.1.2",
-    "@angular/platform-browser": "12.1.2",
-    "@angular/platform-browser-dynamic": "12.1.2",
-    "@angular/router": "12.1.2",
-    "@angular/service-worker": "12.1.2",
+    "@angular/forms": "12.2.1",
+    "@angular/material": "12.2.1",
+    "@angular/platform-browser": "12.2.1",
+    "@angular/platform-browser-dynamic": "12.2.1",
+    "@angular/router": "12.2.1",
+    "@angular/service-worker": "12.2.1",
     "@firebase/app": "0.6.28",
     "@justinribeiro/lite-youtube": "0.9.1",
     "@webcomponents/webcomponentsjs": "2.5.0",
@@ -68,16 +68,16 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "0.1201.2",
-    "@angular-devkit/build-angular": "12.1.2",
+    "@angular-devkit/architect": "0.1202.1",
+    "@angular-devkit/build-angular": "12.2.1",
     "@angular-eslint/builder": "12.2.1",
     "@angular-eslint/eslint-plugin": "^12.3.1",
     "@angular-eslint/eslint-plugin-template": "^12.3.1",
     "@angular-eslint/schematics": "12.3.1",
     "@angular-eslint/template-parser": "^12.3.1",
-    "@angular/cli": "12.1.2",
-    "@angular/compiler-cli": "12.1.2",
-    "@angular/language-service": "12.1.2",
+    "@angular/cli": "12.2.1",
+    "@angular/compiler-cli": "12.2.1",
+    "@angular/language-service": "12.2.1",
     "@cucumber/cucumber": "^7.3.0",
     "@lhci/cli": "0.8.0",
     "@testing-library/dom": "^8.1.0",
@@ -132,7 +132,7 @@
   "bundlesize": [
     {
       "path": "dist/slides-today/*main.*.js",
-      "maxSize": "125 kB"
+      "maxSize": "130 kB"
     },
     {
       "path": "dist/slides-today/*(components|default-node_modules*).*.js",
