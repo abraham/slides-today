@@ -7,7 +7,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { fromEvent, Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/internal/operators/takeUntil';
+import { takeUntil } from 'rxjs/operators';
 import { Tag } from '../models/tag';
 import { DEFAULT_THEME } from '../models/theme';
 import { DataService } from '../services/data.service';
