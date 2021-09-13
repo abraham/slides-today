@@ -46,7 +46,7 @@
     "@angular/fire": "6.1.5",
     "@angular/forms": "12.2.1",
     "@angular/material": "12.2.1",
-    "@angular/platform-browser": "12.2.1",
+    "@angular/platform-browser": "12.2.5",
     "@angular/platform-browser-dynamic": "12.2.1",
     "@angular/router": "12.2.1",
     "@angular/service-worker": "12.2.1",
