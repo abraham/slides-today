@@ -47,7 +47,7 @@
     "@angular/forms": "12.2.1",
     "@angular/material": "12.2.1",
     "@angular/platform-browser": "12.2.1",
-    "@angular/platform-browser-dynamic": "12.2.1",
+    "@angular/platform-browser-dynamic": "12.2.5",
     "@angular/router": "12.2.1",
     "@angular/service-worker": "12.2.1",
     "@firebase/app": "0.6.29",
