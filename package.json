@@ -40,7 +40,7 @@
   "dependencies": {
     "@angular/animations": "12.2.3",
     "@angular/cdk": "12.2.1",
-    "@angular/common": "12.2.1",
+    "@angular/common": "12.2.8",
     "@angular/compiler": "12.2.1",
     "@angular/core": "12.2.3",
     "@angular/fire": "6.1.5",
@@ -80,7 +80,7 @@
     "@angular/language-service": "12.2.4",
     "@cucumber/cucumber": "^7.3.0",
     "@lhci/cli": "0.8.1",
-    "@testing-library/dom": "^8.2.0",
+    "@testing-library/dom": "^8.6.0",
     "@types/chai": "4.2.21",
     "@types/jasmine": "3.9.0",
     "@types/node": "16.6.1",
