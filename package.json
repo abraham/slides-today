@@ -77,7 +77,7 @@
     "@angular-eslint/template-parser": "^12.5.0",
     "@angular/cli": "12.2.3",
     "@angular/compiler-cli": "12.2.1",
-    "@angular/language-service": "12.2.4",
+    "@angular/language-service": "12.2.8",
     "@cucumber/cucumber": "^7.3.0",
     "@lhci/cli": "0.8.1",
     "@testing-library/dom": "^8.6.0",
