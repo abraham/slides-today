@@ -2,8 +2,7 @@
   <div
     *ngIf="image"
     class="mdc-card__media mdc-card__media--square"
-    [style.backgroundImage]="'url(' + image + ')'"
-  ></div>
+    [style.backgroundImage]="'url(' + image + ')'"></div>
 
   <div class="primary">
     <h2 class="hero mdc-typography mdc-typography--headline3">
@@ -29,8 +28,7 @@
     [href]="url"
     target="_blank"
     rel="noopener"
-    appRipple="bounded"
-  >
+    appRipple="bounded">
     <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
 
@@ -38,8 +36,7 @@
     *ngIf="url && !external"
     class="mdc-card__primary-action primary-action"
     [routerLink]="url"
-    appRipple="bounded"
-  >
+    appRipple="bounded">
     <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
 
@@ -54,8 +51,7 @@
       [href]="action.url"
       target="_blank"
       rel="noopener"
-      class="mdc-button mdc-card__action mdc-card__action--button"
-    >
+      class="mdc-button mdc-card__action mdc-card__action--button">
       <span class="mdc-button__ripple"></span>
       <span class="mdc-button__label">{{ action.title }}</span>
     </a>
