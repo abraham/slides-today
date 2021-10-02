@@ -1,7 +1,8 @@
-@use '@material/theme' with (
-  $primary: #0D47A1,
-  $secondary: #E65100,
-  $on-primary: #fff,
-  $on-secondary: #fff,
-);
+@use '@material/theme' with
+  (
+    $primary: #0d47a1,
+    $secondary: #e65100,
+    $on-primary: #fff,
+    $on-secondary: #fff
+  );
 @use '~@material/typography/mdc-typography';
