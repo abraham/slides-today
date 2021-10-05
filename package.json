@@ -102,7 +102,7 @@
     "firebase-admin": "^9.12.0",
     "firebase-tools": "^9.19.0",
     "fuzzy": "^0.1.3",
-    "inquirer": "^6.2.2",
+    "inquirer": "^8.1.5",
     "inquirer-autocomplete-prompt": "^1.0.1",
     "jasmine": "3.9.0",
     "jasmine-core": "~3.9.0",
