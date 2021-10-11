@@ -139,7 +139,7 @@
   "bundlesize": [
     {
       "path": "dist/slides-today/*main.*.js",
-      "maxSize": "130 kB"
+      "maxSize": "150 kB"
     },
     {
       "path": "dist/slides-today/*(components|default-node_modules*).*.js",
