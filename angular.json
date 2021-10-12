@@ -75,7 +75,7 @@
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "75kb",
-                  "maximumError": "120kb"
+                  "maximumError": "150kb"
                 },
                 {
                   "type": "bundle",
