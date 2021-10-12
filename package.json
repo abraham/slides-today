@@ -147,7 +147,7 @@
     },
     {
       "path": "dist/slides-today/!(main|components|default-node_modules*).*.js",
-      "maxSize": "30 kB"
+      "maxSize": "35 kB"
     }
   ]
 }
