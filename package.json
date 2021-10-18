@@ -84,7 +84,7 @@
     "@lhci/cli": "0.8.2",
     "@testing-library/dom": "^8.7.2",
     "@types/chai": "4.2.22",
-    "@types/jasmine": "3.9.1",
+    "@types/jasmine": "3.10.0",
     "@types/node": "16.6.1",
     "@types/puppeteer": "5.4.4",
     "@types/twit": "2.2.30",
