@@ -48,7 +48,7 @@
     "@angular/material": "12.2.8",
     "@angular/platform-browser": "12.2.8",
     "@angular/platform-browser-dynamic": "12.2.8",
-    "@angular/router": "12.2.8",
+    "@angular/router": "12.2.11",
     "@angular/service-worker": "12.2.8",
     "@firebase/app": "0.7.4",
     "@justinribeiro/lite-youtube": "1.1.0",
