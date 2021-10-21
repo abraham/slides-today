@@ -68,6 +68,7 @@ export class DeckListComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
+    this.destroy$.next();
     this.destroy$.unsubscribe();
   }
 
