@@ -62,7 +62,7 @@ export class DeckDetailsComponent
   }
 
   ngOnDestroy() {
-    this.destroy$.next();
+    this.destroy$.next(true);
     this.destroy$.unsubscribe();
   }
 
