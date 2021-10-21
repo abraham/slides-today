@@ -79,7 +79,7 @@
     "@angular-eslint/utils": "^12.5.0",
     "@angular/cli": "12.2.10",
     "@angular/compiler-cli": "12.2.8",
-    "@angular/language-service": "12.2.9",
+    "@angular/language-service": "12.2.11",
     "@cucumber/cucumber": "^7.3.0",
     "@lhci/cli": "0.8.2",
     "@testing-library/dom": "^8.10.1",
