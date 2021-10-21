@@ -62,6 +62,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   }
 
   ngOnDestroy() {
+    this.destroy$.next(true);
     this.destroy$.unsubscribe();
   }
 
