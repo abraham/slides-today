@@ -60,7 +60,8 @@
             "ignoreComments": true,
             "ignoreStrings": true
           }
-        ]
+        ],
+        "@typescript-eslint/adjacent-overload-signatures": "off"
       }
     },
     {

@@ -80,14 +80,6 @@ export class Deck {
     }
   }
 
-  set tags(baseTags: string[]) {
-    this.cachedTags = [...new Set(baseTags.concat(this.linkTags))];
-  }
-
-  get tags(): string[] {
-    return this.cachedTags;
-  }
-
   get theme(): Theme {
     if (this.primaryTag) {
       return {
@@ -97,6 +89,10 @@ export class Deck {
     } else {
       return DEFAULT_THEME;
     }
+  }
+
+  get tags(): string[] {
+    return this.cachedTags;
   }
 
   private get startMonth(): string {
@@ -117,6 +113,10 @@ export class Deck {
       .concat(this.resources)
       .filter(link => link.useAsTag)
       .map(link => link.title.toLowerCase());
+  }
+
+  set tags(baseTags: string[]) {
+    this.cachedTags = [...new Set(baseTags.concat(this.linkTags))];
   }
 
   private async getStatus(id: string): Promise<Status> {

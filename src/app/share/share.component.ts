@@ -43,6 +43,22 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     private snackBar: MatSnackBar,
   ) {}
 
+  private get shareText(): string {
+    return encodeURIComponent(this.text);
+  }
+
+  private get shareUrl(): string {
+    return encodeURIComponent(window.location.href);
+  }
+
+  private get shareOptions(): ShareData {
+    return {
+      text: this.text,
+      title: 'Slides.Today',
+      url: window.location.href,
+    };
+  }
+
   ngOnInit(): void {
     this.themeService.inverted$
       .pipe(takeUntil(this.destroy$))
@@ -66,14 +82,6 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     this.destroy$.unsubscribe();
   }
 
-  private get shareText(): string {
-    return encodeURIComponent(this.text);
-  }
-
-  private get shareUrl(): string {
-    return encodeURIComponent(window.location.href);
-  }
-
   startShare(): void {
     this.exited = true;
     if (navigator.share) {
@@ -84,14 +92,6 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     } else {
       this.menu.open = true;
     }
-  }
-
-  private get shareOptions(): ShareData {
-    return {
-      text: this.text,
-      title: 'Slides.Today',
-      url: window.location.href,
-    };
   }
 
   copy(): void {
