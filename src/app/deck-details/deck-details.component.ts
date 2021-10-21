@@ -48,6 +48,19 @@ export class DeckDetailsComponent
     private resolver: ComponentFactoryResolver,
   ) {}
 
+  private get columnWidth(): number {
+    if (!this.detailsEl) {
+      return 0;
+    }
+
+    const { width } = this.detailsEl.nativeElement.getBoundingClientRect();
+    if (width >= 840) {
+      return width / 2;
+    } else {
+      return width;
+    }
+  }
+
   ngOnInit(): void {
     this.deck$
       .pipe(takeUntil(this.destroy$))
@@ -94,19 +107,6 @@ export class DeckDetailsComponent
       );
       share.instance.text = deck.title;
     }, 1000);
-  }
-
-  private get columnWidth(): number {
-    if (!this.detailsEl) {
-      return 0;
-    }
-
-    const { width } = this.detailsEl.nativeElement.getBoundingClientRect();
-    if (width >= 840) {
-      return width / 2;
-    } else {
-      return width;
-    }
   }
 
   private setEmbedWidth(): void {

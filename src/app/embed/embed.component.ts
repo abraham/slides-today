@@ -31,6 +31,32 @@ export class EmbedComponent implements OnInit, OnChanges {
 
   constructor(private sanitizer: DomSanitizer) {}
 
+  private get urlService(): { [index: string]: () => string } {
+    return {
+      slides: this.buildGoogleSlidesUrl.bind(this),
+      vimeo: this.buildVimeoUrl.bind(this),
+    };
+  }
+
+  private get ratioService(): { [index: string]: number } {
+    return {
+      slides: 569 / 960,
+      vimeo: 340 / 640,
+    };
+  }
+
+  private get backgroundColor(): string {
+    return this.theme.backgroundColor.split('#')[1];
+  }
+
+  private get parsedVimeoId(): string {
+    return this.link.url.split('.com/')[1];
+  }
+
+  private get parsedYoutubeId(): string {
+    return this.link.url.split('?v=')[1];
+  }
+
   ngOnInit(): void {
     this.setHeight();
     if (this.link.service === 'youtube') {
@@ -61,24 +87,6 @@ export class EmbedComponent implements OnInit, OnChanges {
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(unsafeUrl);
   }
 
-  private get urlService(): { [index: string]: () => string } {
-    return {
-      slides: this.buildGoogleSlidesUrl.bind(this),
-      vimeo: this.buildVimeoUrl.bind(this),
-    };
-  }
-
-  private get ratioService(): { [index: string]: number } {
-    return {
-      slides: 569 / 960,
-      vimeo: 340 / 640,
-    };
-  }
-
-  private get backgroundColor(): string {
-    return this.theme.backgroundColor.split('#')[1];
-  }
-
   private buildVimeoUrl(): string {
     const params = new URLSearchParams({
       byline: '0',
@@ -96,13 +104,5 @@ export class EmbedComponent implements OnInit, OnChanges {
       start: 'false',
     });
     return `${this.link.url}/embed?${params}`;
-  }
-
-  private get parsedVimeoId(): string {
-    return this.link.url.split('.com/')[1];
-  }
-
-  private get parsedYoutubeId(): string {
-    return this.link.url.split('?v=')[1];
   }
 }
