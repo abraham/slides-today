@@ -51,7 +51,7 @@
     "@angular/router": "12.2.11",
     "@angular/service-worker": "12.2.11",
     "@firebase/app": "0.7.4",
-    "@justinribeiro/lite-youtube": "1.1.0",
+    "@justinribeiro/lite-youtube": "1.2.0",
     "@webcomponents/webcomponentsjs": "2.6.0",
     "autotrack": "2.4.1",
     "clipboard-polyfill": "3.0.3",
