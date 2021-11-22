@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@angular/animations": "12.2.10",
-    "@angular/cdk": "12.2.11",
+    "@angular/cdk": "13.0.2",
     "@angular/common": "12.2.8",
     "@angular/compiler": "12.2.8",
     "@angular/core": "12.2.10",
@@ -95,7 +95,7 @@
     "concurrently": "6.4.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jsdoc": "37.0.3",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-react": "latest",
