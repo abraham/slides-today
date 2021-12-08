@@ -4,4 +4,6 @@ tsconfig.json
 ngsw-config.json
 firebase.json
 dist
+/.angular/
+/.firebase/
 .lighthouseci

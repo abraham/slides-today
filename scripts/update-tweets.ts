@@ -17,7 +17,7 @@ const work = ids.map(async (id: string) => {
     const { data } = await client.get('statuses/show', showParams);
     fs.writeFileSync(filePath(id), JSON.stringify(data, null, 2));
   } catch (e) {
-    console.log('ERROR', id, e.message);
+    console.log('ERROR', id, e instanceof Error && e.message);
   }
 });
 
