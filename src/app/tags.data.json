@@ -123,5 +123,10 @@
     "id": "flutter",
     "primaryColor": "#02569b",
     "complementaryColor": "#fff"
+  },
+  {
+    "id": "ads",
+    "primaryColor": "#3f7ee8",
+    "complementaryColor": "#fff"
   }
 ]

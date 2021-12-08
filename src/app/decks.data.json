@@ -1,5 +1,63 @@
 [
   {
+    "id": "-MqNMfkIMQnpe5zEhGpX",
+    "archived": false,
+    "nodePackages": [],
+    "githubRepos": ["googleads/google-ads-doctor"],
+    "speakerIds": ["-KsZTNlw7dpLoH5mrsT4"],
+    "title": "Getting Started - Credentials & Account Access",
+    "date": {
+      "start": "2021-10-05T00:00:00.000Z",
+      "end": "2021-10-05T00:00:00.000Z"
+    },
+    "description": "Follow along as we illustrate several key concepts related to credentials and account access in the Google Ads API with the Google Ads Doctor (oauthdoctor). In this interactive session, you’ll learn how to get started with the Google Ads API and troubleshoot issues along the way.",
+    "eventTitle": "The Google Ads API Migration Workshop",
+    "tags": ["ads"],
+    "location": "Earth",
+    "links": [
+      {
+        "title": "Event",
+        "url": "https://adsonair.withgoogle.com/events/google-ads-api-migration-workshop",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Video",
+        "url": "https://www.youtube.com/watch?v=M5DxbxEwV9s",
+        "useAsTag": true,
+        "service": "youtube"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Getting Started - Credentials & Account Access",
+        "url": "https://services.google.com/fh/files/misc/getting_started_credentials_and_account_access.pdf",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Client library docs",
+        "url": "https://developers.google.com/google-ads/api/docs/client-libs",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Google Ads API Authentication Docs",
+        "url": "https://developers.google.com/google-ads/api/docs/oauth/overview",
+        "useAsTag": false,
+        "service": "external"
+      },
+      {
+        "title": "Using OAuth 2.0 to Access Google APIs",
+        "url": "https://developers.google.com/identity/protocols/oauth2",
+        "useAsTag": false,
+        "service": "external"
+      }
+    ],
+    "sponsorIds": [],
+    "tweetIds": ["1231931913264390145"]
+  },
+  {
     "id": "-M18pjTHA5XYr1yA3saC",
     "archived": true,
     "nodePackages": ["workbox-cli", "webpack-cli"],
