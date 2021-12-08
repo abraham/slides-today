@@ -11,12 +11,7 @@
         (click)="goBack($event)"
         (keyup)="goBack($event)"
         href="/"
-        class="
-          mdc-top-app-bar__navigation-icon
-          mdc-button
-          back
-          mdc-ripple-surface
-        "
+        class="mdc-top-app-bar__navigation-icon mdc-button back mdc-ripple-surface"
         title="Go back"
         [ngStyle]="{ color: theme.color }">
         <svg
@@ -39,12 +34,7 @@
         appRipple
         *ngIf="updateAvailable"
         href="javascript:window.location.reload()"
-        class="
-          mdc-icon-button
-          material-icons
-          mdc-top-app-bar__action-item--unbounded
-          spin
-        "
+        class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded spin"
         aria-label="Update Slides.today"
         title="Update Slides.today">
         <svg
@@ -66,12 +56,7 @@
         *ngIf="deferredInstallPrompt"
         (click)="openInstallPrompt()"
         (keyup)="openInstallPrompt()"
-        class="
-          mdc-icon-button
-          material-icons
-          mdc-top-app-bar__action-item--unbounded
-          wiggle
-        "
+        class="mdc-icon-button material-icons mdc-top-app-bar__action-item--unbounded wiggle"
         aria-label="Install Slides.today"
         title="Install Slides.today">
         <svg
