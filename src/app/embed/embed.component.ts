@@ -67,8 +67,10 @@ export class EmbedComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes.width) {
-      this.width = changes.width.currentValue;
+    // eslint-disable-next-line @typescript-eslint/dot-notation
+    if (changes['width']) {
+      // eslint-disable-next-line @typescript-eslint/dot-notation
+      this.width = changes['width'].currentValue;
       this.setHeight();
       this.dimensionStyles = {
         height: `${this.height}px`,
