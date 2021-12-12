@@ -1,6 +1,8 @@
-// TODO: Update to `use`.
-@import '~@material/card/mdc-card';
-@import '~@material/icon-button/mdc-icon-button.import';
+@use '~@material/card';
+@use '~@material/icon-button/styles';
+@use '@material/icon-button';
+
+@include card.core-styles;
 
 :host {
   display: block;
@@ -14,5 +16,5 @@
 }
 
 .button {
-  @include mdc-icon-button-icon-size(96px);
+  @include icon-button.icon-size(96px);
 }

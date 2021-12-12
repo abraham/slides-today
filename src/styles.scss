@@ -1,5 +1,5 @@
 // TODO: Update to `use`.
 
 /* You can add global styles to this file, and also import other style files */
-@import './theme';
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@use './theme';
+@use '@angular/material/prebuilt-themes/deeppurple-amber';
