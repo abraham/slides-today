@@ -11,7 +11,6 @@ export class MapComponent implements OnInit {
 
   url = '';
   mapUrl = '';
-  defaultImage = '/assets/img/default.png';
   offset = 200;
 
   private key = environment.googleMaps.key;
