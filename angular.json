@@ -35,14 +35,6 @@
               "src/sw.js",
               "src/manifest.webmanifest",
               {
-                "glob": "**/*.js",
-                "input": "./node_modules/@webcomponents/webcomponentsjs",
-                "output": "/assets/@webcomponents/webcomponentsjs/",
-                "ignore": [
-                  "src/**/*"
-                ]
-              },
-              {
                 "glob": "autotrack{.js,.js.map}",
                 "input": "./node_modules/autotrack",
                 "output": "/assets/autotrack/"
