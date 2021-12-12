@@ -12,9 +12,9 @@ import {
 import { ActivatedRoute, Data, Router } from '@angular/router';
 import { ReplaySubject, Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
+import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
-import { EmbeddedServices } from '../models/service';
 import { DEFAULT_THEME } from '../models/theme';
 
 interface DeckData extends Data {
