@@ -9,7 +9,6 @@ import {
 } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MDCMenu } from '@material/menu';
-import * as clipboard from 'clipboard-polyfill';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { SocialServices } from '../models/service';
@@ -95,7 +94,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   }
 
   copy(): void {
-    clipboard
+    navigator.clipboard
       .writeText(window.location.href)
       .then(() => this.snackBar.open('URL copied to clipboard'))
       .catch(() => this.snackBar.open('Error copying URL'));
