@@ -11,9 +11,9 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { MDCMenu } from '@material/menu';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { SocialServices } from '../models/service';
 import { DEFAULT_INVERTED_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
+import { SocialServices } from '../social-services';
 
 @Component({
   selector: 'app-share',

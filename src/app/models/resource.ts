@@ -1,4 +1,4 @@
-import { Services } from './service';
+import { Services } from '../services';
 
 export interface Resource {
   title: string;
