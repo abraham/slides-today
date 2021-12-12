@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { DeckDetailsComponent } from '../deck-details/deck-details.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
 import { EmbedComponent } from '../embed/embed.component';
@@ -31,7 +30,6 @@ const routes: Routes = [
   imports: [
     CardModule,
     CommonModule,
-    LazyLoadImageModule,
     TagModule,
     SnackBarModule,
     RouterModule.forChild(routes),
