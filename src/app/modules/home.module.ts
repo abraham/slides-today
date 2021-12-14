@@ -25,7 +25,6 @@ const routes: Routes = [
     TagListPipe,
     TagsSheetComponent,
   ],
-  entryComponents: [TagsSheetComponent],
   imports: [
     CardModule,
     CommonModule,
