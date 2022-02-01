@@ -87,7 +87,7 @@
     "@types/puppeteer": "5.4.4",
     "@types/twit": "2.2.30",
     "@typescript-eslint/eslint-plugin": "5.10.1",
-    "@typescript-eslint/parser": "5.10.1",
+    "@typescript-eslint/parser": "5.10.2",
     "bundlesize2": "^0.0.31",
     "chai": "4.3.4",
     "concurrently": "7.0.0",
