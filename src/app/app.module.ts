@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire/compat';
+import {
+  AngularFireAnalyticsModule,
+  ScreenTrackingService,
+} from '@angular/fire/compat/analytics';
 import { AngularFirePerformanceModule } from '@angular/fire/compat/performance';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -24,6 +28,7 @@ const swOptions: SwRegistrationOptions = {
   declarations: [AppComponent, HeaderComponent],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule,
     AngularFirePerformanceModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -33,5 +38,6 @@ const swOptions: SwRegistrationOptions = {
     ServiceWorkerModule.register('ngsw-worker.js', swOptions),
     TagModule,
   ],
+  providers: [ScreenTrackingService],
 })
 export class AppModule {}
