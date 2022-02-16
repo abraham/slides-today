@@ -16,6 +16,7 @@ import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
+import { SeoService } from '../seo.service';
 
 interface DeckData extends Data {
   deck: Deck;
@@ -46,6 +47,7 @@ export class DeckDetailsComponent
     private router: Router,
     private viewContainer: ViewContainerRef,
     private resolver: ComponentFactoryResolver,
+    private seoService: SeoService,
   ) {}
 
   private get columnWidth(): number {
@@ -95,6 +97,7 @@ export class DeckDetailsComponent
     this.setEmbedWidth();
     this.setEmbeds(deck);
     this.loadShareComponent(deck);
+    this.seoService.update(deck.title, deck.description);
   }
 
   private async loadShareComponent(deck: Deck): Promise<void> {
