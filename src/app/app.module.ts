@@ -18,6 +18,7 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './modules/app-routing.module';
 import { CardModule } from './modules/card.module';
 import { TagModule } from './modules/tag.module';
+import { SeoService } from './seo.service';
 
 const swOptions: SwRegistrationOptions = {
   enabled: environment.production,
@@ -38,6 +39,6 @@ const swOptions: SwRegistrationOptions = {
     ServiceWorkerModule.register('ngsw-worker.js', swOptions),
     TagModule,
   ],
-  providers: [ScreenTrackingService],
+  providers: [ScreenTrackingService, SeoService],
 })
 export class AppModule {}

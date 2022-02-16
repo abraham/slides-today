@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { EMPTY, Observable, Subject } from 'rxjs';
 import { map, switchMap, takeUntil } from 'rxjs/operators';
 import { Deck } from '../models/deck';
+import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
 import { ThemeService } from '../services/theme.service';
@@ -30,12 +31,14 @@ export class DeckListComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private bottomSheet: MatBottomSheet,
     private breakpointObserver: BreakpointObserver,
+    private seoService: SeoService,
   ) {
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
   }
 
   ngOnInit(): void {
     this.themeService.reset();
+    this.seoService.reset();
     this.selectedTagIds$
       .pipe(takeUntil(this.destroy$))
       .subscribe(selectedTagIds => {
