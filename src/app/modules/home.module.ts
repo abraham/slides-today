@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
@@ -28,6 +29,7 @@ const routes: Routes = [
   imports: [
     CardModule,
     CommonModule,
+    ScrollingModule,
     MatBottomSheetModule,
     TagModule,
     RouterModule.forChild(routes),

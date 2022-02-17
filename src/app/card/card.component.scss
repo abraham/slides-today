@@ -16,6 +16,7 @@ div {
   border-radius: 8px;
   color: #000;
   overflow: hidden;
+  height: var(--card-height, auto);
 }
 
 .no-action {
