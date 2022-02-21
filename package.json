@@ -113,7 +113,7 @@
     "puppeteer": "13.3.2",
     "sass": "1.49.7",
     "start-server-and-test": "1.14.0",
-    "stylelint": "14.5.0",
+    "stylelint": "14.5.1",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-sass-guidelines": "9.0.1",
     "stylelint-config-standard": "24.0.0",
