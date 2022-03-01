@@ -94,7 +94,7 @@
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jsdoc": "37.9.4",
+    "eslint-plugin-jsdoc": "37.9.5",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-react": "latest",
     "firebase-admin": "^10.0.2",
