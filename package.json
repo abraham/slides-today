@@ -97,7 +97,7 @@
     "eslint-plugin-jsdoc": "39.2.9",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-react": "latest",
-    "firebase-admin": "^10.1.0",
+    "firebase-admin": "^10.2.0",
     "firebase-tools": "^10.7.2",
     "jasmine-core": "~4.1.0",
     "jsonc-parser": "^3.0.0",
