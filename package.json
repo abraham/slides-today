@@ -75,7 +75,7 @@
     "@angular-eslint/schematics": "13.2.1",
     "@angular-eslint/template-parser": "^13.2.1",
     "@angular-eslint/utils": "^13.2.1",
-    "@angular/cli": "13.3.5",
+    "@angular/cli": "13.3.6",
     "@angular/compiler-cli": "13.3.6",
     "@angular/language-service": "13.3.9",
     "@cucumber/cucumber": "^8.2.1",
