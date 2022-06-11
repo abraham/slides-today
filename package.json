@@ -44,7 +44,7 @@
     "@angular/common": "13.3.6",
     "@angular/compiler": "13.3.6",
     "@angular/core": "13.3.6",
-    "@angular/fire": "7.3.0",
+    "@angular/fire": "7.4.0",
     "@angular/forms": "13.3.6",
     "@angular/material": "13.3.6",
     "@angular/platform-browser": "13.3.6",
@@ -137,7 +137,7 @@
     },
     {
       "path": "dist/slides-today/!(main|components|default-node_modules*).*.js",
-      "maxSize": "35 kB"
+      "maxSize": "50 kB"
     }
   ]
 }
