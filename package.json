@@ -120,7 +120,7 @@
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.2.0",
     "stylelint-selector-bem-pattern": "2.1.1",
-    "ts-node": "10.8.0",
+    "ts-node": "10.8.1",
     "twit": "2.2.11",
     "twitter-d": "0.6.0",
     "typescript": "4.6.4",
