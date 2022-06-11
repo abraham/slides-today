@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install -g npm@6
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v3
@@ -29,6 +30,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install -g npm@6
       - run: npm ci
       - run: npx firebase use slides-today
       - run: npm run test:features
@@ -47,6 +49,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install -g npm@6
       - run: npm ci
       - run: npx firebase use slides-today
       - uses: treosh/lighthouse-ci-action@9.3.0
@@ -65,5 +68,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install -g npm@6
       - run: npm ci
       - run: npm run bundlesize
