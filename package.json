@@ -70,7 +70,7 @@
     "@angular-devkit/architect": "^0.1400.1",
     "@angular-devkit/build-angular": "14.0.1",
     "@angular-eslint/builder": "13.2.1",
-    "@angular-eslint/eslint-plugin": "^13.2.1",
+    "@angular-eslint/eslint-plugin": "^13.5.0",
     "@angular-eslint/eslint-plugin-template": "^13.2.1",
     "@angular-eslint/schematics": "13.2.1",
     "@angular-eslint/template-parser": "^13.2.1",
