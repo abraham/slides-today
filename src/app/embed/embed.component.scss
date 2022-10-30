@@ -1,5 +1,5 @@
-@use '~@material/card';
-@use '~@material/icon-button/styles';
+@use '@material/card';
+@use '@material/icon-button/styles';
 @use '@material/icon-button';
 
 @include card.core-styles;
