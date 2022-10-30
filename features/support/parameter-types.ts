@@ -1,7 +1,7 @@
-import puppeteer from 'puppeteer';
+import { KnownDevices } from 'puppeteer';
 import { origin } from './environment';
 
-const deviceList = Object.keys(puppeteer.devices).join('|');
+const deviceList = Object.keys(KnownDevices).join('|');
 
 export const parameterTypes = [
   {
@@ -17,7 +17,7 @@ export const parameterTypes = [
   {
     name: 'device',
     regexp: new RegExp(`"(${deviceList})"`),
-    transformer: (name: string) => puppeteer.devices[name],
+    transformer: (name: keyof typeof KnownDevices) => KnownDevices[name],
   },
   {
     name: 'url',
