@@ -5,7 +5,7 @@
   "license": "MIT",
   "engines": {
     "node": "16",
-    "npm": "7"
+    "npm": "8"
   },
   "scripts": {
     "analyze": "npm run build:stats && webpack-bundle-analyzer dist/slides-today/stats-es2015.json",
