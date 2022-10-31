@@ -62,7 +62,7 @@
     "node-package": "1.4.0",
     "rxfire": "^6.0.3",
     "rxjs": "7.5.7",
-    "tslib": "^2.4.0",
+    "tslib": "^2.4.1",
     "twitter-status": "0.7.0",
     "zone.js": "~0.11.8"
   },
