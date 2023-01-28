@@ -49,8 +49,8 @@ const routes: Routes = [
 ];
 
 const config: ExtraOptions = {
-    enableTracing: !environment.production,
-    scrollPositionRestoration: 'enabled'
+  enableTracing: !environment.production,
+  scrollPositionRestoration: 'enabled',
 };
 
 @NgModule({
