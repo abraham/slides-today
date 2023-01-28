@@ -6,7 +6,7 @@ import { Resource } from './resource';
 import { Tag } from './tag';
 import { DEFAULT_THEME, Theme } from './theme';
 
-type RawDeck = typeof Data[number];
+type RawDeck = (typeof Data)[number];
 
 export class Deck {
   archived: boolean;
