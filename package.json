@@ -34,7 +34,7 @@
     "start": "ng serve --port 5000 --hmr",
     "start:firebase": "firebase emulators:start",
     "test": "TS_NODE_PROJECT=features/tsconfig.loose.json cucumber-js",
-    "test:features": "start-server-and-test start:firebase http://localhost:5000 test",
+    "test:features": "start-server-and-test start:firebase http://127.0.0.1:5000/ test",
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts",
     "watch": "ng build --watch --configuration development"
   },
