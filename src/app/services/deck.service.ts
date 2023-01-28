@@ -4,7 +4,7 @@ import { map } from 'rxjs/operators';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 
-type RawDeck = typeof Data[number];
+type RawDeck = (typeof Data)[number];
 
 @Injectable({
   providedIn: 'root',
