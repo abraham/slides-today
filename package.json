@@ -113,7 +113,7 @@
     "sass": "1.58.0",
     "start-server-and-test": "1.15.3",
     "stylelint": "14.16.1",
-    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-prettier": "9.0.5",
     "stylelint-config-sass-guidelines": "9.0.1",
     "stylelint-config-standard": "29.0.0",
     "stylelint-prettier": "2.0.0",
