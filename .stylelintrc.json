@@ -23,6 +23,8 @@
           "custom-elements"
         ]
       }
-    ]
+    ],
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": null
   }
 }
