@@ -90,7 +90,7 @@
     "bundlesize2": "^0.0.31",
     "chai": "4.3.7",
     "concurrently": "7.6.0",
-    "eslint": "^8.35.0",
+    "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsdoc": "40.0.0",
