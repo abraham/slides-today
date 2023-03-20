@@ -85,7 +85,7 @@
     "@types/jasmine": "4.3.1",
     "@types/node": "18.11.18",
     "@types/twit": "2.2.31",
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.55.0",
     "bundlesize2": "^0.0.31",
     "chai": "4.3.7",
