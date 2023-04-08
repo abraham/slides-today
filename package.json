@@ -89,7 +89,7 @@
     "@typescript-eslint/parser": "^5.56.0",
     "bundlesize2": "^0.0.31",
     "chai": "4.3.7",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "2.27.5",
