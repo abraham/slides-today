@@ -12,9 +12,16 @@ app-header {
 
 main {
   --mdc-layout-grid-gutter-desktop: 1em;
+  --max-width: 1600px;
 
-  max-width: 1600px;
+  max-width: var(--max-width);
   padding-top: 8px;
+}
+
+.scroll-viewport {
+  height: calc(100vh - 66px);
+  width: 100vw;
+  max-width: var(--max-width);
 }
 
 .decks-empty {
