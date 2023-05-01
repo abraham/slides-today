@@ -61,7 +61,7 @@
     "ngx-skeleton-loader": "7.0.0",
     "node-package": "1.4.0",
     "rxfire": "^6.0.3",
-    "rxjs": "7.8.0",
+    "rxjs": "7.8.1",
     "tslib": "^2.5.0",
     "twitter-status": "0.7.0",
     "zone.js": "~0.12.0"
