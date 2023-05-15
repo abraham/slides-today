@@ -75,7 +75,7 @@
     "@angular-eslint/schematics": "15.2.1",
     "@angular-eslint/template-parser": "^15.2.1",
     "@angular-eslint/utils": "^15.2.0",
-    "@angular/cli": "15.2.6",
+    "@angular/cli": "16.0.1",
     "@angular/compiler-cli": "15.1.2",
     "@angular/language-service": "15.2.7",
     "@cucumber/cucumber": "^9.1.0",
