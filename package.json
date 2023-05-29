@@ -77,7 +77,7 @@
     "@angular-eslint/utils": "^15.2.0",
     "@angular/cli": "15.2.6",
     "@angular/compiler-cli": "15.1.2",
-    "@angular/language-service": "15.2.7",
+    "@angular/language-service": "16.0.3",
     "@cucumber/cucumber": "^9.1.0",
     "@lhci/cli": "0.12.0",
     "@testing-library/dom": "^9.2.0",
