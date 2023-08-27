@@ -9,3 +9,7 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 25
+    groups:
+      angular:
+        patterns:
+          - '@angular*'
