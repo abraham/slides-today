@@ -27,6 +27,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   exited = true;
   twitterUrl = '';
   facebookUrl = '';
+  linkedinUrl = '';
 
   private destroy$ = new Subject();
   private menu!: MDCMenu;
@@ -35,6 +36,8 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
       `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
     [SocialServices.twitter]: () =>
       `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
+    [SocialServices.linkedin]: () =>
+      `https://www.linkedin.com/sharing/share-offsite/?url=${this.shareUrl}`,
   };
 
   constructor(
@@ -74,6 +77,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     this.menu.listen('MDCMenuSurface:closed', () => (this.exited = false));
     this.twitterUrl = this.services[SocialServices.twitter]();
     this.facebookUrl = this.services[SocialServices.facebook]();
+    this.linkedinUrl = this.services[SocialServices.linkedin]();
   }
 
   ngOnDestroy() {
