@@ -13,6 +13,7 @@ updates:
       angular:
         patterns:
           - '@angular*'
+          - 'zone.js'
         update-types:
           - 'minor'
           - 'patch'
