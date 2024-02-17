@@ -15,8 +15,6 @@ export class CardComponent implements OnInit {
 
   external = false;
 
-  constructor() {}
-
   ngOnInit(): void {
     this.external =
       this.url.startsWith('http://') || this.url.startsWith('https://');

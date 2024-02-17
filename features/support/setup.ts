@@ -23,10 +23,10 @@ parameterTypes.forEach(defineParameterType);
 
 setWorldConstructor(BrowserWorld);
 
-Before(async function (_scenario): Promise<void> {
+Before(async function (): Promise<void> {
   await this.init();
 });
 
-After(async function (_scenario): Promise<void> {
+After(async function (): Promise<void> {
   await this.cleanup();
 });

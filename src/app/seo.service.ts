@@ -48,7 +48,7 @@ export class SeoService {
   }
 
   private trimDescription(description: string) {
-    const chunks = description.match(/.{1,160}(\.|\?|\!|$)/g);
+    const chunks = description.match(/.{1,160}(\.|\?|!|$)/g);
     if (chunks?.[0]) {
       return chunks[0].trim();
     } else {
