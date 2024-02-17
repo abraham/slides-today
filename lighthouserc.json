@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "staticDistDir": "./dist/slides-today/",
+      "staticDistDir": "./dist/slides-today/browser/",
       "isSinglePageApplication": true,
       "url": [
         "http://localhost:5000/",

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/slides-today",
+    "public": "dist/slides-today/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
