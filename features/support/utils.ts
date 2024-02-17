@@ -33,7 +33,8 @@ export const isInteractiveElement = async (
       i++;
       element = await element
         .getProperty('parentElement')
-        .then(e => e?.asElement() || null);
+        // TODO: remove type cast
+        .then(e => (e?.asElement() as ElementHandle<Element>) || null);
     }
   }
   return false;
