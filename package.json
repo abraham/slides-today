@@ -78,7 +78,7 @@
     "@angular/cli": "17.2.0",
     "@angular/compiler-cli": "17.2.1",
     "@angular/language-service": "17.2.1",
-    "@cucumber/cucumber": "^9.5.1",
+    "@cucumber/cucumber": "^10.3.1",
     "@lhci/cli": "0.12.0",
     "@testing-library/dom": "^9.3.3",
     "@types/chai": "4.3.6",
@@ -127,16 +127,16 @@
   },
   "bundlesize": [
     {
-      "path": "dist/slides-today/*main.*.js",
+      "path": "dist/slides-today/browser/*main-*.js",
       "maxSize": "250 kB"
     },
     {
-      "path": "dist/slides-today/*(components|default-node_modules*).*.js",
-      "maxSize": "50 kB"
+      "path": "dist/slides-today/browser/chunk-*.js",
+      "maxSize": "75 kB"
     },
     {
-      "path": "dist/slides-today/!(main|components|default-node_modules*).*.js",
-      "maxSize": "50 kB"
+      "path": "dist/slides-today/browser/*.js",
+      "maxSize": "25 kB"
     }
   ]
 }
