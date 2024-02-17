@@ -17,7 +17,7 @@ export class BrowserWorld {
         height: 720,
         width: 1280,
       },
-      headless: !DEBUG,
+      headless: DEBUG ? false : 'new',
       slowMo: DEBUG ? 100 : 0,
     };
   }
