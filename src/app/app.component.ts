@@ -5,6 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 import { RoutedComponents } from './modules/app-routing.module';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
+import { afterNextRender } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,9 @@ export class AppComponent implements OnInit, OnDestroy {
     private themeService: ThemeService,
     private router: Router,
   ) {
-    this.removeNoScripts();
+    afterNextRender(() => {
+      this.removeNoScripts();
+    });
   }
 
   ngOnInit() {

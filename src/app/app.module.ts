@@ -5,7 +5,10 @@ import {
   ScreenTrackingService,
 } from '@angular/fire/compat/analytics';
 import { AngularFirePerformanceModule } from '@angular/fire/compat/performance';
-import { BrowserModule } from '@angular/platform-browser';
+import {
+  BrowserModule,
+  provideClientHydration,
+} from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   ServiceWorkerModule,
@@ -39,6 +42,6 @@ const swOptions: SwRegistrationOptions = {
     ServiceWorkerModule.register('ngsw-worker.js', swOptions),
     TagModule,
   ],
-  providers: [ScreenTrackingService, SeoService],
+  providers: [ScreenTrackingService, SeoService, provideClientHydration()],
 })
 export class AppModule {}
