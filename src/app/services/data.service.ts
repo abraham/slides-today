@@ -44,8 +44,8 @@ export class DataService {
   get path$(): Observable<string[]> {
     return combineLatest([this.tagSelection$, this.selectedTagIds$]).pipe(
       share(),
-      filter(([selection, _]) => selection.updatePath),
-      map(([_, selectedTagIds]) => selectedTagIds),
+      filter(([selection]) => selection.updatePath),
+      map(([, selectedTagIds]) => selectedTagIds),
       distinctUntilChanged(equalArray),
     );
   }

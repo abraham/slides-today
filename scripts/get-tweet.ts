@@ -9,16 +9,14 @@ const id = process.argv[2];
 const client = new Twit({ ...twitterCredentials, strictSSL: true });
 const showParams = {
   id,
-  // eslint-disable-next-line @typescript-eslint/naming-convention
   include_entities: true,
-  // eslint-disable-next-line @typescript-eslint/naming-convention
   tweet_mode: 'extended',
 };
 
 if (id) {
   console.log(`Getting tweet ${id}`);
 
-  client.get('statuses/show', showParams, (error, tweet, _response) => {
+  client.get('statuses/show', showParams, (error, tweet) => {
     if (error) {
       console.log('ERROR', error);
     } else {

@@ -2,7 +2,6 @@ import { Location } from '@angular/common';
 import { Injectable } from '@angular/core';
 import {
   ActivatedRouteSnapshot,
-  Resolve,
   Router,
   RouterStateSnapshot,
 } from '@angular/router';
@@ -15,7 +14,7 @@ import { ThemeService } from '../services/theme.service';
 @Injectable({
   providedIn: 'root',
 })
-export class DeckResolverService implements Resolve<Deck> {
+export class DeckResolverService {
   constructor(
     private deckService: DeckService,
     private router: Router,

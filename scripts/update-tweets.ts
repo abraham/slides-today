@@ -11,7 +11,6 @@ const ids = decks.flatMap(({ tweetIds }) => tweetIds);
 
 const work = ids.map(async (id: string) => {
   console.log(`Getting tweet ${id}`);
-  // eslint-disable-next-line @typescript-eslint/naming-convention
   const showParams = { id, tweet_mode: 'extended', include_entities: true };
   try {
     const { data } = await client.get('statuses/show', showParams);
