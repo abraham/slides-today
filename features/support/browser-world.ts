@@ -17,13 +17,14 @@ export class BrowserWorld {
         height: 720,
         width: 1280,
       },
-      headless: DEBUG ? false : 'new',
+      headless: !DEBUG,
       slowMo: DEBUG ? 100 : 0,
     };
   }
 
   get $document(): Promise<ElementHandle<Element>> {
-    return getDocument(this.page);
+    // TODO: remove type cast
+    return getDocument(this.page) as Promise<ElementHandle<Element>>;
   }
 
   async getByText(
