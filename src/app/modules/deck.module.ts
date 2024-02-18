@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { MatListModule } from '@angular/material/list';
 import { RouterModule, Routes } from '@angular/router';
 import { DeckDetailsComponent } from '../deck-details/deck-details.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
@@ -30,8 +31,9 @@ const routes: Routes = [
   imports: [
     CardModule,
     CommonModule,
-    TagModule,
+    MatListModule,
     SnackBarModule,
+    TagModule,
     RouterModule.forChild(routes),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
