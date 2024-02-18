@@ -2,7 +2,6 @@ import { Location } from '@angular/common';
 import {
   AfterContentChecked,
   Component,
-  ComponentFactoryResolver,
   ElementRef,
   OnDestroy,
   OnInit,
@@ -46,7 +45,6 @@ export class DeckDetailsComponent
     private location: Location,
     private router: Router,
     private viewContainer: ViewContainerRef,
-    private resolver: ComponentFactoryResolver,
     private seoService: SeoService,
   ) {}
 
@@ -105,9 +103,7 @@ export class DeckDetailsComponent
       const module = await import(
         /* webpackChunkName: 'share' */ '../share/share.component'
       );
-      const share = this.viewContainer.createComponent(
-        this.resolver.resolveComponentFactory(module.ShareComponent),
-      );
+      const share = this.viewContainer.createComponent(module.ShareComponent);
       share.instance.text = deck.title;
     }, 1000);
   }
