@@ -1,24 +1,22 @@
 <app-card>
   <div title>Sponsors</div>
-  <div body>
-    <div class="mdc-list mdc-list--two-line mdc-list--avatar-list">
-      <a
-        *ngFor="let sponsor of sponsorService.select(sponsorIds) | async"
-        class="mdc-list-item"
-        [href]="sponsor.url"
-        target="_blank"
-        rel="noopener">
-        <img
-          [src]="sponsor.image"
-          class="mdc-list-item__graphic"
-          [attr.alt]="sponsor.name + ' logo'" />
-        <span class="mdc-list-item__text">
-          {{ sponsor.name }}
-          <span class="mdc-list-item__secondary-text">{{
-            sponsor.description
-          }}</span>
-        </span>
-      </a>
-    </div>
-  </div>
+  <mat-list body>
+    @for (sponsor of sponsorService.select(sponsorIds) | async; track sponsor) {
+    <a
+      mat-list-item
+      [href]="sponsor.url"
+      target="_blank"
+      rel="noopener"
+      style="cursor: pointer">
+      <img
+        matListItemAvatar
+        [src]="sponsor.image"
+        [attr.alt]="sponsor.name + ' logo'" />
+      <h3 matListItemTitle>{{ sponsor.name }}</h3>
+      <p matListItemLine>
+        <span>{{ sponsor.description }}</span>
+      </p>
+    </a>
+    }
+  </mat-list>
 </app-card>
