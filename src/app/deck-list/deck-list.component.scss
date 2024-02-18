@@ -1,4 +1,3 @@
-@use '@material/button/mdc-button';
 @use '@material/icon-button/mdc-icon-button';
 @use '@material/layout-grid/mdc-layout-grid';
 
@@ -29,6 +28,6 @@ app-about {
   width: 100% !important;
 }
 
-.mdc-button {
+.action-buttons {
   float: right;
 }

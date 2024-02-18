@@ -47,13 +47,11 @@
   <div *ngIf="actions.length" class="mdc-card__actions">
     <a
       *ngFor="let action of actions"
-      appRipple
+      mat-button
       [href]="action.url"
       target="_blank"
-      rel="noopener"
-      class="mdc-button mdc-card__action mdc-card__action--button">
-      <span class="mdc-button__ripple"></span>
-      <span class="mdc-button__label">{{ action.title }}</span>
+      rel="noopener">
+      {{ action.title }}
     </a>
   </div>
 </div>
