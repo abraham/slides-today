@@ -57,14 +57,15 @@
     <noscript>JavaScript is required to view Slides.today.</noscript>
     <script>
       window.addEventListener('load', () => {
-        ['https://fonts.googleapis.com/css?family=Roboto&display=swap'].map(
-          url => {
-            var link = document.createElement('link');
-            link.href = url;
-            link.rel = 'stylesheet';
-            document.body.appendChild(link);
-          },
-        );
+        [
+          'https://fonts.googleapis.com/css?family=Roboto&display=swap',
+          'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0',
+        ].map(url => {
+          var link = document.createElement('link');
+          link.href = url;
+          link.rel = 'stylesheet';
+          document.body.appendChild(link);
+        });
       });
     </script>
   </body>

@@ -81,6 +81,10 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
     this.router.navigate(['/']);
   }
 
+  reload(): void {
+    window.location.reload();
+  }
+
   goBack(e: MouseEvent | KeyboardEvent): void {
     e.preventDefault();
     if (window.history.length > 1) {
