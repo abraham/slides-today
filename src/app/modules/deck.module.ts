@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { RouterModule, Routes } from '@angular/router';
@@ -32,6 +33,7 @@ const routes: Routes = [
   imports: [
     CardModule,
     CommonModule,
+    MatButtonModule,
     MatIconModule,
     MatListModule,
     SnackBarModule,

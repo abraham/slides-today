@@ -1,6 +1,4 @@
 @use '@material/card';
-@use '@material/icon-button/styles';
-@use '@material/icon-button';
 
 @include card.core-styles;
 
@@ -13,8 +11,4 @@
   display: flex;
   height: 100%;
   justify-content: center;
-}
-
-.button {
-  @include icon-button.icon-size(96px);
 }
