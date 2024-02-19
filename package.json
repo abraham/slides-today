@@ -106,7 +106,7 @@
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
-    "lockfile-lint": "4.12.1",
+    "lockfile-lint": "4.13.1",
     "pptr-testing-library": "github:testing-library/pptr-testing-library#fix_pptr_17",
     "prettier": "3.2.5",
     "prettier-plugin-package": "1.4.0",
