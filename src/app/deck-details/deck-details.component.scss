@@ -6,7 +6,7 @@
   display: block;
 }
 
-@media (max-width: 479px) {
+@media (width <= 479px) {
   main {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 719px) {
+@media (width <= 719px) {
   .deck-content {
     columns: 1;
   }
