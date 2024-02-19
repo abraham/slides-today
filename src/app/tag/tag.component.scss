@@ -1,10 +1,3 @@
-@use '@material/chips/deprecated/mdc-chips';
-@use '@material/ripple';
-
 :host {
   display: block;
-}
-
-.mdc-chip {
-  margin: 4px;
 }

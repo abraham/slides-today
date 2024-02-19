@@ -1,12 +1,4 @@
-import {
-  AfterViewInit,
-  Component,
-  ElementRef,
-  Input,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
-import { MDCChipSet } from '@material/chips/deprecated';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
@@ -16,7 +8,7 @@ import { DataService } from '../services/data.service';
   styleUrls: ['./tags.component.scss'],
   templateUrl: './tags.component.html',
 })
-export class TagsComponent implements OnInit, AfterViewInit {
+export class TagsComponent implements OnInit {
   @Input() currentTags: string[] = [];
   @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
 
@@ -28,11 +20,5 @@ export class TagsComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.tags$ = this.dataService.filterTags$(this.currentTags);
-  }
-
-  ngAfterViewInit(): void {
-    requestAnimationFrame(() => {
-      MDCChipSet.attachTo(this.tagsEl.nativeElement);
-    });
   }
 }
