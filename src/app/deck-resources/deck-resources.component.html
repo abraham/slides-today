@@ -2,19 +2,19 @@
   <div title>Resources</div>
   <mat-list body>
     @for (resource of resources; track resource) {
-    <a
-      mat-list-item
-      [href]="resource.url"
-      target="_blank"
-      rel="noopener"
-      style="cursor: pointer">
-      <p matListItemTitle>{{ resource.title }}</p>
-      <span matListItemMeta>
-        <mat-icon matListItemIcon fontSet="material-symbols-outlined">
-          open_in_new
-        </mat-icon>
-      </span>
-    </a>
+      <a
+        mat-list-item
+        [href]="resource.url"
+        target="_blank"
+        rel="noopener"
+        style="cursor: pointer">
+        <p matListItemTitle>{{ resource.title }}</p>
+        <span matListItemMeta>
+          <mat-icon matListItemIcon fontSet="material-symbols-outlined">
+            open_in_new
+          </mat-icon>
+        </span>
+      </a>
     }
   </mat-list>
 </app-card>
