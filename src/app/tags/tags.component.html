@@ -1,3 +1,3 @@
-<div #tagsEl class="mdc-chip-set mdc-chip-set--filter" role="grid">
+<mat-chip-listbox #tagsEl aria-label="Tag selection" role="grid">
   <app-tag *ngFor="let tag of tags$ | async" [tag]="tag"></app-tag>
-</div>
+</mat-chip-listbox>
