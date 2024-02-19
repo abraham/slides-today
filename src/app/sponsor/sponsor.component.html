@@ -2,21 +2,21 @@
   <div title>Sponsors</div>
   <mat-list body>
     @for (sponsor of sponsorService.select(sponsorIds) | async; track sponsor) {
-    <a
-      mat-list-item
-      [href]="sponsor.url"
-      target="_blank"
-      rel="noopener"
-      style="cursor: pointer">
-      <img
-        matListItemAvatar
-        [src]="sponsor.image"
-        [attr.alt]="sponsor.name + ' logo'" />
-      <h3 matListItemTitle>{{ sponsor.name }}</h3>
-      <p matListItemLine>
-        <span>{{ sponsor.description }}</span>
-      </p>
-    </a>
+      <a
+        mat-list-item
+        [href]="sponsor.url"
+        target="_blank"
+        rel="noopener"
+        style="cursor: pointer">
+        <img
+          matListItemAvatar
+          [src]="sponsor.image"
+          [attr.alt]="sponsor.name + ' logo'" />
+        <h3 matListItemTitle>{{ sponsor.name }}</h3>
+        <p matListItemLine>
+          <span>{{ sponsor.description }}</span>
+        </p>
+      </a>
     }
   </mat-list>
 </app-card>

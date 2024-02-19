@@ -8,7 +8,7 @@
   transition: background-color 1000ms !important;
 }
 
-@media (min-width: 960px) {
+@media (width >= 960px) {
   .title {
     margin: 0 auto;
     max-width: 940px;

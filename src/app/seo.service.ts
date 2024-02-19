@@ -15,7 +15,10 @@ export const DEFAULT_DESCRIPTION =
   providedIn: 'root',
 })
 export class SeoService {
-  constructor(private titleService: Title, private metaService: Meta) {}
+  constructor(
+    private titleService: Title,
+    private metaService: Meta,
+  ) {}
 
   public reset() {
     this.update(DEFAULT_TITLE, DEFAULT_DESCRIPTION, IncludeSiteTitle.no);
