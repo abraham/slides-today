@@ -1,14 +1,16 @@
+import { CommonModule } from '@angular/common';
 import {
   AfterContentInit,
   Component,
-  ElementRef,
   Input,
   OnDestroy,
   OnInit,
   ViewChild,
 } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { MDCMenu } from '@material/menu';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { DEFAULT_INVERTED_THEME } from '../models/theme';
@@ -19,9 +21,12 @@ import { SocialServices } from '../social-services';
   selector: 'app-share',
   styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
+  imports: [CommonModule, MatButtonModule, MatIconModule, MatMenuModule],
+  standalone: true,
 })
 export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
-  @ViewChild('menuEl', { static: true }) menuEl?: ElementRef;
+  @ViewChild('shareMenuTrigger', { static: true })
+  shareMenuTrigger!: MatMenuTrigger;
   @Input() text = '';
   theme = DEFAULT_INVERTED_THEME;
   exited = true;
@@ -29,7 +34,6 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   facebookUrl = '';
 
   private destroy$ = new Subject();
-  private menu!: MDCMenu;
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () =>
       `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
@@ -65,13 +69,14 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   }
 
   ngAfterContentInit(): void {
-    if (!this.menuEl) {
-      throw new Error('Missing ViewChild menuEl');
+    if (!this.shareMenuTrigger) {
+      throw new Error('Missing ViewChild menu');
     }
 
-    this.menu = new MDCMenu(this.menuEl.nativeElement);
-    setTimeout(() => (this.exited = false), 1000);
-    this.menu.listen('MDCMenuSurface:closed', () => (this.exited = false));
+    this.exited = false;
+    this.shareMenuTrigger.menuClosed
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(() => (this.exited = false));
     this.twitterUrl = this.services[SocialServices.twitter]();
     this.facebookUrl = this.services[SocialServices.facebook]();
   }
@@ -84,12 +89,14 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   startShare(): void {
     this.exited = true;
     if (navigator.share) {
+      // Avoid showing native share menu and custom share menu at the same time
+      this.shareMenuTrigger.closeMenu();
       navigator
         .share(this.shareOptions)
         .catch(() => this.snackBar.open('Error sharing'))
         .then(() => (this.exited = false));
     } else {
-      this.menu.open = true;
+      this.shareMenuTrigger.openMenu();
     }
   }
 
