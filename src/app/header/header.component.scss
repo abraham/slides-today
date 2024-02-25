@@ -1,11 +1,16 @@
-@use '@material/top-app-bar/mdc-top-app-bar';
-
 :host {
   display: block;
+  position: sticky;
+  top: 0;
+  z-index: 32;
 }
 
-.mdc-top-app-bar {
+mat-toolbar {
   transition: background-color 1000ms !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
 
 @media (width >= 960px) {

@@ -1,15 +1,12 @@
 import { Location } from '@angular/common';
 import {
-  AfterViewInit,
   Component,
-  ElementRef,
+  HostListener,
   Input,
   OnDestroy,
   OnInit,
-  ViewChild,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { MDCTopAppBar } from '@material/top-app-bar';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { DEFAULT_THEME } from '../models/theme';
@@ -25,11 +22,11 @@ interface PromptEvent extends Event {
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
 })
-export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
+export class HeaderComponent implements OnInit, OnDestroy {
   @Input() title = 'Slides.today';
   @Input() showBack = false;
-  @ViewChild('appBar', { static: true }) appBarEl?: ElementRef;
 
+  atTop = true;
   theme = DEFAULT_THEME;
   updateAvailable = false;
   deferredInstallPrompt?: PromptEvent;
@@ -50,24 +47,22 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
     this.update.$available
       .pipe(takeUntil(this.destroy$))
       .subscribe(() => (this.updateAvailable = true));
-
-    window.addEventListener('beforeinstallprompt', e => {
-      e.preventDefault();
-      this.deferredInstallPrompt = e as PromptEvent;
-    });
-  }
-
-  ngAfterViewInit(): void {
-    if (!this.appBarEl) {
-      throw new Error('Missing ViewChild appBarEl');
-    }
-
-    MDCTopAppBar.attachTo(this.appBarEl.nativeElement);
   }
 
   ngOnDestroy() {
     this.destroy$.next(true);
     this.destroy$.unsubscribe();
+  }
+
+  @HostListener('window:beforeinstallprompt', ['$event'])
+  onBeforeInstallPrompt(event: PromptEvent) {
+    event.preventDefault();
+    this.deferredInstallPrompt = event;
+  }
+
+  @HostListener('window:scroll')
+  onScroll() {
+    this.atTop = window.scrollY === 0;
   }
 
   openInstallPrompt(): void {
