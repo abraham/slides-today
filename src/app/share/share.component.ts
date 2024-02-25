@@ -32,11 +32,14 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   exited = true;
   twitterUrl = '';
   facebookUrl = '';
+  linkedinUrl = '';
 
   private destroy$ = new Subject();
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () =>
       `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
+    [SocialServices.linkedin]: () =>
+      `https://www.linkedin.com/sharing/share-offsite/?url=${this.shareUrl}`,
     [SocialServices.twitter]: () =>
       `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
@@ -77,8 +80,9 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     this.shareMenuTrigger.menuClosed
       .pipe(takeUntil(this.destroy$))
       .subscribe(() => (this.exited = false));
-    this.twitterUrl = this.services[SocialServices.twitter]();
+    this.linkedinUrl = this.services[SocialServices.linkedin]();
     this.facebookUrl = this.services[SocialServices.facebook]();
+    this.twitterUrl = this.services[SocialServices.twitter]();
   }
 
   ngOnDestroy() {

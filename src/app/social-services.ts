@@ -1,5 +1,6 @@
 export const enum SocialServices {
-  twitter = 'twitter',
-  facebook = 'facebook',
   clipboard = 'clipboard',
+  facebook = 'facebook',
+  linkedin = 'linkedin',
+  twitter = 'twitter',
 }
