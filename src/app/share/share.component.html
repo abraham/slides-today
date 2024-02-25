@@ -18,6 +18,16 @@
   <a
     mat-menu-item
     role="menuitem"
+    [attr.href]="linkedinUrl"
+    target="_blank"
+    rel="noopener"
+    title="Share on LinkedIn">
+    <mat-icon fontSet="material-symbols-outlined">work</mat-icon>
+    <span>Publish</span>
+  </a>
+  <a
+    mat-menu-item
+    role="menuitem"
     [attr.href]="twitterUrl"
     target="_blank"
     rel="noopener"
