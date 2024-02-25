@@ -1,46 +1,38 @@
-<header
-  #appBar
-  class="mdc-top-app-bar mdc-top-app-bar--fixed"
-  [ngStyle]="theme">
-  <div class="title mdc-top-app-bar__row">
-    <section
-      class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-      <a
-        *ngIf="showBack"
-        mat-button
-        (click)="goBack($event)"
-        (keyup)="goBack($event)"
-        href="/"
-        title="Go back"
-        [ngStyle]="{ color: theme.color }">
-        <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
-        Back
-      </a>
-      <span class="mdc-top-app-bar__title">{{ title }}</span>
-    </section>
-    <section
-      class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
-      <button
-        *ngIf="updateAvailable"
-        (click)="reload()"
-        mat-icon-button
-        aria-label="Update Slides.today"
-        title="Update Slides.today"
-        class="spin">
-        <mat-icon fontSet="material-symbols-outlined">update</mat-icon>
-      </button>
-      <button
-        *ngIf="deferredInstallPrompt"
-        (click)="openInstallPrompt()"
-        (keyup)="openInstallPrompt()"
-        mat-icon-button
-        aria-label="Install Slides.today"
-        title="Install Slides.today"
-        class="wiggle">
-        <mat-icon fontSet="material-symbols-outlined">install_mobile</mat-icon>
-      </button>
-    </section>
-  </div>
-</header>
-
-<div class="mdc-top-app-bar--fixed-adjust"></div>
+<mat-toolbar [class.mat-elevation-z2]="!atTop" [ngStyle]="theme">
+  <section>
+    <a
+      *ngIf="showBack"
+      mat-button
+      (click)="goBack($event)"
+      (keyup)="goBack($event)"
+      href="/"
+      title="Go back"
+      [ngStyle]="{ color: theme.color }">
+      <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
+      Back
+    </a>
+    <span class="">{{ title }}</span>
+  </section>
+  <span class="spacer"></span>
+  <section>
+    <button
+      *ngIf="updateAvailable"
+      (click)="reload()"
+      mat-icon-button
+      aria-label="Update Slides.today"
+      title="Update Slides.today"
+      class="spin">
+      <mat-icon fontSet="material-symbols-outlined">update</mat-icon>
+    </button>
+    <button
+      *ngIf="deferredInstallPrompt"
+      (click)="openInstallPrompt()"
+      (keyup)="openInstallPrompt()"
+      mat-icon-button
+      aria-label="Install Slides.today"
+      title="Install Slides.today"
+      class="wiggle">
+      <mat-icon fontSet="material-symbols-outlined">install_mobile</mat-icon>
+    </button>
+  </section>
+</mat-toolbar>

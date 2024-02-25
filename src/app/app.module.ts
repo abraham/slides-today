@@ -7,6 +7,7 @@ import {
 import { AngularFirePerformanceModule } from '@angular/fire/compat/performance';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
@@ -39,6 +40,7 @@ const swOptions: SwRegistrationOptions = {
     CardModule,
     MatButtonModule,
     MatIconModule,
+    MatToolbarModule,
     NgxSkeletonLoaderModule,
     ServiceWorkerModule.register('ngsw-worker.js', swOptions),
     TagModule,
