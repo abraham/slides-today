@@ -13,7 +13,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run build
-      - uses: w9jds/firebase-action@v13.3.0
+      - uses: w9jds/firebase-action@v13.3.1
         with:
           args: deploy
         env:
