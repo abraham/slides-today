@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import { Then } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
 import { Page } from 'puppeteer';
-import { origin } from '../support/environment';
+import { origin } from '../support/environment.js';
 
 Then('I should not see {string}', async function (text): Promise<void> {
   await wait(async () => {

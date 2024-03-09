@@ -1,5 +1,5 @@
 import { Given } from '@cucumber/cucumber';
-import { origin } from '../support/environment';
+import { origin } from '../support/environment.js';
 
 Given(
   'the network is {networkStatus}',

@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { When } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
-import { isInteractiveElement, sleep } from '../support/utils';
+import { isInteractiveElement, sleep } from '../support/utils.js';
 
 When('I visit {url}', async function (url: string): Promise<void> {
   await this.page.goto(url, { waitUntil: 'networkidle0' });
