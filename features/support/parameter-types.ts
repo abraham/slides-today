@@ -1,5 +1,5 @@
 import { KnownDevices } from 'puppeteer';
-import { origin } from './environment';
+import { origin } from './environment.js';
 
 const deviceList = Object.keys(KnownDevices).join('|');
 

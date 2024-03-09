@@ -1,6 +1,7 @@
 {
   "name": "slides-today",
   "version": "0.0.0",
+  "type": "module",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -33,7 +34,7 @@
     "serve": "npm run build && npm run start:firebase",
     "start": "ng serve --port 5000 --hmr",
     "start:firebase": "firebase emulators:start",
-    "test": "TS_NODE_PROJECT=features/tsconfig.loose.json cucumber-js",
+    "test": "NODE_OPTIONS='--loader ts-node/esm' TS_NODE_PROJECT=features/tsconfig.loose.json cucumber-js",
     "test:features": "start-server-and-test start:firebase http://127.0.0.1:5000/ test",
     "update-tweets": "ts-node --project scripts/tsconfig.json scripts/update-tweets.ts",
     "watch": "ng build --watch --configuration development"
@@ -81,14 +82,14 @@
     "@cucumber/cucumber": "^10.3.1",
     "@lhci/cli": "0.13.0",
     "@testing-library/dom": "^9.3.4",
-    "@types/chai": "4.3.6",
+    "@types/chai": "4.3.12",
     "@types/jasmine": "5.1.4",
     "@types/node": "20.11.24",
     "@types/twit": "2.2.35",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "bundlesize2": "^0.0.31",
-    "chai": "4.3.8",
+    "chai": "5.1.0",
     "concurrently": "8.2.2",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
