@@ -14,3 +14,6 @@ updates:
         patterns:
           - '@angular*'
           - 'zone.js'
+      eslint:
+        patterns:
+          - '*eslint*'
