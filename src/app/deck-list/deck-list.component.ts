@@ -48,7 +48,7 @@ export class DeckListComponent implements OnInit, OnDestroy {
       .filter(this.selectedTagIds$)
       .pipe(takeUntil(this.destroy$))
       .subscribe(decks => {
-        this.decks = this.hasSelectedTagIds ? decks : decks.slice(0, 25);
+        this.decks = this.hasSelectedTagIds ? decks : decks.slice(0, 100);
       });
     this.breakpointObserver
       .observe([Breakpoints.XSmall])
