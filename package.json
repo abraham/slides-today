@@ -52,7 +52,7 @@
     "@angular/platform-browser-dynamic": "17.2.4",
     "@angular/router": "17.2.4",
     "@angular/service-worker": "17.2.4",
-    "@firebase/app": "0.9.28",
+    "@firebase/app": "0.9.29",
     "@justinribeiro/lite-youtube": "1.5.0",
     "autotrack": "2.4.1",
     "firebase": "^10.8.1",
