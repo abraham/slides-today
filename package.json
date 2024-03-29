@@ -122,7 +122,7 @@
     "ts-node": "10.9.2",
     "twit": "2.2.11",
     "twitter-d": "0.6.0",
-    "typescript": "5.3.3",
+    "typescript": "5.4.3",
     "webpack-bundle-analyzer": "4.10.1"
   },
   "bundlesize": [
