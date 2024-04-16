@@ -55,7 +55,7 @@
     "@firebase/app": "0.10.0",
     "@justinribeiro/lite-youtube": "1.5.0",
     "autotrack": "2.4.1",
-    "firebase": "^10.10.0",
+    "firebase": "^10.11.0",
     "first-input-delay": "0.1.3",
     "github-repository": "0.4.0",
     "material-components-web": "14.0.0",
