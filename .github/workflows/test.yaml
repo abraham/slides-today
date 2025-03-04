@@ -18,8 +18,12 @@ jobs:
           path: dist
 
   features:
+    name: ${{ matrix.puppeteer_product }} feature tests
     needs: build
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        puppeteer_product: [chrome, firefox]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
@@ -29,9 +33,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
+      - run: PUPPETEER_PRODUCT=${{ matrix.puppeteer_product }} npm ci
       - run: npx firebase use slides-today
-      - run: npm run test:features
+      - run: PUPPETEER_PRODUCT=${{ matrix.puppeteer_product }} npm run test:features
 
   lighthouse:
     needs: build
