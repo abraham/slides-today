@@ -6,6 +6,7 @@ import { ThemeService } from '../services/theme.service';
   selector: 'app-not-found',
   styleUrls: ['./not-found.component.scss'],
   templateUrl: './not-found.component.html',
+  standalone: false,
 })
 export class NotFoundComponent {
   @Input() text = 'Page Not Found';

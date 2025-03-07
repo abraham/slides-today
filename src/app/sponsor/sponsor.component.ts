@@ -5,6 +5,7 @@ import { SponsorService } from '../services/sponsor.service';
   selector: 'app-sponsor',
   styleUrls: ['./sponsor.component.scss'],
   templateUrl: './sponsor.component.html',
+  standalone: false,
 })
 export class SponsorComponent {
   @Input() sponsorIds!: string[];

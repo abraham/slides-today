@@ -22,7 +22,6 @@ import { SocialServices } from '../social-services';
   styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
   imports: [CommonModule, MatButtonModule, MatIconModule, MatMenuModule],
-  standalone: true,
 })
 export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   @ViewChild('shareMenuTrigger', { static: true })

@@ -15,6 +15,7 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
   selector: 'app-deck-list',
   styleUrls: ['./deck-list.component.scss'],
   templateUrl: './deck-list.component.html',
+  standalone: false,
 })
 export class DeckListComponent implements OnInit, OnDestroy {
   selectedTagIds$: Observable<string[]>;

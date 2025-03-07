@@ -5,6 +5,7 @@ import { Resource } from '../models/resource';
   selector: 'app-deck-resources',
   styleUrls: ['./deck-resources.component.scss'],
   templateUrl: './deck-resources.component.html',
+  standalone: false,
 })
 export class DeckResourcesComponent {
   @Input() resources: Resource[] = [];

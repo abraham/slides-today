@@ -5,6 +5,7 @@ import { environment } from '../../environments/environment';
   selector: 'app-map',
   styleUrls: ['./map.component.scss'],
   templateUrl: './map.component.html',
+  standalone: false,
 })
 export class MapComponent implements OnInit {
   @Input() location = '';
