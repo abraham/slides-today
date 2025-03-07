@@ -13,6 +13,7 @@ import { DEFAULT_THEME } from '../models/theme';
   selector: 'app-embed',
   styleUrls: ['./embed.component.scss'],
   templateUrl: './embed.component.html',
+  standalone: false,
 })
 export class EmbedComponent implements OnInit, OnChanges {
   @Input() title = '';

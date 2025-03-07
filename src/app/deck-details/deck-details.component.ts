@@ -25,6 +25,7 @@ interface DeckData extends Data {
   selector: 'app-deck-details',
   styleUrls: ['./deck-details.component.scss'],
   templateUrl: './deck-details.component.html',
+  standalone: false,
 })
 export class DeckDetailsComponent
   implements OnInit, AfterContentChecked, OnDestroy

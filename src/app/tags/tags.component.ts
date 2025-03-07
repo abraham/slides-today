@@ -7,6 +7,7 @@ import { DataService } from '../services/data.service';
   selector: 'app-tags',
   styleUrls: ['./tags.component.scss'],
   templateUrl: './tags.component.html',
+  standalone: false,
 })
 export class TagsComponent implements OnInit {
   @Input() currentTags: string[] = [];

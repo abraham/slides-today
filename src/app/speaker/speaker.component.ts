@@ -5,6 +5,7 @@ import { SpeakerService } from '../services/speaker.service';
   selector: 'app-speaker',
   styleUrls: ['./speaker.component.scss'],
   templateUrl: './speaker.component.html',
+  standalone: false,
 })
 export class SpeakerComponent {
   @Input() speakerId?: string;

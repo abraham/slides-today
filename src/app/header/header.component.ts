@@ -21,6 +21,7 @@ interface PromptEvent extends Event {
   selector: 'app-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
+  standalone: false,
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   @Input() title = 'Slides.today';

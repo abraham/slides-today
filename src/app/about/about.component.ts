@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-about',
   styleUrls: ['./about.component.scss'],
   templateUrl: './about.component.html',
+  standalone: false,
 })
 export class AboutComponent {
   links = [
