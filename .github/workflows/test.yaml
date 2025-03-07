@@ -4,7 +4,7 @@ env:
   FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,7 +19,7 @@ jobs:
 
   features:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
@@ -35,7 +35,7 @@ jobs:
 
   lighthouse:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     env:
       LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
     steps:
@@ -55,7 +55,7 @@ jobs:
 
   bundlesize:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
