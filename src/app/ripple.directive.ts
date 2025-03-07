@@ -5,7 +5,6 @@ type Style = 'unbounded' | 'bounded' | '';
 
 @Directive({
   selector: '[appRipple]',
-  standalone: false,
 })
 export class RippleDirective {
   @Input('appRipple') style: Style = '';

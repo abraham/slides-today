@@ -6,7 +6,6 @@ import { DEFAULT_THEME } from '../models/theme';
   selector: 'app-card',
   styleUrls: ['./card.component.scss'],
   templateUrl: './card.component.html',
-  standalone: false,
 })
 export class CardComponent implements OnInit {
   @Input() actions: Link[] = [];
