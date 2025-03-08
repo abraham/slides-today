@@ -8,7 +8,7 @@ describe('TagsSheetComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [TagsSheetComponent],
+      imports: [TagsSheetComponent],
     }).compileComponents();
   }));
 

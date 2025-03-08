@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-about',
   styleUrls: ['./about.component.scss'],
   templateUrl: './about.component.html',
-  standalone: false,
+  imports: [CardComponent],
 })
 export class AboutComponent {
   links = [

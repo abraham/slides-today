@@ -8,7 +8,7 @@ describe('SpeakerComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SpeakerComponent],
+      imports: [SpeakerComponent],
     }).compileComponents();
   }));
 

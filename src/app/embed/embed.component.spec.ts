@@ -8,7 +8,7 @@ describe('EmbedComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [EmbedComponent],
+      imports: [EmbedComponent],
     }).compileComponents();
   }));
 

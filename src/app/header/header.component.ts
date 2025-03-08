@@ -1,4 +1,4 @@
-import { Location } from '@angular/common';
+import { Location, NgStyle, NgIf } from '@angular/common';
 import {
   Component,
   HostListener,
@@ -12,6 +12,9 @@ import { takeUntil } from 'rxjs/operators';
 import { DEFAULT_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
+import { MatToolbar } from '@angular/material/toolbar';
+import { MatAnchor, MatIconButton } from '@angular/material/button';
+import { MatIcon } from '@angular/material/icon';
 
 interface PromptEvent extends Event {
   prompt: () => void;
@@ -21,7 +24,7 @@ interface PromptEvent extends Event {
   selector: 'app-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
-  standalone: false,
+  imports: [MatToolbar, NgStyle, NgIf, MatAnchor, MatIcon, MatIconButton],
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   @Input() title = 'Slides.today';

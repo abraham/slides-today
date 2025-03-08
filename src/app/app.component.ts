@@ -1,16 +1,24 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AsyncPipe, NgFor, NgIf, NgStyle } from '@angular/common';
+import {
+  Component,
+  CUSTOM_ELEMENTS_SCHEMA,
+  OnDestroy,
+  OnInit,
+} from '@angular/core';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { RoutedComponents } from './modules/app-routing.module';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
+  imports: [NgFor, AsyncPipe, NgIf, NgStyle, ServiceWorkerModule],
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
-  standalone: false,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppComponent implements OnInit, OnDestroy {
   defaultTitle = 'Slides.today';
@@ -45,7 +53,9 @@ export class AppComponent implements OnInit, OnDestroy {
     this.destroy$.unsubscribe();
   }
 
-  onActivate(event: RoutedComponents): void {
+  onActivate(e: unknown): void {
+    // TODO: Find a better way to do this
+    const event = e as RoutedComponents;
     if ('title' in event) {
       this.title = event.title;
     } else {

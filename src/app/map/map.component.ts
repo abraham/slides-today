@@ -1,11 +1,12 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { environment } from '../../environments/environment';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-map',
   styleUrls: ['./map.component.scss'],
   templateUrl: './map.component.html',
-  standalone: false,
+  imports: [CardComponent],
 })
 export class MapComponent implements OnInit {
   @Input() location = '';
