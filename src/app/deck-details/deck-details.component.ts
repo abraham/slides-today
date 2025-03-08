@@ -1,7 +1,8 @@
-import { Location } from '@angular/common';
+import { Location, NgIf, NgFor, AsyncPipe } from '@angular/common';
 import {
   AfterContentChecked,
   Component,
+  CUSTOM_ELEMENTS_SCHEMA,
   ElementRef,
   OnDestroy,
   OnInit,
@@ -16,6 +17,13 @@ import { Deck } from '../models/deck';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
 import { SeoService } from '../seo.service';
+import { CardComponent } from '../card/card.component';
+import { TagsComponent } from '../tags/tags.component';
+import { EmbedComponent } from '../embed/embed.component';
+import { SpeakerComponent } from '../speaker/speaker.component';
+import { MapComponent } from '../map/map.component';
+import { SponsorComponent } from '../sponsor/sponsor.component';
+import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
 
 interface DeckData extends Data {
   deck: Deck;
@@ -25,7 +33,19 @@ interface DeckData extends Data {
   selector: 'app-deck-details',
   styleUrls: ['./deck-details.component.scss'],
   templateUrl: './deck-details.component.html',
-  standalone: false,
+  imports: [
+    NgIf,
+    CardComponent,
+    TagsComponent,
+    NgFor,
+    EmbedComponent,
+    SpeakerComponent,
+    MapComponent,
+    SponsorComponent,
+    DeckResourcesComponent,
+    AsyncPipe,
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DeckDetailsComponent
   implements OnInit, AfterContentChecked, OnDestroy

@@ -1,10 +1,11 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { MatChipSelectionChange } from '@angular/material/chips';
+import { MatChipSelectionChange, MatChipOption } from '@angular/material/chips';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { Tag } from '../models/tag';
 import { DEFAULT_THEME } from '../models/theme';
 import { DataService } from '../services/data.service';
+import { NgStyle } from '@angular/common';
 
 type ChipStyle = {
   '--mdc-chip-with-icon-selected-icon-color': string;
@@ -18,7 +19,7 @@ type ChipStyle = {
   selector: 'app-tag',
   styleUrls: ['./tag.component.scss'],
   templateUrl: './tag.component.html',
-  standalone: false,
+  imports: [MatChipOption, NgStyle],
 })
 export class TagComponent implements OnInit, OnDestroy {
   @Input() tag!: Tag;
