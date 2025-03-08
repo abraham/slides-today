@@ -18,7 +18,6 @@ type ChipStyle = {
   selector: 'app-tag',
   styleUrls: ['./tag.component.scss'],
   templateUrl: './tag.component.html',
-  standalone: false,
 })
 export class TagComponent implements OnInit, OnDestroy {
   @Input() tag!: Tag;

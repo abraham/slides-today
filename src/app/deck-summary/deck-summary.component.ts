@@ -6,7 +6,6 @@ import { Deck } from '../models/deck';
   selector: 'app-deck-summary',
   styleUrls: ['./deck-summary.component.scss'],
   templateUrl: './deck-summary.component.html',
-  standalone: false,
 })
 export class DeckSummaryComponent implements OnInit {
   @Input() deck!: Deck;

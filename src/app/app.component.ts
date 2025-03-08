@@ -10,7 +10,6 @@ import { ThemeService } from './services/theme.service';
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
-  standalone: false,
 })
 export class AppComponent implements OnInit, OnDestroy {
   defaultTitle = 'Slides.today';
