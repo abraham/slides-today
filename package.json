@@ -79,7 +79,7 @@
     "@angular/cli": "19.2.1",
     "@angular/compiler-cli": "19.2.1",
     "@angular/language-service": "19.2.1",
-    "@cucumber/cucumber": "^10.3.2",
+    "@cucumber/cucumber": "^11.2.0",
     "@lhci/cli": "0.14.0",
     "@testing-library/dom": "^10.4.0",
     "@types/chai": "4.3.14",
