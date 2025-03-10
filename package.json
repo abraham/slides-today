@@ -116,7 +116,7 @@
     "stylelint": "16.15.0",
     "stylelint-config-sass-guidelines": "11.1.0",
     "stylelint-config-standard": "36.0.0",
-    "stylelint-prettier": "5.0.0",
+    "stylelint-prettier": "5.0.3",
     "stylelint-scss": "6.11.1",
     "stylelint-selector-bem-pattern": "4.0.1",
     "ts-node": "10.9.2",
