@@ -12,7 +12,6 @@ import { SpeakerComponent } from '../speaker/speaker.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { CardModule } from './card.module';
 import { SnackBarModule } from './snack-bar.module';
-import { TagModule } from './tag.module';
 
 const routes: Routes = [
   {
@@ -22,14 +21,6 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    DeckDetailsComponent,
-    DeckResourcesComponent,
-    EmbedComponent,
-    MapComponent,
-    SpeakerComponent,
-    SponsorComponent,
-  ],
   imports: [
     CardModule,
     CommonModule,
@@ -37,8 +28,13 @@ const routes: Routes = [
     MatIconModule,
     MatListModule,
     SnackBarModule,
-    TagModule,
     RouterModule.forChild(routes),
+    DeckDetailsComponent,
+    DeckResourcesComponent,
+    EmbedComponent,
+    MapComponent,
+    SpeakerComponent,
+    SponsorComponent,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
