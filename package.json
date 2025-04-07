@@ -110,7 +110,7 @@
     "prettier": "3.5.3",
     "prettier-plugin-package": "1.4.0",
     "puppeteer": "^22.15.0",
-    "sass": "1.85.1",
+    "sass": "1.86.3",
     "start-server-and-test": "2.0.3",
     "stylelint": "16.15.0",
     "stylelint-config-sass-guidelines": "12.1.0",
