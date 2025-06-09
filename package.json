@@ -98,7 +98,7 @@
     "eslint-plugin-react": "latest",
     "firebase-admin": "^13.4.0",
     "firebase-tools": "^13.6.0",
-    "jasmine-core": "~5.7.1",
+    "jasmine-core": "~5.8.0",
     "jsonc-parser": "^3.2.1",
     "karma": "~6.4.4",
     "karma-chrome-launcher": "~3.2.0",
