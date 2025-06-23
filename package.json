@@ -107,7 +107,7 @@
     "karma-jasmine-html-reporter": "^2.1.0",
     "lockfile-lint": "4.14.1",
     "pptr-testing-library": "0.8.0",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "prettier-plugin-package": "1.4.0",
     "puppeteer": "^24.10.1",
     "sass": "1.89.2",
