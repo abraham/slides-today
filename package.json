@@ -83,7 +83,7 @@
     "@testing-library/dom": "^10.4.1",
     "@types/chai": "5.2.2",
     "@types/jasmine": "5.1.8",
-    "@types/node": "24.1.0",
+    "@types/node": "24.2.0",
     "@types/twit": "2.2.35",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
