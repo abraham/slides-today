@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -21,7 +21,7 @@ jobs:
     needs: build
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/download-artifact@v5
         with:
           name: dist
@@ -39,7 +39,7 @@ jobs:
     env:
       LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/download-artifact@v5
         with:
           name: dist
@@ -57,7 +57,7 @@ jobs:
     needs: build
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/download-artifact@v5
         with:
           name: dist
