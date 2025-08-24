@@ -10,7 +10,6 @@ import { DeckSummaryComponent } from '../deck-summary/deck-summary.component';
 import { TagListPipe } from '../tag-list.pipe';
 import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 import { CardModule } from './card.module';
-import { TagModule } from './tag.module';
 
 const routes: Routes = [
   {
@@ -20,21 +19,18 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    AboutComponent,
-    DeckListComponent,
-    DeckSummaryComponent,
-    TagListPipe,
-    TagsSheetComponent,
-  ],
   imports: [
     CardModule,
     CommonModule,
     MatBottomSheetModule,
     MatButtonModule,
     MatIconModule,
-    TagModule,
     RouterModule.forChild(routes),
+    AboutComponent,
+    DeckListComponent,
+    DeckSummaryComponent,
+    TagListPipe,
+    TagsSheetComponent,
   ],
 })
 export class HomeModule {}
