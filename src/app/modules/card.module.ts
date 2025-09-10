@@ -6,8 +6,13 @@ import { RippleDirective } from '../ripple.directive';
 import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
-  declarations: [CardComponent, RippleDirective],
   exports: [CardComponent, RippleDirective],
-  imports: [CommonModule, MatButtonModule, RouterModule.forChild([])],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    RouterModule.forChild([]),
+    CardComponent,
+    RippleDirective,
+  ],
 })
 export class CardModule {}

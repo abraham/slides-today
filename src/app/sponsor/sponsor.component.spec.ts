@@ -8,7 +8,7 @@ describe('SponsorComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SponsorComponent],
+      imports: [SponsorComponent],
     }).compileComponents();
   }));
 
