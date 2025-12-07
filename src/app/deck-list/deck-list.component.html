@@ -22,12 +22,12 @@
             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-about>
         }
 
-        @for (deck of decks; track deck) {
+        @for (deck of decks$ | async; track deck.id) {
           <app-deck-summary
             [deck]="deck"
             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
         }
-        @if (!decks.length) {
+        @if ((decks$ | async)?.length === 0) {
           <div
             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
             Nothing found that includes all the following tags:

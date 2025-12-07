@@ -3,7 +3,7 @@ import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import { EMPTY, Observable, Subject } from 'rxjs';
-import { map, switchMap, takeUntil } from 'rxjs/operators';
+import { map, switchMap, takeUntil, withLatestFrom } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
@@ -42,7 +42,7 @@ export class DeckListComponent implements OnInit, OnDestroy {
   private seoService = inject(SeoService);
 
   selectedTagIds$: Observable<string[]>;
-  decks: Deck[] = [];
+  decks$!: Observable<Deck[]>;
   mobile = false;
   hasSelectedTagIds = false;
 
@@ -55,17 +55,21 @@ export class DeckListComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.themeService.reset();
     this.seoService.reset();
+
     this.selectedTagIds$
       .pipe(takeUntil(this.destroy$))
       .subscribe(selectedTagIds => {
         this.hasSelectedTagIds = selectedTagIds.length !== 0;
       });
-    this.deckService
-      .filter(this.selectedTagIds$)
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(decks => {
-        this.decks = this.hasSelectedTagIds ? decks : decks.slice(0, 100);
-      });
+
+    this.decks$ = this.deckService.filter(this.selectedTagIds$).pipe(
+      withLatestFrom(this.selectedTagIds$),
+      map(([decks, selectedTagIds]) => {
+        const filteredDecks =
+          selectedTagIds.length !== 0 ? decks : decks.slice(0, 100);
+        return filteredDecks;
+      }),
+    );
     this.breakpointObserver
       .observe([Breakpoints.XSmall])
       .pipe(takeUntil(this.destroy$))
