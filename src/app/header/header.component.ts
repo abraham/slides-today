@@ -55,9 +55,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   @HostListener('window:beforeinstallprompt', ['$event'])
-  onBeforeInstallPrompt(event: PromptEvent) {
+  onBeforeInstallPrompt(event: Event) {
     event.preventDefault();
-    this.deferredInstallPrompt = event;
+    this.deferredInstallPrompt = event as PromptEvent;
   }
 
   @HostListener('window:scroll')
