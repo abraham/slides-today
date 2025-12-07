@@ -9,10 +9,7 @@ import { MDCRipple } from '@material/ripple';
 
 type Style = 'unbounded' | 'bounded' | '';
 
-@Directive({
-  selector: '[appRipple]',
-  standalone: false,
-})
+@Directive({ selector: '[appRipple]' })
 export class RippleDirective {
   private el = inject(ElementRef);
 
