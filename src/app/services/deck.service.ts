@@ -34,9 +34,8 @@ export class DeckService {
   }
 
   private async fetchDecks(): Promise<void> {
-    const { default: data }: { default: RawDeck[] } = await import(
-      '../decks.data.json'
-    );
+    const { default: data }: { default: RawDeck[] } =
+      await import('../decks.data.json');
     const decks = data
       .filter(deck => !deck.archived)
       .map((deck: RawDeck) => new Deck(deck));
