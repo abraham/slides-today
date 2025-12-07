@@ -99,12 +99,8 @@
     "firebase-admin": "^13.4.0",
     "firebase-tools": "^14.27.0",
     "jasmine-core": "~5.12.1",
+    "jsdom": "^27.2.0",
     "jsonc-parser": "^3.2.1",
-    "karma": "~6.4.4",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.1",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "^2.1.0",
     "lockfile-lint": "4.14.1",
     "pptr-testing-library": "0.8.0",
     "prettier": "3.7.3",
@@ -121,7 +117,8 @@
     "ts-node": "10.9.2",
     "twit": "2.2.11",
     "twitter-d": "0.6.0",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.15"
   },
   "bundlesize": [
     {
