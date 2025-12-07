@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import {
   AfterContentInit,
   Component,
@@ -6,6 +5,7 @@ import {
   OnDestroy,
   OnInit,
   ViewChild,
+  inject,
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -21,9 +21,12 @@ import { SocialServices } from '../social-services';
   selector: 'app-share',
   styleUrls: ['./share.component.scss'],
   templateUrl: './share.component.html',
-  imports: [CommonModule, MatButtonModule, MatIconModule, MatMenuModule],
+  imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })
 export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
+  private themeService = inject(ThemeService);
+  private snackBar = inject(MatSnackBar);
+
   @ViewChild('shareMenuTrigger', { static: true })
   shareMenuTrigger!: MatMenuTrigger;
   @Input() text = '';
@@ -42,11 +45,6 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
     [SocialServices.twitter]: () =>
       `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
   };
-
-  constructor(
-    private themeService: ThemeService,
-    private snackBar: MatSnackBar,
-  ) {}
 
   private get shareText(): string {
     return encodeURIComponent(this.text);

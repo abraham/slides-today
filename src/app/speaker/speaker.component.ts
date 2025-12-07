@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { SpeakerService } from '../services/speaker.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { SpeakerService } from '../services/speaker.service';
   standalone: false,
 })
 export class SpeakerComponent {
-  @Input() speakerId?: string;
+  speakerService = inject(SpeakerService);
 
-  constructor(public speakerService: SpeakerService) {}
+  @Input() speakerId?: string;
 }

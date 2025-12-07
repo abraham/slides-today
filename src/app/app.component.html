@@ -2,26 +2,28 @@
   <app-header [title]="title" [showBack]="showBack"></app-header>
 
   <div class="container">
-    <main *ngIf="firstLoad" class="main mdc-layout-grid">
-      <div class="mdc-layout-grid__inner">
-        <div
-          class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-          <ngx-skeleton-loader
-            [count]="10"
-            appearance="circle"></ngx-skeleton-loader>
+    @if (firstLoad) {
+      <main class="main mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div
+            class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+            <ngx-skeleton-loader
+              [count]="10"
+              appearance="circle"></ngx-skeleton-loader>
+          </div>
+          @for (i of [0, 1, 2, 3, 4]; track i) {
+            <div
+              class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+              <ngx-skeleton-loader
+                animation="progress"
+                [theme]="{
+                  height: '100px',
+                }"></ngx-skeleton-loader>
+            </div>
+          }
         </div>
-
-        <div
-          *ngFor="let i of [0, 1, 2, 3, 4]"
-          class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-          <ngx-skeleton-loader
-            animation="progress"
-            [theme]="{
-              height: '100px',
-            }"></ngx-skeleton-loader>
-        </div>
-      </div>
-    </main>
+      </main>
+    }
 
     <router-outlet (activate)="onActivate($event)"></router-outlet>
   </div>

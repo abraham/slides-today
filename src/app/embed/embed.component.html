@@ -1,24 +1,26 @@
-<lite-youtube *ngIf="youtubeId" [attr.videoid]="youtubeId"></lite-youtube>
-<iframe
-  *ngIf="!youtubeId && !placeholder"
-  [attr.src]="url"
-  frameborder="0"
-  [width]="width"
-  [height]="height"
-  allowfullscreen="true"
-  [attr.title]="title + ' ' + link.title"></iframe>
-<div
-  *ngIf="!youtubeId && placeholder"
-  class="mdc-card"
-  [ngStyle]="dimensionStyles">
-  <div
-    class="mdc-card__primary-action action"
-    tabindex="0"
-    (click)="placeholder = false"
-    (keyup)="placeholder = false">
-    <button mat-fab extended>
-      <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>
-      Enable embed
-    </button>
+@if (youtubeId) {
+  <lite-youtube [attr.videoid]="youtubeId"></lite-youtube>
+}
+@if (!youtubeId && !placeholder) {
+  <iframe
+    [attr.src]="url"
+    frameborder="0"
+    [width]="width"
+    [height]="height"
+    allowfullscreen="true"
+    [attr.title]="title + ' ' + link.title"></iframe>
+}
+@if (!youtubeId && placeholder) {
+  <div class="mdc-card" [ngStyle]="dimensionStyles">
+    <div
+      class="mdc-card__primary-action action"
+      tabindex="0"
+      (click)="placeholder = false"
+      (keyup)="placeholder = false">
+      <button mat-fab extended>
+        <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>
+        Enable embed
+      </button>
+    </div>
   </div>
-</div>
+}

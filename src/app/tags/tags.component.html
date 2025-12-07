@@ -1,3 +1,5 @@
 <mat-chip-listbox #tagsEl aria-label="Tag selection" role="grid">
-  <app-tag *ngFor="let tag of tags$ | async" [tag]="tag"></app-tag>
+  @for (tag of tags$ | async; track tag) {
+    <app-tag [tag]="tag"></app-tag>
+  }
 </mat-chip-listbox>

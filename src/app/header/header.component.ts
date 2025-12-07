@@ -5,6 +5,7 @@ import {
   Input,
   OnDestroy,
   OnInit,
+  inject,
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
@@ -24,6 +25,11 @@ interface PromptEvent extends Event {
   standalone: false,
 })
 export class HeaderComponent implements OnInit, OnDestroy {
+  private themeService = inject(ThemeService);
+  private location = inject(Location);
+  private router = inject(Router);
+  private update = inject(UpdateService);
+
   @Input() title = 'Slides.today';
   @Input() showBack = false;
 
@@ -33,13 +39,6 @@ export class HeaderComponent implements OnInit, OnDestroy {
   deferredInstallPrompt?: PromptEvent;
 
   private destroy$ = new Subject();
-
-  constructor(
-    private themeService: ThemeService,
-    private location: Location,
-    private router: Router,
-    private update: UpdateService,
-  ) {}
 
   ngOnInit(): void {
     this.themeService.current$

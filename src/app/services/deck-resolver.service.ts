@@ -1,5 +1,5 @@
 import { Location } from '@angular/common';
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import {
   ActivatedRouteSnapshot,
   Router,
@@ -15,12 +15,10 @@ import { ThemeService } from '../services/theme.service';
   providedIn: 'root',
 })
 export class DeckResolverService {
-  constructor(
-    private deckService: DeckService,
-    private router: Router,
-    private themeService: ThemeService,
-    private location: Location,
-  ) {}
+  private deckService = inject(DeckService);
+  private router = inject(Router);
+  private themeService = inject(ThemeService);
+  private location = inject(Location);
 
   resolve(
     route: ActivatedRouteSnapshot,

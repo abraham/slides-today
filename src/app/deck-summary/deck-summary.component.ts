@@ -1,4 +1,11 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  Input,
+  OnInit,
+  ViewChild,
+  inject,
+} from '@angular/core';
 import { Router } from '@angular/router';
 import { Deck } from '../models/deck';
 
@@ -9,12 +16,12 @@ import { Deck } from '../models/deck';
   standalone: false,
 })
 export class DeckSummaryComponent implements OnInit {
+  private router = inject(Router);
+
   @Input() deck!: Deck;
   @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
 
   url = '';
-
-  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();

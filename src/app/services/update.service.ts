@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { SwUpdate, VersionReadyEvent } from '@angular/service-worker';
 import { Observable } from 'rxjs';
 import { filter } from 'rxjs/operators';
@@ -9,7 +9,9 @@ import { filter } from 'rxjs/operators';
 export class UpdateService {
   $available: Observable<VersionReadyEvent>;
 
-  constructor(updates: SwUpdate) {
+  constructor() {
+    const updates = inject(SwUpdate);
+
     this.$available = updates.versionUpdates.pipe(
       filter((evt): evt is VersionReadyEvent => evt.type === 'VERSION_READY'),
     );

@@ -7,6 +7,7 @@ import {
   OnInit,
   ViewChild,
   ViewContainerRef,
+  inject,
 } from '@angular/core';
 import { ActivatedRoute, Data, Router } from '@angular/router';
 import { ReplaySubject, Subject } from 'rxjs';
@@ -30,6 +31,12 @@ interface DeckData extends Data {
 export class DeckDetailsComponent
   implements OnInit, AfterContentChecked, OnDestroy
 {
+  private route = inject(ActivatedRoute);
+  private location = inject(Location);
+  private router = inject(Router);
+  private viewContainer = inject(ViewContainerRef);
+  private seoService = inject(SeoService);
+
   @ViewChild('detailsEl') detailsEl!: ElementRef;
 
   showBack = true; // Show back button in app bar
@@ -40,14 +47,6 @@ export class DeckDetailsComponent
   colors = DEFAULT_THEME;
 
   private destroy$ = new Subject();
-
-  constructor(
-    private route: ActivatedRoute,
-    private location: Location,
-    private router: Router,
-    private viewContainer: ViewContainerRef,
-    private seoService: SeoService,
-  ) {}
 
   private get columnWidth(): number {
     if (!this.detailsEl) {
