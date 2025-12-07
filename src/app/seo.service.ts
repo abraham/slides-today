@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 export enum IncludeSiteTitle {
@@ -15,10 +15,8 @@ export const DEFAULT_DESCRIPTION =
   providedIn: 'root',
 })
 export class SeoService {
-  constructor(
-    private titleService: Title,
-    private metaService: Meta,
-  ) {}
+  private titleService = inject(Title);
+  private metaService = inject(Meta);
 
   public reset() {
     this.update(DEFAULT_TITLE, DEFAULT_DESCRIPTION, IncludeSiteTitle.no);

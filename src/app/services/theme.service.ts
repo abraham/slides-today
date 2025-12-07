@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { BehaviorSubject } from 'rxjs';
 import {
@@ -12,10 +12,12 @@ import {
   providedIn: 'root',
 })
 export class ThemeService {
+  private meta = inject(Meta);
+
   current$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
   inverted$ = new BehaviorSubject<Theme>(DEFAULT_INVERTED_THEME);
 
-  constructor(private meta: Meta) {
+  constructor() {
     this.current$.subscribe(theme => {
       this.inverted$.next(invert(theme));
       this.meta.updateTag({

@@ -1,4 +1,4 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit, inject } from '@angular/core';
 import { MatChipSelectionChange } from '@angular/material/chips';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -7,11 +7,11 @@ import { DEFAULT_THEME } from '../models/theme';
 import { DataService } from '../services/data.service';
 
 type ChipStyle = {
-  '--mdc-chip-with-icon-selected-icon-color': string;
-  '--mdc-chip-selected-label-text-color': string;
-  '--mdc-chip-label-text-color': string;
-  '--mdc-chip-elevated-container-color': string;
-  '--mdc-chip-elevated-selected-container-color': string;
+  '--mat-chip-with-icon-selected-icon-color': string;
+  '--mat-chip-selected-label-text-color': string;
+  '--mat-chip-label-text-color': string;
+  '--mat-chip-elevated-container-color': string;
+  '--mat-chip-elevated-selected-container-color': string;
 };
 
 @Component({
@@ -21,22 +21,22 @@ type ChipStyle = {
   standalone: false,
 })
 export class TagComponent implements OnInit, OnDestroy {
+  private dataService = inject(DataService);
+
   @Input() tag!: Tag;
   @Input() currentTag!: string;
 
   currentStyles: ChipStyle = {
-    '--mdc-chip-with-icon-selected-icon-color': DEFAULT_THEME.color,
-    '--mdc-chip-selected-label-text-color': DEFAULT_THEME.color,
-    '--mdc-chip-label-text-color': DEFAULT_THEME.color,
-    '--mdc-chip-elevated-container-color': DEFAULT_THEME.backgroundColor,
-    '--mdc-chip-elevated-selected-container-color':
+    '--mat-chip-with-icon-selected-icon-color': DEFAULT_THEME.color,
+    '--mat-chip-selected-label-text-color': DEFAULT_THEME.color,
+    '--mat-chip-label-text-color': DEFAULT_THEME.color,
+    '--mat-chip-elevated-container-color': DEFAULT_THEME.backgroundColor,
+    '--mat-chip-elevated-selected-container-color':
       DEFAULT_THEME.backgroundColor,
   };
   selected = false;
 
   private destroy$ = new Subject();
-
-  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
     this.setCurrentStyles();
@@ -60,11 +60,11 @@ export class TagComponent implements OnInit, OnDestroy {
 
   private setCurrentStyles(): void {
     this.currentStyles = {
-      '--mdc-chip-label-text-color': this.tag.complementaryColor,
-      '--mdc-chip-selected-label-text-color': this.tag.complementaryColor,
-      '--mdc-chip-with-icon-selected-icon-color': this.tag.complementaryColor,
-      '--mdc-chip-elevated-container-color': this.tag.primaryColor,
-      '--mdc-chip-elevated-selected-container-color': this.tag.primaryColor,
+      '--mat-chip-label-text-color': this.tag.complementaryColor,
+      '--mat-chip-selected-label-text-color': this.tag.complementaryColor,
+      '--mat-chip-with-icon-selected-icon-color': this.tag.complementaryColor,
+      '--mat-chip-elevated-container-color': this.tag.primaryColor,
+      '--mat-chip-elevated-selected-container-color': this.tag.primaryColor,
     };
   }
 

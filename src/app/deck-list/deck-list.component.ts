@@ -1,5 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import { EMPTY, Observable, Subject } from 'rxjs';
@@ -18,6 +18,14 @@ import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
   standalone: false,
 })
 export class DeckListComponent implements OnInit, OnDestroy {
+  private dataService = inject(DataService);
+  private themeService = inject(ThemeService);
+  private deckService = inject(DeckService);
+  private route = inject(ActivatedRoute);
+  private bottomSheet = inject(MatBottomSheet);
+  private breakpointObserver = inject(BreakpointObserver);
+  private seoService = inject(SeoService);
+
   selectedTagIds$: Observable<string[]>;
   decks: Deck[] = [];
   mobile = false;
@@ -25,15 +33,7 @@ export class DeckListComponent implements OnInit, OnDestroy {
 
   private destroy$ = new Subject();
 
-  constructor(
-    private dataService: DataService,
-    private themeService: ThemeService,
-    private deckService: DeckService,
-    private route: ActivatedRoute,
-    private bottomSheet: MatBottomSheet,
-    private breakpointObserver: BreakpointObserver,
-    private seoService: SeoService,
-  ) {
+  constructor() {
     this.selectedTagIds$ = this.dataService.selectedTagIds$;
   }
 

@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { RouteConfigLoadEnd, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -13,6 +13,10 @@ import { ThemeService } from './services/theme.service';
   standalone: false,
 })
 export class AppComponent implements OnInit, OnDestroy {
+  private dataService = inject(DataService);
+  private themeService = inject(ThemeService);
+  private router = inject(Router);
+
   defaultTitle = 'Slides.today';
   showBack = false;
   title = this.defaultTitle;
@@ -21,11 +25,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   private destroy$ = new Subject();
 
-  constructor(
-    private dataService: DataService,
-    private themeService: ThemeService,
-    private router: Router,
-  ) {
+  constructor() {
     this.removeNoScripts();
   }
 

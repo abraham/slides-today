@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { SponsorService } from '../services/sponsor.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { SponsorService } from '../services/sponsor.service';
   standalone: false,
 })
 export class SponsorComponent {
-  @Input() sponsorIds!: string[];
+  sponsorService = inject(SponsorService);
 
-  constructor(public sponsorService: SponsorService) {}
+  @Input() sponsorIds!: string[];
 }

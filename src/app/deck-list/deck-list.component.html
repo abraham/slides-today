@@ -1,33 +1,39 @@
 <main class="main mdc-layout-grid">
   <div class="mdc-layout-grid__inner">
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-      <app-tags *ngIf="!mobile"></app-tags>
-      <button
-        class="action-buttons"
-        *ngIf="mobile"
-        mat-stroked-button
-        color="primary"
-        (click)="openTagsSheet()">
-        <mat-icon fontSet="material-symbols-outlined">filter_list</mat-icon>
-        Tags
-      </button>
+      @if (!mobile) {
+        <app-tags></app-tags>
+      }
+      @if (mobile) {
+        <button
+          class="action-buttons"
+          mat-stroked-button
+          color="primary"
+          (click)="openTagsSheet()">
+          <mat-icon fontSet="material-symbols-outlined">filter_list</mat-icon>
+          Tags
+        </button>
+      }
     </div>
     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
       <div class="mdc-layout-grid__inner">
-        <app-about
-          *ngIf="!hasSelectedTagIds"
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-about>
+        @if (!hasSelectedTagIds) {
+          <app-about
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-about>
+        }
 
-        <app-deck-summary
-          *ngFor="let deck of decks"
-          [deck]="deck"
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
-        <div
-          *ngIf="!decks.length"
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
-          Nothing found that includes all the following tags:
-          {{ selectedTagIds$ | async | tagList | async }}
-        </div>
+        @for (deck of decks; track deck) {
+          <app-deck-summary
+            [deck]="deck"
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12"></app-deck-summary>
+        }
+        @if (!decks.length) {
+          <div
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
+            Nothing found that includes all the following tags:
+            {{ selectedTagIds$ | async | tagList | async }}
+          </div>
+        }
       </div>
     </div>
   </div>

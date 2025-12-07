@@ -4,6 +4,7 @@ import {
   OnChanges,
   OnInit,
   SimpleChanges,
+  inject,
 } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
@@ -16,6 +17,8 @@ import { DEFAULT_THEME } from '../models/theme';
   standalone: false,
 })
 export class EmbedComponent implements OnInit, OnChanges {
+  private sanitizer = inject(DomSanitizer);
+
   @Input() title = '';
   @Input() link!: Link;
   @Input() width = 200;
@@ -29,8 +32,6 @@ export class EmbedComponent implements OnInit, OnChanges {
     height: `${this.height}px`,
     width: `${this.width}px`,
   };
-
-  constructor(private sanitizer: DomSanitizer) {}
 
   private get urlService(): { [index: string]: () => string } {
     return {

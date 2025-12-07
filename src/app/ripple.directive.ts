@@ -1,4 +1,10 @@
-import { Directive, ElementRef, HostListener, Input } from '@angular/core';
+import {
+  Directive,
+  ElementRef,
+  HostListener,
+  Input,
+  inject,
+} from '@angular/core';
 import { MDCRipple } from '@material/ripple';
 
 type Style = 'unbounded' | 'bounded' | '';
@@ -8,11 +14,11 @@ type Style = 'unbounded' | 'bounded' | '';
   standalone: false,
 })
 export class RippleDirective {
+  private el = inject(ElementRef);
+
   @Input('appRipple') style: Style = '';
 
   private attached = false;
-
-  constructor(private el: ElementRef) {}
 
   @HostListener('mouseenter') onMouseEnter(): void {
     this.attach();
