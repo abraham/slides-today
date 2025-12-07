@@ -1,12 +1,16 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
+import { NgStyle, NgTemplateOutlet } from '@angular/common';
+import { RippleDirective } from '../ripple.directive';
+import { RouterLink } from '@angular/router';
+import { MatButton } from '@angular/material/button';
 
 @Component({
   selector: 'app-card',
   styleUrls: ['./card.component.scss'],
   templateUrl: './card.component.html',
-  standalone: false,
+  imports: [NgStyle, RippleDirective, NgTemplateOutlet, RouterLink, MatButton],
 })
 export class CardComponent implements OnInit {
   @Input() actions: Link[] = [];

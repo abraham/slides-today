@@ -1,16 +1,25 @@
 import { Component, OnDestroy, OnInit, inject } from '@angular/core';
-import { RouteConfigLoadEnd, Router } from '@angular/router';
+import { RouteConfigLoadEnd, Router, RouterOutlet } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { RoutedComponents } from './modules/app-routing.module';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
+import { NgStyle, AsyncPipe } from '@angular/common';
+import { HeaderComponent } from './header/header.component';
+import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
-  standalone: false,
+  imports: [
+    NgStyle,
+    HeaderComponent,
+    NgxSkeletonLoaderComponent,
+    RouterOutlet,
+    AsyncPipe,
+  ],
 })
 export class AppComponent implements OnInit, OnDestroy {
   private dataService = inject(DataService);

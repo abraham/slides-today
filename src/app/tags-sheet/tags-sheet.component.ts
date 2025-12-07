@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TagsComponent } from '../tags/tags.component';
 
 @Component({
   selector: 'app-tags-sheet',
   styleUrls: ['./tags-sheet.component.scss'],
   templateUrl: './tags-sheet.component.html',
-  standalone: false,
+  imports: [TagsComponent],
 })
 export class TagsSheetComponent {}

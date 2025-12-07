@@ -10,12 +10,27 @@ import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
 import { ThemeService } from '../services/theme.service';
 import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
+import { TagsComponent } from '../tags/tags.component';
+import { MatButton } from '@angular/material/button';
+import { MatIcon } from '@angular/material/icon';
+import { AboutComponent } from '../about/about.component';
+import { DeckSummaryComponent } from '../deck-summary/deck-summary.component';
+import { AsyncPipe } from '@angular/common';
+import { TagListPipe } from '../tag-list.pipe';
 
 @Component({
   selector: 'app-deck-list',
   styleUrls: ['./deck-list.component.scss'],
   templateUrl: './deck-list.component.html',
-  standalone: false,
+  imports: [
+    TagsComponent,
+    MatButton,
+    MatIcon,
+    AboutComponent,
+    DeckSummaryComponent,
+    AsyncPipe,
+    TagListPipe,
+  ],
 })
 export class DeckListComponent implements OnInit, OnDestroy {
   private dataService = inject(DataService);
