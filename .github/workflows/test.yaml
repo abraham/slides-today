@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: dist
           path: dist
@@ -40,7 +40,7 @@ jobs:
       LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: dist
           path: dist
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: dist
           path: dist
