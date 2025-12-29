@@ -100,7 +100,7 @@
     "firebase-admin": "^13.6.0",
     "firebase-tools": "^14.27.0",
     "jasmine-core": "~5.13.0",
-    "jsdom": "^27.3.0",
+    "jsdom": "^27.4.0",
     "jsonc-parser": "^3.2.1",
     "lockfile-lint": "4.14.1",
     "pptr-testing-library": "0.8.0",
