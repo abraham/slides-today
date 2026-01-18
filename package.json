@@ -85,8 +85,8 @@
     "@types/jasmine": "5.1.15",
     "@types/node": "25.0.9",
     "@types/twit": "2.2.35",
-    "@typescript-eslint/eslint-plugin": "^8.51.0",
-    "@typescript-eslint/parser": "^8.51.0",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
     "angular-eslint": "^21.1.0",
     "bundlesize2": "^0.0.35",
     "chai": "6.2.2",
@@ -94,7 +94,7 @@
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-jsdoc": "61.5.0",
+    "eslint-plugin-jsdoc": "62.1.0",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-react": "latest",
     "firebase-admin": "^13.6.0",
@@ -119,7 +119,7 @@
     "twit": "2.2.11",
     "twitter-d": "0.6.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "^8.51.0",
+    "typescript-eslint": "^8.53.0",
     "vitest": "^4.0.17"
   },
   "bundlesize": [
