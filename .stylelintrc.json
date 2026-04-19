@@ -6,16 +6,12 @@
   ],
   "plugins": [
     "stylelint-scss",
-    "stylelint-selector-bem-pattern",
     "stylelint-prettier"
   ],
   "rules": {
     "prettier/prettier": true,
     "no-empty-source": null,
     "selector-class-pattern": null,
-    "plugin/selector-bem-pattern": {
-      "preset": "bem"
-    },
     "selector-type-no-unknown": [
       true,
       {
