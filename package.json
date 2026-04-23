@@ -85,8 +85,8 @@
     "@types/jasmine": "6.0.0",
     "@types/node": "25.6.0",
     "@types/twit": "2.2.35",
-    "@typescript-eslint/eslint-plugin": "^8.58.2",
-    "@typescript-eslint/parser": "^8.58.2",
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
     "angular-eslint": "^21.3.1",
     "bundlesize2": "^0.0.35",
     "chai": "6.2.2",
@@ -118,7 +118,7 @@
     "twit": "2.2.11",
     "twitter-d": "0.6.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "^8.58.2",
+    "typescript-eslint": "^8.59.0",
     "vitest": "^4.1.4"
   },
   "bundlesize": [
