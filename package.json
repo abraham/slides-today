@@ -106,7 +106,7 @@
     "pptr-testing-library": "0.8.0",
     "prettier": "3.8.3",
     "prettier-plugin-package": "2.0.0",
-    "puppeteer": "^24.43.1",
+    "puppeteer": "^25.1.0",
     "sass": "1.100.0",
     "start-server-and-test": "3.0.5",
     "stylelint": "17.12.0",
