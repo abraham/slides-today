@@ -4,7 +4,7 @@ import { wait } from 'pptr-testing-library';
 import { isInteractiveElement, sleep } from '../support/utils.js';
 
 When('I visit {url}', async function (url: string): Promise<void> {
-  await this.page.goto(url, { waitUntil: 'networkidle0' });
+  await this.page.goto(url, { waitUntil: 'domcontentloaded' });
 });
 
 When('I click on {string}', async function (text: string): Promise<void> {
