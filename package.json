@@ -60,7 +60,7 @@
     "material-components-web": "14.0.0",
     "ngx-skeleton-loader": "13.0.0",
     "node-package": "1.4.0",
-    "rxfire": "^6.1.0",
+    "rxfire": "^6.2.0",
     "rxjs": "7.8.2",
     "tslib": "^2.6.2",
     "twitter-status": "0.7.0",
