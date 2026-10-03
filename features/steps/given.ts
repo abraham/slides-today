@@ -27,3 +27,10 @@ Given(
 Given('I am on a {device}', async function (device): Promise<void> {
   await this.page.emulate(device);
 });
+
+// Desktop Chrome on macOS has navigator.share, which replaces the custom share menu.
+Given('native sharing is unavailable', async function (): Promise<void> {
+  await this.page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'share', { value: undefined });
+  });
+});

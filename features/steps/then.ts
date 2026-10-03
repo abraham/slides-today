@@ -1,7 +1,6 @@
 import { expect } from 'chai';
 import { Then } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
-import { Page } from 'puppeteer';
 import { origin } from '../support/environment.js';
 
 Then('I should not see {string}', async function (text): Promise<void> {
@@ -46,13 +45,20 @@ Then(
   },
 );
 
-Then('{string} should popup', function (url, done): void {
-  this.page.once('popup', async (page: Page) => {
-    expect(page.url()).to.eq(url);
-    await page.close();
-    done();
-  });
-});
+// Checks the link instead of following it, so tests don't depend on third-party sites.
+Then(
+  '{string} should open {string} in a new tab',
+  async function (text: string, url: string): Promise<void> {
+    await wait(async () => {
+      const element = await this.getByText(text);
+      const link = await element.evaluate(el => {
+        const anchor = el.closest('a');
+        return { href: anchor?.href, target: anchor?.target };
+      });
+      expect(link).to.deep.eq({ href: url, target: '_blank' });
+    });
+  },
+);
 
 Then(
   '{string} should be in the clipboard',
@@ -62,10 +68,12 @@ Then(
       'clipboard-write',
       'clipboard-read',
     ]);
-    const clipboardText = await this.page.evaluate(() =>
-      navigator.clipboard.readText(),
-    );
-    expect(clipboardText).to.eq(text);
+    await wait(async () => {
+      const clipboardText = await this.page.evaluate(() =>
+        navigator.clipboard.readText(),
+      );
+      expect(clipboardText).to.eq(text);
+    });
     await context.clearPermissionOverrides();
   },
 );
