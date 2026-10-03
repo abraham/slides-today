@@ -5,7 +5,6 @@ import { filter, map } from 'rxjs/operators';
 import { RoutedComponents } from './app.routes';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
-import { NgStyle } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 
@@ -13,7 +12,7 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
-  imports: [NgStyle, HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
+  imports: [HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
 })
 export class AppComponent {
   private dataService = inject(DataService);

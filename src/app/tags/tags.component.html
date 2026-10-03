@@ -1,5 +1,5 @@
 <mat-chip-listbox aria-label="Tag selection" role="grid">
-  @for (tag of tags$ | async; track tag) {
-    <app-tag [tag]="tag"></app-tag>
+  @for (tag of tags$ | async; track tag.id) {
+    <app-tag [tag]="tag" />
   }
 </mat-chip-listbox>

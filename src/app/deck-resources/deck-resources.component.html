@@ -1,7 +1,7 @@
 <app-card>
   <div title>Resources</div>
   <mat-list body>
-    @for (resource of resources(); track resource) {
+    @for (resource of resources(); track resource.url) {
       <a
         mat-list-item
         [href]="resource.url"

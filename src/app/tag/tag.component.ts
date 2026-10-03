@@ -3,7 +3,6 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { MatChipSelectionChange, MatChipOption } from '@angular/material/chips';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
-import { NgStyle } from '@angular/common';
 
 type ChipStyle = {
   '--mat-chip-with-icon-selected-icon-color': string;
@@ -17,7 +16,7 @@ type ChipStyle = {
   selector: 'app-tag',
   styleUrls: ['./tag.component.scss'],
   templateUrl: './tag.component.html',
-  imports: [MatChipOption, NgStyle],
+  imports: [MatChipOption],
 })
 export class TagComponent {
   private dataService = inject(DataService);

@@ -9,7 +9,6 @@ import {
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
-import { NgStyle } from '@angular/common';
 import { MatFabButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 
@@ -17,7 +16,7 @@ import { MatIcon } from '@angular/material/icon';
   selector: 'app-embed',
   styleUrls: ['./embed.component.scss'],
   templateUrl: './embed.component.html',
-  imports: [NgStyle, MatFabButton, MatIcon],
+  imports: [MatFabButton, MatIcon],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class EmbedComponent {

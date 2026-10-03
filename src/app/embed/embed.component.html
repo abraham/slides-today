@@ -1,17 +1,16 @@
 @if (youtubeId()) {
-  <lite-youtube [attr.videoid]="youtubeId()"></lite-youtube>
+  <lite-youtube [attr.videoid]="youtubeId()" />
 }
 @if (!youtubeId() && !placeholder()) {
   <iframe
     [attr.src]="url()"
-    frameborder="0"
     [width]="width()"
     [height]="height()"
-    allowfullscreen="true"
+    allowfullscreen
     [attr.title]="title() + ' ' + link().title"></iframe>
 }
 @if (!youtubeId() && placeholder()) {
-  <div class="mdc-card" [ngStyle]="dimensionStyles()">
+  <div class="mdc-card" [style]="dimensionStyles()">
     <div class="mdc-card__primary-action action">
       <button mat-fab extended (click)="placeholder.set(false)">
         <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>

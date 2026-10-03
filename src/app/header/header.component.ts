@@ -1,4 +1,4 @@
-import { Location, NgStyle } from '@angular/common';
+import { Location } from '@angular/common';
 import { Component, inject, input, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Router } from '@angular/router';
@@ -17,7 +17,7 @@ interface PromptEvent extends Event {
   selector: 'app-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
-  imports: [MatToolbar, NgStyle, MatButton, MatIcon, MatIconButton],
+  imports: [MatToolbar, MatButton, MatIcon, MatIconButton],
   host: {
     '(window:beforeinstallprompt)': 'onBeforeInstallPrompt($event)',
     '(window:scroll)': 'onScroll()',

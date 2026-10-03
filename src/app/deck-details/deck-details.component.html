@@ -8,49 +8,46 @@
             <div hero>{{ deck.title }}</div>
             <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
             <div body>{{ deck.description }}</div>
-            <div body><app-tags [currentTags]="deck.tags"></app-tags></div>
+            <div body><app-tags [currentTags]="deck.tags" /></div>
           </app-card>
         </div>
-        @for (embed of embeds(); track embed) {
+        @for (embed of embeds(); track embed.url) {
           <div class="item">
             <app-embed
               [width]="embedWidth()"
               [link]="embed"
               [title]="deck.title"
-              [theme]="deck.theme"></app-embed>
+              [theme]="deck.theme" />
           </div>
         }
         @for (speakerId of deck.speakerIds; track speakerId) {
           <div class="item">
-            <app-speaker [speakerId]="speakerId"></app-speaker>
+            <app-speaker [speakerId]="speakerId" />
           </div>
         }
         @if (deck) {
           <div class="item">
-            <app-map [location]="deck.location"></app-map>
+            <app-map [location]="deck.location" />
           </div>
         }
         @if (deck && deck.sponsorIds.length) {
           <div class="item">
-            <app-sponsor [sponsorIds]="deck.sponsorIds"></app-sponsor>
+            <app-sponsor [sponsorIds]="deck.sponsorIds" />
           </div>
         }
         @if (deck.resources.length > 0) {
           <div class="item">
-            <app-deck-resources
-              [resources]="deck.resources"></app-deck-resources>
+            <app-deck-resources [resources]="deck.resources" />
           </div>
         }
         @for (github of deck.githubRepos; track github) {
-          <github-repository
-            class="item"
-            [attr.owner-repo]="github"></github-repository>
+          <github-repository class="item" [attr.owner-repo]="github" />
         }
         @for (name of deck.nodePackages; track name) {
-          <node-package class="item" [attr.name]="name"></node-package>
+          <node-package class="item" [attr.name]="name" />
         }
-        @for (status of deck.tweets | async; track status) {
-          <twitter-status class="item" [status]="status"></twitter-status>
+        @for (status of deck.tweets | async; track status.id_str) {
+          <twitter-status class="item" [status]="status" />
         }
       </div>
     </div>
