@@ -23,8 +23,7 @@ export class BrowserWorld {
   }
 
   get $document(): Promise<ElementHandle<Element>> {
-    // TODO: remove type cast
-    return getDocument(this.page) as Promise<ElementHandle<Element>>;
+    return getDocument(this.page);
   }
 
   async getByText(

@@ -4,6 +4,7 @@ import { Title } from '@angular/platform-browser';
 
 import {
   DEFAULT_DESCRIPTION,
+  DEFAULT_IMAGE,
   DEFAULT_TITLE,
   IncludeSiteTitle,
   SeoService,
@@ -66,11 +67,58 @@ describe('SeoService', () => {
     expect(meta('name', 'description')).toBe('First sentence.');
   });
 
-  it('resets to the default title and description', () => {
+  it('uses the default image as an absolute url', () => {
     service.update('Deck', 'About the deck');
+
+    const image = new URL(DEFAULT_IMAGE, document.baseURI).href;
+    expect(meta('property', 'og:image')).toBe(image);
+    expect(meta('name', 'twitter:image')).toBe(image);
+  });
+
+  it('sets a custom image as an absolute url', () => {
+    service.update(
+      'Deck',
+      'About the deck',
+      IncludeSiteTitle.yes,
+      '/assets/img/speakers/a.jpg',
+    );
+
+    const image = new URL('/assets/img/speakers/a.jpg', document.baseURI).href;
+    expect(meta('property', 'og:image')).toBe(image);
+    expect(meta('name', 'twitter:image')).toBe(image);
+  });
+
+  it('keeps an image that is already absolute', () => {
+    service.update(
+      'Deck',
+      'About the deck',
+      IncludeSiteTitle.yes,
+      'https://example.com/a.jpg',
+    );
+
+    expect(meta('property', 'og:image')).toBe('https://example.com/a.jpg');
+  });
+
+  it('describes the image with the page title', () => {
+    service.update('Deck', 'About the deck');
+
+    expect(meta('property', 'og:image:alt')).toBe('Deck | Slides.today');
+    expect(meta('name', 'twitter:image:alt')).toBe('Deck | Slides.today');
+  });
+
+  it('resets to the default title, description and image', () => {
+    service.update(
+      'Deck',
+      'About the deck',
+      IncludeSiteTitle.yes,
+      '/assets/img/speakers/a.jpg',
+    );
     service.reset();
 
     expect(TestBed.inject(Title).getTitle()).toBe(DEFAULT_TITLE);
     expect(meta('property', 'og:description')).toBe(DEFAULT_DESCRIPTION);
+    expect(meta('property', 'og:image')).toBe(
+      new URL(DEFAULT_IMAGE, document.baseURI).href,
+    );
   });
 });

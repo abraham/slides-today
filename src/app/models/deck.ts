@@ -50,24 +50,16 @@ export class Deck {
   }
 
   get date(): string {
-    // TODO: Support dates that span two years
-    if (
-      this.cachedDate.start.getUTCDate() === this.cachedDate.end.getUTCDate()
-    ) {
-      return `${
-        this.startMonth
-      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getUTCFullYear()}`;
-    } else if (
-      this.cachedDate.start.getUTCMonth() === this.cachedDate.end.getUTCMonth()
-    ) {
-      return `${
-        this.startMonth
-      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getUTCFullYear()}`;
-    } else {
-      return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}-${
-        this.endMonth
-      } ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getUTCFullYear()}`;
+    const { start, end } = this.cachedDate;
+    const startDay = `${this.startMonth} ${start.getUTCDate()}`;
+    const endDay = `${this.endMonth} ${end.getUTCDate()}`;
+    if (start.getUTCFullYear() !== end.getUTCFullYear()) {
+      return `${startDay}, ${start.getUTCFullYear()}-${endDay}, ${end.getUTCFullYear()}`;
     }
+    if (start.getUTCMonth() !== end.getUTCMonth()) {
+      return `${startDay}-${endDay}, ${end.getUTCFullYear()}`;
+    }
+    return `${startDay}, ${start.getUTCFullYear()}`;
   }
 
   get theme(): Theme {

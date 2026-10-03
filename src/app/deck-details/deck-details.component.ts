@@ -15,7 +15,8 @@ import {
 } from '@angular/core';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
-import { SeoService } from '../seo.service';
+import { IncludeSiteTitle, SeoService } from '../seo.service';
+import { SpeakerService } from '../services/speaker.service';
 import { TweetService } from '../services/tweet.service';
 import type { ShareComponent } from '../share/share.component';
 import { CardComponent } from '../card/card.component';
@@ -49,6 +50,7 @@ import { TwitterStatusComponent } from '../web-components/twitter-status.compone
 export class DeckDetailsComponent {
   private readonly viewContainer = inject(ViewContainerRef);
   private readonly seoService = inject(SeoService);
+  private readonly speakerService = inject(SpeakerService);
   private readonly tweetService = inject(TweetService);
   private share?: ComponentRef<ShareComponent>;
   private shareTimer?: ReturnType<typeof setTimeout>;
@@ -104,7 +106,14 @@ export class DeckDetailsComponent {
 
   private init(deck: Deck): void {
     this.loadShareComponent(deck);
-    this.seoService.update(deck.title, deck.description);
+    // The first speaker's photo is the social card image.
+    const [speakerId] = deck.speakerIds;
+    this.seoService.update(
+      deck.title,
+      deck.description,
+      IncludeSiteTitle.yes,
+      this.speakerService.get(speakerId)?.imageUrl,
+    );
   }
 
   private loadShareComponent(deck: Deck): void {
