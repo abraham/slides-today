@@ -82,7 +82,7 @@
     "angular-eslint": "22.5.0",
     "bundlesize2": "^0.0.35",
     "chai": "6.2.2",
-    "concurrently": "10.0.4",
+    "concurrently": "10.0.5",
     "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "2.32.0",
