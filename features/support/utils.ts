@@ -12,10 +12,11 @@ const validTag = (value: unknown) => {
 
 const interactiveTag = async (
   page: Page,
-  element: ElementHandle,
+  element: ElementHandle<Node>,
 ): Promise<boolean> => {
   const tagNames = await page.evaluate(
-    (el: Element) => [el.tagName, el.getAttribute('role')],
+    (el: Node) =>
+      el instanceof Element ? [el.tagName, el.getAttribute('role')] : [],
     element,
   );
   return tagNames.some(tagName => validTag(tagName));
@@ -23,7 +24,7 @@ const interactiveTag = async (
 
 export const isInteractiveElement = async (
   page: Page,
-  element: ElementHandle | null,
+  element: ElementHandle<Node> | null,
 ): Promise<boolean> => {
   let i = 0;
   while (element && i < 4) {
@@ -33,8 +34,7 @@ export const isInteractiveElement = async (
       i++;
       element = await element
         .getProperty('parentElement')
-        // TODO: remove type cast
-        .then(e => (e?.asElement() as ElementHandle<Element>) || null);
+        .then(e => e?.asElement() || null);
     }
   }
   return false;
