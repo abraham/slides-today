@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { firstValueFrom } from 'rxjs';
 import { Tag } from '../models/tag';
+import tagData from '../tags.data.json';
 import { DataService } from './data.service';
 
 describe('DataService', () => {
@@ -21,6 +22,12 @@ describe('DataService', () => {
 
       expect(ids.length).toBeGreaterThan(1);
       expect(ids).toEqual([...ids].sort());
+    });
+
+    it('does not reorder the imported tag data', () => {
+      const ids = tagData.map(tag => tag.id);
+
+      expect(ids).not.toEqual([...ids].sort());
     });
   });
 
@@ -75,6 +82,15 @@ describe('DataService', () => {
       service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
 
       expect(paths).toEqual([['polymer']]);
+    });
+
+    it('does not reorder the selected tag ids', () => {
+      service.path$.subscribe();
+
+      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
+      service.tagSelection({ id: 'php', selected: true, updatePath: true });
+
+      expect(service.selectedTagIds$.value).toEqual(['polymer', 'php']);
     });
 
     it('does not emit when updatePath is false', () => {
