@@ -61,7 +61,7 @@
     "rxjs": "7.8.2",
     "tslib": "^2.6.2",
     "twitter-status": "0.7.0",
-    "zone.js": "~0.16.2"
+    "zone.js": "~0.16.3"
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.2202.1",
