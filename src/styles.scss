@@ -1,3 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
-@use './theme';
-@use '@angular/material/prebuilt-themes/deeppurple-amber';
+@use '@angular/material' as mat;
+@use './styles/theme-colors' as colors;
+
+html {
+  color-scheme: light;
+
+  @include mat.theme(
+    (
+      color: (
+        primary: colors.$primary-palette,
+        tertiary: colors.$tertiary-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: var(--mat-sys-body-medium);
+}
+
+.page {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.page-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (width >= 840px) {
+  .page {
+    padding: 24px;
+  }
+
+  .page-grid {
+    gap: 24px;
+  }
+}

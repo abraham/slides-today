@@ -1,12 +1,7 @@
-<mat-toolbar [class.mat-elevation-z2]="!atTop()" [style]="theme()">
+<mat-toolbar [class.scrolled]="!atTop()">
   <section>
     @if (showBack()) {
-      <a
-        mat-button
-        (click)="goBack($event)"
-        href="/"
-        title="Go back"
-        [style.color]="theme().color">
+      <a mat-button (click)="goBack($event)" href="/" title="Go back">
         <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
         Back
       </a>

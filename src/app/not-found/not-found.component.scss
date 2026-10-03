@@ -1,7 +1,9 @@
-@use '@material/layout-grid/mdc-layout-grid';
-
 :host {
   display: block;
+}
+
+.card__title {
+  font: var(--mat-sys-display-medium);
 }
 
 svg {

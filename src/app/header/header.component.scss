@@ -9,6 +9,10 @@ mat-toolbar {
   transition: background-color 1000ms !important;
 }
 
+.scrolled {
+  box-shadow: var(--mat-sys-level2);
+}
+
 .spacer {
   flex: 1 1 auto;
 }

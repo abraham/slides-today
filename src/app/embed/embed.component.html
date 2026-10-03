@@ -10,12 +10,12 @@
     [attr.title]="title() + ' ' + link().title"></iframe>
 }
 @if (url() && placeholder()) {
-  <div class="mdc-card" [style]="dimensionStyles()">
-    <div class="mdc-card__primary-action action">
+  <mat-card [style]="dimensionStyles()">
+    <div class="action">
       <button mat-fab extended (click)="placeholder.set(false)">
         <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>
         Enable embed
       </button>
     </div>
-  </div>
+  </mat-card>
 }

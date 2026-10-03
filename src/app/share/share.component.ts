@@ -13,7 +13,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { NavigationEnd, Router } from '@angular/router';
-import { ThemeService } from '../services/theme.service';
 
 const SNACK_BAR_CONFIG = { duration: 2500 };
 
@@ -24,7 +23,6 @@ const SNACK_BAR_CONFIG = { duration: 2500 };
   imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })
 export class ShareComponent {
-  private readonly themeService = inject(ThemeService);
   private readonly snackBar = inject(MatSnackBar);
   private readonly platformLocation = inject(PlatformLocation);
   private readonly router = inject(Router);
@@ -32,7 +30,6 @@ export class ShareComponent {
   readonly shareMenuTrigger =
     viewChild.required<MatMenuTrigger>('shareMenuTrigger');
   readonly text = input('');
-  readonly theme = this.themeService.inverted;
   readonly exited = signal(false);
 
   // The page URL changes with navigation, and the component outlives a deck change.

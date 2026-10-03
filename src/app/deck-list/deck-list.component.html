@@ -1,6 +1,6 @@
-<main class="main mdc-layout-grid">
-  <div class="mdc-layout-grid__inner">
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+<main class="main page">
+  <div class="page-grid">
+    <div>
       @if (!mobile()) {
         <app-tags />
       }
@@ -15,21 +15,17 @@
         </button>
       }
     </div>
-    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-      <div class="mdc-layout-grid__inner">
+    <div>
+      <div class="page-grid">
         @if (!hasSelectedTagIds()) {
-          <app-about
-            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12" />
+          <app-about />
         }
 
         @for (deck of decks(); track deck.id) {
-          <app-deck-summary
-            [deck]="deck"
-            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12" />
+          <app-deck-summary [deck]="deck" />
         }
         @if (decks()?.length === 0) {
-          <div
-            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
+          <div class="decks-empty">
             Nothing found that includes all the following tags:
             {{ selectedTagIds() | tagList }}
           </div>

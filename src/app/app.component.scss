@@ -1,10 +1,10 @@
-@use '@material/layout-grid/mdc-layout-grid';
-
 :host {
   display: block;
 }
 
 .wrapper {
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
   transition: background-color 1000ms !important;
 }
 

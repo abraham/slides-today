@@ -1,7 +1,3 @@
-@use '../../theme.scss';
-@use '@material/card/mdc-card';
-@use '@material/typography/mdc-typography';
-
 :host {
   display: block;
 }
@@ -11,9 +7,13 @@ div {
 }
 
 .card {
-  border-radius: 8px;
-  color: #000;
+  color: var(--mat-sys-on-surface);
   overflow: hidden;
+}
+
+.media {
+  aspect-ratio: 1;
+  background: center / cover no-repeat;
 }
 
 .no-action {
@@ -21,11 +21,28 @@ div {
   flex-direction: column;
 }
 
+.primary-action {
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
 .primary {
   padding: 16px;
 
   .hero {
+    font: var(--mat-sys-display-small);
     text-transform: uppercase;
+  }
+
+  .title {
+    font: var(--mat-sys-title-large);
+  }
+
+  .subtitle {
+    font: var(--mat-sys-title-small);
   }
 
   .hero,
@@ -43,5 +60,6 @@ div {
 }
 
 .secondary {
+  font: var(--mat-sys-body-medium);
   padding: 0 1rem 8px;
 }

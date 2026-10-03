@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, DestroyRef, inject, signal } from '@angular/core';
+import { MatCard } from '@angular/material/card';
 import {
   Data,
   RouteConfigLoadEnd,
@@ -14,7 +15,7 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
   selector: 'app-root',
   styleUrl: './app.component.scss',
   templateUrl: './app.component.html',
-  imports: [HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
+  imports: [HeaderComponent, MatCard, NgxSkeletonLoaderComponent, RouterOutlet],
 })
 export class AppComponent {
   private readonly themeService = inject(ThemeService);
@@ -25,7 +26,7 @@ export class AppComponent {
   readonly skeletonRows = [0, 1, 2, 3, 4];
   readonly showBack = signal(false);
   readonly title = signal(this.defaultTitle);
-  readonly theme = this.themeService.current;
+  readonly styles = this.themeService.tokens;
   readonly firstLoad = signal(true);
 
   constructor() {
