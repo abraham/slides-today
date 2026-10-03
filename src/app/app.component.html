@@ -9,7 +9,7 @@
             class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
             <ngx-skeleton-loader [count]="10" appearance="circle" />
           </div>
-          @for (i of [0, 1, 2, 3, 4]; track i) {
+          @for (i of skeletonRows; track i) {
             <div
               class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
               <ngx-skeleton-loader

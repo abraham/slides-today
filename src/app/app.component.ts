@@ -22,6 +22,7 @@ export class AppComponent {
   private router = inject(Router);
 
   defaultTitle = 'Slides.today';
+  readonly skeletonRows = [0, 1, 2, 3, 4];
   readonly showBack = signal(false);
   readonly title = signal(this.defaultTitle);
   readonly theme = this.themeService.current;
