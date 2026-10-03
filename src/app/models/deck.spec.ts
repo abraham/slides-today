@@ -47,9 +47,33 @@ describe('Deck', () => {
       expect(deck.date).toBe('Oct 31-Nov 2, 2018');
     });
 
+    it('shows both months when the day of the month is the same', () => {
+      const deck = new Deck(raw(range('2019-10-05', '2019-11-05')));
+
+      expect(deck.date).toBe('Oct 5-Nov 5, 2019');
+    });
+
+    it('shows both years of an event that spans two years', () => {
+      const deck = new Deck(raw(range('2018-12-30', '2019-01-02')));
+
+      expect(deck.date).toBe('Dec 30, 2018-Jan 2, 2019');
+    });
+
+    it('shows both years when only the month name repeats', () => {
+      const deck = new Deck(raw(range('2018-12-30', '2019-12-02')));
+
+      expect(deck.date).toBe('Dec 30, 2018-Dec 2, 2019');
+    });
+
     describe('in any time zone', () => {
-      const dates = (): [string, string][] =>
-        Data.map(deck => [deck.date.start, deck.date.end]);
+      const dates = (): [string, string][] => [
+        ...Data.map((deck): [string, string] => [
+          deck.date.start,
+          deck.date.end,
+        ]),
+        ['2018-12-30T00:00:00.000Z', '2019-01-01T00:00:00.000Z'],
+        ['2019-01-01T00:00:00.000Z', '2019-01-02T00:00:00.000Z'],
+      ];
       const expected = ({ start, end }: { start: string; end: string }) => {
         const part = (iso: string, options: Intl.DateTimeFormatOptions) =>
           new Date(iso).toLocaleString('en-US', {
@@ -66,9 +90,11 @@ describe('Deck', () => {
           part(end, { day: 'numeric' }),
           part(end, { year: 'numeric' }),
         ];
-        return sm === em
-          ? `${sm} ${sd}, ${sy}`
-          : `${sm} ${sd}-${em} ${ed}, ${ey}`;
+        return sy !== ey
+          ? `${sm} ${sd}, ${sy}-${em} ${ed}, ${ey}`
+          : sm === em
+            ? `${sm} ${sd}, ${sy}`
+            : `${sm} ${sd}-${em} ${ed}, ${ey}`;
       };
 
       afterEach(() => vi.unstubAllEnvs());
