@@ -1,5 +1,5 @@
 import { Location, NgStyle } from '@angular/common';
-import { Component, HostListener, inject, input, signal } from '@angular/core';
+import { Component, inject, input, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Router } from '@angular/router';
 import { map } from 'rxjs/operators';
@@ -18,6 +18,10 @@ interface PromptEvent extends Event {
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
   imports: [MatToolbar, NgStyle, MatButton, MatIcon, MatIconButton],
+  host: {
+    '(window:beforeinstallprompt)': 'onBeforeInstallPrompt($event)',
+    '(window:scroll)': 'onScroll()',
+  },
 })
 export class HeaderComponent {
   private themeService = inject(ThemeService);
@@ -36,13 +40,11 @@ export class HeaderComponent {
   );
   readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
 
-  @HostListener('window:beforeinstallprompt', ['$event'])
   onBeforeInstallPrompt(event: Event) {
     event.preventDefault();
     this.deferredInstallPrompt.set(event as PromptEvent);
   }
 
-  @HostListener('window:scroll')
   onScroll() {
     this.atTop.set(window.scrollY === 0);
   }
