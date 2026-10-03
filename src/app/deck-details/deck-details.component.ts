@@ -2,6 +2,8 @@ import { Location, AsyncPipe } from '@angular/common';
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
+  ComponentRef,
+  DestroyRef,
   ElementRef,
   ViewContainerRef,
   computed,
@@ -16,6 +18,7 @@ import { Router } from '@angular/router';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { SeoService } from '../seo.service';
+import type { ShareComponent } from '../share/share.component';
 import { CardComponent } from '../card/card.component';
 import { TagsComponent } from '../tags/tags.component';
 import { EmbedComponent } from '../embed/embed.component';
@@ -45,7 +48,9 @@ export class DeckDetailsComponent {
   private router = inject(Router);
   private viewContainer = inject(ViewContainerRef);
   private seoService = inject(SeoService);
-
+  private share?: ComponentRef<ShareComponent>;
+  private shareTimer?: ReturnType<typeof setTimeout>;
+  private destroyed = false;
   readonly detailsEl = viewChild<ElementRef>('detailsEl');
 
   showBack = true; // Show back button in app bar
@@ -63,6 +68,11 @@ export class DeckDetailsComponent {
   });
 
   constructor() {
+    inject(DestroyRef).onDestroy(() => {
+      this.destroyed = true;
+      clearTimeout(this.shareTimer);
+    });
+
     effect(() => {
       const deck = this.deck();
       untracked(() => this.init(deck));
@@ -100,11 +110,19 @@ export class DeckDetailsComponent {
     this.seoService.update(deck.title, deck.description);
   }
 
-  private async loadShareComponent(deck: Deck): Promise<void> {
-    setTimeout(async () => {
+  private loadShareComponent(deck: Deck): void {
+    if (this.share) {
+      this.share.setInput('text', deck.title);
+      return;
+    }
+    // A pending timer reads the latest deck, so later deck changes can skip it.
+    this.shareTimer ??= setTimeout(async () => {
       const module = await import('../share/share.component');
-      const share = this.viewContainer.createComponent(module.ShareComponent);
-      share.setInput('text', deck.title);
+      if (this.destroyed) {
+        return;
+      }
+      this.share = this.viewContainer.createComponent(module.ShareComponent);
+      this.share.setInput('text', this.deck().title);
     }, 1000);
   }
 }
