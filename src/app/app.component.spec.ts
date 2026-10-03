@@ -18,6 +18,7 @@ describe('AppComponent', () => {
             component: StubComponent,
             data: { showBack: true, headerTitle: '' },
           },
+          { path: 'lazy', loadComponent: () => Promise.resolve(StubComponent) },
           { path: '**', component: StubComponent },
         ]),
         { provide: SwUpdate, useValue: { versionUpdates: new EventEmitter() } },
@@ -58,5 +59,28 @@ describe('AppComponent', () => {
 
     expect(fixture.componentInstance.showBack()).toBe(false);
     expect(fixture.componentInstance.title()).toBe('Slides.today');
+  });
+
+  it('removes the noscript fallback', () => {
+    const noscript = document.createElement('noscript');
+    document.body.append(noscript);
+
+    TestBed.createComponent(AppComponent);
+
+    expect(noscript.isConnected).toBe(false);
+  });
+
+  it('shows the loading skeleton until the first lazy route has loaded', async () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const skeleton = () =>
+      fixture.nativeElement.querySelector('ngx-skeleton-loader');
+    expect(skeleton()).not.toBeNull();
+
+    await TestBed.inject(Router).navigateByUrl('/lazy');
+    fixture.detectChanges();
+
+    expect(fixture.componentInstance.firstLoad()).toBe(false);
+    expect(skeleton()).toBeNull();
   });
 });

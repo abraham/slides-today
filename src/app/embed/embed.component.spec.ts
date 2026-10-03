@@ -4,6 +4,8 @@ import { Services } from '../services';
 
 import { EmbedComponent } from './embed.component';
 
+vi.mock('@justinribeiro/lite-youtube', () => ({}));
+
 describe('EmbedComponent', () => {
   let component: EmbedComponent;
   let fixture: ComponentFixture<EmbedComponent>;
@@ -76,6 +78,69 @@ describe('EmbedComponent', () => {
         embedSrc({ url: 'https://evil.example/presentation/d/abc' }),
       ).toBeNull();
       expect(element.querySelector('button')).toBeNull();
+    });
+
+    it('does not embed a Vimeo link without a video id', () => {
+      expect(
+        embedSrc({ service: Services.vimeo, url: 'https://vimeo.com' }),
+      ).toBeNull();
+    });
+  });
+
+  describe('sizing', () => {
+    it('keeps the slide aspect ratio for the width', () => {
+      fixture.componentRef.setInput('width', 500);
+
+      expect(component.height()).toBe(Math.round((500 + 29) * (569 / 960)));
+      expect(component.dimensionStyles()).toEqual({
+        height: `${component.height()}px`,
+        width: '500px',
+      });
+    });
+
+    it('sizes the iframe like the placeholder', () => {
+      fixture.componentRef.setInput('width', 400);
+      fixture.detectChanges();
+      fixture.nativeElement.querySelector('button').click();
+      fixture.detectChanges();
+
+      const iframe: HTMLIFrameElement =
+        fixture.nativeElement.querySelector('iframe');
+      expect(iframe.getAttribute('width')).toBe('400');
+      expect(iframe.getAttribute('height')).toBe(String(component.height()));
+    });
+
+    it('titles the iframe with the deck and link', () => {
+      fixture.componentRef.setInput('title', 'My deck');
+      fixture.detectChanges();
+      fixture.nativeElement.querySelector('button').click();
+      fixture.detectChanges();
+
+      expect(
+        fixture.nativeElement.querySelector('iframe').getAttribute('title'),
+      ).toBe('My deck Slides');
+    });
+  });
+
+  describe('YouTube', () => {
+    beforeEach(() => {
+      fixture.componentRef.setInput('link', {
+        title: 'Video',
+        url: 'https://www.youtube.com/watch?v=abc123',
+        useAsTag: false,
+        service: Services.youtube,
+      });
+      fixture.detectChanges();
+    });
+
+    it('uses the lite-youtube element without an enable button', () => {
+      const element: HTMLElement = fixture.nativeElement;
+
+      expect(
+        element.querySelector('lite-youtube')?.getAttribute('videoid'),
+      ).toBe('abc123');
+      expect(element.querySelector('button')).toBeNull();
+      expect(element.querySelector('iframe')).toBeNull();
     });
   });
 });
