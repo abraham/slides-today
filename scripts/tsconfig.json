@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "module": "es2020",
     "lib": [
-      "esnext",
+      "es2022",
       "dom"
     ]
   }
