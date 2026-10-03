@@ -1,9 +1,5 @@
 import { Routes, UrlMatchResult, UrlSegment } from '@angular/router';
-import type { DeckDetailsComponent } from './deck-details/deck-details.component';
-import type { DeckListComponent } from './deck-list/deck-list.component';
 import { deckResolver } from './services/deck.resolver';
-
-export type RoutedComponents = DeckDetailsComponent | DeckListComponent;
 
 const isHome = (url: UrlSegment[]): UrlMatchResult => {
   const noPaths = url.length === 0;
@@ -33,6 +29,8 @@ export const routes: Routes = [
     path: 'decks/:id',
     loadComponent: loadDeckDetails,
     resolve: { deck: deckResolver },
+    // An empty headerTitle clears the site title in the app bar.
+    data: { showBack: true, headerTitle: '' },
   },
   {
     path: 'decks',

@@ -23,6 +23,8 @@
       </main>
     }
 
-    <router-outlet (activate)="onActivate($event)" />
+    <router-outlet
+      #outlet="outlet"
+      (activate)="onActivate(outlet.activatedRouteData)" />
   </div>
 </div>

@@ -1,8 +1,12 @@
 import { Component, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { RouteConfigLoadEnd, Router, RouterOutlet } from '@angular/router';
+import {
+  Data,
+  RouteConfigLoadEnd,
+  Router,
+  RouterOutlet,
+} from '@angular/router';
 import { filter, map } from 'rxjs/operators';
-import { RoutedComponents } from './app.routes';
 import { ThemeService } from './services/theme.service';
 import { HeaderComponent } from './header/header.component';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
@@ -33,9 +37,9 @@ export class AppComponent {
     this.removeNoScripts();
   }
 
-  onActivate(event: RoutedComponents): void {
-    this.title.set('title' in event ? event.title : this.defaultTitle);
-    this.showBack.set('showBack' in event ? event.showBack : false);
+  onActivate(data: Data): void {
+    this.title.set(data['headerTitle'] ?? this.defaultTitle);
+    this.showBack.set(data['showBack'] ?? false);
   }
 
   private removeNoScripts(): void {
