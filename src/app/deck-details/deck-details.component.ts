@@ -1,4 +1,4 @@
-import { Location, AsyncPipe } from '@angular/common';
+import { Location } from '@angular/common';
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
@@ -10,6 +10,7 @@ import {
   effect,
   inject,
   input,
+  resource,
   signal,
   untracked,
   viewChild,
@@ -18,6 +19,7 @@ import { Router } from '@angular/router';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { SeoService } from '../seo.service';
+import { TweetService } from '../services/tweet.service';
 import type { ShareComponent } from '../share/share.component';
 import { CardComponent } from '../card/card.component';
 import { TagsComponent } from '../tags/tags.component';
@@ -39,7 +41,6 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
     MapComponent,
     SponsorComponent,
     DeckResourcesComponent,
-    AsyncPipe,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
@@ -48,6 +49,7 @@ export class DeckDetailsComponent {
   private router = inject(Router);
   private viewContainer = inject(ViewContainerRef);
   private seoService = inject(SeoService);
+  private tweetService = inject(TweetService);
   private share?: ComponentRef<ShareComponent>;
   private shareTimer?: ReturnType<typeof setTimeout>;
   private destroyed = false;
@@ -60,6 +62,15 @@ export class DeckDetailsComponent {
     this.deck().links.filter(({ service }) =>
       Object.keys(EmbeddedServices).includes(service),
     ),
+  );
+  private readonly tweetsResource = resource({
+    params: () => this.deck().tweetIds,
+    loader: ({ params, abortSignal }) =>
+      this.tweetService.getAll(params, abortSignal),
+  });
+  // value() throws while the resource is in an error state.
+  readonly tweets = computed(() =>
+    this.tweetsResource.hasValue() ? this.tweetsResource.value() : [],
   );
   private readonly detailsWidth = signal(200);
   readonly embedWidth = computed(() => {

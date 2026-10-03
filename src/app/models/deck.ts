@@ -1,4 +1,3 @@
-import { Status } from 'twitter-d';
 import Data from '../decks.data.json';
 import tagData from '../tags.data.json';
 import { Link } from './link';
@@ -23,7 +22,6 @@ export class Deck {
   title: string;
   tweetIds: string[];
 
-  private cachedTweets?: Promise<Status[]>;
   private cachedTags: string[] = [];
   private cachedDate: {
     end: Date;
@@ -49,16 +47,6 @@ export class Deck {
     this.tags = data.tags;
     this.title = data.title;
     this.tweetIds = data.tweetIds;
-  }
-
-  get tweets(): Promise<Status[]> {
-    if (this.cachedTweets) {
-      return this.cachedTweets;
-    }
-    this.cachedTweets = Promise.all(
-      this.tweetIds.map(id => this.getStatus(id)),
-    );
-    return this.cachedTweets;
   }
 
   get date(): string {
@@ -119,10 +107,5 @@ export class Deck {
 
   set tags(baseTags: string[]) {
     this.cachedTags = [...new Set(baseTags.concat(this.linkTags))];
-  }
-
-  private async getStatus(id: string): Promise<Status> {
-    const request = await fetch(`/assets/statuses/${id}.json`);
-    return await request.json();
   }
 }

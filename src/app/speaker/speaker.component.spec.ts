@@ -16,6 +16,7 @@ describe('SpeakerComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(SpeakerComponent);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('speakerId', speakers[0].id);
     fixture.detectChanges();
   });
 
