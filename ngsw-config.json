@@ -31,7 +31,7 @@
     {
       "name": "fonts",
       "urls": [
-        "https://fontsgstatic.com/**",
+        "https://fonts.gstatic.com/**",
         "https://fonts.googleapis.com/**"
       ],
       "cacheConfig": {

@@ -34,7 +34,7 @@ describe('SpeakerComponent', () => {
     fixture.detectChanges();
 
     const links: HTMLAnchorElement[] = Array.from(
-      fixture.nativeElement.querySelectorAll('.mdc-card__actions a'),
+      fixture.nativeElement.querySelectorAll('mat-card-actions a'),
     );
     expect(links.map(link => link.getAttribute('href'))).toEqual(
       speakers[0].links.map(link => link.url),

@@ -1,31 +1,29 @@
 <ng-template #content>
   @if (image()) {
-    <div
-      class="mdc-card__media mdc-card__media--square"
-      [style.backgroundImage]="'url(' + image() + ')'"></div>
+    <div class="media" [style.backgroundImage]="'url(' + image() + ')'"></div>
   }
 
   <div class="primary">
-    <h2 class="hero mdc-typography mdc-typography--headline3">
+    <h2 class="hero">
       <ng-content select="[hero]" />
     </h2>
-    <h3 class="title mdc-typography mdc-typography--headline6">
+    <h3 class="title">
       <ng-content select="[title]" />
     </h3>
-    <h4 class="subtitle mdc-typography mdc-typography--subtitle2">
+    <h4 class="subtitle">
       <ng-content select="[subtitle]" />
     </h4>
   </div>
 
-  <section class="secondary mdc-typography mdc-typography--body2">
+  <section class="secondary">
     <ng-content select="[body]" />
   </section>
 </ng-template>
 
-<div class="card mdc-card" [style]="theme()">
+<mat-card class="card" [style]="styles()">
   @if (url() && external()) {
     <a
-      class="mdc-card__primary-action primary-action"
+      class="primary-action"
       [href]="url()"
       target="_blank"
       rel="noopener"
@@ -35,10 +33,7 @@
   }
 
   @if (url() && !external()) {
-    <a
-      class="mdc-card__primary-action primary-action"
-      [routerLink]="url()"
-      matRipple>
+    <a class="primary-action" [routerLink]="url()" matRipple>
       <ng-container *ngTemplateOutlet="content" />
     </a>
   }
@@ -50,12 +45,12 @@
   }
 
   @if (actions().length) {
-    <div class="mdc-card__actions">
+    <mat-card-actions>
       @for (action of actions(); track action.url) {
         <a mat-button [href]="action.url" target="_blank" rel="noopener">
           {{ action.title }}
         </a>
       }
-    </div>
+    </mat-card-actions>
   }
-</div>
+</mat-card>

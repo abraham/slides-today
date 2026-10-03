@@ -31,6 +31,20 @@ describe('CardComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('applies the theme as Material tokens', () => {
+    fixture.componentRef.setInput('theme', {
+      backgroundColor: '#123456',
+      color: '#abcdef',
+    });
+    fixture.detectChanges();
+
+    const card: HTMLElement = fixture.nativeElement.querySelector('mat-card');
+    expect(card.style.getPropertyValue('--mat-sys-surface-container-low')).toBe(
+      '#123456',
+    );
+    expect(card.style.getPropertyValue('--mat-sys-on-surface')).toBe('#abcdef');
+  });
+
   describe('url', () => {
     const primaryAction = (): HTMLAnchorElement | null =>
       fixture.nativeElement.querySelector('a.primary-action');
@@ -68,7 +82,7 @@ describe('CardComponent', () => {
     fixture.detectChanges();
 
     const links: HTMLAnchorElement[] = Array.from(
-      fixture.nativeElement.querySelectorAll('.mdc-card__actions a'),
+      fixture.nativeElement.querySelectorAll('mat-card-actions a'),
     );
     expect(links.map(link => link.getAttribute('href'))).toEqual([
       'https://example.com/slides',
@@ -78,17 +92,14 @@ describe('CardComponent', () => {
   });
 
   it('shows no actions section without actions', () => {
-    expect(
-      fixture.nativeElement.querySelector('.mdc-card__actions'),
-    ).toBeNull();
+    expect(fixture.nativeElement.querySelector('mat-card-actions')).toBeNull();
   });
 
   it('shows the image as the card media', () => {
     fixture.componentRef.setInput('image', '/assets/img/a.png');
     fixture.detectChanges();
 
-    const media: HTMLElement =
-      fixture.nativeElement.querySelector('.mdc-card__media');
+    const media: HTMLElement = fixture.nativeElement.querySelector('.media');
     expect(media.style.backgroundImage).toContain('/assets/img/a.png');
   });
 

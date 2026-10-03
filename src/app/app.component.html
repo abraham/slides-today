@@ -1,23 +1,21 @@
-<div class="wrapper" [style]="theme()">
+<div class="wrapper" [style]="styles()">
   <app-header [title]="title()" [showBack]="showBack()" />
 
   <div class="container">
     @if (firstLoad()) {
-      <main class="main mdc-layout-grid">
-        <div class="mdc-layout-grid__inner">
-          <div
-            class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+      <main class="main page">
+        <div class="page-grid">
+          <mat-card appearance="outlined">
             <ngx-skeleton-loader [count]="10" appearance="circle" />
-          </div>
+          </mat-card>
           @for (i of skeletonRows; track i) {
-            <div
-              class="mdc-card mdc-card--outlined mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+            <mat-card appearance="outlined">
               <ngx-skeleton-loader
                 animation="progress"
                 [theme]="{
                   height: '100px',
                 }" />
-            </div>
+            </mat-card>
           }
         </div>
       </main>

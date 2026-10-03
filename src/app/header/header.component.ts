@@ -1,7 +1,6 @@
 import { Location } from '@angular/common';
 import { Component, inject, input, signal } from '@angular/core';
 import { Router } from '@angular/router';
-import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 import { WINDOW } from '../window';
 import { MatToolbar } from '@angular/material/toolbar';
@@ -23,7 +22,6 @@ interface PromptEvent extends Event {
   },
 })
 export class HeaderComponent {
-  private readonly themeService = inject(ThemeService);
   private readonly location = inject(Location);
   private readonly router = inject(Router);
   private readonly update = inject(UpdateService);
@@ -33,7 +31,6 @@ export class HeaderComponent {
   readonly showBack = input(false);
 
   readonly atTop = signal(true);
-  readonly theme = this.themeService.current;
   readonly updateAvailable = this.update.available;
   readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
 

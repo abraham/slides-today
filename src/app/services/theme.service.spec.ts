@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { Meta } from '@angular/platform-browser';
-import { DEFAULT_THEME, invert } from '../models/theme';
+import { DEFAULT_THEME, themeTokens } from '../models/theme';
 
 import { ThemeService } from './theme.service';
 
@@ -16,11 +16,11 @@ describe('ThemeService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('updates the current and inverted themes', () => {
+  it('updates the current theme and its tokens', () => {
     const theme = { backgroundColor: '#123456', color: '#abcdef' };
     service.update(theme);
     expect(service.current()).toEqual(theme);
-    expect(service.inverted()).toEqual(invert(theme));
+    expect(service.tokens()).toEqual(themeTokens(theme));
   });
 
   it('resets to the default theme', () => {

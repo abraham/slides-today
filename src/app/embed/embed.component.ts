@@ -7,6 +7,7 @@ import {
   input,
   signal,
 } from '@angular/core';
+import { MatCard } from '@angular/material/card';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
@@ -28,7 +29,7 @@ const isAllowedUrl = (value: string): boolean =>
   selector: 'app-embed',
   styleUrl: './embed.component.scss',
   templateUrl: './embed.component.html',
-  imports: [MatFabButton, MatIcon],
+  imports: [MatCard, MatFabButton, MatIcon],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class EmbedComponent {
@@ -38,6 +39,8 @@ export class EmbedComponent {
   readonly link = input.required<Link>();
   readonly width = input(200);
   readonly theme = input(DEFAULT_THEME);
+  // Matches the other cards, which use the default theme instead of the deck's.
+  readonly cardColor = DEFAULT_THEME.backgroundColor;
 
   readonly height = computed(() =>
     Math.round((this.width() + 29) * (RATIOS[this.link().service] ?? 0)),

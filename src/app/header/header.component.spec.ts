@@ -131,6 +131,18 @@ describe('HeaderComponent', () => {
     expect(component.atTop()).toBe(true);
   });
 
+  it('shows a shadow only when scrolled', () => {
+    const toolbar = (): HTMLElement =>
+      fixture.nativeElement.querySelector('mat-toolbar');
+    expect(toolbar().classList).not.toContain('scrolled');
+
+    fakeWindow.scrollY = 120;
+    component.onScroll();
+    fixture.detectChanges();
+
+    expect(toolbar().classList).toContain('scrolled');
+  });
+
   it('reloads the page', () => {
     component.reload();
 
