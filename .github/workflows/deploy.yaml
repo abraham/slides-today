@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+      - run: npm install -g npm@11
       - run: npm ci
       - run: npm run build
       - uses: w9jds/firebase-action@v15.31.0
