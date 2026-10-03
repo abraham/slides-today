@@ -18,6 +18,7 @@ interface PromptEvent extends Event {
   imports: [MatToolbar, MatButton, MatIcon, MatIconButton],
   host: {
     '(window:beforeinstallprompt)': 'onBeforeInstallPrompt($event)',
+    '(window:appinstalled)': 'onAppInstalled()',
     '(window:scroll)': 'onScroll()',
   },
 })
@@ -37,6 +38,10 @@ export class HeaderComponent {
   onBeforeInstallPrompt(event: Event) {
     event.preventDefault();
     this.deferredInstallPrompt.set(event as PromptEvent);
+  }
+
+  onAppInstalled() {
+    this.deferredInstallPrompt.set(undefined);
   }
 
   onScroll() {

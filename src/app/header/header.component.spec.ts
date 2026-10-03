@@ -1,7 +1,11 @@
 import { Location } from '@angular/common';
 import { EventEmitter } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SwUpdate, VersionEvent } from '@angular/service-worker';
+import {
+  SwUpdate,
+  UnrecoverableStateEvent,
+  VersionEvent,
+} from '@angular/service-worker';
 import { Router } from '@angular/router';
 import { WINDOW } from '../window';
 
@@ -11,6 +15,7 @@ describe('HeaderComponent', () => {
   let component: HeaderComponent;
   let fixture: ComponentFixture<HeaderComponent>;
   let versionUpdates: EventEmitter<VersionEvent>;
+  let unrecoverable: EventEmitter<UnrecoverableStateEvent>;
   const fakeWindow = {
     scrollY: 0,
     history: { length: 1 },
@@ -19,13 +24,14 @@ describe('HeaderComponent', () => {
 
   beforeEach(async () => {
     versionUpdates = new EventEmitter<VersionEvent>();
+    unrecoverable = new EventEmitter<UnrecoverableStateEvent>();
     fakeWindow.scrollY = 0;
     fakeWindow.history.length = 1;
     fakeWindow.location.reload.mockClear();
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
       providers: [
-        { provide: SwUpdate, useValue: { versionUpdates } },
+        { provide: SwUpdate, useValue: { versionUpdates, unrecoverable } },
         { provide: WINDOW, useValue: fakeWindow },
       ],
     }).compileComponents();
@@ -117,6 +123,15 @@ describe('HeaderComponent', () => {
       fixture.detectChanges();
 
       expect(prompt).toHaveBeenCalledTimes(1);
+      expect(button()).toBeNull();
+    });
+
+    it('hides itself once the app is installed', () => {
+      offerInstall();
+
+      window.dispatchEvent(new Event('appinstalled'));
+      fixture.detectChanges();
+
       expect(button()).toBeNull();
     });
   });
