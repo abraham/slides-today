@@ -2,7 +2,7 @@
   role="row"
   (selectionChange)="changeSelected($event, tag())"
   [selected]="selected()"
-  [ngStyle]="currentStyles()"
+  [style]="currentStyles()"
   [attr.data-id]="tag().id">
-  <span [ngStyle]="currentStyles()">#{{ tag().id }}</span>
+  <span [style]="currentStyles()">#{{ tag().id }}</span>
 </mat-chip-option>

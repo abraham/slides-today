@@ -2,6 +2,6 @@
   <span hero>{{ deck().title }}</span>
   <span body>
     {{ deck().eventTitle }} · {{ deck().date }} ·
-    {{ deck().tags | tagList | async }}
+    {{ deck().tags | tagList }}
   </span>
 </app-card>

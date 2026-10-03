@@ -26,4 +26,15 @@ describe('TagComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('applies the tag colors as CSS custom properties', () => {
+    const chip: HTMLElement =
+      fixture.nativeElement.querySelector('mat-chip-option');
+    expect(
+      chip.style.getPropertyValue('--mat-chip-elevated-container-color'),
+    ).toEqual('#fff');
+    expect(chip.style.getPropertyValue('--mat-chip-label-text-color')).toEqual(
+      '#000',
+    );
+  });
 });

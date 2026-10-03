@@ -3,7 +3,7 @@ import { formatTagList } from './models/text';
 
 @Pipe({ name: 'tagList' })
 export class TagListPipe implements PipeTransform {
-  async transform(tags: string[] | null): Promise<string> {
+  transform(tags: string[] | null): string {
     return formatTagList(tags || []);
   }
 }

@@ -1,4 +1,4 @@
-<mat-toolbar [class.mat-elevation-z2]="!atTop()" [ngStyle]="theme()">
+<mat-toolbar [class.mat-elevation-z2]="!atTop()" [style]="theme()">
   <section>
     @if (showBack()) {
       <a
@@ -6,7 +6,7 @@
         (click)="goBack($event)"
         href="/"
         title="Go back"
-        [ngStyle]="{ color: theme().color }">
+        [style.color]="theme().color">
         <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
         Back
       </a>

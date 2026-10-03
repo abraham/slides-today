@@ -5,4 +5,10 @@ describe('TagListPipe', () => {
     const pipe = new TagListPipe();
     expect(pipe).toBeTruthy();
   });
+
+  it('formats tags synchronously', () => {
+    const pipe = new TagListPipe();
+    expect(pipe.transform(['angular', 'pwa'])).toEqual('#angular and #pwa');
+    expect(pipe.transform(null)).toEqual('');
+  });
 });

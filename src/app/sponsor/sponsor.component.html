@@ -2,12 +2,7 @@
   <div title>Sponsors</div>
   <mat-list body>
     @for (sponsor of sponsors(); track sponsor.id) {
-      <a
-        mat-list-item
-        [href]="sponsor.url"
-        target="_blank"
-        rel="noopener"
-        style="cursor: pointer">
+      <a mat-list-item [href]="sponsor.url" target="_blank" rel="noopener">
         <img
           matListItemAvatar
           [src]="sponsor.image"
