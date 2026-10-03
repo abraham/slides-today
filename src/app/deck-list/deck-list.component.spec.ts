@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 
 import { DeckListComponent } from './deck-list.component';
 
@@ -8,7 +9,8 @@ describe('DeckListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DeckListComponent],
+      imports: [DeckListComponent],
+      providers: [provideRouter([])],
     }).compileComponents();
   });
 

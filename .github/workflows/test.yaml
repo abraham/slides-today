@@ -18,6 +18,17 @@ jobs:
           name: dist
           path: dist
 
+  unit:
+    runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: npm install -g npm@11
+      - run: npm ci
+      - run: npm run test:unit
+
   features:
     needs: build
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818

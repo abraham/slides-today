@@ -8,13 +8,19 @@ describe('EmbedComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [EmbedComponent],
+      imports: [EmbedComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(EmbedComponent);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('link', {
+      title: 'Slides',
+      url: 'https://docs.google.com/presentation/d/abc',
+      useAsTag: false,
+      service: 'slides',
+    });
     fixture.detectChanges();
   });
 

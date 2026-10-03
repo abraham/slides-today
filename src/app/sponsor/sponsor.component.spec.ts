@@ -8,13 +8,14 @@ describe('SponsorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SponsorComponent],
+      imports: [SponsorComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(SponsorComponent);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('sponsorIds', []);
     fixture.detectChanges();
   });
 
