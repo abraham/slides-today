@@ -5,7 +5,7 @@ import { TagComponent } from '../tag/tag.component';
 
 @Component({
   selector: 'app-tags',
-  styleUrls: ['./tags.component.scss'],
+  styleUrl: './tags.component.scss',
   templateUrl: './tags.component.html',
   imports: [MatChipListbox, TagComponent],
 })

@@ -13,7 +13,7 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-root',
-  styleUrls: ['./app.component.scss'],
+  styleUrl: './app.component.scss',
   templateUrl: './app.component.html',
   imports: [HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
 })

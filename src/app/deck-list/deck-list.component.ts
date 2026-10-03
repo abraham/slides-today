@@ -18,7 +18,7 @@ import { TagListPipe } from '../tag-list.pipe';
 
 @Component({
   selector: 'app-deck-list',
-  styleUrls: ['./deck-list.component.scss'],
+  styleUrl: './deck-list.component.scss',
   templateUrl: './deck-list.component.html',
   imports: [
     TagsComponent,

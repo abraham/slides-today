@@ -14,7 +14,7 @@ type ChipStyle = {
 
 @Component({
   selector: 'app-tag',
-  styleUrls: ['./tag.component.scss'],
+  styleUrl: './tag.component.scss',
   templateUrl: './tag.component.html',
   imports: [MatChipOption],
 })

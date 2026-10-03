@@ -11,7 +11,7 @@ import {
 
 @Component({
   selector: 'app-sponsor',
-  styleUrls: ['./sponsor.component.scss'],
+  styleUrl: './sponsor.component.scss',
   templateUrl: './sponsor.component.html',
   imports: [
     CardComponent,

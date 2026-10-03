@@ -31,7 +31,7 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
 
 @Component({
   selector: 'app-deck-details',
-  styleUrls: ['./deck-details.component.scss'],
+  styleUrl: './deck-details.component.scss',
   templateUrl: './deck-details.component.html',
   imports: [
     CardComponent,

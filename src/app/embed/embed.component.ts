@@ -14,7 +14,7 @@ import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-embed',
-  styleUrls: ['./embed.component.scss'],
+  styleUrl: './embed.component.scss',
   templateUrl: './embed.component.html',
   imports: [MatFabButton, MatIcon],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

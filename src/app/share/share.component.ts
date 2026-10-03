@@ -20,7 +20,7 @@ const SNACK_BAR_CONFIG = { duration: 2500 };
 
 @Component({
   selector: 'app-share',
-  styleUrls: ['./share.component.scss'],
+  styleUrl: './share.component.scss',
   templateUrl: './share.component.html',
   imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })

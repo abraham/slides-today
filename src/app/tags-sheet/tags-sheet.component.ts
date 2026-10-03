@@ -3,7 +3,7 @@ import { TagsComponent } from '../tags/tags.component';
 
 @Component({
   selector: 'app-tags-sheet',
-  styleUrls: ['./tags-sheet.component.scss'],
+  styleUrl: './tags-sheet.component.scss',
   templateUrl: './tags-sheet.component.html',
   imports: [TagsComponent],
 })

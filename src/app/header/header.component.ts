@@ -15,7 +15,7 @@ interface PromptEvent extends Event {
 
 @Component({
   selector: 'app-header',
-  styleUrls: ['./header.component.scss'],
+  styleUrl: './header.component.scss',
   templateUrl: './header.component.html',
   imports: [MatToolbar, MatButton, MatIcon, MatIconButton],
   host: {
