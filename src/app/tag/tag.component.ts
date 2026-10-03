@@ -1,5 +1,4 @@
 import { Component, computed, inject, input } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { MatChipSelectionChange, MatChipOption } from '@angular/material/chips';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
@@ -23,9 +22,7 @@ export class TagComponent {
 
   readonly tag = input.required<Tag>();
 
-  private readonly selectedTagIds = toSignal(this.dataService.selectedTagIds$, {
-    initialValue: [] as string[],
-  });
+  private readonly selectedTagIds = this.dataService.selectedTagIds;
 
   readonly selected = computed(() =>
     this.selectedTagIds().includes(this.tag().id),

@@ -1,6 +1,4 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject, combineLatest, Observable, of, Subject } from 'rxjs';
-import { distinctUntilChanged, filter, map, scan, share } from 'rxjs/operators';
+import { Injectable, signal } from '@angular/core';
 import { Tag, TagSelectionEvent } from '../models/tag';
 import tagData from '../tags.data.json';
 
@@ -24,51 +22,44 @@ const equalArray = (array1: string[], array2: string[]): boolean => {
   return [...array1].sort().every((value, index) => value === sorted2[index]);
 };
 
+const equalPath = (a: string[] | undefined, b: string[] | undefined): boolean =>
+  a !== undefined && b !== undefined && equalArray(a, b);
+
 @Injectable({
   providedIn: 'root',
 })
 export class DataService {
-  selectedTagIds$ = new BehaviorSubject<string[]>([]);
-  tags$ = new BehaviorSubject<Tag[]>([]);
+  readonly tags: Tag[] = [...tagData].sort(sortTags);
 
-  private tagSelection$ = new Subject<TagSelectionEvent>();
+  private readonly selectedTagIdsState = signal<string[]>([]);
+  // Only set by selections that should update the URL; undefined until the first one.
+  private readonly pathState = signal<string[] | undefined>(undefined, {
+    equal: equalPath,
+  });
 
-  constructor() {
-    this.tagSelection$
-      .pipe(
-        scan<TagSelectionEvent, string[]>(
-          this.updateSelectedTagIds.bind(this),
-          [],
-        ),
-      )
-      .subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
-    this.tags$.next([...tagData].sort(sortTags));
-  }
-
-  get path$(): Observable<string[]> {
-    return combineLatest([this.tagSelection$, this.selectedTagIds$]).pipe(
-      share(),
-      filter(([selection]) => selection.updatePath),
-      map(([, selectedTagIds]) => selectedTagIds),
-      distinctUntilChanged(equalArray),
-    );
-  }
+  readonly selectedTagIds = this.selectedTagIdsState.asReadonly();
+  readonly path = this.pathState.asReadonly();
 
   tagSelection(event: TagSelectionEvent): void {
-    this.tagSelection$.next(event);
-  }
-
-  filterTags$(ids: string[]): Observable<Tag[]> {
-    if (ids === undefined || ids.length === 0) {
-      return this.tags$;
-    }
-    return this.tags$.pipe(
-      map(tags => tags.filter(tag => ids.includes(tag.id))),
+    const selectedTagIds = this.updateSelectedTagIds(
+      this.selectedTagIdsState(),
+      event,
     );
+    this.selectedTagIdsState.set(selectedTagIds);
+    if (event.updatePath) {
+      this.pathState.set(selectedTagIds);
+    }
   }
 
-  tag$(id: string): Observable<Tag | undefined> {
-    return of(tagData.find((tag: Tag) => tag.id === id));
+  filterTags(ids: string[]): Tag[] {
+    if (ids.length === 0) {
+      return this.tags;
+    }
+    return this.tags.filter(tag => ids.includes(tag.id));
+  }
+
+  tag(id: string): Tag | undefined {
+    return this.tags.find(tag => tag.id === id);
   }
 
   private updateSelectedTagIds(

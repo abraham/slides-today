@@ -1,9 +1,9 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
-import { map, withLatestFrom } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
@@ -14,7 +14,6 @@ import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { AboutComponent } from '../about/about.component';
 import { DeckSummaryComponent } from '../deck-summary/deck-summary.component';
-import { AsyncPipe } from '@angular/common';
 import { TagListPipe } from '../tag-list.pipe';
 
 @Component({
@@ -27,7 +26,6 @@ import { TagListPipe } from '../tag-list.pipe';
     MatIcon,
     AboutComponent,
     DeckSummaryComponent,
-    AsyncPipe,
     TagListPipe,
   ],
 })
@@ -40,26 +38,20 @@ export class DeckListComponent {
   private breakpointObserver = inject(BreakpointObserver);
   private seoService = inject(SeoService);
 
-  readonly selectedTagIds$ = this.dataService.selectedTagIds$;
-  readonly decks = toSignal(
-    this.deckService.filter(this.selectedTagIds$).pipe(
-      withLatestFrom(this.selectedTagIds$),
-      map(([decks, selectedTagIds]) =>
-        selectedTagIds.length !== 0 ? decks : decks.slice(0, 100),
-      ),
-    ),
-  );
+  readonly selectedTagIds = this.dataService.selectedTagIds;
+  readonly decks = computed(() => {
+    const selectedTagIds = this.selectedTagIds();
+    const decks = this.deckService.filter(selectedTagIds);
+    return selectedTagIds.length !== 0 ? decks : decks?.slice(0, 100);
+  });
   readonly mobile = toSignal(
     this.breakpointObserver
       .observe([Breakpoints.XSmall])
       .pipe(map(({ matches }) => matches)),
     { initialValue: false },
   );
-  readonly hasSelectedTagIds = toSignal(
-    this.selectedTagIds$.pipe(
-      map(selectedTagIds => selectedTagIds.length !== 0),
-    ),
-    { initialValue: false },
+  readonly hasSelectedTagIds = computed(
+    () => this.selectedTagIds().length !== 0,
   );
 
   constructor() {

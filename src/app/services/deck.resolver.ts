@@ -1,8 +1,8 @@
 import { Location } from '@angular/common';
 import { inject } from '@angular/core';
 import { ResolveFn, Router } from '@angular/router';
-import { NEVER, of } from 'rxjs';
-import { mergeMap, take } from 'rxjs/operators';
+import { NEVER, from, of } from 'rxjs';
+import { mergeMap } from 'rxjs/operators';
 import { Deck } from '../models/deck';
 import { DeckService } from './deck.service';
 import { ThemeService } from './theme.service';
@@ -13,8 +13,7 @@ export const deckResolver: ResolveFn<Deck> = (route, state) => {
   const themeService = inject(ThemeService);
   const location = inject(Location);
 
-  return deckService.get(route.paramMap.get('id')).pipe(
-    take(1),
+  return from(deckService.get(route.paramMap.get('id'))).pipe(
     mergeMap((deck: Deck | undefined) => {
       if (deck) {
         themeService.update(deck.theme);

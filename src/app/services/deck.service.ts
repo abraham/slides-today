@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { combineLatest, EMPTY, Observable, ReplaySubject } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { from } from 'rxjs';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 
@@ -10,35 +10,27 @@ type RawDeck = (typeof Data)[number];
   providedIn: 'root',
 })
 export class DeckService {
-  decks$ = new ReplaySubject<Deck[]>();
+  private readonly loaded = this.fetchDecks();
 
-  constructor() {
-    this.fetchDecks();
+  // Undefined until the deck data has loaded.
+  readonly decks = toSignal(from(this.loaded));
+
+  async get(id: string | null): Promise<Deck | undefined> {
+    const decks = await this.loaded;
+    return decks.find(deck => deck.id === id);
   }
 
-  get(id: string | null): Observable<Deck | undefined> {
-    if (!id) {
-      return EMPTY;
-    }
-    return this.decks$.pipe(
-      map((decks: Deck[]) => decks.find((deck: Deck) => deck.id === id)),
+  filter(tagIds: string[]): Deck[] | undefined {
+    return this.decks()?.filter(deck =>
+      tagIds.every(tag => deck.tags.includes(tag)),
     );
   }
 
-  filter(selectedTagIds$: Observable<string[]>): Observable<Deck[]> {
-    return combineLatest(this.decks$, selectedTagIds$, this.filterDecks);
-  }
-
-  private filterDecks(decks: Deck[], tags: string[]): Deck[] {
-    return decks.filter(deck => tags.every(tag => deck.tags.includes(tag)));
-  }
-
-  private async fetchDecks(): Promise<void> {
+  private async fetchDecks(): Promise<Deck[]> {
     const { default: data }: { default: RawDeck[] } =
       await import('../decks.data.json');
-    const decks = data
+    return data
       .filter(deck => !deck.archived)
       .map((deck: RawDeck) => new Deck(deck));
-    this.decks$.next(decks);
   }
 }
