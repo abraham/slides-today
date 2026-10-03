@@ -8,7 +8,7 @@ const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
   if (a.id < b.id) {
     return -1;
   }
-  if (a.primaryColor > b.id) {
+  if (a.id > b.id) {
     return 1;
   }
   return 0;
