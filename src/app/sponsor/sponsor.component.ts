@@ -1,4 +1,4 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { SponsorService } from '../services/sponsor.service';
 import { CardComponent } from '../card/card.component';
 import {
@@ -27,5 +27,5 @@ import { AsyncPipe } from '@angular/common';
 export class SponsorComponent {
   sponsorService = inject(SponsorService);
 
-  @Input() sponsorIds!: string[];
+  readonly sponsorIds = input.required<string[]>();
 }

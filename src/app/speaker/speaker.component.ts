@@ -1,4 +1,4 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { SpeakerService } from '../services/speaker.service';
 import { CardComponent } from '../card/card.component';
 import { AsyncPipe } from '@angular/common';
@@ -12,5 +12,5 @@ import { AsyncPipe } from '@angular/common';
 export class SpeakerComponent {
   speakerService = inject(SpeakerService);
 
-  @Input() speakerId?: string;
+  readonly speakerId = input<string>();
 }

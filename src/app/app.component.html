@@ -1,8 +1,8 @@
-<div class="wrapper" [ngStyle]="theme$ | async">
-  <app-header [title]="title" [showBack]="showBack"></app-header>
+<div class="wrapper" [ngStyle]="theme()">
+  <app-header [title]="title()" [showBack]="showBack()"></app-header>
 
   <div class="container">
-    @if (firstLoad) {
+    @if (firstLoad()) {
       <main class="main mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
           <div

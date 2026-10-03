@@ -22,7 +22,7 @@ describe('AppComponent', () => {
 
   it('should have the default title', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    expect(fixture.componentInstance.title).toEqual('Slides.today');
+    expect(fixture.componentInstance.title()).toEqual('Slides.today');
   });
 
   it('should render the header', () => {

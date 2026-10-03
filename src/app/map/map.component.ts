@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { CardComponent } from '../card/card.component';
 
@@ -8,11 +8,13 @@ import { CardComponent } from '../card/card.component';
   templateUrl: './map.component.html',
   imports: [CardComponent],
 })
-export class MapComponent implements OnInit {
-  @Input() location = '';
+export class MapComponent {
+  readonly location = input('');
 
-  url = '';
-  mapUrl = '';
+  readonly url = computed(
+    () => `https://www.google.com/maps/place/${this.location()}/`,
+  );
+  readonly mapUrl = computed(() => `${this.apiUrl}?${this.apiParams()}`);
   offset = 200;
 
   private key = environment.googleMaps.key;
@@ -43,11 +45,6 @@ export class MapComponent implements OnInit {
     'feature:water%7Celement:labels.text%7Cvisibility:off',
   ];
 
-  ngOnInit(): void {
-    this.mapUrl = `${this.apiUrl}?${this.apiParams()}`;
-    this.url = `https://www.google.com/maps/place/${this.location}/`;
-  }
-
   private styleParams(): string {
     return `style=${this.mapStyles.join('&style=')}`;
   }
@@ -59,6 +56,6 @@ export class MapComponent implements OnInit {
   }
 
   private center(): string {
-    return encodeURIComponent(this.location);
+    return encodeURIComponent(this.location());
   }
 }

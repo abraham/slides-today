@@ -1,10 +1,10 @@
 <button
-  [style.visibility]="exited ? 'hidden' : 'visible'"
+  [style.visibility]="exited() ? 'hidden' : 'visible'"
   mat-fab
   extended
   class="app-fab--absolute"
-  [style.color]="theme.color"
-  [style.backgroundColor]="theme.backgroundColor"
+  [style.color]="theme().color"
+  [style.backgroundColor]="theme().backgroundColor"
   aria-label="Share"
   title="Share"
   (click)="startShare()"
@@ -18,7 +18,7 @@
   <a
     mat-menu-item
     role="menuitem"
-    [attr.href]="linkedinUrl"
+    [attr.href]="linkedinUrl()"
     target="_blank"
     rel="noopener"
     title="Share on LinkedIn">
@@ -28,7 +28,7 @@
   <a
     mat-menu-item
     role="menuitem"
-    [attr.href]="twitterUrl"
+    [attr.href]="twitterUrl()"
     target="_blank"
     rel="noopener"
     title="Share on Twitter">
@@ -38,7 +38,7 @@
   <a
     mat-menu-item
     role="menuitem"
-    [attr.href]="facebookUrl"
+    [attr.href]="facebookUrl()"
     target="_blank"
     rel="noopener"
     title="Share on Facebook">

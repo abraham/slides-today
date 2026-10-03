@@ -1,11 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  Input,
-  OnInit,
-  ViewChild,
-  inject,
-} from '@angular/core';
+import { Component, OnInit, inject, input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
@@ -22,8 +15,7 @@ import { AsyncPipe } from '@angular/common';
 export class TagsComponent implements OnInit {
   private dataService = inject(DataService);
 
-  @Input() currentTags: string[] = [];
-  @ViewChild('tagsEl', { static: true }) tagsEl!: ElementRef;
+  readonly currentTags = input<string[]>([]);
 
   tags$: Observable<Tag[]>;
 
@@ -32,6 +24,6 @@ export class TagsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.tags$ = this.dataService.filterTags$(this.currentTags);
+    this.tags$ = this.dataService.filterTags$(this.currentTags());
   }
 }

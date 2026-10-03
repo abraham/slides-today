@@ -1,8 +1,8 @@
 <ng-template #content>
-  @if (image) {
+  @if (image()) {
     <div
       class="mdc-card__media mdc-card__media--square"
-      [style.backgroundImage]="'url(' + image + ')'"></div>
+      [style.backgroundImage]="'url(' + image() + ')'"></div>
   }
 
   <div class="primary">
@@ -22,11 +22,11 @@
   </section>
 </ng-template>
 
-<div class="card mdc-card" [ngStyle]="theme">
-  @if (url && external) {
+<div class="card mdc-card" [ngStyle]="theme()">
+  @if (url() && external()) {
     <a
       class="mdc-card__primary-action primary-action"
-      [href]="url"
+      [href]="url()"
       target="_blank"
       rel="noopener"
       matRipple>
@@ -34,24 +34,24 @@
     </a>
   }
 
-  @if (url && !external) {
+  @if (url() && !external()) {
     <a
       class="mdc-card__primary-action primary-action"
-      [routerLink]="url"
+      [routerLink]="url()"
       matRipple>
       <ng-container *ngTemplateOutlet="content"></ng-container>
     </a>
   }
 
-  @if (!url) {
+  @if (!url()) {
     <div class="no-action">
       <ng-container *ngTemplateOutlet="content"></ng-container>
     </div>
   }
 
-  @if (actions.length) {
+  @if (actions().length) {
     <div class="mdc-card__actions">
-      @for (action of actions; track action) {
+      @for (action of actions(); track action) {
         <a mat-button [href]="action.url" target="_blank" rel="noopener">
           {{ action.title }}
         </a>

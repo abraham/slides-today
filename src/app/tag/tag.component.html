@@ -1,8 +1,8 @@
 <mat-chip-option
   role="row"
-  (selectionChange)="changeSelected($event, tag)"
-  [selected]="selected"
-  [ngStyle]="currentStyles"
-  [attr.data-id]="tag.id">
-  <span [ngStyle]="currentStyles">#{{ tag.id }}</span>
+  (selectionChange)="changeSelected($event, tag())"
+  [selected]="selected()"
+  [ngStyle]="currentStyles()"
+  [attr.data-id]="tag().id">
+  <span [ngStyle]="currentStyles()">#{{ tag().id }}</span>
 </mat-chip-option>

@@ -4,11 +4,13 @@ import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
   ElementRef,
+  HostListener,
   OnDestroy,
   OnInit,
-  ViewChild,
   ViewContainerRef,
   inject,
+  signal,
+  viewChild,
 } from '@angular/core';
 import { ActivatedRoute, Data, Router } from '@angular/router';
 import { ReplaySubject, Subject } from 'rxjs';
@@ -16,7 +18,6 @@ import { takeUntil } from 'rxjs/operators';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { Link } from '../models/link';
-import { DEFAULT_THEME } from '../models/theme';
 import { SeoService } from '../seo.service';
 import { CardComponent } from '../card/card.component';
 import { TagsComponent } from '../tags/tags.component';
@@ -55,23 +56,23 @@ export class DeckDetailsComponent
   private viewContainer = inject(ViewContainerRef);
   private seoService = inject(SeoService);
 
-  @ViewChild('detailsEl') detailsEl!: ElementRef;
+  readonly detailsEl = viewChild<ElementRef>('detailsEl');
 
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title
   deck$ = new ReplaySubject<Deck>();
-  embeds: Link[] = [];
-  embedWidth = 200;
-  colors = DEFAULT_THEME;
+  readonly embeds = signal<Link[]>([]);
+  readonly embedWidth = signal(200);
 
   private destroy$ = new Subject();
 
   private get columnWidth(): number {
-    if (!this.detailsEl) {
+    const detailsEl = this.detailsEl();
+    if (!detailsEl) {
       return 0;
     }
 
-    const { width } = this.detailsEl.nativeElement.getBoundingClientRect();
+    const { width } = detailsEl.nativeElement.getBoundingClientRect();
     if (width >= 840) {
       return width / 2;
     } else {
@@ -86,6 +87,11 @@ export class DeckDetailsComponent
     this.route.data
       .pipe(takeUntil(this.destroy$))
       .subscribe(data => this.deck$.next((data as DeckData).deck));
+  }
+
+  @HostListener('window:resize')
+  onResize(): void {
+    this.setEmbedWidth();
   }
 
   ngAfterContentChecked(): void {
@@ -122,19 +128,21 @@ export class DeckDetailsComponent
         /* webpackChunkName: 'share' */ '../share/share.component'
       );
       const share = this.viewContainer.createComponent(module.ShareComponent);
-      share.instance.text = deck.title;
+      share.setInput('text', deck.title);
     }, 1000);
   }
 
   private setEmbedWidth(): void {
-    if (this.embedWidth !== this.columnWidth) {
-      this.embedWidth = this.columnWidth;
+    if (this.embedWidth() !== this.columnWidth) {
+      this.embedWidth.set(this.columnWidth);
     }
   }
 
   private setEmbeds(deck: Deck): void {
-    this.embeds = deck.links.filter(({ service }) =>
-      Object.keys(EmbeddedServices).includes(service),
+    this.embeds.set(
+      deck.links.filter(({ service }) =>
+        Object.keys(EmbeddedServices).includes(service),
+      ),
     );
   }
 }

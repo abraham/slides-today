@@ -1,5 +1,6 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnDestroy, OnInit, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import { EMPTY, Observable, Subject } from 'rxjs';
@@ -41,26 +42,26 @@ export class DeckListComponent implements OnInit, OnDestroy {
   private breakpointObserver = inject(BreakpointObserver);
   private seoService = inject(SeoService);
 
-  selectedTagIds$: Observable<string[]>;
+  readonly selectedTagIds$ = this.dataService.selectedTagIds$;
   decks$!: Observable<Deck[]>;
-  mobile = false;
-  hasSelectedTagIds = false;
+  readonly mobile = toSignal(
+    this.breakpointObserver
+      .observe([Breakpoints.XSmall])
+      .pipe(map(({ matches }) => matches)),
+    { initialValue: false },
+  );
+  readonly hasSelectedTagIds = toSignal(
+    this.selectedTagIds$.pipe(
+      map(selectedTagIds => selectedTagIds.length !== 0),
+    ),
+    { initialValue: false },
+  );
 
   private destroy$ = new Subject();
-
-  constructor() {
-    this.selectedTagIds$ = this.dataService.selectedTagIds$;
-  }
 
   ngOnInit(): void {
     this.themeService.reset();
     this.seoService.reset();
-
-    this.selectedTagIds$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(selectedTagIds => {
-        this.hasSelectedTagIds = selectedTagIds.length !== 0;
-      });
 
     this.decks$ = this.deckService.filter(this.selectedTagIds$).pipe(
       withLatestFrom(this.selectedTagIds$),
@@ -70,10 +71,6 @@ export class DeckListComponent implements OnInit, OnDestroy {
         return filteredDecks;
       }),
     );
-    this.breakpointObserver
-      .observe([Breakpoints.XSmall])
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(({ matches }) => (this.mobile = matches));
     this.route.paramMap.pipe(
       map(params => params.get('id')),
       switchMap(id => (id ? this.deckService.get(id) : EMPTY)),

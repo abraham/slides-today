@@ -11,10 +11,10 @@
             <div body><app-tags [currentTags]="deck.tags"></app-tags></div>
           </app-card>
         </div>
-        @for (embed of embeds; track embed) {
+        @for (embed of embeds(); track embed) {
           <div class="item">
             <app-embed
-              [width]="embedWidth"
+              [width]="embedWidth()"
               [link]="embed"
               [title]="deck.title"
               [theme]="deck.theme"></app-embed>

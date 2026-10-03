@@ -1,11 +1,11 @@
-import { Component, OnDestroy, OnInit, inject } from '@angular/core';
+import { Component, OnDestroy, OnInit, inject, signal } from '@angular/core';
 import { RouteConfigLoadEnd, Router, RouterOutlet } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { RoutedComponents } from './modules/app-routing.module';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
-import { NgStyle, AsyncPipe } from '@angular/common';
+import { NgStyle } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 
@@ -13,13 +13,7 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
   selector: 'app-root',
   styleUrls: ['./app.component.scss'],
   templateUrl: './app.component.html',
-  imports: [
-    NgStyle,
-    HeaderComponent,
-    NgxSkeletonLoaderComponent,
-    RouterOutlet,
-    AsyncPipe,
-  ],
+  imports: [NgStyle, HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
 })
 export class AppComponent implements OnInit, OnDestroy {
   private dataService = inject(DataService);
@@ -27,10 +21,10 @@ export class AppComponent implements OnInit, OnDestroy {
   private router = inject(Router);
 
   defaultTitle = 'Slides.today';
-  showBack = false;
-  title = this.defaultTitle;
-  theme$ = this.themeService.current$;
-  firstLoad = true;
+  readonly showBack = signal(false);
+  readonly title = signal(this.defaultTitle);
+  readonly theme = this.themeService.current;
+  readonly firstLoad = signal(true);
 
   private destroy$ = new Subject();
 
@@ -44,7 +38,7 @@ export class AppComponent implements OnInit, OnDestroy {
       .subscribe(this.updatePath.bind(this));
     this.router.events.pipe(takeUntil(this.destroy$)).subscribe(event => {
       if (event instanceof RouteConfigLoadEnd) {
-        this.firstLoad = false;
+        this.firstLoad.set(false);
       }
     });
   }
@@ -55,16 +49,8 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   onActivate(event: RoutedComponents): void {
-    if ('title' in event) {
-      this.title = event.title;
-    } else {
-      this.title = this.defaultTitle;
-    }
-    if ('showBack' in event) {
-      this.showBack = event.showBack;
-    } else {
-      this.showBack = false;
-    }
+    this.title.set('title' in event ? event.title : this.defaultTitle);
+    this.showBack.set('showBack' in event ? event.showBack : false);
   }
 
   private updatePath(tags: string[]): void {

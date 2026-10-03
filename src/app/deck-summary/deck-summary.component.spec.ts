@@ -18,7 +18,7 @@ describe('DeckSummaryComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(DeckSummaryComponent);
     component = fixture.componentInstance;
-    component.deck = new Deck(Data[0]);
+    fixture.componentRef.setInput('deck', new Deck(Data[0]));
     fixture.detectChanges();
   });
 
