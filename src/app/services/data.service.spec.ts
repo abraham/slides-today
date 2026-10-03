@@ -31,88 +31,31 @@ describe('DataService', () => {
 
   describe('tagSelection', () => {
     it('adds a selected tag', () => {
-      service.tagSelection({
-        id: 'polymer',
-        selected: true,
-        updatePath: false,
-      });
+      service.tagSelection({ id: 'polymer', selected: true });
 
       expect(service.selectedTagIds()).toEqual(['polymer']);
     });
 
+    it('keeps tags in selection order', () => {
+      service.tagSelection({ id: 'polymer', selected: true });
+      service.tagSelection({ id: 'php', selected: true });
+
+      expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
+    });
+
     it('does not duplicate a tag that is selected twice', () => {
-      service.tagSelection({
-        id: 'polymer',
-        selected: true,
-        updatePath: false,
-      });
-      service.tagSelection({
-        id: 'polymer',
-        selected: true,
-        updatePath: false,
-      });
+      service.tagSelection({ id: 'polymer', selected: true });
+      service.tagSelection({ id: 'polymer', selected: true });
 
       expect(service.selectedTagIds()).toEqual(['polymer']);
     });
 
     it('removes a deselected tag', () => {
-      service.tagSelection({
-        id: 'polymer',
-        selected: true,
-        updatePath: false,
-      });
-      service.tagSelection({ id: 'php', selected: true, updatePath: false });
-      service.tagSelection({
-        id: 'polymer',
-        selected: false,
-        updatePath: false,
-      });
+      service.tagSelection({ id: 'polymer', selected: true });
+      service.tagSelection({ id: 'php', selected: true });
+      service.tagSelection({ id: 'polymer', selected: false });
 
       expect(service.selectedTagIds()).toEqual(['php']);
-    });
-  });
-
-  describe('path', () => {
-    it('is undefined before any selection updates the path', () => {
-      expect(service.path()).toBeUndefined();
-    });
-
-    it('is the selected tag ids when updatePath is true', () => {
-      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
-
-      expect(service.path()).toEqual(['polymer']);
-    });
-
-    it('does not reorder the selected tag ids', () => {
-      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
-      service.tagSelection({ id: 'php', selected: true, updatePath: true });
-
-      expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
-    });
-
-    it('keeps the same value when the ids only differ in order', () => {
-      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
-      service.tagSelection({ id: 'php', selected: true, updatePath: true });
-      const path = service.path();
-      service.tagSelection({
-        id: 'polymer',
-        selected: false,
-        updatePath: false,
-      });
-      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
-
-      expect(service.selectedTagIds()).toEqual(['php', 'polymer']);
-      expect(service.path()).toBe(path);
-    });
-
-    it('is not updated when updatePath is false', () => {
-      service.tagSelection({
-        id: 'polymer',
-        selected: true,
-        updatePath: false,
-      });
-
-      expect(service.path()).toBeUndefined();
     });
   });
 
