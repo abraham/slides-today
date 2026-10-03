@@ -21,7 +21,13 @@ describe('AppComponent', () => {
           { path: 'lazy', loadComponent: () => Promise.resolve(StubComponent) },
           { path: '**', component: StubComponent },
         ]),
-        { provide: SwUpdate, useValue: { versionUpdates: new EventEmitter() } },
+        {
+          provide: SwUpdate,
+          useValue: {
+            versionUpdates: new EventEmitter(),
+            unrecoverable: new EventEmitter(),
+          },
+        },
       ],
     }).compileComponents();
   });

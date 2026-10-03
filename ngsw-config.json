@@ -7,7 +7,7 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
+          "/favicon.png",
           "/index.html",
           "/manifest.webmanifest",
           "/*.css",
@@ -54,10 +54,22 @@
     {
       "name": "api-data",
       "urls": [
-        "https://api.github.com/**"
+        "https://api.github.com/**",
+        "https://unpkg.com/**"
       ],
       "cacheConfig": {
         "maxSize": 100,
+        "maxAge": "7d",
+        "strategy": "performance"
+      }
+    },
+    {
+      "name": "video-thumbnails",
+      "urls": [
+        "https://i.ytimg.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 25,
         "maxAge": "7d",
         "strategy": "performance"
       }

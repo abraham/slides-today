@@ -22,6 +22,24 @@ When('I sleep for {int}', async (seconds: number): Promise<void> => {
   await sleep(seconds);
 });
 
+// The worker registers only once the app is stable, so it may not be active when the page first renders.
+When(
+  'the service worker is ready',
+  { timeout: 40 * 1000 },
+  async function (): Promise<void> {
+    await this.page.evaluate(async () => {
+      await navigator.serviceWorker.ready;
+      const isNormal = async () =>
+        (await (await fetch('/ngsw/state')).text()).includes(
+          'Driver state: NORMAL',
+        );
+      while (!(await isNormal())) {
+        await new Promise(resolve => setTimeout(resolve, 250));
+      }
+    });
+  },
+);
+
 When('I press {string}', async function (key: string): Promise<void> {
   // See https://pptr.dev/#?product=Puppeteer&show=api-keyboardpresskey-options for list of valid keys
   await this.page.keyboard.press(key);
