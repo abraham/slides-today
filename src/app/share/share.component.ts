@@ -1,14 +1,11 @@
 import {
-  AfterContentInit,
   Component,
-  DestroyRef,
   computed,
   inject,
   input,
   signal,
   viewChild,
 } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
@@ -24,16 +21,15 @@ const SNACK_BAR_CONFIG = { duration: 2500 };
   templateUrl: './share.component.html',
   imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })
-export class ShareComponent implements AfterContentInit {
+export class ShareComponent {
   private readonly themeService = inject(ThemeService);
   private readonly snackBar = inject(MatSnackBar);
-  private readonly destroyRef = inject(DestroyRef);
 
   readonly shareMenuTrigger =
     viewChild.required<MatMenuTrigger>('shareMenuTrigger');
   readonly text = input('');
   readonly theme = this.themeService.inverted;
-  readonly exited = signal(true);
+  readonly exited = signal(false);
   readonly twitterUrl = computed(() => this.services[SocialServices.twitter]());
   readonly facebookUrl = computed(() =>
     this.services[SocialServices.facebook](),
@@ -67,18 +63,6 @@ export class ShareComponent implements AfterContentInit {
     };
   }
 
-  ngAfterContentInit(): void {
-    const shareMenuTrigger = this.shareMenuTrigger();
-    if (!shareMenuTrigger) {
-      throw new Error('Missing ViewChild menu');
-    }
-
-    this.exited.set(false);
-    shareMenuTrigger.menuClosed
-      .pipe(takeUntilDestroyed(this.destroyRef))
-      .subscribe(() => this.exited.set(false));
-  }
-
   startShare(): void {
     this.exited.set(true);
     if (navigator.share) {
@@ -89,7 +73,7 @@ export class ShareComponent implements AfterContentInit {
         .catch(() =>
           this.snackBar.open('Error sharing', undefined, SNACK_BAR_CONFIG),
         )
-        .then(() => this.exited.set(false));
+        .finally(() => this.exited.set(false));
     } else {
       this.shareMenuTrigger().openMenu();
     }
