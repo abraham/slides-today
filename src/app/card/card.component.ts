@@ -1,5 +1,5 @@
 import { NgStyle, NgTemplateOutlet } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, computed, input } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
 import { RouterLink } from '@angular/router';
@@ -12,16 +12,11 @@ import { DEFAULT_THEME } from '../models/theme';
   templateUrl: './card.component.html',
   imports: [NgStyle, NgTemplateOutlet, RouterLink, MatButton, MatRippleModule],
 })
-export class CardComponent implements OnInit {
-  @Input() actions: Link[] = [];
-  @Input() image = '';
-  @Input() theme = DEFAULT_THEME;
-  @Input() url = '';
+export class CardComponent {
+  readonly actions = input<Link[]>([]);
+  readonly image = input('');
+  readonly theme = input(DEFAULT_THEME);
+  readonly url = input('');
 
-  external = false;
-
-  ngOnInit(): void {
-    this.external =
-      this.url.startsWith('http://') || this.url.startsWith('https://');
-  }
+  readonly external = computed(() => /^https?:\/\//.test(this.url()));
 }

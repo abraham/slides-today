@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Resource } from '../models/resource';
 import { CardComponent } from '../card/card.component';
 import {
@@ -25,5 +25,5 @@ import { MatIcon } from '@angular/material/icon';
   ],
 })
 export class DeckResourcesComponent {
-  @Input() resources: Resource[] = [];
+  readonly resources = input<Resource[]>([]);
 }

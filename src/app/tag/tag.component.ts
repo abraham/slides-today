@@ -1,9 +1,7 @@
-import { Component, Input, OnDestroy, OnInit, inject } from '@angular/core';
+import { Component, computed, inject, input } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { MatChipSelectionChange, MatChipOption } from '@angular/material/chips';
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
 import { Tag } from '../models/tag';
-import { DEFAULT_THEME } from '../models/theme';
 import { DataService } from '../services/data.service';
 import { NgStyle } from '@angular/common';
 
@@ -21,35 +19,29 @@ type ChipStyle = {
   templateUrl: './tag.component.html',
   imports: [MatChipOption, NgStyle],
 })
-export class TagComponent implements OnInit, OnDestroy {
+export class TagComponent {
   private dataService = inject(DataService);
 
-  @Input() tag!: Tag;
-  @Input() currentTag!: string;
+  readonly tag = input.required<Tag>();
 
-  currentStyles: ChipStyle = {
-    '--mat-chip-with-icon-selected-icon-color': DEFAULT_THEME.color,
-    '--mat-chip-selected-label-text-color': DEFAULT_THEME.color,
-    '--mat-chip-label-text-color': DEFAULT_THEME.color,
-    '--mat-chip-elevated-container-color': DEFAULT_THEME.backgroundColor,
-    '--mat-chip-elevated-selected-container-color':
-      DEFAULT_THEME.backgroundColor,
-  };
-  selected = false;
+  private readonly selectedTagIds = toSignal(this.dataService.selectedTagIds$, {
+    initialValue: [] as string[],
+  });
 
-  private destroy$ = new Subject();
+  readonly selected = computed(() =>
+    this.selectedTagIds().includes(this.tag().id),
+  );
 
-  ngOnInit(): void {
-    this.setCurrentStyles();
-    this.dataService.selectedTagIds$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(this.setSelection.bind(this));
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next(true);
-    this.destroy$.unsubscribe();
-  }
+  readonly currentStyles = computed<ChipStyle>(() => {
+    const { complementaryColor, primaryColor } = this.tag();
+    return {
+      '--mat-chip-label-text-color': complementaryColor,
+      '--mat-chip-selected-label-text-color': complementaryColor,
+      '--mat-chip-with-icon-selected-icon-color': complementaryColor,
+      '--mat-chip-elevated-container-color': primaryColor,
+      '--mat-chip-elevated-selected-container-color': primaryColor,
+    };
+  });
 
   changeSelected(event: MatChipSelectionChange, tag: Tag): void {
     this.dataService.tagSelection({
@@ -57,19 +49,5 @@ export class TagComponent implements OnInit, OnDestroy {
       selected: event.selected,
       updatePath: true,
     });
-  }
-
-  private setCurrentStyles(): void {
-    this.currentStyles = {
-      '--mat-chip-label-text-color': this.tag.complementaryColor,
-      '--mat-chip-selected-label-text-color': this.tag.complementaryColor,
-      '--mat-chip-with-icon-selected-icon-color': this.tag.complementaryColor,
-      '--mat-chip-elevated-container-color': this.tag.primaryColor,
-      '--mat-chip-elevated-selected-container-color': this.tag.primaryColor,
-    };
-  }
-
-  private setSelection(selectedTagIds: string[]): void {
-    this.selected = selectedTagIds.includes(this.tag.id);
   }
 }

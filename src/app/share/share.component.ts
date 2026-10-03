@@ -1,19 +1,18 @@
 import {
   AfterContentInit,
   Component,
-  Input,
-  OnDestroy,
-  OnInit,
-  ViewChild,
+  DestroyRef,
+  computed,
   inject,
+  input,
+  signal,
+  viewChild,
 } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
-import { DEFAULT_INVERTED_THEME } from '../models/theme';
 import { ThemeService } from '../services/theme.service';
 import { SocialServices } from '../social-services';
 
@@ -23,20 +22,24 @@ import { SocialServices } from '../social-services';
   templateUrl: './share.component.html',
   imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })
-export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
+export class ShareComponent implements AfterContentInit {
   private themeService = inject(ThemeService);
   private snackBar = inject(MatSnackBar);
+  private destroyRef = inject(DestroyRef);
 
-  @ViewChild('shareMenuTrigger', { static: true })
-  shareMenuTrigger!: MatMenuTrigger;
-  @Input() text = '';
-  theme = DEFAULT_INVERTED_THEME;
-  exited = true;
-  twitterUrl = '';
-  facebookUrl = '';
-  linkedinUrl = '';
+  readonly shareMenuTrigger =
+    viewChild.required<MatMenuTrigger>('shareMenuTrigger');
+  readonly text = input('');
+  readonly theme = this.themeService.inverted;
+  readonly exited = signal(true);
+  readonly twitterUrl = computed(() => this.services[SocialServices.twitter]());
+  readonly facebookUrl = computed(() =>
+    this.services[SocialServices.facebook](),
+  );
+  readonly linkedinUrl = computed(() =>
+    this.services[SocialServices.linkedin](),
+  );
 
-  private destroy$ = new Subject();
   private services: { [key: string]: () => string } = {
     [SocialServices.facebook]: () =>
       `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
@@ -47,7 +50,7 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
   };
 
   private get shareText(): string {
-    return encodeURIComponent(this.text);
+    return encodeURIComponent(this.text());
   }
 
   private get shareUrl(): string {
@@ -56,48 +59,35 @@ export class ShareComponent implements OnInit, AfterContentInit, OnDestroy {
 
   private get shareOptions(): ShareData {
     return {
-      text: this.text,
+      text: this.text(),
       title: 'Slides.Today',
       url: window.location.href,
     };
   }
 
-  ngOnInit(): void {
-    this.themeService.inverted$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(theme => (this.theme = theme));
-  }
-
   ngAfterContentInit(): void {
-    if (!this.shareMenuTrigger) {
+    const shareMenuTrigger = this.shareMenuTrigger();
+    if (!shareMenuTrigger) {
       throw new Error('Missing ViewChild menu');
     }
 
-    this.exited = false;
-    this.shareMenuTrigger.menuClosed
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(() => (this.exited = false));
-    this.linkedinUrl = this.services[SocialServices.linkedin]();
-    this.facebookUrl = this.services[SocialServices.facebook]();
-    this.twitterUrl = this.services[SocialServices.twitter]();
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next(true);
-    this.destroy$.unsubscribe();
+    this.exited.set(false);
+    shareMenuTrigger.menuClosed
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe(() => this.exited.set(false));
   }
 
   startShare(): void {
-    this.exited = true;
+    this.exited.set(true);
     if (navigator.share) {
       // Avoid showing native share menu and custom share menu at the same time
-      this.shareMenuTrigger.closeMenu();
+      this.shareMenuTrigger().closeMenu();
       navigator
         .share(this.shareOptions)
         .catch(() => this.snackBar.open('Error sharing'))
-        .then(() => (this.exited = false));
+        .then(() => this.exited.set(false));
     } else {
-      this.shareMenuTrigger.openMenu();
+      this.shareMenuTrigger().openMenu();
     }
   }
 

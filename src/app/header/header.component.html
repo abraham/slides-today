@@ -1,22 +1,22 @@
-<mat-toolbar [class.mat-elevation-z2]="!atTop" [ngStyle]="theme">
+<mat-toolbar [class.mat-elevation-z2]="!atTop()" [ngStyle]="theme()">
   <section>
-    @if (showBack) {
+    @if (showBack()) {
       <a
         mat-button
         (click)="goBack($event)"
         (keyup)="goBack($event)"
         href="/"
         title="Go back"
-        [ngStyle]="{ color: theme.color }">
+        [ngStyle]="{ color: theme().color }">
         <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
         Back
       </a>
     }
-    <span class="">{{ title }}</span>
+    <span class="">{{ title() }}</span>
   </section>
   <span class="spacer"></span>
   <section>
-    @if (updateAvailable) {
+    @if (updateAvailable()) {
       <button
         (click)="reload()"
         mat-icon-button
@@ -26,7 +26,7 @@
         <mat-icon fontSet="material-symbols-outlined">update</mat-icon>
       </button>
     }
-    @if (deferredInstallPrompt) {
+    @if (deferredInstallPrompt()) {
       <button
         (click)="openInstallPrompt()"
         (keyup)="openInstallPrompt()"

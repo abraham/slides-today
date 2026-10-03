@@ -1,11 +1,10 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
-  Input,
-  OnChanges,
-  OnInit,
-  SimpleChanges,
+  computed,
   inject,
+  input,
+  signal,
 } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
@@ -21,22 +20,34 @@ import { MatIcon } from '@angular/material/icon';
   imports: [NgStyle, MatFabButton, MatIcon],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class EmbedComponent implements OnInit, OnChanges {
+export class EmbedComponent {
   private sanitizer = inject(DomSanitizer);
 
-  @Input() title = '';
-  @Input() link!: Link;
-  @Input() width = 200;
-  @Input() theme = DEFAULT_THEME;
+  readonly title = input('');
+  readonly link = input.required<Link>();
+  readonly width = input(200);
+  readonly theme = input(DEFAULT_THEME);
 
-  height = 120;
-  url?: SafeResourceUrl;
-  youtubeId?: string;
-  placeholder = true;
-  dimensionStyles = {
-    height: `${this.height}px`,
-    width: `${this.width}px`,
-  };
+  readonly height = computed(() =>
+    Math.round((this.width() + 29) * this.ratioService[this.link().service]),
+  );
+  readonly dimensionStyles = computed(() => ({
+    height: `${this.height()}px`,
+    width: `${this.width()}px`,
+  }));
+  readonly youtubeId = computed(() =>
+    this.link().service === 'youtube' ? this.parsedYoutubeId : undefined,
+  );
+  readonly url = computed<SafeResourceUrl | undefined>(() => {
+    const { service } = this.link();
+    if (service === 'youtube') {
+      return undefined;
+    }
+    return this.sanitizer.bypassSecurityTrustResourceUrl(
+      this.urlService[service](),
+    );
+  });
+  readonly placeholder = signal(true);
 
   private get urlService(): { [index: string]: () => string } {
     return {
@@ -53,45 +64,15 @@ export class EmbedComponent implements OnInit, OnChanges {
   }
 
   private get backgroundColor(): string {
-    return this.theme.backgroundColor.split('#')[1];
+    return this.theme().backgroundColor.split('#')[1];
   }
 
   private get parsedVimeoId(): string {
-    return this.link.url.split('.com/')[1];
+    return this.link().url.split('.com/')[1];
   }
 
   private get parsedYoutubeId(): string {
-    return this.link.url.split('?v=')[1];
-  }
-
-  ngOnInit(): void {
-    this.setHeight();
-    if (this.link.service === 'youtube') {
-      this.youtubeId = this.parsedYoutubeId;
-    } else {
-      this.setUrl();
-    }
-  }
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes['width']) {
-      this.width = changes['width'].currentValue;
-      this.setHeight();
-      this.dimensionStyles = {
-        height: `${this.height}px`,
-        width: `${this.width}px`,
-      };
-    }
-  }
-
-  setHeight(): void {
-    const height = (this.width + 29) * this.ratioService[this.link.service];
-    this.height = Math.round(height);
-  }
-
-  private setUrl(): void {
-    const unsafeUrl = this.urlService[this.link.service]();
-    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(unsafeUrl);
+    return this.link().url.split('?v=')[1];
   }
 
   private buildVimeoUrl(): string {
@@ -110,6 +91,6 @@ export class EmbedComponent implements OnInit, OnChanges {
       loop: 'false',
       start: 'false',
     });
-    return `${this.link.url}/embed?${params}`;
+    return `${this.link().url}/embed?${params}`;
   }
 }

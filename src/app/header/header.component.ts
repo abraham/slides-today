@@ -1,16 +1,8 @@
 import { Location, NgStyle } from '@angular/common';
-import {
-  Component,
-  HostListener,
-  Input,
-  OnDestroy,
-  OnInit,
-  inject,
-} from '@angular/core';
+import { Component, HostListener, inject, input, signal } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { Router } from '@angular/router';
-import { Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
-import { DEFAULT_THEME } from '../models/theme';
+import { map } from 'rxjs/operators';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 import { MatToolbar } from '@angular/material/toolbar';
@@ -27,51 +19,39 @@ interface PromptEvent extends Event {
   templateUrl: './header.component.html',
   imports: [MatToolbar, NgStyle, MatButton, MatIcon, MatIconButton],
 })
-export class HeaderComponent implements OnInit, OnDestroy {
+export class HeaderComponent {
   private themeService = inject(ThemeService);
   private location = inject(Location);
   private router = inject(Router);
   private update = inject(UpdateService);
 
-  @Input() title = 'Slides.today';
-  @Input() showBack = false;
+  readonly title = input('Slides.today');
+  readonly showBack = input(false);
 
-  atTop = true;
-  theme = DEFAULT_THEME;
-  updateAvailable = false;
-  deferredInstallPrompt?: PromptEvent;
-
-  private destroy$ = new Subject();
-
-  ngOnInit(): void {
-    this.themeService.current$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(theme => (this.theme = theme));
-    this.update.$available
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(() => (this.updateAvailable = true));
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next(true);
-    this.destroy$.unsubscribe();
-  }
+  readonly atTop = signal(true);
+  readonly theme = this.themeService.current;
+  readonly updateAvailable = toSignal(
+    this.update.$available.pipe(map(() => true)),
+    { initialValue: false },
+  );
+  readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
 
   @HostListener('window:beforeinstallprompt', ['$event'])
   onBeforeInstallPrompt(event: Event) {
     event.preventDefault();
-    this.deferredInstallPrompt = event as PromptEvent;
+    this.deferredInstallPrompt.set(event as PromptEvent);
   }
 
   @HostListener('window:scroll')
   onScroll() {
-    this.atTop = window.scrollY === 0;
+    this.atTop.set(window.scrollY === 0);
   }
 
   openInstallPrompt(): void {
-    if (this.deferredInstallPrompt) {
-      this.deferredInstallPrompt.prompt();
-      this.deferredInstallPrompt = undefined;
+    const prompt = this.deferredInstallPrompt();
+    if (prompt) {
+      prompt.prompt();
+      this.deferredInstallPrompt.set(undefined);
     }
   }
 

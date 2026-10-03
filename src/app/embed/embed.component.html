@@ -1,22 +1,22 @@
-@if (youtubeId) {
-  <lite-youtube [attr.videoid]="youtubeId"></lite-youtube>
+@if (youtubeId()) {
+  <lite-youtube [attr.videoid]="youtubeId()"></lite-youtube>
 }
-@if (!youtubeId && !placeholder) {
+@if (!youtubeId() && !placeholder()) {
   <iframe
-    [attr.src]="url"
+    [attr.src]="url()"
     frameborder="0"
-    [width]="width"
-    [height]="height"
+    [width]="width()"
+    [height]="height()"
     allowfullscreen="true"
-    [attr.title]="title + ' ' + link.title"></iframe>
+    [attr.title]="title() + ' ' + link().title"></iframe>
 }
-@if (!youtubeId && placeholder) {
-  <div class="mdc-card" [ngStyle]="dimensionStyles">
+@if (!youtubeId() && placeholder()) {
+  <div class="mdc-card" [ngStyle]="dimensionStyles()">
     <div
       class="mdc-card__primary-action action"
       tabindex="0"
-      (click)="placeholder = false"
-      (keyup)="placeholder = false">
+      (click)="placeholder.set(false)"
+      (keyup)="placeholder.set(false)">
       <button mat-fab extended>
         <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>
         Enable embed

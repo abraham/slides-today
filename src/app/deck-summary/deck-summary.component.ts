@@ -1,11 +1,4 @@
-import {
-  Component,
-  ElementRef,
-  Input,
-  OnInit,
-  ViewChild,
-  inject,
-} from '@angular/core';
+import { Component, computed, inject, input } from '@angular/core';
 import { Router } from '@angular/router';
 import { Deck } from '../models/deck';
 import { CardComponent } from '../card/card.component';
@@ -18,15 +11,12 @@ import { TagListPipe } from '../tag-list.pipe';
   templateUrl: './deck-summary.component.html',
   imports: [CardComponent, AsyncPipe, TagListPipe],
 })
-export class DeckSummaryComponent implements OnInit {
+export class DeckSummaryComponent {
   private router = inject(Router);
 
-  @Input() deck!: Deck;
-  @ViewChild('cardEl', { static: true }) cardEl!: ElementRef;
+  readonly deck = input.required<Deck>();
 
-  url = '';
-
-  ngOnInit(): void {
-    this.url = this.router.createUrlTree(['/decks', this.deck.id]).toString();
-  }
+  readonly url = computed(() =>
+    this.router.createUrlTree(['/decks', this.deck().id]).toString(),
+  );
 }

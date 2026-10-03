@@ -1,37 +1,31 @@
-import { Injectable, inject } from '@angular/core';
+import { Injectable, computed, effect, inject, signal } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
-import { BehaviorSubject } from 'rxjs';
-import {
-  DEFAULT_INVERTED_THEME,
-  DEFAULT_THEME,
-  invert,
-  Theme,
-} from '../models/theme';
+import { DEFAULT_THEME, invert, Theme } from '../models/theme';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ThemeService {
   private meta = inject(Meta);
+  private theme = signal<Theme>(DEFAULT_THEME);
 
-  current$ = new BehaviorSubject<Theme>(DEFAULT_THEME);
-  inverted$ = new BehaviorSubject<Theme>(DEFAULT_INVERTED_THEME);
+  readonly current = this.theme.asReadonly();
+  readonly inverted = computed(() => invert(this.theme()));
 
   constructor() {
-    this.current$.subscribe(theme => {
-      this.inverted$.next(invert(theme));
+    effect(() => {
       this.meta.updateTag({
-        content: theme.backgroundColor,
+        content: this.theme().backgroundColor,
         name: 'theme-color',
       });
     });
   }
 
   update(theme: Theme): void {
-    this.current$.next(theme);
+    this.theme.set(theme);
   }
 
   reset(): void {
-    this.current$.next(DEFAULT_THEME);
+    this.theme.set(DEFAULT_THEME);
   }
 }

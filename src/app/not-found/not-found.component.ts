@@ -1,4 +1,4 @@
-import { Component, Input, inject } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { SeoService } from '../seo.service';
 import { ThemeService } from '../services/theme.service';
 
@@ -9,7 +9,7 @@ import { ThemeService } from '../services/theme.service';
   standalone: false,
 })
 export class NotFoundComponent {
-  @Input() text = 'Page Not Found';
+  readonly text = input('Page Not Found');
 
   constructor() {
     const themeService = inject(ThemeService);
