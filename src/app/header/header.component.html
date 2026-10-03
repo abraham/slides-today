@@ -4,7 +4,6 @@
       <a
         mat-button
         (click)="goBack($event)"
-        (keyup)="goBack($event)"
         href="/"
         title="Go back"
         [ngStyle]="{ color: theme().color }">
@@ -29,7 +28,6 @@
     @if (deferredInstallPrompt()) {
       <button
         (click)="openInstallPrompt()"
-        (keyup)="openInstallPrompt()"
         mat-icon-button
         aria-label="Install Slides.today"
         title="Install Slides.today"

@@ -27,4 +27,15 @@ describe('EmbedComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('enables the embed only when the button is activated', () => {
+    const element: HTMLElement = fixture.nativeElement;
+    element.querySelector('.action')!.dispatchEvent(new KeyboardEvent('keyup'));
+    fixture.detectChanges();
+    expect(element.querySelector('iframe')).toBeNull();
+
+    element.querySelector('button')!.click();
+    fixture.detectChanges();
+    expect(element.querySelector('iframe')).not.toBeNull();
+  });
 });
