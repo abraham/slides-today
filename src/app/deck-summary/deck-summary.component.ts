@@ -6,12 +6,12 @@ import { TagListPipe } from '../tag-list.pipe';
 
 @Component({
   selector: 'app-deck-summary',
-  styleUrls: ['./deck-summary.component.scss'],
+  styleUrl: './deck-summary.component.scss',
   templateUrl: './deck-summary.component.html',
   imports: [CardComponent, TagListPipe],
 })
 export class DeckSummaryComponent {
-  private router = inject(Router);
+  private readonly router = inject(Router);
 
   readonly deck = input.required<Deck>();
 

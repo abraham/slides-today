@@ -9,18 +9,29 @@ import {
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Link } from '../models/link';
 import { DEFAULT_THEME } from '../models/theme';
+import { Services } from '../services';
 import { MatFabButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 
+const ALLOWED_ORIGINS = ['https://docs.google.com', 'https://player.vimeo.com'];
+
+const RATIOS: Partial<Record<Services, number>> = {
+  [Services.slides]: 569 / 960,
+  [Services.vimeo]: 340 / 640,
+};
+
+const isAllowedUrl = (value: string): boolean =>
+  URL.canParse(value) && ALLOWED_ORIGINS.includes(new URL(value).origin);
+
 @Component({
   selector: 'app-embed',
-  styleUrls: ['./embed.component.scss'],
+  styleUrl: './embed.component.scss',
   templateUrl: './embed.component.html',
   imports: [MatFabButton, MatIcon],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class EmbedComponent {
-  private sanitizer = inject(DomSanitizer);
+  private readonly sanitizer = inject(DomSanitizer);
 
   readonly title = input('');
   readonly link = input.required<Link>();
@@ -28,7 +39,7 @@ export class EmbedComponent {
   readonly theme = input(DEFAULT_THEME);
 
   readonly height = computed(() =>
-    Math.round((this.width() + 29) * this.ratioService[this.link().service]),
+    Math.round((this.width() + 29) * (RATIOS[this.link().service] ?? 0)),
   );
   readonly dimensionStyles = computed(() => ({
     height: `${this.height()}px`,
@@ -39,28 +50,18 @@ export class EmbedComponent {
   );
   readonly url = computed<SafeResourceUrl | undefined>(() => {
     const { service } = this.link();
-    if (service === 'youtube') {
-      return undefined;
-    }
-    return this.sanitizer.bypassSecurityTrustResourceUrl(
-      this.urlService[service](),
-    );
+    const url =
+      service === Services.slides
+        ? this.buildGoogleSlidesUrl()
+        : service === Services.vimeo
+          ? this.buildVimeoUrl()
+          : undefined;
+    // Only trust URLs on known embed origins, since the link data is not validated.
+    return url && isAllowedUrl(url)
+      ? this.sanitizer.bypassSecurityTrustResourceUrl(url)
+      : undefined;
   });
   readonly placeholder = signal(true);
-
-  private get urlService(): { [index: string]: () => string } {
-    return {
-      slides: this.buildGoogleSlidesUrl.bind(this),
-      vimeo: this.buildVimeoUrl.bind(this),
-    };
-  }
-
-  private get ratioService(): { [index: string]: number } {
-    return {
-      slides: 569 / 960,
-      vimeo: 340 / 640,
-    };
-  }
 
   private get backgroundColor(): string {
     return this.theme().backgroundColor.split('#')[1];

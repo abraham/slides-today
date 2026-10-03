@@ -18,7 +18,7 @@ import { TagListPipe } from '../tag-list.pipe';
 
 @Component({
   selector: 'app-deck-list',
-  styleUrls: ['./deck-list.component.scss'],
+  styleUrl: './deck-list.component.scss',
   templateUrl: './deck-list.component.html',
   imports: [
     TagsComponent,
@@ -30,13 +30,13 @@ import { TagListPipe } from '../tag-list.pipe';
   ],
 })
 export class DeckListComponent {
-  private dataService = inject(DataService);
-  private themeService = inject(ThemeService);
-  private deckService = inject(DeckService);
-  private route = inject(ActivatedRoute);
-  private bottomSheet = inject(MatBottomSheet);
-  private breakpointObserver = inject(BreakpointObserver);
-  private seoService = inject(SeoService);
+  private readonly dataService = inject(DataService);
+  private readonly themeService = inject(ThemeService);
+  private readonly deckService = inject(DeckService);
+  private readonly route = inject(ActivatedRoute);
+  private readonly bottomSheet = inject(MatBottomSheet);
+  private readonly breakpointObserver = inject(BreakpointObserver);
+  private readonly seoService = inject(SeoService);
 
   readonly selectedTagIds = this.dataService.selectedTagIds;
   readonly decks = computed(() => {

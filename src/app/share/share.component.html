@@ -9,6 +9,7 @@
   title="Share"
   (click)="startShare()"
   [matMenuTriggerFor]="shareMenu"
+  (menuClosed)="exited.set(false)"
   #shareMenuTrigger="matMenuTrigger">
   <mat-icon fontSet="material-symbols-outlined">share</mat-icon>
   Share

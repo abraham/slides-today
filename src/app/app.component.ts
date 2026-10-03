@@ -13,13 +13,13 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-root',
-  styleUrls: ['./app.component.scss'],
+  styleUrl: './app.component.scss',
   templateUrl: './app.component.html',
   imports: [HeaderComponent, NgxSkeletonLoaderComponent, RouterOutlet],
 })
 export class AppComponent {
-  private themeService = inject(ThemeService);
-  private router = inject(Router);
+  private readonly themeService = inject(ThemeService);
+  private readonly router = inject(Router);
 
   defaultTitle = 'Slides.today';
   readonly skeletonRows = [0, 1, 2, 3, 4];

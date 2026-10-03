@@ -12,7 +12,7 @@ import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-deck-resources',
-  styleUrls: ['./deck-resources.component.scss'],
+  styleUrl: './deck-resources.component.scss',
   templateUrl: './deck-resources.component.html',
   imports: [
     CardComponent,

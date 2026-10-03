@@ -8,7 +8,7 @@ import { DEFAULT_THEME } from '../models/theme';
 
 @Component({
   selector: 'app-card',
-  styleUrls: ['./card.component.scss'],
+  styleUrl: './card.component.scss',
   templateUrl: './card.component.html',
   imports: [NgTemplateOutlet, RouterLink, MatButton, MatRippleModule],
 })

@@ -1,6 +1,5 @@
 import { Location } from '@angular/common';
 import {
-  CUSTOM_ELEMENTS_SCHEMA,
   Component,
   ComponentRef,
   DestroyRef,
@@ -28,10 +27,13 @@ import { SpeakerComponent } from '../speaker/speaker.component';
 import { MapComponent } from '../map/map.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
+import { GithubRepositoryComponent } from '../web-components/github-repository.component';
+import { NodePackageComponent } from '../web-components/node-package.component';
+import { TwitterStatusComponent } from '../web-components/twitter-status.component';
 
 @Component({
   selector: 'app-deck-details',
-  styleUrls: ['./deck-details.component.scss'],
+  styleUrl: './deck-details.component.scss',
   templateUrl: './deck-details.component.html',
   imports: [
     CardComponent,
@@ -41,15 +43,17 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
     MapComponent,
     SponsorComponent,
     DeckResourcesComponent,
+    GithubRepositoryComponent,
+    NodePackageComponent,
+    TwitterStatusComponent,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DeckDetailsComponent {
-  private location = inject(Location);
-  private router = inject(Router);
-  private viewContainer = inject(ViewContainerRef);
-  private seoService = inject(SeoService);
-  private tweetService = inject(TweetService);
+  private readonly location = inject(Location);
+  private readonly router = inject(Router);
+  private readonly viewContainer = inject(ViewContainerRef);
+  private readonly seoService = inject(SeoService);
+  private readonly tweetService = inject(TweetService);
   private share?: ComponentRef<ShareComponent>;
   private shareTimer?: ReturnType<typeof setTimeout>;
   private destroyed = false;

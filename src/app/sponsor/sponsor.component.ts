@@ -11,7 +11,7 @@ import {
 
 @Component({
   selector: 'app-sponsor',
-  styleUrls: ['./sponsor.component.scss'],
+  styleUrl: './sponsor.component.scss',
   templateUrl: './sponsor.component.html',
   imports: [
     CardComponent,
@@ -23,7 +23,7 @@ import {
   ],
 })
 export class SponsorComponent {
-  private sponsorService = inject(SponsorService);
+  private readonly sponsorService = inject(SponsorService);
 
   readonly sponsorIds = input.required<string[]>();
   readonly sponsors = computed(() =>

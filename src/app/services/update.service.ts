@@ -7,12 +7,12 @@ import { filter } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class UpdateService {
-  $available: Observable<VersionReadyEvent>;
+  available$: Observable<VersionReadyEvent>;
 
   constructor() {
     const updates = inject(SwUpdate);
 
-    this.$available = updates.versionUpdates.pipe(
+    this.available$ = updates.versionUpdates.pipe(
       filter((evt): evt is VersionReadyEvent => evt.type === 'VERSION_READY'),
     );
   }

@@ -14,13 +14,13 @@ type ChipStyle = {
 
 @Component({
   selector: 'app-tag',
-  styleUrls: ['./tag.component.scss'],
+  styleUrl: './tag.component.scss',
   templateUrl: './tag.component.html',
   imports: [MatChipOption],
 })
 export class TagComponent {
-  private dataService = inject(DataService);
-  private router = inject(Router);
+  private readonly dataService = inject(DataService);
+  private readonly router = inject(Router);
 
   readonly tag = input.required<Tag>();
 

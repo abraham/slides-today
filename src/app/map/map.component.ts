@@ -4,7 +4,7 @@ import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-map',
-  styleUrls: ['./map.component.scss'],
+  styleUrl: './map.component.scss',
   templateUrl: './map.component.html',
   imports: [CardComponent],
 })

@@ -5,12 +5,12 @@ import { TagComponent } from '../tag/tag.component';
 
 @Component({
   selector: 'app-tags',
-  styleUrls: ['./tags.component.scss'],
+  styleUrl: './tags.component.scss',
   templateUrl: './tags.component.html',
   imports: [MatChipListbox, TagComponent],
 })
 export class TagsComponent {
-  private dataService = inject(DataService);
+  private readonly dataService = inject(DataService);
 
   readonly currentTags = input<string[]>([]);
 

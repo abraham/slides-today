@@ -3,7 +3,7 @@ import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-about',
-  styleUrls: ['./about.component.scss'],
+  styleUrl: './about.component.scss',
   templateUrl: './about.component.html',
   imports: [CardComponent],
 })

@@ -4,7 +4,7 @@ import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'app-not-found',
-  styleUrls: ['./not-found.component.scss'],
+  styleUrl: './not-found.component.scss',
   templateUrl: './not-found.component.html',
 })
 export class NotFoundComponent {

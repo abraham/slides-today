@@ -15,7 +15,7 @@ interface PromptEvent extends Event {
 
 @Component({
   selector: 'app-header',
-  styleUrls: ['./header.component.scss'],
+  styleUrl: './header.component.scss',
   templateUrl: './header.component.html',
   imports: [MatToolbar, MatButton, MatIcon, MatIconButton],
   host: {
@@ -24,10 +24,10 @@ interface PromptEvent extends Event {
   },
 })
 export class HeaderComponent {
-  private themeService = inject(ThemeService);
-  private location = inject(Location);
-  private router = inject(Router);
-  private update = inject(UpdateService);
+  private readonly themeService = inject(ThemeService);
+  private readonly location = inject(Location);
+  private readonly router = inject(Router);
+  private readonly update = inject(UpdateService);
 
   readonly title = input('Slides.today');
   readonly showBack = input(false);
@@ -35,7 +35,7 @@ export class HeaderComponent {
   readonly atTop = signal(true);
   readonly theme = this.themeService.current;
   readonly updateAvailable = toSignal(
-    this.update.$available.pipe(map(() => true)),
+    this.update.available$.pipe(map(() => true)),
     { initialValue: false },
   );
   readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
