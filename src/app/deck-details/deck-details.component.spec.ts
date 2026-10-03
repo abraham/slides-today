@@ -84,4 +84,48 @@ describe('DeckDetailsComponent', () => {
       expect(shareCount()).toBe(0);
     });
   });
+
+  describe('tweets', () => {
+    const deckWithTweets = (): Deck => {
+      const raw = Data.find(deck => deck.tweetIds.length === 2)!;
+      return new Deck(raw);
+    };
+    const statusCount = (): number =>
+      fixture.nativeElement.querySelectorAll('twitter-status').length;
+    // whenStable never resolves under fake timers.
+    const settle = async (): Promise<void> => {
+      fixture.detectChanges();
+      await vi.advanceTimersByTimeAsync(0);
+      fixture.detectChanges();
+    };
+
+    it('loads and renders a status for each tweet id', async () => {
+      const fetchMock = vi.fn(async (url: string) => ({
+        ok: true,
+        json: async () => ({ id_str: url }),
+      }));
+      vi.stubGlobal('fetch', fetchMock);
+      const deck = deckWithTweets();
+
+      fixture.componentRef.setInput('deck', deck);
+      await settle();
+
+      expect(fetchMock.mock.calls.map(([url]) => url)).toEqual(
+        deck.tweetIds.map(id => `/assets/statuses/${id}.json`),
+      );
+      expect(statusCount()).toBe(2);
+    });
+
+    it('renders no statuses when a status fails to load', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => ({ ok: false, status: 404 })),
+      );
+
+      fixture.componentRef.setInput('deck', deckWithTweets());
+      await settle();
+
+      expect(statusCount()).toBe(0);
+    });
+  });
 });

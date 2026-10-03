@@ -46,7 +46,7 @@
         @for (name of deck.nodePackages; track name) {
           <node-package class="item" [attr.name]="name" />
         }
-        @for (status of deck.tweets | async; track status.id_str) {
+        @for (status of tweets(); track status.id_str) {
           <twitter-status class="item" [status]="status" />
         }
       </div>

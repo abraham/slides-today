@@ -11,6 +11,6 @@ import { CardComponent } from '../card/card.component';
 export class SpeakerComponent {
   private speakerService = inject(SpeakerService);
 
-  readonly speakerId = input<string>();
+  readonly speakerId = input.required<string>();
   readonly speaker = computed(() => this.speakerService.get(this.speakerId()));
 }
