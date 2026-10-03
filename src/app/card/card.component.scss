@@ -33,6 +33,13 @@ div {
   .subtitle {
     margin: 0;
   }
+
+  // An unused content slot leaves an empty heading, which screen readers announce.
+  .hero:empty,
+  .title:empty,
+  .subtitle:empty {
+    display: none;
+  }
 }
 
 .secondary {

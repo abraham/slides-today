@@ -55,8 +55,6 @@ export class DeckDetailsComponent {
   private destroyed = false;
   readonly detailsEl = viewChild<ElementRef>('detailsEl');
 
-  showBack = true; // Show back button in app bar
-  title = ''; // Clear site title
   readonly deck = input.required<Deck>();
   readonly embeds = computed(() =>
     this.deck().links.filter(({ service }) =>
@@ -110,10 +108,6 @@ export class DeckDetailsComponent {
     } else {
       this.router.navigate(['/']);
     }
-  }
-
-  open(url: string): void {
-    window.open(url);
   }
 
   private init(deck: Deck): void {

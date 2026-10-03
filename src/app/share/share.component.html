@@ -17,7 +17,6 @@
 <mat-menu #shareMenu="matMenu" class="app-menu--absolute" overlapTrigger>
   <a
     mat-menu-item
-    role="menuitem"
     [attr.href]="linkedinUrl()"
     target="_blank"
     rel="noopener"
@@ -27,7 +26,6 @@
   </a>
   <a
     mat-menu-item
-    role="menuitem"
     [attr.href]="twitterUrl()"
     target="_blank"
     rel="noopener"
@@ -37,7 +35,6 @@
   </a>
   <a
     mat-menu-item
-    role="menuitem"
     [attr.href]="facebookUrl()"
     target="_blank"
     rel="noopener"
@@ -45,13 +42,7 @@
     <mat-icon fontSet="material-symbols-outlined">book</mat-icon>
     <span>Post</span>
   </a>
-  <button
-    mat-menu-item
-    role="menuitem"
-    target="_blank"
-    rel="noopener"
-    title="Copy URL to clipboard"
-    (click)="copy()">
+  <button mat-menu-item title="Copy URL to clipboard" (click)="copy()">
     <mat-icon fontSet="material-symbols-outlined">content_copy</mat-icon>
     <span>Copy</span>
   </button>
