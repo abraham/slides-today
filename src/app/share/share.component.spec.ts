@@ -1,7 +1,13 @@
+import { PlatformLocation } from '@angular/common';
+import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router, provideRouter } from '@angular/router';
 
 import { ShareComponent } from './share.component';
+
+@Component({ template: '' })
+class StubComponent {}
 
 describe('ShareComponent', () => {
   let component: ShareComponent;
@@ -10,6 +16,7 @@ describe('ShareComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ShareComponent],
+      providers: [provideRouter([{ path: '**', component: StubComponent }])],
     }).compileComponents();
   });
 
@@ -62,6 +69,36 @@ describe('ShareComponent', () => {
         undefined,
         expect.anything(),
       );
+    });
+  });
+
+  describe('share urls', () => {
+    it('encode the page url and text for each service', () => {
+      fixture.componentRef.setInput('text', 'A deck & more');
+      const url = encodeURIComponent(TestBed.inject(PlatformLocation).href);
+      const text = encodeURIComponent('A deck & more');
+
+      expect(component.facebookUrl()).toBe(
+        `https://www.facebook.com/sharer/sharer.php?u=${url}`,
+      );
+      expect(component.linkedinUrl()).toBe(
+        `https://www.linkedin.com/sharing/share-offsite/?url=${url}`,
+      );
+      expect(component.twitterUrl()).toBe(
+        `https://twitter.com/intent/tweet?text=${text} ${url}`,
+      );
+    });
+
+    it('follow navigation to another page', async () => {
+      const location = TestBed.inject(PlatformLocation);
+      const before = location.href;
+      await TestBed.inject(Router).navigateByUrl('/decks/other');
+
+      const url = encodeURIComponent(location.href);
+      expect(location.href).not.toBe(before);
+      expect(component.facebookUrl()).toContain(url);
+      expect(component.linkedinUrl()).toContain(url);
+      expect(component.twitterUrl()).toContain(url);
     });
   });
 

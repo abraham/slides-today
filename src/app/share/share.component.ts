@@ -1,3 +1,4 @@
+import { PlatformLocation } from '@angular/common';
 import {
   Component,
   computed,
@@ -6,12 +7,14 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { NavigationEnd, Router } from '@angular/router';
+import { filter, map } from 'rxjs/operators';
 import { ThemeService } from '../services/theme.service';
-import { SocialServices } from '../social-services';
 
 const SNACK_BAR_CONFIG = { duration: 2500 };
 
@@ -24,44 +27,39 @@ const SNACK_BAR_CONFIG = { duration: 2500 };
 export class ShareComponent {
   private readonly themeService = inject(ThemeService);
   private readonly snackBar = inject(MatSnackBar);
+  private readonly platformLocation = inject(PlatformLocation);
+  private readonly router = inject(Router);
 
   readonly shareMenuTrigger =
     viewChild.required<MatMenuTrigger>('shareMenuTrigger');
   readonly text = input('');
   readonly theme = this.themeService.inverted;
   readonly exited = signal(false);
-  readonly twitterUrl = computed(() => this.services[SocialServices.twitter]());
-  readonly facebookUrl = computed(() =>
-    this.services[SocialServices.facebook](),
+
+  // The page URL changes with navigation, and the component outlives a deck change.
+  private readonly url = toSignal(
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd),
+      map(() => this.platformLocation.href),
+    ),
+    { initialValue: this.platformLocation.href },
   );
-  readonly linkedinUrl = computed(() =>
-    this.services[SocialServices.linkedin](),
+  private readonly encodedUrl = computed(() => encodeURIComponent(this.url()));
+  private readonly encodedText = computed(() =>
+    encodeURIComponent(this.text()),
   );
 
-  private services: { [key: string]: () => string } = {
-    [SocialServices.facebook]: () =>
-      `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`,
-    [SocialServices.linkedin]: () =>
-      `https://www.linkedin.com/sharing/share-offsite/?url=${this.shareUrl}`,
-    [SocialServices.twitter]: () =>
-      `https://twitter.com/intent/tweet?text=${this.shareText} ${this.shareUrl}`,
-  };
-
-  private get shareText(): string {
-    return encodeURIComponent(this.text());
-  }
-
-  private get shareUrl(): string {
-    return encodeURIComponent(window.location.href);
-  }
-
-  private get shareOptions(): ShareData {
-    return {
-      text: this.text(),
-      title: 'Slides.Today',
-      url: window.location.href,
-    };
-  }
+  readonly twitterUrl = computed(
+    () =>
+      `https://twitter.com/intent/tweet?text=${this.encodedText()} ${this.encodedUrl()}`,
+  );
+  readonly facebookUrl = computed(
+    () => `https://www.facebook.com/sharer/sharer.php?u=${this.encodedUrl()}`,
+  );
+  readonly linkedinUrl = computed(
+    () =>
+      `https://www.linkedin.com/sharing/share-offsite/?url=${this.encodedUrl()}`,
+  );
 
   startShare(): void {
     this.exited.set(true);
@@ -69,7 +67,11 @@ export class ShareComponent {
       // Avoid showing native share menu and custom share menu at the same time
       this.shareMenuTrigger().closeMenu();
       navigator
-        .share(this.shareOptions)
+        .share({
+          text: this.text(),
+          title: 'Slides.Today',
+          url: this.url(),
+        })
         .catch(() =>
           this.snackBar.open('Error sharing', undefined, SNACK_BAR_CONFIG),
         )
@@ -81,7 +83,7 @@ export class ShareComponent {
 
   copy(): void {
     navigator.clipboard
-      .writeText(window.location.href)
+      .writeText(this.url())
       .then(() =>
         this.snackBar.open(
           'URL copied to clipboard',
