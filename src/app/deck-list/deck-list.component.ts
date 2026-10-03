@@ -1,14 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import {
-  Component,
-  DestroyRef,
-  computed,
-  effect,
-  inject,
-  input,
-  signal,
-  untracked,
-} from '@angular/core';
+import { Component, DestroyRef, computed, inject, signal } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
@@ -43,8 +34,6 @@ export class DeckListComponent {
   private readonly breakpointObserver = inject(BreakpointObserver);
   private readonly seoService = inject(SeoService);
 
-  // Comma separated tag ids from the `tags` matrix param, bound by the router.
-  readonly tags = input<string>();
   readonly selectedTagIds = this.dataService.selectedTagIds;
   readonly decks = computed(() => {
     const selectedTagIds = this.selectedTagIds();
@@ -64,20 +53,9 @@ export class DeckListComponent {
       .observe([Breakpoints.XSmall])
       .subscribe(({ matches }) => this.mobile.set(matches));
     inject(DestroyRef).onDestroy(() => breakpoints.unsubscribe());
-
-    effect(() => {
-      const tags = this.tags();
-      if (tags) {
-        untracked(() => tags.split(',').forEach(tag => this.selectTag(tag)));
-      }
-    });
   }
 
   openTagsSheet(): void {
     this.bottomSheet.open(TagsSheetComponent);
-  }
-
-  private selectTag(tag: string): void {
-    this.dataService.tagSelection({ id: tag, selected: true });
   }
 }

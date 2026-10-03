@@ -1,9 +1,12 @@
+import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatChipSelectionChange } from '@angular/material/chips';
-import { Router } from '@angular/router';
-import { DataService } from '../services/data.service';
+import { Router, provideRouter } from '@angular/router';
 
 import { TagComponent } from './tag.component';
+
+@Component({ template: '' })
+class StubComponent {}
 
 describe('TagComponent', () => {
   let component: TagComponent;
@@ -12,6 +15,7 @@ describe('TagComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [TagComponent],
+      providers: [provideRouter([{ path: '**', component: StubComponent }])],
     }).compileComponents();
   });
 
@@ -56,18 +60,16 @@ describe('TagComponent', () => {
       navigate.mockResolvedValue(true);
     });
 
+    const showing = (url: string) => TestBed.inject(Router).navigateByUrl(url);
+
     it('does not navigate when the chip state is set programmatically', () => {
       component.changeSelected(change(true, false), tag);
 
-      expect(TestBed.inject(DataService).selectedTagIds()).toEqual(['angular']);
       expect(navigate).not.toHaveBeenCalled();
     });
 
-    it('does not navigate when rendered for an already selected tag', () => {
-      TestBed.inject(DataService).tagSelection({
-        id: 'angular',
-        selected: true,
-      });
+    it('does not navigate when rendered for an already selected tag', async () => {
+      await showing('/tags;tags=angular');
 
       const selected = TestBed.createComponent(TagComponent);
       selected.componentRef.setInput('tag', tag);
@@ -76,15 +78,48 @@ describe('TagComponent', () => {
       expect(navigate).not.toHaveBeenCalled();
     });
 
-    it('selects the tag and navigates to the selected tags', () => {
+    it('marks the chip selected when the url selects the tag', async () => {
+      await showing('/tags;tags=php,angular');
+
+      expect(component.selected()).toBe(true);
+    });
+
+    it('navigates to the tag when none are selected', () => {
       component.changeSelected(change(true), tag);
 
-      expect(TestBed.inject(DataService).selectedTagIds()).toEqual(['angular']);
       expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['angular'] }]);
     });
 
-    it('navigates home when the last tag is deselected', () => {
+    it('adds the tag to the selected tags', async () => {
+      await showing('/tags;tags=php');
+
       component.changeSelected(change(true), tag);
+
+      expect(navigate).toHaveBeenCalledWith([
+        '/tags',
+        { tags: ['php', 'angular'] },
+      ]);
+    });
+
+    it('does not duplicate a tag that is already selected', async () => {
+      await showing('/tags;tags=angular');
+
+      component.changeSelected(change(true), tag);
+
+      expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['angular'] }]);
+    });
+
+    it('removes the tag from the selected tags', async () => {
+      await showing('/tags;tags=php,angular');
+
+      component.changeSelected(change(false), tag);
+
+      expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['php'] }]);
+    });
+
+    it('navigates home when the last tag is deselected', async () => {
+      await showing('/tags;tags=angular');
+
       component.changeSelected(change(false), tag);
 
       expect(navigate).toHaveBeenLastCalledWith(['/']);

@@ -3,8 +3,3 @@ export interface Tag {
   primaryColor: string;
   complementaryColor: string;
 }
-
-export interface TagSelectionEvent {
-  id: string;
-  selected: boolean;
-}

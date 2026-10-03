@@ -1,12 +1,19 @@
+import { Component } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
+import { Router, provideRouter } from '@angular/router';
 import tagData from '../tags.data.json';
 import { DataService } from './data.service';
+
+@Component({ template: '' })
+class StubComponent {}
 
 describe('DataService', () => {
   let service: DataService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      providers: [provideRouter([{ path: '**', component: StubComponent }])],
+    });
     service = TestBed.inject(DataService);
   });
 
@@ -29,33 +36,38 @@ describe('DataService', () => {
     });
   });
 
-  describe('tagSelection', () => {
-    it('adds a selected tag', () => {
-      service.tagSelection({ id: 'polymer', selected: true });
+  describe('selectedTagIds', () => {
+    const navigate = (url: string) => TestBed.inject(Router).navigateByUrl(url);
 
-      expect(service.selectedTagIds()).toEqual(['polymer']);
+    it('is empty before any navigation', () => {
+      expect(service.selectedTagIds()).toEqual([]);
     });
 
-    it('keeps tags in selection order', () => {
-      service.tagSelection({ id: 'polymer', selected: true });
-      service.tagSelection({ id: 'php', selected: true });
+    it('is the tags param of the tags url, in order', async () => {
+      await navigate('/tags;tags=polymer,php');
 
       expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
     });
 
-    it('does not duplicate a tag that is selected twice', () => {
-      service.tagSelection({ id: 'polymer', selected: true });
-      service.tagSelection({ id: 'polymer', selected: true });
+    it('follows later navigations', async () => {
+      await navigate('/tags;tags=polymer,php');
+      await navigate('/tags;tags=php');
+      expect(service.selectedTagIds()).toEqual(['php']);
 
-      expect(service.selectedTagIds()).toEqual(['polymer']);
+      await navigate('/');
+      expect(service.selectedTagIds()).toEqual([]);
     });
 
-    it('removes a deselected tag', () => {
-      service.tagSelection({ id: 'polymer', selected: true });
-      service.tagSelection({ id: 'php', selected: true });
-      service.tagSelection({ id: 'polymer', selected: false });
+    it('is empty on other pages even with a tags param', async () => {
+      await navigate('/decks/abc;tags=polymer');
 
-      expect(service.selectedTagIds()).toEqual(['php']);
+      expect(service.selectedTagIds()).toEqual([]);
+    });
+
+    it('ignores an empty tags param', async () => {
+      await navigate('/tags;tags=');
+
+      expect(service.selectedTagIds()).toEqual([]);
     });
   });
 
