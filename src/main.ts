@@ -1,4 +1,8 @@
-import { enableProdMode, inject, provideAppInitializer } from '@angular/core';
+import {
+  inject,
+  provideAppInitializer,
+  provideBrowserGlobalErrorListeners,
+} from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import {
   NavigationEnd,
@@ -16,12 +20,9 @@ import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes';
 import { environment } from './environments/environment';
 
-if (environment.production) {
-  enableProdMode();
-}
-
 bootstrapApplication(AppComponent, {
   providers: [
+    provideBrowserGlobalErrorListeners(),
     provideRouter(
       routes,
       withComponentInputBinding(),
