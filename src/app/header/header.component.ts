@@ -35,7 +35,7 @@ export class HeaderComponent {
   readonly atTop = signal(true);
   readonly theme = this.themeService.current;
   readonly updateAvailable = toSignal(
-    this.update.$available.pipe(map(() => true)),
+    this.update.available$.pipe(map(() => true)),
     { initialValue: false },
   );
   readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
