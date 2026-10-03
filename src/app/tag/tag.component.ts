@@ -46,6 +46,10 @@ export class TagComponent {
       id: tag.id,
       selected: event.selected,
     });
+    // Chips also emit when their selected state is bound, which must not navigate.
+    if (!event.isUserInput) {
+      return;
+    }
     const tags = this.selectedTagIds();
     if (tags.length === 0) {
       this.router.navigate(['/']);
