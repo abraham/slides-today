@@ -42,15 +42,14 @@ export class TagComponent {
   });
 
   changeSelected(event: MatChipSelectionChange, tag: Tag): void {
-    this.dataService.tagSelection({
-      id: tag.id,
-      selected: event.selected,
-    });
     // Chips also emit when their selected state is bound, which must not navigate.
     if (!event.isUserInput) {
       return;
     }
-    const tags = this.selectedTagIds();
+    const current = this.selectedTagIds();
+    const tags = event.selected
+      ? [...new Set([...current, tag.id])]
+      : current.filter(id => id !== tag.id);
     if (tags.length === 0) {
       this.router.navigate(['/']);
     } else {

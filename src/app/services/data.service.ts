@@ -1,5 +1,6 @@
-import { Injectable, signal } from '@angular/core';
-import { Tag, TagSelectionEvent } from '../models/tag';
+import { Injectable, computed, inject } from '@angular/core';
+import { PRIMARY_OUTLET, Router } from '@angular/router';
+import { Tag } from '../models/tag';
 import tagData from '../tags.data.json';
 
 const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
@@ -12,23 +13,25 @@ const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
   return 0;
 };
 
-const unique = (values: string[]): string[] => [...new Set(values)];
-
 @Injectable({
   providedIn: 'root',
 })
 export class DataService {
+  private readonly router = inject(Router);
+
   readonly tags: Tag[] = [...tagData].sort(sortTags);
 
-  private readonly selectedTagIdsState = signal<string[]>([]);
-
-  readonly selectedTagIds = this.selectedTagIdsState.asReadonly();
-
-  tagSelection(event: TagSelectionEvent): void {
-    this.selectedTagIdsState.update(selectedTagIds =>
-      this.updateSelectedTagIds(selectedTagIds, event),
-    );
-  }
+  // The `tags` matrix param of the `/tags` route is the only record of the selection.
+  readonly selectedTagIds = computed(() => {
+    const segment =
+      this.router.lastSuccessfulNavigation()?.finalUrl?.root.children[
+        PRIMARY_OUTLET
+      ]?.segments[0];
+    if (segment?.path !== 'tags') {
+      return [];
+    }
+    return (segment.parameters['tags'] ?? '').split(',').filter(id => id);
+  });
 
   filterTags(ids: string[]): Tag[] {
     if (ids.length === 0) {
@@ -39,16 +42,5 @@ export class DataService {
 
   tag(id: string): Tag | undefined {
     return this.tags.find(tag => tag.id === id);
-  }
-
-  private updateSelectedTagIds(
-    selectedTagIds: string[],
-    event: TagSelectionEvent,
-  ): string[] {
-    if (event.selected) {
-      return unique([...selectedTagIds, event.id]);
-    } else {
-      return selectedTagIds.filter(tagId => tagId !== event.id);
-    }
   }
 }

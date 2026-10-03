@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { Router, provideRouter } from '@angular/router';
 import { SwUpdate } from '@angular/service-worker';
-import { EMPTY } from 'rxjs';
 import { AppComponent } from './app.component';
 
 @Component({ template: '' })
@@ -21,7 +20,7 @@ describe('AppComponent', () => {
           },
           { path: '**', component: StubComponent },
         ]),
-        { provide: SwUpdate, useValue: { versionUpdates: EMPTY } },
+        { provide: SwUpdate, useValue: { versionUpdates: new EventEmitter() } },
       ],
     }).compileComponents();
   });

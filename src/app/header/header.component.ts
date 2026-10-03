@@ -1,8 +1,6 @@
 import { Location } from '@angular/common';
 import { Component, inject, input, signal } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { Router } from '@angular/router';
-import { map } from 'rxjs/operators';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
 import { WINDOW } from '../window';
@@ -36,10 +34,7 @@ export class HeaderComponent {
 
   readonly atTop = signal(true);
   readonly theme = this.themeService.current;
-  readonly updateAvailable = toSignal(
-    this.update.available$.pipe(map(() => true)),
-    { initialValue: false },
-  );
+  readonly updateAvailable = this.update.available;
   readonly deferredInstallPrompt = signal<PromptEvent | undefined>(undefined);
 
   onBeforeInstallPrompt(event: Event) {

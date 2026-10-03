@@ -1,6 +1,4 @@
-import { Injectable } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
-import { from } from 'rxjs';
+import { Injectable, signal } from '@angular/core';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 
@@ -10,10 +8,11 @@ type RawDeck = (typeof Data)[number];
   providedIn: 'root',
 })
 export class DeckService {
+  private readonly decksState = signal<Deck[] | undefined>(undefined);
   private readonly loaded = this.fetchDecks();
 
   // Undefined until the deck data has loaded.
-  readonly decks = toSignal(from(this.loaded));
+  readonly decks = this.decksState.asReadonly();
 
   async get(id: string | null): Promise<Deck | undefined> {
     const decks = await this.loaded;
@@ -29,8 +28,10 @@ export class DeckService {
   private async fetchDecks(): Promise<Deck[]> {
     const { default: data }: { default: RawDeck[] } =
       await import('../decks.data.json');
-    return data
+    const decks = data
       .filter(deck => !deck.archived)
       .map((deck: RawDeck) => new Deck(deck));
+    this.decksState.set(decks);
+    return decks;
   }
 }
