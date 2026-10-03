@@ -1,20 +1,23 @@
-import { enableProdMode, importProvidersFrom } from '@angular/core';
-
-import { AngularFireModule } from '@angular/fire/compat';
 import {
-  AngularFireAnalyticsModule,
-  ScreenTrackingService,
-} from '@angular/fire/compat/analytics';
-import { AngularFirePerformanceModule } from '@angular/fire/compat/performance';
+  enableProdMode,
+  importProvidersFrom,
+  inject,
+  provideAppInitializer,
+} from '@angular/core';
+
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavigationEnd, Router } from '@angular/router';
 import {
   ServiceWorkerModule,
   SwRegistrationOptions,
 } from '@angular/service-worker';
+import { getAnalytics, logEvent } from 'firebase/analytics';
+import { initializeApp } from 'firebase/app';
+import { getPerformance } from 'firebase/performance';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { AppComponent } from './app/app.component';
 import { AppRoutingModule } from './app/modules/app-routing.module';
@@ -33,9 +36,6 @@ if (environment.production) {
 bootstrapApplication(AppComponent, {
   providers: [
     importProvidersFrom(
-      AngularFireModule.initializeApp(environment.firebase),
-      AngularFireAnalyticsModule,
-      AngularFirePerformanceModule,
       AppRoutingModule,
       BrowserAnimationsModule,
       BrowserModule,
@@ -46,7 +46,19 @@ bootstrapApplication(AppComponent, {
       NgxSkeletonLoaderModule,
       ServiceWorkerModule.register('ngsw-worker.js', swOptions),
     ),
-    ScreenTrackingService,
     SeoService,
+    provideAppInitializer(() => {
+      const app = initializeApp(environment.firebase);
+      const analytics = getAnalytics(app);
+      getPerformance(app);
+      inject(Router).events.subscribe(event => {
+        if (event instanceof NavigationEnd) {
+          logEvent(analytics, 'screen_view', {
+            firebase_screen: event.urlAfterRedirects,
+            firebase_screen_class: 'AppComponent',
+          });
+        }
+      });
+    }),
   ],
 }).catch(err => console.error(err));
