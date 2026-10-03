@@ -1,8 +1,8 @@
 import { Location } from '@angular/common';
+import { EventEmitter } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { SwUpdate } from '@angular/service-worker';
 import { Router } from '@angular/router';
-import { EMPTY } from 'rxjs';
 import { WINDOW } from '../window';
 
 import { HeaderComponent } from './header.component';
@@ -23,7 +23,7 @@ describe('HeaderComponent', () => {
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
       providers: [
-        { provide: SwUpdate, useValue: { versionUpdates: EMPTY } },
+        { provide: SwUpdate, useValue: { versionUpdates: new EventEmitter() } },
         { provide: WINDOW, useValue: fakeWindow },
       ],
     }).compileComponents();

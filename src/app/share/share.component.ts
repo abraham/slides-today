@@ -1,19 +1,18 @@
 import { PlatformLocation } from '@angular/common';
 import {
   Component,
+  DestroyRef,
   computed,
   inject,
   input,
   signal,
   viewChild,
 } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule, MatMenuTrigger } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { NavigationEnd, Router } from '@angular/router';
-import { filter, map } from 'rxjs/operators';
 import { ThemeService } from '../services/theme.service';
 
 const SNACK_BAR_CONFIG = { duration: 2500 };
@@ -37,13 +36,7 @@ export class ShareComponent {
   readonly exited = signal(false);
 
   // The page URL changes with navigation, and the component outlives a deck change.
-  private readonly url = toSignal(
-    this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd),
-      map(() => this.platformLocation.href),
-    ),
-    { initialValue: this.platformLocation.href },
-  );
+  private readonly url = signal(this.platformLocation.href);
   private readonly encodedUrl = computed(() => encodeURIComponent(this.url()));
   private readonly encodedText = computed(() =>
     encodeURIComponent(this.text()),
@@ -60,6 +53,15 @@ export class ShareComponent {
     () =>
       `https://www.linkedin.com/sharing/share-offsite/?url=${this.encodedUrl()}`,
   );
+
+  constructor() {
+    const subscription = this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.url.set(this.platformLocation.href);
+      }
+    });
+    inject(DestroyRef).onDestroy(() => subscription.unsubscribe());
+  }
 
   startShare(): void {
     this.exited.set(true);

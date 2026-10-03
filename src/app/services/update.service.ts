@@ -1,19 +1,20 @@
-import { Injectable, inject } from '@angular/core';
-import { SwUpdate, VersionReadyEvent } from '@angular/service-worker';
-import { Observable } from 'rxjs';
-import { filter } from 'rxjs/operators';
+import { DestroyRef, Injectable, inject, signal } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UpdateService {
-  available$: Observable<VersionReadyEvent>;
+  private readonly availableState = signal(false);
+
+  readonly available = this.availableState.asReadonly();
 
   constructor() {
-    const updates = inject(SwUpdate);
-
-    this.available$ = updates.versionUpdates.pipe(
-      filter((evt): evt is VersionReadyEvent => evt.type === 'VERSION_READY'),
-    );
+    const subscription = inject(SwUpdate).versionUpdates.subscribe(event => {
+      if (event.type === 'VERSION_READY') {
+        this.availableState.set(true);
+      }
+    });
+    inject(DestroyRef).onDestroy(() => subscription.unsubscribe());
   }
 }

@@ -1,9 +1,15 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, computed, inject } from '@angular/core';
-import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import {
+  Component,
+  DestroyRef,
+  computed,
+  effect,
+  inject,
+  input,
+  signal,
+  untracked,
+} from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
-import { ActivatedRoute } from '@angular/router';
-import { map } from 'rxjs/operators';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
@@ -33,23 +39,19 @@ export class DeckListComponent {
   private readonly dataService = inject(DataService);
   private readonly themeService = inject(ThemeService);
   private readonly deckService = inject(DeckService);
-  private readonly route = inject(ActivatedRoute);
   private readonly bottomSheet = inject(MatBottomSheet);
   private readonly breakpointObserver = inject(BreakpointObserver);
   private readonly seoService = inject(SeoService);
 
+  // Comma separated tag ids from the `tags` matrix param, bound by the router.
+  readonly tags = input<string>();
   readonly selectedTagIds = this.dataService.selectedTagIds;
   readonly decks = computed(() => {
     const selectedTagIds = this.selectedTagIds();
     const decks = this.deckService.filter(selectedTagIds);
     return selectedTagIds.length !== 0 ? decks : decks?.slice(0, 100);
   });
-  readonly mobile = toSignal(
-    this.breakpointObserver
-      .observe([Breakpoints.XSmall])
-      .pipe(map(({ matches }) => matches)),
-    { initialValue: false },
-  );
+  readonly mobile = signal(false);
   readonly hasSelectedTagIds = computed(
     () => this.selectedTagIds().length !== 0,
   );
@@ -58,16 +60,17 @@ export class DeckListComponent {
     this.themeService.reset();
     this.seoService.reset();
 
-    this.route.paramMap
-      .pipe(
-        map(params => params.get('tags')),
-        takeUntilDestroyed(),
-      )
-      .subscribe(tags => {
-        if (tags) {
-          tags.split(',').forEach(tag => this.selectTag(tag));
-        }
-      });
+    const breakpoints = this.breakpointObserver
+      .observe([Breakpoints.XSmall])
+      .subscribe(({ matches }) => this.mobile.set(matches));
+    inject(DestroyRef).onDestroy(() => breakpoints.unsubscribe());
+
+    effect(() => {
+      const tags = this.tags();
+      if (tags) {
+        untracked(() => tags.split(',').forEach(tag => this.selectTag(tag)));
+      }
+    });
   }
 
   openTagsSheet(): void {

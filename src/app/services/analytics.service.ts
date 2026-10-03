@@ -5,9 +5,7 @@ import {
   afterNextRender,
   inject,
 } from '@angular/core';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router } from '@angular/router';
-import { filter, map, shareReplay } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
 @Injectable({
@@ -18,16 +16,19 @@ export class AnalyticsService {
   private readonly destroyRef = inject(DestroyRef);
   private readonly injector = inject(Injector);
 
-  // Replays the current page so a navigation that finishes before Firebase loads is still logged.
-  private readonly screens$ = this.router.events.pipe(
-    filter(event => event instanceof NavigationEnd),
-    map(event => event.urlAfterRedirects),
-    shareReplay({ bufferSize: 1, refCount: false }),
-  );
+  // Kept so a navigation that finishes before Firebase loads is still logged.
+  private currentScreen?: string;
+  private logScreen?: (screen: string) => void;
 
   /** Loads Firebase after the first render so it stays out of the initial bundle and render path. */
   init(): void {
-    this.screens$.pipe(takeUntilDestroyed(this.destroyRef)).subscribe();
+    const subscription = this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.currentScreen = event.urlAfterRedirects;
+        this.logScreen?.(this.currentScreen);
+      }
+    });
+    this.destroyRef.onDestroy(() => subscription.unsubscribe());
     afterNextRender(() => this.load(), { injector: this.injector });
   }
 
@@ -41,11 +42,13 @@ export class AnalyticsService {
     const app = initializeApp(environment.firebase);
     const analytics = getAnalytics(app);
     getPerformance(app);
-    this.screens$.pipe(takeUntilDestroyed(this.destroyRef)).subscribe(url =>
+    this.logScreen = screen =>
       logEvent(analytics, 'screen_view', {
-        firebase_screen: url,
+        firebase_screen: screen,
         firebase_screen_class: 'AppComponent',
-      }),
-    );
+      });
+    if (this.currentScreen) {
+      this.logScreen(this.currentScreen);
+    }
   }
 }

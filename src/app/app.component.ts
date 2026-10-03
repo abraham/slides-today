@@ -1,13 +1,11 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, inject, signal } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { Component, DestroyRef, inject, signal } from '@angular/core';
 import {
   Data,
   RouteConfigLoadEnd,
   Router,
   RouterOutlet,
 } from '@angular/router';
-import { filter, map } from 'rxjs/operators';
 import { ThemeService } from './services/theme.service';
 import { HeaderComponent } from './header/header.component';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
@@ -28,16 +26,16 @@ export class AppComponent {
   readonly showBack = signal(false);
   readonly title = signal(this.defaultTitle);
   readonly theme = this.themeService.current;
-  readonly firstLoad = toSignal(
-    this.router.events.pipe(
-      filter(event => event instanceof RouteConfigLoadEnd),
-      map(() => false),
-    ),
-    { initialValue: true },
-  );
+  readonly firstLoad = signal(true);
 
   constructor() {
     this.removeNoScripts();
+    const subscription = this.router.events.subscribe(event => {
+      if (event instanceof RouteConfigLoadEnd) {
+        this.firstLoad.set(false);
+      }
+    });
+    inject(DestroyRef).onDestroy(() => subscription.unsubscribe());
   }
 
   onActivate(data: Data): void {
