@@ -31,7 +31,7 @@
           <div
             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 mdc-typography--body2 decks-empty">
             Nothing found that includes all the following tags:
-            {{ selectedTagIds$ | async | tagList }}
+            {{ selectedTagIds() | tagList }}
           </div>
         }
       </div>

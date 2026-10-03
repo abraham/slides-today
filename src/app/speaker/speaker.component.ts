@@ -1,6 +1,4 @@
-import { Component, inject, input } from '@angular/core';
-import { toObservable, toSignal } from '@angular/core/rxjs-interop';
-import { switchMap } from 'rxjs/operators';
+import { Component, computed, inject, input } from '@angular/core';
 import { SpeakerService } from '../services/speaker.service';
 import { CardComponent } from '../card/card.component';
 
@@ -14,9 +12,5 @@ export class SpeakerComponent {
   private speakerService = inject(SpeakerService);
 
   readonly speakerId = input<string>();
-  readonly speaker = toSignal(
-    toObservable(this.speakerId).pipe(
-      switchMap(id => this.speakerService.get(id)),
-    ),
-  );
+  readonly speaker = computed(() => this.speakerService.get(this.speakerId()));
 }

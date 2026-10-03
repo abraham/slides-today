@@ -1,5 +1,5 @@
-import { Component, inject, signal } from '@angular/core';
-import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { Component, effect, inject, signal, untracked } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { RouteConfigLoadEnd, Router, RouterOutlet } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
 import { RoutedComponents } from './app.routes';
@@ -33,9 +33,12 @@ export class AppComponent {
 
   constructor() {
     this.removeNoScripts();
-    this.dataService.path$
-      .pipe(takeUntilDestroyed())
-      .subscribe(this.updatePath.bind(this));
+    effect(() => {
+      const path = this.dataService.path();
+      if (path) {
+        untracked(() => this.updatePath(path));
+      }
+    });
   }
 
   onActivate(event: RoutedComponents): void {

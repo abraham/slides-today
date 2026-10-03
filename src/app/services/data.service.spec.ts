@@ -1,6 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-import { firstValueFrom } from 'rxjs';
-import { Tag } from '../models/tag';
 import tagData from '../tags.data.json';
 import { DataService } from './data.service';
 
@@ -16,9 +14,9 @@ describe('DataService', () => {
     expect(service).toBeTruthy();
   });
 
-  describe('tags$', () => {
+  describe('tags', () => {
     it('is sorted by id', () => {
-      const ids = service.tags$.value.map(tag => tag.id);
+      const ids = service.tags.map(tag => tag.id);
 
       expect(ids.length).toBeGreaterThan(1);
       expect(ids).toEqual([...ids].sort());
@@ -39,7 +37,7 @@ describe('DataService', () => {
         updatePath: false,
       });
 
-      expect(service.selectedTagIds$.value).toEqual(['polymer']);
+      expect(service.selectedTagIds()).toEqual(['polymer']);
     });
 
     it('does not duplicate a tag that is selected twice', () => {
@@ -54,7 +52,7 @@ describe('DataService', () => {
         updatePath: false,
       });
 
-      expect(service.selectedTagIds$.value).toEqual(['polymer']);
+      expect(service.selectedTagIds()).toEqual(['polymer']);
     });
 
     it('removes a deselected tag', () => {
@@ -70,70 +68,73 @@ describe('DataService', () => {
         updatePath: false,
       });
 
-      expect(service.selectedTagIds$.value).toEqual(['php']);
+      expect(service.selectedTagIds()).toEqual(['php']);
     });
   });
 
-  describe('path$', () => {
-    it('emits the selected tag ids when updatePath is true', () => {
-      const paths: string[][] = [];
-      service.path$.subscribe(path => paths.push(path));
+  describe('path', () => {
+    it('is undefined before any selection updates the path', () => {
+      expect(service.path()).toBeUndefined();
+    });
 
+    it('is the selected tag ids when updatePath is true', () => {
       service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
 
-      expect(paths).toEqual([['polymer']]);
+      expect(service.path()).toEqual(['polymer']);
     });
 
     it('does not reorder the selected tag ids', () => {
-      service.path$.subscribe();
-
       service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
       service.tagSelection({ id: 'php', selected: true, updatePath: true });
 
-      expect(service.selectedTagIds$.value).toEqual(['polymer', 'php']);
+      expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
     });
 
-    it('does not emit when updatePath is false', () => {
-      const paths: string[][] = [];
-      service.path$.subscribe(path => paths.push(path));
+    it('keeps the same value when the ids only differ in order', () => {
+      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
+      service.tagSelection({ id: 'php', selected: true, updatePath: true });
+      const path = service.path();
+      service.tagSelection({
+        id: 'polymer',
+        selected: false,
+        updatePath: false,
+      });
+      service.tagSelection({ id: 'polymer', selected: true, updatePath: true });
 
+      expect(service.selectedTagIds()).toEqual(['php', 'polymer']);
+      expect(service.path()).toBe(path);
+    });
+
+    it('is not updated when updatePath is false', () => {
       service.tagSelection({
         id: 'polymer',
         selected: true,
         updatePath: false,
       });
 
-      expect(paths).toEqual([]);
+      expect(service.path()).toBeUndefined();
     });
   });
 
-  describe('filterTags$', () => {
-    it('returns all tags when no ids are given', async () => {
-      expect(await firstValueFrom(service.filterTags$([]))).toEqual(
-        service.tags$.value,
-      );
+  describe('filterTags', () => {
+    it('returns all tags when no ids are given', () => {
+      expect(service.filterTags([])).toEqual(service.tags);
     });
 
-    it('returns only the tags matching the ids', async () => {
-      const tags = await firstValueFrom(
-        service.filterTags$(['polymer', 'php']),
-      );
+    it('returns only the tags matching the ids', () => {
+      const tags = service.filterTags(['polymer', 'php']);
 
       expect(tags.map(tag => tag.id)).toEqual(['php', 'polymer']);
     });
   });
 
-  describe('tag$', () => {
-    it('returns the tag with the id', async () => {
-      const tag: Tag | undefined = await firstValueFrom(
-        service.tag$('polymer'),
-      );
-
-      expect(tag?.id).toBe('polymer');
+  describe('tag', () => {
+    it('returns the tag with the id', () => {
+      expect(service.tag('polymer')?.id).toBe('polymer');
     });
 
-    it('returns undefined for an unknown id', async () => {
-      expect(await firstValueFrom(service.tag$('unknown'))).toBeUndefined();
+    it('returns undefined for an unknown id', () => {
+      expect(service.tag('unknown')).toBeUndefined();
     });
   });
 });
