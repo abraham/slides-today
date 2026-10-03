@@ -32,7 +32,7 @@ export class SeoService {
     }
     this.titleService.setTitle(title);
     this.metaService.updateTag({ name: 'twitter:title', content: title });
-    this.metaService.updateTag({ name: 'og:title', content: title });
+    this.metaService.updateTag({ property: 'og:title', content: title });
 
     description = this.trimDescription(description);
     this.metaService.updateTag({ name: 'description', content: description });
@@ -41,7 +41,7 @@ export class SeoService {
       content: description,
     });
     this.metaService.updateTag({
-      name: 'og:description',
+      property: 'og:description',
       content: description,
     });
 

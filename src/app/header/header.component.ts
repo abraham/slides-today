@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { map } from 'rxjs/operators';
 import { ThemeService } from '../services/theme.service';
 import { UpdateService } from '../services/update.service';
+import { WINDOW } from '../window';
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatButton, MatIconButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
@@ -28,6 +29,7 @@ export class HeaderComponent {
   private readonly location = inject(Location);
   private readonly router = inject(Router);
   private readonly update = inject(UpdateService);
+  private readonly window = inject(WINDOW);
 
   readonly title = input('Slides.today');
   readonly showBack = input(false);
@@ -46,7 +48,7 @@ export class HeaderComponent {
   }
 
   onScroll() {
-    this.atTop.set(window.scrollY === 0);
+    this.atTop.set(this.window.scrollY === 0);
   }
 
   openInstallPrompt(): void {
@@ -57,17 +59,13 @@ export class HeaderComponent {
     }
   }
 
-  goHome(): void {
-    this.router.navigate(['/']);
-  }
-
   reload(): void {
-    window.location.reload();
+    this.window.location.reload();
   }
 
   goBack(e: MouseEvent): void {
     e.preventDefault();
-    if (window.history.length > 1) {
+    if (this.window.history.length > 1) {
       this.location.back();
     } else {
       this.router.navigate(['/']);

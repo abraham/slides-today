@@ -2,6 +2,7 @@ import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
   computed,
+  effect,
   inject,
   input,
   signal,
@@ -63,26 +64,39 @@ export class EmbedComponent {
   });
   readonly placeholder = signal(true);
 
-  private get backgroundColor(): string {
-    return this.theme().backgroundColor.split('#')[1];
+  constructor() {
+    effect(() => {
+      if (this.youtubeId()) {
+        // Registers the element without blocking the render.
+        import('@justinribeiro/lite-youtube');
+      }
+    });
   }
 
-  private get parsedVimeoId(): string {
+  private get backgroundColor(): string {
+    return this.theme().backgroundColor.replace(/^#/, '');
+  }
+
+  private get parsedVimeoId(): string | undefined {
     return this.link().url.split('.com/')[1];
   }
 
-  private get parsedYoutubeId(): string {
+  private get parsedYoutubeId(): string | undefined {
     return this.link().url.split('?v=')[1];
   }
 
-  private buildVimeoUrl(): string {
+  private buildVimeoUrl(): string | undefined {
+    const id = this.parsedVimeoId;
+    if (!id) {
+      return undefined;
+    }
     const params = new URLSearchParams({
       byline: '0',
       color: this.backgroundColor,
       portrait: '0',
       title: '0',
     });
-    return `https://player.vimeo.com/video/${this.parsedVimeoId}?${params}`;
+    return `https://player.vimeo.com/video/${id}?${params}`;
   }
 
   private buildGoogleSlidesUrl(): string {

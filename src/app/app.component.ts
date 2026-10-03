@@ -1,3 +1,4 @@
+import { DOCUMENT } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import {
@@ -20,6 +21,7 @@ import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
 export class AppComponent {
   private readonly themeService = inject(ThemeService);
   private readonly router = inject(Router);
+  private readonly document = inject(DOCUMENT);
 
   defaultTitle = 'Slides.today';
   readonly skeletonRows = [0, 1, 2, 3, 4];
@@ -44,7 +46,7 @@ export class AppComponent {
   }
 
   private removeNoScripts(): void {
-    document.querySelectorAll('noscript').forEach(element => {
+    this.document.querySelectorAll('noscript').forEach(element => {
       element.remove();
     });
   }
