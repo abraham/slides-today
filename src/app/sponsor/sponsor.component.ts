@@ -1,4 +1,6 @@
 import { Component, inject, input } from '@angular/core';
+import { toObservable, toSignal } from '@angular/core/rxjs-interop';
+import { switchMap } from 'rxjs/operators';
 import { SponsorService } from '../services/sponsor.service';
 import { CardComponent } from '../card/card.component';
 import {
@@ -8,7 +10,6 @@ import {
   MatListItemTitle,
   MatListItemLine,
 } from '@angular/material/list';
-import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-sponsor',
@@ -21,11 +22,15 @@ import { AsyncPipe } from '@angular/common';
     MatListItemAvatar,
     MatListItemTitle,
     MatListItemLine,
-    AsyncPipe,
   ],
 })
 export class SponsorComponent {
-  sponsorService = inject(SponsorService);
+  private sponsorService = inject(SponsorService);
 
   readonly sponsorIds = input.required<string[]>();
+  readonly sponsors = toSignal(
+    toObservable(this.sponsorIds).pipe(
+      switchMap(ids => this.sponsorService.select(ids)),
+    ),
+  );
 }

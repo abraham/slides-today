@@ -3,9 +3,8 @@ import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
-import { EMPTY, Observable, Subject } from 'rxjs';
-import { map, switchMap, takeUntil, withLatestFrom } from 'rxjs/operators';
-import { Deck } from '../models/deck';
+import { Subject } from 'rxjs';
+import { map, takeUntil, withLatestFrom } from 'rxjs/operators';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
@@ -43,7 +42,14 @@ export class DeckListComponent implements OnInit, OnDestroy {
   private seoService = inject(SeoService);
 
   readonly selectedTagIds$ = this.dataService.selectedTagIds$;
-  decks$!: Observable<Deck[]>;
+  readonly decks = toSignal(
+    this.deckService.filter(this.selectedTagIds$).pipe(
+      withLatestFrom(this.selectedTagIds$),
+      map(([decks, selectedTagIds]) =>
+        selectedTagIds.length !== 0 ? decks : decks.slice(0, 100),
+      ),
+    ),
+  );
   readonly mobile = toSignal(
     this.breakpointObserver
       .observe([Breakpoints.XSmall])
@@ -63,18 +69,6 @@ export class DeckListComponent implements OnInit, OnDestroy {
     this.themeService.reset();
     this.seoService.reset();
 
-    this.decks$ = this.deckService.filter(this.selectedTagIds$).pipe(
-      withLatestFrom(this.selectedTagIds$),
-      map(([decks, selectedTagIds]) => {
-        const filteredDecks =
-          selectedTagIds.length !== 0 ? decks : decks.slice(0, 100);
-        return filteredDecks;
-      }),
-    );
-    this.route.paramMap.pipe(
-      map(params => params.get('id')),
-      switchMap(id => (id ? this.deckService.get(id) : EMPTY)),
-    );
     this.route.paramMap
       .pipe(
         map(params => params.get('tags')),
