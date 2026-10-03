@@ -15,6 +15,15 @@ describe('DeckService', () => {
     expect(service).toBeTruthy();
   });
 
+  it('has no decks until the data has loaded', async () => {
+    expect(service.decks()).toBeUndefined();
+    expect(service.filter([])).toBeUndefined();
+
+    await service.get('unknown');
+
+    expect(service.decks()).toBeDefined();
+  });
+
   it('loads the unarchived decks', async () => {
     const { id } = Data.find(deck => !deck.archived)!;
     const archived = Data.find(deck => deck.archived)!;
