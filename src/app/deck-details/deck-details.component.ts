@@ -110,10 +110,6 @@ export class DeckDetailsComponent {
     }
   }
 
-  open(url: string): void {
-    window.open(url);
-  }
-
   private init(deck: Deck): void {
     this.loadShareComponent(deck);
     this.seoService.update(deck.title, deck.description);

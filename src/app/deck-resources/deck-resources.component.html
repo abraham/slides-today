@@ -2,12 +2,7 @@
   <div title>Resources</div>
   <mat-list body>
     @for (resource of resources(); track resource.url) {
-      <a
-        mat-list-item
-        [href]="resource.url"
-        target="_blank"
-        rel="noopener"
-        style="cursor: pointer">
+      <a mat-list-item [href]="resource.url" target="_blank" rel="noopener">
         <p matListItemTitle>{{ resource.title }}</p>
         <span matListItemMeta>
           <mat-icon matListItemIcon fontSet="material-symbols-outlined">
