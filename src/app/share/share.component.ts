@@ -16,6 +16,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { ThemeService } from '../services/theme.service';
 import { SocialServices } from '../social-services';
 
+const SNACK_BAR_CONFIG = { duration: 2500 };
+
 @Component({
   selector: 'app-share',
   styleUrls: ['./share.component.scss'],
@@ -84,7 +86,9 @@ export class ShareComponent implements AfterContentInit {
       this.shareMenuTrigger().closeMenu();
       navigator
         .share(this.shareOptions)
-        .catch(() => this.snackBar.open('Error sharing'))
+        .catch(() =>
+          this.snackBar.open('Error sharing', undefined, SNACK_BAR_CONFIG),
+        )
         .then(() => this.exited.set(false));
     } else {
       this.shareMenuTrigger().openMenu();
@@ -94,7 +98,15 @@ export class ShareComponent implements AfterContentInit {
   copy(): void {
     navigator.clipboard
       .writeText(window.location.href)
-      .then(() => this.snackBar.open('URL copied to clipboard'))
-      .catch(() => this.snackBar.open('Error copying URL'));
+      .then(() =>
+        this.snackBar.open(
+          'URL copied to clipboard',
+          undefined,
+          SNACK_BAR_CONFIG,
+        ),
+      )
+      .catch(() =>
+        this.snackBar.open('Error copying URL', undefined, SNACK_BAR_CONFIG),
+      );
   }
 }

@@ -54,7 +54,6 @@ export default tseslint.config(
           style: 'kebab-case',
         },
       ],
-      '@angular-eslint/prefer-standalone': ['off'],
       'arrow-parens': ['off', 'always'],
       'brace-style': ['off', 'off'],
       'linebreak-style': 'off',
