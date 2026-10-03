@@ -8,16 +8,10 @@ const isHome = (url: UrlSegment[]): UrlMatchResult => {
   return { consumed };
 };
 
-const loadDeckDetails = () => {
-  // Web components used by the deck page; loaded without blocking navigation.
-  import('github-repository');
-  import('node-package');
-  import('twitter-status');
-  import('@justinribeiro/lite-youtube');
-  return import('./deck-details/deck-details.component').then(
+const loadDeckDetails = () =>
+  import('./deck-details/deck-details.component').then(
     m => m.DeckDetailsComponent,
   );
-};
 
 export const routes: Routes = [
   {

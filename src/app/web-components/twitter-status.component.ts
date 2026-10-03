@@ -9,4 +9,9 @@ import type { Status } from 'twitter-d';
 })
 export class TwitterStatusComponent {
   readonly status = input.required<Status>();
+
+  constructor() {
+    // Registers the element without blocking the render.
+    import('twitter-status');
+  }
 }

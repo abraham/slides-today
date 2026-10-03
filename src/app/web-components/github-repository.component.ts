@@ -8,4 +8,9 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component, input } from '@angular/core';
 })
 export class GithubRepositoryComponent {
   readonly ownerRepo = input.required<string>();
+
+  constructor() {
+    // Registers the element without blocking the render.
+    import('github-repository');
+  }
 }

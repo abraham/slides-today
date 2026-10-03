@@ -23,19 +23,21 @@
     <meta name="twitter:image" content="/assets/img/today-192x192.png" />
     <meta name="twitter:image:alt" content="today" />
 
-    <meta name="og:type" content="website" />
+    <meta property="og:type" content="website" />
     <meta
-      name="og:title"
+      property="og:title"
       content="Slides.today | Presentations from Abraham Williams and Pearl Latteier" />
     <meta
-      name="og:description"
+      property="og:description"
       content="Slide decks for conference and meetup presentations by Abraham Williams and Pearl Latteier" />
-    <meta name="og:image" content="/assets/img/today-192x192.png" />
-    <meta name="og:image:alt" content="today" />
+    <meta property="og:image" content="/assets/img/today-192x192.png" />
+    <meta property="og:image:alt" content="today" />
 
     <meta name="theme-color" content="#fff" />
     <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <style>
       html {
@@ -56,16 +58,15 @@
 
     <noscript>JavaScript is required to view Slides.today.</noscript>
     <script>
-      window.addEventListener('load', () => {
-        [
-          'https://fonts.googleapis.com/css?family=Roboto&display=swap',
-          'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0',
-        ].map(url => {
-          var link = document.createElement('link');
-          link.href = url;
-          link.rel = 'stylesheet';
-          document.body.appendChild(link);
-        });
+      // Script-inserted stylesheets don't block rendering, and starting now avoids waiting for load.
+      [
+        'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap',
+        'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0',
+      ].forEach(url => {
+        const link = document.createElement('link');
+        link.href = url;
+        link.rel = 'stylesheet';
+        document.head.appendChild(link);
       });
     </script>
   </body>

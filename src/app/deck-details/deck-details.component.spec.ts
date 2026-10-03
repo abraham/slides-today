@@ -1,9 +1,32 @@
+import { Component, input } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
+import type { Status } from 'twitter-d';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
+import { GithubRepositoryComponent } from '../web-components/github-repository.component';
+import { NodePackageComponent } from '../web-components/node-package.component';
+import { TwitterStatusComponent } from '../web-components/twitter-status.component';
 
 import { DeckDetailsComponent } from './deck-details.component';
+
+// The real elements fetch data and need full API payloads, so the page is tested with stubs.
+@Component({ selector: 'app-github-repository', template: '' })
+class GithubRepositoryStubComponent {
+  readonly ownerRepo = input.required<string>();
+}
+
+@Component({ selector: 'app-node-package', template: '' })
+class NodePackageStubComponent {
+  readonly name = input.required<string>();
+}
+
+@Component({ selector: 'app-twitter-status', template: '' })
+class TwitterStatusStubComponent {
+  readonly status = input.required<Status>();
+}
+
+vi.mock('@justinribeiro/lite-youtube', () => ({}));
 
 describe('DeckDetailsComponent', () => {
   let component: DeckDetailsComponent;
@@ -25,7 +48,24 @@ describe('DeckDetailsComponent', () => {
     await TestBed.configureTestingModule({
       imports: [DeckDetailsComponent],
       providers: [provideRouter([])],
-    }).compileComponents();
+    })
+      .overrideComponent(DeckDetailsComponent, {
+        remove: {
+          imports: [
+            GithubRepositoryComponent,
+            NodePackageComponent,
+            TwitterStatusComponent,
+          ],
+        },
+        add: {
+          imports: [
+            GithubRepositoryStubComponent,
+            NodePackageStubComponent,
+            TwitterStatusStubComponent,
+          ],
+        },
+      })
+      .compileComponents();
   });
 
   beforeEach(() => {
@@ -91,7 +131,7 @@ describe('DeckDetailsComponent', () => {
       return new Deck(raw);
     };
     const statusCount = (): number =>
-      fixture.nativeElement.querySelectorAll('twitter-status').length;
+      fixture.nativeElement.querySelectorAll('app-twitter-status').length;
     // whenStable never resolves under fake timers.
     const settle = async (): Promise<void> => {
       fixture.detectChanges();

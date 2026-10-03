@@ -1,4 +1,3 @@
-import { Location } from '@angular/common';
 import {
   Component,
   ComponentRef,
@@ -14,7 +13,6 @@ import {
   untracked,
   viewChild,
 } from '@angular/core';
-import { Router } from '@angular/router';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
 import { SeoService } from '../seo.service';
@@ -49,8 +47,6 @@ import { TwitterStatusComponent } from '../web-components/twitter-status.compone
   ],
 })
 export class DeckDetailsComponent {
-  private readonly location = inject(Location);
-  private readonly router = inject(Router);
   private readonly viewContainer = inject(ViewContainerRef);
   private readonly seoService = inject(SeoService);
   private readonly tweetService = inject(TweetService);
@@ -104,14 +100,6 @@ export class DeckDetailsComponent {
       observer.observe(detailsEl.nativeElement);
       onCleanup(() => observer.disconnect());
     });
-  }
-
-  goBack(): void {
-    if (window.history.length > 1) {
-      this.location.back();
-    } else {
-      this.router.navigate(['/']);
-    }
   }
 
   private init(deck: Deck): void {
