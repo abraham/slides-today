@@ -1,7 +1,7 @@
 @if (youtubeId()) {
   <lite-youtube [attr.videoid]="youtubeId()" />
 }
-@if (!youtubeId() && !placeholder()) {
+@if (url() && !placeholder()) {
   <iframe
     [attr.src]="url()"
     [width]="width()"
@@ -9,7 +9,7 @@
     allowfullscreen
     [attr.title]="title() + ' ' + link().title"></iframe>
 }
-@if (!youtubeId() && placeholder()) {
+@if (url() && placeholder()) {
   <div class="mdc-card" [style]="dimensionStyles()">
     <div class="mdc-card__primary-action action">
       <button mat-fab extended (click)="placeholder.set(false)">
