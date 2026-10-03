@@ -130,10 +130,6 @@
               "src/**/*.ts"
             ]
           }
-        },
-        "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {}
         }
       }
     }
