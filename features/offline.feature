@@ -7,7 +7,8 @@ Feature: Site works offline
     When the network is "online"
     And I visit "/"
     Then I should see "Welcome to Slides.today"
-    When the network is "offline"
+    When the service worker is ready
+    And the network is "offline"
     And I visit "/"
     Then I should see "Welcome to Slides.today"
 
@@ -18,8 +19,8 @@ Feature: Site works offline
     When the network is "online"
     And I visit "/decks/-LP90xu1JfaAgTCyhC3D"
     Then I should see "How Do Service Workers Even?"
-    # TODO: Test is failing on CI
-    # When the network is "offline"
-    # And I visit "/decks/-LP90xu1JfaAgTCyhC3D"
-    # Then I should see "How Do Service Workers Even?"
+    When the service worker is ready
+    And the network is "offline"
+    And I visit "/decks/-LP90xu1JfaAgTCyhC3D"
+    Then I should see "How Do Service Workers Even?"
 
