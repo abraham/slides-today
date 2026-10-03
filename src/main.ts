@@ -1,33 +1,26 @@
 import {
   enableProdMode,
-  importProvidersFrom,
   inject,
   provideAppInitializer,
+  importProvidersFrom,
 } from '@angular/core';
-
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { BrowserModule, bootstrapApplication } from '@angular/platform-browser';
+import { bootstrapApplication } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavigationEnd, Router } from '@angular/router';
 import {
-  ServiceWorkerModule,
-  SwRegistrationOptions,
-} from '@angular/service-worker';
+  NavigationEnd,
+  Router,
+  provideRouter,
+  withComponentInputBinding,
+  withDebugTracing,
+  withInMemoryScrolling,
+} from '@angular/router';
+import { provideServiceWorker } from '@angular/service-worker';
 import { getAnalytics, logEvent } from 'firebase/analytics';
 import { initializeApp } from 'firebase/app';
 import { getPerformance } from 'firebase/performance';
-import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { AppComponent } from './app/app.component';
-import { AppRoutingModule } from './app/modules/app-routing.module';
-import { CardModule } from './app/modules/card.module';
-import { SeoService } from './app/seo.service';
+import { routes } from './app/app.routes';
 import { environment } from './environments/environment';
-
-const swOptions: SwRegistrationOptions = {
-  enabled: environment.production,
-};
 
 if (environment.production) {
   enableProdMode();
@@ -35,18 +28,14 @@ if (environment.production) {
 
 bootstrapApplication(AppComponent, {
   providers: [
-    importProvidersFrom(
-      AppRoutingModule,
-      BrowserAnimationsModule,
-      BrowserModule,
-      CardModule,
-      MatButtonModule,
-      MatIconModule,
-      MatToolbarModule,
-      NgxSkeletonLoaderModule,
-      ServiceWorkerModule.register('ngsw-worker.js', swOptions),
+    importProvidersFrom(BrowserAnimationsModule),
+    provideRouter(
+      routes,
+      withComponentInputBinding(),
+      withInMemoryScrolling({ scrollPositionRestoration: 'enabled' }),
+      ...(environment.production ? [] : [withDebugTracing()]),
     ),
-    SeoService,
+    provideServiceWorker('ngsw-worker.js', { enabled: environment.production }),
     provideAppInitializer(() => {
       const app = initializeApp(environment.firebase);
       const analytics = getAnalytics(app);

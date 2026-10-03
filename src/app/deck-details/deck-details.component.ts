@@ -5,19 +5,18 @@ import {
   Component,
   ElementRef,
   HostListener,
-  OnDestroy,
-  OnInit,
   ViewContainerRef,
+  computed,
+  effect,
   inject,
+  input,
   signal,
+  untracked,
   viewChild,
 } from '@angular/core';
-import { ActivatedRoute, Data, Router } from '@angular/router';
-import { ReplaySubject, Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+import { Router } from '@angular/router';
 import { EmbeddedServices } from '../embedded-services';
 import { Deck } from '../models/deck';
-import { Link } from '../models/link';
 import { SeoService } from '../seo.service';
 import { CardComponent } from '../card/card.component';
 import { TagsComponent } from '../tags/tags.component';
@@ -26,10 +25,6 @@ import { SpeakerComponent } from '../speaker/speaker.component';
 import { MapComponent } from '../map/map.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
-
-interface DeckData extends Data {
-  deck: Deck;
-}
 
 @Component({
   selector: 'app-deck-details',
@@ -47,10 +42,7 @@ interface DeckData extends Data {
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class DeckDetailsComponent
-  implements OnInit, AfterContentChecked, OnDestroy
-{
-  private route = inject(ActivatedRoute);
+export class DeckDetailsComponent implements AfterContentChecked {
   private location = inject(Location);
   private router = inject(Router);
   private viewContainer = inject(ViewContainerRef);
@@ -60,11 +52,13 @@ export class DeckDetailsComponent
 
   showBack = true; // Show back button in app bar
   title = ''; // Clear site title
-  deck$ = new ReplaySubject<Deck>();
-  readonly embeds = signal<Link[]>([]);
+  readonly deck = input.required<Deck>();
+  readonly embeds = computed(() =>
+    this.deck().links.filter(({ service }) =>
+      Object.keys(EmbeddedServices).includes(service),
+    ),
+  );
   readonly embedWidth = signal(200);
-
-  private destroy$ = new Subject();
 
   private get columnWidth(): number {
     const detailsEl = this.detailsEl();
@@ -80,13 +74,11 @@ export class DeckDetailsComponent
     }
   }
 
-  ngOnInit(): void {
-    this.deck$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(deck => this.init(deck));
-    this.route.data
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(data => this.deck$.next((data as DeckData).deck));
+  constructor() {
+    effect(() => {
+      const deck = this.deck();
+      untracked(() => this.init(deck));
+    });
   }
 
   @HostListener('window:resize')
@@ -96,11 +88,6 @@ export class DeckDetailsComponent
 
   ngAfterContentChecked(): void {
     this.setEmbedWidth();
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next(true);
-    this.destroy$.unsubscribe();
   }
 
   goBack(): void {
@@ -117,16 +104,13 @@ export class DeckDetailsComponent
 
   private init(deck: Deck): void {
     this.setEmbedWidth();
-    this.setEmbeds(deck);
     this.loadShareComponent(deck);
     this.seoService.update(deck.title, deck.description);
   }
 
   private async loadShareComponent(deck: Deck): Promise<void> {
     setTimeout(async () => {
-      const module = await import(
-        /* webpackChunkName: 'share' */ '../share/share.component'
-      );
+      const module = await import('../share/share.component');
       const share = this.viewContainer.createComponent(module.ShareComponent);
       share.setInput('text', deck.title);
     }, 1000);
@@ -136,13 +120,5 @@ export class DeckDetailsComponent
     if (this.embedWidth() !== this.columnWidth) {
       this.embedWidth.set(this.columnWidth);
     }
-  }
-
-  private setEmbeds(deck: Deck): void {
-    this.embeds.set(
-      deck.links.filter(({ service }) =>
-        Object.keys(EmbeddedServices).includes(service),
-      ),
-    );
   }
 }

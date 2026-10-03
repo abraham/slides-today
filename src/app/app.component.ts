@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, inject, signal } from '@angular/core';
 import { RouteConfigLoadEnd, Router, RouterOutlet } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { RoutedComponents } from './modules/app-routing.module';
+import { RoutedComponents } from './app.routes';
 import { DataService } from './services/data.service';
 import { ThemeService } from './services/theme.service';
 import { NgStyle } from '@angular/common';

@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ActivatedRoute, provideRouter } from '@angular/router';
-import { of } from 'rxjs';
+import { provideRouter } from '@angular/router';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 
@@ -13,19 +12,14 @@ describe('DeckDetailsComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [DeckDetailsComponent],
-      providers: [
-        provideRouter([]),
-        {
-          provide: ActivatedRoute,
-          useValue: { data: of({ deck: new Deck(Data[0]) }) },
-        },
-      ],
+      providers: [provideRouter([])],
     }).compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(DeckDetailsComponent);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('deck', new Deck(Data[0]));
     fixture.detectChanges();
   });
 
