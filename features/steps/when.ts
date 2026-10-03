@@ -14,6 +14,12 @@ When('I click on {string}', async function (text: string): Promise<void> {
       await isInteractiveElement(this.page, element),
       'Element (or close ancestor) must be interactive',
     ).to.eq(true);
+    // Clicks on an element that is still animating, such as a menu item, land in the wrong place.
+    const box = await element.boundingBox();
+    await sleep(0.1);
+    expect(await element.boundingBox(), 'Element must stop moving').to.deep.eq(
+      box,
+    );
     await element.click();
   });
 });
