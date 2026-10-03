@@ -39,6 +39,8 @@ export class EmbedComponent {
   readonly link = input.required<Link>();
   readonly width = input(200);
   readonly theme = input(DEFAULT_THEME);
+  // Matches the other cards, which use the default theme instead of the deck's.
+  readonly cardColor = DEFAULT_THEME.backgroundColor;
 
   readonly height = computed(() =>
     Math.round((this.width() + 29) * (RATIOS[this.link().service] ?? 0)),
