@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TagsSheetComponent } from './tags-sheet.component';
 
@@ -6,11 +6,11 @@ describe('TagsSheetComponent', () => {
   let component: TagsSheetComponent;
   let fixture: ComponentFixture<TagsSheetComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [TagsSheetComponent],
     }).compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(TagsSheetComponent);
