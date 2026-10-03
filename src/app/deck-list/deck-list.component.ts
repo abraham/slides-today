@@ -1,10 +1,9 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, OnDestroy, OnInit, inject } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { Component, inject } from '@angular/core';
+import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
-import { Subject } from 'rxjs';
-import { map, takeUntil, withLatestFrom } from 'rxjs/operators';
+import { map, withLatestFrom } from 'rxjs/operators';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
@@ -32,7 +31,7 @@ import { TagListPipe } from '../tag-list.pipe';
     TagListPipe,
   ],
 })
-export class DeckListComponent implements OnInit, OnDestroy {
+export class DeckListComponent {
   private dataService = inject(DataService);
   private themeService = inject(ThemeService);
   private deckService = inject(DeckService);
@@ -63,27 +62,20 @@ export class DeckListComponent implements OnInit, OnDestroy {
     { initialValue: false },
   );
 
-  private destroy$ = new Subject();
-
-  ngOnInit(): void {
+  constructor() {
     this.themeService.reset();
     this.seoService.reset();
 
     this.route.paramMap
       .pipe(
         map(params => params.get('tags')),
-        takeUntil(this.destroy$),
+        takeUntilDestroyed(),
       )
       .subscribe(tags => {
         if (tags) {
           tags.split(',').map(tag => this.selectTag(tag));
         }
       });
-  }
-
-  ngOnDestroy() {
-    this.destroy$.next(true);
-    this.destroy$.unsubscribe();
   }
 
   openTagsSheet(): void {

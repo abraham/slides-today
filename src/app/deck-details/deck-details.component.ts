@@ -1,10 +1,8 @@
 import { Location, AsyncPipe } from '@angular/common';
 import {
-  AfterContentChecked,
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
   ElementRef,
-  HostListener,
   ViewContainerRef,
   computed,
   effect,
@@ -42,7 +40,7 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class DeckDetailsComponent implements AfterContentChecked {
+export class DeckDetailsComponent {
   private location = inject(Location);
   private router = inject(Router);
   private viewContainer = inject(ViewContainerRef);
@@ -58,36 +56,31 @@ export class DeckDetailsComponent implements AfterContentChecked {
       Object.keys(EmbeddedServices).includes(service),
     ),
   );
-  readonly embedWidth = signal(200);
-
-  private get columnWidth(): number {
-    const detailsEl = this.detailsEl();
-    if (!detailsEl) {
-      return 0;
-    }
-
-    const { width } = detailsEl.nativeElement.getBoundingClientRect();
-    if (width >= 840) {
-      return width / 2;
-    } else {
-      return width;
-    }
-  }
+  private readonly detailsWidth = signal(200);
+  readonly embedWidth = computed(() => {
+    const width = this.detailsWidth();
+    return width >= 840 ? width / 2 : width;
+  });
 
   constructor() {
     effect(() => {
       const deck = this.deck();
       untracked(() => this.init(deck));
     });
-  }
 
-  @HostListener('window:resize')
-  onResize(): void {
-    this.setEmbedWidth();
-  }
-
-  ngAfterContentChecked(): void {
-    this.setEmbedWidth();
+    effect(onCleanup => {
+      const detailsEl = this.detailsEl();
+      if (!detailsEl) {
+        return;
+      }
+      const observer = new ResizeObserver(() =>
+        this.detailsWidth.set(
+          detailsEl.nativeElement.getBoundingClientRect().width,
+        ),
+      );
+      observer.observe(detailsEl.nativeElement);
+      onCleanup(() => observer.disconnect());
+    });
   }
 
   goBack(): void {
@@ -103,7 +96,6 @@ export class DeckDetailsComponent implements AfterContentChecked {
   }
 
   private init(deck: Deck): void {
-    this.setEmbedWidth();
     this.loadShareComponent(deck);
     this.seoService.update(deck.title, deck.description);
   }
@@ -114,11 +106,5 @@ export class DeckDetailsComponent implements AfterContentChecked {
       const share = this.viewContainer.createComponent(module.ShareComponent);
       share.setInput('text', deck.title);
     }, 1000);
-  }
-
-  private setEmbedWidth(): void {
-    if (this.embedWidth() !== this.columnWidth) {
-      this.embedWidth.set(this.columnWidth);
-    }
   }
 }
