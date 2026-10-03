@@ -21,4 +21,12 @@ describe('MapComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('encodes the location in the place url', () => {
+    fixture.componentRef.setInput('location', 'Portland, OR/US?');
+
+    expect(component.url()).toBe(
+      'https://www.google.com/maps/place/Portland%2C%20OR%2FUS%3F/',
+    );
+  });
 });

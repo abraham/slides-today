@@ -11,6 +11,7 @@ describe('DeckDetailsComponent', () => {
   let resizeCallback: () => void;
 
   beforeEach(async () => {
+    vi.useFakeTimers();
     vi.stubGlobal(
       'ResizeObserver',
       class {
@@ -34,7 +35,10 @@ describe('DeckDetailsComponent', () => {
     fixture.detectChanges();
   });
 
-  afterEach(() => vi.unstubAllGlobals());
+  afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.useRealTimers();
+  });
 
   it('halves the embed width when the column is wide', () => {
     const details: HTMLElement = fixture.nativeElement.querySelector('.item');
@@ -47,5 +51,37 @@ describe('DeckDetailsComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe('share component', () => {
+    // Created siblings of the test root can outlive their fixture in document.body.
+    let baseline: number;
+    const shareCount = (): number =>
+      document.body.querySelectorAll('app-share').length - baseline;
+
+    beforeEach(() => {
+      baseline = document.body.querySelectorAll('app-share').length;
+    });
+
+    it('is created once even when the deck changes', async () => {
+      fixture.componentRef.setInput('deck', new Deck(Data[3]));
+      fixture.detectChanges();
+      await vi.advanceTimersByTimeAsync(1000);
+      await vi.dynamicImportSettled();
+      fixture.componentRef.setInput('deck', new Deck(Data[5]));
+      fixture.detectChanges();
+      await vi.advanceTimersByTimeAsync(1000);
+      await vi.dynamicImportSettled();
+
+      expect(shareCount()).toBe(1);
+    });
+
+    it('is not created after the component is destroyed', async () => {
+      fixture.destroy();
+      await vi.advanceTimersByTimeAsync(1000);
+      await vi.dynamicImportSettled();
+
+      expect(shareCount()).toBe(0);
+    });
   });
 });

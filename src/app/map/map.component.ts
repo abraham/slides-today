@@ -12,7 +12,7 @@ export class MapComponent {
   readonly location = input('');
 
   readonly url = computed(
-    () => `https://www.google.com/maps/place/${this.location()}/`,
+    () => `https://www.google.com/maps/place/${this.center()}/`,
   );
   readonly mapUrl = computed(() => `${this.apiUrl}?${this.apiParams()}`);
   offset = 200;

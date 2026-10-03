@@ -55,7 +55,9 @@ export class Deck {
     if (this.cachedTweets) {
       return this.cachedTweets;
     }
-    this.cachedTweets = Promise.all(this.tweetIds.map(this.getStatus));
+    this.cachedTweets = Promise.all(
+      this.tweetIds.map(id => this.getStatus(id)),
+    );
     return this.cachedTweets;
   }
 

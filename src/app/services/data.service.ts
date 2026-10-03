@@ -8,7 +8,7 @@ const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
   if (a.id < b.id) {
     return -1;
   }
-  if (a.primaryColor > b.id) {
+  if (a.id > b.id) {
     return 1;
   }
   return 0;
@@ -16,9 +16,13 @@ const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
 
 const unique = (values: string[]): string[] => [...new Set(values)];
 
-const equalArray = (array1: string[], array2: string[]): boolean =>
-  array1.length === array2.length &&
-  array1.sort().every((value, index) => value === array2.sort()[index]);
+const equalArray = (array1: string[], array2: string[]): boolean => {
+  if (array1.length !== array2.length) {
+    return false;
+  }
+  const sorted2 = [...array2].sort();
+  return [...array1].sort().every((value, index) => value === sorted2[index]);
+};
 
 @Injectable({
   providedIn: 'root',
@@ -38,7 +42,7 @@ export class DataService {
         ),
       )
       .subscribe(selectedTagIds => this.selectedTagIds$.next(selectedTagIds));
-    this.tags$.next(tagData.sort(sortTags));
+    this.tags$.next([...tagData].sort(sortTags));
   }
 
   get path$(): Observable<string[]> {
