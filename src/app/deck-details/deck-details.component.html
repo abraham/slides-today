@@ -39,13 +39,13 @@
           </div>
         }
         @for (github of deck.githubRepos; track github) {
-          <github-repository class="item" [attr.owner-repo]="github" />
+          <app-github-repository class="item" [ownerRepo]="github" />
         }
         @for (name of deck.nodePackages; track name) {
-          <node-package class="item" [attr.name]="name" />
+          <app-node-package class="item" [name]="name" />
         }
         @for (status of tweets(); track status.id_str) {
-          <twitter-status class="item" [status]="status" />
+          <app-twitter-status class="item" [status]="status" />
         }
       </div>
     </div>

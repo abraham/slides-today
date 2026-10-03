@@ -1,6 +1,5 @@
 import { Location } from '@angular/common';
 import {
-  CUSTOM_ELEMENTS_SCHEMA,
   Component,
   ComponentRef,
   DestroyRef,
@@ -28,6 +27,9 @@ import { SpeakerComponent } from '../speaker/speaker.component';
 import { MapComponent } from '../map/map.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
 import { DeckResourcesComponent } from '../deck-resources/deck-resources.component';
+import { GithubRepositoryComponent } from '../web-components/github-repository.component';
+import { NodePackageComponent } from '../web-components/node-package.component';
+import { TwitterStatusComponent } from '../web-components/twitter-status.component';
 
 @Component({
   selector: 'app-deck-details',
@@ -41,8 +43,10 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
     MapComponent,
     SponsorComponent,
     DeckResourcesComponent,
+    GithubRepositoryComponent,
+    NodePackageComponent,
+    TwitterStatusComponent,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DeckDetailsComponent {
   private readonly location = inject(Location);
