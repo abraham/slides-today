@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import sponsors from '../sponsors.data.json';
 import { SponsorComponent } from './sponsor.component';
 
 describe('SponsorComponent', () => {
@@ -21,5 +22,13 @@ describe('SponsorComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('renders only the sponsors for the given ids', async () => {
+    fixture.componentRef.setInput('sponsorIds', [sponsors[0].id]);
+    await fixture.whenStable();
+    const text = fixture.nativeElement.textContent;
+    expect(text).toContain(sponsors[0].name);
+    expect(text).not.toContain(sponsors[1].name);
   });
 });

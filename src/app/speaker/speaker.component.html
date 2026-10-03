@@ -1,4 +1,4 @@
-@if (speakerService.get(speakerId()) | async; as speaker) {
+@if (speaker(); as speaker) {
   <app-card [image]="speaker.imageUrl" [actions]="speaker.links">
     <div title>{{ speaker.name }}</div>
     <div subtitle>{{ speaker.title }}</div>
