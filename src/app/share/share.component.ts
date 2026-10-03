@@ -60,22 +60,20 @@ export class ShareComponent {
     inject(DestroyRef).onDestroy(() => subscription.unsubscribe());
   }
 
+  // The menu trigger opens its menu on the same click, so it is detached when the native sheet is used.
+  canShareNatively(): boolean {
+    return !!navigator.share;
+  }
+
   startShare(): void {
-    this.exited.set(true);
-    if (navigator.share) {
-      // Avoid showing native share menu and custom share menu at the same time
-      this.shareMenuTrigger().closeMenu();
-      navigator
-        .share({
-          text: this.text(),
-          title: 'Slides.Today',
-          url: this.url(),
-        })
-        .catch(() =>
-          this.snackBar.open('Error sharing', undefined, SNACK_BAR_CONFIG),
-        )
-        .finally(() => this.exited.set(false));
+    if (this.canShareNatively()) {
+      navigator.share({
+        text: this.text(),
+        title: 'Slides.Today',
+        url: this.url(),
+      });
     } else {
+      this.exited.set(true);
       this.shareMenuTrigger().openMenu();
     }
   }

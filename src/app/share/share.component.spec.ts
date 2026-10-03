@@ -46,29 +46,25 @@ describe('ShareComponent', () => {
         value: vi.fn(share),
       });
 
-    it('shows the button again after sharing', async () => {
-      stubShare(() => Promise.resolve());
-      const snackBar = vi.spyOn(TestBed.inject(MatSnackBar), 'open');
+    it('does not open the share menu on the same click', () => {
+      stubShare(() => new Promise(() => undefined));
+      const nativeFixture = TestBed.createComponent(ShareComponent);
+      nativeFixture.detectChanges();
 
-      component.startShare();
-      expect(component.exited()).toBe(true);
-      await vi.waitFor(() => expect(component.exited()).toBe(false));
+      nativeFixture.nativeElement.querySelector('button').click();
 
-      expect(snackBar).not.toHaveBeenCalled();
+      const trigger = nativeFixture.componentInstance.shareMenuTrigger();
+      expect(trigger.menu).toBeNull();
+      expect(trigger.menuOpen).toBe(false);
     });
 
-    it('reports the error and shows the button again when sharing fails', async () => {
-      stubShare(() => Promise.reject(new Error('cancelled')));
-      const snackBar = vi.spyOn(TestBed.inject(MatSnackBar), 'open');
+    it('keeps the button visible while sharing', () => {
+      stubShare(() => Promise.resolve());
 
       component.startShare();
-      await vi.waitFor(() => expect(component.exited()).toBe(false));
 
-      expect(snackBar).toHaveBeenCalledWith(
-        'Error sharing',
-        undefined,
-        expect.anything(),
-      );
+      expect(navigator.share).toHaveBeenCalledTimes(1);
+      expect(component.exited()).toBe(false);
     });
   });
 
@@ -119,6 +115,12 @@ describe('ShareComponent', () => {
 
     expect(openMenu).toHaveBeenCalled();
     expect(component.exited()).toBe(true);
+  });
+
+  it('opens the share menu on click when the browser has no native share sheet', () => {
+    fixture.nativeElement.querySelector('button').click();
+
+    expect(component.shareMenuTrigger().menuOpen).toBe(true);
   });
 
   describe('copy', () => {
