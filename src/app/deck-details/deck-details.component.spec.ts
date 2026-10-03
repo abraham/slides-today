@@ -5,6 +5,8 @@ import { Title } from '@angular/platform-browser';
 import type { Status } from 'twitter-d';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
+import { DEFAULT_IMAGE } from '../seo.service';
+import speakers from '../speakers.data.json';
 import { GithubRepositoryComponent } from '../web-components/github-repository.component';
 import { NodePackageComponent } from '../web-components/node-package.component';
 import { TwitterStatusComponent } from '../web-components/twitter-status.component';
@@ -138,6 +140,26 @@ describe('DeckDetailsComponent', () => {
       expect(TestBed.inject(Title).getTitle()).toBe(
         `${deck.title} | Slides.today`,
       );
+    });
+
+    it('uses the first speaker photo as the social image', () => {
+      const deck = find(raw => raw.speakerIds.length > 0);
+      show(deck);
+
+      const image = document.head
+        .querySelector('meta[property="og:image"]')
+        ?.getAttribute('content');
+      const speaker = speakers.find(({ id }) => id === deck.speakerIds[0])!;
+      expect(image).toBe(new URL(speaker.imageUrl, document.baseURI).href);
+    });
+
+    it('uses the default social image for a deck without speakers', () => {
+      show(new Deck({ ...Data[0]!, speakerIds: [] }));
+
+      const image = document.head
+        .querySelector('meta[property="og:image"]')
+        ?.getAttribute('content');
+      expect(image).toBe(new URL(DEFAULT_IMAGE, document.baseURI).href);
     });
 
     it('shows a card for each speaker', () => {
