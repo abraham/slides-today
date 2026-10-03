@@ -8,13 +8,18 @@ describe('TagComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [TagComponent],
+      imports: [TagComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(TagComponent);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('tag', {
+      id: 'angular',
+      primaryColor: '#fff',
+      complementaryColor: '#000',
+    });
     fixture.detectChanges();
   });
 

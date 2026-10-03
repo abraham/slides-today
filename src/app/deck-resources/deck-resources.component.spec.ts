@@ -8,7 +8,7 @@ describe('DeckResourcesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DeckResourcesComponent],
+      imports: [DeckResourcesComponent],
     }).compileComponents();
   });
 

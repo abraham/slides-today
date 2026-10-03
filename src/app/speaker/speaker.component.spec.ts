@@ -8,7 +8,7 @@ describe('SpeakerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SpeakerComponent],
+      imports: [SpeakerComponent],
     }).compileComponents();
   });
 
