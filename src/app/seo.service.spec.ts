@@ -2,7 +2,12 @@ import { DOCUMENT } from '@angular/common';
 import { TestBed } from '@angular/core/testing';
 import { Title } from '@angular/platform-browser';
 
-import { DEFAULT_DESCRIPTION, DEFAULT_TITLE, SeoService } from './seo.service';
+import {
+  DEFAULT_DESCRIPTION,
+  DEFAULT_TITLE,
+  IncludeSiteTitle,
+  SeoService,
+} from './seo.service';
 
 describe('SeoService', () => {
   let service: SeoService;
@@ -47,6 +52,18 @@ describe('SeoService', () => {
     expect(meta('name', 'twitter:title')).toBe('Deck | Slides.today');
     expect(meta('name', 'description')).toBe('About the deck');
     expect(meta('name', 'twitter:description')).toBe('About the deck');
+  });
+
+  it('can leave the site title off the page title', () => {
+    service.update('Deck', 'About the deck', IncludeSiteTitle.no);
+
+    expect(TestBed.inject(Title).getTitle()).toBe('Deck');
+  });
+
+  it('trims a long description to its first sentence within 160 characters', () => {
+    service.update('Deck', `First sentence. ${'word '.repeat(100)}`);
+
+    expect(meta('name', 'description')).toBe('First sentence.');
   });
 
   it('resets to the default title and description', () => {

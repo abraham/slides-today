@@ -109,4 +109,55 @@ describe('ShareComponent', () => {
 
     expect(component.exited()).toBe(false);
   });
+
+  it('opens the share menu when the browser has no native share sheet', () => {
+    const openMenu = vi
+      .spyOn(component.shareMenuTrigger(), 'openMenu')
+      .mockImplementation(() => undefined);
+
+    component.startShare();
+
+    expect(openMenu).toHaveBeenCalled();
+    expect(component.exited()).toBe(true);
+  });
+
+  describe('copy', () => {
+    const stubClipboard = (writeText: () => Promise<void>) =>
+      Object.defineProperty(navigator, 'clipboard', {
+        configurable: true,
+        value: { writeText: vi.fn(writeText) },
+      });
+    afterEach(() => Reflect.deleteProperty(navigator, 'clipboard'));
+
+    it('copies the page url and confirms', async () => {
+      stubClipboard(() => Promise.resolve());
+      const snackBar = vi.spyOn(TestBed.inject(MatSnackBar), 'open');
+
+      component.copy();
+
+      await vi.waitFor(() => expect(snackBar).toHaveBeenCalled());
+      expect(navigator.clipboard.writeText).toHaveBeenCalledWith(
+        TestBed.inject(PlatformLocation).href,
+      );
+      expect(snackBar).toHaveBeenCalledWith(
+        'URL copied to clipboard',
+        undefined,
+        expect.anything(),
+      );
+    });
+
+    it('reports an error when the url cannot be copied', async () => {
+      stubClipboard(() => Promise.reject(new Error('denied')));
+      const snackBar = vi.spyOn(TestBed.inject(MatSnackBar), 'open');
+
+      component.copy();
+
+      await vi.waitFor(() => expect(snackBar).toHaveBeenCalled());
+      expect(snackBar).toHaveBeenCalledWith(
+        'Error copying URL',
+        undefined,
+        expect.anything(),
+      );
+    });
+  });
 });

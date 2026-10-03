@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { Meta } from '@angular/platform-browser';
 import { DEFAULT_THEME, invert } from '../models/theme';
 
 import { ThemeService } from './theme.service';
@@ -26,5 +27,23 @@ describe('ThemeService', () => {
     service.update({ backgroundColor: '#123456', color: '#abcdef' });
     service.reset();
     expect(service.current()).toEqual(DEFAULT_THEME);
+  });
+
+  describe('theme-color meta tag', () => {
+    const themeColor = () =>
+      TestBed.inject(Meta).getTag('name="theme-color"')?.content;
+
+    it('uses the default background color initially', () => {
+      TestBed.tick();
+
+      expect(themeColor()).toBe(DEFAULT_THEME.backgroundColor);
+    });
+
+    it('follows the theme background color', () => {
+      service.update({ backgroundColor: '#123456', color: '#abcdef' });
+      TestBed.tick();
+
+      expect(themeColor()).toBe('#123456');
+    });
   });
 });

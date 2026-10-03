@@ -25,4 +25,22 @@ describe('DeckSummaryComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('links to the deck page', () => {
+    const deck = new Deck(Data[0]);
+    const link: HTMLAnchorElement =
+      fixture.nativeElement.querySelector('a.primary-action');
+
+    expect(component.url()).toBe(`/decks/${deck.id}`);
+    expect(link.getAttribute('href')).toBe(`/decks/${deck.id}`);
+  });
+
+  it('shows the title, event, date and tags of the deck', () => {
+    const deck = new Deck(Data[0]);
+    const text: string = fixture.nativeElement.textContent;
+
+    expect(text).toContain(deck.title);
+    expect(text).toContain(deck.eventTitle);
+    expect(text).toContain(deck.date);
+  });
 });

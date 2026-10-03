@@ -21,4 +21,11 @@ describe('AboutComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('welcomes visitors and introduces the speakers', () => {
+    const text: string = fixture.nativeElement.textContent;
+
+    expect(text).toContain('Welcome to Slides.today');
+    expect(text).toContain('Abraham Williams & Pearl Latteier');
+  });
 });

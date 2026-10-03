@@ -1,6 +1,7 @@
 import { Component, input } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 import type { Status } from 'twitter-d';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
@@ -91,6 +92,106 @@ describe('DeckDetailsComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('keeps the full embed width when the column is narrow', () => {
+    const details: HTMLElement = fixture.nativeElement.querySelector('.item');
+    vi.spyOn(details, 'getBoundingClientRect').mockReturnValue({
+      width: 600,
+    } as DOMRect);
+    resizeCallback();
+    expect(component.embedWidth()).toEqual(600);
+  });
+
+  describe('content', () => {
+    const find = (predicate: (deck: (typeof Data)[number]) => boolean): Deck =>
+      new Deck(Data.find(deck => !deck.archived && predicate(deck))!);
+    const show = (deck: Deck): void => {
+      fixture.componentRef.setInput('deck', deck);
+      fixture.detectChanges();
+    };
+    const count = (selector: string): number =>
+      fixture.nativeElement.querySelectorAll(selector).length;
+
+    // Tweets are covered separately; keep them from fetching here.
+    beforeEach(() =>
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async () => ({ ok: false, status: 404 })),
+      ),
+    );
+
+    it('shows the title, event and description of the deck', () => {
+      const deck = find(() => true);
+      show(deck);
+
+      const text: string = fixture.nativeElement.textContent;
+      expect(text).toContain(deck.title);
+      expect(text).toContain(deck.eventTitle);
+      expect(text).toContain(deck.description);
+    });
+
+    it('sets the page title and description from the deck', () => {
+      const deck = find(() => true);
+      show(deck);
+
+      expect(TestBed.inject(Title).getTitle()).toBe(
+        `${deck.title} | Slides.today`,
+      );
+    });
+
+    it('shows a card for each speaker', () => {
+      const deck = find(raw => raw.speakerIds.length > 1);
+      show(deck);
+
+      expect(count('app-speaker')).toBe(deck.speakerIds.length);
+    });
+
+    it('shows the map for the location', () => {
+      show(find(() => true));
+
+      expect(count('app-map')).toBe(1);
+    });
+
+    it('shows sponsors only when the deck has sponsors', () => {
+      show(find(raw => raw.sponsorIds.length > 0));
+      expect(count('app-sponsor')).toBe(1);
+
+      show(find(raw => raw.sponsorIds.length === 0));
+      expect(count('app-sponsor')).toBe(0);
+    });
+
+    it('shows resources only when the deck has resources', () => {
+      show(find(raw => raw.resources.length > 0));
+      expect(count('app-deck-resources')).toBe(1);
+
+      show(find(raw => raw.resources.length === 0));
+      expect(count('app-deck-resources')).toBe(0);
+    });
+
+    it('shows a card for each GitHub repo and npm package', () => {
+      const deck = find(
+        raw => raw.githubRepos.length > 0 && raw.nodePackages.length > 0,
+      );
+      show(deck);
+
+      expect(count('app-github-repository')).toBe(deck.githubRepos.length);
+      expect(count('app-node-package')).toBe(deck.nodePackages.length);
+    });
+
+    it('shows an embed for each embeddable link', () => {
+      const deck = find(raw =>
+        raw.links.some(link =>
+          ['slides', 'vimeo', 'youtube'].includes(link.service),
+        ),
+      );
+      show(deck);
+
+      const embeddable = deck.links.filter(link =>
+        ['slides', 'vimeo', 'youtube'].includes(link.service),
+      );
+      expect(count('app-embed')).toBe(embeddable.length);
+    });
   });
 
   describe('share component', () => {

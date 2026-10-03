@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 
 import { CardComponent } from './card.component';
 
@@ -16,6 +17,7 @@ describe('CardComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [CardComponent],
+      providers: [provideRouter([])],
     }).compileComponents();
   });
 
@@ -27,6 +29,67 @@ describe('CardComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe('url', () => {
+    const primaryAction = (): HTMLAnchorElement | null =>
+      fixture.nativeElement.querySelector('a.primary-action');
+
+    it('is not a link without a url', () => {
+      expect(primaryAction()).toBeNull();
+      expect(fixture.nativeElement.querySelector('.no-action')).not.toBeNull();
+    });
+
+    it('opens an external url in a new tab', () => {
+      fixture.componentRef.setInput('url', 'https://example.com/slides');
+      fixture.detectChanges();
+
+      expect(primaryAction()?.getAttribute('href')).toBe(
+        'https://example.com/slides',
+      );
+      expect(primaryAction()?.target).toBe('_blank');
+      expect(primaryAction()?.rel).toBe('noopener');
+    });
+
+    it('navigates within the app for an internal url', () => {
+      fixture.componentRef.setInput('url', '/decks/abc');
+      fixture.detectChanges();
+
+      expect(primaryAction()?.getAttribute('href')).toBe('/decks/abc');
+      expect(primaryAction()?.target).toBe('');
+    });
+  });
+
+  it('shows a link for each action in a new tab', () => {
+    fixture.componentRef.setInput('actions', [
+      { title: 'Slides', url: 'https://example.com/slides' },
+      { title: 'Video', url: 'https://example.com/video' },
+    ]);
+    fixture.detectChanges();
+
+    const links: HTMLAnchorElement[] = Array.from(
+      fixture.nativeElement.querySelectorAll('.mdc-card__actions a'),
+    );
+    expect(links.map(link => link.getAttribute('href'))).toEqual([
+      'https://example.com/slides',
+      'https://example.com/video',
+    ]);
+    links.forEach(link => expect(link.target).toBe('_blank'));
+  });
+
+  it('shows no actions section without actions', () => {
+    expect(
+      fixture.nativeElement.querySelector('.mdc-card__actions'),
+    ).toBeNull();
+  });
+
+  it('shows the image as the card media', () => {
+    fixture.componentRef.setInput('image', '/assets/img/a.png');
+    fixture.detectChanges();
+
+    const media: HTMLElement =
+      fixture.nativeElement.querySelector('.mdc-card__media');
+    expect(media.style.backgroundImage).toContain('/assets/img/a.png');
   });
 
   it('hides the headings for content slots that are not used', () => {

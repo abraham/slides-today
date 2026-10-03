@@ -1,7 +1,7 @@
 import { Location } from '@angular/common';
 import { EventEmitter } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SwUpdate } from '@angular/service-worker';
+import { SwUpdate, VersionEvent } from '@angular/service-worker';
 import { Router } from '@angular/router';
 import { WINDOW } from '../window';
 
@@ -10,6 +10,7 @@ import { HeaderComponent } from './header.component';
 describe('HeaderComponent', () => {
   let component: HeaderComponent;
   let fixture: ComponentFixture<HeaderComponent>;
+  let versionUpdates: EventEmitter<VersionEvent>;
   const fakeWindow = {
     scrollY: 0,
     history: { length: 1 },
@@ -17,13 +18,14 @@ describe('HeaderComponent', () => {
   };
 
   beforeEach(async () => {
+    versionUpdates = new EventEmitter<VersionEvent>();
     fakeWindow.scrollY = 0;
     fakeWindow.history.length = 1;
     fakeWindow.location.reload.mockClear();
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
       providers: [
-        { provide: SwUpdate, useValue: { versionUpdates: new EventEmitter() } },
+        { provide: SwUpdate, useValue: { versionUpdates } },
         { provide: WINDOW, useValue: fakeWindow },
       ],
     }).compileComponents();
@@ -37,6 +39,86 @@ describe('HeaderComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('shows the title', () => {
+    fixture.componentRef.setInput('title', 'My deck');
+    fixture.detectChanges();
+
+    expect(fixture.nativeElement.textContent).toContain('My deck');
+  });
+
+  it('shows the back link only when requested', () => {
+    const back = () =>
+      fixture.nativeElement.querySelector('a[title="Go back"]');
+    expect(back()).toBeNull();
+
+    fixture.componentRef.setInput('showBack', true);
+    fixture.detectChanges();
+
+    expect(back()).not.toBeNull();
+  });
+
+  describe('update button', () => {
+    const button = () =>
+      fixture.nativeElement.querySelector(
+        'button[aria-label="Update Slides.today"]',
+      );
+
+    it('is hidden until an update is ready', () => {
+      expect(button()).toBeNull();
+    });
+
+    it('reloads the page when an update is ready', () => {
+      versionUpdates.emit({
+        type: 'VERSION_READY',
+        currentVersion: { hash: 'a' },
+        latestVersion: { hash: 'b' },
+      });
+      fixture.detectChanges();
+
+      button().click();
+
+      expect(fakeWindow.location.reload).toHaveBeenCalled();
+    });
+  });
+
+  describe('install button', () => {
+    const button = () =>
+      fixture.nativeElement.querySelector(
+        'button[aria-label="Install Slides.today"]',
+      );
+    const offerInstall = () => {
+      const prompt = vi.fn();
+      const event = Object.assign(
+        new Event('beforeinstallprompt', { cancelable: true }),
+        { prompt },
+      );
+      window.dispatchEvent(event);
+      fixture.detectChanges();
+      return { event, prompt };
+    };
+
+    it('is hidden until the browser offers an install', () => {
+      expect(button()).toBeNull();
+    });
+
+    it('is shown when the browser offers an install and keeps the default prompt back', () => {
+      const { event } = offerInstall();
+
+      expect(button()).not.toBeNull();
+      expect(event.defaultPrevented).toBe(true);
+    });
+
+    it('opens the install prompt once and then hides itself', () => {
+      const { prompt } = offerInstall();
+
+      button().click();
+      fixture.detectChanges();
+
+      expect(prompt).toHaveBeenCalledTimes(1);
+      expect(button()).toBeNull();
+    });
   });
 
   it('tracks whether the page is scrolled to the top', () => {

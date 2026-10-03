@@ -56,17 +56,17 @@ export class Deck {
     ) {
       return `${
         this.startMonth
-      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
+      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getUTCFullYear()}`;
     } else if (
-      this.cachedDate.start.getMonth() === this.cachedDate.end.getMonth()
+      this.cachedDate.start.getUTCMonth() === this.cachedDate.end.getUTCMonth()
     ) {
       return `${
         this.startMonth
-      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getFullYear()}`;
+      } ${this.cachedDate.start.getUTCDate()}, ${this.cachedDate.start.getUTCFullYear()}`;
     } else {
       return `${this.startMonth} ${this.cachedDate.start.getUTCDate()}-${
         this.endMonth
-      } ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getFullYear()}`;
+      } ${this.cachedDate.end.getUTCDate()}, ${this.cachedDate.end.getUTCFullYear()}`;
     }
   }
 
@@ -86,11 +86,17 @@ export class Deck {
   }
 
   private get startMonth(): string {
-    return this.cachedDate.start.toLocaleString('en-us', { month: 'short' });
+    return this.cachedDate.start.toLocaleString('en-us', {
+      month: 'short',
+      timeZone: 'UTC',
+    });
   }
 
   private get endMonth(): string {
-    return this.cachedDate.end.toLocaleString('en-us', { month: 'short' });
+    return this.cachedDate.end.toLocaleString('en-us', {
+      month: 'short',
+      timeZone: 'UTC',
+    });
   }
 
   private get primaryTag(): Tag | undefined {

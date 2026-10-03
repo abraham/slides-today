@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { DataService } from '../services/data.service';
 
 import { TagsComponent } from './tags.component';
 
@@ -20,6 +21,31 @@ describe('TagsComponent', () => {
 
   it('should be created', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe('chips', () => {
+    const chips = () =>
+      fixture.nativeElement.querySelectorAll('mat-chip-option');
+
+    it('shows every tag by default', () => {
+      expect(chips().length).toBe(TestBed.inject(DataService).tags.length);
+    });
+
+    it('shows only the current tags when given', () => {
+      fixture.componentRef.setInput('currentTags', ['polymer', 'php']);
+      fixture.detectChanges();
+
+      expect(chips().length).toBe(2);
+    });
+
+    it('follows later changes of the current tags', () => {
+      fixture.componentRef.setInput('currentTags', ['polymer', 'php']);
+      fixture.detectChanges();
+      fixture.componentRef.setInput('currentTags', ['php']);
+      fixture.detectChanges();
+
+      expect(chips().length).toBe(1);
+    });
   });
 
   it('uses listbox semantics for the tag chips', () => {
