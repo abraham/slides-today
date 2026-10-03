@@ -45,11 +45,11 @@ import { DeckResourcesComponent } from '../deck-resources/deck-resources.compone
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DeckDetailsComponent {
-  private location = inject(Location);
-  private router = inject(Router);
-  private viewContainer = inject(ViewContainerRef);
-  private seoService = inject(SeoService);
-  private tweetService = inject(TweetService);
+  private readonly location = inject(Location);
+  private readonly router = inject(Router);
+  private readonly viewContainer = inject(ViewContainerRef);
+  private readonly seoService = inject(SeoService);
+  private readonly tweetService = inject(TweetService);
   private share?: ComponentRef<ShareComponent>;
   private shareTimer?: ReturnType<typeof setTimeout>;
   private destroyed = false;

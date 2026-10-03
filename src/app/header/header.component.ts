@@ -24,10 +24,10 @@ interface PromptEvent extends Event {
   },
 })
 export class HeaderComponent {
-  private themeService = inject(ThemeService);
-  private location = inject(Location);
-  private router = inject(Router);
-  private update = inject(UpdateService);
+  private readonly themeService = inject(ThemeService);
+  private readonly location = inject(Location);
+  private readonly router = inject(Router);
+  private readonly update = inject(UpdateService);
 
   readonly title = input('Slides.today');
   readonly showBack = input(false);

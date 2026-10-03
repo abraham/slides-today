@@ -23,7 +23,7 @@ import {
   ],
 })
 export class SponsorComponent {
-  private sponsorService = inject(SponsorService);
+  private readonly sponsorService = inject(SponsorService);
 
   readonly sponsorIds = input.required<string[]>();
   readonly sponsors = computed(() =>

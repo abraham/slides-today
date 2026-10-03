@@ -15,8 +15,8 @@ export const DEFAULT_DESCRIPTION =
   providedIn: 'root',
 })
 export class SeoService {
-  private titleService = inject(Title);
-  private metaService = inject(Meta);
+  private readonly titleService = inject(Title);
+  private readonly metaService = inject(Meta);
 
   public reset() {
     this.update(DEFAULT_TITLE, DEFAULT_DESCRIPTION, IncludeSiteTitle.no);

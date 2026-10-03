@@ -6,7 +6,7 @@ import { DEFAULT_THEME, invert, Theme } from '../models/theme';
   providedIn: 'root',
 })
 export class ThemeService {
-  private meta = inject(Meta);
+  private readonly meta = inject(Meta);
   private theme = signal<Theme>(DEFAULT_THEME);
 
   readonly current = this.theme.asReadonly();

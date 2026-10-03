@@ -11,7 +11,7 @@ import { TagListPipe } from '../tag-list.pipe';
   imports: [CardComponent, TagListPipe],
 })
 export class DeckSummaryComponent {
-  private router = inject(Router);
+  private readonly router = inject(Router);
 
   readonly deck = input.required<Deck>();
 

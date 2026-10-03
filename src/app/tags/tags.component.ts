@@ -10,7 +10,7 @@ import { TagComponent } from '../tag/tag.component';
   imports: [MatChipListbox, TagComponent],
 })
 export class TagsComponent {
-  private dataService = inject(DataService);
+  private readonly dataService = inject(DataService);
 
   readonly currentTags = input<string[]>([]);
 

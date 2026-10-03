@@ -9,7 +9,7 @@ import { CardComponent } from '../card/card.component';
   imports: [CardComponent],
 })
 export class SpeakerComponent {
-  private speakerService = inject(SpeakerService);
+  private readonly speakerService = inject(SpeakerService);
 
   readonly speakerId = input.required<string>();
   readonly speaker = computed(() => this.speakerService.get(this.speakerId()));

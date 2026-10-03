@@ -25,9 +25,9 @@ const SNACK_BAR_CONFIG = { duration: 2500 };
   imports: [MatButtonModule, MatIconModule, MatMenuModule],
 })
 export class ShareComponent implements AfterContentInit {
-  private themeService = inject(ThemeService);
-  private snackBar = inject(MatSnackBar);
-  private destroyRef = inject(DestroyRef);
+  private readonly themeService = inject(ThemeService);
+  private readonly snackBar = inject(MatSnackBar);
+  private readonly destroyRef = inject(DestroyRef);
 
   readonly shareMenuTrigger =
     viewChild.required<MatMenuTrigger>('shareMenuTrigger');
