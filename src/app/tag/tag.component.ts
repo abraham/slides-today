@@ -1,5 +1,6 @@
 import { Component, computed, inject, input } from '@angular/core';
 import { MatChipSelectionChange, MatChipOption } from '@angular/material/chips';
+import { Router } from '@angular/router';
 import { Tag } from '../models/tag';
 import { DataService } from '../services/data.service';
 
@@ -19,6 +20,7 @@ type ChipStyle = {
 })
 export class TagComponent {
   private dataService = inject(DataService);
+  private router = inject(Router);
 
   readonly tag = input.required<Tag>();
 
@@ -43,7 +45,12 @@ export class TagComponent {
     this.dataService.tagSelection({
       id: tag.id,
       selected: event.selected,
-      updatePath: true,
     });
+    const tags = this.selectedTagIds();
+    if (tags.length === 0) {
+      this.router.navigate(['/']);
+    } else {
+      this.router.navigate(['/tags', { tags }]);
+    }
   }
 }

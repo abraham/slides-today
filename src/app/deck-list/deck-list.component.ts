@@ -65,7 +65,7 @@ export class DeckListComponent {
       )
       .subscribe(tags => {
         if (tags) {
-          tags.split(',').map(tag => this.selectTag(tag));
+          tags.split(',').forEach(tag => this.selectTag(tag));
         }
       });
   }
@@ -75,10 +75,6 @@ export class DeckListComponent {
   }
 
   private selectTag(tag: string): void {
-    this.dataService.tagSelection({
-      id: tag,
-      selected: true,
-      updatePath: false,
-    });
+    this.dataService.tagSelection({ id: tag, selected: true });
   }
 }

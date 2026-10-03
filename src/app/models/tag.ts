@@ -7,5 +7,4 @@ export interface Tag {
 export interface TagSelectionEvent {
   id: string;
   selected: boolean;
-  updatePath: boolean;
 }
