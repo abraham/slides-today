@@ -25,12 +25,10 @@
             <app-speaker [speakerId]="speakerId" />
           </div>
         }
-        @if (deck) {
-          <div class="item">
-            <app-map [location]="deck.location" />
-          </div>
-        }
-        @if (deck && deck.sponsorIds.length) {
+        <div class="item">
+          <app-map [location]="deck.location" />
+        </div>
+        @if (deck.sponsorIds.length) {
           <div class="item">
             <app-sponsor [sponsorIds]="deck.sponsorIds" />
           </div>
