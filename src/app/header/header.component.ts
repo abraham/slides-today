@@ -63,7 +63,7 @@ export class HeaderComponent {
     window.location.reload();
   }
 
-  goBack(e: MouseEvent | KeyboardEvent): void {
+  goBack(e: MouseEvent): void {
     e.preventDefault();
     if (window.history.length > 1) {
       this.location.back();

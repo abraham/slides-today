@@ -12,12 +12,8 @@
 }
 @if (!youtubeId() && placeholder()) {
   <div class="mdc-card" [ngStyle]="dimensionStyles()">
-    <div
-      class="mdc-card__primary-action action"
-      tabindex="0"
-      (click)="placeholder.set(false)"
-      (keyup)="placeholder.set(false)">
-      <button mat-fab extended>
+    <div class="mdc-card__primary-action action">
+      <button mat-fab extended (click)="placeholder.set(false)">
         <mat-icon fontSet="material-symbols-outlined">enable</mat-icon>
         Enable embed
       </button>
