@@ -9,8 +9,19 @@ export const deckResolver: ResolveFn<Deck | RedirectCommand> = async route => {
   const router = inject(Router);
   const themeService = inject(ThemeService);
 
-  const deck = await deckService.get(route.paramMap.get('id'));
+  const id = route.paramMap.get('id');
+  const deck = await deckService.get(id);
   if (!deck) {
+    // Realtime Database ids from before the Firestore migration.
+    const migrated = await deckService.getByLegacyId(id);
+    if (migrated) {
+      return new RedirectCommand(
+        router.createUrlTree(['/decks', migrated.id]),
+        {
+          replaceUrl: true,
+        },
+      );
+    }
     return new RedirectCommand(router.parseUrl('/404'), {
       skipLocationChange: true,
     });

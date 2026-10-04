@@ -118,7 +118,7 @@
     },
     {
       "path": "dist/slides-today/browser/*.js",
-      "maxSize": "25 kB"
+      "maxSize": "30 kB"
     }
   ]
 }

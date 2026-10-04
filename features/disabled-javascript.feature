@@ -12,11 +12,11 @@ Feature: Site shows JavaScript required message
 
   Scenario: Deck details page shows message
     Given JavaScript is "disabled"
-    When I visit "/decks/-LP90xu1JfaAgTCyhC3D"
+    When I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
     Then I should not see "How Do Service Workers Even?"
     And I should see "JavaScript is required to view Slides.today."
     When JavaScript is "enabled"
-    And I visit "/decks/-LP90xu1JfaAgTCyhC3D"
+    And I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
     Then I should see "How Do Service Workers Even?"
     And I should not see "JavaScript is required to view Slides.today."
 

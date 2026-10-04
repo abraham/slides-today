@@ -13,6 +13,7 @@ export class Deck {
   eventTitle: string;
   githubRepos: string[];
   id: string;
+  legacyId: string;
   links: Link[];
   resources: Resource[];
   location: string;
@@ -38,6 +39,7 @@ export class Deck {
     this.eventTitle = data.eventTitle;
     this.githubRepos = data.githubRepos;
     this.id = data.id;
+    this.legacyId = data.legacyId;
     this.links = data.links as Link[];
     this.resources = data.resources as Resource[];
     this.location = data.location;

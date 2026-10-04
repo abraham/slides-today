@@ -31,6 +31,17 @@ describe('deckResolver', () => {
     expect(((await resolve(raw.id)) as Deck).id).toEqual(raw.id);
   });
 
+  it('redirects a legacy id to the deck id, replacing the history entry', async () => {
+    const raw = Data.find(deck => !deck.archived)!;
+
+    const result = await resolve(raw.legacyId);
+
+    expect(result).toBeInstanceOf(RedirectCommand);
+    const { redirectTo, navigationBehaviorOptions } = result as RedirectCommand;
+    expect(redirectTo.toString()).toBe(`/decks/${raw.id}`);
+    expect(navigationBehaviorOptions?.replaceUrl).toBe(true);
+  });
+
   it('applies the deck theme', async () => {
     const raw = Data.find(deck => !deck.archived)!;
 

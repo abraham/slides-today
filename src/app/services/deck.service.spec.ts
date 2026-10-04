@@ -40,6 +40,14 @@ describe('DeckService', () => {
     expect(await service.get(null)).toBeUndefined();
   });
 
+  it('finds a deck by its legacy id', async () => {
+    const { id, legacyId } = Data.find(deck => !deck.archived)!;
+
+    expect((await service.getByLegacyId(legacyId))?.id).toBe(id);
+    expect(await service.getByLegacyId(id)).toBeUndefined();
+    expect(await service.getByLegacyId(null)).toBeUndefined();
+  });
+
   it('filters decks that include all of the tags', async () => {
     await service.get('unknown');
     const [tag] = service.decks()![0].tags;
