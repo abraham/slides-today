@@ -1,15 +1,18 @@
-import { Injectable, signal } from '@angular/core';
-import Data from '../decks.data.json';
+import { Injectable, inject, signal } from '@angular/core';
 import { Deck } from '../models/deck';
-
-type RawDeck = (typeof Data)[number];
+import { DECKS } from '../repositories';
+import { DataService } from './data.service';
+import { EventService } from './event.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class DeckService {
+  private readonly repository = inject(DECKS);
+  private readonly dataService = inject(DataService);
+  private readonly eventService = inject(EventService);
   private readonly decksState = signal<Deck[] | undefined>(undefined);
-  private readonly loaded = this.fetchDecks();
+  readonly loaded = this.fetchDecks();
 
   // Undefined until the deck data has loaded.
   readonly decks = this.decksState.asReadonly();
@@ -38,11 +41,24 @@ export class DeckService {
   }
 
   private async fetchDecks(): Promise<Deck[]> {
-    const { default: data }: { default: RawDeck[] } =
-      await import('../decks.data.json');
+    const [data] = await Promise.all([
+      this.repository.list(),
+      this.dataService.loaded,
+      this.eventService.loaded,
+    ]);
+    const tags = this.dataService.tags();
     const decks = data
       .filter(deck => !deck.archived)
-      .map((deck: RawDeck) => new Deck(deck));
+      .map(
+        deck =>
+          new Deck(
+            deck,
+            deck.events.map(({ eventId, occurrenceId }) =>
+              this.eventService.occurrence(eventId, occurrenceId),
+            ),
+            tags,
+          ),
+      );
     this.decksState.set(decks);
     return decks;
   }

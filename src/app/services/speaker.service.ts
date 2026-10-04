@@ -1,16 +1,24 @@
-import { Injectable } from '@angular/core';
+import { Injectable, computed, inject, signal } from '@angular/core';
 import { Speaker } from '../models/speaker';
-import speakers from '../speakers.data.json';
+import { SPEAKERS } from '../repositories';
 
 @Injectable({
   providedIn: 'root',
 })
 export class SpeakerService {
-  readonly speakers = [...(speakers as Speaker[])].sort((a, b) =>
-    a.name.localeCompare(b.name),
+  private readonly speakersState = signal<Speaker[]>([]);
+
+  readonly loaded = inject(SPEAKERS)
+    .list()
+    .then(speakers => {
+      this.speakersState.set(speakers);
+    });
+
+  readonly speakers = computed(() =>
+    [...this.speakersState()].sort((a, b) => a.name.localeCompare(b.name)),
   );
 
   get(id?: string | null): Speaker | undefined {
-    return (speakers as Speaker[]).find(speaker => speaker.id === id);
+    return this.speakersState().find(speaker => speaker.id === id);
   }
 }

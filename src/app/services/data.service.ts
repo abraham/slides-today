@@ -1,7 +1,7 @@
-import { Injectable, computed, inject } from '@angular/core';
+import { Injectable, computed, inject, signal } from '@angular/core';
 import { PRIMARY_OUTLET, Router } from '@angular/router';
 import { Tag } from '../models/tag';
-import tagData from '../tags.data.json';
+import { TAGS } from '../repositories';
 
 const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
   if (a.id < b.id) {
@@ -18,8 +18,15 @@ const sortTags = (a: Tag, b: Tag): -1 | 0 | 1 => {
 })
 export class DataService {
   private readonly router = inject(Router);
+  private readonly tagsState = signal<Tag[]>([]);
 
-  readonly tags: Tag[] = [...tagData].sort(sortTags);
+  readonly loaded = inject(TAGS)
+    .list()
+    .then(tags => {
+      this.tagsState.set([...tags].sort(sortTags));
+    });
+
+  readonly tags = this.tagsState.asReadonly();
 
   // The query params of the `/filters` route are the only record of the selection.
   private readonly filterParams = computed(() => {
@@ -42,13 +49,13 @@ export class DataService {
 
   filterTags(ids: string[]): Tag[] {
     if (ids.length === 0) {
-      return this.tags;
+      return this.tags();
     }
-    return this.tags.filter(tag => ids.includes(tag.id));
+    return this.tags().filter(tag => ids.includes(tag.id));
   }
 
   tag(id: string): Tag | undefined {
-    return this.tags.find(tag => tag.id === id);
+    return this.tags().find(tag => tag.id === id);
   }
 
   setFilter(name: 'tags' | 'speakers' | 'events', ids: string[]): void {

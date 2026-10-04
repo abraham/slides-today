@@ -1,12 +1,25 @@
-import Data from '../decks.data.json';
-import tagData from '../tags.data.json';
-import { EventOccurrence, findOccurrence } from './event';
-import { Link } from './link';
+import { EventOccurrence } from './event';
+import { Link, RawLink } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
 import { DEFAULT_THEME, Theme } from './theme';
 
-type RawDeck = (typeof Data)[number];
+export interface RawDeck {
+  id: string;
+  legacyId: string;
+  archived: boolean;
+  nodePackages: string[];
+  githubRepos: string[];
+  speakerIds: string[];
+  title: string;
+  events: { eventId: string; occurrenceId: string }[];
+  description: string;
+  tags: string[];
+  links: RawLink[];
+  resources: RawLink[];
+  sponsorIds: string[];
+  tweetIds: string[];
+}
 
 export class Deck {
   archived: boolean;
@@ -29,9 +42,8 @@ export class Deck {
 
   constructor(
     data: RawDeck,
-    occurrences = data.events.map(({ eventId, occurrenceId }) =>
-      findOccurrence(eventId, occurrenceId),
-    ),
+    occurrences: EventOccurrence[],
+    private readonly allTags: Tag[],
   ) {
     // The first occurrence is the primary one and provides the date and location.
     const [primary] = occurrences;
@@ -83,7 +95,7 @@ export class Deck {
 
   private get primaryTag(): Tag | undefined {
     const [firstTagId] = this.tags;
-    return tagData.find((tag: Tag) => tag.id === firstTagId);
+    return this.allTags.find((tag: Tag) => tag.id === firstTagId);
   }
 
   private get linkTags(): string[] {

@@ -6,9 +6,10 @@ import { SponsorService } from './sponsor.service';
 describe('SponsorService', () => {
   let service: SponsorService;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(SponsorService);
+    await service.loaded;
   });
 
   it('should be created', () => {

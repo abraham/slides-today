@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import sponsors from '../sponsors.data.json';
+import { SponsorService } from '../services/sponsor.service';
 import { SponsorComponent } from './sponsor.component';
 
 describe('SponsorComponent', () => {
@@ -13,7 +14,8 @@ describe('SponsorComponent', () => {
     }).compileComponents();
   });
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    await TestBed.inject(SponsorService).loaded;
     fixture = TestBed.createComponent(SponsorComponent);
     component = fixture.componentInstance;
     fixture.componentRef.setInput('sponsorIds', []);

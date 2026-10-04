@@ -2,7 +2,7 @@
   aria-label="Speaker selection"
   multiple
   [value]="selectedSpeakerIds()">
-  @for (speaker of speakers; track speaker.id) {
+  @for (speaker of speakers(); track speaker.id) {
     <mat-chip-option
       [attr.data-id]="speaker.id"
       [value]="speaker.id"

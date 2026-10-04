@@ -8,6 +8,7 @@ import {
 } from '@angular/router';
 import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
+import { createDeck } from '../testing';
 import { deckResolver } from './deck.resolver';
 import { ThemeService } from './theme.service';
 
@@ -47,7 +48,9 @@ describe('deckResolver', () => {
 
     await resolve(raw.id);
 
-    expect(TestBed.inject(ThemeService).current()).toEqual(new Deck(raw).theme);
+    expect(TestBed.inject(ThemeService).current()).toEqual(
+      createDeck(raw).theme,
+    );
   });
 
   it('redirects to the 404 page without changing the URL for an unknown deck', async () => {

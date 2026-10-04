@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import speakers from '../speakers.data.json';
+import { SpeakerService } from '../services/speaker.service';
 import { SpeakerComponent } from './speaker.component';
 
 describe('SpeakerComponent', () => {
@@ -13,7 +14,8 @@ describe('SpeakerComponent', () => {
     }).compileComponents();
   });
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    await TestBed.inject(SpeakerService).loaded;
     fixture = TestBed.createComponent(SpeakerComponent);
     component = fixture.componentInstance;
     fixture.componentRef.setInput('speakerId', speakers[0].id);

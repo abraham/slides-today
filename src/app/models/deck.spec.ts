@@ -1,10 +1,9 @@
 import Data from '../decks.data.json';
 import events from '../events.data.json';
 import tagData from '../tags.data.json';
-import { Deck } from './deck';
+import { createDeck } from '../testing';
+import { RawDeck } from './deck';
 import { DEFAULT_THEME } from './theme';
-
-type RawDeck = (typeof Data)[number];
 
 const raw = (overrides: Partial<RawDeck> = {}): RawDeck => ({
   ...Data[0]!,
@@ -17,7 +16,7 @@ const raw = (overrides: Partial<RawDeck> = {}): RawDeck => ({
 describe('Deck', () => {
   it('copies the fields of the raw deck', () => {
     const data = Data[0]!;
-    const deck = new Deck(data);
+    const deck = createDeck(data);
 
     expect(deck.id).toBe(data.id);
     expect(deck.legacyId).toBe(data.legacyId);
@@ -38,7 +37,7 @@ describe('Deck', () => {
       const occurrence = event.occurrences.find(
         ({ id }) => id === occurrenceId,
       )!;
-      const deck = new Deck(data);
+      const deck = createDeck(data);
 
       expect(deck.eventTitle).toBe(event.title);
       expect(deck.location).toBe(occurrence.location);
@@ -52,7 +51,7 @@ describe('Deck', () => {
     });
 
     it('combines the titles of multiple events', () => {
-      const deck = new Deck(multiple);
+      const deck = createDeck(multiple);
 
       expect(deck.eventIds).toEqual(multiple.events.map(e => e.eventId));
       expect(deck.occurrences).toHaveLength(multiple.events.length);
@@ -61,27 +60,19 @@ describe('Deck', () => {
 
     it('keeps the links of the events out of the links of the deck', () => {
       const link = { title: 'Slides', url: 'https://example.com/a' };
-      const deck = new Deck(raw({ links: [link] as RawDeck['links'] }));
+      const deck = createDeck(raw({ links: [link] as RawDeck['links'] }));
 
       expect(deck.links.map(({ title }) => title)).toEqual(['Slides']);
     });
 
-    it('throws for an unknown occurrence', () => {
-      const [{ eventId }] = Data[0]!.events;
-
-      expect(
-        () => new Deck(raw({ events: [{ eventId, occurrenceId: 'unknown' }] })),
-      ).toThrow('Unknown event occurrence');
-    });
-
     it('throws without any occurrence', () => {
-      expect(() => new Deck(raw({ events: [] }))).toThrow('no event');
+      expect(() => createDeck(raw({ events: [] }))).toThrow('no event');
     });
   });
 
   describe('tags', () => {
     it('keeps the tags of the deck without duplicates', () => {
-      const deck = new Deck(raw({ tags: ['angular', 'pwa', 'angular'] }));
+      const deck = createDeck(raw({ tags: ['angular', 'pwa', 'angular'] }));
 
       expect(deck.tags).toEqual(['angular', 'pwa']);
     });
@@ -102,7 +93,7 @@ describe('Deck', () => {
         url: 'https://example.com/c',
         useAsTag: true,
       };
-      const deck = new Deck(
+      const deck = createDeck(
         raw({
           tags: ['angular'],
           links: [link, skipped] as RawDeck['links'],
@@ -114,7 +105,7 @@ describe('Deck', () => {
     });
 
     it('recomputes the tags when they are set', () => {
-      const deck = new Deck(raw({ tags: ['angular'] }));
+      const deck = createDeck(raw({ tags: ['angular'] }));
 
       deck.tags = ['pwa'];
 
@@ -125,7 +116,7 @@ describe('Deck', () => {
   describe('theme', () => {
     it('uses the colors of the first tag', () => {
       const [tag] = tagData;
-      const deck = new Deck(raw({ tags: [tag!.id, 'other'] }));
+      const deck = createDeck(raw({ tags: [tag!.id, 'other'] }));
 
       expect(deck.theme).toEqual({
         backgroundColor: tag!.primaryColor,
@@ -134,8 +125,8 @@ describe('Deck', () => {
     });
 
     it('uses the default theme without a known first tag', () => {
-      expect(new Deck(raw({ tags: [] })).theme).toEqual(DEFAULT_THEME);
-      expect(new Deck(raw({ tags: ['unknown-tag'] })).theme).toEqual(
+      expect(createDeck(raw({ tags: [] })).theme).toEqual(DEFAULT_THEME);
+      expect(createDeck(raw({ tags: ['unknown-tag'] })).theme).toEqual(
         DEFAULT_THEME,
       );
     });

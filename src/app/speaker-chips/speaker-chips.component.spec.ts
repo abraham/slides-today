@@ -11,7 +11,7 @@ class StubComponent {}
 describe('SpeakerChipsComponent', () => {
   let fixture: ComponentFixture<SpeakerChipsComponent>;
   let navigate: ReturnType<typeof vi.spyOn>;
-  const speakers = () => TestBed.inject(SpeakerService).speakers;
+  const speakers = () => TestBed.inject(SpeakerService).speakers();
   const chips = (): HTMLElement[] =>
     Array.from(
       fixture.nativeElement.querySelectorAll(
@@ -28,6 +28,7 @@ describe('SpeakerChipsComponent', () => {
     }).compileComponents();
     navigate = vi.spyOn(TestBed.inject(Router), 'navigate');
     navigate.mockResolvedValue(true);
+    await TestBed.inject(SpeakerService).loaded;
     fixture = TestBed.createComponent(SpeakerChipsComponent);
     fixture.detectChanges();
   });

@@ -1,14 +1,20 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject, signal } from '@angular/core';
 import { Sponsor } from '../models/sponsor';
-import sponsorData from '../sponsors.data.json';
+import { SPONSORS } from '../repositories';
 
 @Injectable({
   providedIn: 'root',
 })
 export class SponsorService {
+  private readonly sponsorsState = signal<Sponsor[]>([]);
+
+  readonly loaded = inject(SPONSORS)
+    .list()
+    .then(sponsors => {
+      this.sponsorsState.set(sponsors);
+    });
+
   select(ids: string[]): Sponsor[] {
-    return (sponsorData as Sponsor[]).filter(sponsor =>
-      ids.includes(sponsor.id),
-    );
+    return this.sponsorsState().filter(sponsor => ids.includes(sponsor.id));
   }
 }

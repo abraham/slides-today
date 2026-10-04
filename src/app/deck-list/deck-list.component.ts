@@ -4,6 +4,7 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
 import { DeckService } from '../services/deck.service';
+import { EventService } from '../services/event.service';
 import { SpeakerService } from '../services/speaker.service';
 import { ThemeService } from '../services/theme.service';
 import { FiltersSheetComponent } from '../filters-sheet/filters-sheet.component';
@@ -15,7 +16,6 @@ import { MatIcon } from '@angular/material/icon';
 import { AboutComponent } from '../about/about.component';
 import { DeckSummaryComponent } from '../deck-summary/deck-summary.component';
 import { formatList } from '../models/text';
-import { findEventTitle } from '../models/event';
 
 @Component({
   selector: 'app-deck-list',
@@ -35,6 +35,7 @@ export class DeckListComponent {
   private readonly dataService = inject(DataService);
   private readonly themeService = inject(ThemeService);
   private readonly deckService = inject(DeckService);
+  private readonly eventService = inject(EventService);
   private readonly speakerService = inject(SpeakerService);
   private readonly bottomSheet = inject(MatBottomSheet);
   private readonly breakpointObserver = inject(BreakpointObserver);
@@ -55,7 +56,7 @@ export class DeckListComponent {
       ...this.selectedSpeakerIds().map(
         id => this.speakerService.get(id)?.name ?? id,
       ),
-      ...this.selectedEventIds().map(id => findEventTitle(id) ?? id),
+      ...this.selectedEventIds().map(id => this.eventService.title(id) ?? id),
     ]),
   );
   readonly decks = computed(() => {

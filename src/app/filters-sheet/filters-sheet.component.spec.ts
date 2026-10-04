@@ -14,7 +14,9 @@ describe('FiltersSheetComponent', () => {
     }).compileComponents();
   });
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    await TestBed.inject(DataService).loaded;
+    await TestBed.inject(SpeakerService).loaded;
     fixture = TestBed.createComponent(FiltersSheetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -30,9 +32,9 @@ describe('FiltersSheetComponent', () => {
     expect(element.querySelector('h3')?.textContent).toBe('Filter decks');
     expect(
       element.querySelectorAll('app-tag-chips mat-chip-option').length,
-    ).toBe(TestBed.inject(DataService).tags.length);
+    ).toBe(TestBed.inject(DataService).tags().length);
     expect(
       element.querySelectorAll('app-speaker-chips mat-chip-option').length,
-    ).toBe(TestBed.inject(SpeakerService).speakers.length);
+    ).toBe(TestBed.inject(SpeakerService).speakers().length);
   });
 });

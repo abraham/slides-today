@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import Data from '../decks.data.json';
-import { Deck } from '../models/deck';
+import { createDeck } from '../testing';
 import { DeckSummaryComponent } from './deck-summary.component';
 
 describe('DeckSummaryComponent', () => {
@@ -18,7 +18,7 @@ describe('DeckSummaryComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(DeckSummaryComponent);
     component = fixture.componentInstance;
-    fixture.componentRef.setInput('deck', new Deck(Data[0]));
+    fixture.componentRef.setInput('deck', createDeck(Data[0]));
     fixture.detectChanges();
   });
 
@@ -27,7 +27,7 @@ describe('DeckSummaryComponent', () => {
   });
 
   it('links to the deck page', () => {
-    const deck = new Deck(Data[0]);
+    const deck = createDeck(Data[0]);
     const link: HTMLAnchorElement =
       fixture.nativeElement.querySelector('a.primary-action');
 
@@ -36,7 +36,7 @@ describe('DeckSummaryComponent', () => {
   });
 
   it('shows the title, event, date and tags of the deck', () => {
-    const deck = new Deck(Data[0]);
+    const deck = createDeck(Data[0]);
     const text: string = fixture.nativeElement.textContent;
 
     expect(text).toContain(deck.title);

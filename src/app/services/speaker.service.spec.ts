@@ -6,9 +6,10 @@ import { SpeakerService } from './speaker.service';
 describe('SpeakerService', () => {
   let service: SpeakerService;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(SpeakerService);
+    await service.loaded;
   });
 
   it('should be created', () => {
@@ -16,7 +17,7 @@ describe('SpeakerService', () => {
   });
 
   it('lists the speakers sorted by name', () => {
-    const names = service.speakers.map(speaker => speaker.name);
+    const names = service.speakers().map(speaker => speaker.name);
 
     expect(names.length).toBe(speakers.length);
     expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));

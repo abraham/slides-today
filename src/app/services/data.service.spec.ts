@@ -10,11 +10,12 @@ class StubComponent {}
 describe('DataService', () => {
   let service: DataService;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       providers: [provideRouter([{ path: '**', component: StubComponent }])],
     });
     service = TestBed.inject(DataService);
+    await service.loaded;
   });
 
   it('should be created', () => {
@@ -23,7 +24,7 @@ describe('DataService', () => {
 
   describe('tags', () => {
     it('is sorted by id', () => {
-      const ids = service.tags.map(tag => tag.id);
+      const ids = service.tags().map(tag => tag.id);
 
       expect(ids.length).toBeGreaterThan(1);
       expect(ids).toEqual([...ids].sort());
@@ -132,7 +133,7 @@ describe('DataService', () => {
 
   describe('filterTags', () => {
     it('returns all tags when no ids are given', () => {
-      expect(service.filterTags([])).toEqual(service.tags);
+      expect(service.filterTags([])).toEqual(service.tags());
     });
 
     it('returns only the tags matching the ids', () => {
