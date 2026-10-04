@@ -46,11 +46,7 @@ export class Deck {
     this.githubRepos = data.githubRepos;
     this.id = data.id;
     this.legacyId = data.legacyId;
-    // Event links come first, as the event is the context of the deck.
-    this.links = [
-      ...occurrences.flatMap(o => o.links),
-      ...(data.links as Link[]),
-    ];
+    this.links = data.links as Link[];
     this.resources = data.resources as Resource[];
     this.location = primary.location;
     this.nodePackages = data.nodePackages;

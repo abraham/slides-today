@@ -2,7 +2,6 @@ import Data from '../decks.data.json';
 import events from '../events.data.json';
 import tagData from '../tags.data.json';
 import { Deck } from './deck';
-import { findOccurrence } from './event';
 import { DEFAULT_THEME } from './theme';
 
 type RawDeck = (typeof Data)[number];
@@ -52,24 +51,18 @@ describe('Deck', () => {
       ).toEqual(data.events);
     });
 
-    it('combines the titles and links of multiple events', () => {
+    it('combines the titles of multiple events', () => {
       const deck = new Deck(multiple);
 
       expect(deck.occurrences).toHaveLength(multiple.events.length);
       expect(deck.eventTitle).toBe('GDG Madison & Madison Women in Tech');
-      expect(deck.links.filter(({ title }) => title === 'Event')).toHaveLength(
-        multiple.events.length,
-      );
     });
 
-    it('lists the links of the events before the links of the deck', () => {
-      const [{ eventId, occurrenceId }] = Data[0]!.events;
+    it('keeps the links of the events out of the links of the deck', () => {
       const link = { title: 'Slides', url: 'https://example.com/a' };
-      const deck = new Deck(raw({ links: [link] as RawDeck['links'] }), [
-        findOccurrence(eventId, occurrenceId),
-      ]);
+      const deck = new Deck(raw({ links: [link] as RawDeck['links'] }));
 
-      expect(deck.links.map(({ title }) => title)).toEqual(['Event', 'Slides']);
+      expect(deck.links.map(({ title }) => title)).toEqual(['Slides']);
     });
 
     it('throws for an unknown occurrence', () => {

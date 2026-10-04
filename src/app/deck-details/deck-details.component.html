@@ -5,7 +5,6 @@
         <div #detailsEl class="item">
           <app-card [actions]="deck.links">
             <div hero>{{ deck.title }}</div>
-            <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
             <div body>{{ deck.description }}</div>
             <div body><app-tag-chips [currentTags]="deck.tags" /></div>
           </app-card>
@@ -22,6 +21,11 @@
         @for (speakerId of deck.speakerIds; track speakerId) {
           <div class="item">
             <app-speaker [speakerId]="speakerId" />
+          </div>
+        }
+        @for (occurrence of deck.occurrences; track occurrence.id) {
+          <div class="item">
+            <app-event [occurrence]="occurrence" />
           </div>
         }
         <div class="item">
