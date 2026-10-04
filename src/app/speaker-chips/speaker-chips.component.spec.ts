@@ -13,7 +13,13 @@ describe('SpeakerChipsComponent', () => {
   let navigate: ReturnType<typeof vi.spyOn>;
   const speakers = () => TestBed.inject(SpeakerService).speakers;
   const chips = (): HTMLElement[] =>
-    Array.from(fixture.nativeElement.querySelectorAll('mat-chip-option'));
+    Array.from(
+      fixture.nativeElement.querySelectorAll(
+        'mat-chip-option:not(.clear-chip)',
+      ),
+    );
+  const clearChip = (): HTMLElement | null =>
+    fixture.nativeElement.querySelector('.clear-chip');
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -51,6 +57,35 @@ describe('SpeakerChipsComponent', () => {
     expect(
       chips().map(chip => chip.classList.contains('mat-mdc-chip-selected')),
     ).toEqual(speakers().map(speaker => speaker.id === first!.id));
+  });
+
+  describe('clear chip', () => {
+    it('is hidden when no speaker is selected', () => {
+      expect(clearChip()).toBeNull();
+    });
+
+    it('clears the selected speakers when clicked', async () => {
+      await TestBed.inject(Router).navigateByUrl('/filters?speakers=a,b');
+      fixture.detectChanges();
+
+      clearChip()!.click();
+
+      expect(navigate).toHaveBeenLastCalledWith(['/']);
+    });
+
+    it('keeps the tags when clicked', async () => {
+      await TestBed.inject(Router).navigateByUrl(
+        '/filters?speakers=a&tags=php',
+      );
+      fixture.detectChanges();
+
+      clearChip()!.click();
+
+      expect(navigate).toHaveBeenLastCalledWith(['/filters'], {
+        queryParams: { speakers: null },
+        queryParamsHandling: 'merge',
+      });
+    });
   });
 
   describe('changeSelected', () => {

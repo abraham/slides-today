@@ -2,4 +2,13 @@
   @for (tag of tags(); track tag.id) {
     <app-tag [tag]="tag" />
   }
+  @if (canClear()) {
+    <mat-chip-option
+      class="clear-chip"
+      [selectable]="false"
+      aria-label="Clear tag selection"
+      (click)="clear()">
+      <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
+    </mat-chip-option>
+  }
 </mat-chip-listbox>

@@ -5,6 +5,7 @@ import {
   MatChipOption,
   MatChipSelectionChange,
 } from '@angular/material/chips';
+import { MatIcon } from '@angular/material/icon';
 import { DataService } from '../services/data.service';
 import { SpeakerService } from '../services/speaker.service';
 
@@ -12,13 +13,17 @@ import { SpeakerService } from '../services/speaker.service';
   selector: 'app-speaker-chips',
   styleUrl: './speaker-chips.component.scss',
   templateUrl: './speaker-chips.component.html',
-  imports: [MatChipAvatar, MatChipListbox, MatChipOption],
+  imports: [MatChipAvatar, MatChipListbox, MatChipOption, MatIcon],
 })
 export class SpeakerChipsComponent {
   private readonly dataService = inject(DataService);
 
   readonly speakers = inject(SpeakerService).speakers;
   readonly selectedSpeakerIds = this.dataService.selectedSpeakerIds;
+
+  clear(): void {
+    this.dataService.setFilter('speakers', []);
+  }
 
   changeSelected(event: MatChipSelectionChange, id: string): void {
     // Chips also emit when their selected state is bound, which must not navigate.

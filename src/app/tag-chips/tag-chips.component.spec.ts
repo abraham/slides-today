@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Router, provideRouter } from '@angular/router';
 import { DataService } from '../services/data.service';
 
 import { TagChipsComponent } from './tag-chips.component';
@@ -10,6 +11,7 @@ describe('TagChipsComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [TagChipsComponent],
+      providers: [provideRouter([{ path: '**', children: [] }])],
     }).compileComponents();
   });
 
@@ -45,6 +47,33 @@ describe('TagChipsComponent', () => {
       fixture.detectChanges();
 
       expect(chips().length).toBe(1);
+    });
+  });
+
+  describe('clear chip', () => {
+    const clearChip = (): HTMLElement | null =>
+      fixture.nativeElement.querySelector('.clear-chip');
+
+    it('is hidden when no tag is selected', () => {
+      expect(clearChip()).toBeNull();
+    });
+
+    it('is hidden for the tags of a deck', async () => {
+      await TestBed.inject(Router).navigateByUrl('/filters?tags=php');
+      fixture.componentRef.setInput('currentTags', ['php']);
+      fixture.detectChanges();
+
+      expect(clearChip()).toBeNull();
+    });
+
+    it('clears the selected tags when clicked', async () => {
+      const navigate = vi.spyOn(TestBed.inject(Router), 'navigate');
+      await TestBed.inject(Router).navigateByUrl('/filters?tags=php,ruby');
+      fixture.detectChanges();
+
+      clearChip()!.click();
+
+      expect(navigate).toHaveBeenLastCalledWith(['/']);
     });
   });
 
