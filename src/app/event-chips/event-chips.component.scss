@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  margin-top: 16px;
+}
+
+.clear-chip {
+  cursor: pointer;
+
+  mat-icon {
+    display: block;
+  }
+}

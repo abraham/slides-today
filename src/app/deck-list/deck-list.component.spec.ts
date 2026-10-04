@@ -120,6 +120,18 @@ describe('DeckListComponent', () => {
       expect(summaries().length).toBeLessThan(deckService.decks()!.length);
     });
 
+    it('shows the event chips only while an event is selected', async () => {
+      const [eventId] = TestBed.inject(DeckService).decks()![0]!.eventIds;
+      expect(element().querySelector('app-event-chips mat-chip')).toBeNull();
+
+      await TestBed.inject(Router).navigateByUrl(`/filters?events=${eventId}`);
+      fixture.detectChanges();
+
+      expect(
+        element().querySelector('app-event-chips mat-chip'),
+      ).not.toBeNull();
+    });
+
     it('names the selected event when nothing matches', async () => {
       const deckService = TestBed.inject(DeckService);
       const [eventId] = deckService.decks()![0]!.eventIds;

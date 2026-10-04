@@ -9,6 +9,7 @@ import { ThemeService } from '../services/theme.service';
 import { FiltersSheetComponent } from '../filters-sheet/filters-sheet.component';
 import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { SpeakerChipsComponent } from '../speaker-chips/speaker-chips.component';
+import { EventChipsComponent } from '../event-chips/event-chips.component';
 import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { AboutComponent } from '../about/about.component';
@@ -23,6 +24,7 @@ import { findEventTitle } from '../models/event';
   imports: [
     TagChipsComponent,
     SpeakerChipsComponent,
+    EventChipsComponent,
     MatButton,
     MatIcon,
     AboutComponent,
