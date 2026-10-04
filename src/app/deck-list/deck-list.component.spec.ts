@@ -106,6 +106,34 @@ describe('DeckListComponent', () => {
       );
       expect(summaries().length).toBeLessThan(deckService.decks()!.length);
     });
+    it('shows only the decks of the selected event', async () => {
+      const deckService = TestBed.inject(DeckService);
+      const [eventId] = deckService.decks()![0]!.eventIds;
+
+      await TestBed.inject(Router).navigateByUrl(`/filters?events=${eventId}`);
+      fixture.detectChanges();
+
+      expect(element().querySelector('app-about')).toBeNull();
+      expect(summaries().length).toBe(
+        deckService.filter([], [], [eventId!])!.length,
+      );
+      expect(summaries().length).toBeLessThan(deckService.decks()!.length);
+    });
+
+    it('names the selected event when nothing matches', async () => {
+      const deckService = TestBed.inject(DeckService);
+      const [eventId] = deckService.decks()![0]!.eventIds;
+
+      await TestBed.inject(Router).navigateByUrl(
+        `/filters?events=${eventId}&tags=nothing`,
+      );
+      fixture.detectChanges();
+
+      expect(summaries().length).toBe(0);
+      expect(element().textContent).toContain(
+        deckService.decks()![0]!.eventTitle.split(' & ')[0],
+      );
+    });
   });
 
   describe('on mobile', () => {

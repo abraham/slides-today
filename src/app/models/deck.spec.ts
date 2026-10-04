@@ -54,6 +54,7 @@ describe('Deck', () => {
     it('combines the titles of multiple events', () => {
       const deck = new Deck(multiple);
 
+      expect(deck.eventIds).toEqual(multiple.events.map(e => e.eventId));
       expect(deck.occurrences).toHaveLength(multiple.events.length);
       expect(deck.eventTitle).toBe('GDG Madison & Madison Women in Tech');
     });

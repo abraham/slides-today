@@ -68,6 +68,16 @@ describe('DeckService', () => {
     expect(service.filter([], ['unknown'])).toEqual([]);
   });
 
+  it('filters decks that include all of the events', async () => {
+    await service.get('unknown');
+    const [eventId] = service.decks()![0].eventIds;
+    const decks = service.filter([], [], [eventId!])!;
+
+    expect(decks.length).toBeGreaterThan(0);
+    expect(decks.every(deck => deck.eventIds.includes(eventId!))).toBe(true);
+    expect(service.filter([], [], ['unknown'])).toEqual([]);
+  });
+
   it('returns all decks without tags', async () => {
     await service.get('unknown');
 

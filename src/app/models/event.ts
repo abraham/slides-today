@@ -42,6 +42,9 @@ export class EventOccurrence {
 const month = (date: Date): string =>
   date.toLocaleString('en-us', { month: 'short', timeZone: 'UTC' });
 
+export const findEventTitle = (eventId: string): string | undefined =>
+  Data.find(({ id }) => id === eventId)?.title;
+
 export const findOccurrence = (
   eventId: string,
   occurrenceId: string,

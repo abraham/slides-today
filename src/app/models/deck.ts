@@ -62,6 +62,10 @@ export class Deck {
     return this.occurrences[0]!.date;
   }
 
+  get eventIds(): string[] {
+    return this.occurrences.map(({ eventId }) => eventId);
+  }
+
   get theme(): Theme {
     if (this.primaryTag) {
       return {
