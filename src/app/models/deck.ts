@@ -1,5 +1,6 @@
 import Data from '../decks.data.json';
 import tagData from '../tags.data.json';
+import { EventOccurrence, findOccurrence } from './event';
 import { Link } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
@@ -18,32 +19,42 @@ export class Deck {
   resources: Resource[];
   location: string;
   nodePackages: string[];
+  occurrences: EventOccurrence[];
   speakerIds: string[];
   sponsorIds: string[];
   title: string;
   tweetIds: string[];
 
   private cachedTags: string[] = [];
-  private cachedDate: {
-    end: Date;
-    start: Date;
-  };
 
-  constructor(data: RawDeck) {
-    this.cachedDate = {
-      end: new Date(data.date.end),
-      start: new Date(data.date.start),
-    };
+  constructor(
+    data: RawDeck,
+    occurrences = data.events.map(({ eventId, occurrenceId }) =>
+      findOccurrence(eventId, occurrenceId),
+    ),
+  ) {
+    // The first occurrence is the primary one and provides the date and location.
+    const [primary] = occurrences;
+    if (!primary) {
+      throw new Error(`Deck ${data.id} has no event occurrences`);
+    }
     this.archived = data.archived;
     this.description = data.description;
-    this.eventTitle = data.eventTitle;
+    this.eventTitle = [...new Set(occurrences.map(o => o.eventTitle))].join(
+      ' & ',
+    );
     this.githubRepos = data.githubRepos;
     this.id = data.id;
     this.legacyId = data.legacyId;
-    this.links = data.links as Link[];
+    // Event links come first, as the event is the context of the deck.
+    this.links = [
+      ...occurrences.flatMap(o => o.links),
+      ...(data.links as Link[]),
+    ];
     this.resources = data.resources as Resource[];
-    this.location = data.location;
+    this.location = primary.location;
     this.nodePackages = data.nodePackages;
+    this.occurrences = occurrences;
     this.speakerIds = data.speakerIds;
     this.sponsorIds = data.sponsorIds;
     this.tags = data.tags;
@@ -52,16 +63,7 @@ export class Deck {
   }
 
   get date(): string {
-    const { start, end } = this.cachedDate;
-    const startDay = `${this.startMonth} ${start.getUTCDate()}`;
-    const endDay = `${this.endMonth} ${end.getUTCDate()}`;
-    if (start.getUTCFullYear() !== end.getUTCFullYear()) {
-      return `${startDay}, ${start.getUTCFullYear()}-${endDay}, ${end.getUTCFullYear()}`;
-    }
-    if (start.getUTCMonth() !== end.getUTCMonth()) {
-      return `${startDay}-${endDay}, ${end.getUTCFullYear()}`;
-    }
-    return `${startDay}, ${start.getUTCFullYear()}`;
+    return this.occurrences[0]!.date;
   }
 
   get theme(): Theme {
@@ -77,20 +79,6 @@ export class Deck {
 
   get tags(): string[] {
     return this.cachedTags;
-  }
-
-  private get startMonth(): string {
-    return this.cachedDate.start.toLocaleString('en-us', {
-      month: 'short',
-      timeZone: 'UTC',
-    });
-  }
-
-  private get endMonth(): string {
-    return this.cachedDate.end.toLocaleString('en-us', {
-      month: 'short',
-      timeZone: 'UTC',
-    });
   }
 
   private get primaryTag(): Tag | undefined {

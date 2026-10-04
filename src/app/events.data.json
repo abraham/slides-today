@@ -1,0 +1,1385 @@
+[
+  {
+    "id": "oGELsVIcqG5IMNQTMaqI",
+    "title": "The Google Ads API Migration Workshop",
+    "occurrences": [
+      {
+        "id": "I7AXNZZeOgFTLHikiUQ5",
+        "date": {
+          "start": "2021-10-05T00:00:00.000Z",
+          "end": "2021-10-05T00:00:00.000Z"
+        },
+        "location": "Earth",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://adsonair.withgoogle.com/events/google-ads-api-migration-workshop",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "26ImBc0VHGfroJhtBpDV",
+    "title": "5 LAKES Front",
+    "occurrences": [
+      {
+        "id": "Ec32d3aSEPsYXvYWSX0W",
+        "date": {
+          "start": "2020-11-13T00:00:00.000Z",
+          "end": "2020-11-13T00:00:00.000Z"
+        },
+        "location": "Milwaukee, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://5lakesfront.com/sessions/WICKED-FAST-%F0%9F%94%A5MOBILE-WEB",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Wvd5C1cFQYuU46c2rZM7",
+    "title": "GDG Madison",
+    "occurrences": [
+      {
+        "id": "cAn7txXkAFwJF8jthwMS",
+        "date": {
+          "start": "2020-05-16T00:00:00.000Z",
+          "end": "2020-05-16T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/270177165/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "2XCKQjPOBco1lnZ3JIrD",
+        "date": {
+          "start": "2020-03-18T00:00:00.000Z",
+          "end": "2020-03-18T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/269315235/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "lXNAfQKjJ0cYWUROgjTx",
+        "date": {
+          "start": "2020-02-22T00:00:00.000Z",
+          "end": "2020-02-22T00:00:00.000Z"
+        },
+        "location": "Madison, Wi",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/268282809/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "bVujIrIW7gXJNkEFLAg7",
+        "date": {
+          "start": "2019-11-15T00:00:00.000Z",
+          "end": "2019-11-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/266191346/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "gqXiuM1rfU6JiqPzTu0J",
+        "date": {
+          "start": "2019-10-15T00:00:00.000Z",
+          "end": "2019-10-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/265529730/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "lQWAG7A73wLi4lcqeiGD",
+        "date": {
+          "start": "2019-06-22T00:00:00.000Z",
+          "end": "2019-06-22T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/261959209/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "PbAQq4h4RPPz7l5CIVyW",
+        "date": {
+          "start": "2019-06-03T00:00:00.000Z",
+          "end": "2019-06-03T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/261440417/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "7KJOBWS3DXeXKAXke0H7",
+        "date": {
+          "start": "2019-05-15T00:00:00.000Z",
+          "end": "2019-05-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/261036478/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "aGBUL3g75mBg8cI8bjwu",
+        "date": {
+          "start": "2019-03-02T00:00:00.000Z",
+          "end": "2019-03-02T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/259107470/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "cU6euIORhFLDKjmYzbpN",
+        "date": {
+          "start": "2019-02-15T00:00:00.000Z",
+          "end": "2019-02-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/258106113/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "2OBvCJf6GK2rYYzNfqEa",
+        "date": {
+          "start": "2019-01-15T00:00:00.000Z",
+          "end": "2019-01-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/257115992/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "hoHcDQdSeug687EoaQDa",
+        "date": {
+          "start": "2018-10-15T00:00:00.000Z",
+          "end": "2018-10-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/254581634/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "ULat1hjyRxiRQc6dgAeZ",
+        "date": {
+          "start": "2018-06-15T00:00:00.000Z",
+          "end": "2018-06-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdgmadison/events/248749497/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "pZxOj18CktyJiHVZqq9W",
+        "date": {
+          "start": "2017-09-16T00:00:00.000Z",
+          "end": "2017-09-16T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdg-madison/events/242690232/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "s7MlN5lZOUQzWzrJLNGD",
+        "date": {
+          "start": "2017-06-15T00:00:00.000Z",
+          "end": "2017-06-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdg-madison/events/239355851/",
+            "useAsTag": false,
+            "service": "meetup"
+          }
+        ]
+      },
+      {
+        "id": "jK1ScHDylgZLtEg6I9ib",
+        "date": {
+          "start": "2017-04-15T00:00:00.000Z",
+          "end": "2017-04-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdg-madison/events/237914183/",
+            "useAsTag": false,
+            "service": "meetup"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cjhPMb0VCWcMB7Fzt92T",
+    "title": "BendyConf",
+    "occurrences": [
+      {
+        "id": "dZ9fAkjrPUtO1dddqEK5",
+        "date": {
+          "start": "2020-05-15T00:00:00.000Z",
+          "end": "2020-05-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "zwT8hQgEyOLbAVlJnGVB",
+    "title": "MadJS",
+    "occurrences": [
+      {
+        "id": "K21XJcvFWjFqp9VNTvqA",
+        "date": {
+          "start": "2020-01-13T00:00:00.000Z",
+          "end": "2020-01-13T00:00:00.000Z"
+        },
+        "location": "Madison, Wi",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/wqxgqlybccbrb/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "aOlaKN90M4PrT8Y2cBba",
+        "date": {
+          "start": "2019-06-03T00:00:00.000Z",
+          "end": "2019-06-03T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzjbnb/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "GWBotsJXAAl8rj9QKI3w",
+        "date": {
+          "start": "2019-01-14T00:00:00.000Z",
+          "end": "2019-01-14T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyzcbsb/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "NsDdW4s9EZK4TYZD5LDZ",
+        "date": {
+          "start": "2018-06-11T00:00:00.000Z",
+          "end": "2018-06-11T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyxjbpb/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "qFMAOaHUReJ9Yh0sPBlQ",
+        "date": {
+          "start": "2018-05-14T00:00:00.000Z",
+          "end": "2018-05-14T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/242810950/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "UMw8pLRx1zpmMisoZKEx",
+        "date": {
+          "start": "2018-02-12T00:00:00.000Z",
+          "end": "2018-02-12T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/wqxgqlyxdbqb/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "lvslllJxQphBMMBSYdQI",
+        "date": {
+          "start": "2017-07-10T00:00:00.000Z",
+          "end": "2017-07-10T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/MadisonJS/events/238952227/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TdUnuxaU5pVO4rG8gQzY",
+    "title": "Modern Web",
+    "occurrences": [
+      {
+        "id": "rAI10t7LyQgfAosmizzM",
+        "date": {
+          "start": "2019-12-04T00:00:00.000Z",
+          "end": "2019-12-04T00:00:00.000Z"
+        },
+        "location": "Mountain View, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/modernweb/events/266448593/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HB6PwwXRjjLhg52ytsMo",
+    "title": "Mobile Era",
+    "occurrences": [
+      {
+        "id": "HBU4FrW0DRqkUtHjJNSc",
+        "date": {
+          "start": "2019-11-07T00:00:00.000Z",
+          "end": "2019-11-08T00:00:00.000Z"
+        },
+        "location": "Oslo, Norway",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://mobileera.rocks/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "ohsjqy1MWL2AR6Z62J74",
+        "date": {
+          "start": "2018-10-31T00:00:00.000Z",
+          "end": "2018-11-02T00:00:00.000Z"
+        },
+        "location": "Oslo, Norway",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://mobileera.rocks/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "DbX8NPSdFydVziYAXnmt",
+        "date": {
+          "start": "2017-10-05T00:00:00.000Z",
+          "end": "2017-10-05T00:00:00.000Z"
+        },
+        "location": "Oslo, Norway",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://mobileera.rocks/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "KVIjCJYkGY21zR7IWzZW",
+        "date": {
+          "start": "2016-11-03T00:00:00.000Z",
+          "end": "2016-11-03T00:00:00.000Z"
+        },
+        "location": "Oslo, Norway",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://mobileera.rocks/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iz9HtD9OepYrsa97udHF",
+    "title": "Forward Technology Conference",
+    "occurrences": [
+      {
+        "id": "HT078K5qzszW9VDxiIxM",
+        "date": {
+          "start": "2018-08-26T00:00:00.000Z",
+          "end": "2018-08-26T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://forwardtechnologyconference2019.sched.com/event/SkN9/web-components-building-blocks-of-the-web",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XkH9eCMWwQE87hgu7ROe",
+    "title": "THAT Conference",
+    "occurrences": [
+      {
+        "id": "ciHpBV3LIUdzSXdQjqBP",
+        "date": {
+          "start": "2019-08-05T00:00:00.000Z",
+          "end": "2019-08-08T00:00:00.000Z"
+        },
+        "location": "Wisconsin Dells, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.thatconference.com/sessions/session/13853",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "upgztfISrjaOms8bbLeN",
+    "title": "Codecinella",
+    "occurrences": [
+      {
+        "id": "EQIMoguAFBVoNjTiPlDn",
+        "date": {
+          "start": "2019-08-01T00:00:00.000Z",
+          "end": "2019-08-01T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/codecinella-madison/events/262567309/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fpuUADclZfCx1Jb3cE1C",
+    "title": "Maydm",
+    "occurrences": [
+      {
+        "id": "lDXdZbqgT6NdOPfQVPq1",
+        "date": {
+          "start": "2019-06-27T00:00:00.000Z",
+          "end": "2019-06-27T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "OiJ3hJM04RLrBXVA7AaW",
+    "title": "REFACTR.TECH",
+    "occurrences": [
+      {
+        "id": "lbkTX59kEJKqT1Xf56aK",
+        "date": {
+          "start": "2019-06-05T00:00:00.000Z",
+          "end": "2019-06-07T00:00:00.000Z"
+        },
+        "location": "Atlanta, GA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://refactr.tech",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "z1gKE1kJbnjZH72hf76e",
+    "title": "YWeb",
+    "occurrences": [
+      {
+        "id": "Euy1GdUUt0mCDo0Vv0xd",
+        "date": {
+          "start": "2019-02-22T00:00:00.000Z",
+          "end": "2019-02-22T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "TQvNdCzhEDYG6w6wlT75",
+    "title": "Madison Women in Tech",
+    "occurrences": [
+      {
+        "id": "m2SLapomiuoU4XgTuiVz",
+        "date": {
+          "start": "2019-03-02T00:00:00.000Z",
+          "end": "2019-03-02T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/Madison-Women-in-Tech/events/259301208/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gzOzdY7H8yFmN01mJrLz",
+    "title": "DevFest KC",
+    "occurrences": [
+      {
+        "id": "RYVc1xPAabxaKMuNwk6w",
+        "date": {
+          "start": "2019-02-09T00:00:00.000Z",
+          "end": "2019-02-09T00:00:00.000Z"
+        },
+        "location": "Kansas City, MO",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfestkc.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "6TuLq5rpxfekbml6ks2S",
+        "date": {
+          "start": "2018-02-17T00:00:00.000Z",
+          "end": "2018-02-17T00:00:00.000Z"
+        },
+        "location": "Kansas City, MO",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfestkc.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "HSDbt1aWabC4TQoe2YcQ",
+        "date": {
+          "start": "2017-02-18T00:00:00.000Z",
+          "end": "2017-02-18T00:00:00.000Z"
+        },
+        "location": "Kansas City, MO",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfestkc.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EOofqLrUcuR9Q3fck4jc",
+    "title": "DevFestMN",
+    "occurrences": [
+      {
+        "id": "HZ9Wldz8jS1bfu1yohxO",
+        "date": {
+          "start": "2019-02-02T00:00:00.000Z",
+          "end": "2019-02-02T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfest.mn/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "WaWFAL7rZo6uxyfIHLrJ",
+        "date": {
+          "start": "2018-02-10T00:00:00.000Z",
+          "end": "2018-02-10T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfest.mn/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3Yatr3yEuyRvp5HeHgZN",
+    "title": "SFHTML5",
+    "occurrences": [
+      {
+        "id": "LsPnYLZUCm7eltpIPkh4",
+        "date": {
+          "start": "2019-01-25T00:00:00.000Z",
+          "end": "2019-01-25T00:00:00.000Z"
+        },
+        "location": "San Francisco, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/sfhtml5/events/256523273/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9mCumqrYrgoR5ydCfJoT",
+    "title": "Ohio DevFest",
+    "occurrences": [
+      {
+        "id": "UEJkN185yc33JIjGmW6M",
+        "date": {
+          "start": "2018-10-13T00:00:00.000Z",
+          "end": "2018-10-13T00:00:00.000Z"
+        },
+        "location": "Cincinnati, OH",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://ohiodevfest.com",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "Wy5ZhKLTjoCjnaUkkiQC",
+        "date": {
+          "start": "2017-11-18T00:00:00.000Z",
+          "end": "2017-11-18T00:00:00.000Z"
+        },
+        "location": "Columbus, OH",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://ohiodevfest.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zNYbhFU1VQ0NK0tCUZuW",
+    "title": "Midwest JS",
+    "occurrences": [
+      {
+        "id": "NsITjWib2xGznmqX8A6t",
+        "date": {
+          "start": "2018-08-08T00:00:00.000Z",
+          "end": "2018-08-10T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://www.midwestjs.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "3JWfWku01eBHQnW4YHaU",
+        "date": {
+          "start": "2017-08-18T00:00:00.000Z",
+          "end": "2017-08-18T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://www.midwestjs.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "qoDuIwi3IcWyBQxgX8Xa",
+        "date": {
+          "start": "2017-08-17T00:00:00.000Z",
+          "end": "2017-08-17T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://www.midwestjs.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HstruIKOTsJ7CEauOuG3",
+    "title": "GDG TC",
+    "occurrences": [
+      {
+        "id": "IRsQjupz5fltESKQUsYY",
+        "date": {
+          "start": "2018-08-07T00:00:00.000Z",
+          "end": "2018-08-07T00:00:00.000Z"
+        },
+        "location": "Minneapolis, MN",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/gdg-tc/events/253141841/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Msorc13g5YiVWdz1Y4JT",
+    "title": "We RISE Tech Conference",
+    "occurrences": [
+      {
+        "id": "3zO3FjmoNbxGECPNIWf6",
+        "date": {
+          "start": "2018-06-21T00:00:00.000Z",
+          "end": "2018-06-22T00:00:00.000Z"
+        },
+        "location": "Atlanta, GA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://werise.tech/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xCgRqkiZYNsMtWW2NjEN",
+    "title": "RailsConf",
+    "occurrences": [
+      {
+        "id": "EhXhm1pvJoHsrqxz4T4F",
+        "date": {
+          "start": "2018-04-17T00:00:00.000Z",
+          "end": "2018-04-19T00:00:00.000Z"
+        },
+        "location": "Pittsburgh, PA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://railsconf.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WBsYtzi6S9Z3hVO4thMm",
+    "title": "MilwaukeeJS",
+    "occurrences": [
+      {
+        "id": "5ScqBAIANMvupIfqGaSM",
+        "date": {
+          "start": "2018-03-27T00:00:00.000Z",
+          "end": "2018-03-27T00:00:00.000Z"
+        },
+        "location": "Milwaukee, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/milwaukeejs/events/247249876/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RyzT8E3Kf0MACDZoKICr",
+    "title": "JazzCon.Tech",
+    "occurrences": [
+      {
+        "id": "SIVFFeJV4QO2p4PWgfPR",
+        "date": {
+          "start": "2018-03-21T00:00:00.000Z",
+          "end": "2018-03-23T00:00:00.000Z"
+        },
+        "location": "New Orleans, LA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://jazzcon.tech/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "8BcU8HKKnwxFs6uztgsi",
+        "date": {
+          "start": "2017-03-22T00:00:00.000Z",
+          "end": "2017-03-22T00:00:00.000Z"
+        },
+        "location": "New Orleans, LA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://jazzcon.tech/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gzLZl4NxSbXysEp6PlOq",
+    "title": "WindyCity DevFest",
+    "occurrences": [
+      {
+        "id": "ewu8xqeGUMTRH8MbtXV8",
+        "date": {
+          "start": "2018-01-12T00:00:00.000Z",
+          "end": "2018-01-12T00:00:00.000Z"
+        },
+        "location": "Chicago, IL",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://windycity.devfest.io",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZjyWdr2GAP7eCYP1y0Yi",
+    "title": "DevOpsDays Madison",
+    "occurrences": [
+      {
+        "id": "XtsE7mW2ee71xYaeAYuT",
+        "date": {
+          "start": "2017-10-31T00:00:00.000Z",
+          "end": "2017-10-31T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.devopsdays.org/events/2017-madison/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1EyantNXiabxDipw5LU7",
+    "title": "BayFest DevFest",
+    "occurrences": [
+      {
+        "id": "FyK5kv1izZPypPKKbYx4",
+        "date": {
+          "start": "2017-10-27T00:00:00.000Z",
+          "end": "2017-10-27T00:00:00.000Z"
+        },
+        "location": "San Francisco, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://bayfest2017.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RsE4ULcCFGJNZk0clkyP",
+    "title": "Connect.Tech",
+    "occurrences": [
+      {
+        "id": "YfcIcgLy0ft8joy25VPt",
+        "date": {
+          "start": "2017-09-21T00:00:00.000Z",
+          "end": "2017-09-21T00:00:00.000Z"
+        },
+        "location": "Atlanta, GA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://connect.tech/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "4hAYwAiytiVA48EJuDP0",
+        "date": {
+          "start": "2016-10-20T00:00:00.000Z",
+          "end": "2016-10-20T00:00:00.000Z"
+        },
+        "location": "Atlanta, GA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://connect.tech/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MVKBX9DsghtzpLTGTad1",
+    "title": "GDE Web Technologies Hangout",
+    "occurrences": [
+      {
+        "id": "3WEigeOwclU4Ig7Zxo12",
+        "date": {
+          "start": "2017-08-24T00:00:00.000Z",
+          "end": "2017-08-24T00:00:00.000Z"
+        },
+        "location": "Earth",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "QnWgHiZwC4Ac9zFv5hXO",
+    "title": "Rockford Web Devs",
+    "occurrences": [
+      {
+        "id": "ghEziYvwrrEXnkHZaRQ2",
+        "date": {
+          "start": "2017-08-08T00:00:00.000Z",
+          "end": "2017-08-08T00:00:00.000Z"
+        },
+        "location": "Rockford, IL",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/Rockford-Web-Devs/events/238442439/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hDJREuuf5IsTNQkZRfXL",
+    "title": "KCDC",
+    "occurrences": [
+      {
+        "id": "Il8qrRei5o6xeZeVN62o",
+        "date": {
+          "start": "2017-08-03T00:00:00.000Z",
+          "end": "2017-08-03T00:00:00.000Z"
+        },
+        "location": "Kansas City, MO",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://www.kcdc.info/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d2quaoPi5n42uPdioe3e",
+    "title": "CoderCruise",
+    "occurrences": [
+      {
+        "id": "fBsdkU8u1hZBDg2xTjNl",
+        "date": {
+          "start": "2017-07-22T00:00:00.000Z",
+          "end": "2017-07-22T00:00:00.000Z"
+        },
+        "location": "Cozumel, Mexico",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.codercruise.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "i9yEKlbQjdczYcthgk0H",
+        "date": {
+          "start": "2017-07-18T00:00:00.000Z",
+          "end": "2017-07-18T00:00:00.000Z"
+        },
+        "location": "Grand Cayman, Cayman Islands",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.codercruise.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "oYoAKMbNzZsX6c2tTNSl",
+        "date": {
+          "start": "2017-07-17T00:00:00.000Z",
+          "end": "2017-07-17T00:00:00.000Z"
+        },
+        "location": "Montego Bay, Jamaica",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.codercruise.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UAj9yMQqpm0QQYR2gRtT",
+    "title": "UW Madison CS Lecture",
+    "occurrences": [
+      {
+        "id": "JFlYIOvSHqcSxt9kt31H",
+        "date": {
+          "start": "2017-04-27T00:00:00.000Z",
+          "end": "2017-04-27T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "qOD6SwgVfBVWFIoP2T4k",
+    "title": "GDG Chicago",
+    "occurrences": [
+      {
+        "id": "t02hExVrzFso1NtrGlj9",
+        "date": {
+          "start": "2017-02-08T00:00:00.000Z",
+          "end": "2017-02-08T00:00:00.000Z"
+        },
+        "location": "Chicago, IL",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/237220640/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77QZ6IVbupXH80UzxYsZ",
+    "title": "ConFoo Vancouver",
+    "occurrences": [
+      {
+        "id": "ndZ8nkDPBtXuqAb2NLqv",
+        "date": {
+          "start": "2016-12-07T00:00:00.000Z",
+          "end": "2016-12-07T00:00:00.000Z"
+        },
+        "location": "Vancouver, BC, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://confoo.ca/en/yvr2016",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      },
+      {
+        "id": "lr7fR22aNw5zvjRoQwUS",
+        "date": {
+          "start": "2016-12-05T00:00:00.000Z",
+          "end": "2016-12-05T00:00:00.000Z"
+        },
+        "location": "Vancouver, BC, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://confoo.ca/en/yvr2016",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lWpZN1b3u3Rsc67sk38U",
+    "title": "DevFest West",
+    "occurrences": [
+      {
+        "id": "hgoS9ndUBudZXR0r0JuJ",
+        "date": {
+          "start": "2016-11-03T00:00:00.000Z",
+          "end": "2016-11-03T00:00:00.000Z"
+        },
+        "location": "Mountain View, CA",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://devfest2016.gdgsv.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rNGXTZGjtM5yDMHrf8OU",
+    "title": "Madison PHP Conference",
+    "occurrences": [
+      {
+        "id": "guCOkQQPQffM5uOQRkix",
+        "date": {
+          "start": "2016-10-01T00:00:00.000Z",
+          "end": "2016-10-01T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "http://2016.madisonphpconference.com/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WE6CfQYrVhnix41WeaWY",
+    "title": "Windy City DevCon",
+    "occurrences": [
+      {
+        "id": "hoLicLvofRhVd32lgnZ3",
+        "date": {
+          "start": "2016-09-16T00:00:00.000Z",
+          "end": "2016-09-16T00:00:00.000Z"
+        },
+        "location": "Chicago, IL",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/Google-Developers-Group-GDG-Chicago/events/232947796/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yf6MyGpJJP4Kg92Qfhw9",
+    "title": "Madhackers",
+    "occurrences": [
+      {
+        "id": "ucRekfg28pAkhBEcLrxg",
+        "date": {
+          "start": "2016-06-15T00:00:00.000Z",
+          "end": "2016-06-15T00:00:00.000Z"
+        },
+        "location": "Madison, WI",
+        "links": [
+          {
+            "title": "Event",
+            "url": "https://www.meetup.com/madhackers/events/231725576/",
+            "useAsTag": false,
+            "service": "external"
+          }
+        ]
+      }
+    ]
+  }
+]
