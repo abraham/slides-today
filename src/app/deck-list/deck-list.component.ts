@@ -7,6 +7,7 @@ import { DeckService } from '../services/deck.service';
 import { ThemeService } from '../services/theme.service';
 import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
 import { TagsComponent } from '../tags/tags.component';
+import { SpeakerChipsComponent } from '../speaker-chips/speaker-chips.component';
 import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { AboutComponent } from '../about/about.component';
@@ -19,6 +20,7 @@ import { TagListPipe } from '../tag-list.pipe';
   templateUrl: './deck-list.component.html',
   imports: [
     TagsComponent,
+    SpeakerChipsComponent,
     MatButton,
     MatIcon,
     AboutComponent,

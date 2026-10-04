@@ -47,6 +47,20 @@ export class DataService {
     return this.tags.find(tag => tag.id === id);
   }
 
+  setFilter(name: 'tags' | 'speakers', ids: string[]): void {
+    const others =
+      name === 'tags' ? this.selectedSpeakerIds() : this.selectedTagIds();
+    if (ids.length === 0 && others.length === 0) {
+      this.router.navigate(['/']);
+      return;
+    }
+    // Merging keeps the other filters; null drops this param.
+    this.router.navigate(['/filters'], {
+      queryParams: { [name]: ids.length ? ids.join(',') : null },
+      queryParamsHandling: 'merge',
+    });
+  }
+
   private listParam(value: string | undefined): string[] {
     return (value ?? '').split(',').filter(id => id);
   }

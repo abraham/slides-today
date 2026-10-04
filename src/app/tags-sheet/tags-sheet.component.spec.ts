@@ -27,7 +27,7 @@ describe('TagsSheetComponent', () => {
     const element: HTMLElement = fixture.nativeElement;
 
     expect(element.querySelector('h3')?.textContent).toBe('Filtered tags');
-    expect(element.querySelectorAll('mat-chip-option').length).toBe(
+    expect(element.querySelectorAll('app-tags mat-chip-option').length).toBe(
       TestBed.inject(DataService).tags.length,
     );
   });
