@@ -13,6 +13,7 @@ describe('GithubRepositoryComponent', () => {
   it('loads the github-repository element', async () => {
     const fixture = TestBed.createComponent(GithubRepositoryComponent);
     fixture.componentRef.setInput('ownerRepo', 'abraham/slides-today');
+    fixture.detectChanges();
     await vi.dynamicImportSettled();
 
     expect(loaded).toHaveBeenCalled();

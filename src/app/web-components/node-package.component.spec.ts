@@ -13,6 +13,7 @@ describe('NodePackageComponent', () => {
   it('loads the node-package element', async () => {
     const fixture = TestBed.createComponent(NodePackageComponent);
     fixture.componentRef.setInput('name', 'ngx-skeleton-loader');
+    fixture.detectChanges();
     await vi.dynamicImportSettled();
 
     expect(loaded).toHaveBeenCalled();

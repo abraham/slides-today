@@ -14,6 +14,7 @@ describe('TwitterStatusComponent', () => {
   it('loads the twitter-status element', async () => {
     const fixture = TestBed.createComponent(TwitterStatusComponent);
     fixture.componentRef.setInput('status', { id_str: '1' } as Status);
+    fixture.detectChanges();
     await vi.dynamicImportSettled();
 
     expect(loaded).toHaveBeenCalled();

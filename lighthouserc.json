@@ -2,8 +2,9 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "staticDistDir": "./dist/slides-today/browser/",
-      "isSinglePageApplication": true,
+      "startServerCommand": "npm run start:firebase",
+      "startServerReadyPattern": "All emulators ready",
+      "startServerReadyTimeout": 60000,
       "url": [
         "http://localhost:5000/",
         "http://localhost:5000/decks/ndFjUseBHXwTEVMEQ4Eb"
