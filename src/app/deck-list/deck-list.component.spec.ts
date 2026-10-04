@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { Router, provideRouter } from '@angular/router';
 import { DeckService } from '../services/deck.service';
-import { TagsSheetComponent } from '../tags-sheet/tags-sheet.component';
+import { FiltersSheetComponent } from '../filters-sheet/filters-sheet.component';
 
 import { DeckListComponent } from './deck-list.component';
 
@@ -44,7 +44,7 @@ describe('DeckListComponent', () => {
     }).compileComponents();
   });
 
-  describe('without selected tags', () => {
+  describe('without selected filters', () => {
     beforeEach(() => create());
 
     it('should be created', () => {
@@ -58,13 +58,14 @@ describe('DeckListComponent', () => {
       expect(summaries().length).toBe(Math.min(100, decks.length));
     });
 
-    it('shows the tags instead of the tags button on desktop', () => {
+    it('shows the filters instead of the filters button on desktop', () => {
       expect(element().querySelector('app-tags')).not.toBeNull();
+      expect(element().querySelector('app-speaker-chips')).not.toBeNull();
       expect(element().querySelector('.action-buttons')).toBeNull();
     });
   });
 
-  describe('with selected tags', () => {
+  describe('with selected filters', () => {
     beforeEach(() => create());
 
     it('shows only the decks with every selected tag and hides the about card', async () => {
@@ -86,7 +87,7 @@ describe('DeckListComponent', () => {
 
       expect(summaries().length).toBe(0);
       expect(element().textContent).toContain(
-        'Nothing found that includes all the following tags',
+        'Nothing found that includes all the following filters: #nothing and #at-all',
       );
     });
 
@@ -110,21 +111,22 @@ describe('DeckListComponent', () => {
   describe('on mobile', () => {
     beforeEach(() => create(true));
 
-    it('shows a tags button instead of the tags', () => {
+    it('shows a filters button instead of the filters', () => {
       expect(element().querySelector('app-tags')).toBeNull();
+      expect(element().querySelector('app-speaker-chips')).toBeNull();
       expect(element().querySelector('.action-buttons')?.textContent).toContain(
-        'Tags',
+        'Filters',
       );
     });
 
-    it('opens the tags sheet from the button', () => {
+    it('opens the filters sheet from the button', () => {
       const open = vi
         .spyOn(TestBed.inject(MatBottomSheet), 'open')
         .mockReturnValue(undefined as never);
 
       element().querySelector<HTMLButtonElement>('.action-buttons')!.click();
 
-      expect(open).toHaveBeenCalledWith(TagsSheetComponent);
+      expect(open).toHaveBeenCalledWith(FiltersSheetComponent);
     });
   });
 });

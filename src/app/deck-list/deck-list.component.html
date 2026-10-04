@@ -10,9 +10,9 @@
           class="action-buttons"
           mat-stroked-button
           color="primary"
-          (click)="openTagsSheet()">
+          (click)="openFiltersSheet()">
           <mat-icon fontSet="material-symbols-outlined">filter_list</mat-icon>
-          Tags
+          Filters
         </button>
       }
     </div>
@@ -27,8 +27,8 @@
         }
         @if (decks()?.length === 0) {
           <div class="decks-empty">
-            Nothing found that includes all the following tags:
-            {{ selectedTagIds() | tagList }}
+            Nothing found that includes all the following filters:
+            {{ selectedFilters() }}
           </div>
         }
       </div>
