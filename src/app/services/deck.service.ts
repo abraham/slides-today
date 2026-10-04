@@ -1,6 +1,5 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { Deck } from '../models/deck';
-import { publishedDecks } from '../collections';
 import { DECKS } from '../repositories';
 import { DataService } from './data.service';
 import { EventService } from './event.service';
@@ -48,16 +47,18 @@ export class DeckService {
       this.eventService.loaded,
     ]);
     const tags = this.dataService.tags();
-    const decks = publishedDecks(data).map(
-      deck =>
-        new Deck(
-          deck,
-          deck.events.map(({ eventId, occurrenceId }) =>
-            this.eventService.occurrence(eventId, occurrenceId),
+    const decks = data
+      .filter(deck => !deck.archived)
+      .map(
+        deck =>
+          new Deck(
+            deck,
+            deck.events.map(({ eventId, occurrenceId }) =>
+              this.eventService.occurrence(eventId, occurrenceId),
+            ),
+            tags,
           ),
-          tags,
-        ),
-    );
+      );
     this.decksState.set(decks);
     return decks;
   }

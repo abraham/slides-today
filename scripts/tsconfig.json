@@ -2,12 +2,9 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "..",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "module": "es2020",
     "lib": [
       "es2022",
       "dom"

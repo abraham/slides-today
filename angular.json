@@ -29,9 +29,6 @@
               "src/polyfills.ts"
             ],
             "tsConfig": "tsconfig.app.json",
-            "define": {
-              "DATA_SOURCE": "'json'"
-            },
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.png",
