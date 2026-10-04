@@ -1,10 +1,11 @@
-import { Routes, UrlMatchResult, UrlSegment } from '@angular/router';
+import { inject } from '@angular/core';
+import { Router, Routes, UrlMatchResult, UrlSegment } from '@angular/router';
 import { deckResolver } from './services/deck.resolver';
 
 const isHome = (url: UrlSegment[]): UrlMatchResult => {
   const noPaths = url.length === 0;
-  const tagsPath = url[0]?.path === 'tags';
-  const consumed = noPaths || tagsPath ? url : [];
+  const filtersPath = url[0]?.path === 'filters';
+  const consumed = noPaths || filtersPath ? url : [];
   return { consumed };
 };
 
@@ -30,6 +31,15 @@ export const routes: Routes = [
     path: 'decks',
     pathMatch: 'full',
     redirectTo: '',
+  },
+  {
+    // Keeps old /tags;tags=a,b links working.
+    path: 'tags',
+    pathMatch: 'full',
+    redirectTo: ({ url }) =>
+      inject(Router).createUrlTree(['/filters'], {
+        queryParams: url[0]?.parameters,
+      }),
   },
   {
     path: '**',

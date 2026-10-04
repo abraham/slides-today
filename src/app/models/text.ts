@@ -1,4 +1,7 @@
-export const formatTagList = (tags: string[]): string =>
+export const formatList = (items: string[]): string =>
   new Intl.ListFormat('en', { style: 'long', type: 'conjunction' }).format(
-    tags.map(tag => `#${tag}`),
+    items,
   );
+
+export const formatTagList = (tags: string[]): string =>
+  formatList(tags.map(tag => `#${tag}`));

@@ -4,12 +4,12 @@ import { MatChipListbox } from '@angular/material/chips';
 import { TagComponent } from '../tag/tag.component';
 
 @Component({
-  selector: 'app-tags',
-  styleUrl: './tags.component.scss',
-  templateUrl: './tags.component.html',
+  selector: 'app-tag-chips',
+  styleUrl: './tag-chips.component.scss',
+  templateUrl: './tag-chips.component.html',
   imports: [MatChipListbox, TagComponent],
 })
-export class TagsComponent {
+export class TagChipsComponent {
   private readonly dataService = inject(DataService);
 
   readonly currentTags = input<string[]>([]);

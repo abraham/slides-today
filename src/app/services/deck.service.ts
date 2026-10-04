@@ -19,9 +19,11 @@ export class DeckService {
     return decks.find(deck => deck.id === id);
   }
 
-  filter(tagIds: string[]): Deck[] | undefined {
-    return this.decks()?.filter(deck =>
-      tagIds.every(tag => deck.tags.includes(tag)),
+  filter(tagIds: string[], speakerIds: string[] = []): Deck[] | undefined {
+    return this.decks()?.filter(
+      deck =>
+        tagIds.every(tag => deck.tags.includes(tag)) &&
+        speakerIds.every(speaker => deck.speakerIds.includes(speaker)),
     );
   }
 

@@ -2,22 +2,23 @@
   <div class="page-grid">
     <div>
       @if (!mobile()) {
-        <app-tags />
+        <app-tag-chips />
+        <app-speaker-chips />
       }
       @if (mobile()) {
         <button
           class="action-buttons"
           mat-stroked-button
           color="primary"
-          (click)="openTagsSheet()">
+          (click)="openFiltersSheet()">
           <mat-icon fontSet="material-symbols-outlined">filter_list</mat-icon>
-          Tags
+          Filters
         </button>
       }
     </div>
     <div>
       <div class="page-grid">
-        @if (!hasSelectedTagIds()) {
+        @if (!hasSelectedFilters()) {
           <app-about />
         }
 
@@ -26,8 +27,8 @@
         }
         @if (decks()?.length === 0) {
           <div class="decks-empty">
-            Nothing found that includes all the following tags:
-            {{ selectedTagIds() | tagList }}
+            Nothing found that includes all the following filters:
+            {{ selectedFilters() }}
           </div>
         }
       </div>

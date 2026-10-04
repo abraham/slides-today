@@ -44,14 +44,14 @@ describe('DataService', () => {
     });
 
     it('is the tags param of the tags url, in order', async () => {
-      await navigate('/tags;tags=polymer,php');
+      await navigate('/filters?tags=polymer,php');
 
       expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
     });
 
     it('follows later navigations', async () => {
-      await navigate('/tags;tags=polymer,php');
-      await navigate('/tags;tags=php');
+      await navigate('/filters?tags=polymer,php');
+      await navigate('/filters?tags=php');
       expect(service.selectedTagIds()).toEqual(['php']);
 
       await navigate('/');
@@ -65,9 +65,26 @@ describe('DataService', () => {
     });
 
     it('ignores an empty tags param', async () => {
-      await navigate('/tags;tags=');
+      await navigate('/filters?tags=');
 
       expect(service.selectedTagIds()).toEqual([]);
+    });
+  });
+
+  describe('selectedSpeakerIds', () => {
+    const navigate = (url: string) => TestBed.inject(Router).navigateByUrl(url);
+
+    it('is the speakers param of the filters url, in order', async () => {
+      await navigate('/filters?speakers=a,b&tags=php');
+
+      expect(service.selectedSpeakerIds()).toEqual(['a', 'b']);
+      expect(service.selectedTagIds()).toEqual(['php']);
+    });
+
+    it('is empty on other pages', async () => {
+      await navigate('/?speakers=a');
+
+      expect(service.selectedSpeakerIds()).toEqual([]);
     });
   });
 
