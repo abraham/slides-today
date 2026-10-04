@@ -9,3 +9,6 @@ declare module '*.json' {
   const value: unknown;
   export default value;
 }
+
+// Set by `define` in angular.json.
+declare const DATA_SOURCE: 'json' | 'firestore';
