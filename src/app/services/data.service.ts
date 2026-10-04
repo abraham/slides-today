@@ -21,13 +21,11 @@ export class DataService {
 
   readonly tags: Tag[] = [...tagData].sort(sortTags);
 
-  // The matrix params of the `/filters` route are the only record of the selection.
+  // The query params of the `/filters` route are the only record of the selection.
   private readonly filterParams = computed(() => {
-    const segment =
-      this.router.lastSuccessfulNavigation()?.finalUrl?.root.children[
-        PRIMARY_OUTLET
-      ]?.segments[0];
-    return segment?.path === 'filters' ? segment.parameters : {};
+    const url = this.router.lastSuccessfulNavigation()?.finalUrl;
+    const segment = url?.root.children[PRIMARY_OUTLET]?.segments[0];
+    return url && segment?.path === 'filters' ? url.queryParams : {};
   });
 
   readonly selectedTagIds = computed(() =>

@@ -9,11 +9,11 @@ describe('routes', () => {
     TestBed.configureTestingModule({ providers: [provideRouter(routes)] });
   });
 
-  it('selects the tags from the tags matrix param on the deck list', async () => {
+  it('selects the tags from the tags query param on the deck list', async () => {
     const harness = await RouterTestingHarness.create();
 
     const list = await harness.navigateByUrl(
-      '/filters;tags=polymer,php',
+      '/filters?tags=polymer,php',
       DeckListComponent,
     );
 
@@ -29,7 +29,23 @@ describe('routes', () => {
       DeckListComponent,
     );
 
-    expect(TestBed.inject(Router).url).toBe('/filters;tags=polymer,php');
+    expect(TestBed.inject(Router).url).toBe('/filters?tags=polymer,php');
+    expect(list.selectedTagIds()).toEqual(['polymer', 'php']);
+  });
+
+  it('keeps the deck list component when only the filters change', async () => {
+    const harness = await RouterTestingHarness.create();
+    const list = await harness.navigateByUrl(
+      '/filters?tags=polymer',
+      DeckListComponent,
+    );
+
+    const next = await harness.navigateByUrl(
+      '/filters?tags=polymer,php',
+      DeckListComponent,
+    );
+
+    expect(next).toBe(list);
     expect(list.selectedTagIds()).toEqual(['polymer', 'php']);
   });
 
@@ -44,7 +60,7 @@ describe('routes', () => {
   it('clears the selection when navigating back to the root', async () => {
     const harness = await RouterTestingHarness.create();
     const list = await harness.navigateByUrl(
-      '/filters;tags=polymer',
+      '/filters?tags=polymer',
       DeckListComponent,
     );
 

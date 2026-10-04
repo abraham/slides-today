@@ -53,7 +53,9 @@ export class TagComponent {
     if (tags.length === 0) {
       this.router.navigate(['/']);
     } else {
-      this.router.navigate(['/filters', { tags }]);
+      this.router.navigate(['/filters'], {
+        queryParams: { tags: tags.join(',') },
+      });
     }
   }
 }

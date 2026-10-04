@@ -69,7 +69,7 @@ describe('TagComponent', () => {
     });
 
     it('does not navigate when rendered for an already selected tag', async () => {
-      await showing('/filters;tags=angular');
+      await showing('/filters?tags=angular');
 
       const selected = TestBed.createComponent(TagComponent);
       selected.componentRef.setInput('tag', tag);
@@ -79,7 +79,7 @@ describe('TagComponent', () => {
     });
 
     it('marks the chip selected when the url selects the tag', async () => {
-      await showing('/filters;tags=php,angular');
+      await showing('/filters?tags=php,angular');
 
       expect(component.selected()).toBe(true);
     });
@@ -87,44 +87,43 @@ describe('TagComponent', () => {
     it('navigates to the tag when none are selected', () => {
       component.changeSelected(change(true), tag);
 
-      expect(navigate).toHaveBeenCalledWith([
-        '/filters',
-        { tags: ['angular'] },
-      ]);
+      expect(navigate).toHaveBeenCalledWith(['/filters'], {
+        queryParams: { tags: 'angular' },
+      });
     });
 
     it('adds the tag to the selected tags', async () => {
-      await showing('/filters;tags=php');
+      await showing('/filters?tags=php');
 
       component.changeSelected(change(true), tag);
 
-      expect(navigate).toHaveBeenCalledWith([
-        '/filters',
-        { tags: ['php', 'angular'] },
-      ]);
+      expect(navigate).toHaveBeenCalledWith(['/filters'], {
+        queryParams: { tags: 'php,angular' },
+      });
     });
 
     it('does not duplicate a tag that is already selected', async () => {
-      await showing('/filters;tags=angular');
+      await showing('/filters?tags=angular');
 
       component.changeSelected(change(true), tag);
 
-      expect(navigate).toHaveBeenCalledWith([
-        '/filters',
-        { tags: ['angular'] },
-      ]);
+      expect(navigate).toHaveBeenCalledWith(['/filters'], {
+        queryParams: { tags: 'angular' },
+      });
     });
 
     it('removes the tag from the selected tags', async () => {
-      await showing('/filters;tags=php,angular');
+      await showing('/filters?tags=php,angular');
 
       component.changeSelected(change(false), tag);
 
-      expect(navigate).toHaveBeenCalledWith(['/filters', { tags: ['php'] }]);
+      expect(navigate).toHaveBeenCalledWith(['/filters'], {
+        queryParams: { tags: 'php' },
+      });
     });
 
     it('navigates home when the last tag is deselected', async () => {
-      await showing('/filters;tags=angular');
+      await showing('/filters?tags=angular');
 
       component.changeSelected(change(false), tag);
 

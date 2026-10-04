@@ -44,14 +44,14 @@ describe('DataService', () => {
     });
 
     it('is the tags param of the tags url, in order', async () => {
-      await navigate('/filters;tags=polymer,php');
+      await navigate('/filters?tags=polymer,php');
 
       expect(service.selectedTagIds()).toEqual(['polymer', 'php']);
     });
 
     it('follows later navigations', async () => {
-      await navigate('/filters;tags=polymer,php');
-      await navigate('/filters;tags=php');
+      await navigate('/filters?tags=polymer,php');
+      await navigate('/filters?tags=php');
       expect(service.selectedTagIds()).toEqual(['php']);
 
       await navigate('/');
@@ -65,7 +65,7 @@ describe('DataService', () => {
     });
 
     it('ignores an empty tags param', async () => {
-      await navigate('/filters;tags=');
+      await navigate('/filters?tags=');
 
       expect(service.selectedTagIds()).toEqual([]);
     });

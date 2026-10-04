@@ -37,7 +37,9 @@ export const routes: Routes = [
     path: 'tags',
     pathMatch: 'full',
     redirectTo: ({ url }) =>
-      inject(Router).createUrlTree(['/filters', url[0]?.parameters ?? {}]),
+      inject(Router).createUrlTree(['/filters'], {
+        queryParams: url[0]?.parameters,
+      }),
   },
   {
     path: '**',
