@@ -1,6 +1,6 @@
 <app-card>
   <div title>Sponsors</div>
-  <mat-list body>
+  <mat-nav-list body>
     @for (sponsor of sponsors(); track sponsor.id) {
       <a mat-list-item [href]="sponsor.url" target="_blank" rel="noopener">
         <img
@@ -13,5 +13,5 @@
         </p>
       </a>
     }
-  </mat-list>
+  </mat-nav-list>
 </app-card>

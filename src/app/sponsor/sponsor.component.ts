@@ -2,11 +2,11 @@ import { Component, computed, inject, input } from '@angular/core';
 import { SponsorService } from '../services/sponsor.service';
 import { CardComponent } from '../card/card.component';
 import {
-  MatList,
   MatListItem,
   MatListItemAvatar,
   MatListItemTitle,
   MatListItemLine,
+  MatNavList,
 } from '@angular/material/list';
 
 @Component({
@@ -15,11 +15,11 @@ import {
   templateUrl: './sponsor.component.html',
   imports: [
     CardComponent,
-    MatList,
     MatListItem,
     MatListItemAvatar,
     MatListItemTitle,
     MatListItemLine,
+    MatNavList,
   ],
 })
 export class SponsorComponent {
