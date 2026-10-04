@@ -28,9 +28,9 @@ describe('FiltersSheetComponent', () => {
     const element: HTMLElement = fixture.nativeElement;
 
     expect(element.querySelector('h3')?.textContent).toBe('Filter decks');
-    expect(element.querySelectorAll('app-tags mat-chip-option').length).toBe(
-      TestBed.inject(DataService).tags.length,
-    );
+    expect(
+      element.querySelectorAll('app-tag-chips mat-chip-option').length,
+    ).toBe(TestBed.inject(DataService).tags.length);
     expect(
       element.querySelectorAll('app-speaker-chips mat-chip-option').length,
     ).toBe(TestBed.inject(SpeakerService).speakers.length);

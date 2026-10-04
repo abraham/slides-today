@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { DataService } from '../services/data.service';
 
-import { TagsComponent } from './tags.component';
+import { TagChipsComponent } from './tag-chips.component';
 
-describe('TagsComponent', () => {
-  let component: TagsComponent;
-  let fixture: ComponentFixture<TagsComponent>;
+describe('TagChipsComponent', () => {
+  let component: TagChipsComponent;
+  let fixture: ComponentFixture<TagChipsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TagsComponent],
+      imports: [TagChipsComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TagsComponent);
+    fixture = TestBed.createComponent(TagChipsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

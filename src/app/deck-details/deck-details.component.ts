@@ -20,7 +20,7 @@ import { SpeakerService } from '../services/speaker.service';
 import { TweetService } from '../services/tweet.service';
 import type { ShareComponent } from '../share/share.component';
 import { CardComponent } from '../card/card.component';
-import { TagsComponent } from '../tags/tags.component';
+import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { EmbedComponent } from '../embed/embed.component';
 import { SpeakerComponent } from '../speaker/speaker.component';
 import { MapComponent } from '../map/map.component';
@@ -36,7 +36,7 @@ import { TwitterStatusComponent } from '../web-components/twitter-status.compone
   templateUrl: './deck-details.component.html',
   imports: [
     CardComponent,
-    TagsComponent,
+    TagChipsComponent,
     EmbedComponent,
     SpeakerComponent,
     MapComponent,

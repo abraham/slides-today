@@ -7,7 +7,7 @@ import { DeckService } from '../services/deck.service';
 import { SpeakerService } from '../services/speaker.service';
 import { ThemeService } from '../services/theme.service';
 import { FiltersSheetComponent } from '../filters-sheet/filters-sheet.component';
-import { TagsComponent } from '../tags/tags.component';
+import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { SpeakerChipsComponent } from '../speaker-chips/speaker-chips.component';
 import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
@@ -20,7 +20,7 @@ import { formatList } from '../models/text';
   styleUrl: './deck-list.component.scss',
   templateUrl: './deck-list.component.html',
   imports: [
-    TagsComponent,
+    TagChipsComponent,
     SpeakerChipsComponent,
     MatButton,
     MatIcon,

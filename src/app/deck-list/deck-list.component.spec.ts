@@ -59,7 +59,7 @@ describe('DeckListComponent', () => {
     });
 
     it('shows the filters instead of the filters button on desktop', () => {
-      expect(element().querySelector('app-tags')).not.toBeNull();
+      expect(element().querySelector('app-tag-chips')).not.toBeNull();
       expect(element().querySelector('app-speaker-chips')).not.toBeNull();
       expect(element().querySelector('.action-buttons')).toBeNull();
     });
@@ -112,7 +112,7 @@ describe('DeckListComponent', () => {
     beforeEach(() => create(true));
 
     it('shows a filters button instead of the filters', () => {
-      expect(element().querySelector('app-tags')).toBeNull();
+      expect(element().querySelector('app-tag-chips')).toBeNull();
       expect(element().querySelector('app-speaker-chips')).toBeNull();
       expect(element().querySelector('.action-buttons')?.textContent).toContain(
         'Filters',

@@ -7,7 +7,7 @@
             <div hero>{{ deck.title }}</div>
             <div title>{{ deck.eventTitle }} · {{ deck.date }}</div>
             <div body>{{ deck.description }}</div>
-            <div body><app-tags [currentTags]="deck.tags" /></div>
+            <div body><app-tag-chips [currentTags]="deck.tags" /></div>
           </app-card>
         </div>
         @for (embed of embeds(); track embed.url) {
