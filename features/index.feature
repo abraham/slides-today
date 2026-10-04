@@ -53,6 +53,23 @@ Feature: View and filter list of decks
     Then I should see "Welcome to Slides.today"
     And I should not see "cancel"
 
+  Scenario: Filter list of decks by event
+    Given I visit "/filters?events=HB6PwwXRjjLhg52ytsMo"
+    Then I should not see "Welcome to Slides.today"
+    And I should see "Mobile Era"
+    And I should see "How Do Service Workers Even?"
+    And I should see "Get Talking with Actions on Google"
+    And I should not see "Chrome Dev Summit 2019 Extended Madison"
+
+  Scenario: Clear event filters
+    Given I visit "/filters?events=HB6PwwXRjjLhg52ytsMo"
+    Then I should see "Mobile Era"
+    When I click on "cancel"
+    Then I should see "Welcome to Slides.today"
+    And I should be on "/"
+    And I should see "Chrome Dev Summit 2019 Extended Madison"
+    And I should not see "cancel"
+
   Scenario: No decks match filters
     Given I visit "/"
     When I click on "#firebase"

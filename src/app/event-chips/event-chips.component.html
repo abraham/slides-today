@@ -1,22 +1,23 @@
 @if (selectedEvents().length !== 0) {
-  <mat-chip-set aria-label="Selected events">
-    @for (event of selectedEvents(); track event.id) {
-      <mat-chip [attr.data-id]="event.id">
-        <mat-icon matChipAvatar fontSet="material-symbols-outlined">
-          event
-        </mat-icon>
-        <span class="event-title">{{ event.title }}</span>
-      </mat-chip>
-    }
-    <mat-chip
-      class="clear-chip"
-      role="button"
-      tabindex="0"
-      aria-label="Clear event selection"
-      (click)="clear()"
-      (keydown.enter)="clear()"
-      (keydown.space)="$event.preventDefault(); clear()">
-      <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
-    </mat-chip>
-  </mat-chip-set>
+  <div class="chips">
+    <mat-chip-set aria-label="Selected events">
+      @for (event of selectedEvents(); track event.id) {
+        <mat-chip [attr.data-id]="event.id">
+          <mat-icon matChipAvatar fontSet="material-symbols-outlined">
+            event
+          </mat-icon>
+          <span class="event-title">{{ event.title }}</span>
+        </mat-chip>
+      }
+    </mat-chip-set>
+    <mat-chip-listbox>
+      <mat-chip-option
+        class="clear-chip"
+        [selectable]="false"
+        aria-label="Clear event selection"
+        (click)="clear()">
+        <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
+      </mat-chip-option>
+    </mat-chip-listbox>
+  </div>
 }

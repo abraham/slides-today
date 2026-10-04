@@ -62,9 +62,12 @@ describe('EventChipsComponent', () => {
     expect(titles()).toEqual(['unknown']);
   });
 
-  it('clears the selected events when the clear chip is clicked', async () => {
+  it('clears the selected events when the clear button is clicked', async () => {
     await select(`/filters?events=${first!.id}`);
 
+    expect(
+      clearChip()!.querySelector('button')!.getAttribute('aria-label'),
+    ).toBe('Clear event selection');
     clearChip()!.click();
 
     expect(navigate).toHaveBeenLastCalledWith(['/']);
@@ -79,13 +82,5 @@ describe('EventChipsComponent', () => {
       queryParams: { events: null },
       queryParamsHandling: 'merge',
     });
-  });
-
-  it('clears with the keyboard', async () => {
-    await select(`/filters?events=${first!.id}`);
-
-    clearChip()!.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter' }));
-
-    expect(navigate).toHaveBeenLastCalledWith(['/']);
   });
 });

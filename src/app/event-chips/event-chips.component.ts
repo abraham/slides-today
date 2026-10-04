@@ -1,5 +1,11 @@
 import { Component, computed, inject } from '@angular/core';
-import { MatChip, MatChipAvatar, MatChipSet } from '@angular/material/chips';
+import {
+  MatChip,
+  MatChipAvatar,
+  MatChipListbox,
+  MatChipOption,
+  MatChipSet,
+} from '@angular/material/chips';
 import { MatIcon } from '@angular/material/icon';
 import { findEventTitle } from '../models/event';
 import { DataService } from '../services/data.service';
@@ -8,7 +14,14 @@ import { DataService } from '../services/data.service';
   selector: 'app-event-chips',
   styleUrl: './event-chips.component.scss',
   templateUrl: './event-chips.component.html',
-  imports: [MatChip, MatChipAvatar, MatChipSet, MatIcon],
+  imports: [
+    MatChip,
+    MatChipAvatar,
+    MatChipListbox,
+    MatChipOption,
+    MatChipSet,
+    MatIcon,
+  ],
 })
 export class EventChipsComponent {
   private readonly dataService = inject(DataService);
