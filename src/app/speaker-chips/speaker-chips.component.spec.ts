@@ -59,6 +59,23 @@ describe('SpeakerChipsComponent', () => {
     ).toEqual(speakers().map(speaker => speaker.id === first!.id));
   });
 
+  it('deselects the chips when the selection is cleared after a click', async () => {
+    const [first] = speakers();
+    const router = TestBed.inject(Router);
+    chips()[0]!.querySelector('button')!.click();
+    await router.navigateByUrl(`/filters?speakers=${first!.id}`);
+    fixture.detectChanges();
+
+    await router.navigateByUrl('/');
+    fixture.detectChanges();
+    await fixture.whenStable();
+    fixture.detectChanges();
+
+    expect(
+      chips().some(chip => chip.classList.contains('mat-mdc-chip-selected')),
+    ).toBe(false);
+  });
+
   describe('clear chip', () => {
     it('is hidden when no speaker is selected', () => {
       expect(clearChip()).toBeNull();
