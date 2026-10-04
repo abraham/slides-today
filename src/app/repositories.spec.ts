@@ -6,7 +6,6 @@ import speakers from './speakers.data.json';
 import sponsors from './sponsors.data.json';
 import tags from './tags.data.json';
 
-// DATA_SOURCE is a build-time define, so only the JSON source is reachable here.
 describe('repositories', () => {
   it.each([
     ['DECKS', DECKS, decks],
