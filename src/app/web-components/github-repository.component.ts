@@ -1,6 +1,7 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
+  afterNextRender,
   input,
   signal,
 } from '@angular/core';
@@ -25,7 +26,9 @@ export class GithubRepositoryComponent {
   protected readonly loaded = signal(false);
 
   constructor() {
-    // Registers the element without blocking the render.
-    import('github-repository').finally(() => this.loaded.set(true));
+    // The element needs a browser, and registers without blocking the render.
+    afterNextRender(() =>
+      import('github-repository').finally(() => this.loaded.set(true)),
+    );
   }
 }

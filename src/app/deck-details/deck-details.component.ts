@@ -4,6 +4,7 @@ import {
   DestroyRef,
   ElementRef,
   ViewContainerRef,
+  afterRenderEffect,
   computed,
   effect,
   inject,
@@ -91,7 +92,8 @@ export class DeckDetailsComponent {
       untracked(() => this.init(deck));
     });
 
-    effect(onCleanup => {
+    // Only runs in the browser, which is the only place that has layout.
+    afterRenderEffect(onCleanup => {
       const detailsEl = this.detailsEl();
       if (!detailsEl) {
         return;

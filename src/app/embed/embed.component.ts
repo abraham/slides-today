@@ -1,8 +1,8 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
+  afterRenderEffect,
   computed,
-  effect,
   inject,
   input,
   signal,
@@ -79,9 +79,9 @@ export class EmbedComponent {
   readonly buttonLabel = computed(() => BUTTON_LABELS[this.link().service]);
 
   constructor() {
-    effect(() => {
+    // The element needs a browser, and registers without blocking the render.
+    afterRenderEffect(() => {
       if (this.youtubeId()) {
-        // Registers the element without blocking the render.
         import('@justinribeiro/lite-youtube');
       }
     });
