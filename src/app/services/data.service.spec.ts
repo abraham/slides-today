@@ -88,6 +88,48 @@ describe('DataService', () => {
     });
   });
 
+  describe('selectedEventIds', () => {
+    const navigate = (url: string) => TestBed.inject(Router).navigateByUrl(url);
+
+    it('is the events param of the filters url, in order', async () => {
+      await navigate('/filters?events=a,b&tags=php');
+
+      expect(service.selectedEventIds()).toEqual(['a', 'b']);
+      expect(service.selectedTagIds()).toEqual(['php']);
+    });
+
+    it('is empty on other pages', async () => {
+      await navigate('/?events=a');
+
+      expect(service.selectedEventIds()).toEqual([]);
+    });
+  });
+
+  describe('setFilter', () => {
+    const navigate = (url: string) => TestBed.inject(Router).navigateByUrl(url);
+
+    it('keeps the events param when another filter is cleared', async () => {
+      await navigate('/filters?events=a&tags=php');
+      const spy = vi.spyOn(TestBed.inject(Router), 'navigate');
+
+      service.setFilter('tags', []);
+
+      expect(spy).toHaveBeenCalledWith(['/filters'], {
+        queryParams: { tags: null },
+        queryParamsHandling: 'merge',
+      });
+    });
+
+    it('goes home when the last filter is cleared', async () => {
+      await navigate('/filters?events=a');
+      const spy = vi.spyOn(TestBed.inject(Router), 'navigate');
+
+      service.setFilter('events', []);
+
+      expect(spy).toHaveBeenCalledWith(['/']);
+    });
+  });
+
   describe('filterTags', () => {
     it('returns all tags when no ids are given', () => {
       expect(service.filterTags([])).toEqual(service.tags);

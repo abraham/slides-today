@@ -1,9 +1,9 @@
 import { NgTemplateOutlet } from '@angular/common';
-import { Component, computed, input } from '@angular/core';
+import { Component, computed, inject, input } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import { MatCard, MatCardActions } from '@angular/material/card';
 import { MatRippleModule } from '@angular/material/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
 import { Link } from '../models/link';
 import { DEFAULT_THEME, themeTokens } from '../models/theme';
 
@@ -21,6 +21,8 @@ import { DEFAULT_THEME, themeTokens } from '../models/theme';
   ],
 })
 export class CardComponent {
+  private readonly router = inject(Router);
+
   readonly actions = input<Link[]>([]);
   readonly image = input('');
   readonly theme = input(DEFAULT_THEME);
@@ -28,4 +30,14 @@ export class CardComponent {
   readonly url = input('');
 
   readonly external = computed(() => /^https?:\/\//.test(this.url()));
+
+  // Actions that are not absolute urls stay in the app and keep their query params.
+  readonly actionLinks = computed(() =>
+    this.actions().map(action => ({
+      action,
+      route: /^https?:\/\//.test(action.url)
+        ? undefined
+        : this.router.parseUrl(action.url),
+    })),
+  );
 }

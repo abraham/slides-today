@@ -162,6 +162,27 @@ describe('DeckDetailsComponent', () => {
       expect(image).toBe(new URL(DEFAULT_IMAGE, document.baseURI).href);
     });
 
+    it('shows a card for each event between the speakers and the map', () => {
+      const deck = find(
+        raw => raw.events.length > 1 && raw.speakerIds.length > 0,
+      );
+      show(deck);
+
+      expect(count('app-event')).toBe(deck.occurrences.length);
+      const speaker: HTMLElement =
+        fixture.nativeElement.querySelector('app-speaker');
+      const event: HTMLElement =
+        fixture.nativeElement.querySelector('app-event');
+      const map: HTMLElement = fixture.nativeElement.querySelector('app-map');
+      expect(
+        speaker.compareDocumentPosition(event) &
+          Node.DOCUMENT_POSITION_FOLLOWING,
+      ).toBeTruthy();
+      expect(
+        event.compareDocumentPosition(map) & Node.DOCUMENT_POSITION_FOLLOWING,
+      ).toBeTruthy();
+    });
+
     it('shows a card for each speaker', () => {
       const deck = find(raw => raw.speakerIds.length > 1);
       show(deck);

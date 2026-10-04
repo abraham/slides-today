@@ -24,11 +24,16 @@ export class DeckService {
     return decks.find(deck => deck.legacyId === id);
   }
 
-  filter(tagIds: string[], speakerIds: string[] = []): Deck[] | undefined {
+  filter(
+    tagIds: string[],
+    speakerIds: string[] = [],
+    eventIds: string[] = [],
+  ): Deck[] | undefined {
     return this.decks()?.filter(
       deck =>
         tagIds.every(tag => deck.tags.includes(tag)) &&
-        speakerIds.every(speaker => deck.speakerIds.includes(speaker)),
+        speakerIds.every(speaker => deck.speakerIds.includes(speaker)) &&
+        eventIds.every(event => deck.eventIds.includes(event)),
     );
   }
 

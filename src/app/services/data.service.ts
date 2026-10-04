@@ -36,6 +36,10 @@ export class DataService {
     this.listParam(this.filterParams()['speakers']),
   );
 
+  readonly selectedEventIds = computed(() =>
+    this.listParam(this.filterParams()['events']),
+  );
+
   filterTags(ids: string[]): Tag[] {
     if (ids.length === 0) {
       return this.tags;
@@ -47,10 +51,16 @@ export class DataService {
     return this.tags.find(tag => tag.id === id);
   }
 
-  setFilter(name: 'tags' | 'speakers', ids: string[]): void {
-    const others =
-      name === 'tags' ? this.selectedSpeakerIds() : this.selectedTagIds();
-    if (ids.length === 0 && others.length === 0) {
+  setFilter(name: 'tags' | 'speakers' | 'events', ids: string[]): void {
+    const selected = {
+      tags: this.selectedTagIds(),
+      speakers: this.selectedSpeakerIds(),
+      events: this.selectedEventIds(),
+    };
+    const othersEmpty = Object.entries(selected).every(
+      ([key, value]) => key === name || value.length === 0,
+    );
+    if (ids.length === 0 && othersEmpty) {
       this.router.navigate(['/']);
       return;
     }

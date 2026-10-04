@@ -46,10 +46,16 @@
 
   @if (actions().length) {
     <mat-card-actions>
-      @for (action of actions(); track action.url) {
-        <a mat-button [href]="action.url" target="_blank" rel="noopener">
-          {{ action.title }}
-        </a>
+      @for (item of actionLinks(); track item.action.url) {
+        @if (item.route) {
+          <a mat-button [routerLink]="item.route">
+            {{ item.action.title }}
+          </a>
+        } @else {
+          <a mat-button [href]="item.action.url" target="_blank" rel="noopener">
+            {{ item.action.title }}
+          </a>
+        }
       }
     </mat-card-actions>
   }

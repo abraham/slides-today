@@ -9,11 +9,13 @@ import { ThemeService } from '../services/theme.service';
 import { FiltersSheetComponent } from '../filters-sheet/filters-sheet.component';
 import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { SpeakerChipsComponent } from '../speaker-chips/speaker-chips.component';
+import { EventChipsComponent } from '../event-chips/event-chips.component';
 import { MatButton } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { AboutComponent } from '../about/about.component';
 import { DeckSummaryComponent } from '../deck-summary/deck-summary.component';
 import { formatList } from '../models/text';
+import { findEventTitle } from '../models/event';
 
 @Component({
   selector: 'app-deck-list',
@@ -22,6 +24,7 @@ import { formatList } from '../models/text';
   imports: [
     TagChipsComponent,
     SpeakerChipsComponent,
+    EventChipsComponent,
     MatButton,
     MatIcon,
     AboutComponent,
@@ -39,10 +42,12 @@ export class DeckListComponent {
 
   readonly selectedTagIds = this.dataService.selectedTagIds;
   readonly selectedSpeakerIds = this.dataService.selectedSpeakerIds;
+  readonly selectedEventIds = this.dataService.selectedEventIds;
   readonly hasSelectedFilters = computed(
     () =>
       this.selectedTagIds().length !== 0 ||
-      this.selectedSpeakerIds().length !== 0,
+      this.selectedSpeakerIds().length !== 0 ||
+      this.selectedEventIds().length !== 0,
   );
   readonly selectedFilters = computed(() =>
     formatList([
@@ -50,12 +55,14 @@ export class DeckListComponent {
       ...this.selectedSpeakerIds().map(
         id => this.speakerService.get(id)?.name ?? id,
       ),
+      ...this.selectedEventIds().map(id => findEventTitle(id) ?? id),
     ]),
   );
   readonly decks = computed(() => {
     const decks = this.deckService.filter(
       this.selectedTagIds(),
       this.selectedSpeakerIds(),
+      this.selectedEventIds(),
     );
     return this.hasSelectedFilters() ? decks : decks?.slice(0, 100);
   });

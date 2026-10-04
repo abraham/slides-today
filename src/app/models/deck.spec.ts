@@ -1,4 +1,5 @@
 import Data from '../decks.data.json';
+import events from '../events.data.json';
 import tagData from '../tags.data.json';
 import { Deck } from './deck';
 import { DEFAULT_THEME } from './theme';
@@ -12,9 +13,6 @@ const raw = (overrides: Partial<RawDeck> = {}): RawDeck => ({
   resources: [],
   ...overrides,
 });
-const range = (start: string, end: string) => ({
-  date: { start: `${start}T00:00:00.000Z`, end: `${end}T00:00:00.000Z` },
-});
 
 describe('Deck', () => {
   it('copies the fields of the raw deck', () => {
@@ -24,94 +22,60 @@ describe('Deck', () => {
     expect(deck.id).toBe(data.id);
     expect(deck.legacyId).toBe(data.legacyId);
     expect(deck.title).toBe(data.title);
-    expect(deck.eventTitle).toBe(data.eventTitle);
     expect(deck.speakerIds).toEqual(data.speakerIds);
     expect(deck.tweetIds).toEqual(data.tweetIds);
   });
 
-  describe('date', () => {
-    it('shows a single day', () => {
-      const deck = new Deck(raw(range('2021-10-05', '2021-10-05')));
+  describe('events', () => {
+    const multiple = Data.find(deck => deck.events.length > 1)!;
 
-      expect(deck.date).toBe('Oct 5, 2021');
-    });
-
-    it('shows the first day of a multi day event in one month', () => {
-      const deck = new Deck(raw(range('2019-06-05', '2019-06-07')));
-
-      expect(deck.date).toBe('Jun 5, 2019');
-    });
-
-    it('shows both months of an event that spans two months', () => {
-      const deck = new Deck(raw(range('2018-10-31', '2018-11-02')));
-
-      expect(deck.date).toBe('Oct 31-Nov 2, 2018');
-    });
-
-    it('shows both months when the day of the month is the same', () => {
-      const deck = new Deck(raw(range('2019-10-05', '2019-11-05')));
-
-      expect(deck.date).toBe('Oct 5-Nov 5, 2019');
-    });
-
-    it('shows both years of an event that spans two years', () => {
-      const deck = new Deck(raw(range('2018-12-30', '2019-01-02')));
-
-      expect(deck.date).toBe('Dec 30, 2018-Jan 2, 2019');
-    });
-
-    it('shows both years when only the month name repeats', () => {
-      const deck = new Deck(raw(range('2018-12-30', '2019-12-02')));
-
-      expect(deck.date).toBe('Dec 30, 2018-Dec 2, 2019');
-    });
-
-    describe('in any time zone', () => {
-      const dates = (): [string, string][] => [
-        ...Data.map((deck): [string, string] => [
-          deck.date.start,
-          deck.date.end,
-        ]),
-        ['2018-12-30T00:00:00.000Z', '2019-01-01T00:00:00.000Z'],
-        ['2019-01-01T00:00:00.000Z', '2019-01-02T00:00:00.000Z'],
+    it('takes the event details from its occurrence', () => {
+      const data = Data[0]!;
+      const [{ eventId, occurrenceId }] = data.events as [
+        RawDeck['events'][number],
       ];
-      const expected = ({ start, end }: { start: string; end: string }) => {
-        const part = (iso: string, options: Intl.DateTimeFormatOptions) =>
-          new Date(iso).toLocaleString('en-US', {
-            ...options,
-            timeZone: 'UTC',
-          });
-        const [sm, sd, sy] = [
-          part(start, { month: 'short' }),
-          part(start, { day: 'numeric' }),
-          part(start, { year: 'numeric' }),
-        ];
-        const [em, ed, ey] = [
-          part(end, { month: 'short' }),
-          part(end, { day: 'numeric' }),
-          part(end, { year: 'numeric' }),
-        ];
-        return sy !== ey
-          ? `${sm} ${sd}, ${sy}-${em} ${ed}, ${ey}`
-          : sm === em
-            ? `${sm} ${sd}, ${sy}`
-            : `${sm} ${sd}-${em} ${ed}, ${ey}`;
-      };
+      const event = events.find(({ id }) => id === eventId)!;
+      const occurrence = event.occurrences.find(
+        ({ id }) => id === occurrenceId,
+      )!;
+      const deck = new Deck(data);
 
-      afterEach(() => vi.unstubAllEnvs());
+      expect(deck.eventTitle).toBe(event.title);
+      expect(deck.location).toBe(occurrence.location);
+      expect(deck.date).toBe('Oct 5, 2021');
+      expect(
+        deck.occurrences.map(({ eventId, id }) => ({
+          eventId,
+          occurrenceId: id,
+        })),
+      ).toEqual(data.events);
+    });
 
-      it.each(['UTC', 'America/Los_Angeles', 'Pacific/Auckland'])(
-        'matches the UTC calendar date in %s',
-        zone => {
-          vi.stubEnv('TZ', zone);
+    it('combines the titles of multiple events', () => {
+      const deck = new Deck(multiple);
 
-          const mismatches = dates()
-            .map(([start, end]) => ({ start, end }))
-            .filter(date => new Deck(raw({ date })).date !== expected(date));
+      expect(deck.eventIds).toEqual(multiple.events.map(e => e.eventId));
+      expect(deck.occurrences).toHaveLength(multiple.events.length);
+      expect(deck.eventTitle).toBe('GDG Madison & Madison Women in Tech');
+    });
 
-          expect(mismatches).toEqual([]);
-        },
-      );
+    it('keeps the links of the events out of the links of the deck', () => {
+      const link = { title: 'Slides', url: 'https://example.com/a' };
+      const deck = new Deck(raw({ links: [link] as RawDeck['links'] }));
+
+      expect(deck.links.map(({ title }) => title)).toEqual(['Slides']);
+    });
+
+    it('throws for an unknown occurrence', () => {
+      const [{ eventId }] = Data[0]!.events;
+
+      expect(
+        () => new Deck(raw({ events: [{ eventId, occurrenceId: 'unknown' }] })),
+      ).toThrow('Unknown event occurrence');
+    });
+
+    it('throws without any occurrence', () => {
+      expect(() => new Deck(raw({ events: [] }))).toThrow('no event');
     });
   });
 

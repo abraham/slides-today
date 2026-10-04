@@ -22,6 +22,7 @@ import type { ShareComponent } from '../share/share.component';
 import { CardComponent } from '../card/card.component';
 import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { EmbedComponent } from '../embed/embed.component';
+import { EventComponent } from '../event/event.component';
 import { SpeakerComponent } from '../speaker/speaker.component';
 import { MapComponent } from '../map/map.component';
 import { SponsorComponent } from '../sponsor/sponsor.component';
@@ -38,6 +39,7 @@ import { TwitterStatusComponent } from '../web-components/twitter-status.compone
     CardComponent,
     TagChipsComponent,
     EmbedComponent,
+    EventComponent,
     SpeakerComponent,
     MapComponent,
     SponsorComponent,

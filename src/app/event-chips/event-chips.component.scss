@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  margin-top: 16px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.clear-chip mat-icon {
+  display: block;
+}

@@ -91,6 +91,18 @@ describe('CardComponent', () => {
     links.forEach(link => expect(link.target).toBe('_blank'));
   });
 
+  it('navigates within the app for an internal action', () => {
+    fixture.componentRef.setInput('actions', [
+      { title: 'Presentations', url: '/filters?events=abc' },
+    ]);
+    fixture.detectChanges();
+
+    const link: HTMLAnchorElement =
+      fixture.nativeElement.querySelector('mat-card-actions a');
+    expect(link.getAttribute('href')).toBe('/filters?events=abc');
+    expect(link.target).toBe('');
+  });
+
   it('shows no actions section without actions', () => {
     expect(fixture.nativeElement.querySelector('mat-card-actions')).toBeNull();
   });

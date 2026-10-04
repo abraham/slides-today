@@ -14,8 +14,9 @@ Feature: View deck details
   Scenario: Deck page includes related content
     Given I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
     Then I should see "How Do Service Workers Even?"
-    And I should see "Mobile Era · Oct 31-Nov 2, 2018"
-    And I should see "Event"
+    And I should see "Mobile Era"
+    And I should see "Oct 31-Nov 2, 2018 · Oslo, Norway"
+    And I should see "Homepage" 3 times
     And I should see "Slides"
     And I should see "Video"
     And I should see "Abraham Williams"
@@ -29,6 +30,23 @@ Feature: View deck details
     And I should see "Resources"
     And I should see "The Service Worker Lifecycle"
     And I should see "A Tale of Four Caches"
+
+  Scenario: Event card links to the presentations of the event
+    Given I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
+    When I click on "Presentations"
+    Then I should not see "Welcome to Slides.today"
+    And I should see "How Do Service Workers Even?"
+    And I should see "Get Talking with Actions on Google"
+    And I should not see "Chrome Dev Summit 2019 Extended Madison"
+    And I should be on "/filters?events=HB6PwwXRjjLhg52ytsMo"
+
+  Scenario: Deck given at multiple events has an event card for each
+    Given I visit "/decks/p8pLdyuXzSjgwqSBrbwg"
+    Then I should see "IWD Global Diversity CFP Day Workshop"
+    And I should see "GDG Madison"
+    And I should see "Madison Women in Tech"
+    And I should see "Mar 2, 2019 · Madison, WI" 2 times
+    And I should see "Presentations" 2 times
 
   Scenario: Legacy deck id redirects to the new deck id
     Given I visit "/decks/-LP90xu1JfaAgTCyhC3D"
