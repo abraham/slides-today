@@ -28,6 +28,15 @@ describe('data', () => {
   });
 
   describe('decks', () => {
+    it('have Firestore ids and unique legacy ids', () => {
+      const ids = decks.map(deck => deck.id);
+      const legacyIds = decks.map(deck => deck.legacyId);
+
+      expect(ids.filter(id => !/^[A-Za-z0-9]{20}$/.test(id))).toEqual([]);
+      expect(duplicates(legacyIds)).toEqual([]);
+      expect(legacyIds.filter(id => ids.includes(id))).toEqual([]);
+    });
+
     const speakerIds = new Set(speakers.map(speaker => speaker.id));
     const sponsorIds = new Set(sponsors.map(sponsor => sponsor.id));
     const tagIds = new Set(tags.map(tag => tag.id));

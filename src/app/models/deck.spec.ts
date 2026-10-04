@@ -22,6 +22,7 @@ describe('Deck', () => {
     const deck = new Deck(data);
 
     expect(deck.id).toBe(data.id);
+    expect(deck.legacyId).toBe(data.legacyId);
     expect(deck.title).toBe(data.title);
     expect(deck.eventTitle).toBe(data.eventTitle);
     expect(deck.speakerIds).toEqual(data.speakerIds);

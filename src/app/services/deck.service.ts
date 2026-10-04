@@ -19,6 +19,11 @@ export class DeckService {
     return decks.find(deck => deck.id === id);
   }
 
+  async getByLegacyId(id: string | null): Promise<Deck | undefined> {
+    const decks = await this.loaded;
+    return decks.find(deck => deck.legacyId === id);
+  }
+
   filter(tagIds: string[], speakerIds: string[] = []): Deck[] | undefined {
     return this.decks()?.filter(
       deck =>
