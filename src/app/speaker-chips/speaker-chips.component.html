@@ -1,8 +1,11 @@
-<mat-chip-listbox aria-label="Speaker selection" multiple>
+<mat-chip-listbox
+  aria-label="Speaker selection"
+  multiple
+  [value]="selectedSpeakerIds()">
   @for (speaker of speakers; track speaker.id) {
     <mat-chip-option
       [attr.data-id]="speaker.id"
-      [selected]="selectedSpeakerIds().includes(speaker.id)"
+      [value]="speaker.id"
       (selectionChange)="changeSelected($event, speaker.id)">
       <img matChipAvatar [src]="speaker.imageUrl" alt="" />
       {{ speaker.name }}
