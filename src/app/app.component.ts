@@ -45,7 +45,8 @@ export class AppComponent {
   }
 
   private removeNoScripts(): void {
-    this.document.querySelectorAll('noscript').forEach(element => {
+    // Array.from because the server DOM's NodeList has no forEach.
+    Array.from(this.document.querySelectorAll('noscript')).forEach(element => {
       element.remove();
     });
   }

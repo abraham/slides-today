@@ -49,8 +49,8 @@ export class SeoService {
       content: description,
     });
 
-    // Social crawlers need an absolute image URL.
-    const imageUrl = new URL(image, this.document.baseURI).href;
+    // Social crawlers need an absolute image URL. The server DOM has no baseURI, so this uses the document URL.
+    const imageUrl = new URL(image, this.document.URL).href;
     this.metaService.updateTag({ name: 'twitter:image', content: imageUrl });
     this.metaService.updateTag({ property: 'og:image', content: imageUrl });
     this.metaService.updateTag({ name: 'twitter:image:alt', content: title });
