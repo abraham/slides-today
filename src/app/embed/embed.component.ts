@@ -22,6 +22,16 @@ const RATIOS: Partial<Record<Services, number>> = {
   [Services.vimeo]: 340 / 640,
 };
 
+// A Record, so adding a service fails to compile until it has a label.
+const BUTTON_LABELS: Record<Services, string> = {
+  [Services.external]: 'Show content',
+  [Services.joindin]: 'Show event',
+  [Services.meetup]: 'Show event',
+  [Services.slides]: 'Show slides',
+  [Services.vimeo]: 'Show video',
+  [Services.youtube]: 'Show video',
+};
+
 const isAllowedUrl = (value: string): boolean =>
   URL.canParse(value) && ALLOWED_ORIGINS.includes(new URL(value).origin);
 
@@ -66,6 +76,7 @@ export class EmbedComponent {
       : undefined;
   });
   readonly placeholder = signal(true);
+  readonly buttonLabel = computed(() => BUTTON_LABELS[this.link().service]);
 
   constructor() {
     effect(() => {

@@ -43,6 +43,27 @@ describe('EmbedComponent', () => {
     expect(element.querySelector('iframe')).not.toBeNull();
   });
 
+  describe('button label', () => {
+    const label = () =>
+      fixture.nativeElement.querySelector('button').textContent.trim();
+
+    it('offers to show slides for Google Slides', () => {
+      expect(label()).toContain('Show slides');
+    });
+
+    it('offers to show the video for Vimeo', () => {
+      fixture.componentRef.setInput('link', {
+        title: 'Video',
+        url: 'https://vimeo.com/123',
+        useAsTag: false,
+        service: 'vimeo',
+      });
+      fixture.detectChanges();
+
+      expect(label()).toContain('Show video');
+    });
+  });
+
   describe('embed urls', () => {
     const embedSrc = (link: Partial<Link>): string | null => {
       fixture.componentRef.setInput('link', {
