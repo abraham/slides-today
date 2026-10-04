@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 import events from '../events.data.json';
 import { findOccurrence } from '../models/event';
 import { EventComponent } from './event.component';
@@ -17,6 +18,7 @@ describe('EventComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [EventComponent],
+      providers: [provideRouter([])],
     }).compileComponents();
     fixture = TestBed.createComponent(EventComponent);
   });
@@ -32,22 +34,25 @@ describe('EventComponent', () => {
     expect(text).toContain(occurrence!.location);
   });
 
-  it('links to the pages of the event in new tabs', () => {
+  const hrefs = (): (string | null)[] =>
+    Array.from<HTMLAnchorElement>(
+      fixture.nativeElement.querySelectorAll('mat-card-actions a'),
+    ).map(link => link.getAttribute('href'));
+
+  it('links to the pages of the event, then to its presentations', () => {
     const event = events.find(({ occurrences }) =>
       occurrences.some(({ links }) => links.length > 0),
     )!;
     const occurrence = event.occurrences.find(({ links }) => links.length > 0)!;
     show(event.id, occurrence.id);
 
-    const links: HTMLAnchorElement[] = Array.from(
-      fixture.nativeElement.querySelectorAll('mat-card-actions a'),
-    );
-    expect(links.map(link => link.getAttribute('href'))).toEqual(
-      occurrence.links.map(link => link.url),
-    );
+    expect(hrefs()).toEqual([
+      ...occurrence.links.map(link => link.url),
+      `/filters?events=${event.id}`,
+    ]);
   });
 
-  it('has no links for an event without any', () => {
+  it('only links to the presentations for an event without links', () => {
     const event = events.find(({ occurrences }) =>
       occurrences.some(({ links }) => links.length === 0),
     )!;
@@ -56,6 +61,7 @@ describe('EventComponent', () => {
     )!;
     show(event.id, occurrence.id);
 
-    expect(fixture.nativeElement.querySelector('mat-card-actions')).toBeNull();
+    expect(hrefs()).toEqual([`/filters?events=${event.id}`]);
+    expect(fixture.nativeElement.textContent).toContain('Presentations');
   });
 });
