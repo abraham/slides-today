@@ -53,7 +53,7 @@ export class TagComponent {
     if (tags.length === 0) {
       this.router.navigate(['/']);
     } else {
-      this.router.navigate(['/tags', { tags }]);
+      this.router.navigate(['/filters', { tags }]);
     }
   }
 }

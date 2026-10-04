@@ -71,7 +71,7 @@ describe('DeckListComponent', () => {
       const deckService = TestBed.inject(DeckService);
       const [tag] = deckService.decks()![0]!.tags;
 
-      await TestBed.inject(Router).navigateByUrl(`/tags;tags=${tag}`);
+      await TestBed.inject(Router).navigateByUrl(`/filters;tags=${tag}`);
       fixture.detectChanges();
 
       expect(element().querySelector('app-about')).toBeNull();
@@ -79,7 +79,9 @@ describe('DeckListComponent', () => {
     });
 
     it('explains when no deck has all of the selected tags', async () => {
-      await TestBed.inject(Router).navigateByUrl('/tags;tags=nothing,at-all');
+      await TestBed.inject(Router).navigateByUrl(
+        '/filters;tags=nothing,at-all',
+      );
       fixture.detectChanges();
 
       expect(summaries().length).toBe(0);

@@ -21,17 +21,18 @@ export class DataService {
 
   readonly tags: Tag[] = [...tagData].sort(sortTags);
 
-  // The `tags` matrix param of the `/tags` route is the only record of the selection.
-  readonly selectedTagIds = computed(() => {
+  // The matrix params of the `/filters` route are the only record of the selection.
+  private readonly filterParams = computed(() => {
     const segment =
       this.router.lastSuccessfulNavigation()?.finalUrl?.root.children[
         PRIMARY_OUTLET
       ]?.segments[0];
-    if (segment?.path !== 'tags') {
-      return [];
-    }
-    return (segment.parameters['tags'] ?? '').split(',').filter(id => id);
+    return segment?.path === 'filters' ? segment.parameters : {};
   });
+
+  readonly selectedTagIds = computed(() =>
+    this.listParam(this.filterParams()['tags']),
+  );
 
   filterTags(ids: string[]): Tag[] {
     if (ids.length === 0) {
@@ -42,5 +43,9 @@ export class DataService {
 
   tag(id: string): Tag | undefined {
     return this.tags.find(tag => tag.id === id);
+  }
+
+  private listParam(value: string | undefined): string[] {
+    return (value ?? '').split(',').filter(id => id);
   }
 }

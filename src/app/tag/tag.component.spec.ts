@@ -69,7 +69,7 @@ describe('TagComponent', () => {
     });
 
     it('does not navigate when rendered for an already selected tag', async () => {
-      await showing('/tags;tags=angular');
+      await showing('/filters;tags=angular');
 
       const selected = TestBed.createComponent(TagComponent);
       selected.componentRef.setInput('tag', tag);
@@ -79,7 +79,7 @@ describe('TagComponent', () => {
     });
 
     it('marks the chip selected when the url selects the tag', async () => {
-      await showing('/tags;tags=php,angular');
+      await showing('/filters;tags=php,angular');
 
       expect(component.selected()).toBe(true);
     });
@@ -87,38 +87,44 @@ describe('TagComponent', () => {
     it('navigates to the tag when none are selected', () => {
       component.changeSelected(change(true), tag);
 
-      expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['angular'] }]);
+      expect(navigate).toHaveBeenCalledWith([
+        '/filters',
+        { tags: ['angular'] },
+      ]);
     });
 
     it('adds the tag to the selected tags', async () => {
-      await showing('/tags;tags=php');
+      await showing('/filters;tags=php');
 
       component.changeSelected(change(true), tag);
 
       expect(navigate).toHaveBeenCalledWith([
-        '/tags',
+        '/filters',
         { tags: ['php', 'angular'] },
       ]);
     });
 
     it('does not duplicate a tag that is already selected', async () => {
-      await showing('/tags;tags=angular');
+      await showing('/filters;tags=angular');
 
       component.changeSelected(change(true), tag);
 
-      expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['angular'] }]);
+      expect(navigate).toHaveBeenCalledWith([
+        '/filters',
+        { tags: ['angular'] },
+      ]);
     });
 
     it('removes the tag from the selected tags', async () => {
-      await showing('/tags;tags=php,angular');
+      await showing('/filters;tags=php,angular');
 
       component.changeSelected(change(false), tag);
 
-      expect(navigate).toHaveBeenCalledWith(['/tags', { tags: ['php'] }]);
+      expect(navigate).toHaveBeenCalledWith(['/filters', { tags: ['php'] }]);
     });
 
     it('navigates home when the last tag is deselected', async () => {
-      await showing('/tags;tags=angular');
+      await showing('/filters;tags=angular');
 
       component.changeSelected(change(false), tag);
 
