@@ -33,6 +33,26 @@ Feature: View and filter list of decks
     And I should see "Chrome Dev Summit 2019 Extended Madison"
     And I should see "See your Action on Google in action"
 
+  Scenario: Clear tag filters
+    Given I visit "/"
+    When I click on "#firebase"
+    And I click on "#actionsongoogle"
+    Then I should not see "Welcome to Slides.today"
+    And I should not see "PWAs with Angular"
+    When I click on "cancel"
+    Then I should see "Welcome to Slides.today"
+    And I should see "PWAs with Angular" 2 times
+    And I should see "Chrome Dev Summit 2019 Extended Madison"
+    And I should not see "cancel"
+
+  Scenario: Clear speaker filters
+    Given I visit "/"
+    When I click on "Pearl Latteier"
+    Then I should not see "Welcome to Slides.today"
+    When I click on "cancel"
+    Then I should see "Welcome to Slides.today"
+    And I should not see "cancel"
+
   Scenario: No decks match filters
     Given I visit "/"
     When I click on "#firebase"
