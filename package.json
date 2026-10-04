@@ -21,7 +21,7 @@
     "fix:prettier": "prettier --write .",
     "get-tweet": "ts-node --project scripts/tsconfig.json scripts/get-tweet.ts",
     "id": "ts-node --project scripts/tsconfig.json scripts/id.ts",
-    "lighthouse": "firebase emulators:exec \"lhci autorun\"",
+    "lighthouse": "lhci autorun",
     "lint": "concurrently npm:lint:*",
     "lint:lockfile": "lockfile-lint --path package-lock.json --allowed-hosts npm github.com",
     "lint:ng": "ng lint",
