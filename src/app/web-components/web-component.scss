@@ -8,3 +8,8 @@
   box-shadow: var(--mat-sys-level1);
   color: #000;
 }
+
+ngx-skeleton-loader {
+  display: block;
+  overflow: hidden;
+}
