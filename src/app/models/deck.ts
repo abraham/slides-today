@@ -1,12 +1,26 @@
-import Data from '../decks.data.json';
 import tagData from '../tags.data.json';
 import { EventOccurrence, findOccurrence } from './event';
-import { Link } from './link';
+import { Link, RawLink } from './link';
 import { Resource } from './resource';
 import { Tag } from './tag';
 import { DEFAULT_THEME, Theme } from './theme';
 
-type RawDeck = (typeof Data)[number];
+export interface RawDeck {
+  id: string;
+  legacyId: string;
+  archived: boolean;
+  nodePackages: string[];
+  githubRepos: string[];
+  speakerIds: string[];
+  title: string;
+  events: { eventId: string; occurrenceId: string }[];
+  description: string;
+  tags: string[];
+  links: RawLink[];
+  resources: RawLink[];
+  sponsorIds: string[];
+  tweetIds: string[];
+}
 
 export class Deck {
   archived: boolean;

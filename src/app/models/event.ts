@@ -1,8 +1,18 @@
 import Data from '../events.data.json';
-import { Link } from './link';
+import { Link, RawLink } from './link';
 
-type RawEvent = (typeof Data)[number];
-type RawOccurrence = RawEvent['occurrences'][number];
+export interface RawOccurrence {
+  id: string;
+  date: { start: string; end: string };
+  location: string;
+  links: RawLink[];
+}
+
+export interface RawEvent {
+  id: string;
+  title: string;
+  occurrences: RawOccurrence[];
+}
 
 // A single happening of an event, such as one edition of a conference or one meetup.
 export class EventOccurrence {

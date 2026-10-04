@@ -1,10 +1,8 @@
 import Data from '../decks.data.json';
 import events from '../events.data.json';
 import tagData from '../tags.data.json';
-import { Deck } from './deck';
+import { Deck, RawDeck } from './deck';
 import { DEFAULT_THEME } from './theme';
-
-type RawDeck = (typeof Data)[number];
 
 const raw = (overrides: Partial<RawDeck> = {}): RawDeck => ({
   ...Data[0]!,

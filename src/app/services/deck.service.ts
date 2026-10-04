@@ -1,8 +1,5 @@
 import { Injectable, signal } from '@angular/core';
-import Data from '../decks.data.json';
-import { Deck } from '../models/deck';
-
-type RawDeck = (typeof Data)[number];
+import { Deck, RawDeck } from '../models/deck';
 
 @Injectable({
   providedIn: 'root',

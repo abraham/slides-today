@@ -1,7 +1,5 @@
 import events from '../events.data.json';
-import { EventOccurrence, findOccurrence } from './event';
-
-type RawEvent = (typeof events)[number];
+import { EventOccurrence, findOccurrence, RawEvent } from './event';
 
 const occurrence = (start: string, end: string): EventOccurrence => {
   const [event] = events as RawEvent[];
