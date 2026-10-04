@@ -3,6 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Router, provideRouter } from '@angular/router';
 import events from '../events.data.json';
 import { EventChipsComponent } from './event-chips.component';
+import { EventService } from '../services/event.service';
 
 @Component({ template: '' })
 class StubComponent {}
@@ -33,6 +34,7 @@ describe('EventChipsComponent', () => {
     }).compileComponents();
     navigate = vi.spyOn(TestBed.inject(Router), 'navigate');
     navigate.mockResolvedValue(true);
+    await TestBed.inject(EventService).loaded;
     fixture = TestBed.createComponent(EventChipsComponent);
     fixture.detectChanges();
   });

@@ -7,6 +7,9 @@ import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 import { DEFAULT_IMAGE } from '../seo.service';
 import speakers from '../speakers.data.json';
+import { SpeakerService } from '../services/speaker.service';
+import { SponsorService } from '../services/sponsor.service';
+import { createDeck } from '../testing';
 import { GithubRepositoryComponent } from '../web-components/github-repository.component';
 import { NodePackageComponent } from '../web-components/node-package.component';
 import { TwitterStatusComponent } from '../web-components/twitter-status.component';
@@ -71,10 +74,12 @@ describe('DeckDetailsComponent', () => {
       .compileComponents();
   });
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    await TestBed.inject(SpeakerService).loaded;
+    await TestBed.inject(SponsorService).loaded;
     fixture = TestBed.createComponent(DeckDetailsComponent);
     component = fixture.componentInstance;
-    fixture.componentRef.setInput('deck', new Deck(Data[0]));
+    fixture.componentRef.setInput('deck', createDeck(Data[0]));
     fixture.detectChanges();
   });
 
@@ -107,7 +112,7 @@ describe('DeckDetailsComponent', () => {
 
   describe('content', () => {
     const find = (predicate: (deck: (typeof Data)[number]) => boolean): Deck =>
-      new Deck(Data.find(deck => !deck.archived && predicate(deck))!);
+      createDeck(Data.find(deck => !deck.archived && predicate(deck))!);
     const show = (deck: Deck): void => {
       fixture.componentRef.setInput('deck', deck);
       fixture.detectChanges();
@@ -154,7 +159,7 @@ describe('DeckDetailsComponent', () => {
     });
 
     it('uses the default social image for a deck without speakers', () => {
-      show(new Deck({ ...Data[0]!, speakerIds: [] }));
+      show(createDeck({ ...Data[0]!, speakerIds: [] }));
 
       const image = document.head
         .querySelector('meta[property="og:image"]')
@@ -248,11 +253,11 @@ describe('DeckDetailsComponent', () => {
     });
 
     it('is created once even when the deck changes', async () => {
-      fixture.componentRef.setInput('deck', new Deck(Data[3]));
+      fixture.componentRef.setInput('deck', createDeck(Data[3]));
       fixture.detectChanges();
       await vi.advanceTimersByTimeAsync(1000);
       await vi.dynamicImportSettled();
-      fixture.componentRef.setInput('deck', new Deck(Data[5]));
+      fixture.componentRef.setInput('deck', createDeck(Data[5]));
       fixture.detectChanges();
       await vi.advanceTimersByTimeAsync(1000);
       await vi.dynamicImportSettled();
@@ -272,7 +277,7 @@ describe('DeckDetailsComponent', () => {
   describe('tweets', () => {
     const deckWithTweets = (): Deck => {
       const raw = Data.find(deck => deck.tweetIds.length === 2)!;
-      return new Deck(raw);
+      return createDeck(raw);
     };
     const statusCount = (): number =>
       fixture.nativeElement.querySelectorAll('app-twitter-status').length;

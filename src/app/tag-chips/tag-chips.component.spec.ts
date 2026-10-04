@@ -15,7 +15,8 @@ describe('TagChipsComponent', () => {
     }).compileComponents();
   });
 
-  beforeEach(() => {
+  beforeEach(async () => {
+    await TestBed.inject(DataService).loaded;
     fixture = TestBed.createComponent(TagChipsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -30,7 +31,7 @@ describe('TagChipsComponent', () => {
       fixture.nativeElement.querySelectorAll('mat-chip-option');
 
     it('shows every tag by default', () => {
-      expect(chips().length).toBe(TestBed.inject(DataService).tags.length);
+      expect(chips().length).toBe(TestBed.inject(DataService).tags().length);
     });
 
     it('shows only the current tags when given', () => {

@@ -1,4 +1,3 @@
-import Data from '../events.data.json';
 import { Link, RawLink } from './link';
 
 export interface RawOccurrence {
@@ -51,18 +50,3 @@ export class EventOccurrence {
 
 const month = (date: Date): string =>
   date.toLocaleString('en-us', { month: 'short', timeZone: 'UTC' });
-
-export const findEventTitle = (eventId: string): string | undefined =>
-  Data.find(({ id }) => id === eventId)?.title;
-
-export const findOccurrence = (
-  eventId: string,
-  occurrenceId: string,
-): EventOccurrence => {
-  const event = Data.find(({ id }) => id === eventId);
-  const occurrence = event?.occurrences.find(({ id }) => id === occurrenceId);
-  if (!event || !occurrence) {
-    throw new Error(`Unknown event occurrence ${eventId}/${occurrenceId}`);
-  }
-  return new EventOccurrence(event, occurrence);
-};

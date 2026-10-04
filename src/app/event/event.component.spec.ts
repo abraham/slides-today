@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import events from '../events.data.json';
-import { findOccurrence } from '../models/event';
+import { createOccurrence } from '../testing';
 import { EventComponent } from './event.component';
 
 describe('EventComponent', () => {
@@ -10,7 +10,7 @@ describe('EventComponent', () => {
   const show = (eventId: string, occurrenceId: string) => {
     fixture.componentRef.setInput(
       'occurrence',
-      findOccurrence(eventId, occurrenceId),
+      createOccurrence(eventId, occurrenceId),
     );
     fixture.detectChanges();
   };
