@@ -35,15 +35,20 @@ export class DeckListComponent {
   private readonly seoService = inject(SeoService);
 
   readonly selectedTagIds = this.dataService.selectedTagIds;
+  readonly selectedSpeakerIds = this.dataService.selectedSpeakerIds;
+  readonly hasSelectedFilters = computed(
+    () =>
+      this.selectedTagIds().length !== 0 ||
+      this.selectedSpeakerIds().length !== 0,
+  );
   readonly decks = computed(() => {
-    const selectedTagIds = this.selectedTagIds();
-    const decks = this.deckService.filter(selectedTagIds);
-    return selectedTagIds.length !== 0 ? decks : decks?.slice(0, 100);
+    const decks = this.deckService.filter(
+      this.selectedTagIds(),
+      this.selectedSpeakerIds(),
+    );
+    return this.hasSelectedFilters() ? decks : decks?.slice(0, 100);
   });
   readonly mobile = signal(false);
-  readonly hasSelectedTagIds = computed(
-    () => this.selectedTagIds().length !== 0,
-  );
 
   constructor() {
     this.themeService.reset();

@@ -71,6 +71,23 @@ describe('DataService', () => {
     });
   });
 
+  describe('selectedSpeakerIds', () => {
+    const navigate = (url: string) => TestBed.inject(Router).navigateByUrl(url);
+
+    it('is the speakers param of the filters url, in order', async () => {
+      await navigate('/filters?speakers=a,b&tags=php');
+
+      expect(service.selectedSpeakerIds()).toEqual(['a', 'b']);
+      expect(service.selectedTagIds()).toEqual(['php']);
+    });
+
+    it('is empty on other pages', async () => {
+      await navigate('/?speakers=a');
+
+      expect(service.selectedSpeakerIds()).toEqual([]);
+    });
+  });
+
   describe('filterTags', () => {
     it('returns all tags when no ids are given', () => {
       expect(service.filterTags([])).toEqual(service.tags);

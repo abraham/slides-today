@@ -18,7 +18,7 @@ describe('routes', () => {
     );
 
     expect(list.selectedTagIds()).toEqual(['polymer', 'php']);
-    expect(list.hasSelectedTagIds()).toBe(true);
+    expect(list.hasSelectedFilters()).toBe(true);
   });
 
   it('redirects the legacy tags url to filters, keeping the params', async () => {

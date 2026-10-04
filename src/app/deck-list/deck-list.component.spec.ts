@@ -89,6 +89,22 @@ describe('DeckListComponent', () => {
         'Nothing found that includes all the following tags',
       );
     });
+
+    it('shows only the decks with every selected speaker', async () => {
+      const deckService = TestBed.inject(DeckService);
+      const [speaker] = deckService.decks()!.flatMap(deck => deck.speakerIds);
+
+      await TestBed.inject(Router).navigateByUrl(
+        `/filters?speakers=${speaker}`,
+      );
+      fixture.detectChanges();
+
+      expect(element().querySelector('app-about')).toBeNull();
+      expect(summaries().length).toBe(
+        deckService.filter([], [speaker!])!.length,
+      );
+      expect(summaries().length).toBeLessThan(deckService.decks()!.length);
+    });
   });
 
   describe('on mobile', () => {

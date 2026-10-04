@@ -50,6 +50,16 @@ describe('DeckService', () => {
     expect(service.filter(['unknown'])).toEqual([]);
   });
 
+  it('filters decks that include all of the speakers', async () => {
+    await service.get('unknown');
+    const [speaker] = service.decks()!.flatMap(deck => deck.speakerIds);
+    const decks = service.filter([], [speaker!])!;
+
+    expect(decks.length).toBeGreaterThan(0);
+    expect(decks.every(deck => deck.speakerIds.includes(speaker!))).toBe(true);
+    expect(service.filter([], ['unknown'])).toEqual([]);
+  });
+
   it('returns all decks without tags', async () => {
     await service.get('unknown');
 

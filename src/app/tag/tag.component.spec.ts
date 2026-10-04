@@ -89,6 +89,7 @@ describe('TagComponent', () => {
 
       expect(navigate).toHaveBeenCalledWith(['/filters'], {
         queryParams: { tags: 'angular' },
+        queryParamsHandling: 'merge',
       });
     });
 
@@ -99,6 +100,7 @@ describe('TagComponent', () => {
 
       expect(navigate).toHaveBeenCalledWith(['/filters'], {
         queryParams: { tags: 'php,angular' },
+        queryParamsHandling: 'merge',
       });
     });
 
@@ -109,6 +111,7 @@ describe('TagComponent', () => {
 
       expect(navigate).toHaveBeenCalledWith(['/filters'], {
         queryParams: { tags: 'angular' },
+        queryParamsHandling: 'merge',
       });
     });
 
@@ -119,6 +122,7 @@ describe('TagComponent', () => {
 
       expect(navigate).toHaveBeenCalledWith(['/filters'], {
         queryParams: { tags: 'php' },
+        queryParamsHandling: 'merge',
       });
     });
 
@@ -128,6 +132,17 @@ describe('TagComponent', () => {
       component.changeSelected(change(false), tag);
 
       expect(navigate).toHaveBeenLastCalledWith(['/']);
+    });
+
+    it('keeps the speakers filter when the last tag is deselected', async () => {
+      await showing('/filters?tags=angular&speakers=foo');
+
+      component.changeSelected(change(false), tag);
+
+      expect(navigate).toHaveBeenLastCalledWith(['/filters'], {
+        queryParams: { tags: null },
+        queryParamsHandling: 'merge',
+      });
     });
   });
 });

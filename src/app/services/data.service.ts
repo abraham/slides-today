@@ -32,6 +32,10 @@ export class DataService {
     this.listParam(this.filterParams()['tags']),
   );
 
+  readonly selectedSpeakerIds = computed(() =>
+    this.listParam(this.filterParams()['speakers']),
+  );
+
   filterTags(ids: string[]): Tag[] {
     if (ids.length === 0) {
       return this.tags;
