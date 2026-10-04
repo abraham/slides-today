@@ -1,4 +1,8 @@
 {
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
   "hosting": {
     "public": "dist/slides-today/browser",
     "ignore": [
@@ -64,6 +68,9 @@
     ]
   },
   "emulators": {
+    "firestore": {
+      "port": 8080
+    },
     "hosting": {
       "port": 5000
     }
