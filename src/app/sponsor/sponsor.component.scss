@@ -5,3 +5,8 @@
 [mat-list-item] {
   cursor: pointer;
 }
+
+// Material gives list avatars a dark fill that shows through transparent logos.
+[matListItemAvatar] {
+  background-color: var(--mat-card-elevated-container-color, #fff);
+}
