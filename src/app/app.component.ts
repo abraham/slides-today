@@ -67,13 +67,10 @@ export class AppComponent {
   }
 
   skipToMain(event: Event): void {
-    // The link needs a real href, but following it would navigate to the base url.
+    // Following the href would navigate to the base url.
     event.preventDefault();
-    const main = this.document.querySelector('main');
-    if (main) {
-      main.tabIndex = -1;
-      main.focus();
-    }
+    const main = this.document.getElementById('main');
+    main?.focus();
   }
 
   // Pages set their title while rendering, and filter-only navigations keep the same title.

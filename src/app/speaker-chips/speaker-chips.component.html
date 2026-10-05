@@ -7,7 +7,7 @@
       [attr.data-id]="speaker.id"
       [value]="speaker.id"
       (selectionChange)="changeSelected($event, speaker.id)">
-      <img matChipAvatar [src]="speaker.imageUrl" alt="" />
+      <img matChipAvatar [src]="speaker.imageUrl" alt="" role="presentation" />
       {{ speaker.name }}
     </mat-chip-option>
   }

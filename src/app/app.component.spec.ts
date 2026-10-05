@@ -104,6 +104,8 @@ describe('AppComponent', () => {
 
   it('skips to the main content without navigating', () => {
     const main = document.createElement('main');
+    main.id = 'main';
+    main.tabIndex = -1;
     document.body.append(main);
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
