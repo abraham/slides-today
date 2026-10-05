@@ -84,6 +84,9 @@ describe('CardComponent', () => {
       );
       expect(primaryAction()?.target).toBe('_blank');
       expect(primaryAction()?.rel).toBe('noopener');
+      expect(
+        primaryAction()?.querySelector('.visually-hidden')?.textContent,
+      ).toBe('(opens in new tab)');
     });
 
     it('navigates within the app for an internal url', () => {
@@ -92,6 +95,7 @@ describe('CardComponent', () => {
 
       expect(primaryAction()?.getAttribute('href')).toBe('/decks/abc');
       expect(primaryAction()?.target).toBe('');
+      expect(primaryAction()?.querySelector('.visually-hidden')).toBeNull();
     });
   });
 
@@ -110,6 +114,11 @@ describe('CardComponent', () => {
       'https://example.com/video',
     ]);
     links.forEach(link => expect(link.target).toBe('_blank'));
+    links.forEach(link =>
+      expect(link.querySelector('.visually-hidden')?.textContent).toBe(
+        '(opens in new tab)',
+      ),
+    );
   });
 
   it('navigates within the app for an internal action', () => {
@@ -122,6 +131,7 @@ describe('CardComponent', () => {
       fixture.nativeElement.querySelector('mat-card-actions a');
     expect(link.getAttribute('href')).toBe('/filters?events=abc');
     expect(link.target).toBe('');
+    expect(link.querySelector('.visually-hidden')).toBeNull();
   });
 
   it('shows no actions section without actions', () => {

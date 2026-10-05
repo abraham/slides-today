@@ -29,6 +29,7 @@
       rel="noopener"
       matRipple>
       <ng-container *ngTemplateOutlet="content" />
+      <span class="visually-hidden">(opens in new tab)</span>
     </a>
   }
 
@@ -54,6 +55,7 @@
         } @else {
           <a mat-button [href]="item.action.url" target="_blank" rel="noopener">
             {{ item.action.title }}
+            <span class="visually-hidden">(opens in new tab)</span>
           </a>
         }
       }
