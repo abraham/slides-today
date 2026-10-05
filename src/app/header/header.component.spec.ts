@@ -67,8 +67,7 @@ describe('HeaderComponent', () => {
   });
 
   it('shows the back link only when requested', () => {
-    const back = () =>
-      fixture.nativeElement.querySelector('a[title="Go back"]');
+    const back = () => fixture.nativeElement.querySelector('a[href="/"]');
     expect(back()).toBeNull();
 
     fixture.componentRef.setInput('showBack', true);

@@ -3,8 +3,6 @@
   mat-fab
   extended
   class="app-fab--absolute"
-  aria-label="Share"
-  title="Share"
   (click)="startShare()"
   [matMenuTriggerFor]="canShareNatively() ? null : shareMenu"
   (menuClosed)="exited.set(false)"
