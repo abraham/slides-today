@@ -10,6 +10,8 @@ import Data from '../decks.data.json';
 import { Deck } from '../models/deck';
 import { createDeck } from '../testing';
 import { deckResolver } from './deck.resolver';
+import { SpeakerService } from './speaker.service';
+import { SponsorService } from './sponsor.service';
 import { ThemeService } from './theme.service';
 
 describe('deckResolver', () => {
@@ -41,6 +43,18 @@ describe('deckResolver', () => {
     const { redirectTo, navigationBehaviorOptions } = result as RedirectCommand;
     expect(redirectTo.toString()).toBe(`/decks/${raw.id}`);
     expect(navigationBehaviorOptions?.replaceUrl).toBe(true);
+  });
+
+  it('has the speakers and sponsors loaded once it resolves', async () => {
+    const raw = Data.find(deck => !deck.archived)!;
+
+    await resolve(raw.id);
+
+    const [speakerId] = raw.speakerIds;
+    expect(TestBed.inject(SpeakerService).get(speakerId)).toBeDefined();
+    expect(TestBed.inject(SponsorService).select(raw.sponsorIds).length).toBe(
+      raw.sponsorIds.length,
+    );
   });
 
   it('applies the deck theme', async () => {

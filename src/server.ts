@@ -5,7 +5,7 @@ import {
   writeResponseToNodeResponse,
 } from '@angular/ssr/node';
 import express from 'express';
-import { join } from 'node:path';
+import { basename, join } from 'node:path';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
 
@@ -24,14 +24,38 @@ const angularApp = new AngularNodeAppEngine();
  * ```
  */
 
+// The same headers the Firebase Hosting config applied before this server.
+app.use((req, res, next) => {
+  res.set({
+    'X-Content-Type-Options': 'nosniff',
+    'X-Frame-Options': 'DENY',
+    'X-XSS-Protection': '1; mode=block',
+    'Referrer-Policy': 'same-origin',
+  });
+  next();
+});
+
+// The service worker files must always be revalidated, and the hashed bundles never change.
+const REVALIDATED_FILES = new Set(['ngsw-worker.js', 'ngsw.json', 'sw.js']);
+
 /**
  * Serve static files from /browser
  */
 app.use(
   express.static(browserDistFolder, {
-    maxAge: '1y',
+    maxAge: '1h',
     index: false,
     redirect: false,
+    setHeaders: (res, path) => {
+      const name = basename(path);
+      if (REVALIDATED_FILES.has(name)) {
+        res.setHeader('Cache-Control', 'no-cache');
+      } else if (/\.(js|css)$/.test(name)) {
+        res.setHeader('Cache-Control', 'public, max-age=31536000');
+      } else if (/\.(jpe?g|gif|png)$/.test(name)) {
+        res.setHeader('Cache-Control', 'public, max-age=86400');
+      }
+    },
   }),
 );
 

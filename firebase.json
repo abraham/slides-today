@@ -1,4 +1,21 @@
 {
+  "apphosting": {
+    "backendId": "slides-today",
+    "rootDir": "./",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "dist",
+      ".angular",
+      ".agents",
+      ".github",
+      "features",
+      "scripts"
+    ],
+    "alwaysDeployFromSource": true
+  },
   "hosting": {
     "public": "dist/slides-today/browser",
     "ignore": [
@@ -66,6 +83,11 @@
   "emulators": {
     "hosting": {
       "port": 5000
+    },
+    "apphosting": {
+      "port": 5000,
+      "rootDirectory": "./",
+      "startCommand": "ng serve --hmr"
     }
   }
 }
