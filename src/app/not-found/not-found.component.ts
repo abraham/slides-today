@@ -1,4 +1,4 @@
-import { Component, inject, input } from '@angular/core';
+import { Component, RESPONSE_INIT, inject, input } from '@angular/core';
 import { SeoService } from '../seo.service';
 import { ThemeService } from '../services/theme.service';
 
@@ -13,6 +13,12 @@ export class NotFoundComponent {
   constructor() {
     const themeService = inject(ThemeService);
     const seoService = inject(SeoService);
+
+    // Only set while server rendering.
+    const response = inject(RESPONSE_INIT, { optional: true });
+    if (response) {
+      response.status = 404;
+    }
 
     themeService.reset();
     seoService.update(

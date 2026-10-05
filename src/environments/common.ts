@@ -1,4 +1,6 @@
 export const common = {
+  // Absolute origin for social image URLs, which prerendered pages cannot take from a request.
+  siteUrl: 'https://slides.today',
   firebase: {
     apiKey: 'AIzaSyDmubo3l0l_9bnu1yWgNjQruHjMcqyqGz8',
     appId: '1:960180594124:web:116797b54e67b292a26969',

@@ -9,6 +9,7 @@ import {
   IncludeSiteTitle,
   SeoService,
 } from './seo.service';
+import { environment } from '../environments/environment';
 
 describe('SeoService', () => {
   let service: SeoService;
@@ -70,7 +71,7 @@ describe('SeoService', () => {
   it('uses the default image as an absolute url', () => {
     service.update('Deck', 'About the deck');
 
-    const image = new URL(DEFAULT_IMAGE, document.baseURI).href;
+    const image = new URL(DEFAULT_IMAGE, environment.siteUrl).href;
     expect(meta('property', 'og:image')).toBe(image);
     expect(meta('name', 'twitter:image')).toBe(image);
   });
@@ -83,7 +84,8 @@ describe('SeoService', () => {
       '/assets/img/speakers/a.jpg',
     );
 
-    const image = new URL('/assets/img/speakers/a.jpg', document.baseURI).href;
+    const image = new URL('/assets/img/speakers/a.jpg', environment.siteUrl)
+      .href;
     expect(meta('property', 'og:image')).toBe(image);
     expect(meta('name', 'twitter:image')).toBe(image);
   });
@@ -118,7 +120,7 @@ describe('SeoService', () => {
     expect(TestBed.inject(Title).getTitle()).toBe(DEFAULT_TITLE);
     expect(meta('property', 'og:description')).toBe(DEFAULT_DESCRIPTION);
     expect(meta('property', 'og:image')).toBe(
-      new URL(DEFAULT_IMAGE, document.baseURI).href,
+      new URL(DEFAULT_IMAGE, environment.siteUrl).href,
     );
   });
 });
