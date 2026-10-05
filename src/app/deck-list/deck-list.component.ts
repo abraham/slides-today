@@ -1,5 +1,13 @@
+import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, DestroyRef, computed, inject, signal } from '@angular/core';
+import {
+  Component,
+  DestroyRef,
+  afterRenderEffect,
+  computed,
+  inject,
+  signal,
+} from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SeoService } from '../seo.service';
 import { DataService } from '../services/data.service';
@@ -40,6 +48,7 @@ export class DeckListComponent {
   private readonly bottomSheet = inject(MatBottomSheet);
   private readonly breakpointObserver = inject(BreakpointObserver);
   private readonly seoService = inject(SeoService);
+  private readonly liveAnnouncer = inject(LiveAnnouncer);
 
   readonly selectedTagIds = this.dataService.selectedTagIds;
   readonly selectedSpeakerIds = this.dataService.selectedSpeakerIds;
@@ -59,14 +68,18 @@ export class DeckListComponent {
       ...this.selectedEventIds().map(id => this.eventService.title(id) ?? id),
     ]),
   );
-  readonly decks = computed(() => {
-    const decks = this.deckService.filter(
+  private readonly filteredDecks = computed(() =>
+    this.deckService.filter(
       this.selectedTagIds(),
       this.selectedSpeakerIds(),
       this.selectedEventIds(),
-    );
-    return this.hasSelectedFilters() ? decks : decks?.slice(0, 100);
-  });
+    ),
+  );
+  readonly decks = computed(() =>
+    this.hasSelectedFilters()
+      ? this.filteredDecks()
+      : this.filteredDecks()?.slice(0, 100),
+  );
   readonly mobile = signal(false);
 
   constructor() {
@@ -77,6 +90,19 @@ export class DeckListComponent {
       .observe([Breakpoints.XSmall])
       .subscribe(({ matches }) => this.mobile.set(matches));
     inject(DestroyRef).onDestroy(() => breakpoints.unsubscribe());
+
+    let previousCount: number | undefined;
+    afterRenderEffect(() => {
+      const count = this.filteredDecks()?.length;
+      if (count !== undefined && previousCount !== undefined) {
+        if (count !== previousCount) {
+          void this.liveAnnouncer.announce(
+            `${count} ${count === 1 ? 'deck' : 'decks'} found`,
+          );
+        }
+      }
+      previousCount = count;
+    });
   }
 
   openFiltersSheet(): void {

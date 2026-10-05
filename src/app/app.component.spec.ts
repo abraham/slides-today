@@ -1,3 +1,4 @@
+import { LiveAnnouncer } from '@angular/cdk/a11y';
 import {
   Component,
   EnvironmentInjector,
@@ -70,6 +71,35 @@ describe('AppComponent', () => {
 
     expect(fixture.componentInstance.showBack()).toBe(false);
     expect(fixture.componentInstance.title()).toBe('Slides.today');
+  });
+
+  it('announces the page title after navigating to a page with a new title', async () => {
+    const announce = vi
+      .spyOn(TestBed.inject(LiveAnnouncer), 'announce')
+      .mockResolvedValue();
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+
+    document.title = 'New page';
+    await TestBed.inject(Router).navigateByUrl('/details');
+    fixture.detectChanges();
+    await fixture.whenStable();
+
+    expect(announce).toHaveBeenCalledExactlyOnceWith('New page');
+  });
+
+  it('does not announce when the title is unchanged', async () => {
+    const announce = vi
+      .spyOn(TestBed.inject(LiveAnnouncer), 'announce')
+      .mockResolvedValue();
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+
+    await TestBed.inject(Router).navigateByUrl('/details');
+    fixture.detectChanges();
+    await fixture.whenStable();
+
+    expect(announce).not.toHaveBeenCalled();
   });
 
   it('removes the noscript fallback', () => {
