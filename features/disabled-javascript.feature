@@ -15,6 +15,7 @@ Feature: Site works without JavaScript
     When I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
     Then I should see "How Do Service Workers Even?"
     And I should see "A Tale of Four Caches"
+    And I should see "This year @mobileeraconf has the best #PWA section ever!" included
     And I should not see "JavaScript is required to view Slides.today."
     When JavaScript is "enabled"
     And I visit "/decks/ORUVX3hKydJ8AjPaaWz2"

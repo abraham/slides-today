@@ -13,3 +13,21 @@ ngx-skeleton-loader {
   display: block;
   overflow: hidden;
 }
+
+twitter-status:not(:defined) {
+  display: block;
+}
+
+.fallback {
+  background: #fff;
+  margin: 0;
+  padding: 16px 24px;
+
+  p {
+    margin-top: 0;
+  }
+
+  a {
+    color: #1c94e0;
+  }
+}

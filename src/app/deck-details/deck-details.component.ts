@@ -72,8 +72,10 @@ export class DeckDetailsComponent {
       this.tweetService.getAll(params, abortSignal),
   });
   // value() throws while the resource is in an error state.
-  readonly tweets = computed(() =>
-    this.tweetsResource.hasValue() ? this.tweetsResource.value() : [],
+  readonly tweets = computed(
+    () =>
+      this.tweetService.embedded(this.deck().tweetIds) ??
+      (this.tweetsResource.hasValue() ? this.tweetsResource.value() : []),
   );
   private readonly detailsWidth = signal(200);
   readonly embedWidth = computed(() => {

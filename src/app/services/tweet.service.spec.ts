@@ -67,6 +67,31 @@ describe('TweetService', () => {
     expect(fetchMock).not.toHaveBeenCalled();
   });
 
+  describe('embedded', () => {
+    const key = (id: string) => makeStateKey<Status | null>(`status:${id}`);
+
+    it('returns the statuses embedded in the page, in order', () => {
+      const state = TestBed.inject(TransferState);
+      state.set(key('1'), { id_str: '1' } as Status);
+      state.set(key('2'), { id_str: '2' } as Status);
+
+      expect(service.embedded(['2', '1'])?.map(s => s.id_str)).toEqual([
+        '2',
+        '1',
+      ]);
+    });
+
+    it('is undefined unless every status is embedded', () => {
+      TestBed.inject(TransferState).set(key('1'), { id_str: '1' } as Status);
+
+      expect(service.embedded(['1', '2'])).toBeUndefined();
+    });
+
+    it('is empty for a deck without tweets', () => {
+      expect(service.embedded([])).toEqual([]);
+    });
+  });
+
   describe('while server rendering', () => {
     const loadStatus = vi.fn(async (id: string) => ({ id_str: id }) as Status);
 

@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, TransferState, input, makeStateKey } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { Title } from '@angular/platform-browser';
@@ -303,6 +303,23 @@ describe('DeckDetailsComponent', () => {
       expect(fetchMock.mock.calls.map(([url]) => url)).toEqual(
         deck.tweetIds.map(id => `/assets/statuses/${id}.json`),
       );
+      expect(statusCount()).toBe(2);
+    });
+
+    it('renders statuses embedded in the page on the first pass', () => {
+      const fetchMock = vi.fn();
+      vi.stubGlobal('fetch', fetchMock);
+      const deck = deckWithTweets();
+      const state = TestBed.inject(TransferState);
+      deck.tweetIds.forEach(id =>
+        state.set(makeStateKey<Status>(`status:${id}`), {
+          id_str: id,
+        } as Status),
+      );
+
+      fixture.componentRef.setInput('deck', deck);
+      fixture.detectChanges();
+
       expect(statusCount()).toBe(2);
     });
 
