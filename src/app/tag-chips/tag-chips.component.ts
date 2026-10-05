@@ -1,6 +1,7 @@
 import { Component, computed, inject, input } from '@angular/core';
 import { DataService } from '../services/data.service';
-import { MatChipListbox, MatChipOption } from '@angular/material/chips';
+import { MatIconButton } from '@angular/material/button';
+import { MatChipListbox } from '@angular/material/chips';
 import { MatIcon } from '@angular/material/icon';
 import { TagComponent } from '../tag/tag.component';
 
@@ -8,7 +9,7 @@ import { TagComponent } from '../tag/tag.component';
   selector: 'app-tag-chips',
   styleUrl: './tag-chips.component.scss',
   templateUrl: './tag-chips.component.html',
-  imports: [MatChipListbox, MatChipOption, MatIcon, TagComponent],
+  imports: [MatChipListbox, MatIcon, MatIconButton, TagComponent],
 })
 export class TagChipsComponent {
   private readonly dataService = inject(DataService);

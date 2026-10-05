@@ -51,9 +51,9 @@ describe('TagChipsComponent', () => {
     });
   });
 
-  describe('clear chip', () => {
+  describe('clear button', () => {
     const clearChip = (): HTMLElement | null =>
-      fixture.nativeElement.querySelector('.clear-chip');
+      fixture.nativeElement.querySelector('.clear-button');
 
     it('is hidden when no tag is selected', () => {
       expect(clearChip()).toBeNull();
@@ -65,6 +65,17 @@ describe('TagChipsComponent', () => {
       fixture.detectChanges();
 
       expect(clearChip()).toBeNull();
+    });
+
+    it('is a labelled button outside the listbox', async () => {
+      await TestBed.inject(Router).navigateByUrl('/filters?tags=php');
+      fixture.detectChanges();
+
+      expect(clearChip()!.tagName).toBe('BUTTON');
+      expect(clearChip()!.getAttribute('aria-label')).toBe(
+        'Clear tag selection',
+      );
+      expect(clearChip()!.closest('mat-chip-listbox')).toBeNull();
     });
 
     it('clears the selected tags when clicked', async () => {

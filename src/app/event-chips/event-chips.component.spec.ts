@@ -13,15 +13,13 @@ describe('EventChipsComponent', () => {
   let navigate: ReturnType<typeof vi.spyOn>;
   const [first, second] = events;
   const chips = (): HTMLElement[] =>
-    Array.from(
-      fixture.nativeElement.querySelectorAll('mat-chip:not(.clear-chip)'),
-    );
+    Array.from(fixture.nativeElement.querySelectorAll('mat-chip'));
   const titles = (): (string | undefined)[] =>
     chips().map(chip =>
       chip.querySelector('.event-title')?.textContent?.trim(),
     );
   const clearChip = (): HTMLElement | null =>
-    fixture.nativeElement.querySelector('.clear-chip');
+    fixture.nativeElement.querySelector('.clear-button');
   const select = async (url: string): Promise<void> => {
     await TestBed.inject(Router).navigateByUrl(url);
     fixture.detectChanges();
@@ -67,9 +65,9 @@ describe('EventChipsComponent', () => {
   it('clears the selected events when the clear button is clicked', async () => {
     await select(`/filters?events=${first!.id}`);
 
-    expect(
-      clearChip()!.querySelector('button')!.getAttribute('aria-label'),
-    ).toBe('Clear event selection');
+    expect(clearChip()!.getAttribute('aria-label')).toBe(
+      'Clear event selection',
+    );
     clearChip()!.click();
 
     expect(navigate).toHaveBeenLastCalledWith(['/']);

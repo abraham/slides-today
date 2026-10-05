@@ -11,13 +11,13 @@
       {{ speaker.name }}
     </mat-chip-option>
   }
-  @if (selectedSpeakerIds().length !== 0) {
-    <mat-chip-option
-      class="clear-chip"
-      [selectable]="false"
-      aria-label="Clear speaker selection"
-      (click)="clear()">
-      <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
-    </mat-chip-option>
-  }
 </mat-chip-listbox>
+@if (selectedSpeakerIds().length !== 0) {
+  <button
+    class="clear-button"
+    mat-icon-button
+    aria-label="Clear speaker selection"
+    (click)="clear()">
+    <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
+  </button>
+}
