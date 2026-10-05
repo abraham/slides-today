@@ -87,8 +87,8 @@
         "id": 1129037789620785200,
         "id_str": "1129037789620785152",
         "indices": [279, 302],
-        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
-        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
+        "media_url": "/assets/pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
+        "media_url_https": "/assets/pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
         "url": "https://t.co/b1f4YGPmo1",
         "display_url": "pic.twitter.com/b1f4YGPmo1",
         "expanded_url": "https://twitter.com/RefactrTech/status/1129037796814069761/photo/1",
@@ -124,8 +124,8 @@
         "id": 1129037789620785200,
         "id_str": "1129037789620785152",
         "indices": [279, 302],
-        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
-        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
+        "media_url": "/assets/pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
+        "media_url_https": "/assets/pbs.twimg.com/tweet_video_thumb/D6sl40RW0AA8HtW.jpg",
         "url": "https://t.co/b1f4YGPmo1",
         "display_url": "pic.twitter.com/b1f4YGPmo1",
         "expanded_url": "https://twitter.com/RefactrTech/status/1129037796814069761/photo/1",
@@ -158,7 +158,7 @@
             {
               "bitrate": 0,
               "content_type": "video/mp4",
-              "url": "https://video.twimg.com/tweet_video/D6sl40RW0AA8HtW.mp4"
+              "url": "/assets/video.twimg.com/tweet_video/D6sl40RW0AA8HtW.mp4"
             }
           ]
         }
@@ -213,8 +213,8 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1089618098179792898/D4L1x64d_normal.jpg",
+    "profile_image_url": "/assets/pbs.twimg.com/profile_images/1932588808844763136/l4HHMoWu_400x400.png",
+    "profile_image_url_https": "/assets/pbs.twimg.com/profile_images/1932588808844763136/l4HHMoWu_400x400.png",
     "profile_banner_url": "https://pbs.twimg.com/profile_banners/824430116281450496/1583670870",
     "profile_link_color": "CF057C",
     "profile_sidebar_border_color": "000000",
