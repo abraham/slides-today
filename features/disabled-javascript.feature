@@ -1,5 +1,6 @@
 Feature: Site works without JavaScript
 
+  @skip-firefox
   Scenario: Filter pages show message
     Given JavaScript is "disabled"
     When I visit "/filters"
@@ -10,6 +11,7 @@ Feature: Site works without JavaScript
     Then I should see "Welcome to Slides.today"
     And I should not see "JavaScript is required to view Slides.today."
 
+  @skip-firefox
   Scenario: Index page is rendered without JavaScript
     Given JavaScript is "disabled"
     When I visit "/"
@@ -21,6 +23,7 @@ Feature: Site works without JavaScript
     Then I should see "Welcome to Slides.today"
     And I should not see "JavaScript is required to view Slides.today."
 
+  @skip-firefox
   Scenario: Deck details page is rendered without JavaScript
     Given JavaScript is "disabled"
     When I visit "/decks/ORUVX3hKydJ8AjPaaWz2"

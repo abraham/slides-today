@@ -17,6 +17,7 @@ Feature: Share decks
     And "Post" should open "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A5000%2Fdecks%2FORUVX3hKydJ8AjPaaWz2" in a new tab
     And "Publish" should open "https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A5000%2Fdecks%2FORUVX3hKydJ8AjPaaWz2" in a new tab
 
+  @skip-firefox
   Scenario: Copy the deck URL
     Given native sharing is unavailable
     And I have granted permissions

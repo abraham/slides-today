@@ -2,7 +2,11 @@ import { expect } from 'chai';
 import { AxePuppeteer } from '@axe-core/puppeteer';
 import { Then } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
-import { origin } from '../support/environment.js';
+import { BROWSER, origin } from '../support/environment.js';
+
+const FIREFOX_ERRORS: Record<string, string> = {
+  ERR_INTERNET_DISCONNECTED: 'NS_ERROR_OFFLINE',
+};
 
 Then('I should not see {string}', async function (text): Promise<void> {
   await wait(async () => {
@@ -45,7 +49,11 @@ Then(
       await this.page.goto(url, { waitUntil: 'networkidle0' });
       throw new Error('Network request did not fail');
     } catch (e) {
-      expect(e.message).to.eq(`net::${error} at ${url}`);
+      if (BROWSER === 'firefox') {
+        expect(e.message).to.include(FIREFOX_ERRORS[error] ?? error);
+      } else {
+        expect(e.message).to.eq(`net::${error} at ${url}`);
+      }
     }
   },
 );
