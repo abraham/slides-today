@@ -68,3 +68,20 @@ mat-toolbar {
     transform: translate3d(4px, 0, 0);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  mat-toolbar {
+    transition: none !important;
+  }
+
+  .spin,
+  .wiggle {
+    animation: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .scrolled {
+    border-bottom: 1px solid CanvasText;
+  }
+}

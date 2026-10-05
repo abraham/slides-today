@@ -8,6 +8,12 @@
   transition: background-color 1000ms !important;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .wrapper {
+    transition: none !important;
+  }
+}
+
 @media (width >= 960px) {
   .container {
     margin: 0 auto;
