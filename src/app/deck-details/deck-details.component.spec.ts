@@ -15,6 +15,7 @@ import { NodePackageComponent } from '../web-components/node-package.component';
 import { TwitterStatusComponent } from '../web-components/twitter-status.component';
 
 import { DeckDetailsComponent } from './deck-details.component';
+import { environment } from '../../environments/environment';
 
 // The real elements fetch data and need full API payloads, so the page is tested with stubs.
 @Component({ selector: 'app-github-repository', template: '' })
@@ -155,7 +156,7 @@ describe('DeckDetailsComponent', () => {
         .querySelector('meta[property="og:image"]')
         ?.getAttribute('content');
       const speaker = speakers.find(({ id }) => id === deck.speakerIds[0])!;
-      expect(image).toBe(new URL(speaker.imageUrl, document.baseURI).href);
+      expect(image).toBe(new URL(speaker.imageUrl, environment.siteUrl).href);
     });
 
     it('uses the default social image for a deck without speakers', () => {
@@ -164,7 +165,7 @@ describe('DeckDetailsComponent', () => {
       const image = document.head
         .querySelector('meta[property="og:image"]')
         ?.getAttribute('content');
-      expect(image).toBe(new URL(DEFAULT_IMAGE, document.baseURI).href);
+      expect(image).toBe(new URL(DEFAULT_IMAGE, environment.siteUrl).href);
     });
 
     it('shows a card for each event between the speakers and the map', () => {

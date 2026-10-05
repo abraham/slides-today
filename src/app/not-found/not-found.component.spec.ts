@@ -1,3 +1,4 @@
+import { RESPONSE_INIT } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Title } from '@angular/platform-browser';
 import { ThemeService } from '../services/theme.service';
@@ -52,5 +53,17 @@ describe('NotFoundComponent', () => {
 
   it('resets the theme of the previous page', () => {
     expect(TestBed.inject(ThemeService).current()).toEqual(DEFAULT_THEME);
+  });
+
+  it('sets the response status to 404 while server rendering', () => {
+    const response = { status: 200 };
+    TestBed.resetTestingModule();
+    TestBed.configureTestingModule({
+      providers: [{ provide: RESPONSE_INIT, useValue: response }],
+    });
+
+    TestBed.createComponent(NotFoundComponent);
+
+    expect(response.status).toBe(404);
   });
 });

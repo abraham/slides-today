@@ -1,6 +1,6 @@
-import { DOCUMENT } from '@angular/common';
 import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { environment } from '../environments/environment';
 
 export enum IncludeSiteTitle {
   yes,
@@ -19,7 +19,6 @@ export const DEFAULT_IMAGE = '/assets/icons/icon-512x512.png';
 export class SeoService {
   private readonly titleService = inject(Title);
   private readonly metaService = inject(Meta);
-  private readonly document = inject(DOCUMENT);
 
   public reset() {
     this.update(DEFAULT_TITLE, DEFAULT_DESCRIPTION, IncludeSiteTitle.no);
@@ -49,8 +48,8 @@ export class SeoService {
       content: description,
     });
 
-    // Social crawlers need an absolute image URL. The server DOM has no baseURI, so this uses the document URL.
-    const imageUrl = new URL(image, this.document.URL).href;
+    // Social crawlers need an absolute image URL.
+    const imageUrl = new URL(image, environment.siteUrl).href;
     this.metaService.updateTag({ name: 'twitter:image', content: imageUrl });
     this.metaService.updateTag({ property: 'og:image', content: imageUrl });
     this.metaService.updateTag({ name: 'twitter:image:alt', content: title });

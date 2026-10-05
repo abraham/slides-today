@@ -1,6 +1,8 @@
+import { PLATFORM_ID, TransferState, makeStateKey } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
+import type { Status } from 'twitter-d';
 
-import { TweetService } from './tweet.service';
+import { LOAD_STATUS, TweetService } from './tweet.service';
 
 describe('TweetService', () => {
   let service: TweetService;
@@ -52,5 +54,54 @@ describe('TweetService', () => {
     fetchMock.mockResolvedValueOnce({ ok: false, status: 404 });
 
     await expect(service.getAll(['1', '2'])).rejects.toThrow();
+  });
+
+  it('uses a status embedded in the page without a request', async () => {
+    const embedded = { id_str: 'embedded' } as Status;
+    TestBed.inject(TransferState).set(
+      makeStateKey<Status | null>('status:1'),
+      embedded,
+    );
+
+    expect(await service.get('1')).toBe(embedded);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  describe('while server rendering', () => {
+    const loadStatus = vi.fn(async (id: string) => ({ id_str: id }) as Status);
+
+    beforeEach(() => {
+      TestBed.resetTestingModule();
+      TestBed.configureTestingModule({
+        providers: [
+          { provide: PLATFORM_ID, useValue: 'server' },
+          { provide: LOAD_STATUS, useValue: loadStatus },
+        ],
+      });
+      service = TestBed.inject(TweetService);
+    });
+
+    it('embeds the loaded statuses in the page', async () => {
+      await service.getAll(['1', '2']);
+
+      const state = TestBed.inject(TransferState);
+      expect(state.get(makeStateKey<Status | null>('status:1'), null)).toEqual({
+        id_str: '1',
+      });
+      expect(state.get(makeStateKey<Status | null>('status:2'), null)).toEqual({
+        id_str: '2',
+      });
+    });
+  });
+
+  it('does not embed statuses in the browser', async () => {
+    await service.get('1');
+
+    expect(
+      TestBed.inject(TransferState).get(
+        makeStateKey<Status | null>('status:1'),
+        null,
+      ),
+    ).toBeNull();
   });
 });
