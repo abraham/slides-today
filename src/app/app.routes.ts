@@ -1,5 +1,6 @@
 import { inject } from '@angular/core';
 import { Router, Routes, UrlMatchResult, UrlSegment } from '@angular/router';
+import { deckListResolver } from './services/deck-list.resolver';
 import { deckResolver } from './services/deck.resolver';
 
 const isHome = (url: UrlSegment[]): UrlMatchResult => {
@@ -17,6 +18,7 @@ const loadDeckDetails = () =>
 export const routes: Routes = [
   {
     matcher: isHome,
+    resolve: { data: deckListResolver },
     loadComponent: () =>
       import('./deck-list/deck-list.component').then(m => m.DeckListComponent),
   },

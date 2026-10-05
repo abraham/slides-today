@@ -10,6 +10,10 @@ import {
   withDebugTracing,
   withInMemoryScrolling,
 } from '@angular/router';
+import {
+  provideClientHydration,
+  withEventReplay,
+} from '@angular/platform-browser';
 import { provideServiceWorker } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { routes } from './app.routes';
@@ -18,6 +22,7 @@ import { AnalyticsService } from './services/analytics.service';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
+    provideClientHydration(withEventReplay()),
     provideRouter(
       routes,
       withComponentInputBinding(),

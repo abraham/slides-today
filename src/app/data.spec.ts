@@ -44,6 +44,14 @@ describe('data', () => {
     });
 
     const speakerIds = new Set(speakers.map(speaker => speaker.id));
+    it('have unique tweet ids', () => {
+      const repeated = decks.flatMap(deck =>
+        duplicates(deck.tweetIds ?? []).map(id => `${deck.id}: ${id}`),
+      );
+
+      expect(repeated).toEqual([]);
+    });
+
     const sponsorIds = new Set(sponsors.map(sponsor => sponsor.id));
     const tagIds = new Set(tags.map(tag => tag.id));
     const links = [
