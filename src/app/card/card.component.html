@@ -4,15 +4,15 @@
   }
 
   <div class="primary">
-    <h2 class="hero">
+    <div class="hero" role="heading" [attr.aria-level]="heroLevel">
       <ng-content select="[hero]" />
-    </h2>
-    <h3 class="title">
+    </div>
+    <div class="title" role="heading" [attr.aria-level]="heroLevel + 1">
       <ng-content select="[title]" />
-    </h3>
-    <h4 class="subtitle">
+    </div>
+    <div class="subtitle" role="heading" [attr.aria-level]="heroLevel + 2">
       <ng-content select="[subtitle]" />
-    </h4>
+    </div>
   </div>
 
   <section class="secondary">
@@ -29,6 +29,7 @@
       rel="noopener"
       matRipple>
       <ng-container *ngTemplateOutlet="content" />
+      <span class="visually-hidden">(opens in new tab)</span>
     </a>
   }
 
@@ -54,6 +55,7 @@
         } @else {
           <a mat-button [href]="item.action.url" target="_blank" rel="noopener">
             {{ item.action.title }}
+            <span class="visually-hidden">(opens in new tab)</span>
           </a>
         }
       }

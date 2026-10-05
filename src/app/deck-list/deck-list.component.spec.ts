@@ -1,3 +1,4 @@
+import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { BreakpointObserver } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
@@ -59,6 +60,9 @@ describe('DeckListComponent', () => {
     });
 
     it('shows the filters instead of the filters button on desktop', () => {
+      expect(
+        element().querySelector('aside[aria-label="Filters"] app-tag-chips'),
+      ).not.toBeNull();
       expect(element().querySelector('app-tag-chips')).not.toBeNull();
       expect(element().querySelector('app-speaker-chips')).not.toBeNull();
       expect(element().querySelector('.action-buttons')).toBeNull();
@@ -77,6 +81,19 @@ describe('DeckListComponent', () => {
 
       expect(element().querySelector('app-about')).toBeNull();
       expect(summaries().length).toBe(deckService.filter([tag!])!.length);
+    });
+
+    it('announces the number of matching decks when the filters change', async () => {
+      const announce = vi
+        .spyOn(TestBed.inject(LiveAnnouncer), 'announce')
+        .mockResolvedValue();
+      expect(announce).not.toHaveBeenCalled();
+
+      await TestBed.inject(Router).navigateByUrl('/filters?tags=nothing');
+      fixture.detectChanges();
+      await fixture.whenStable();
+
+      expect(announce).toHaveBeenCalledWith('0 decks found');
     });
 
     it('explains when no deck has all of the selected tags', async () => {

@@ -19,6 +19,28 @@ const duplicates = (ids: string[]): string[] =>
 const problems = <T>(items: T[], valid: (item: T) => boolean): T[] =>
   items.filter(item => !valid(item));
 
+const luminance = (hex: string): number => {
+  const digits = hex.slice(1);
+  const full =
+    digits.length === 3
+      ? [...digits].map(char => char + char).join('')
+      : digits;
+  const [red, green, blue] = [0, 2, 4]
+    .map(index => parseInt(full.slice(index, index + 2), 16) / 255)
+    .map(channel =>
+      channel <= 0.03928 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4,
+    );
+  return 0.2126 * red! + 0.7152 * green! + 0.0722 * blue!;
+};
+
+// WCAG 2 contrast ratio.
+const contrast = (first: string, second: string): number => {
+  const [lighter, darker] = [luminance(first), luminance(second)].sort(
+    (a, b) => b - a,
+  );
+  return (lighter! + 0.05) / (darker! + 0.05);
+};
+
 describe('data', () => {
   describe('ids', () => {
     it.each([
@@ -195,6 +217,16 @@ describe('data', () => {
       }).map(({ id }) => id);
 
       expect(invalid).toEqual([]);
+    });
+  });
+
+  describe('tags', () => {
+    it('have colors with at least 4.5:1 contrast', () => {
+      const low = tags
+        .filter(tag => contrast(tag.primaryColor, tag.complementaryColor) < 4.5)
+        .map(tag => tag.id);
+
+      expect(low).toEqual([]);
     });
   });
 

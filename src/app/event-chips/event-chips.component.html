@@ -10,14 +10,12 @@
         </mat-chip>
       }
     </mat-chip-set>
-    <mat-chip-listbox>
-      <mat-chip-option
-        class="clear-chip"
-        [selectable]="false"
-        aria-label="Clear event selection"
-        (click)="clear()">
-        <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
-      </mat-chip-option>
-    </mat-chip-listbox>
+    <button
+      class="clear-button"
+      mat-icon-button
+      aria-label="Clear event selection"
+      (click)="clear()">
+      <mat-icon fontSet="material-symbols-outlined">cancel</mat-icon>
+    </button>
   </div>
 }

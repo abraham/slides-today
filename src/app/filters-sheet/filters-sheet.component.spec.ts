@@ -29,7 +29,7 @@ describe('FiltersSheetComponent', () => {
   it('has a heading, a chip for every tag and a chip for every speaker', () => {
     const element: HTMLElement = fixture.nativeElement;
 
-    expect(element.querySelector('h3')?.textContent).toBe('Filter decks');
+    expect(element.querySelector('h2')?.textContent).toBe('Filter decks');
     expect(
       element.querySelectorAll('app-tag-chips mat-chip-option').length,
     ).toBe(TestBed.inject(DataService).tags().length);

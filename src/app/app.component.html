@@ -1,4 +1,7 @@
 <div class="wrapper" [style]="styles()">
+  <a class="skip-link" href="#main" (click)="skipToMain($event)">
+    Skip to main content
+  </a>
   <app-header [title]="title()" [showBack]="showBack()" />
 
   <div class="container">

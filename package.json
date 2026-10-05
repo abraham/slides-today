@@ -73,6 +73,7 @@
     "@angular/cli": "22.2.1",
     "@angular/compiler-cli": "22.2.1",
     "@angular/language-service": "22.2.1",
+    "@axe-core/puppeteer": "^4.13.0",
     "@cucumber/cucumber": "^13.2.1",
     "@eslint/js": "^10.0.1",
     "@lhci/cli": "0.15.1",

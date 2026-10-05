@@ -1,11 +1,6 @@
 import { Component, computed, inject } from '@angular/core';
-import {
-  MatChip,
-  MatChipAvatar,
-  MatChipListbox,
-  MatChipOption,
-  MatChipSet,
-} from '@angular/material/chips';
+import { MatIconButton } from '@angular/material/button';
+import { MatChip, MatChipAvatar, MatChipSet } from '@angular/material/chips';
 import { MatIcon } from '@angular/material/icon';
 import { DataService } from '../services/data.service';
 import { EventService } from '../services/event.service';
@@ -14,14 +9,7 @@ import { EventService } from '../services/event.service';
   selector: 'app-event-chips',
   styleUrl: './event-chips.component.scss',
   templateUrl: './event-chips.component.html',
-  imports: [
-    MatChip,
-    MatChipAvatar,
-    MatChipListbox,
-    MatChipOption,
-    MatChipSet,
-    MatIcon,
-  ],
+  imports: [MatChip, MatChipAvatar, MatChipSet, MatIcon, MatIconButton],
 })
 export class EventChipsComponent {
   private readonly dataService = inject(DataService);

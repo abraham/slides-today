@@ -13,13 +13,9 @@ describe('SpeakerChipsComponent', () => {
   let navigate: ReturnType<typeof vi.spyOn>;
   const speakers = () => TestBed.inject(SpeakerService).speakers();
   const chips = (): HTMLElement[] =>
-    Array.from(
-      fixture.nativeElement.querySelectorAll(
-        'mat-chip-option:not(.clear-chip)',
-      ),
-    );
+    Array.from(fixture.nativeElement.querySelectorAll('mat-chip-option'));
   const clearChip = (): HTMLElement | null =>
-    fixture.nativeElement.querySelector('.clear-chip');
+    fixture.nativeElement.querySelector('.clear-button');
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -77,9 +73,20 @@ describe('SpeakerChipsComponent', () => {
     ).toBe(false);
   });
 
-  describe('clear chip', () => {
+  describe('clear button', () => {
     it('is hidden when no speaker is selected', () => {
       expect(clearChip()).toBeNull();
+    });
+
+    it('is a labelled button outside the listbox', async () => {
+      await TestBed.inject(Router).navigateByUrl('/filters?speakers=a');
+      fixture.detectChanges();
+
+      expect(clearChip()!.tagName).toBe('BUTTON');
+      expect(clearChip()!.getAttribute('aria-label')).toBe(
+        'Clear speaker selection',
+      );
+      expect(clearChip()!.closest('mat-chip-listbox')).toBeNull();
     });
 
     it('clears the selected speakers when clicked', async () => {

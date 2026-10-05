@@ -1,4 +1,5 @@
 import { Component, inject } from '@angular/core';
+import { MatIconButton } from '@angular/material/button';
 import {
   MatChipAvatar,
   MatChipListbox,
@@ -13,7 +14,13 @@ import { SpeakerService } from '../services/speaker.service';
   selector: 'app-speaker-chips',
   styleUrl: './speaker-chips.component.scss',
   templateUrl: './speaker-chips.component.html',
-  imports: [MatChipAvatar, MatChipListbox, MatChipOption, MatIcon],
+  imports: [
+    MatChipAvatar,
+    MatChipListbox,
+    MatChipOption,
+    MatIcon,
+    MatIconButton,
+  ],
 })
 export class SpeakerChipsComponent {
   private readonly dataService = inject(DataService);

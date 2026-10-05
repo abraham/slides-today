@@ -1,8 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, Type } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 
-import { CardComponent } from './card.component';
+import { CARD_HEADING_LEVEL, CardComponent } from './card.component';
+
+@Component({
+  imports: [CardComponent],
+  template: `<app-card>
+    <div hero>Hero</div>
+    <div title>Title</div>
+    <div subtitle>Subtitle</div>
+  </app-card>`,
+})
+class AllSlotsHostComponent {}
+
+@Component({
+  imports: [CardComponent],
+  providers: [{ provide: CARD_HEADING_LEVEL, useValue: 1 }],
+  template: `<app-card>
+    <div hero>Hero</div>
+    <div title>Title</div>
+    <div subtitle>Subtitle</div>
+  </app-card>`,
+})
+class TopLevelHostComponent {}
 
 @Component({
   imports: [CardComponent],
@@ -63,6 +84,9 @@ describe('CardComponent', () => {
       );
       expect(primaryAction()?.target).toBe('_blank');
       expect(primaryAction()?.rel).toBe('noopener');
+      expect(
+        primaryAction()?.querySelector('.visually-hidden')?.textContent,
+      ).toBe('(opens in new tab)');
     });
 
     it('navigates within the app for an internal url', () => {
@@ -71,6 +95,7 @@ describe('CardComponent', () => {
 
       expect(primaryAction()?.getAttribute('href')).toBe('/decks/abc');
       expect(primaryAction()?.target).toBe('');
+      expect(primaryAction()?.querySelector('.visually-hidden')).toBeNull();
     });
   });
 
@@ -89,6 +114,11 @@ describe('CardComponent', () => {
       'https://example.com/video',
     ]);
     links.forEach(link => expect(link.target).toBe('_blank'));
+    links.forEach(link =>
+      expect(link.querySelector('.visually-hidden')?.textContent).toBe(
+        '(opens in new tab)',
+      ),
+    );
   });
 
   it('navigates within the app for an internal action', () => {
@@ -101,6 +131,7 @@ describe('CardComponent', () => {
       fixture.nativeElement.querySelector('mat-card-actions a');
     expect(link.getAttribute('href')).toBe('/filters?events=abc');
     expect(link.target).toBe('');
+    expect(link.querySelector('.visually-hidden')).toBeNull();
   });
 
   it('shows no actions section without actions', () => {
@@ -124,5 +155,25 @@ describe('CardComponent', () => {
     expect(display('.title')).not.toBe('none');
     expect(display('.hero')).toBe('none');
     expect(display('.subtitle')).toBe('none');
+  });
+
+  describe('heading levels', () => {
+    const levels = (
+      component: Type<unknown> = AllSlotsHostComponent,
+    ): (string | null)[] => {
+      const host = TestBed.createComponent(component);
+      host.detectChanges();
+      return ['.hero', '.title', '.subtitle'].map(selector =>
+        host.nativeElement.querySelector(selector).getAttribute('aria-level'),
+      );
+    };
+
+    it('starts at level 2 by default', () => {
+      expect(levels()).toEqual(['2', '3', '4']);
+    });
+
+    it('starts at the provided level', () => {
+      expect(levels(TopLevelHostComponent)).toEqual(['1', '2', '3']);
+    });
   });
 });

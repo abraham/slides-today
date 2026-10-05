@@ -1,3 +1,4 @@
+import { LiveAnnouncer } from '@angular/cdk/a11y';
 import {
   Component,
   EnvironmentInjector,
@@ -70,6 +71,55 @@ describe('AppComponent', () => {
 
     expect(fixture.componentInstance.showBack()).toBe(false);
     expect(fixture.componentInstance.title()).toBe('Slides.today');
+  });
+
+  it('announces the page title after navigating to a page with a new title', async () => {
+    const announce = vi
+      .spyOn(TestBed.inject(LiveAnnouncer), 'announce')
+      .mockResolvedValue();
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+
+    document.title = 'New page';
+    await TestBed.inject(Router).navigateByUrl('/details');
+    fixture.detectChanges();
+    await fixture.whenStable();
+
+    expect(announce).toHaveBeenCalledExactlyOnceWith('New page');
+  });
+
+  it('does not announce when the title is unchanged', async () => {
+    const announce = vi
+      .spyOn(TestBed.inject(LiveAnnouncer), 'announce')
+      .mockResolvedValue();
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+
+    await TestBed.inject(Router).navigateByUrl('/details');
+    fixture.detectChanges();
+    await fixture.whenStable();
+
+    expect(announce).not.toHaveBeenCalled();
+  });
+
+  it('skips to the main content without navigating', () => {
+    const main = document.createElement('main');
+    main.id = 'main';
+    main.tabIndex = -1;
+    document.body.append(main);
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const navigate = vi.spyOn(TestBed.inject(Router), 'navigateByUrl');
+
+    const link: HTMLAnchorElement =
+      fixture.nativeElement.querySelector('a.skip-link');
+    const event = new MouseEvent('click', { bubbles: true, cancelable: true });
+    link.dispatchEvent(event);
+
+    expect(event.defaultPrevented).toBe(true);
+    expect(document.activeElement).toBe(main);
+    expect(navigate).not.toHaveBeenCalled();
+    main.remove();
   });
 
   it('removes the noscript fallback', () => {

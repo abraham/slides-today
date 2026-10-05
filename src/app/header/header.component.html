@@ -1,12 +1,14 @@
 <mat-toolbar [class.scrolled]="!atTop()">
   <section>
     @if (showBack()) {
-      <a mat-button (click)="goBack($event)" href="/" title="Go back">
+      <a mat-button (click)="goBack($event)" href="/">
         <mat-icon fontSet="material-symbols-outlined">arrow_back</mat-icon>
         Back
       </a>
     }
-    <span>{{ title() }}</span>
+    @if (title()) {
+      <h1>{{ title() }}</h1>
+    }
   </section>
   <span class="spacer"></span>
   <section>

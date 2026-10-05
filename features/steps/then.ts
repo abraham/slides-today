@@ -1,4 +1,5 @@
 import { expect } from 'chai';
+import { AxePuppeteer } from '@axe-core/puppeteer';
 import { Then } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
 import { origin } from '../support/environment.js';
@@ -88,5 +89,23 @@ Then(
     await wait(async () => {
       expect(await this.queryAllByTitle(text)).to.have.lengthOf(1);
     });
+  },
+);
+
+Then(
+  'the page should have no accessibility violations',
+  { timeout: 30 * 1000 },
+  async function (): Promise<void> {
+    // axe refuses to scan a page that has not finished loading.
+    await this.page.waitForFunction(() => document.readyState === 'complete');
+    // Pages are scanned once the loading skeleton has gone and the page content is rendered.
+    await this.page.waitForSelector('ngx-skeleton-loader', { hidden: true });
+    await this.page.waitForSelector('main');
+    const { violations } = await new AxePuppeteer(this.page).analyze();
+    const summary = violations.map(
+      ({ id, help, nodes }) =>
+        `${id}: ${help} (${nodes.map(node => node.target.join(' ')).join(', ')})`,
+    );
+    expect(summary).to.deep.eq([]);
   },
 );

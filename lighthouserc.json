@@ -15,7 +15,8 @@
       "assertions": {
         "unused-css-rules": "warn",
         "dom-size": "warn",
-        "errors-in-console": "warn"
+        "errors-in-console": "warn",
+        "categories:accessibility": ["error", { "minScore": 0.95 }]
       }
     },
     "upload": {

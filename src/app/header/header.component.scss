@@ -13,6 +13,11 @@ mat-toolbar {
   box-shadow: var(--mat-sys-level2);
 }
 
+h1 {
+  font: inherit;
+  margin: 0;
+}
+
 .spacer {
   flex: 1 1 auto;
 }
@@ -66,5 +71,22 @@ mat-toolbar {
   40%,
   60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  mat-toolbar {
+    transition: none !important;
+  }
+
+  .spin,
+  .wiggle {
+    animation: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .scrolled {
+    border-bottom: 1px solid CanvasText;
   }
 }

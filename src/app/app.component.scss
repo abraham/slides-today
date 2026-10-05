@@ -8,6 +8,28 @@
   transition: background-color 1000ms !important;
 }
 
+.skip-link {
+  background: var(--mat-sys-primary);
+  border-radius: var(--mat-sys-corner-small);
+  color: var(--mat-sys-on-primary);
+  left: 8px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 8px;
+  transform: translateY(-200%);
+  z-index: 64;
+
+  &:focus {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wrapper {
+    transition: none !important;
+  }
+}
+
 @media (width >= 960px) {
   .container {
     margin: 0 auto;
