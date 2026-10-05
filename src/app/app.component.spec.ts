@@ -1,4 +1,9 @@
-import { Component, EventEmitter } from '@angular/core';
+import {
+  Component,
+  EnvironmentInjector,
+  EventEmitter,
+  createComponent,
+} from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { Router, provideRouter } from '@angular/router';
 import { SwUpdate } from '@angular/service-worker';
@@ -88,5 +93,18 @@ describe('AppComponent', () => {
 
     expect(fixture.componentInstance.firstLoad()).toBe(false);
     expect(skeleton()).toBeNull();
+  });
+
+  it('has no loading skeleton when the server rendered the page', () => {
+    const hostElement = document.createElement('app-root');
+    hostElement.setAttribute('ng-server-context', 'ssg');
+    const ref = createComponent(AppComponent, {
+      environmentInjector: TestBed.inject(EnvironmentInjector),
+      hostElement,
+    });
+    ref.changeDetectorRef.detectChanges();
+
+    expect(ref.instance.firstLoad()).toBe(false);
+    expect(hostElement.querySelector('ngx-skeleton-loader')).toBeNull();
   });
 });
