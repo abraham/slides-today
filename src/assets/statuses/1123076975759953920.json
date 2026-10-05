@@ -44,8 +44,8 @@
         "id": 1123076968784846800,
         "id_str": "1123076968784846848",
         "indices": [190, 213],
-        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
-        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+        "media_url": "/assets/pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+        "media_url_https": "/assets/pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
         "url": "https://t.co/RPHuxPzY8L",
         "display_url": "pic.twitter.com/RPHuxPzY8L",
         "expanded_url": "https://twitter.com/abraham/status/1123076975759953920/photo/1",
@@ -81,8 +81,8 @@
         "id": 1123076968784846800,
         "id_str": "1123076968784846848",
         "indices": [190, 213],
-        "media_url": "http://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
-        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+        "media_url": "/assets/pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
+        "media_url_https": "/assets/pbs.twimg.com/tweet_video_thumb/D5X4jYPX4AAgnjN.jpg",
         "url": "https://t.co/RPHuxPzY8L",
         "display_url": "pic.twitter.com/RPHuxPzY8L",
         "expanded_url": "https://twitter.com/abraham/status/1123076975759953920/photo/1",
@@ -115,7 +115,7 @@
             {
               "bitrate": 0,
               "content_type": "video/mp4",
-              "url": "https://video.twimg.com/tweet_video/D5X4jYPX4AAgnjN.mp4"
+              "url": "/assets/video.twimg.com/tweet_video/D5X4jYPX4AAgnjN.mp4"
             }
           ]
         }
@@ -177,8 +177,8 @@
     "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
     "profile_background_tile": false,
-    "profile_image_url": "http://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
-    "profile_image_url_https": "https://pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url": "/assets/pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
+    "profile_image_url_https": "/assets/pbs.twimg.com/profile_images/897079141719195648/_mvh-QJH_normal.jpg",
     "profile_banner_url": "https://pbs.twimg.com/profile_banners/9436992/1490189391",
     "profile_link_color": "2196F3",
     "profile_sidebar_border_color": "FFFFFF",
