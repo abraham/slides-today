@@ -102,6 +102,24 @@ describe('AppComponent', () => {
     expect(announce).not.toHaveBeenCalled();
   });
 
+  it('skips to the main content without navigating', () => {
+    const main = document.createElement('main');
+    document.body.append(main);
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const navigate = vi.spyOn(TestBed.inject(Router), 'navigateByUrl');
+
+    const link: HTMLAnchorElement =
+      fixture.nativeElement.querySelector('a.skip-link');
+    const event = new MouseEvent('click', { bubbles: true, cancelable: true });
+    link.dispatchEvent(event);
+
+    expect(event.defaultPrevented).toBe(true);
+    expect(document.activeElement).toBe(main);
+    expect(navigate).not.toHaveBeenCalled();
+    main.remove();
+  });
+
   it('removes the noscript fallback', () => {
     const noscript = document.createElement('noscript');
     document.body.append(noscript);

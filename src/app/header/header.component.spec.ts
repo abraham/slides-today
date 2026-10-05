@@ -47,6 +47,10 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('is the banner landmark', () => {
+    expect(fixture.nativeElement.getAttribute('role')).toBe('banner');
+  });
+
   it('shows the title', () => {
     fixture.componentRef.setInput('title', 'My deck');
     fixture.detectChanges();

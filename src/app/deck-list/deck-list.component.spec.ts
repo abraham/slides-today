@@ -60,6 +60,9 @@ describe('DeckListComponent', () => {
     });
 
     it('shows the filters instead of the filters button on desktop', () => {
+      expect(
+        element().querySelector('aside[aria-label="Filters"] app-tag-chips'),
+      ).not.toBeNull();
       expect(element().querySelector('app-tag-chips')).not.toBeNull();
       expect(element().querySelector('app-speaker-chips')).not.toBeNull();
       expect(element().querySelector('.action-buttons')).toBeNull();

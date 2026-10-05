@@ -66,6 +66,16 @@ export class AppComponent {
     this.showBack.set(data['showBack'] ?? false);
   }
 
+  skipToMain(event: Event): void {
+    // The link needs a real href, but following it would navigate to the base url.
+    event.preventDefault();
+    const main = this.document.querySelector('main');
+    if (main) {
+      main.tabIndex = -1;
+      main.focus();
+    }
+  }
+
   // Pages set their title while rendering, and filter-only navigations keep the same title.
   private announceTitle(): void {
     afterNextRender(

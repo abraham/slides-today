@@ -42,3 +42,8 @@ body {
     gap: 24px;
   }
 }
+
+// The skip link moves focus here, which isn't an interactive control.
+main:focus {
+  outline: none;
+}

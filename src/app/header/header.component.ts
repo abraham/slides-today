@@ -17,6 +17,7 @@ interface PromptEvent extends Event {
   templateUrl: './header.component.html',
   imports: [MatToolbar, MatButton, MatIcon, MatIconButton],
   host: {
+    role: 'banner',
     '(window:beforeinstallprompt)': 'onBeforeInstallPrompt($event)',
     '(window:appinstalled)': 'onAppInstalled()',
     '(window:scroll)': 'onScroll()',

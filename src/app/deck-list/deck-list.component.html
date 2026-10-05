@@ -1,6 +1,6 @@
 <main class="main page">
   <div class="page-grid">
-    <div>
+    <aside aria-label="Filters">
       @if (!mobile()) {
         <app-tag-chips />
         <app-speaker-chips />
@@ -16,7 +16,7 @@
           Filters
         </button>
       }
-    </div>
+    </aside>
     <div>
       <div class="page-grid">
         @if (!hasSelectedFilters()) {
