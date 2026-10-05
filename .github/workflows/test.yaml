@@ -32,6 +32,13 @@ jobs:
   features:
     needs: build
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
+    name: features (${{ matrix.browser }})
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chrome, firefox]
+    env:
+      BROWSER: ${{ matrix.browser }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/download-artifact@v8
@@ -43,6 +50,8 @@ jobs:
           node-version: 22
       - run: npm install -g npm@11
       - run: npm ci
+      - run: npx puppeteer browsers install firefox
+        if: matrix.browser == 'firefox'
       - run: npx firebase use slides-today
       - run: npm run test:features
 

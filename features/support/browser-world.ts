@@ -1,7 +1,7 @@
 import { SelectorMatcherOptions } from '@testing-library/dom';
 import { getDocument, queries } from 'pptr-testing-library';
 import puppeteer, { Browser, ElementHandle, Page } from 'puppeteer';
-import { DEBUG } from './environment.js';
+import { BROWSER, DEBUG } from './environment.js';
 
 const { getByText, queryAllByText, queryAllByTitle } = queries;
 
@@ -13,6 +13,7 @@ export class BrowserWorld {
 
   get config(): LaunchParameters {
     return {
+      browser: BROWSER,
       defaultViewport: {
         height: 720,
         width: 1280,
