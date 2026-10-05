@@ -11,6 +11,12 @@ Feature: View deck details
     Then I should see "Welcome to Slides.today"
     And I should be on "/"
 
+  Scenario: Back goes to the index when the deck page is opened directly
+    Given I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
+    When I click on "Back"
+    Then I should see "Welcome to Slides.today"
+    And I should be on "/"
+
   Scenario: Deck page includes related content
     Given I visit "/decks/ORUVX3hKydJ8AjPaaWz2"
     Then I should see "How Do Service Workers Even?"

@@ -6,7 +6,8 @@ import {
   UnrecoverableStateEvent,
   VersionEvent,
 } from '@angular/service-worker';
-import { Router } from '@angular/router';
+import { Router, Event, NavigationEnd } from '@angular/router';
+import { Subject } from 'rxjs';
 import { WINDOW } from '../window';
 
 import { HeaderComponent } from './header.component';
@@ -18,7 +19,6 @@ describe('HeaderComponent', () => {
   let unrecoverable: EventEmitter<UnrecoverableStateEvent>;
   const fakeWindow = {
     scrollY: 0,
-    history: { length: 1 },
     location: { reload: vi.fn() },
   };
 
@@ -26,7 +26,6 @@ describe('HeaderComponent', () => {
     versionUpdates = new EventEmitter<VersionEvent>();
     unrecoverable = new EventEmitter<UnrecoverableStateEvent>();
     fakeWindow.scrollY = 0;
-    fakeWindow.history.length = 1;
     fakeWindow.location.reload.mockClear();
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
@@ -186,10 +185,14 @@ describe('HeaderComponent', () => {
       return event;
     };
 
-    it('goes back in history when there is history', () => {
-      fakeWindow.history.length = 3;
+    it('goes back in history after navigating within the app', () => {
+      const router = TestBed.inject(Router);
+      const navigationEnd = (id: number) =>
+        (router.events as Subject<Event>).next(new NavigationEnd(id, '/', '/'));
+      navigationEnd(1);
+      navigationEnd(2);
       const back = vi.spyOn(TestBed.inject(Location), 'back');
-      const navigate = vi.spyOn(TestBed.inject(Router), 'navigate');
+      const navigate = vi.spyOn(router, 'navigate');
 
       const event = click();
 
@@ -198,7 +201,10 @@ describe('HeaderComponent', () => {
       expect(navigate).not.toHaveBeenCalled();
     });
 
-    it('goes home when there is no history', () => {
+    it('goes home when the page was opened directly', () => {
+      (TestBed.inject(Router).events as Subject<Event>).next(
+        new NavigationEnd(1, '/', '/'),
+      );
       const back = vi.spyOn(TestBed.inject(Location), 'back');
       const navigate = vi
         .spyOn(TestBed.inject(Router), 'navigate')
