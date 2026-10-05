@@ -109,6 +109,14 @@ describe('EmbedComponent', () => {
   });
 
   describe('sizing', () => {
+    it('fills its container with the slide aspect ratio before it is measured', () => {
+      expect(component.height()).toBeUndefined();
+      expect(component.dimensionStyles()).toEqual({
+        width: '100%',
+        height: `calc((100cqw + 29px) * ${569 / 960})`,
+      });
+    });
+
     it('keeps the slide aspect ratio for the width', () => {
       fixture.componentRef.setInput('width', 500);
 

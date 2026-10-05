@@ -77,10 +77,10 @@ export class DeckDetailsComponent {
       this.tweetService.embedded(this.deck().tweetIds) ??
       (this.tweetsResource.hasValue() ? this.tweetsResource.value() : []),
   );
-  private readonly detailsWidth = signal(200);
+  private readonly detailsWidth = signal<number | undefined>(undefined);
   readonly embedWidth = computed(() => {
     const width = this.detailsWidth();
-    return width >= 840 ? width / 2 : width;
+    return width !== undefined && width >= 840 ? width / 2 : width;
   });
 
   constructor() {
