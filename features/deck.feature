@@ -52,3 +52,13 @@ Feature: View deck details
     Given I visit "/decks/-LP90xu1JfaAgTCyhC3D"
     Then I should see "How Do Service Workers Even?"
     And I should be on "/decks/ORUVX3hKydJ8AjPaaWz2"
+
+  Scenario: Unknown deck id is a 404
+    Given I visit "/decks/zzzzzzzzzzzzzzzzzzzz"
+    Then the response status should be 404
+    And I should see "Page Not Found"
+
+  Scenario: Deck page is served without a trailing slash
+    Given I visit "/decks/ORUVX3hKydJ8AjPaaWz2/"
+    Then I should be on "/decks/ORUVX3hKydJ8AjPaaWz2"
+    And the response status should be 200

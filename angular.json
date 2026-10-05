@@ -41,13 +41,7 @@
             "allowedCommonJsDependencies": ["first-input-delay"],
             "browser": "src/main.ts",
             "server": "src/main.server.ts",
-            "outputMode": "server",
-            "security": {
-              "allowedHosts": ["localhost", "slides.today", "*.hosted.app", "*.run.app"]
-            },
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "outputMode": "static"
           },
           "configurations": {
             "production": {

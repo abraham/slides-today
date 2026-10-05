@@ -6,7 +6,7 @@
     "noUncheckedIndexedAccess": true,
     "types": ["node"]
   },
-  "files": ["src/main.ts", "src/main.server.ts", "src/server.ts"],
+  "files": ["src/main.ts", "src/main.server.ts"],
   "include": ["src/**/*.d.ts"],
   "angularCompilerOptions": {
     "extendedDiagnostics": {
