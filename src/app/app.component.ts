@@ -1,5 +1,12 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, DestroyRef, inject, signal } from '@angular/core';
+import { DOCUMENT, isPlatformServer } from '@angular/common';
+import {
+  Component,
+  DestroyRef,
+  ElementRef,
+  PLATFORM_ID,
+  inject,
+  signal,
+} from '@angular/core';
 import { MatCard } from '@angular/material/card';
 import {
   Data,
@@ -27,7 +34,13 @@ export class AppComponent {
   readonly showBack = signal(false);
   readonly title = signal(this.defaultTitle);
   readonly styles = this.themeService.tokens;
-  readonly firstLoad = signal(true);
+  // Server-rendered pages already have content, so a skeleton would only cover it until the first route loads.
+  readonly firstLoad = signal(
+    !isPlatformServer(inject(PLATFORM_ID)) &&
+      !inject<ElementRef<HTMLElement>>(ElementRef).nativeElement.hasAttribute(
+        'ng-server-context',
+      ),
+  );
 
   constructor() {
     this.removeNoScripts();

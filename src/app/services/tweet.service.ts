@@ -41,6 +41,19 @@ export class TweetService {
     return Promise.all(ids.map(id => this.fetchStatus(id, signal)));
   }
 
+  // Lets the browser render server-embedded statuses on its first pass, which hydration needs.
+  embedded(ids: string[]): Status[] | undefined {
+    const statuses = ids.map(id =>
+      this.state.get(
+        makeStateKey<Status | undefined>(`status:${id}`),
+        undefined,
+      ),
+    );
+    return statuses.every(status => status !== undefined)
+      ? (statuses as Status[])
+      : undefined;
+  }
+
   // Statuses loaded while server rendering are embedded in the page, so the browser needs no request.
   private async fetchStatus(id: string, signal?: AbortSignal): Promise<Status> {
     const key = makeStateKey<Status | undefined>(`status:${id}`);

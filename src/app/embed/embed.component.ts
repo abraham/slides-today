@@ -47,18 +47,25 @@ export class EmbedComponent {
 
   readonly title = input('');
   readonly link = input.required<Link>();
-  readonly width = input(200);
+  // Undefined until the page is measured in the browser, and the card fills its container.
+  readonly width = input<number>();
   readonly theme = input(DEFAULT_THEME);
   // Matches the other cards, which use the default theme instead of the deck's.
   readonly cardColor = DEFAULT_THEME.backgroundColor;
 
-  readonly height = computed(() =>
-    Math.round((this.width() + 29) * (RATIOS[this.link().service] ?? 0)),
-  );
-  readonly dimensionStyles = computed(() => ({
-    height: `${this.height()}px`,
-    width: `${this.width()}px`,
-  }));
+  private readonly ratio = computed(() => RATIOS[this.link().service] ?? 0);
+  readonly height = computed(() => {
+    const width = this.width();
+    return width === undefined
+      ? undefined
+      : Math.round((width + 29) * this.ratio());
+  });
+  readonly dimensionStyles = computed(() => {
+    const width = this.width();
+    return width === undefined
+      ? { width: '100%', height: `calc((100cqw + 29px) * ${this.ratio()})` }
+      : { height: `${this.height()}px`, width: `${width}px` };
+  });
   readonly youtubeId = computed(() =>
     this.link().service === 'youtube' ? this.parsedYoutubeId : undefined,
   );

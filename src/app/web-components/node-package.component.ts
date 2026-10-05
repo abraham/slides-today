@@ -1,11 +1,11 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
-  afterNextRender,
   input,
   signal,
 } from '@angular/core';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
+import { loadWhenVisible } from './load-when-visible';
 
 @Component({
   selector: 'app-node-package',
@@ -27,7 +27,7 @@ export class NodePackageComponent {
 
   constructor() {
     // The element needs a browser, and registers without blocking the render.
-    afterNextRender(() =>
+    loadWhenVisible(() =>
       import('node-package').finally(() => this.loaded.set(true)),
     );
   }

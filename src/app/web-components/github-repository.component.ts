@@ -1,11 +1,11 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
-  afterNextRender,
   input,
   signal,
 } from '@angular/core';
 import { NgxSkeletonLoaderComponent } from 'ngx-skeleton-loader';
+import { loadWhenVisible } from './load-when-visible';
 
 @Component({
   selector: 'app-github-repository',
@@ -27,7 +27,7 @@ export class GithubRepositoryComponent {
 
   constructor() {
     // The element needs a browser, and registers without blocking the render.
-    afterNextRender(() =>
+    loadWhenVisible(() =>
       import('github-repository').finally(() => this.loaded.set(true)),
     );
   }

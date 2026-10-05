@@ -4,8 +4,8 @@
 @if (url() && !placeholder()) {
   <iframe
     [attr.src]="url()"
-    [width]="width()"
-    [height]="height()"
+    [attr.width]="width()"
+    [attr.height]="height()"
     allowfullscreen
     [attr.title]="title() + ' ' + link().title"></iframe>
 }

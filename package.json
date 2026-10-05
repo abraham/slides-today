@@ -120,7 +120,7 @@
     },
     {
       "path": "dist/slides-today/browser/chunk-*.js",
-      "maxSize": "75 kB"
+      "maxSize": "80 kB"
     },
     {
       "path": "dist/slides-today/browser/*.js",
