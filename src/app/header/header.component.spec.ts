@@ -54,6 +54,18 @@ describe('HeaderComponent', () => {
     expect(fixture.nativeElement.textContent).toContain('My deck');
   });
 
+  it('shows the title as the h1 only when there is one', () => {
+    fixture.componentRef.setInput('title', 'My deck');
+    fixture.detectChanges();
+    expect(fixture.nativeElement.querySelector('h1').textContent).toBe(
+      'My deck',
+    );
+
+    fixture.componentRef.setInput('title', '');
+    fixture.detectChanges();
+    expect(fixture.nativeElement.querySelector('h1')).toBeNull();
+  });
+
   it('shows the back link only when requested', () => {
     const back = () =>
       fixture.nativeElement.querySelector('a[title="Go back"]');

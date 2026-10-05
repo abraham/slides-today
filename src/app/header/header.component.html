@@ -6,7 +6,9 @@
         Back
       </a>
     }
-    <span>{{ title() }}</span>
+    @if (title()) {
+      <h1>{{ title() }}</h1>
+    }
   </section>
   <span class="spacer"></span>
   <section>

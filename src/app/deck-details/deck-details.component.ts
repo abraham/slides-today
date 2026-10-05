@@ -20,7 +20,7 @@ import { IncludeSiteTitle, SeoService } from '../seo.service';
 import { SpeakerService } from '../services/speaker.service';
 import { TweetService } from '../services/tweet.service';
 import type { ShareComponent } from '../share/share.component';
-import { CardComponent } from '../card/card.component';
+import { CARD_HEADING_LEVEL, CardComponent } from '../card/card.component';
 import { TagChipsComponent } from '../tag-chips/tag-chips.component';
 import { EmbedComponent } from '../embed/embed.component';
 import { EventComponent } from '../event/event.component';
@@ -36,6 +36,8 @@ import { TwitterStatusComponent } from '../web-components/twitter-status.compone
   selector: 'app-deck-details',
   styleUrl: './deck-details.component.scss',
   templateUrl: './deck-details.component.html',
+  // The header has no title on this page, so the deck title is the h1.
+  providers: [{ provide: CARD_HEADING_LEVEL, useValue: 1 }],
   imports: [
     CardComponent,
     TagChipsComponent,

@@ -102,6 +102,17 @@ describe('DeckDetailsComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('uses the deck title as the only level 1 heading', () => {
+    const heroes = Array.from<HTMLElement>(
+      fixture.nativeElement.querySelectorAll(
+        '[role="heading"][aria-level="1"]',
+      ),
+    ).filter(heading => heading.textContent?.trim());
+
+    expect(heroes.length).toBe(1);
+    expect(heroes[0].textContent).toContain(component.deck().title);
+  });
+
   it('keeps the full embed width when the column is narrow', () => {
     const details: HTMLElement = fixture.nativeElement.querySelector('.item');
     vi.spyOn(details, 'getBoundingClientRect').mockReturnValue({
