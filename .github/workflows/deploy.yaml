@@ -6,6 +6,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
+    env:
+      FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      PROJECT_ID: slides-today
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -14,9 +17,13 @@ jobs:
       - run: npm install -g npm@11
       - run: npm ci
       - run: npm run build
-      - uses: w9jds/firebase-action@v15.31.0
+      - name: Deploy to Firebase Hosting
+        uses: w9jds/firebase-action@v15.31.0
         with:
-          args: deploy
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          PROJECT_ID: slides-today
+          args: deploy --only hosting
+      # Separate steps show which deploy failed. App Hosting builds the uploaded source itself.
+      - name: Deploy to App Hosting
+        if: ${{ !cancelled() }}
+        uses: w9jds/firebase-action@v15.31.0
+        with:
+          args: deploy --only apphosting

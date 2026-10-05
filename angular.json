@@ -43,7 +43,7 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": ["localhost"]
+              "allowedHosts": ["localhost", "slides.today", "*.hosted.app", "*.run.app"]
             },
             "ssr": {
               "entry": "src/server.ts"
