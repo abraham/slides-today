@@ -6,6 +6,7 @@ import {
 } from '@angular/ssr/node';
 import express from 'express';
 import { basename, join } from 'node:path';
+import { pageCacheControl } from './app/cache-control.server';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
 
@@ -65,9 +66,19 @@ app.use(
 app.use((req, res, next) => {
   angularApp
     .handle(req)
-    .then(response =>
-      response ? writeResponseToNodeResponse(response, res) : next(),
-    )
+    .then(response => {
+      if (!response) {
+        return next();
+      }
+      const cacheControl = pageCacheControl(
+        response.status,
+        response.headers.get('Cache-Control'),
+      );
+      if (cacheControl) {
+        res.setHeader('Cache-Control', cacheControl);
+      }
+      return writeResponseToNodeResponse(response, res);
+    })
     .catch(next);
 });
 

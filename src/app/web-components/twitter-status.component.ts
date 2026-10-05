@@ -1,11 +1,11 @@
 import {
   CUSTOM_ELEMENTS_SCHEMA,
   Component,
-  afterNextRender,
   computed,
   input,
 } from '@angular/core';
 import type { Status } from 'twitter-d';
+import { loadWhenVisible } from './load-when-visible';
 
 @Component({
   selector: 'app-twitter-status',
@@ -39,6 +39,6 @@ export class TwitterStatusComponent {
 
   constructor() {
     // The element needs a browser, and registers without blocking the render.
-    afterNextRender(() => import('twitter-status'));
+    loadWhenVisible(() => import('twitter-status'));
   }
 }
