@@ -18,6 +18,10 @@ Run `npx ng generate component component-name` to generate a new component. You 
 
 Run `npm run build` to build the production project. The build artifacts will be stored in the `dist/slides-today/` directory.
 
+The site is static and served by Firebase Hosting. The build prerenders the home page and every deck page to HTML, which the browser hydrates, and writes `index.csr.html` as the client-rendered shell for everything else (`/filters` and `404.html`).
+
+The legacy deck id redirects in `firebase.json` come from the deck data. Run `npm run sync:redirects` after adding a deck, and the unit tests fail if you forget.
+
 ## Tests
 
 Tests mainly comprise of feature tests written in cucumber-js and puppeteer.

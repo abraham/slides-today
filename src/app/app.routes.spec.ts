@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { Router, provideRouter } from '@angular/router';
 import { RouterTestingHarness } from '@angular/router/testing';
 import { DeckListComponent } from './deck-list/deck-list.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { routes } from './app.routes';
 
 describe('routes', () => {
@@ -55,6 +56,16 @@ describe('routes', () => {
     const list = await harness.navigateByUrl('/', DeckListComponent);
 
     expect(list.selectedTagIds()).toEqual([]);
+  });
+
+  it('shows the not found heading for unknown urls', async () => {
+    const harness = await RouterTestingHarness.create();
+
+    await harness.navigateByUrl('/nope', NotFoundComponent);
+
+    expect(harness.routeNativeElement?.querySelector('h2')?.textContent).toBe(
+      'Page Not Found',
+    );
   });
 
   it('clears the selection when navigating back to the root', async () => {

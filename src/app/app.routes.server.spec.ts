@@ -27,9 +27,17 @@ describe('serverRoutes', () => {
     expect(params.length).toBeLessThan(decks.length);
   });
 
-  it('renders every other route on request', () => {
-    const fallback = serverRoutes.find(({ path }) => path === '**')!;
+  it('renders the filters and every other route in the browser', () => {
+    const client = serverRoutes
+      .filter(({ path }) => path === 'filters' || path === '**')
+      .map(({ renderMode }) => renderMode);
 
-    expect(fallback.renderMode).toBe(RenderMode.Server);
+    expect(client).toEqual([RenderMode.Client, RenderMode.Client]);
+  });
+
+  it('prerenders the home page', () => {
+    const home = serverRoutes.find(({ path }) => path === '')!;
+
+    expect(home.renderMode).toBe(RenderMode.Prerender);
   });
 });

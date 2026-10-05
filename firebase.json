@@ -1,21 +1,4 @@
 {
-  "apphosting": {
-    "backendId": "slides-today",
-    "rootDir": "./",
-    "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log",
-      "dist",
-      ".angular",
-      ".agents",
-      ".github",
-      "features",
-      "scripts"
-    ],
-    "alwaysDeployFromSource": true
-  },
   "hosting": {
     "public": "dist/slides-today/browser",
     "ignore": [
@@ -23,9 +6,407 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/decks",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/decks/-MqNMfkIMQnpe5zEhGpX",
+        "destination": "/decks/0uN4z5MobwkbE8jNnVSY",
+        "type": 301
+      },
+      {
+        "source": "/decks/-M6axITzAwtFTZbqzXbU",
+        "destination": "/decks/AcjWES7UlrjcCzdHQQP1",
+        "type": 301
+      },
+      {
+        "source": "/decks/-M7NgaNP69uY6FhN_ESB",
+        "destination": "/decks/20iMJefc0V5y6KncgTjm",
+        "type": 301
+      },
+      {
+        "source": "/decks/-M0ubHYZGLQw8zIZafIO",
+        "destination": "/decks/jRWcEGmPOoYtxSqTRZZz",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lxlgzybi9x9Cq1kT9PT",
+        "destination": "/decks/u4HZjDrdoQ5zV0tjPzu2",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LuDRrqze7iAsV4W4b9W",
+        "destination": "/decks/MF2kqZ1wxcCs1nB3qRO8",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Ltqo26YtMnty25H6Kn-",
+        "destination": "/decks/jlJ2346Me0OHb7tI9UxU",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LsvgW977QhhdDTJqe9K",
+        "destination": "/decks/IqjBczSeNpyKQYeaXoSw",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LrEQ-w_dkhBWxp8-kpT",
+        "destination": "/decks/nwe1XgW8OXhpSrulmxjs",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LmpPnfy1BFMiyObH9wf",
+        "destination": "/decks/7ZbWTeZHB8FAKTtTWKJM",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lh1uKFqF1GyBZbwuEp-",
+        "destination": "/decks/v7sY9gMUQGmhc3Eeoltr",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lkvmy649gJUHLaGWbQ5",
+        "destination": "/decks/CkSCSLlxIkXaVTYQFGKU",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lk38kV8Icsivp6-E9Qj",
+        "destination": "/decks/ndFjUseBHXwTEVMEQ4Eb",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LhzzWvjPqjdqbkK1_Ar",
+        "destination": "/decks/X0gUeY8mnzngWXIZ7sKW",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LWX8wc1lU2-uNoK785K",
+        "destination": "/decks/76UcmSfnjGpZhRonUqXx",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LgTd2GCgDOD36wEIQ_E",
+        "destination": "/decks/PLpxEQR4yCrt1a1GapZY",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lk36dkisnaey-w7sMgT",
+        "destination": "/decks/OQQOwnMvZb1LyVtuRb82",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Lk34U_kWF81vbNCDjfA",
+        "destination": "/decks/XvMSkxzUqWHymZgHV6TV",
+        "type": 301
+      },
+      {
+        "source": "/decks/-La_xLBpgk7ddPQy4CSI",
+        "destination": "/decks/qbElHlWquOYJiv5jrB96",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L_7rNsg4xOgbZS1pSvD",
+        "destination": "/decks/p8pLdyuXzSjgwqSBrbwg",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LZ7xtUvx3YN_0VCWIlz",
+        "destination": "/decks/r3ySCcILuun8VjRZDPj1",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LWvdW63XDtQujh8U7XY",
+        "destination": "/decks/rJqvDRNft2t7W4RbCTJm",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LWXRvwKF9eB48Ilzfbz",
+        "destination": "/decks/yGcJsKTXQWN3RDcsq62W",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LWXQLgSyqqSBxVr5Wo0",
+        "destination": "/decks/UMxxvJ6oNyF2SvFNTleb",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LX-BBFrNGjo4laRZuHU",
+        "destination": "/decks/dGd3C7ebNW6mhxzgdh2Z",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LVjycv296-Ko3q8LfI6",
+        "destination": "/decks/8kK8CHZ0Mv7l4JCn6myy",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LW8yUIFeLq7Yk3PpbXl",
+        "destination": "/decks/JVfgWdqE0S2BwJesANtD",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LP90xu1JfaAgTCyhC3D",
+        "destination": "/decks/ORUVX3hKydJ8AjPaaWz2",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LP961nGz8QvS_Oq1WNY",
+        "destination": "/decks/J4vnBxOop3xLeiMgbQdt",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LOtsfrT-CXp-Va8TnXZ",
+        "destination": "/decks/2dZ54TUubxJTWAiZ0Tbt",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LNgNypVZXbVlFIElUIN",
+        "destination": "/decks/bXAIt8ULM6k8OdNMpMvC",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LH9-K13Y-H5XF9wQQi8",
+        "destination": "/decks/ciPMaAlXZJtaafOc4vep",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LH8wTBkC8kd7wpjCMiF",
+        "destination": "/decks/fqMYoPjafuoU6DToewUF",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LINCDSTh6Q2zD_kL0Me",
+        "destination": "/decks/MEWqQHtBaz1NCPuxUjXa",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L5FKqFC-hNbu9mSyi2K",
+        "destination": "/decks/ta6KHom3ojobcHeieuaF",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LAsARo49bKU50Ymnim3",
+        "destination": "/decks/DaCqfOVNmxezR08tUUv5",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LCMdMuGkknPKKc9acHB",
+        "destination": "/decks/r7YaFgwxPuIGqLE1cIaA",
+        "type": 301
+      },
+      {
+        "source": "/decks/-LCMbFpq1s_PSG6UX6Nh",
+        "destination": "/decks/HXns4p8fvnntyxbGw99R",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L5--GW61Db8VwUox-p9",
+        "destination": "/decks/YKtRXle5dlp2x33dziyK",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L4XGwe63N_sxVJu9y_S",
+        "destination": "/decks/bGuVbzwkXjiBJ6nsy7Mu",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L4XGyqXUs5d8Wm_hluF",
+        "destination": "/decks/NK9HrWtZzl2FOhNh4HZO",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L364aLyZ3nMk0QYaBU8",
+        "destination": "/decks/YjiyKKWnCbbVZ4tNcdSP",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L4XFgBQVuADA_659dmn",
+        "destination": "/decks/aNgBxGsWyNqVnZ5iLXOH",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L4XD4YE5oD6j3rU0eEO",
+        "destination": "/decks/NaGDzXgftt1qUJJZOGJJ",
+        "type": 301
+      },
+      {
+        "source": "/decks/-L2RQBa9SprUe5OSYebU",
+        "destination": "/decks/LdbMyFp9C3KTuCpapTKb",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KyHNIlh-LPp2TdEpVPs",
+        "destination": "/decks/m1l6uvL3REPspVEjGy19",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KxhhEBwb_FmBY48u527",
+        "destination": "/decks/EFwUsHiyx7Vmc9JnFBwz",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KxPBlPsbheNf4r4pr2g",
+        "destination": "/decks/x9RXvnTFVHXOjYj0xrJO",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KvaqXVilT2vtW29jy3w",
+        "destination": "/decks/fNxZg3i9MU85jKTdzScO",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KuK3ne8fybZfk46Awp",
+        "destination": "/decks/gjOGNgV2o6ORhpmJJb6T",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KuK2kY4Q3-cRwoh5wA5",
+        "destination": "/decks/XlV89LL9mFnUyD7GjwKX",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KuK2OlDHUH8HD4-Qp2W",
+        "destination": "/decks/jFwMNukufpkJBkYONeiu",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KsEs5JMWk87ZisLpW1F",
+        "destination": "/decks/zzyOmcKe2DOLmVzNLAFT",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KsK81gOZiIkIWcL5AhZ",
+        "destination": "/decks/sfL37BK8d29wnzh5jgU5",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Krv_65pE2p9nJUXkhFl",
+        "destination": "/decks/CKuIjiR2Vlo1MdjGqwRP",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Krv_4SqDbjoADBL6r3Q",
+        "destination": "/decks/zRXfleDQ1CgMyQ58teNb",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Krv_2GgLtDjYwGOEm8v",
+        "destination": "/decks/jUgOi1Yx3goW0Afs7tTv",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Krv_0Yp5bPmylxcTnss",
+        "destination": "/decks/tCaxpHzcOh8Y40qYUe9d",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZzUSqxYoXmJWLGun",
+        "destination": "/decks/kyVKlgDELveBgTNL5yDv",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZxXjRvdxuo_pWZGy",
+        "destination": "/decks/ZkwK41roLUSPpwdb4Egi",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZtwL_ZafufriB-ta",
+        "destination": "/decks/5AJjr32D2ueaKZLLD8kM",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZsDivrXv69eEkiRs",
+        "destination": "/decks/JXmujyJWIvxZuraHKV7f",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZof6--agoRIC6vl0",
+        "destination": "/decks/r7YRWK9rM910SgoruG8N",
+        "type": 301
+      },
+      {
+        "source": "/decks/-Kt8ZOHSO3M-nLnxH8Fh",
+        "destination": "/decks/AI8gHon9gBaW4TfZRvMp",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZmqmksA5WVIr1uoA",
+        "destination": "/decks/uET3JdCLpPQw4HeeXlbS",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZlA6DeLeyBqBT4Jy",
+        "destination": "/decks/8Zke5K4sFyhlEwL5bl0C",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZjBO9DYgRe8s1IvT",
+        "destination": "/decks/NuVpT4rvMsu14yTGRVg5",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZhHuFAWhgI4tlPmB",
+        "destination": "/decks/fz6tRiOf4UXxYojUHK7o",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZed8RQb9Pz5LvMOY",
+        "destination": "/decks/mXsLP4wgAfOIwPN2qo5s",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZaHltvInXVa-kjNt",
+        "destination": "/decks/UAhre2wneULHXVaTKexW",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZWvDU7VUnyPTDmSA",
+        "destination": "/decks/psB7YHjLitRljNgJwusE",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZRBmB_NDgJ6z2m0T",
+        "destination": "/decks/zc5hoB1bQX1sU1uVk2fq",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZPN8eZVq6gUOfuQm",
+        "destination": "/decks/UwSfJoTjCOH2X51r72JZ",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZMwl5K6WfArx9xkz",
+        "destination": "/decks/1DIsnZfHVmzpD3LUOXqn",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZKom6cxpaOUtaxkK",
+        "destination": "/decks/JqKjmM3YoJCmOxYhcrGp",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZIrGfzwEjp7UKulY",
+        "destination": "/decks/stLQz0B3dskqpCtbWmp4",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZGc2sMFHbGMkaRNc",
+        "destination": "/decks/SH2Jknn7LPuTsXBUT55j",
+        "type": 301
+      },
+      {
+        "source": "/decks/-KrvZAS455BHznj4ugI2",
+        "destination": "/decks/x7Xhwhmf4MENL2hmD1F7",
+        "type": 301
+      }
+    ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/filters",
         "destination": "/index.csr.html"
       }
     ],
@@ -33,6 +414,10 @@
       {
         "source": "**",
         "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=31536000"
+          },
           {
             "key": "X-Content-Type-Options",
             "value": "nosniff"
@@ -65,7 +450,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=31536000"
+            "value": "public, max-age=31536000, immutable"
           }
         ]
       },
@@ -77,17 +462,21 @@
             "value": "no-cache"
           }
         ]
+      },
+      {
+        "source": "404.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=600"
+          }
+        ]
       }
     ]
   },
   "emulators": {
     "hosting": {
       "port": 5000
-    },
-    "apphosting": {
-      "port": 5000,
-      "rootDirectory": "./",
-      "startCommand": "ng serve --hmr"
     }
   }
 }

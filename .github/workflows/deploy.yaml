@@ -21,9 +21,3 @@ jobs:
         uses: w9jds/firebase-action@v15.31.0
         with:
           args: deploy --only hosting
-      # Separate steps show which deploy failed. App Hosting builds the uploaded source itself.
-      - name: Deploy to App Hosting
-        if: ${{ !cancelled() }}
-        uses: w9jds/firebase-action@v15.31.0
-        with:
-          args: deploy --only apphosting

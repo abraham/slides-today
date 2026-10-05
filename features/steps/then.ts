@@ -33,6 +33,10 @@ Then('I should be on {url}', function (url): void {
   expect(this.page.url()).to.eq(url);
 });
 
+Then('the response status should be {int}', function (status: number): void {
+  expect(this.response.status()).to.eq(status);
+});
+
 Then(
   'visiting {url} fails with {string}',
   async function (url: string, error: string): Promise<void> {

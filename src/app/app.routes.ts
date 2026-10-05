@@ -1,14 +1,7 @@
 import { inject } from '@angular/core';
-import { Router, Routes, UrlMatchResult, UrlSegment } from '@angular/router';
+import { Router, Routes } from '@angular/router';
 import { deckListResolver } from './services/deck-list.resolver';
 import { deckResolver } from './services/deck.resolver';
-
-const isHome = (url: UrlSegment[]): UrlMatchResult => {
-  const noPaths = url.length === 0;
-  const filtersPath = url[0]?.path === 'filters';
-  const consumed = noPaths || filtersPath ? url : [];
-  return { consumed };
-};
 
 const loadDeckDetails = () =>
   import('./deck-details/deck-details.component').then(
@@ -17,10 +10,15 @@ const loadDeckDetails = () =>
 
 export const routes: Routes = [
   {
-    matcher: isHome,
+    // One parent keeps the deck list alive between `/` and `/filters`, and gives the server routes real paths.
+    path: '',
     resolve: { data: deckListResolver },
     loadComponent: () =>
       import('./deck-list/deck-list.component').then(m => m.DeckListComponent),
+    children: [
+      { path: '', children: [] },
+      { path: 'filters', children: [] },
+    ],
   },
   {
     path: 'decks/:id',
@@ -45,6 +43,8 @@ export const routes: Routes = [
   },
   {
     path: '**',
+    // Component input binding clears inputs that the route data doesn't set.
+    data: { text: 'Page Not Found' },
     loadComponent: () =>
       import('./not-found/not-found.component').then(m => m.NotFoundComponent),
   },
