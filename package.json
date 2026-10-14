@@ -93,7 +93,7 @@
     "firebase-tools": "^15.32.1",
     "jsdom": "^30.0.1",
     "jsonc-parser": "^3.2.1",
-    "lockfile-lint": "5.0.1",
+    "lockfile-lint": "5.1.0",
     "pptr-testing-library": "0.8.0",
     "prettier": "3.9.6",
     "prettier-plugin-package": "2.0.0",
