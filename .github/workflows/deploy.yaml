@@ -6,9 +6,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
-    env:
-      FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      PROJECT_ID: slides-today
+    environment: production
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -17,7 +18,16 @@ jobs:
       - run: npm install -g npm@11
       - run: npm ci
       - run: npm run build
+      - id: wif
+        uses: abraham/firebase-wif@v0.2.0
+        with:
+          workload_identity_provider: ${{ vars.FIREBASE_WIF_PROVIDER }}
+          service_account: ${{ vars.FIREBASE_WIF_SERVICE_ACCOUNT }}
+          project_id: slides-today
       - name: Deploy to Firebase Hosting
         uses: w9jds/firebase-action@v15.33.0
         with:
           args: deploy --only hosting
+        env:
+          GCP_SA_KEY: ${{ steps.wif.outputs.credentials_json }}
+          PROJECT_ID: ${{ steps.wif.outputs.project_id }}

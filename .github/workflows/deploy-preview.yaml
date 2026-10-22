@@ -3,7 +3,14 @@ on: pull_request
 
 jobs:
   deploy_preview:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
+    environment: preview
+    permissions:
+      checks: write
+      contents: read
+      id-token: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -12,10 +19,16 @@ jobs:
       - run: npm install -g npm@11
       - run: npm ci
       - run: npm run build
+      - id: wif
+        uses: abraham/firebase-wif@v0.2.0
+        with:
+          workload_identity_provider: ${{ vars.FIREBASE_WIF_PROVIDER }}
+          service_account: ${{ vars.FIREBASE_WIF_SERVICE_ACCOUNT }}
+          project_id: slides-today
       - uses: firebaseextended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SLIDES_TODAY }}'
+          firebaseServiceAccount: '${{ steps.wif.outputs.credentials_json }}'
           projectId: slides-today
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
