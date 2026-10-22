@@ -6,14 +6,14 @@ jobs:
   build:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 22
       - run: npm install -g npm@11
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: dist
           path: dist
@@ -21,8 +21,8 @@ jobs:
   unit:
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 22
       - run: npm install -g npm@11
@@ -40,12 +40,12 @@ jobs:
     env:
       BROWSER: ${{ matrix.browser }}
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/download-artifact@v8
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/download-artifact@v8.0.2
         with:
           name: dist
           path: dist
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 22
       - run: npm install -g npm@11
@@ -61,18 +61,18 @@ jobs:
     env:
       LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/download-artifact@v8
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/download-artifact@v8.0.2
         with:
           name: dist
           path: dist
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 22
       - run: npm install -g npm@11
       - run: npm ci
       - run: npx firebase use slides-today
-      - uses: treosh/lighthouse-ci-action@v12
+      - uses: treosh/lighthouse-ci-action@12.6.2
         with:
           temporaryPublicStorage: true
 
@@ -80,12 +80,12 @@ jobs:
     needs: build
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/download-artifact@v8
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/download-artifact@v8.0.2
         with:
           name: dist
           path: dist
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: 22
       - run: npm install -g npm@11
