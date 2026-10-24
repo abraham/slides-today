@@ -5,7 +5,9 @@ jobs:
   deploy_preview:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-22.04 # https://github.com/puppeteer/puppeteer/issues/12818
-    environment: preview
+    environment:
+      name: preview
+      url: ${{ steps.deploy.outputs.details_url }}
     permissions:
       checks: write
       contents: read
@@ -25,7 +27,8 @@ jobs:
           workload_identity_provider: ${{ vars.FIREBASE_WIF_PROVIDER }}
           service_account: ${{ vars.FIREBASE_WIF_SERVICE_ACCOUNT }}
           project_id: slides-today
-      - uses: firebaseextended/action-hosting-deploy@v0.11.0
+      - id: deploy
+        uses: firebaseextended/action-hosting-deploy@v0.11.0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ steps.wif.outputs.credentials_json }}'
