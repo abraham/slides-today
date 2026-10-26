@@ -30,7 +30,7 @@ jobs:
           service_account: ${{ vars.FIREBASE_WIF_SERVICE_ACCOUNT }}
           project_id: slides-today
       - name: Deploy to Firebase Hosting
-        uses: w9jds/firebase-action@v15.34.0
+        uses: w9jds/firebase-action@v15.34.1
         with:
           args: deploy --only hosting
         env:

@@ -15,7 +15,7 @@ workflows:
         - 'abraham/firebase-wif@v0.2.1'
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
-        - 'w9jds/firebase-action@v15.34.0'
+        - 'w9jds/firebase-action@v15.34.1'
     '.github/workflows/lint.yaml':
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
@@ -61,8 +61,8 @@ dependencies:
         commit: 'sha1-3e7e23fb74242897f95c0ba9cabad3d0227b9b18'
         owner_id: 30832600
         repo_id: 210552904
-    'w9jds/firebase-action@v15.34.0':
-        ref: 'v15.34.0'
-        commit: 'sha1-fc894b2de04cfc04c398e98dea8ac546470fbd6b'
+    'w9jds/firebase-action@v15.34.1':
+        ref: 'v15.34.1'
+        commit: 'sha1-a3f8db378f69597e99644eb9c8dfefe0bcce6e1d'
         owner_id: 164540
         repo_id: 159878508
