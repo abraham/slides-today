@@ -3,7 +3,13 @@ import { getDocument, queries } from 'pptr-testing-library';
 import puppeteer, { Browser, ElementHandle, Page } from 'puppeteer';
 import { BROWSER, DEBUG } from './environment.js';
 
-const { getByText, queryAllByText, queryAllByTitle } = queries;
+const {
+  getByLabelText,
+  getByText,
+  queryAllByLabelText,
+  queryAllByText,
+  queryAllByTitle,
+} = queries;
 
 type LaunchParameters = Parameters<typeof puppeteer.launch>[0];
 
@@ -32,6 +38,14 @@ export class BrowserWorld {
     opts?: SelectorMatcherOptions,
   ): Promise<ElementHandle<Element>> {
     return getByText(await this.$document, text, opts);
+  }
+
+  async getByLabelText(text: string): Promise<ElementHandle<Element>> {
+    return getByLabelText(await this.$document, text);
+  }
+
+  async queryAllByLabelText(text: string): Promise<ElementHandle<Element>[]> {
+    return queryAllByLabelText(await this.$document, text);
   }
 
   async queryAllByText(

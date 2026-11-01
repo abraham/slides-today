@@ -15,6 +15,15 @@ Then('I should not see {string}', async function (text): Promise<void> {
 });
 
 Then(
+  'I should not see the {string} button',
+  async function (label: string): Promise<void> {
+    await wait(async () => {
+      expect(await this.queryAllByLabelText(label)).to.have.lengthOf(0);
+    });
+  },
+);
+
+Then(
   'I should see {string} {int} time(s)',
   async function (text, count): Promise<void> {
     await wait(async () => {

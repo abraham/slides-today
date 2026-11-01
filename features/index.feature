@@ -39,19 +39,19 @@ Feature: View and filter list of decks
     And I click on "#actionsongoogle"
     Then I should not see "Welcome to Slides.today"
     And I should not see "PWAs with Angular"
-    When I click on "cancel"
+    When I click on the "Clear tag selection" button
     Then I should see "Welcome to Slides.today"
     And I should see "PWAs with Angular" 2 times
     And I should see "Chrome Dev Summit 2019 Extended Madison"
-    And I should not see "cancel"
+    And I should not see the "Clear tag selection" button
 
   Scenario: Clear speaker filters
     Given I visit "/"
     When I click on "Pearl Latteier"
     Then I should not see "Welcome to Slides.today"
-    When I click on "cancel"
+    When I click on the "Clear speaker selection" button
     Then I should see "Welcome to Slides.today"
-    And I should not see "cancel"
+    And I should not see the "Clear speaker selection" button
 
   Scenario: Filter list of decks by event
     Given I visit "/filters?events=HB6PwwXRjjLhg52ytsMo"
@@ -64,11 +64,11 @@ Feature: View and filter list of decks
   Scenario: Clear event filters
     Given I visit "/filters?events=HB6PwwXRjjLhg52ytsMo"
     Then I should see "Mobile Era"
-    When I click on "cancel"
+    When I click on the "Clear event selection" button
     Then I should see "Welcome to Slides.today"
     And I should be on "/"
     And I should see "Chrome Dev Summit 2019 Extended Madison"
-    And I should not see "cancel"
+    And I should not see the "Clear event selection" button
 
   Scenario: No decks match filters
     Given I visit "/"
