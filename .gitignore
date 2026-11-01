@@ -49,7 +49,6 @@ Thumbs.db
 /scripts/dist
 .firebase
 .firebaserc
-.firebase-adminsdk.json
 firebase-debug.log
 /.lighthouseci
 firestore-debug.log

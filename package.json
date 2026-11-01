@@ -29,7 +29,6 @@
     "lint:stylelint": "stylelint \"src/**/*.scss\"",
     "ng": "ng",
     "prebuild": "npm run clean",
-    "prebuild:scripts": "cp -n example.firebase-adminsdk.json .firebase-adminsdk.json || true",
     "serve": "npm run build && npm run start:firebase",
     "start": "ng serve --port 5000 --hmr",
     "start:firebase": "firebase emulators:start --only hosting",
