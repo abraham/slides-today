@@ -14,6 +14,7 @@ import {
   provideClientHydration,
   withEventReplay,
 } from '@angular/platform-browser';
+import { MatIconRegistry } from '@angular/material/icon';
 import { provideServiceWorker } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { routes } from './app.routes';
@@ -34,5 +35,13 @@ export const appConfig: ApplicationConfig = {
       registrationStrategy: 'registerWhenStable:30000',
     }),
     provideAppInitializer(() => inject(AnalyticsService).init()),
+    // Lets `<mat-icon fontIcon="...">` render ligatures with CSS instead of text
+    // content, so the icon name is not treated as visible text.
+    provideAppInitializer(() => {
+      inject(MatIconRegistry).registerFontClassAlias(
+        'material-symbols-outlined',
+        'material-symbols-outlined mat-ligature-font',
+      );
+    }),
   ],
 };

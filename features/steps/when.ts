@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import { When } from '@cucumber/cucumber';
 import { wait } from 'pptr-testing-library';
+import { ElementHandle, Page } from 'puppeteer';
 import { isInteractiveElement, sleep } from '../support/utils.js';
 
 When('I visit {url}', async function (url: string): Promise<void> {
@@ -9,11 +10,14 @@ When('I visit {url}', async function (url: string): Promise<void> {
   });
 });
 
-When('I click on {string}', async function (text: string): Promise<void> {
+async function clickWhenSettled(
+  page: Page,
+  getElement: () => Promise<ElementHandle<Element>>,
+): Promise<void> {
   await wait(async () => {
-    const element = await this.getByText(text);
+    const element = await getElement();
     expect(
-      await isInteractiveElement(this.page, element),
+      await isInteractiveElement(page, element),
       'Element (or close ancestor) must be interactive',
     ).to.eq(true);
     // Clicks on an element that is still animating, such as a menu item, land in the wrong place.
@@ -24,7 +28,18 @@ When('I click on {string}', async function (text: string): Promise<void> {
     );
     await element.click();
   });
+}
+
+When('I click on {string}', async function (text: string): Promise<void> {
+  await clickWhenSettled(this.page, () => this.getByText(text));
 });
+
+When(
+  'I click on the {string} button',
+  async function (label: string): Promise<void> {
+    await clickWhenSettled(this.page, () => this.getByLabelText(label));
+  },
+);
 
 When('I sleep for {int}', async (seconds: number): Promise<void> => {
   await sleep(seconds);
