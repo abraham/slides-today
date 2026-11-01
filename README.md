@@ -45,7 +45,3 @@ To do it manually run `npm run deploy` to build and deploy to Firebase. Firebase
 ## Generate Deck ID
 
 Run `npm run id` to generate a deck ID.
-
-## Get tweet data
-
-Run `npm run get-tweet <id_str>` to get a full Twitter Status object from the API and store it in `tweet.data.json`. Don't forget to add the Status `id_str` to a Deck object.

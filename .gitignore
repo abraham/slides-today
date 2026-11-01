@@ -51,7 +51,6 @@ Thumbs.db
 .firebaserc
 .firebase-adminsdk.json
 firebase-debug.log
-.twitter.json
 /.lighthouseci
 firestore-debug.log
 ui-debug.log
