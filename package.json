@@ -56,7 +56,7 @@
     "ngx-skeleton-loader": "14.0.0",
     "node-package": "1.4.0",
     "rxjs": "7.8.2",
-    "tslib": "^2.6.2",
+    "tslib": "^2.9.1",
     "twitter-status": "0.7.0"
   },
   "devDependencies": {
