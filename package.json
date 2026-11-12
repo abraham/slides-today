@@ -82,7 +82,7 @@
     "angular-eslint": "22.6.0",
     "bundlesize2": "^0.0.35",
     "chai": "6.3.0",
-    "concurrently": "10.0.6",
+    "concurrently": "10.0.7",
     "eslint": "^10.14.0",
     "eslint-config-prettier": "^10.1.8",
     "firebase-admin": "^14.5.0",
