@@ -7,12 +7,12 @@ workflows:
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
     '.github/workflows/deploy-preview.yaml':
-        - 'abraham/firebase-wif@v0.2.1'
+        - 'abraham/firebase-wif@v0.3.1'
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
         - 'firebaseextended/action-hosting-deploy@v0.11.0'
     '.github/workflows/deploy.yaml':
-        - 'abraham/firebase-wif@v0.2.1'
+        - 'abraham/firebase-wif@v0.3.1'
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
         - 'w9jds/firebase-action@v15.35.0'
@@ -26,9 +26,9 @@ workflows:
         - 'actions/upload-artifact@v7.0.2'
         - 'treosh/lighthouse-ci-action@12.6.2'
 dependencies:
-    'abraham/firebase-wif@v0.2.1':
-        ref: 'v0.2.1'
-        commit: 'sha1-e4a526efa5ff407acb4803981ce528c6e47b3e24'
+    'abraham/firebase-wif@v0.3.1':
+        ref: 'v0.3.1'
+        commit: 'sha1-c0e51ca771105835679fe13f0483267ac5030674'
         owner_id: 3341
         repo_id: 1426258812
     'actions/checkout@v7.0.1':
